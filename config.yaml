@@ -1,0 +1,173 @@
+# =====================================================================
+#  The Silicon Commute — 設定ファイル
+#  ここを編集すれば、対象企業・ニュースソース・声・長さを変更できます。
+# =====================================================================
+
+podcast:
+  title: "The Silicon Commute"
+  title_ja: "シリコン・コミュート"
+  subtitle: "A 10-minute English briefing on Big Tech and chips"
+  description: >-
+    Weekday-morning, 10-minute English conversation on GAFAM and the
+    semiconductor industry, with a full English–Japanese transcript
+    for language learners. Auto-generated from public news with Gemini.
+  author: "The Silicon Commute"
+  language: "en"
+  # 空欄なら GitHub Pages の URL (https://<user>.github.io/<repo>/) を自動設定
+  site_url: ""
+  # true = Apple Podcasts の公開ディレクトリに載せない（URL登録での購読は可能）
+  private_feed: true
+  # サイトに置いておく過去回の数（それ以前の音声は GitHub Releases に保管）
+  keep_on_site: 30
+
+episode:
+  target_minutes: 10
+  # 学習者向けにネイティブのニュース速度(約160wpm)よりやや遅め
+  words_per_minute: 140
+  max_stories: 6
+  # ニュースを遡る時間。月曜は自動で週末分（78時間）に拡張
+  lookback_hours: 30
+  monday_lookback_hours: 78
+  english_style: >-
+    Clear, standard international business English at CEFR B2–C1.
+    Short sentences. No slang. Briefly explain jargon (e.g. "HBM, the
+    high-bandwidth memory stacked next to AI chips").
+  # 1回のTTSリクエストにまとめる最大語数（無料枠のリクエスト数節約用）
+  tts_chunk_words: 380
+
+hosts:
+  - name: Alex
+    voice: Charon        # 落ち着いた男性の声（Gemini TTS の既定ボイス名）
+    style: "calm, informative morning-news anchor"
+    persona: >-
+      Lead host and industry analyst. Explains the numbers and the
+      strategic logic behind each story.
+  - name: Mika
+    voice: Aoede         # 明るくはっきりした女性の声
+    style: "warm, curious and clear"
+    persona: >-
+      Co-host based in Kyoto. Asks the questions a smart listener would
+      ask, and connects stories to Japan and Asia when relevant.
+
+models:
+  text: gemini-3.8-flash
+  text_fallbacks: [gemini-3.5-flash, gemini-3.5-flash-lite]
+  tts: gemini-3.8-flash-tts
+  tts_fallbacks: [gemini-3.8-flash-lite-tts, gemini-2.5-flash-preview-tts]
+  # Google検索での裏取り: auto=使えれば使う / on / off
+  # ※無料枠では使えません（有料枠にすると月5,000回まで無料）
+  search_grounding: auto
+
+# ---------------------------------------------------------------------
+# 対象企業（query は Google News 検索式、x は CEO/公式の X アカウント）
+# CEO名は変わることがあるので、年に一度くらい見直してください。
+# ---------------------------------------------------------------------
+companies:
+  # --- GAFAM ---
+  - name: Alphabet (Google)
+    group: GAFAM
+    query: '(Google OR Alphabet OR "Sundar Pichai" OR "Google DeepMind")'
+    ceo: Sundar Pichai
+    x: [sundarpichai]
+  - name: Apple
+    group: GAFAM
+    query: '(Apple OR "John Ternus" OR "Tim Cook")'
+    ceo: "John Ternus (CEO since Sep 2026; Tim Cook is executive chairman)"
+    x: [tim_cook]
+  - name: Meta
+    group: GAFAM
+    query: '(Meta OR "Mark Zuckerberg")'
+    ceo: Mark Zuckerberg
+    x: [finkd]
+  - name: Amazon
+    group: GAFAM
+    query: '(Amazon OR AWS OR "Andy Jassy")'
+    ceo: Andy Jassy
+    x: [ajassy]
+  - name: Microsoft
+    group: GAFAM
+    query: '(Microsoft OR "Satya Nadella")'
+    ceo: Satya Nadella
+    x: [satyanadella]
+  # --- Semiconductors ---
+  - name: NVIDIA
+    group: Semiconductors
+    query: '(Nvidia OR "Jensen Huang")'
+    ceo: Jensen Huang
+    x: [nvidia]
+  - name: TSMC
+    group: Semiconductors
+    query: '(TSMC OR "C.C. Wei")'
+    ceo: C.C. Wei
+  - name: AMD
+    group: Semiconductors
+    query: '(AMD OR "Lisa Su")'
+    ceo: Lisa Su
+    x: [LisaSu]
+  - name: Intel
+    group: Semiconductors
+    query: '(Intel OR "Lip-Bu Tan")'
+    ceo: Lip-Bu Tan
+    x: [LipBuTan1]
+  - name: Broadcom
+    group: Semiconductors
+    query: '(Broadcom OR "Hock Tan")'
+    ceo: Hock Tan
+  - name: ASML
+    group: Semiconductors
+    query: 'ASML'
+    ceo: Christophe Fouquet
+  - name: Qualcomm
+    group: Semiconductors
+    query: '(Qualcomm OR "Cristiano Amon")'
+    ceo: Cristiano Amon
+    x: [cristianoamon]
+  - name: Arm
+    group: Semiconductors
+    query: '("Arm Holdings" OR "Rene Haas")'
+    ceo: Rene Haas
+  - name: Memory (Samsung / SK hynix / Micron)
+    group: Semiconductors
+    query: '("SK hynix" OR "Samsung Electronics" OR Micron OR HBM)'
+  # --- Japan angle ---
+  - name: Japan chips (Rapidus / Tokyo Electron)
+    group: Japan
+    query: '(Rapidus OR "Tokyo Electron" OR Advantest OR Kioxia)'
+  # --- Industry-wide ---
+  - name: Chip policy & supply chain
+    group: Industry
+    query: '(semiconductor OR chipmaker) (tariff OR "export controls" OR "CHIPS Act" OR fab)'
+  # --- 必要なら enabled: true に ---
+  - name: AI labs (OpenAI / Anthropic)
+    group: AI
+    enabled: false
+    query: '(OpenAI OR Anthropic OR "Sam Altman" OR "Dario Amodei")'
+
+# 公式ニュースルーム（一次情報）
+official_feeds:
+  - {name: NVIDIA Newsroom, url: "https://nvidianews.nvidia.com/releases.xml"}
+  - {name: Apple Newsroom, url: "https://www.apple.com/newsroom/rss-feed.rss"}
+  - {name: Google Blog, url: "https://blog.google/rss/"}
+  - {name: Microsoft Source, url: "https://news.microsoft.com/source/feed/"}
+  - {name: Meta Newsroom, url: "https://about.fb.com/news/feed/"}
+  - {name: Intel Newsroom, url: "https://newsroom.intel.com/feed/"}
+
+# テック系メディア（要約付きRSS。企業名でフィルタして使用）
+media_feeds:
+  - {name: TechCrunch, url: "https://techcrunch.com/feed/"}
+  - {name: Tom's Hardware, url: "https://www.tomshardware.com/feeds/all"}
+  - {name: The Verge, url: "https://www.theverge.com/rss/index.xml"}
+  - {name: Ars Technica, url: "https://feeds.arstechnica.com/arstechnica/index"}
+  - {name: The Register, url: "https://www.theregister.com/headlines.atom"}
+
+google_news:
+  enabled: true
+  hl: en-US
+  gl: US
+  ceid: "US:en"
+  max_items_per_query: 12
+
+x:
+  # GitHub の Secrets に X_BEARER_TOKEN を登録したときだけ動作（従量課金）
+  max_posts_per_account: 5
+  extra_accounts: []

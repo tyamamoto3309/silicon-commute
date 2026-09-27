@@ -1,0 +1,5 @@
+google-genai>=2.25
+feedparser>=6.0
+requests>=2.31
+PyYAML>=6.0
+trafilatura>=2.0
