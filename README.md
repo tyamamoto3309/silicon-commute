@@ -84,7 +84,7 @@ gh repo create silicon-commute --public --source=. --push
 | 変えたいこと | 項目 |
 |---|---|
 | 対象企業・検索キーワード | `companies`（`enabled: false` で除外、AI企業も追加可） |
-| 長さ・英語の速さ | `episode.target_minutes` / `words_per_minute`（標準140、ネイティブ速は160） |
+| 長さ・英語の速さ | `episode.target_minutes` / `words_per_minute`（標準150。長くしたいときは上げる） |
 | 英語の難しさ | `episode.english_style` |
 | 声・キャラクター | `hosts[].voice`（Gemini TTS のボイス名：Charon, Aoede, Kore, Puck など30種） |
 | 使うモデル | `models.text` / `models.tts` |

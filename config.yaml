@@ -22,8 +22,8 @@ podcast:
 
 episode:
   target_minutes: 10
-  # 学習者向けにネイティブのニュース速度(約160wpm)よりやや遅め
-  words_per_minute: 140
+  # 台本の語数の目安 = target_minutes × words_per_minute（実測: Gemini TTS は約150語/分）
+  words_per_minute: 150
   max_stories: 6
   # ニュースを遡る時間。月曜は自動で週末分（78時間）に拡張
   lookback_hours: 30
@@ -33,7 +33,9 @@ episode:
     Short sentences. No slang. Briefly explain jargon (e.g. "HBM, the
     high-bandwidth memory stacked next to AI chips").
   # 1回のTTSリクエストにまとめる最大語数（無料枠のリクエスト数節約用）
-  tts_chunk_words: 380
+  tts_chunk_words: 520
+  # TTSリクエストの最小間隔（秒）。無料枠の「1分あたりの回数」制限を避けるため
+  tts_min_interval_sec: 21
 
 hosts:
   - name: Alex
@@ -159,6 +161,12 @@ media_feeds:
   - {name: The Verge, url: "https://www.theverge.com/rss/index.xml"}
   - {name: Ars Technica, url: "https://feeds.arstechnica.com/arstechnica/index"}
   - {name: The Register, url: "https://www.theregister.com/headlines.atom"}
+
+# 信頼性の低いまとめサイト等を除外（媒体名の一部一致・大文字小文字は無視）
+blocked_publishers:
+  - AD HOC NEWS
+  - biggo
+  - UA.NEWS
 
 google_news:
   enabled: true
