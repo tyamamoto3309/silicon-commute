@@ -8,6 +8,7 @@ from __future__ import annotations
 import io
 import re
 import subprocess
+import time
 import wave
 from pathlib import Path
 
@@ -85,37 +86,51 @@ def _pcm_from_part(part) -> tuple[bytes, int]:
     return data, int(m.group(1)) if m else 24000
 
 
+PACE = "speaking at a moderate, slightly slow pace with clear articulation for English learners"
+_MODE: dict[str, str] = {}  # model -> request format that worked ("parts" or "classic")
+
+
 def synth_chunk(cfg: dict, lines: list[dict]) -> tuple[bytes, int]:
     from google.genai import types
 
     client = gemini_client()
     names = {h["name"] for h in cfg["hosts"][:2]}
-    styles = {h["name"]: h.get("style", "") for h in cfg["hosts"][:2]}
+    styles = {h["name"]: f"{h.get('style', '')}, {PACE}".strip(", ") for h in cfg["hosts"][:2]}
     transcript = "\n".join(f"{l['speaker']}: {l['en']}" for l in lines if l["speaker"] in names)
     models = [cfg["models"]["tts"], *cfg["models"].get("tts_fallbacks", [])]
 
-    def run(model: str):
-        conf = types.GenerateContentConfig(response_modalities=["AUDIO"], speech_config=_speech_config(cfg))
-        try:
-            # classic format: director note + "Speaker: text" transcript (works across TTS model generations)
-            resp = client.models.generate_content(model=model, contents=f"{_director_note(cfg)}\n\n{transcript}", config=conf)
-        except Exception as e:  # noqa: BLE001
-            if "400" not in str(e) and "INVALID_ARGUMENT" not in str(e):
-                raise
-            # newer format: one part per line with speech_metadata
+    def request(model: str, mode: str, conf):
+        if mode == "parts":
+            # current format: one part per line with speech_metadata (speaker + style)
             parts = [
                 types.Part(text=l["en"], speech_metadata=types.SpeechMetadata(speaker=l["speaker"], style=styles.get(l["speaker"]) or None))
                 for l in lines
             ]
-            resp = client.models.generate_content(
-                model=model, contents=[types.Content(role="user", parts=parts)], config=conf
-            )
+            return client.models.generate_content(model=model, contents=[types.Content(role="user", parts=parts)], config=conf)
+        # classic format: director note + "Speaker: text" transcript (older TTS models)
+        return client.models.generate_content(model=model, contents=f"{_director_note(cfg)}\n\n{transcript}", config=conf)
+
+    def run(model: str):
+        conf = types.GenerateContentConfig(response_modalities=["AUDIO"], speech_config=_speech_config(cfg))
+        order = [_MODE[model]] if model in _MODE else (["classic", "parts"] if "2.5" in model else ["parts", "classic"])
+        last = None
+        for mode in order:
+            try:
+                resp = request(model, mode, conf)
+                _MODE[model] = mode
+                break
+            except Exception as e:  # noqa: BLE001
+                last = e
+                if "400" not in str(e) and "INVALID_ARGUMENT" not in str(e):
+                    raise
+        else:
+            raise last
         for part in resp.candidates[0].content.parts:
             if part.inline_data and part.inline_data.data:
                 return _pcm_from_part(part)
         raise RuntimeError("TTS response contained no audio")
 
-    (pcm, rate), model = call_with_fallback(models, run, label="tts", attempts_per_model=3)
+    (pcm, rate), model = call_with_fallback(models, run, label="tts", attempts_per_model=5)
     return pcm, rate
 
 
@@ -133,14 +148,21 @@ def _assign_times(script: dict, chunk: list[tuple[int, int]], start: float, dur:
 
 def synthesize(cfg: dict, script: dict, out_wav: Path, synth_fn=None) -> float:
     """Render all lines to one WAV; sets line/segment start times; returns duration in seconds."""
+    synth_fn_is_real = synth_fn is None
     synth_fn = synth_fn or (lambda lines: synth_chunk(cfg, lines))
     chunks = make_chunks(script, int(cfg["episode"].get("tts_chunk_words", 380)))
     log.info("TTS: %d chunks", len(chunks))
     pcm_all = bytearray()
     rate_all = None
     t = 0.0
+    min_gap = float(cfg["episode"].get("tts_min_interval_sec", 20))
+    last_start = 0.0
     for n, chunk in enumerate(chunks, 1):
         lines = [script["segments"][si]["lines"][li] for si, li in chunk]
+        # pace requests to stay under the free tier's requests-per-minute limit
+        if synth_fn_is_real and last_start and time.time() - last_start < min_gap:
+            time.sleep(min_gap - (time.time() - last_start))
+        last_start = time.time()
         pcm, rate = synth_fn(lines)
         if rate_all is None:
             rate_all = rate

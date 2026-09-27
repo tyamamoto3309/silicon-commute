@@ -89,6 +89,7 @@ Editorial priorities:
 3. Balance: at least 2 GAFAM stories and 2 semiconductor stories when material exists. Include a Japan/Asia angle only if genuinely relevant.
 4. Merge items about the same event into one story (list all their ids). Prefer stories with enough factual detail in the candidates.
 5. Skip trivia, shopping deals, game mods, single-source rumors and opinion pieces without news.
+6. Source quality: prefer stories reported by established outlets (Reuters, Bloomberg, CNBC, FT, WSJ, Nikkei Asia, AP, The Verge, TechCrunch, Tom's Hardware, company newsrooms, etc.). Do NOT pick a story whose only sources are content farms, aggregators or unknown sites.
 
 Also return "ceo_watch_item_ids": up to 3 item ids where a CEO's own words are the news (may overlap with stories).
 Order stories from most to least important. Return JSON only."""
@@ -295,6 +296,7 @@ SPOKEN-ENGLISH RULES for "en"
 JAPANESE
 - "ja": a natural, accurate Japanese translation of that line in friendly spoken Japanese (ですます調で統一). Keep company, product and person names in their original Latin spelling (例: NVIDIA, TSMC, Satya Nadella).
 - 読みにくい漢字の人名・地名には括弧で読み仮名を付ける（例: 菊陽町（きくようまち））。
+- 数字は英語と必ず一致させる。桁の換算に注意: million = 100万, billion = 10億, trillion = 1兆（例: sixty-four billion dollars = 640億ドル, 1.5 trillion yen = 1.5兆円）。
 - Headings: heading_en short English; heading_ja 日本語。
 
 METADATA
@@ -342,7 +344,7 @@ def write_script(cfg: dict, material: str, now: datetime, valid_ids: set[int]) -
     script = _normalise(cfg, _json_call(cfg, prompt, SCRIPT_SCHEMA, "write"), valid_ids)
     words = _count_words(script)
     log.info("Script draft: %d words (target %d)", words, target)
-    if words < target * 0.8 or words > target * 1.25:
+    if words < target * 0.88 or words > target * 1.2:
         direction = "longer: deepen the 'why it matters' analysis and add one more exchange per story" if words < target else "shorter: tighten each story"
         revise = (
             f"The draft below has {words} English words but the target is {target} (±10%). "

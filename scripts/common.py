@@ -125,7 +125,8 @@ def call_with_fallback(models: list[str], fn, *, label: str, attempts_per_model:
             except Exception as e:  # noqa: BLE001
                 last_err = e
                 msg = str(e).replace("\n", " ")[:300]
-                if is_retryable(e) and attempt < attempts_per_model - 1:
+                daily_quota = "PerDay" in str(e) or "per_day" in str(e).lower()
+                if is_retryable(e) and not daily_quota and attempt < attempts_per_model - 1:
                     wait = _retry_delay_seconds(e, attempt)
                     log.warning("%s: %s transient error, retry in %.0fs: %s", label, model, wait, msg)
                     time.sleep(wait)

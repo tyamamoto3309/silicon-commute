@@ -258,6 +258,11 @@ def collect(cfg: dict, now: datetime, hours: int, max_items: int = 200) -> list[
     items += rss_feeds(cfg.get("media_feeds", []), "media", cutoff, kw, require_match=True)
     items += x_posts(cfg, cutoff)
     items += google_news(cfg, cutoff, hours)
+    blocked = [b.lower() for b in cfg.get("blocked_publishers", []) or []]
+    if blocked:
+        before = len(items)
+        items = [i for i in items if not any(b in i["publisher"].lower() for b in blocked)]
+        log.info("Dropped %d items from blocked publishers", before - len(items))
     items = dedupe(items)
     # newest first, then (stable) group by origin rank, then cap
     items.sort(key=lambda i: i.get("published") or "", reverse=True)
