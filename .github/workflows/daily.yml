@@ -1,0 +1,102 @@
+name: Daily episode
+
+on:
+  schedule:
+    # 04:45 JST, Monday–Friday (= 19:45 UTC, Sunday–Thursday).
+    # GitHub may start scheduled runs 5–30 min late; the episode is normally live well before 6:00.
+    - cron: "45 19 * * 0-4"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "今日の回を作り直す（オフなら、既にある場合はサイトの再構築だけ行う）"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # commit episode transcripts, create releases for MP3s
+  pages: write
+  id-token: write
+
+concurrency:
+  group: silicon-commute
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install ffmpeg and Python packages
+        run: |
+          command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+          pip install -q -r requirements.txt
+
+      - name: Generate today's episode
+        id: gen
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+        run: python scripts/run_daily.py ${{ inputs.force && '--force' || '' }}
+
+      - name: Store MP3 in GitHub Releases
+        if: steps.gen.outputs.created == 'true' && steps.gen.outputs.audio_ok == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.gen.outputs.tag }}
+          MP3: ${{ steps.gen.outputs.mp3 }}
+          DATE: ${{ steps.gen.outputs.date }}
+        run: |
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" "$MP3" --clobber
+          else
+            gh release create "$TAG" "$MP3" --title "$DATE" --notes-file out/release_notes.md --latest=false
+          fi
+
+      - name: Commit transcript
+        if: steps.gen.outputs.created == 'true'
+        run: |
+          git config user.name "silicon-commute-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add episodes state 2>/dev/null || git add episodes
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "Episode ${{ steps.gen.outputs.date }}"
+          git pull --rebase --autostash
+          git push
+
+      - name: Build site and podcast feed
+        run: python scripts/build_site.py
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v5
+
+      - name: Keep debug files (news items, research material)
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: debug-${{ github.run_id }}
+          path: |
+            out/items.json
+            out/material.json
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Report missing audio
+        if: steps.gen.outputs.created == 'true' && steps.gen.outputs.audio_ok != 'true'
+        run: |
+          echo "::error::音声の生成に失敗しました（テキストのみ公開）。ログの 'tts' 行を確認してください。無料枠の上限に達した可能性があります。"
+          exit 1
