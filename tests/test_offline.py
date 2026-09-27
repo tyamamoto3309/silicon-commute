@@ -150,13 +150,14 @@ class FakeTTSModels:
         assert sc[0].voice_config.prebuilt_voice_config.voice_name == "Charon"
         mode["n"] += 1
         if isinstance(contents, str):
-            assert "Alex:" in contents and "Mika:" in contents or "Alex:" in contents or "Mika:" in contents
-            if mode["n"] == 1:  # simulate the classic format being rejected once
-                raise RuntimeError("400 INVALID_ARGUMENT: use speech_metadata")
+            assert "Alex:" in contents or "Mika:" in contents
             data, mime = wav_bytes(2.0), "audio/wav"
         else:
             parts = contents[0].parts
             assert parts[0].speech_metadata.speaker in ("Alex", "Mika")
+            assert "slow pace" in parts[0].speech_metadata.style
+            if mode["n"] == 1:  # simulate the per-line format being rejected once → classic is used and remembered
+                raise RuntimeError("400 INVALID_ARGUMENT: speech_metadata not supported")
             data, mime = pcm(3.0), "audio/L16;codec=pcm;rate=24000"
         part = types.Part(inline_data=types.Blob(data=data, mime_type=mime))
         return pytypes.SimpleNamespace(candidates=[pytypes.SimpleNamespace(content=pytypes.SimpleNamespace(parts=[part]))])
@@ -168,16 +169,18 @@ class FakeTTSClient:
 
 common._client = FakeTTSClient()
 tts.gemini_client = lambda: FakeTTSClient()
+cfg["episode"]["tts_min_interval_sec"] = 0
 out_wav = ROOT / "out" / "test_tts.wav"
 dur = tts.synthesize(cfg, sample, out_wav)
 chunks = tts.make_chunks(sample, cfg["episode"]["tts_chunk_words"])
 assert all(sum(common.word_count(sample["segments"][s]["lines"][l]["en"]) for s, l in c) <= cfg["episode"]["tts_chunk_words"] for c in chunks)
 ts = [l["t"] for s in sample["segments"] for l in s["lines"]]
 assert ts == sorted(ts) and ts[0] == 0.0
-expected = 3.0 + 2.0 * (len(chunks) - 1) + tts.PAUSE_BETWEEN_CHUNKS * (len(chunks) - 1)
+expected = 2.0 * len(chunks) + tts.PAUSE_BETWEEN_CHUNKS * (len(chunks) - 1)
+assert mode["n"] == len(chunks) + 1, ("classic mode should be cached after first fallback", mode["n"])
 assert abs(dur - expected) < 0.01, (dur, expected)
 with wave.open(str(out_wav)) as w:
     assert abs(w.getnframes() / w.getframerate() - dur) < 0.01
 out_wav.unlink()
-print("✓ tts: %d chunks, %.1fs, fallback to speech_metadata parts worked" % (len(chunks), dur))
+print("✓ tts: %d chunks, %.1fs, format fallback cached after 1st chunk" % (len(chunks), dur))
 print("\nALL OFFLINE TESTS PASSED")
