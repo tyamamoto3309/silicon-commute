@@ -1,0 +1,490 @@
+{
+  "date": "2026-09-27",
+  "published": "2026-09-27T14:46:34+09:00",
+  "title_en": "Apple faces $5.7B legal blow, TSMC capex surge, and Microsoft shifts",
+  "title_ja": "Appleに57億ドルの巨額賠償評決、TSMC設備投資増額、MicrosoftのAI再編",
+  "summary_ja": "AppleはiPhoneやApple Watchの触覚特許を巡る訴訟で57億ドル超の巨額の賠償評決を下されました。半導体分野ではTSMCが設備投資目標を640億ドルに引き上げ、台湾政府から累計440億ドルの米国投資承認を得ています。さらにMicrosoftはCopilot+のハードウェアブランドを静かに引き下げ、企業向けソフトウェア戦略への方向転換を急いでいます。",
+  "duration": 504.9,
+  "audio": {
+    "file": "2026-09-27.mp3",
+    "bytes": 4039483,
+    "release_tag": "ep-2026-09-27"
+  },
+  "word_count": 1269,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "text": "gemini-3.8-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Morning briefing",
+      "heading_ja": "モーニングブリーフィング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it is Sunday, September 27, 2026. This is The Silicon Commute. I am Alex, joined by Mika in Kyoto. Today, we bring you the latest on multi-billion dollar shifts in tech litigation, manufacturing, and AI deployment.",
+          "ja": "おはようございます。2026年9月27日、日曜日です。The Silicon Commuteをお届けします。私、Alexと、京都にいるMikaでお送りします。本日は、テクノロジー訴訟、製造、そしてAI導入における数十億ドル規模の最新の動きをお届けします。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, everyone. Today, we cover Apple facing a record five point seven billion dollar patent verdict. We also discuss TSMC lifting its capital expenditure target to sixty-four billion dollars. And finally, we look at Microsoft quietly retiring its Copilot plus laptop branding.",
+          "ja": "皆さん、おはようございます。本日は、Appleが過去最高となる57億ドルの特許訴訟評決に直面しているニュースを取り上げます。また、TSMCが設備投資目標を64億ドルに引き上げた件、そして最後に、MicrosoftがCopilot+（コパイロットプラス）のノートPCブランドを静かに廃止した件についてお伝えします。",
+          "t": 14.67
+        }
+      ],
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Apple hit with $5.7 billion patent verdict",
+      "heading_ja": "Apple、ハプティクス特許侵害訴訟で57億ドルの賠償命令",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our top story centers on a major legal shock for Apple. A federal jury in San Diego has ordered the tech giant to pay over five point seven billion dollars in damages to haptics company Taction. The jury found that Apple infringed two of Taction's patents regarding vibration-based, tactile transducer technology.",
+          "ja": "最初のニュースは、Appleにとって大きな法的打撃となった話題です。サンディエゴの連邦陪審団は、このテック大手に、触覚技術企業であるTactionへ57億ドル以上の損害賠償を支払うよう命じました。陪審団は、Appleが振動ベースの触覚トランスデューサー技術に関するTactionの2つの特許を侵害したと認定しました。",
+          "t": 32.65
+        },
+        {
+          "speaker": "Mika",
+          "en": "Five point seven billion dollars is an extraordinary amount for a patent case. What exactly does this vibration technology do in Apple's devices, and which products are affected?",
+          "ja": "特許訴訟としては57億ドルというのは異例の金額ですね。この振動技術は具体的にAppleのデバイスでどのような役割を果たしており、どの製品が対象になっているのでしょうか？",
+          "t": 52.25
+        },
+        {
+          "speaker": "Alex",
+          "en": "The lawsuit, filed in 2021, targeted Apple's Taptic Engine, which is used in iPhones and Apple Watches. This hardware generates tactile feedback to help users feel a physical response when they interact with their screens. The jury agreed that Apple used Taction's developed technology without obtaining a proper license.",
+          "ja": "2021年に提起されたこの訴訟は、iPhoneやApple Watchに搭載されているAppleのTaptic Engineを対象としていました。このハードウェアは、ユーザーが画面を操作する際に物理的な反応を感じられるよう、触覚フィードバックを生成するものです。陪審団は、Appleが適切なライセンスを取得せずにTactionの開発した技術を使用したという主張を認めました。",
+          "t": 64.02
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did the jury find that Apple did this intentionally? And how is Apple responding? In Japan, where the iPhone dominates the smartphone market, any legal threat to its core hardware is closely watched.",
+          "ja": "陪審団はAppleがこれを意図的に行ったと判断したのでしょうか？また、Appleはどのように対応していますか？スマートフォン市場でiPhoneが圧倒的なシェアを持つ日本でも、その中核ハードウェアに対する法的な脅威は非常に関心が高いです。",
+          "t": 84.08
+        },
+        {
+          "speaker": "Alex",
+          "en": "The jury did not find that Apple willfully infringed on the patents. Taction had accused Apple of reverse-engineering the technology from two Kannon gaming headsets, but Apple has already stated its intention to appeal this decision. We will keep you updated as this massive legal battle continues.",
+          "ja": "陪審団は、Appleが意図的に特許を侵害したとは認定しませんでした。Tactionは、AppleがKannonの2つのゲーミングヘッドセットから技術をリバースエンジニアリングしたと主張していましたが、Appleはすでにこの判決に対して控訴する意向を表明しています。この巨大な法的バトルの行方を引き続き注視していきます。",
+          "t": 97.07
+        }
+      ],
+      "t": 32.65
+    },
+    {
+      "kind": "story",
+      "heading_en": "TSMC lifts capex target to $64 billion",
+      "heading_ja": "TSMCが設備投資を640億ドルへ引き上げ、米国投資も順調",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Next, we look at the semiconductor supply chain. Taiwan Semiconductor Manufacturing Company, or TSMC, has lifted its capital expenditure target toward sixty-four billion dollars. At the same time, Taiwan's Ministry of Economic Affairs has officially approved forty-four billion dollars in cumulative TSMC investments into the United States since 2020.",
+          "ja": "次に、半導体サプライチェーンに関するニュースです。TSMC（台湾積体電路製造）は、設備投資の目標を640億ドルに向けて引き上げました。同時に、台湾の経済部は、2020年以降のTSMCによる累計440億ドルの米国投資を正式に承認しました。",
+          "t": 116.25
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is a staggering amount of capital expenditure, Alex. Why is TSMC boosting its spending so aggressively right now, and what does the forty-four billion dollar approval mean for their United States expansion?",
+          "ja": "640億ドルの設備投資というのは驚異的な数字ですね、Alex。なぜTSMCは今、これほど積極的に支出を拡大しているのでしょうか？また、440億ドルの承認は米国での事業拡大において何を意味するのでしょうか？",
+          "t": 137.2
+        },
+        {
+          "speaker": "Alex",
+          "en": "TSMC is raising its spending to secure its market lead as rivals fall further behind. The forty-four billion dollar approved figure represents cumulative capital injections for their Arizona foundries. Taiwan's Investment Review Division noted they expect even more filings ahead as TSMC continues to scale up its foreign manufacturing footprint.",
+          "ja": "TSMCは、競合他社がさらに引き離される中で、市場でのリードを確固たるものにするために支出を引き上げています。承認された440億ドルという数字は、アリゾナ州のファウンドリ（受託製造工場）への累計資金投入額を表しています。台湾の投資審議処は、TSMCが海外製造拠点の拡大を続けるにつれて、今後さらに多くの申請が予想されると述べています。",
+          "t": 150.35
+        },
+        {
+          "speaker": "Mika",
+          "en": "This global shift is highly relevant here in Japan, where TSMC is also rapidly expanding its manufacturing presence. As the United States and Japan both push to secure advanced domestic chip production, TSMC is clearly positioning itself as the indispensable foundation of global AI hardware.",
+          "ja": "この世界的なシフトは、TSMCが熊本県菊陽町（きくようまち）などで製造拠点を急速に拡大している日本にとっても極めて重要です。米国と日本の双方が先端チップの国内生産体制の確保を急ぐ中、TSMCは世界のAIハードウェアに欠かせない基盤としての地位を明確に築きつつありますね。",
+          "t": 171.02
+        },
+        {
+          "speaker": "Alex",
+          "en": "Absolutely, Mika. By ramping up spending to sixty-four billion dollars, TSMC is making it incredibly difficult for competitors like Intel or Samsung to catch up in advanced manufacturing nodes, securing its dominant position in the global AI chip supply chain.",
+          "ja": "まさにその通りです、Mika。設備投資を640億ドルにまで増やすことで、TSMCはIntelやSamsungといった競合他社が最先端の製造プロセスで追いつくことを非常に困難にし、世界のAIチップサプライチェーンにおける圧倒的な主導権を固めています。",
+          "t": 188.68
+        }
+      ],
+      "t": 116.25
+    },
+    {
+      "kind": "story",
+      "heading_en": "Microsoft shifts enterprise Copilot strategy",
+      "heading_ja": "MicrosoftがCopilotの戦略を企業向けワークフローへ転換",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our third story focuses on Microsoft. The company is undergoing a major shift in its artificial intelligence branding. Microsoft has quietly dropped the Copilot plus branding from its new Surface laptops. Instead, Microsoft is pivoting its strategy to focus on Copilot as an AI operating system for enterprise workflows.",
+          "ja": "3つ目のニュースは、Microsoftに焦点を当てます。同社は人工知能のブランディングにおいて大きな転換期を迎えています。Microsoftは最新のSurfaceノートPCから『Copilot+（コパイロットプラス）』のブランディングを静かに取り下げました。その代わりに、Microsoftは企業向けワークフローの『AIオペレーティングシステム』としてCopilotを位置づける戦略へと舵を切っています。",
+          "t": 204.56
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is a surprise, because Microsoft heavily promoted Copilot plus PCs. Why are they dropping this hardware branding now? Is it because of consumer pushback or hardware limitations?",
+          "ja": "それは驚きですね、MicrosoftはCopilot+ PCを大々的に宣伝していましたから。なぜ今、このハードウェアのブランディングをやめるのでしょうか？消費者からの反発や、ハードウェアの制約が原因なのでしょうか？",
+          "t": 223.79
+        },
+        {
+          "speaker": "Alex",
+          "en": "Microsoft Surface corporate vice president Brett Ostrum confirmed that while the new devices meet the previous hardware requirements, they are dropping the branding. One major issue is the memory chip shortage, which has made the minimum sixteen gigabytes of RAM requirement expensive. Microsoft even released brand-new Surface for Business laptops with just eight gigabytes.",
+          "ja": "MicrosoftでSurface部門のコーポレートバイスプレジデントを務めるBrett Ostrumは、新しいデバイスが従来のハードウェア要件を満たしているものの、そのブランディングを使用しないことを認めました。大きな要因の一つは、メモリチップの不足により、最低要件である16ギガバイトのRAMのコストが高騰したことです。Microsoftは、わずか8ギガバイトのRAMを搭載したビジネス向けの新型Surfaceすらリリースしています。",
+          "t": 235.32
+        },
+        {
+          "speaker": "Mika",
+          "en": "That makes sense. High memory costs would definitely limit consumer adoption. But does this mean Microsoft is stepping back from its consumer AI features altogether, or are they refocusing elsewhere?",
+          "ja": "なるほど、納得です。メモリコストの高騰は消費者の導入を間違いなく制限してしまいますね。しかし、これはMicrosoftがコンシューマー向けAI機能から完全に手を引くことを意味するのでしょうか？それとも別の部分に注力しているのでしょうか？",
+          "t": 257.61
+        },
+        {
+          "speaker": "Alex",
+          "en": "They are not backing away from AI, but rather reorganizing. Microsoft is scaling back Copilot's presence in Windows 11 to improve performance and reliability. Meanwhile, CEO Satya Nadella has called Copilot a new operating system for work, indicating a massive pivot toward integration with corporate business systems and workflows.",
+          "ja": "AIから手を引くわけではなく、むしろ再編成しています。Microsoftはパフォーマンスと信頼性を向上させるため、Windows 11におけるCopilotの存在感を縮小させています。一方で、CEOのSatya NadellaはCopilotを『仕事のための新しいOS』と呼んでおり、企業の基幹システムやワークフローとの統合に向けた大幅な方向転換を示しています。",
+          "t": 270.54
+        }
+      ],
+      "t": 204.56
+    },
+    {
+      "kind": "story",
+      "heading_en": "SK Hynix weighs US AI memory production",
+      "heading_ja": "SK Hynix、米国でのAI向けHBM生産を検討中",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Let's turn to memory chips. South Korea's SK Hynix is actively weighing memory chip production in the United States. According to reports from the Korea Herald, the company is considering manufacturing advanced memory chips directly on United States soil, specifically targeting high-bandwidth memory, or HBM, which is stacked next to AI processors.",
+          "ja": "次にメモリチップについて見ていきましょう。韓国のSK Hynixは、米国におけるメモリチップの生産を本格的に検討しています。Korea Heraldの報道によると、同社はAIプロセッサの隣に積層される高帯域幅メモリ、いわゆるHBMを念頭に置いて、米国の国内で最先端のメモリチップを直接製造することを検討しています。",
+          "t": 290.01
+        },
+        {
+          "speaker": "Mika",
+          "en": "HBM is crucial for artificial intelligence workloads. Why is SK Hynix looking to build facilities in the United States instead of keeping its high-tech production concentrated in South Korea?",
+          "ja": "HBMは人工知能の処理能力を左右する極めて重要なパーツですね。SK Hynixはなぜ、最先端の生産ラインを韓国国内にとどめず、米国に工場を建設しようとしているのでしょうか？",
+          "t": 310.41
+        },
+        {
+          "speaker": "Alex",
+          "en": "It comes down to strategic pressure from United States hyperscale clients. AI chip designers and cloud providers want their entire hardware supply chain localized. By manufacturing HBM in the United States, SK Hynix can deliver advanced memory directly to nearby packaging facilities, reducing geopolitical risks and shipping delays.",
+          "ja": "それは米国のハイパースケーラーと呼ばれる巨大クラウド企業からの戦略的な圧力によるものです。AIチップの設計企業やクラウドプロバイダーは、ハードウェアのサプライチェーン全体を米国内に現地化することを求めています。米国内でHBMを製造することにより、SK Hynixは近隣のパッケージング工場に直接最先端メモリを納品でき、地政学的リスクや輸送遅延を削減できます。",
+          "t": 322.18
+        },
+        {
+          "speaker": "Mika",
+          "en": "This is a major strategic decision. If SK Hynix proceeds, it will mark a significant milestone in bringing the most advanced memory technology directly to the North American market, further reshaping the global semiconductor supply chain map.",
+          "ja": "これは非常に大きな戦略的決断ですね。もしSK Hynixがこれを進めれば、最先端のメモリ技術を北米市場に直接持ち込む重要な一歩となり、世界の半導体サプライチェーンの地図をさらに書き換えることになるでしょう。",
+          "t": 341.71
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. It shows that securing the AI supply chain is no longer just about logic processors, but also about the advanced memory that feeds them.",
+          "ja": "その通りです。AIのサプライチェーンを確保することは、もはや演算を行うロジック半導体だけでなく、それにデータを供給する最先端メモリをも確保することを意味しているのです。",
+          "t": 356.27
+        }
+      ],
+      "t": 290.01
+    },
+    {
+      "kind": "story",
+      "heading_en": "Intel hits High-NA EUV milestone",
+      "heading_ja": "Intel、次世代露光装置で100万枚ウェーハ処理のマイルストーン達成",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Finally, we have an important milestone in chip manufacturing. Intel has successfully processed one million silicon wafers using ASML's highly complex High-NA EUV lithography machines. High-NA EUV, or high numerical aperture extreme ultraviolet, is the most advanced patterning technology used to print microscopic circuits on silicon.",
+          "ja": "最後に、半導体製造における重要な節目となるニュースです。Intelは、ASMLの非常に複雑なHigh-NA EUV（高NA極端紫外線）露光装置を用いて、100万枚のシリコンウェーハの処理に成功しました。High-NA EUVとは、シリコン上に微細な回路パターンを焼き付けるための、最も先進的な微細加工技術です。",
+          "t": 365.99
+        },
+        {
+          "speaker": "Mika",
+          "en": "One million wafers is a massive operational milestone. Why is this specific technology so critical for Intel's survival in the advanced foundry race?",
+          "ja": "100万枚というのは大規模な運用実績ですね。この特定の技術が、最先端のファウンドリ競争において、なぜIntelの存亡に関わるほど重要なのでしょうか？",
+          "t": 386.34
+        },
+        {
+          "speaker": "Alex",
+          "en": "This milestone is critical for the rollout of Intel's eighteen-A manufacturing node. By running a million wafers through ASML's advanced systems, Intel is proving it can handle the operational complexity of next-generation lithography, which it hopes will help it catch up with TSMC's advanced nodes.",
+          "ja": "この節目は、Intelの18Aと呼ばれる製造プロセスの展開にとって極めて重要です。ASMLの最先端システムで100万枚を処理したことで、Intelは次世代露光技術の運用における複雑さに対応できることを証明し、TSMCの最先端ノードに追いつくための足がかりとしたい考えです。",
+          "t": 396.18
+        },
+        {
+          "speaker": "Mika",
+          "en": "It is a positive sign for Intel, but they still face intense financial pressure. Let us see if this technical success translates into commercial foundry orders.",
+          "ja": "Intelにとって明るい兆しですが、依然として厳しい財務上のプレッシャーに直面しています。この技術的な成功が、実際のファウンドリの商業受注へと結びつくかどうかに注目ですね。",
+          "t": 414.55
+        }
+      ],
+      "t": 365.99
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO thoughts on AI safety and gaming",
+      "heading_ja": "AIの安全性とゲーム事業に関するCEOの見解",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In today's CEO Watch, we highlight comments on AI safety and corporate direction. Nvidia CEO Jensen Huang weighed in on the AI safety debate, stating that technology companies must not ship products until they are fully in control of the underlying AI. He rejected doomsday scenarios, favoring practical, hands-on risk management instead.",
+          "ja": "本日のCEOウォッチでは、AIの安全性と企業の方向性に関する発言に注目します。NVIDIAのCEOであるJensen HuangはAI安全性の議論に言及し、テック企業は基盤となるAIを完全にコントロールできるようになるまで製品を出荷すべきではないと述べました。彼は人類滅亡といった終末論を否定し、より実用的なリスク管理を支持しています。",
+          "t": 425.01
+        },
+        {
+          "speaker": "Mika",
+          "en": "It is reassuring to hear a major AI leader focus on practical control. Meanwhile, Microsoft CEO Satya Nadella also made headlines. He commented on Xbox, stating that the streamlining of the gaming division is great to see as the company focuses on core priorities.",
+          "ja": "大手のAIリーダーが実践的な管理に焦点を当てていると聞いて安心しますね。一方、MicrosoftのCEO、Satya Nadellaもニュースを賑わせました。彼はXboxについて言及し、会社が核心的な優先事項に集中する中で、ゲーム部門の合理化が進むのは素晴らしいことだと述べています。",
+          "t": 445.53
+        }
+      ],
+      "t": 425.01
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the day: Scale back",
+      "heading_ja": "今日の重要表現：Scale back（規模を縮小する）",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's phrase of the day is 'scale back.' In our segment about Microsoft, Alex mentioned that the company is scaling back Copilot's presence in Windows 11. To 'scale back' means to reduce the size, amount, or extent of something. It is a very common business expression.",
+          "ja": "今日の『フレーズ・オブ・ザ・デイ（今日の重要表現）』は『scale back』です。Microsoftのニュースの中で、Alexが『the company is scaling back Copilot's presence in Windows 11』と言いましたね。『scale back』とは、規模や量、範囲などを『縮小する、引き下げる』という意味です。ビジネスシーンでも実によく使われる表現です。",
+          "t": 462.32
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is a great choice, Mika. For example, a company might say, 'We had to scale back our marketing budget because of the global semiconductor shortage.' It is perfect for describing corporate cost-cutting or strategic shifts.",
+          "ja": "素晴らしいチョイスですね、Mika。例えば、企業で『世界的な半導体不足により、マーケティング予算を縮小せざるを得なかった（We had to scale back our marketing budget because of the global semiconductor shortage）』のように使えます。コスト削減や戦略の転換を説明するのに最適な表現です。",
+          "t": 476.89
+        }
+      ],
+      "t": 462.32
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Closing remarks",
+      "heading_ja": "エンディング",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "That brings us to the end of today's commute. The clear takeaway is that global tech and chip giants are aggressively restructuring their spending and branding to navigate shifting market realities.",
+          "ja": "本日の通勤ラジオはここまでとなります。今日の明確な教訓は、グローバルなテック企業や半導体大手が、変化する市場の現実に適応するため、支出とブランディングを積極的に再構築しているということです。",
+          "t": 489.24
+        },
+        {
+          "speaker": "Alex",
+          "en": "Keep safe on your journey, and we will see you on tomorrow's commute.",
+          "ja": "お気をつけて行ってらっしゃい。それでは、明日の通勤時にお会いしましょう。",
+          "t": 500.21
+        }
+      ],
+      "t": 489.24
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Apple Hit with Record $5.7 Billion Jury Verdict in Haptic Patent Dispute",
+      "title_ja": "Apple、ハプティクス特許侵害訴訟で過去最高57億ドルの賠償評決",
+      "summary_ja": "サンディエゴの連邦陪審団は、Appleに対し、iPhoneおよびApple Watchの振動部品であるTaptic Engineが触覚技術企業Tactionの特許2件を侵害しているとして、57億ドル超の損害賠償支払いを命じました。陪審団は意図的な侵害までは認定しなかったものの、特許訴訟としては過去最大規模の打撃となります。Appleは判決を不服として控訴する方針を固めています。",
+      "why_ja": "主力製品であるiPhoneなどのユーザー体験（ハプティクス機能）を揺るがす深刻な法的リスクであり、巨額の賠償負担のみならず、今後の設計変更や特許ライセンス調達におけるサプライチェーン全体への影響が懸念されます。",
+      "companies": [
+        "Apple",
+        "Taction"
+      ],
+      "sources": [
+        {
+          "publisher": "The Verge",
+          "title": "Apple hit with $5.7 billion in damages over haptic patents",
+          "url": "https://www.theverge.com/tech/1001118/apple-hit-with-5-7-billion-in-damages-over-haptic-patents"
+        },
+        {
+          "publisher": "Engadget",
+          "title": "Apple Hit With A $5.7 Billion Verdict For Alleged Patent Infringement",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNEZkaTVUeUd4SlN6eDlCY085S0d4R05PeUdjLTZJSnFpOVlsb1E4VEtPZjhzNXhLNFctUjFrUmJfRUtVQlNTYnBFWXNaLU81YnBJMWsyeHNyWUw1cWs0bGF0M09DLUFfWGxjQ3NDeS02bUdqSDFWODhheWZJTlZfVWVaem1qM1VLTVF4aEJZSl9yS0cwMVlQQUViVzNaRnVOOW5j?oc=5"
+        },
+        {
+          "publisher": "AppleInsider",
+          "title": "Apple owes Taction $5.7B after losing haptic feedback IP trial",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUXpERmJueWsxUVhBNHhjMzlXelhDT19EVjlINExiOTJwc3p3ZGk5dFZheFFJLXFTdFh5TTh6S0puRlFCOGUzY3cxdncxYmJuQzFNdnFoOFFOUFllaS1wSXhfUmFIVFBGakF3aWJOZFFjUjZfUGxNN2pqekFkRDRST0diY0QtWEpxVUhZbFZ4cGxaSEFORi1XYUlWQ29xWXpPeDlSbWN3?oc=5"
+        },
+        {
+          "publisher": "CNBC",
+          "title": "Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNU1VOZW5BcW9ncDVQMDlmZ3FZNmxvcXlYZGQ2MzV2TEVTWUt3MWlJQUN0dFB3enlhZHN3SjlXMzFJanpGdk44b2ZkcXRwX1hBNURSeEZwVmZKQzZpcVVkOWpmNjROTExtWW9XVVZUSnRBVy04aDFxejdGOGpMaWFjZkw4MlQyMEFwYnJKcGRmdmlVZFXSAZgBQVVfeXFMUDVnNVVadXhlSXJ0c2l5MHRPNXhFVWJhM3pXMlBZVTh6NWJubmNGT1RJN0NjdnBoYlM4N0ZLdHBDRUUxUk9wNHFsdGZfQXBVajVMMHo2akpjYm5CMHlHSEZfWVBfRzd2NUtKQnZPNDh6T1AtWThwdUQ0aE1VOU1NR1h3RjhFVmRKUFU5VkI4ajlNb09Kcjk5TVE?oc=5"
+        },
+        {
+          "publisher": "reuters.com",
+          "title": "US jury says Apple owes record $5.7 billion in haptic technology patent case",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOXduWFl4SXl1dlNpaDVMVUdxbENVSGFqV3hFYnl2ZE8yTTRNZVAxZFpwTERQZzExTmg1ZG5IdHFtRjg5cUtGaU1pNndEa0UzMzg1YWJWc203ZnVOajF3MUM2RGhQTllJTXRub05McENSTExBQVhQUm1aYlZIN3RyR2RfN1V4cjZ1bktEVjV4bk5WdFowdVZENlhWOE0wU1Y0T25LRk8tbjBFendGaVhNdlp5aUZNWFM4YUhKdzhNNFFLUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "TSMC Boosts Capex Target to $64 Billion as Taiwan Approves Cumulative $44 Billion in US Investments",
+      "title_ja": "TSMCが設備投資目標を640億ドルに増額、台湾政府も累計440億ドルの米国投資を承認",
+      "summary_ja": "TSMCは市場での圧倒的優位を維持するため、設備投資（Capex）の目標金額を640億ドルに向けて引き上げました。同時に、台湾経済部は同社が2020年以降に米国アリゾナ州のファウンドリへ投資した累計440億ドルの資金注入計画を正式承認しました。投資審議部門は、今後さらに多くの投資申請が行われることを見込んでいます。",
+      "why_ja": "競合であるIntelやSamsungが先端製造プロセスの歩留まり向上や投資力で遅れをとる中、TSMCが投資を加速させることで最先端半導体受託製造（ファウンドリ）における一極集中体制がより強固になることを示しています。",
+      "companies": [
+        "TSMC"
+      ],
+      "sources": [
+        {
+          "publisher": "finance.biggo.com",
+          "title": "TSMC's Approved US Capital Injection Stands at Just $44 Billion; Investment Review Division Expects More Filings Ahead",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1sTlVGRVc0Z092akZCNHNUTkpWWlBpb1FKWS1oUGJXQ0N2SVFiczRmN2c4U2x2dzM1YTQxS0padk5TRHdKU2Z1eG9MenJSTmJuSTgzdUY2NnA2Z2V2aUwzSkstZ2hBMjFLa3h0ZEdmM01FRUhudXc?oc=5"
+        },
+        {
+          "publisher": "AD HOC NEWS",
+          "title": "TSMC Lifts Capex Toward $64 Billion as Foundry Rivals Fall Further Behind",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZHpXcjcyTXowRVZRUWlMN3oyb3BBM1Z0TC0wRmFSQnl6WklVSFJIclRxNnBrUl9YQi1hRHNQeFlWRmVwYjFlZ3ptU09tcWJXT1htenFlczE5dllQbFhRZmZsSVg1MGE2N2M0U0NmMlQxclJBYndPM29rQ2FSMTNqRXhNLWNXYk1kS2RUMGEtTXBsLUlEaFEyR1ptN2RSbjZxeUtqUlN5SEdBOHoyWXBuckEzRlBVWTZaYmJORjk3TGJDSDlFZ0p3MXJBN0RXYnNyQkVlWlF5OEtDa2c5?oc=5"
+        },
+        {
+          "publisher": "Focus Taiwan",
+          "title": "Economics Ministry approves US$44B in TSMC U.S. investments since 2020",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9QTjJhX0V0My1oVnZqeDR4eFNadUZNV0g1LU1oaEl0NFNYc3VNQU5BQ0lSajhrWHF6UlRzb3ZkeGJGbmJPUFZYUHczTzNVMFBDSlJCOTVmOA?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Microsoft Pivots Copilot Strategy to Enterprise Workflows While Dropping 'Copilot+' Branding on Laptops",
+      "title_ja": "Microsoftが「Copilot+」ブランドを静かに廃止、企業向け「仕事用AI OS」戦略へシフト",
+      "summary_ja": "Microsoftが、最新のSurfaceノートPCから「Copilot+ PC」のハードウェアブランディングを静かに取り下げていたことが明らかになりました。メモリ不足に伴う16ギガバイトRAMのコスト高騰を背景に仕様を再編し、今後はWindows内でのコンシューマー向け露出を縮小させつつ、企業ワークフローに特化した「仕事用のAI OS」としてCopilotを浸透させる戦略へ転換します。",
+      "why_ja": "汎用的なAI PCハードウェアとしてのプロモーションがコスト高騰により限界を迎える中、よりマネタイズが確実視される法人向けのソフトウェア（エンタープライズ統合型AI）へと戦略の主軸を移した現実的な路線変更と言えます。",
+      "companies": [
+        "Microsoft"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Microsoft quietly drops Copilot+ branding from new laptops",
+          "url": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-quietly-drops-copilot-branding-from-its-new-laptops-surface-cvp-confirms-new-devices-meet-hardware-requirements-but-lack-controversial-branding"
+        },
+        {
+          "publisher": "chosun.com",
+          "title": "Microsoft Unveils Copilot as AI OS for Enterprise Workflows",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZUNXQ3kxbUxINFl6cGpsbXpiOW9SN09XbkRnNTJEOGszMGR0RkE2SGxzcXY4N3pfaktFSzcyN09SNkhTd19vb3RRMlQ1ZDI2QW9aS2VUSnkwdFN6X2RmeXczMDdVT2JTSEFEbHU0SXc3eGtPdUFVb18zemExT0FOLUYzT2k3bVFm?oc=5"
+        },
+        {
+          "publisher": "Mashable",
+          "title": "Microsoft's new Surface laptops get rid of Copilot+ PC branding",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOEVDWWs5UUQ2bDBVbWVRb3l4dUJvTm1uYkc2VVpvVlVka0g0ckRwZmdYZEhHbTBfQ3JtRzZxTGpjTnd5RzZxMDJndzQtLVE1bldSWHJncC16ZlB2aklPakhlUEg3SkFLZ2RGWlR2OE4yZS1jOTV6X1BIVGpQZUZScW1jaw?oc=5"
+        },
+        {
+          "publisher": "TweakTown",
+          "title": "Microsoft overhauls Copilot once again, CEO calls it 'a new OS for work'",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWjAtbHMwb3Y5U1ItbkVjTVZVY1BiN054RElldmI1ZHNfYzhzQ1BnQVZhZjE5UHJqMDI0Y2REamdoUnNkRlQ3ZVdsQkg0d1d2c1dtSXhmZ1liRFRKNFhJOHRUUkpZazN6UkNCUGMyd0kzelNmUlJsSGdubGhXMlEzUE91MURGbW1UVzRzSnVWSHk1bUpqc1drWWhSM0tjeWJEanRtU3oxQVdFY3lLX3VNWEllSFNOcmRxd0E?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "SK Hynix Weighs US Memory Production for High-Bandwidth AI Chips",
+      "title_ja": "SK Hynix、米国でのAI向け高帯域幅メモリ（HBM）生産を本格検討",
+      "summary_ja": "韓国のSK Hynixが、AIチップの隣に積層される超高速メモリである「高帯域幅メモリ（HBM）」の生産設備を、米国国内に構築することを本格的に検討しています。米国大手のハイパースケールクラウド顧客からの要望に応え、供給遅延や地政学的リスクを軽減することが狙いです。",
+      "why_ja": "これまで製造技術の流出懸念などから自国に先端ラインを集中させていたメモリメーカーが、米国の保護主義的な産業政策や顧客に近い場所での現地化（地産地消）という強力なサプライチェーン再編圧力に直面していることを示唆しています。",
+      "companies": [
+        "SK Hynix"
+      ],
+      "sources": [
+        {
+          "publisher": "UA.NEWS",
+          "title": "SK hynix considers memory chip production in the US — Korea Herald",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcHlpVlhDYktLenZZUWc1R1ZUbGFHTERJLWtYSk9MbF9qV0w4NlE1VGVEeVp1VzdoX1VXQ29KZzNlYVAybUZBZ210ZS1KdF9Db1I0U1B5dC1rOEVvU21FYUVYNURIUFpBaGlOZHl6bUI3NE1pQUZ4dDZYSXcwZTlreDJ5TXRsNmJyZTlRcmZ5dURIRWFOYmxNM3l3R0pVMG5WWlE?oc=5"
+        },
+        {
+          "publisher": "The Korea Herald",
+          "title": "Why SK hynix is weighing US memory production",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9CMlE3RFpxVkxYcW9TY0JQMmZZaWhIdzRhQXdPakZDTjcwTHBPa0dkLWxiX0lEQTRWWHdBOFFmTDNQck1KWDVqakxtWS00ZXI4Z0JuMVZ3Zw?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Intel Reaches Advanced Milestone with One Million Wafers Run on ASML High-NA EUV Systems",
+      "title_ja": "Intel、ASML製「High-NA EUV」露光装置で100万枚のウェーハ処理を達成",
+      "summary_ja": "Intelは、ASMLの超高精度な次世代「High-NA EUV」露光システムを用い、累計100万枚のシリコンウェーハ処理を完了したと発表しました。これは「Intel 18A」製造プロセスの本格量産化および安定稼働に向けた大きな節目です。",
+      "why_ja": "技術的な実行力を証明した形ですが、厳しい財務状況に苦しむIntelにとって、この運用実績を他社からの商業的なファウンドリ受託注文獲得へ早期に転換できるかどうかが生き残りの重要な岐路となります。",
+      "companies": [
+        "Intel",
+        "ASML"
+      ],
+      "sources": [
+        {
+          "publisher": "AD HOC NEWS",
+          "title": "ASML Clinches Fresh Buy Ratings as Intel Hits One Million Wafers on High-NA EUV",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbVFNaDJCTDZyZlptYjFLM19LTDZKVFZGYmJSRElxX1kxaFNmNFJRVGFWZlIzODFoNlZuSm1SR25UcElPQUd6NkNORHJrTVlLcE1MVDlTTmVxQm0ta2k1UWU5Tmh2ZXZfY1k4M3NXM00yLWNRTnhGSW1XMHJ1ODNYenhVT0VHcjlrNFBZZHV6Wm44RllmZUlZYVdTZEJ4TFNYMGhJWGpMNk41OGNhcHY1c084OGpGOE9qbkFMaDFHbjd3R1licy1UdmoyOHBBdWhuMkxQQW5R?oc=5"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "infringed",
+      "meaning_ja": "（特許や権利を）侵害した",
+      "note_ja": "特許や著作権、商標などの法的権利を無断で侵した際に使われる他動詞です。",
+      "example_en": "The jury found that Apple infringed two of Taction's patents regarding vibration-based, tactile transducer technology."
+    },
+    {
+      "term": "tactile feedback",
+      "meaning_ja": "触覚フィードバック",
+      "note_ja": "スマートフォンの画面などをタップした際に、微細な振動によって指先に物理的なクリック感を与える仕組み。",
+      "example_en": "This hardware generates tactile feedback to help users feel a physical response when they interact with their screens."
+    },
+    {
+      "term": "capital expenditure",
+      "meaning_ja": "設備投資、資本支出",
+      "note_ja": "企業が有形固定資産の維持・拡張・新設のために投じる費用。通常「capex」と略されます。",
+      "example_en": "That is a staggering amount of capital expenditure, Alex."
+    },
+    {
+      "term": "foundries",
+      "meaning_ja": "（半導体の）受託製造工場",
+      "note_ja": "半導体の設計を行わず、他社からの設計データに基づいて製造のみを請け負う工場や企業を指します。",
+      "example_en": "The forty-four billion dollar approved figure represents cumulative capital injections for their Arizona foundries."
+    },
+    {
+      "term": "enterprise workflows",
+      "meaning_ja": "企業（法人）の業務プロセス",
+      "note_ja": "一般消費者向けではなく、企業の業務システムや各組織の定常業務（フロー）を意味します。",
+      "example_en": "Instead, Microsoft is pivoting its strategy to focus on Copilot as an AI operating system for enterprise workflows."
+    },
+    {
+      "term": "memory chip shortage",
+      "meaning_ja": "メモリチップ不足",
+      "note_ja": "D-RAMやフラッシュメモリなどの半導体記憶媒体の需給が逼迫し、供給が不足している状態。",
+      "example_en": "One major issue is the memory chip shortage, which has made the minimum sixteen gigabytes of RAM requirement expensive."
+    },
+    {
+      "term": "high-bandwidth memory",
+      "meaning_ja": "高帯域幅メモリ（HBM）",
+      "note_ja": "D-RAMを垂直に重ねて積層することでデータ転送速度を劇的に高速化した、AI処理用GPUに必須のメモリ技術。",
+      "example_en": "...specifically targeting high-bandwidth memory, or HBM, which is stacked next to AI processors."
+    },
+    {
+      "term": "hyperscale clients",
+      "meaning_ja": "ハイパースケール（超大規模）クライアント",
+      "note_ja": "自社で極めて巨大なデータセンターを構築し運営するAmazon、Google、Microsoft、MetaなどのIT巨人を指します。",
+      "example_en": "It comes down to strategic pressure from United States hyperscale clients."
+    },
+    {
+      "term": "scale back",
+      "meaning_ja": "規模を縮小する",
+      "note_ja": "予算、計画、製品の機能や存在感を段階的に引き下げる、小さくすることを指すビジネス表現。",
+      "example_en": "Microsoft is scaling back Copilot's presence in Windows 11 to improve performance and reliability."
+    },
+    {
+      "term": "lithography machines",
+      "meaning_ja": "（半導体用の）露光装置",
+      "note_ja": "光を用いてシリコンウェーハ上に超微細な電子回路のパターンを焼き付ける、半導体製造の最重要・最先端装置。",
+      "example_en": "Intel has successfully processed one million silicon wafers using ASML's highly complex High-NA EUV lithography machines."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "scale back",
+    "meaning_ja": "規模を縮小する、引き下げる",
+    "example_en": "Microsoft is scaling back Copilot's presence in Windows 11 to improve performance and reliability.",
+    "example_ja": "Microsoftは、パフォーマンスと信頼性を向上させるため、Windows 11におけるCopilotの存在感を縮小させています。"
+  }
+}
