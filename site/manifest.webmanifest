@@ -1,0 +1,16 @@
+{
+  "name": "The Silicon Commute",
+  "short_name": "Silicon Commute",
+  "description": "GAFAMと半導体の10分英語ニュース（英日対訳つき）",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b2447",
+  "theme_color": "#0b2447",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
