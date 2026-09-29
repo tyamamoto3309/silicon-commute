@@ -1,0 +1,531 @@
+{
+  "date": "2026-09-30",
+  "published": "2026-09-30T08:11:21+09:00",
+  "title_en": "The Silicon Commute: OpenAI Dots, TSMC Texas, and Apple's Shift",
+  "title_ja": "シリコン・コミュート: OpenAIのDots、TSMCのテキサス計画、Appleの変革",
+  "summary_ja": "OpenAIがMetaのMuseに対抗するAIエージェント「Dots」を発表しました。TSMCがテキサス州での大規模な製造拡張を検討していると報じられています。新CEOジョン・ターナスのもとでAppleが製品サイクルと組織の効率化を進めています。",
+  "duration": 368.1,
+  "audio": {
+    "file": "2026-09-30.mp3",
+    "bytes": 2945674,
+    "release_tag": "ep-2026-09-30"
+  },
+  "word_count": 807,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "text": "gemini-3.8-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Introduction",
+      "heading_ja": "オープニング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it's Wednesday, September 30. This is The Silicon Commute.",
+          "ja": "おはようございます。9月30日水曜日、シリコン・コミュートの時間です。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Today we cover OpenAI's new AI agents, reports of a massive TSMC expansion in Texas, and Apple's new strategy under its CEO.",
+          "ja": "本日は、OpenAIの新AIエージェント、TSMCによるテキサスでの大規模拡張の報道、そして新CEOの下でのAppleの新しい戦略についてお伝えします。",
+          "t": 5.41
+        }
+      ],
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "OpenAI Launches Dots",
+      "heading_ja": "OpenAIがDotsを発表",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "OpenAI has announced Dots, a new lineup of always-on AI assistants designed to directly challenge Meta's recently launched Muse agent. Powered by the GPT-6 Astra model, Dots use a cloud computer to access a web browser and more than 4,000 supported apps.",
+          "ja": "OpenAIは、Metaが最近発表したMuseエージェントに対抗する常時稼働型AIアシスタントの新ラインナップ「Dots」を発表しました。GPT-6 Astraモデルを搭載したDotsは、クラウドコンピュータを使用してウェブブラウザや4,000を超える対応アプリにアクセスします。",
+          "t": 13.73
+        },
+        {
+          "speaker": "Mika",
+          "en": "Alex, how do users actually interact with these agents while they work in the background?",
+          "ja": "アレックス、ユーザーはバックグラウンドで作業するこれらのエージェントと実際どのようにやり取りするのですか？",
+          "t": 29.3
+        },
+        {
+          "speaker": "Alex",
+          "en": "Users can interact through a text-message-like interface or a voice call from ChatGPT. OpenAI says Dots come with built-in rules and an auto-review feature to verify whether actions comply with safety requirements. Starting today, OpenAI is rolling out Dots to ChatGPT Pro, Business Premium, and Enterprise users.",
+          "ja": "ユーザーは、テキストメッセージ風のインターフェースやChatGPTからの音声通話を通じてやり取りできます。OpenAIによると、Dotsには組み込みのルールや、アクションが安全要件に準拠しているかを検証する自動レビュー機能が備わっています。本日より、OpenAIはChatGPT Pro、ビジネスプレミアム、およびエンタープライズのユーザーを対象にDotsの展開を開始しています。",
+          "t": 35.66
+        },
+        {
+          "speaker": "Mika",
+          "en": "That sounds like a major escalation in the agentic AI race. How does this fit into OpenAI's broader enterprise strategy?",
+          "ja": "エージェント型AIの競争において大きな激化のように聞こえます。これはOpenAIのより広範なエンタープライズ戦略にどのように適合するのでしょうか？",
+          "t": 54.52
+        },
+        {
+          "speaker": "Alex",
+          "en": "It represents a direct competitive response designed to capture enterprise software supremacy by allowing continuous, background execution across connected tools.",
+          "ja": "これは、接続されたツール間での継続的なバックグラウンド実行を可能にすることで、エンタープライズソフトウェアの覇権を獲得するために設計された直接的な競争の反応を表しています。",
+          "t": 62.61
+        }
+      ],
+      "t": 13.73
+    },
+    {
+      "kind": "story",
+      "heading_en": "TSMC Expansion Rumors",
+      "heading_ja": "TSMCの拡張の噂",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "According to TrendForce and other reports, TSMC is reportedly eyeing a massive manufacturing expansion in Texas that could top two hundred and sixty-five billion dollars.",
+          "ja": "トレンドフォースなどの報道によると、TSMCはテキサス州で2,650億ドル規模を超える大規模な製造拠点の拡張を検討していると報じられています。",
+          "t": 73.05
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is an immense number. If finalized, how does this affect the geopolitical landscape for semiconductor manufacturing outside of Arizona?",
+          "ja": "それは莫大な金額ですね。もし実現すれば、アリゾナ州以外の地域における半導体製造の地政学的状況にどのように影響するのでしょうか？",
+          "t": 83.93
+        },
+        {
+          "speaker": "Alex",
+          "en": "It would significantly broaden TSMC's United States manufacturing footprint. While details are still emerging, such a heavy capital commitment underscores the ongoing shift in global supply chain strategies toward localized advanced chip production.",
+          "ja": "これにより、TSMCの米国における製造拠点は大幅に広がることになります。詳細はまだ明らかになっていませんが、これほどの巨額の資本投下は、ローカライズされた先端チップ生産へと向かうグローバルなサプライチェーン戦略の継続的なシフトを浮き彫りにしています。",
+          "t": 93.13
+        },
+        {
+          "speaker": "Mika",
+          "en": "Could this massive financial footprint also completely alter regional economic dependencies in the United States?",
+          "ja": "この莫大な財政的フットプリントは、米国内の地域経済の依存関係を完全に変えてしまう可能性もありますか？",
+          "t": 108.42
+        },
+        {
+          "speaker": "Alex",
+          "en": "Indeed, expanding beyond current Arizona sites would further anchor critical semiconductor supply chains directly within domestic American borders.",
+          "ja": "その通りです。現在のアライゾナの拠点を超えて拡張することは、重要な半導体サプライチェーンをアメリカ国内の国境内に直接さらに定着させることになります。",
+          "t": 116.12
+        }
+      ],
+      "t": 73.05
+    },
+    {
+      "kind": "story",
+      "heading_en": "Trump Urges Self-Regulation",
+      "heading_ja": "トランプ氏が自主規制を促す",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "At an artificial intelligence safety event in New York, Donald Trump asked leaders from Meta, OpenAI, and Microsoft to make safety decisions themselves rather than relying on heavy government mandates.",
+          "ja": "ニューヨークで開催された人工知能の安全性に関するイベントにおいて、ドナルド・トランプ氏はMeta、OpenAI、Microsoftのリーダーたちに対し、厳しい政府の命令に頼るのではなく、自ら安全性の決定を下すよう求めました。",
+          "t": 125.72
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does this signal a major shift toward a more permissive regulatory environment for tech giants in the United States?",
+          "ja": "これは、米国のテック巨人にとってより寛容な規制環境への大きな転換を意味するのでしょうか？",
+          "t": 138.33
+        },
+        {
+          "speaker": "Alex",
+          "en": "According to the New York Times, it certainly points toward a preference for industry-led safety choices, which could shape how artificial intelligence governance develops in the coming months.",
+          "ja": "ニューヨーク・タイムズ紙によると、それは確かに業界主導の安全性選択肢を好む姿勢を示しており、今後の数ヶ月間で人工知能のガバナンスがどのように発展していくかを形作る可能性があります。",
+          "t": 146.2
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why would industry leaders prefer self-regulation over structured government oversight in such a critical technological domain?",
+          "ja": "このような重要な技術分野において、なぜ業界のリーダーたちは組織的な政府の監督よりも自主規制を好むのでしょうか？",
+          "t": 158.37
+        },
+        {
+          "speaker": "Alex",
+          "en": "Self-regulation allows companies to move quickly and innovate without being hindered by rigid, potentially slow-moving government mandates.",
+          "ja": "自主規制により、企業は厳格で動きの遅い可能性のある政府の命令に阻まれることなく、迅速に行動し革新を起こすことができます。",
+          "t": 166.85
+        }
+      ],
+      "t": 125.72
+    },
+    {
+      "kind": "story",
+      "heading_en": "Apple's New Strategy",
+      "heading_ja": "Appleの新戦略",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Apple's new chief executive officer, John Ternus, is planning faster product cycles and a leaner operating structure, according to a Bloomberg report.",
+          "ja": "ブルームバーグの報道によると、Appleの新最高経営責任者であるジョン・ターナス氏は、より迅速な製品サイクルと無駄のない運営体制を計画しています。",
+          "t": 176.45
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specific changes is Ternus looking to make to the company's traditional release schedule?",
+          "ja": "ターナス氏は、同社の従来のリリーススケジュールに対して具体的にどのような変更を考えているのですか？",
+          "t": 186.04
+        },
+        {
+          "speaker": "Alex",
+          "en": "Ternus wants Apple to introduce products more frequently than its usual splashy moments in the fall and spring. The hardware engineering team has also dismissed a number of engineering program managers as part of an engineering-led overhaul.",
+          "ja": "ターナス氏は、Appleに例年の秋や春の派手な発表の時期よりも頻繁に製品を導入させたいと考えています。また、ハードウェアエンジニアリングチームは、エンジニア主導の組織見直しの一環として、複数のエンジニアリングプログラムマネージャーを解任しました。",
+          "t": 192.57
+        },
+        {
+          "speaker": "Mika",
+          "en": "How will these structural cuts and more experimental product cycles impact Apple's position in the artificial intelligence market?",
+          "ja": "これらの組織的削減やより実験的な製品サイクルは、人工知能市場におけるAppleの立場にどのように影響するのでしょうか？",
+          "t": 207.15
+        },
+        {
+          "speaker": "Alex",
+          "en": "By stripping away layers between engineers and senior executives, Ternus hopes to accelerate development and stay competitive against rivals.",
+          "ja": "エンジニアと上級幹部の間の階層を取り除くことで、ターナス氏は開発を加速させ、競合他社に対抗して競争力を維持したいと考えています。",
+          "t": 215.65
+        }
+      ],
+      "t": 176.45
+    },
+    {
+      "kind": "story",
+      "heading_en": "Google Fights EU Push",
+      "heading_ja": "GoogleがEUの規制強化に対抗",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Google is legally challenging European Union orders aimed at forcing the company to open up Android to rival artificial intelligence assistants and search engines.",
+          "ja": "Googleは、ライバルの人工知能アシスタントや検索エンジンに対してAndroidを開放するよう同社に強制することを目的とした欧州連合の命令に対し、法的な異議申し立てを行っています。",
+          "t": 224.75
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is this particular antitrust battle so crucial for mobile device ecosystems?",
+          "ja": "なぜこの特定の独占禁止法を巡る闘いが、モバイルデバイスのエコシステムにとってそれほど極めて重要なのでしょうか？",
+          "t": 235.05
+        },
+        {
+          "speaker": "Alex",
+          "en": "It is critical because it will help determine who ultimately controls artificial intelligence distribution on mobile devices, impacting market access for competitors across the region.",
+          "ja": "それが極めて重要である理由は、モバイルデバイスにおける人工知能の流通を最終的に誰が管理するのかを決定づけ、地域全体での競合企業の市場アクセスに影響を与えるためです。",
+          "t": 240.81
+        },
+        {
+          "speaker": "Mika",
+          "en": "Could this legal challenge set a massive precedent for other dominant technology platforms facing similar regulatory pressures?",
+          "ja": "この法的な挑戦は、同様の規制圧力に直面している他の主要な技術プラットフォームにとって、大きな前例となるでしょうか？",
+          "t": 252.26
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, the outcome of this fight will heavily influence how strictly antitrust regulators can mandate interoperability across proprietary mobile ecosystems.",
+          "ja": "はい、この戦いの結果は、独占禁止法の規制当局が独自のモバイルエコシステム間での相互運用性をどれほど厳しく義務付けられるかに大きな影響を与えます。",
+          "t": 260.6
+        }
+      ],
+      "t": 224.75
+    },
+    {
+      "kind": "story",
+      "heading_en": "Kioxia and Applied Materials",
+      "heading_ja": "キオクシアとアプライド マテリアルズ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Japanese memory manufacturer Kioxia has joined Applied Materials' EPIC Center to collaborate on next-generation artificial intelligence memory research and development.",
+          "ja": "日本のメモリメーカーであるキオクシアは、次世代人工知能メモリの研究開発で協力するため、アプライド マテリアルズのEPICセンターに参加しました。",
+          "t": 270.41
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does this partnership reflect broader changes in the semiconductor industry?",
+          "ja": "このパートナーシップは、半導体業界のより広範な変化をどのように反映しているのでしょうか？",
+          "t": 280.99
+        },
+        {
+          "speaker": "Alex",
+          "en": "It highlights how semiconductor packaging and memory architectures are evolving to meet the intense performance workloads demanded by modern artificial intelligence applications.",
+          "ja": "これは、現代の人工知能アプリケーションに求められる強烈なパフォーマンスのワークロードを満たすために、半導体パッケージングやメモリアーキテクチャがどのように進化しているかを浮き彫りにしています。",
+          "t": 286.75
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does collaborative research like this at shared centers typically accelerate commercial breakthroughs in hardware?",
+          "ja": "このような共有センターでの共同研究は、通常、ハードウェアにおける商業的なブレークスルーを加速させるものですか？",
+          "t": 297.87
+        },
+        {
+          "speaker": "Alex",
+          "en": "Sharing specialized facilities and expertise helps companies overcome technical bottlenecks in memory development much faster than working in isolation.",
+          "ja": "専門的な施設や専門知識を共有することは、企業が単独で作業するよりもはるかに速くメモリ開発における技術的なボトルネックを克服するのに役立ちます。",
+          "t": 305.49
+        }
+      ],
+      "t": 270.41
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch",
+      "heading_ja": "CEOウォッチ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In leadership news, Apple's new chief executive officer, John Ternus, is seeking to make the company run faster and leaner. According to reports from Bloomberg, Ternus has indicated that Apple must introduce products more quickly and become more experimental to remain competitive in the artificial intelligence era.",
+          "ja": "リーダーシップに関するニュースとして、Appleの新最高経営責任者であるジョン・ターナス氏は、同社の運営をより迅速かつ無駄のないものにしようとしています。ブルームバーグの報道によると、ターナス氏は、人工知能の時代において競争力を維持するためには、Appleはより迅速に製品を投入し、より実験的にならなければならないと述べています。",
+          "t": 315.2
+        }
+      ],
+      "t": 315.2
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day",
+      "heading_ja": "本日のフレーズ",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's phrase is \"leaner operations\", meaning a more efficient and streamlined business structure. We heard that Apple's new chief executive officer wants to make the company run faster and leaner. Here is another example: The startup implemented cost cuts to ensure leaner operations.",
+          "ja": "本日のフレーズは「leaner operations（無駄のない運営体制）」です。より効率的で合理化されたビジネス構造を意味します。Appleの新最高経営責任者運営をより迅速かつ無駄のないものにしたいと考えているという話題で登場しました。もう一つの例文です：そのスタートアップは、より無駄のない運営体制を確保するためにコスト削減を実施した。",
+          "t": 334.34
+        }
+      ],
+      "t": 334.34
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Outro",
+      "heading_ja": "エンディング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "As tech giants race to deploy agentic software and hardware infrastructure, balancing innovation with safety remains the central challenge.",
+          "ja": "テック企業がエージェント型ソフトウェアやハードウェアインフラの展開を競う中、イノベーションと安全性のバランスをとることが中心的な課題であり続けます。",
+          "t": 354.15
+        },
+        {
+          "speaker": "Mika",
+          "en": "See you on tomorrow's commute.",
+          "ja": "それでは、また明日の通勤時間にお会いしましょう。",
+          "t": 364.6
+        }
+      ],
+      "t": 354.15
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "OpenAI Launches 'Dots' AI Agents",
+      "title_ja": "OpenAIがAIエージェント「Dots」を発表",
+      "summary_ja": "OpenAIはDevDayにて、MetaのMuseに対抗する常時稼働型のAIアシスタント「Dots」を発表しました。GPT-6 Astraモデルを搭載し、クラウドコンピュータを通じて複数の接続アプリでタスクを実行します。",
+      "why_ja": "OpenAIが「Dots」を立ち上げたことは、Metaの「Muse」に対抗する直接的な競争の動きであり、常に接続されたアプリ上でバックグラウンド稼働する常時稼働型エージェントを通じて、エージェント型企業向けソフトウェアの覇権争いが急速に加速していることを示しています。企業が自律型ツールの導入を急ぐ中、自動レビューやビルトイン規則などの安全機能の重要性が増しています。",
+      "sources": [
+        {
+          "publisher": "The Verge",
+          "title": "OpenAI launches Dots, its Muse competitor",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "OpenAI takes on Meta with dots agent in enterprise AI push",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdHpSWDN2U2FHZk9uM2NIZVVkQjVWQXBudENFN09DM3ZWdWlBdVdCdndKTFlQa2duMmpYcDVYamdOSGNhTnBkQmQ1dG01T3ZYU2Zyb2VEXzg1VG05N1dwR0FWZlNqWDlNNldWS2VEcGlDby1TQ1JUMy1La1R1TncwQkN1OVRIN2lEeDJpQTQ2VkNXZ2lmVG12bHBPOU5sZW9sX2FvSlk5VGhTU3c?oc=5"
+        },
+        {
+          "publisher": "Fortune",
+          "title": "OpenAI unveils Dots as rival to Meta’s Muse, plus a $500 monthly plan",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaG9rbjZYZGgxdGZJbHJKYXpTSkFIYmlJQngxVk5Sc1NtaERJX0ZaeXQ0bHRPR3lwbkk1R2hXeWdtUkVlYnlmMFpLV3EwRXZlR0lJYk5tdzM3amFROWJDVU9nUWo1amxacThpejAtNHB2X1FaSkhISWpTY1llZ3ViRlVyQ29sQlhYWllybExPTm5lOUQyX09MY1gtYjNac09mc2U3MFhLenMxZ1F0U2xLMFA2d1I0M2QwY3lvaXpSOUlRbm80U2RiSlRB?oc=5"
+        },
+        {
+          "publisher": "Yahoo Finance",
+          "title": "OpenAI debuts Dots AI agents in challenge to Meta’s popular Muse agent",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPT3U4WmgtZ1JKNnRYTlJZUVdnNW5lWU5lTGF0UkhHSnJBOHFmSG9YeGx6ZWxqOVAxOUlHcXJWY0d0N1hKQ1JBVTlUeGp1NVFzODl5OHNxUFZtUTRDaU5DOS1MOUk4NDFLNlpxR1NhZV8yLV9Ic2J5N2FNR3NjeWxtazJYRkdVQXZVY3JPbTMxMlJlUWJsTzc0emE5Sk13Q0FRYVJtUUllWHRyU0Z4emNJMndoajhURW1NXzg0Z3MyZVNubFpYNmE0aA?oc=5"
+        },
+        {
+          "publisher": "Business Insider",
+          "title": "OpenAI just launched its answer to Meta: 'always-on' AI agents called Dots",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNXzAwRXJnS3N2TFozbWZ3M1FhZWg0Y3Y5cGEtSktjSEtVMndwdS01blFPNmxwMHVXMlZNTVg2OWlWYWtIRXViWFhTLVo3cmZrQjFfaFN6MjRKQl9BOVcyTnBEeXNxOXZXMXRrd3BfZ0lHRVdZS3ZwVG9VY0gtb2hPdnBheWtBYjN3OWc3cg?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "TSMC Rumored to Be Planning Texas Expansion",
+      "title_ja": "TSMCがテキサス州での拡張を計画か",
+      "summary_ja": "報道によると、TSMCはテキサス州において2,650億ドル規模を超える大規模な製造拠点の拡張を検討しています。",
+      "why_ja": "TSMCがテキサス州において2,650億ドル規模を超える可能性のある製造拡張を検討しているという報道は、同社がアリゾナ州に次いで米国における製造拠点をさらに大きく広げ、地政学的リスクを分散させるとともに、現地での先端チップ生産を強化するグローバルサプライチェーンの大規模な構造転換を浮き彫りにしています。",
+      "sources": [
+        {
+          "publisher": "New Electronics",
+          "title": "TSMC rumoured to consider major Texas manufacturing expansion",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSUp0T0x6dWNUbXRrakpOa3pJTkxYZ0cxVGlXYUlGYjYwV1dZb3JQaTlKRjg0UFJIVGVnaGdtQl9zcll1OVljLXpkODBSTU55STB0M0tIdTMwdl9FejU0TXdNQUNpTnYyb0JjUlh0eVNpa1g1ZTRCdl80T01YYnhDVXpiQmxaUVVfZHVGYTd0bWd5ZmRyOEM5ZDhOOE56WmJkN055blYtb2lOdTR2?oc=5"
+        },
+        {
+          "publisher": "marketwatch.com",
+          "title": "Here’s where TSMC is reportedly eyeing a second U.S. site for a chip-making hub",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObWVoUzN3ck5OSWhRTEFVZUIxdjUwYkozV2NvOHl4ekkxVjB3SjUyY2NBNVRwZFJqdjNMSUROSm1wZmU3RlVIWkFCN1U4cEJnbUIwVHgxQlJBb2RYa3JvYjBWdjZnZ0kzeExkMndNZjk0RHluQnNCMEZ2RzJ4RDVNY216d3JuVWlRaVVaVFVvMkw4MU1odlBTRldaVnVsdkRWeXYybzJVOXQzOHhXMHFMYkw2SFBQeFFtRDQ2Zg?oc=5"
+        },
+        {
+          "publisher": "조선일보",
+          "title": "TSMC Plans Second Texas Semiconductor Plant",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOU0tCd1J2LWViRjhUQUxUN2NXeERjNkRTM0QzNDVSTTlaQm4xMl9oX1JoX2JrMm9Uc3F4REp3MXEzcVA4ckZzMEMwUm1lTkRkbFZJZmFSOXRvSmJvMFRKaG5Pem1FalpEWnJiZDd4LUV4U3pRRU5PcXFIWTUzNldEMTVEOEdnYVc3?oc=5"
+        },
+        {
+          "publisher": "TrendForce",
+          "title": "[News] TSMC Reportedly Eyes Texas Expansion That Could Top US$265B; VIS-NXP Mulls Second Singapore Fab",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdTJzSV90SW9yT1dOMVBDaEFOZ0VoZXVoSDJodVlNWldPU1Q3b3c5VUJrVWVJMlRJaEdEQkFVOXZ3V0k1UUtZMEplS09vUkFFZHpCaWY1ZDRieXk3bG1mM1MzZXZiWGhpODlka3ZfQ3JmX2pnSERfWXhEZXNzMFlFczhZUThmMFlaLUh5Y284cTV5alFkMEFvNkhIeE4tWEFIR1l2d0dpYUZad3AtczNpcm00dG9zbEpmdGhqb0pVLWpfNUxxNkJzSEtEYVlydmttdk5sT3Z5dzAzUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Trump Urges Tech Giants to Self-Regulate on AI Safety",
+      "title_ja": "トランプ氏がテック巨人にAI安全性の自主規制を要求",
+      "summary_ja": "ニューヨークでのAI安全イベントにおいて、ドナルド・トランプ氏はMeta、OpenAI、Microsoftのリーダーに対し、政府の厳しい命令ではなく自ら安全性の判断を下すよう求めました。",
+      "why_ja": "ドナルド・トランプ氏がニューヨークでのイベントでテック企業トップに安全性の自主規制を求めたことは、厳しい政府命令によるガバナンスよりも業界主導の判断を好む姿勢を示しており、今後の米国内におけるAI規制環境がより寛容で柔軟な方向へ向かう可能性を示唆しています。",
+      "sources": [
+        {
+          "publisher": "The New York Times",
+          "title": "At A.I. Event, Trump Asks Meta, OpenAI and Microsoft to Make Safety Decisions Themselves",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVDMxeU5wLWV6cXdTcHk5T0k2d0VDbnRoT3BSNUFULW9DYmh1VTdSUy1aU3k5cksta1dXTV9DU0Joa2Rib19WLWV4alc5OW5DYkU0d2lrcUVKR0I0NGpkOVRvSVkyR1hXU2JybG1DUmc3emt3ajJmcDB2WlFtcUpBd0V4Q3NJU1lma2c?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Apple's New CEO John Ternus Plans Faster Cycles",
+      "title_ja": "Appleの新CEOジョン・ターナスが迅速なサイクルを計画",
+      "summary_ja": "新CEOジョン・ターナスのもと、Appleは製品のリリースサイクルを早め、エンジニア主導の組織再編を通じて無駄のない運営体制への移行を進めています。",
+      "why_ja": "ジョン・ターナスがAppleの新CEOとして従来の季節ごとの固定化されたリリースサイクルを打破し、エンジニア主導の迅速で実験的な製品開発や組織の効率化を目指していることは、競争の激しいAI時代において同社が機敏性を維持するための決定的な大転換となります。",
+      "sources": [
+        {
+          "publisher": "The Verge",
+          "title": "Apple’s new CEO could change when it launches phones and laptops",
+          "url": "https://www.theverge.com/tech/1002107/apple-ceo-john-ternus-product-launch-strategy"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Apple's Ternus eyes engineering-led overhaul, Bloomberg News reports",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVS1iZU1pQXkzLXgxVDY2UVRGRUUtQTROZkFDbDFDZWgyalpCczN6U3F5Wm9rVmJqSlVQbVJGNkN2WVEwVEZEQ3VFWmlqNmpUSmZxSGtDU25LdUlVUWhXem9HYWI3V3N0c2wtRDVlSmpZVlVWWF9SMVAxbnMyYUY3ckFKakI1NnUtdk1JY1EyaTFFNTBUSUZmZU04S1ozNGlnYWh3cWpXQkpCdGI4ZFJrN09HS3FfODZjZGVDa3JzR20zRWs?oc=5"
+        },
+        {
+          "publisher": "AppleInsider",
+          "title": "Small layoffs and budget cuts are hitting Apple, with more expected",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd1QyVlRjdmJfME5EVDFpRHp0eUVJVXlhQVA5YWhtZFVIRXhpTDRlU0lmUkdUTDBYaGoteWM0azBOVzl0VWl6bElfVlVlQ3hsOGRpdGZNSldlNTlYZkE1dGNkejd2T29ab0s2N09xU0FpRWp5RzR6dmI0TjlVc0lBcm4xUHRqMDI5b1F1RHp0QUF6YkljeF9GdUZZSWRNVHNsZENPcjFQeWtfalhHRFE?oc=5"
+        },
+        {
+          "publisher": "9to5Mac",
+          "title": "John Ternus wants to reshape Apple, here’s how",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8xUHBIT09WbHdFVjNNLWJ3cnIxTXQtY0E1Q0dCZ0xCczNwX2JtUklQSW5oVG45N0hqeVhQRlRaRW1udmttUWR6a1BtcThQOVAwZzRpMGpkdVZLM05WQ0V0WHdPRFozNWVTOUs1TWM2QmVIMFROb1ViNg?oc=5"
+        },
+        {
+          "publisher": "Bloomberg",
+          "title": "Apple’s New CEO Seeks to Make Company Run Faster and Leaner",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNzZ0Ync2N2hyREdnU0lJMktVRDVrcEk0SHRmMjczWGtPUF9sa1Q3cFFyZ0hCa2Q1S2Q2TW8yT0picm1nVmY1NnFHS2NZb2ZNbFdCUXBWWHhJSDduSXJxMWktaG5XbmFwQ29CTXhwUzBlZ0c2TGhMbVo1cU9EVFI5RXJ5R1B2THAwQ1Bqc1pONUVpTXlISU92YnUzUDZhQzV6VkR2QUlZTUlxS2hPVDZpRTB0UGZHb01U?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Google Fights EU Regulatory Push on Android",
+      "title_ja": "GoogleがEUのAndroid開放要求に対抗",
+      "summary_ja": "Googleは、Androidを競合のAIアシスタントや検索エンジンに開放するよう求めるEUの命令に対して法的な異議申し立てを行っています。",
+      "why_ja": "GoogleがEUによるAndroidの開放命令に対して法的な争いに踏み切ったのは、モバイルデバイス上のAIアシスタントや検索エンジンの流通および支配権が誰の手に渡るかを決める、業界の将来を左右するきわめて重要な独占禁止法の戦いだからです。",
+      "sources": [
+        {
+          "publisher": "Bloomberg",
+          "title": "Google Fights EU Attempt to Prise Open Android to Rival AI Bots",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOb0VPNTlVYjJDTExEeGpCb1FmeHFiX0tLQmVWeEdMdW5iQkZfcWdBQy15V3ZvVl9pRndwVEhGZlBhUVVyeHMxREpwOVR6SXJ0d3VTQjNJaV90TWZpell5U0FpZmpBVXp0dU9YaERpeWlhSUN4YkpMaHl3dFNCLXlsZkVLVjdzYmZ1UlJtajlOOUFKT3BNdTAxS1p1Rll4d1psMHFqbDdpWG5lOFBQZDdtcEFudDg?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Google challenges EU orders to open up to AI, search-engine rivals",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNWtfaTdEQks3cVluODNBeTVxRVQwOVNSSjdjMUZZV1I3eG1vSERQcjlLdGdNZ04wX0NaQTVxWTFfUUdQSG9pR0JJa2lGMW0yS3YybnBzVW0xQk9Zdm9XNTM1OWNNMjItbUhEUXc1NnhCVmY1Z0ZVRUx5SklwUlhsWDhndFM2N2VjNXBDQmdEbTNrXzhuaWdFbFp6Wkk2azF6Y3BOVXAyUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Kioxia Partners with Applied Materials on AI Memory",
+      "title_ja": "キオクシアがアプライド マテリアルズとAIメモリで提携",
+      "summary_ja": "日本のメモリメーカーであるキオクシアは、アプライド マテリアルズのEPICセンターに参加し、次世代AIメモリ技術の共同開発に取り組みます。",
+      "why_ja": "キオクシアがアプライド マテリアルズのEPICセンターに参加して次世代AIメモリの研究開発を行うことは、激しい人工知能のワークロードを支えるために、半導体パッケージングやメモリアーキテクチャの技術進化が極めて不可欠であることを示しています。",
+      "sources": [
+        {
+          "publisher": "Investing.com",
+          "title": "KIOXIA joins Applied Materials EPIC Center for AI memory R&D",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQWk1eXdBOE9ic29tbGl2UkNtcm1YQ3NvZmx6WXM3YkxsamV1X1g3UnBaelZ5eERSTWdlNnczZUhJeVJJTnRyMkhiOF9fdmZIWmpXVmZJZUstOV91OWlWdkJGTUN4Qk5LTFZ3TllpU3NIQXVWMUx2LUN3bGMzVHY2UGZ0dE9PWVlWaWtCWlVXWS1WWHJaYW1hbExVQWxjQ3lTQjNBZ2lOQl9NWWNzdS0xOFVNU0FaZGs?oc=5"
+        },
+        {
+          "publisher": "marketscreener.com",
+          "title": "Applied Materials, Kioxia Collaborate to Develop AI Memory Technology",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPamxHbjNJTmtZcU1iWDVHanJDNnVNZXMyQm9heDd6cjFiM29vckRxVDBOSkszenRLQ3pNUFFZV2pzbDNRWHdCLXVmeHExSzFfRGwtWVdjMGxJckZQLTVHX0R6bXhqSl94azZkU2o3S3h2VjdYbkJLckM3SERrNHZaZk5LMTJrUkZkRnNPeTNOMXM5cE1ZMG9uc3BSRnFFMjdhMHJXY1FQWGJxQ3JuWWNNYmJzVWlvYVVGN2otWE1n?oc=5"
+        },
+        {
+          "publisher": "TradingView",
+          "title": "Applied Materials partners with KIOXIA to develop next‑generation memory for AI",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWnFZTTNfZC0zUDVwcVFFdHltSG1reW92VzR2blcxU05WeTJlRG5Wa0o0aU9lYlRPYkJUMkJuQW1tOUVtbVYzYXV1eUNfbTBkSUJlZ21uVlU1RnF4bEU0TC03UWY5MmF0OFV5YjZZNmlBZlY5dmlDdnN1dVc5cFFKc1E1UHNRVjMyeGtoQWFsWGpfbGR2dHFHQXo2NTZiWWRxZ21uUkpFTE1kQTlSaWlsRU9OVlhnNWY2YkpTTjFaRlV3UDJELXRNdDlTUG8zclRaenlIY09qRWdtdw?oc=5"
+        },
+        {
+          "publisher": "The Manila Times",
+          "title": "Applied Materials and KIOXIA Partner at the EPIC Center to Advance Next-Generation Memory Technology",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPeFRKdzEyekpqNlFXbVI1NDBhbWdkbHQtLU5QWHBxLTdjWnlNQkJscU1oMmF1UW9NMkhEQUlQcDh2eC1XdDZ2elZVV1RJT216SV9FVDBab0FreVJWR0p4TjZWMXlaZFd0Qy1qMmI0UXdQaF9qejVvZEVxMHRWNWRMYnZsc3FlRjAzZjUwc205YzhTd1lxMzJpR08yVnhTR1Y4MkVMbUhhUnEtT1ZEdC14WHhETDRjMzI1Mm9kU0M4aUtfVGJxU2xyV3dKQ0tHZExvaVpaczI4b0ZBb3lVV0RGYS05ZHFfakRvU3FaXzJ1YkVMeWduNUtobWp3aVRUWkRENllSbkY4MXVnZ9IBigJBVV95cUxPeFRKdzEyekpqNlFXbVI1NDBhbWdkbHQtLU5QWHBxLTdjWnlNQkJscU1oMmF1UW9NMkhEQUlQcDh2eC1XdDZ2elZVV1RJT216SV9FVDBab0FreVJWR0p4TjZWMXlaZFd0Qy1qMmI0UXdQaF9qejVvZEVxMHRWNWRMYnZsc3FlRjAzZjUwc205YzhTd1lxMzJpR08yVnhTR1Y4MkVMbUhhUnEtT1ZEdC14WHhETDRjMzI1Mm9kU0M4aUtfVGJxU2xyV3dKQ0tHZExvaVpaczI4b0ZBb3lVV0RGYS05ZHFfakRvU3FaXzJ1YkVMeWduNUtobWp3aVRUWkRENllSbkY4MXVnZw?oc=5"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "always-on",
+      "meaning_ja": "常時稼働の",
+      "note_ja": "ユーザーの指示を常にバックグラウンドで待機・実行するシステムに対して使われます",
+      "example_en": "OpenAI has announced Dots, a new lineup of always-on AI assistants designed to directly challenge Meta's recently launched Muse agent."
+    },
+    {
+      "term": "capital commitment",
+      "meaning_ja": "資本投下、資金拠出",
+      "note_ja": "企業が事業拡大や設備投資のために資金を割り当てることを指します",
+      "example_en": "While details are still emerging, such a heavy capital commitment underscores the ongoing shift in global supply chain strategies toward localized advanced chip production."
+    },
+    {
+      "term": "regulatory environment",
+      "meaning_ja": "規制環境",
+      "note_ja": "企業活動を取り巻く法律や政府による規制の状況を指します",
+      "example_en": "Does this signal a major shift toward a more permissive regulatory environment for tech giants in the United States?"
+    },
+    {
+      "term": "product cycle",
+      "meaning_ja": "製品サイクル、製品発表サイクル",
+      "note_ja": "新しい製品が開発され市場に投入されるまでの時間的周期を意味します",
+      "example_en": "Apple's new chief executive officer, John Ternus, is planning faster product cycles and a leaner operating structure, according to a Bloomberg report."
+    },
+    {
+      "term": "antitrust battle",
+      "meaning_ja": "独占禁止法を巡る闘い",
+      "note_ja": "市場の独占や公正な競争を阻害する行為に関する法的紛争を指します",
+      "example_en": "Why is this particular antitrust battle so crucial for mobile device ecosystems?"
+    },
+    {
+      "term": "market access",
+      "meaning_ja": "市場アクセス、市場参入",
+      "note_ja": "企業や製品が特定の市場に参入し活動できる度合いを指します",
+      "example_en": "It is critical because it will help determine who ultimately controls artificial intelligence distribution on mobile devices, impacting market access for competitors across the region."
+    },
+    {
+      "term": "memory architecture",
+      "meaning_ja": "メモリ構造、メモリ・アーキテクチャ",
+      "note_ja": "コンピュータ等の記憶装置の設計や構造を意味します",
+      "example_en": "It highlights how semiconductor packaging and memory architectures are evolving to meet the intense performance workloads demanded by modern artificial intelligence applications."
+    },
+    {
+      "term": "leaner operations",
+      "meaning_ja": "無駄のない運営体制",
+      "note_ja": "無駄を省き、効率的かつ合理化されたビジネス構造や組織運営を表します",
+      "example_en": "In leadership news, Apple's new chief executive officer, John Ternus, is seeking to make the company run faster and leaner."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "leaner operations",
+    "meaning_ja": "無駄のない運営体制",
+    "example_en": "Apple's new chief executive officer wants to make the company run faster and leaner.",
+    "example_ja": "そのスタートアップは、より無駄のない運営体制を確保するためにコスト削減を実施した。"
+  }
+}
