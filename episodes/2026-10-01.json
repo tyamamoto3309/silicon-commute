@@ -1,0 +1,601 @@
+{
+  "date": "2026-10-01",
+  "published": "2026-10-01T08:12:27+09:00",
+  "title_en": "Google's Restricted AI Frontier and Micron's Eleven-Fold Surge",
+  "title_ja": "制限付きで公開されたGoogleの最先端AIと、Micronのデータセンター売上高11倍急増",
+  "summary_ja": "Googleは、サイバーセキュリティなどの高度な業務に特化した次世代AIモデル「Gemini 4 Argon」を発表し、安全性を確保するため初期段階のアクセス制限を行っています。半導体メモリ大手のMicronは、AI向けの旺盛な需要を背景に、データセンター部門の売上高が11倍に急増し、好調な決算と見通しを発表しました。さらに、TSMCによるテキサス州への工場拡張検討や、KioxiaとApplied Materialsの共同開発など、世界の半導体供給網における戦略的な動きが加速しています。",
+  "duration": 595.1,
+  "audio": {
+    "file": "2026-10-01.mp3",
+    "bytes": 4761076,
+    "release_tag": "ep-2026-10-01"
+  },
+  "word_count": 1343,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "text": "gemini-3.8-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Welcome to The Silicon Commute",
+      "heading_ja": "番組紹介",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it is Thursday, October first, 2026. Welcome to The Silicon Commute. I am Alex, your lead host and industry analyst, broadcasting from our main studio. Joining me from Kyoto is my co-host, Mika.",
+          "ja": "おはようございます。2026年10月1日木曜日です。The Silicon Commuteへようこそ。私はメインホストで業界アナリストのAlexです。メインスタジオからお送りしています。そして京都から、コホストのMikaさんが参加しています。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, Alex, and good morning to our listeners. Today, we have three massive headlines. First, Google unveils its powerful new frontier model, Gemini 4 Argon, with highly restricted access. Second, Micron crushes earnings expectations on an eleven-fold surge in data center revenue. And third, TSMC evaluates a major new factory expansion in Texas.",
+          "ja": "おはようございます、Alex。そしてリスナーの皆様、おはようございます。本日、3つの大きなヘッドラインがあります。1つ目は、Googleがアクセスを厳しく制限した強力な新型フロンティアモデル、Gemini 4 Argonを発表したこと。2つ目は、Micronがデータセンター部門の売上高の11倍という急増により、予想を上回る決算を発表したこと。そして3つ目は、TSMCがテキサス州での大規模な新工場建設の検討に入ったことです。",
+          "t": 13.97
+        },
+        {
+          "speaker": "Alex",
+          "en": "We have a lot of strategic developments to cover, so let us dive right into our first story.",
+          "ja": "カバーすべき戦略的展開がたくさんありますので、さっそく最初のニュースに入りましょう。",
+          "t": 36.75
+        }
+      ],
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Google Reveals Gemini 4 Argon with Restricted Pre-release Access",
+      "heading_ja": "Google、制限付き先行アクセスのGemini 4 Argonを発表",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Google has officially unveiled Gemini 4 Argon, its next-generation flagship AI model. According to Google DeepMind Senior Vice President Koray Kavukcuoglu, Argon delivers frontier performance in complex workflows like software engineering, legal, finance, and cybersecurity. However, Google is restricting initial access to trusted cyber defenders.",
+          "ja": "Googleは、次世代のフラッグシップAIモデルであるGemini 4 Argonを正式に発表しました。Google DeepMindのシニアバイスプレジデントであるKoray Kavukcuoglu氏によると、Argonはソフトウェアエンジニアリング、法務、財務、そしてサイバーセキュリティといった複雑なワークフローにおいてフロンティアレベルの性能を発揮します。しかし、Googleは初期アクセスを信頼できるサイバー防衛担当者に制限しています。",
+          "t": 43.76
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why the limited release, Alex? Is it about safety?",
+          "ja": "なぜアクセス制限付きのリリースなのですか、Alex？ 安全性への懸念からでしょうか？",
+          "t": 66.13
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, Koray Kavukcuoglu noted that Google is actively participating in the United States government's voluntary process for pre-release model access. They want to strengthen critical safeguards against prompt injections and misalignment. This launch comes just one day after OpenAI's DevDay, where they launched their Dots AI agent and GPT-6.1 Sol model.",
+          "ja": "はい、Koray Kavukcuoglu氏は、Googleが米国政府の事前リリースモデルアクセスに関する自主的なプロセスに積極的に参加していると述べています。プロンプトインジェクションや位置合わせ（アライメント）の不具合に対する重要な防御策を強化したい考えです。このローンチは、OpenAIがDevDayでAIエージェントのDotsとGPT-6.1 Solモデルを発表したわずか1日後に行われました。",
+          "t": 70.62
+        },
+        {
+          "speaker": "Mika",
+          "en": "Google mentioned they are already using Argon internally. What kind of gains are they seeing?",
+          "ja": "Googleはすでに社内でArgonを使用しているとのことですが、どのような成果が出ているのでしょうか？",
+          "t": 93.28
+        },
+        {
+          "speaker": "Alex",
+          "en": "Thousands of employees are using it. It helped quantum researchers optimize resources, beating baseline performance by 40 percent in minutes. It also helped migrate large C and C++ codebases to Rust. For their open-source video decoder, Argon agents replaced 32 thousand lines of code, creating a memory-safe decoder that runs 2.7 times faster.",
+          "ja": "数千人の従業員がすでに使用しています。量子コンピューティングの研究者がリソースを最適化するのを支援し、わずか数分で既存のベースラインを40パーセント上回りました。また、大規模なCやC++のコードベースからRustへの移行も支援しています。オープンソースのビデオデコーダーにおいて、Argonのエージェントは3万2000行のコードを書き換え、2.7倍高速に動作するメモリ安全なデコーダーを作成しました。",
+          "t": 100.36
+        },
+        {
+          "speaker": "Mika",
+          "en": "What are the pricing details and capabilities?",
+          "ja": "価格の詳細や機能はどうなっていますか？",
+          "t": 122.48
+        },
+        {
+          "speaker": "Alex",
+          "en": "It will launch at an introductory price of 2 dollars per million input tokens and 10 dollars per million output tokens. Google also expanded the output token limit to an industry-leading 1 million tokens, up from 64 thousand, allowing the model to think deeply and generate hundreds of thousands of tokens in a single trajectory.",
+          "ja": "導入時の特別価格として、インプット100万トークンあたり2ドル、アウトプット100万トークンあたり10ドルで提供されます。また、Googleはアウトプットのトークン制限を従来の6万4000トークンから、業界をリードする100万トークンへと大幅に拡張し、モデルが深く考え、1回の実行で数十万トークンを生成できるようにしました。",
+          "t": 126.74
+        }
+      ],
+      "t": 43.76
+    },
+    {
+      "kind": "story",
+      "heading_en": "Micron Crushes Earnings on Unprecedented AI Memory Demand",
+      "heading_ja": "Micron、前例のないAIメモリ需要により予測を大幅に上回る決算を発表",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Next, let us look at the semiconductor memory market, which is experiencing explosive growth. Micron Technology has reported a massive fourth-quarter earnings beat and issued incredibly strong forward guidance, driving its shares higher in after-hours trading. The primary catalyst here is an extraordinary eleven-fold surge in data center revenue, fueled by the relentless demand for high-bandwidth AI memory solutions.",
+          "ja": "次に、爆発的な成長を遂げている半導体メモリ市場を見てみましょう。Micron Technologyは第4四半期の決算で大幅な業績上振れを発表し、非常に強力な通期見通しを提示したため、時間外取引で株価が上昇しました。ここでの主な原動力は、高帯域幅のAIメモリソリューションに対する絶え間ない需要に後押しされた、データセンター部門の売上高の11倍という驚異的な急増です。",
+          "t": 148.41
+        },
+        {
+          "speaker": "Mika",
+          "en": "An eleven-fold increase in data center revenue is staggering, Alex. Are there any warning signs in these results, or is it clear sailing for Micron?",
+          "ja": "データセンター部門の売上高が11倍になるというのは驚異的ですね、Alex。今回の決算に何か懸念材料はありますか、それともMicronにとって順風満帆なのでしょうか？",
+          "t": 175.83
+        },
+        {
+          "speaker": "Alex",
+          "en": "While the overall results blew past Wall Street estimates, some analysts highlighted a few potential points of concern. For instance, according to Yahoo Finance, Micron's inventory levels have increased. Some experts are also keeping a very close eye on gross margins to see if rising manufacturing costs might squeeze profitability later on.",
+          "ja": "全体的な業績はウォール街の予想を上回りましたが、一部のアナリストはいくつかの懸念材料を指摘しています。例えば、Yahoo Financeによると、Micronの在庫水準が増加しています。また、製造コストの上昇が将来的に収益性を圧迫しないかどうか、粗利益率を注視している専門家もいます。",
+          "t": 186.49
+        },
+        {
+          "speaker": "Mika",
+          "en": "That makes sense. But the backlog is swelling, which means customer demand is still outstripping supply for AI-related memory, correct?",
+          "ja": "なるほど。しかし、バックログ（受注残）が膨らんでいるということは、AI関連メモリに対する顧客の需要が供給を上回っているということですね？",
+          "t": 209.11
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly, Mika. Micron's high-bandwidth memory backlog is massive. They forecasted first-quarter revenue well above consensus estimates, showing that the physical infrastructure layer of the AI boom is still expanding rapidly. For memory makers, the near-term outlook remains incredibly robust.",
+          "ja": "その通りです、Mikaさん。Micronの高帯域幅メモリのバックログは膨大です。彼らは第1四半期の売上高を市場予想を大きく上回る水準と予測しており、AIブームの物理的なインフラレイヤーが依然として急速に拡大していることを示しています。メモリメーカーにとって、短期的な見通しは非常に堅調なままです。",
+          "t": 218.97
+        }
+      ],
+      "t": 148.41
+    },
+    {
+      "kind": "story",
+      "heading_en": "Google DeepMind Launches SynthID Bio for Synthetic Protein Watermarking",
+      "heading_ja": "Google DeepMind、合成タンパク質向けの透かし技術SynthID Bioを導入",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Alex, as a public health policy researcher, our next story really caught my eye. Google DeepMind has introduced a technology called SynthID Bio. It allows researchers to watermark synthetic biology designs, specifically artificial intelligence-designed proteins, while keeping their biological functions completely intact.",
+          "ja": "Alex、公衆衛生の政策研究者として、次のニュースは本当に目を引きました。Google DeepMindがSynthID Bioと呼ばれる技術を発表しました。これは、研究者がAIで設計したタンパク質などの合成生物学のデザインに、その生物学的機能を完全に維持したまま電子透かしを入れることができる技術です。",
+          "t": 238.56
+        },
+        {
+          "speaker": "Alex",
+          "en": "This is a major biosecurity breakthrough, Mika. While AI tools help design amazing things like plastic-digesting enzymes, they can also be used to create dangerous toxins or alter viral proteins. Current screening software cannot easily identify these newly designed proteins because we do not have records of them.",
+          "ja": "これはバイオセキュリティにおける極めて重要なブレイクスルーです、Mikaさん。AIツールはプラスチックを分解する酵素のような素晴らしいものの設計を可能にする一方で、危険な毒素を作ったり、ウイルスタンパク質を改変したりするのにも悪用されかねません。現在のスクリーニングソフトでは、これら新規に設計されたタンパク質の記録がないため、容易に特定することができません。",
+          "t": 259.94
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does SynthID Bio actually embed a watermark into a protein?",
+          "ja": "SynthID Bioはどのようにして実際にタンパク質に電子透かしを埋め込むのですか？",
+          "t": 280.89
+        },
+        {
+          "speaker": "Alex",
+          "en": "It builds on Google's existing SynthID technology, which watermarks digital text and images. For proteins, the AI subtly biases the selection of amino acids in a way that is invisible to the eye but recognizable with a verification key. Even though proteins are small, lab tests proved these watermarked proteins matched the natural performance of unwatermarked versions.",
+          "ja": "これは、デジタルテキストや画像に電子透かしを入れるGoogleの既存のSynthID技術に基づいています。タンパク質の場合、AIがアミノ酸の選択に微妙なバイアスをかけることで、目には見えないものの、検証キーを使えば認識できるようにします。タンパク質は分子が小さいですが、実験室でのテストでは、この透かし入りタンパク質が透かしのないものと同等の自然な性能を発揮することが証明されました。",
+          "t": 286.32
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is crucial for biosecurity policy. If we can verify the provenance of benign scientific designs, we can easily identify and scrutinize untrusted or unknown protein structures. This is a huge step for global health policy and open science databases.",
+          "ja": "バイオセキュリティ政策にとってそれは極めて重要ですね。安全な科学的デザインの出所（プロベナンス）を証明できれば、信頼性の低い、あるいは未知のタンパク質構造を容易に特定し、厳密に検査することができます。これは、グローバルな保健政策とオープンサイエンスのデータベースにとって大きな一歩です。",
+          "t": 310.72
+        }
+      ],
+      "t": 238.56
+    },
+    {
+      "kind": "story",
+      "heading_en": "TSMC Actively Weighs Texas Factory Expansion Beyond Arizona",
+      "heading_ja": "TSMC、アリゾナ州に加えてテキサス州への工場拡張を前向きに検討",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Moving on to semiconductor manufacturing. Reports indicate that Taiwan Semiconductor Manufacturing Company, or TSMC, is actively evaluating a massive new factory expansion in Texas. This would be on top of its existing 265 billion dollar investment plan in Arizona, where it makes the world's most advanced computer chips.",
+          "ja": "半導体製造の話題に移りましょう。報道によると、Taiwan Semiconductor Manufacturing Company（TSMC）が、テキサス州での大規模な新工場建設を積極的に検討しているとのことです。これは、世界最先端のコンピュータチップを製造しているアリゾナ州での既存の2650億ドルの投資計画に追加されるものです。",
+          "t": 328.3
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is fascinating, Alex. TSMC is already deeply committed to Arizona, where it is building multiple facilities. Why would they look at Texas next?",
+          "ja": "それは興味深いですね、Alex。TSMCはすでに多くのアリゾナ州の施設建設に深くコミットしています。なぜ次にテキサス州に目を向けているのでしょうか？",
+          "t": 349.03
+        },
+        {
+          "speaker": "Alex",
+          "en": "In Japan, there is a strong focus on revitalizing our domestic semiconductor industry, especially in Mie and Iwate prefectures. How does this collaborative research help Kioxia compete with larger rivals like Samsung or SK Hynix?",
+          "ja": "日本では、三重（みえ）県や岩手（いわて）県をはじめ、国内の半導体産業の活性化に強い関心が寄せられています。この共同研究は、KioxiaがSamsungやSK Hynixといった巨大なライバルに対抗する上でどのように役立つのでしょうか？",
+          "t": 359.37
+        },
+        {
+          "speaker": "Mika",
+          "en": "Building six factories in Texas is a massive undertaking. Is this driven by customer demand, or is it about government incentives?",
+          "ja": "テキサスに6つの工場を建てるというのは膨大な事業ですね。これは顧客の需要によるものですか、それとも政府のインセンティブが関係しているのでしょうか？",
+          "t": 374.55
+        },
+        {
+          "speaker": "Alex",
+          "en": "Both play a major role, Mika. Major American tech giants want advanced chips made domestically. By expanding beyond Arizona, TSMC can secure more geographic diversity and tap into different local labor markets and stable utility grids, which are critical for water-and-power-intensive chip fabrication.",
+          "ja": "Mikaさん、両方が大きな役割を果たしています。米国の主要なテック大手は、最先端チップが国内で製造されることを望んでいます。アリゾナ州以外にも拡張することで、TSMCはより優れた地理的多様性を確保し、水や電力を大量に消費するチップ製造に不可欠な、異なる地域の労働市場や安定した電力網を活用することができます。",
+          "t": 383.81
+        }
+      ],
+      "t": 328.3
+    },
+    {
+      "kind": "story",
+      "heading_en": "Kioxia Partners with Applied Materials to Accelerate AI Memory R&D",
+      "heading_ja": "Kioxia、Applied Materialsと提携してAIメモリのR&Dを加速",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Let us bring it back to Asia with some major research and development news. Japanese memory maker Kioxia has officially joined Applied Materials' EPIC Center. The two companies will jointly develop next-generation memory technology specifically optimized for artificial intelligence workloads.",
+          "ja": "アジアに目を戻して、大きな研究開発のニュースをお届けします。日本のメモリメーカーであるKioxiaが、Applied MaterialsのEPIC Centerに正式に参加しました。両社は共同で、人工知能のワークロードに特化して最適化された次世代メモリ技術を開発します。",
+          "t": 403.35
+        },
+        {
+          "speaker": "Alex",
+          "en": "This is a vital partnership, Mika. Applied Materials is the world's largest semiconductor equipment manufacturer, and their EPIC Center is a premier hub for collaborative research. Kioxia joining this platform highlights how critical Japanese memory technology is to the global AI hardware ecosystem.",
+          "ja": "これは不可欠なパートナーシップです、Mikaさん。Applied Materialsは世界最大の半導体製造装置メーカーであり、彼らのEPIC Centerは共同研究のための最高峰のハブです。Kioxiaがこのプラットフォームに参加することは、世界のAIハードウェアエコシステムにとって日本のメモリ技術がいかに重要であるかを際立たせています。",
+          "t": 422.35
+        },
+        {
+          "speaker": "Mika",
+          "en": "In Japan, there is a strong focus on revitalizing our domestic semiconductor industry, especially in Mie and Iwate prefectures. How does this collaborative research help Kioxia compete with larger rivals like Samsung or SK Hynix?",
+          "ja": "日本では、三重（みえ）県や岩手（いわて）県をはじめ、国内の半導体産業の活性化に強い関心が寄せられています。この共同研究は、KioxiaがSamsungやSK Hynixといった巨大なライバルに対抗する上でどのように役立つのでしょうか？",
+          "t": 441.77
+        },
+        {
+          "speaker": "Alex",
+          "en": "By working directly with the equipment giant Applied Materials, Kioxia can significantly accelerate its research and development cycle. They can test new materials and advanced manufacturing processes much faster. This is absolutely essential as the industry transitions to the next-generation memory architectures required to keep up with AI's massive data demands.",
+          "ja": "製造装置の巨人であるApplied Materialsと直接協力することで、Kioxiaは研究開発サイクルを大幅に加速できます。新しい材料や高度な製造プロセスをはるかに迅速にテストできます。業界がAIの膨大なデータ需要に対応するために必要な次世代メモリ構造へと移行する中、これは絶対に必要なことです。",
+          "t": 456.95
+        },
+        {
+          "speaker": "Mika",
+          "en": "It also helps Kioxia stay ahead of the curve as next-generation memories like high-bandwidth memory become the standard.",
+          "ja": "高帯域幅メモリのような次世代メモリが標準となる中で、Kioxiaが時代の最先端を走り続けるのにも役立ちますね。",
+          "t": 480.31
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. Joint development reduces the time it takes to bring these complex memory chips from the lab to high-volume manufacturing.",
+          "ja": "その通りです。共同開発により、これらの複雑なメモリチップを研究室から大量生産へと移行させるのにかかる時間が短縮されます。",
+          "t": 488.98
+        }
+      ],
+      "t": 403.35
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "Executive Leadership Spotlight: AMD Acquisitive Push and Arm Bottlenecks",
+      "heading_ja": "CEO Watch：AMDの買収攻勢とArmのボトルネック",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now for our CEO Watch. We have two key executive moves today. First, Advanced Micro Devices, or AMD, has agreed to acquire World Labs, the generative artificial intelligence startup founded by legendary AI researcher Fei-Fei Li, for 8.2 billion dollars in stock. Fei-Fei Li will join AMD as an executive vice president and chief scientist.",
+          "ja": "ここでCEO Watchです。本日は経営陣に関する2つの重要な動きがあります。まず、Advanced Micro Devices（AMD）が、伝説的なAI研究者であるFei-Fei Li氏が創業した生成AIスタートアップ、World Labsを82億ドルの株式交換で買収することに合意しました。Fei-Fei Li氏は、エグゼクティブバイスプレジデント兼チーフサイエンティストとしてAMDに参画します。",
+          "t": 498.75
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is a massive acquisition. It shows AMD is aggressively buying top-tier talent to catch up in the AI race. Meanwhile, what did we hear from Arm?",
+          "ja": "大規模な買収ですね。AMDがAI競争を追いかけるために、トップクラスの優秀な人材を積極的に取り込んでいることが伺えます。一方で、Armからはどのような動きがありましたか？",
+          "t": 521.16
+        },
+        {
+          "speaker": "Alex",
+          "en": "Arm CEO Rene Haas cited ongoing supply chain bottlenecks for missed revenue targets. Despite seeing record-high demand for their processor designs, Haas noted that constraints in the wider supply chain are still holding back their financial potential.",
+          "ja": "ArmのCEOであるRene Haas氏は、売上目標に届かなかった要因として、継続するサプライチェーンのボトルネックを挙げました。プロセッサ設計に対する需要が過去最高を記録しているにもかかわらず、Haas氏は広範なサプライチェーンの制約が依然として業績の伸びを妨げていると指摘しました。",
+          "t": 531.81
+        }
+      ],
+      "t": 498.75
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: Outstrip",
+      "heading_ja": "今日のフレーズ：Outstrip（〜を上回る）",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "It is time for our Phrase of the Day. Today, I noticed the term 'outstrip,' which Alex used when discussing Micron. He said, 'demand is still outstripping supply.' 'To outstrip' means to be greater than or to exceed something else. In business, we often say demand outstrips supply when a product sells faster than it can be made. For example, 'Orders for the new electric vehicle have outstripped production capacity.'",
+          "ja": "今日の「Phrase of the Day」の時間です。本日、Micronの話題の中でAlexが使った「outstrip」という言葉に注目しました。彼は「demand is still outstripping supply（需要が依然として供給を上回っている）」と言いました。「to outstrip」は、何かを上回る、凌駕するという意味です。ビジネスでは、製品が製造スピードを上回る速さで売れる際に「需要が供給を上回る」という形でよく使われます。例えば、「Orders for the new electric vehicle have outstripped production capacity（新型電気自動車の注文が生産能力を上回った）」のように使います。",
+          "t": 548.8
+        }
+      ],
+      "t": 548.8
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Signing Off",
+      "heading_ja": "お別れのご挨拶",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That is all for today's Silicon Commute. Remember, the hardware demands of AI are driving massive strategic expansions across both memory and foundry networks.",
+          "ja": "今日のThe Silicon Commuteは以上です。AIのハードウェア需要が、メモリとファウンドリの両方のネットワークにわたり、大規模な戦略的拡大を促していることを心に留めておいてください。",
+          "t": 576.13
+        },
+        {
+          "speaker": "Mika",
+          "en": "Thank you for listening. Have a productive day in Kyoto and beyond. See you on tomorrow's commute.",
+          "ja": "お聞きいただきありがとうございました。京都の内外で、実りある一日をお過ごしください。それでは、明日の通勤時にお会いしましょう。",
+          "t": 587.46
+        }
+      ],
+      "t": 576.13
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Google Announces Gemini 4 Argon Frontier AI Model with Restricted Access",
+      "title_ja": "Google、先行アクセス制限付きの最先端AIモデル「Gemini 4 Argon」を発表",
+      "summary_ja": "Googleは、ソフトウェア開発やサイバーセキュリティ防衛などの極めて複雑なプロセスにおいて最高峰のパフォーマンスを発揮する次世代AIモデル「Gemini 4 Argon」を発表しました。このモデルはアライメントの検証や安全な展開を確保するため、当初は米政府との協力のもと「信頼できるサイバー防衛担当者」のみにアクセスが制限されます。内部テストでは、量子計算や Rust コード移行などの複雑なタスクで極めて高い成果を上げています。",
+      "why_ja": "高度なAIモデルの安全な運用を確保するための米国政府との連携と、リリース制限の動きは、今後のAI安全基準とガバナンスに大きな影響を与えます。",
+      "companies": [
+        "Alphabet",
+        "Google",
+        "OpenAI"
+      ],
+      "sources": [
+        {
+          "publisher": "Google Blog",
+          "title": "Gemini 4 Argon: our next era of frontier intelligence",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "Google announces Gemini 4 and says it’s so capable that only ‘trusted cyber defenders’ can have it right now",
+          "url": "https://www.theverge.com/tech/1002980/google-gemini-4-argon"
+        },
+        {
+          "publisher": "Ars Technica",
+          "title": "Google announces Gemini 4 Argon AI model, but you can't use it yet",
+          "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Google announces Gemini 4 flagship AI model after months of delays",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa0kxM3JDazhISnQtVGJ1Q2phRmxPR2Mtb2R4X1dQX0U3TkVZLWV0YUZNSnRfQ25OQnRuWHpNczNHSzhCZFFkdHFCWEVXYUhuazBDLWJ0eV92WU9nMDR6Nnl5ZDRCOG5UdWtwNnpTNkVtS2NLejVrX1Y3eXFvbDRMc0Y2Q2hvN0Q5YTEzTVA3NDFLaHprbnpuNWVBejNPVUlKemJCSHZUcHZSVE9iNmt3TWxXMXFBWkU?oc=5"
+        },
+        {
+          "publisher": "Barron's",
+          "title": "Google Unveils New AI Model Gemini 4 Argon, Sending Alphabet Stock Higher",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRTVoX2xTZ0c1Mkl5YjNaN2lUaThaMTJFSHQ4RXZsdUtiX2EzT0NCbFM5cFFpMlNBT0F1WTNiQUV2T2VtRDdSYnJ5MlRLTUc3UVVTd2FOYjl5SWNZMUk5ZWFhR21KSmlNdDNKZXNpa0ZyVFVYU0tidWppbUdPMmp1Vkd5UEZMaVVG?oc=5"
+        },
+        {
+          "publisher": "Business Insider",
+          "title": "Google Launches Gemini 4 Argon to Reclaim the AI Frontier",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZjhXNFB6ekptRTRrZW1GY0lVRHhBMWZjSzlWeDZGVDJKdjJQczd6YXdHWS0wWDdHNnB4SWh2WUxVZHkxVEZsNngxSlp5WmxvOFV4eHpyYTQ5LWY2NnN1c0xIbVJlLXQtcjZSWWJEOC1sTHZwN3VhTUg2RXQ1TnNjWGlwdU4zWlZ5Ym96bXNSbU5pMDQ5eW9HX1ZxbFpQV0VrV3JUOVZVWVlEOWM1Ui12eQ?oc=5"
+        },
+        {
+          "publisher": "cnbc.com",
+          "title": "Google rolls out Gemini 4 Argon, its most advanced AI model",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA3RWVHRldQeDcwbUo2d1FlaUEza2FnMFJZX0xuRGtGZWFyamU4TTJfM09MWHhVeDB1X0o1Y2d2VzJzeFZiQi0zOThLZkdDX1VvWnNTUkxmLXFWa1U5bHotNEliUm83M1htWWNGcWR30gFzQVVfeXFMUDZ2SVZ0VVhMa01TVnJ4UXN2Yk9VQXBadXlobU5wY0hyUndwNzFBT19kNnVzTzZ6Z3JIa253TmdubVdSYXBoNU9hNHYwNDE4TzRkZXlOdzJ2OXRxc2hNSDB5TzFfRmNIR2tpbXBwb3psTHZ6RQ?oc=5"
+        },
+        {
+          "publisher": "9to5Google",
+          "title": "Google announces Gemini 4 Argon as its new frontier model",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1DX0dBbm9wUU1OSUpDTWRhekFpejdWbm1IQVBYQ1JJQld1WHFnckczMFl1THZVUGZObDU0TzRXaGFaS2Z2eUhHOFpjNl9BcHNDbTNKT05TRXRIc1FsZTJtQzV3ZmxQYnYxVG5jbzdhWQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Micron Reports Massive AI-Driven Q4 Earnings Beat and Upbeat Guidance",
+      "title_ja": "Micron、AI需要により第4四半期業績が市場予想を大幅超過、強気な見通しも提示",
+      "summary_ja": "Micron Technologyは第4四半期決算を発表し、データセンター向けメモリ部門の売上高が11倍に急増したことで、市場予想を大幅に上回りました。同社が発表した強気な第1四半期見通しも株価を押し上げています。高帯域幅メモリの旺盛な需要による受注残が拡大する一方、一部アナリストは在庫増加や粗利益率への影響を注視しています。",
+      "why_ja": "データセンター向けメモリの劇的な急増は、AIインフラの拡張期が持続していることを裏付け、半導体全体のロードマップを強力に牽引しています。",
+      "companies": [
+        "Micron Technology"
+      ],
+      "sources": [
+        {
+          "publisher": "Forbes",
+          "title": "Micron Earnings Crushed Estimates—Its Gross Margin Is The Warning",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQm5fR3BWbURnVmZNc3lfN0EtelVCZW1uN0VGYkZvY0pZZjFZcDdTQ29ueTFGU3NuNGctY2JqdE05U1RtYlFRMXZiRzlISnJFMEd4UDlLTXF5SGNqM24tMG5COHFGOHFFZFNfdmRNSlNJeUpQWEg4RU5nTENpQ2I3eUtlNG1YX0lTbW1uSEI5ajVVbFFFYVFsaV9WTHFfQjh5SDI5eTdXUGl5dTBYVmpXeUxPSWFZUQ?oc=5"
+        },
+        {
+          "publisher": "Investing.com",
+          "title": "Micron forecasts stronger first quarter as AI demand accelerates, shares jump",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZUtVVHUxeW1XanNRQWJ2MlkyQWRMOE5rVEw5aXpMN2RQLWZRWnFvNHN0bDMzTGtfNXV6cWxTR2JHR0FrbXBPVjhOSTRYN2F3RlZGaFNVMjJiZzdPdC04UjNacmpUQ2RJdjFxbkcwdzI2Z2pTZkRwVFo0cWptc2ZPZzJxdlBkd3lVb3VkSzB3VnhwbnpCUFVvRS1OblRzQXE3TGNmNEhTSGZLSVA3bHRicHVLa1RRQnl1WXpxY2xhdG1HelU?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Micron's AI-fueled revenue forecast blows past estimates, backlog swells",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSGljZXdlMjRDc2xMM29UN0s3NmM2cXVLUjVmbEdWRHVpRUwyeWltZDRNVUU0VDlYenBNc3lnVVh2SHprdnFSN3RjTWhKR3JYRk4xWHRtSzg5Qi01c3RuaGJnWDl3emxPZDhzckpDVlpRLUxENWlENUpXYWliRmtLc2FfNkFoQ2g2bEZFbWpULVRhQllzX0NDTFJTZw?oc=5"
+        },
+        {
+          "publisher": "seekingalpha.com",
+          "title": "Micron rises as Q4 results, guidance top estimates (MU:NASDAQ)",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTVg5UTBndkpDRm04VFJYdEMyTndjQ0tJRld1aVJsOWd0YXllRFhWSjZGXzJEbHUzRmhMVGF3cVpBTU5lNklIRE5KRDU5VEM4TW42NjVyb2RuREw0QVBkdm5jZDE3VElWYXhpaTE5WWY0Z1VrbGZWT0hlT0ZMNW5oRDZMeWpfc3R4VV9WVy1FcGs2Y2VPcWNZ?oc=5"
+        },
+        {
+          "publisher": "Investing.com",
+          "title": "Micron forecasts quarterly revenue above estimates By Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU1FlVmp6VmxPdGJkQ3pqS2EtbGFmOVNLenppMVlkWGVCdlk3R3pVWWNPUFBFMlB5VHdmRVB1S25mbk1RUklfUUFEeE90NThfNzFENEd1RDFzXzRnMFJ4QS1qVmRBQW9IU2pQZE1yMzF1dmVkQTNFQm8zWmh6WnJ5amNaWDZNdElpbUxhOUxrU1NoMFhRbEFGOGRhWXNvejJ5ekJ1NlBCVmNYYUU?oc=5"
+        },
+        {
+          "publisher": "cnbc.com",
+          "title": "Micron reports better-than-expected revenue and earnings, beats on guidance",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOc3FrSm1FUlJOTWtOVzV2dEtGZXdfM2tRZVlzNkpNUmdyTjhvX19UcWszeVQtR3ZVYmg1VU93cnVFUFBtR05iSm9jc0xiWWVIUnh2Zzl2SDBjNkVlNUpFMXF6RGpOV0VLbEFKWVl6VkRidkl4VGp6enJvME5POS0zaENJLTNxcFVpUmFoclg4TGhPS2ptZ1hYN21lOEFkOFJpeFRXZDYzSnNlNnVva19CbDAwMjhoZ1pP?oc=5"
+        },
+        {
+          "publisher": "cnbc.com",
+          "title": "Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1PSFA1cXl4cDVITm14U0I1M1pXYnA3ak9LbDVvbkZ1WE15T3RROE1ockpDdWdBRXhUNXlPRTMzeURtbkZLdVAwLWkwaS1UUVloNDVsUGVQRGhQOTUzNXFld0RJaTNfemRiOFY4enFzdDZqUmdHQ0JyTzNn0gF_QVVfeXFMTmtvM2lhcV9sSWxYSEdxNmNSODBOLVhEN3NzdDNTUVRDNklvOXJWYjFISFkwWkFKaUNNMXdRMnczWi1SVkxkU3hxcEJKRFV2eEFpLWNveDRPbExBYnNITVRlYnVYZjJfM2wySXpqTDU5ZjAtaXRLaEZ2MjJQMkVhVQ?oc=5"
+        },
+        {
+          "publisher": "Yahoo Finance",
+          "title": "Micron (NASDAQ:MU) Delivers Strong Q3 Numbers But Inventory Levels Increase",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdEVxYWFLVnd6WXlGY29pS0czYXdqMUo1T3FIc0VIZlFJdlJMNGhCVDJlck9xal9tMjlqd1BFYVlqdW1DaU9EOWhZTlpXOGFpY1l4MEdDMUN0Z0ZFejV5Qllab3FfVlBnZDMzMHJzT1o4MkZkekh5eS1jSDV6eE5wVjR1OFBjemw4cVZIcWVJdHI3MERxbExUVUdGdWQwZw?oc=5"
+        },
+        {
+          "publisher": "Bloomberg.com",
+          "title": "Micron Forecast Tops Estimates on Booming Demand for Memory",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQX0xiUE1NS0k5MzQxcXd5OUwwZ25XekZGSG0xWkFnbEctNUwwNlFEakExZ2dCeFdrNHNCeG9Yekk1V1dRWnVRVXUzUnZuVkp2OFJRZTJfcG1waGcxVHFzdGtacmU4Z3k5UEtlc29wMEwyajFXOThwN1U2d2kxSG1md2V3VS00RFJ0U0VBREZxaldSSTYwS3U5bFVWSVlMUHlmLUp5V240ZlAwdnZHQUo2eg?oc=5"
+        },
+        {
+          "publisher": "Yahoo Finance",
+          "title": "Micron tops Q4 estimates on top and bottom lines, offers strong Q1 outlook",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNDlVYjVua3UtY2o4RFFRQi00bDE1dWFkbmRGWEc1UThTV2xsYTd2Y2YxYm44NjNQaGpfZWhFZVQtV0wzLWo4RlNXWWI0LVpKOGJuSFIxMmc5cHFiVmVKeDlCLVdiN0xjamdYYzdLcVA3OXlTb1hXSW9SM21zN3oxQVY2R1BJY0RmaEJFWURtYzB4UERCWGRzblNGWDB0VGljMU0taktnSloxTG1NM2Y0R1pHb2RnSmRyN0Eta0w0b0MtSTNFN1hiRWdfTC1uQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Alphabet Introduces SynthID Bio to Watermark Synthetic Biology Designs",
+      "title_ja": "Alphabet、合成生物学デザインに電子透かしを入れる「SynthID Bio」を発表",
+      "summary_ja": "Google DeepMindは、AIによって設計されたタンパク質にその機能を維持したまま不可視の電子透かしを埋め込む技術「SynthID Bio」を導入しました。これにより、AIが設計したタンパク質構造の出所（プロベナンス）を証明できるようになります。この技術はオープンな科学データベースの完全性を保ちつつ、バイオセキュリティ上のリスクを抑えるための重要なステップとなります。",
+      "why_ja": "AIを活用した合成生物学の急速な進展に伴い、 biosecurity（生物兵器や毒素の不正設計防止）への政策対応とデータベース管理のルール策定が急がれます。",
+      "companies": [
+        "Alphabet",
+        "Google DeepMind"
+      ],
+      "sources": [
+        {
+          "publisher": "Google Blog",
+          "title": "We’re introducing SynthID Bio, bringing our watermarking technology to synthetic biology.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-bio/"
+        },
+        {
+          "publisher": "Ars Technica",
+          "title": "Google figures out how to watermark AI-designed proteins",
+          "url": "https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/"
+        },
+        {
+          "publisher": "deepmind.google",
+          "title": "SynthID Bio: Watermarking methods for synthetic biology",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE40WVZXTHl5UmxibkdDVUlrUlBoNWVCb0lUaThwcDd3QjVLM1FSd0lKSzlROC1sazVFUThoWWZlMWd4SmdObWgtU0g2cXFQM05RbGwyMzMydGZWbDI4V0JQVTJZQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "TSMC Evaluates Additional Texas Fab Expansion Beyond Arizona Footprint",
+      "title_ja": "TSMC、アリゾナ計画に加えテキサスでの半導体工場拡張を検討",
+      "summary_ja": "Taiwan Semiconductor Manufacturing Company（TSMC）が、アリゾナ州で展開中の2650億ドルに上る投資に続き、新たにテキサス州での製造拠点（ファブ）構築を検討していると報じられました。TSMCはテキサス州で最大6つの製造棟を建設することを視野に入れています。この動きは、米国内での製造拠点のさらなる多様化と、サプライチェーン強靭性の強化を狙ったものとみられます。",
+      "why_ja": "米国内での製造ネットワークの多極化は、地政学的リスクを分散させるとともに、現地の技術エコシステムと安定的なインフラ網を確保するための半導体企業の多角化戦略を示しています。",
+      "companies": [
+        "TSMC",
+        "Samsung",
+        "Texas Instruments"
+      ],
+      "sources": [
+        {
+          "publisher": "TechPowerUp",
+          "title": "TSMC Reportedly Evaluating Texas Expansion Besides $265 Billion Arizona Plan",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTm8tY2wyS2FaMnhycnlXMmRrcjgwa3IwNW9wMkVmNTBkV2FEekptZzNzQndFTk9RajJxOF9mSWVRUGZ4RU9YZXdqQ29nRWUzMlNMQjhHYTI2M0NUZUM0aXN1bnJfWG5DMWp1SkdkQ2ptYXBMa3NxLXVKOFdWbVB1RVJnVVBuYmpPZzZMNVdlVl9xbTlvTFN1a0R1RXJoRzJyNkJvaVV2QnFvRGpGMldQalQtaknSAboBQVVfeXFMT2dKSU5jR1Rtd0JPM0Fsbm0taTdVRHhsczB1SHNFWE1FLW1ZOWQ1clpBYm1KSjFkN19zNFNoU2hFOUJ0MDMwV3dVamhjYzhiaHUxeUk3SXVYMW9HdkszZTNBQmU4UkUxQlB1SWpQU3VkVzRMbDBWRWI1azBYZUhyY3lKVHRNMV85eUtmZ21udkNUUmIwRjJJa0d2UjFvOGlpLVdFeHNpUzNYbHNSYzdlSG9Ta2VlRlVvOV9R?oc=5"
+        },
+        {
+          "publisher": "Electronics Weekly",
+          "title": "TSMC looking to build six fabs in Texas",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSFp5aUlRbFZRQVVzZnEySGkwd1prcEN3NFh1VEVHT2dKdllHaUFhN3N1NHBIMjhWay12Rmg5cjRraFBBNFFZSHFDZVJlZ1k5NUdxbTEzSGpETDEySGJ6dEZOZXNtUUVIY2pCUUdtWFVkOFlUQ3llY1lyYWtxNm1aUVNybndqOGNQODNBdEpFOTNEVUV6MXJvT0I2akY?oc=5"
+        },
+        {
+          "publisher": "Stocktwits",
+          "title": "TSMC Reportedly Weighs Texas Chip Investment On Top Of $265B Arizona Push",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR1Z0ZkV1NDk2aHFPcHRDSnNnd0hYaHlubDFkRmlVbjFsb2Q5Y2VGLU1nY0w4SURmaklaeTI5UWFLYTJkcVhwVGlvY0xLS1pfSGF0N05xMXNKWVJVczlpdE41S00xbVRNeU9LZVlUUW5ZZnQ0SFhYMG9IT1IxNDVIdGlrQlFWbklhT2F2bFpIOENGX1RTWmd6cHdBMUpyckhLSFNzcVZMZkd6M202WWpCVXJoOEwtS0lrbGJHWlR3TFFjbU94?oc=5"
+        },
+        {
+          "publisher": "KJZZ",
+          "title": "TSMC makes the world’s most advanced computer chips. Why invest in Arizona?",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWjdJTE40cERpNjdka0syRDktQVdoZDBRSVZUb2VWT0F0Szh6QkljVFJITWI0cHh5YXB2OEJWOTNKYVEwaEZWck0zLW1IVlhYZVpzTUd3eHEzWHJFYjlkQ3VCbC1jMmt3X0J2TGhreW1mY285LTg0Z0lOSFQxMjBXeERkQ0p4aEh5LXdQaGNrU0dETUFKbUxQYVAyajNKZnVuYVN0WDhGMXd4RkUxRXJSRHM2VQ?oc=5"
+        },
+        {
+          "publisher": "TradingView",
+          "title": "TSMC weighs Texas investment to expand U.S. chip production: report",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPb2NLQjdFeXhYS2FRVTltdFZpU2xvMUk0aUNHNFQxSjhPa2NjVEtJSE5VemtfRXl0X2UyaklXdHFKVGJ3T2JhamFzdWg2d1Z6LTlSQ2t4bFdVMEtRQ1gwcEFyN2laMkJJby1GV0ZiMEJVWktIYVRrXzRRTFY5SFdNUkhhY2x1RzNoSldieW9BRmdOZVVWTzhYM21VUFJvUE9QajBicVpjNUd0VXk4ajd6RzUxb1ptSGpENzR5aFFVMnBrMklzSUdz?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "TSMC evaluates potential Texas investment, sources say",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbk5sR25ad2FWc2RmSWZua1F3Mi1OR1NtTGx5bi1lQ1I0MHlmSHNyUXRGNUd5WmtOVEFMazFUY0FnM0tHdG8zbUF4QjlsaUNJWHhaZ2RXaWtUZHZhN0QteXRiNFNzb3pWcjA0Ty14cFJPenZhV0xnWktra01NaTNYa2s0Q0pEY0FxS20wV0lleWYzWGstYllNc1c3MFFxLXY1X3F4YjI5LXBhbG1J?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Kioxia Joins Applied Materials' EPIC Center for Next-Gen Memory R&D",
+      "title_ja": "Kioxia、Applied Materialsの「EPIC Center」に参加し次世代メモリのR&Dを共同開発",
+      "summary_ja": "日本のメモリメーカーであるKioxiaが、世界最大の半導体製造装置メーカーであるApplied Materialsが率いる「EPIC Center」に参画することを表明しました。両社はAI向けに最適化された次世代メモリ技術を共同開発する予定です。このパートナーシップにより、先端材料やプロセスの検証期間が短縮され、先端メモリの早期量産化が可能になると期待されます。",
+      "why_ja": "日本の半導体復興を目指す中、装置メーカー最大手との直接提携は、先端メモリ技術の市場投入を加速させ、巨大なライバルに対抗する上で極めて有効です。",
+      "companies": [
+        "Kioxia",
+        "Applied Materials",
+        "Samsung",
+        "SK Hynix"
+      ],
+      "sources": [
+        {
+          "publisher": "thelec.net",
+          "title": "Applied Materials, Kioxia to Jointly Develop Next-Generation Memory",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaajJjZ3ZiMUZ0dl9aSjQ1eVY5T0l0SzlZV0E1SzkzTmZIa01QYXFRVXUxWDF3clpDUTlQalNJWEFIZUtaeU9QYkZkT1djaVRpNDdxYmRkMC1oVlJOUWd6OGk0a0w1QU0?oc=5"
+        },
+        {
+          "publisher": "Evertiq",
+          "title": "KIOXIA joins Applied Materials' EPIC Center as memory makers line up",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSkNpaWlfUDNHc3lwMERma3dQRjNyVFZKUG9KTzJQMDNBMFotRFM4Y2JwQ2hBS1ljeGZsV0pkWDcxVDVkRms0WDA5UTAzaW1qM2RnLWtaM01TMENieGZ4QVFHZG43NDBOUy1MWGRCRU9RZG9QOHZnMkxqeTRZWUZld0t6NlZnXzQ3bU8ybXFvYTJPMVJLbHoyUUVnX1gtVDdmcUxpZXBkU0k?oc=5"
+        },
+        {
+          "publisher": "Chosunbiz",
+          "title": "Applied Materials and Kioxia co-develop next-gen AI memory at EPIC Center - CHOSUNBIZ",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1BQ28wSHZ5LUQ5VjNMYXQzMzNaOUlGcDB0bEtaS214NTNsejNxZzltTGMtVzNUU3RnbTNld1hUMWh1ZFlmczI2TUdPZ0tZUkFoYnlrc0twVnM4TEdnN0VBd1JYNzlTcGVWX0tGWVVDZzE4M2xwRXU0cjB30gGOAUFVX3lxTE4wYXBUeVlUbnVUcDM2c3EyUjdSR2lNRno1bU5pMEl2dE5Hc2NMcUxwdm8xLXFmMExOOGtYWjNERF9hdFI1Y1BtbUQ3WmVYM0pwbFpPR3Q3bVBFMW93UG5lS0thTWYtRXBxMXhFOXdzOU1vVENGb1pRUndpQTlFV0JKdWZpMGhQNm1adVp1VWc?oc=5"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "frontier performance",
+      "meaning_ja": "フロンティアレベル（最先端）の性能",
+      "note_ja": "AI分野において、現時点で開発可能な最も高度で先進的な技術レベルを指す表現です。",
+      "example_en": "Argon delivers frontier performance in complex workflows like software engineering, legal, finance, and cybersecurity."
+    },
+    {
+      "term": "cybersecurity defense",
+      "meaning_ja": "サイバーセキュリティ防衛",
+      "note_ja": "サイバー攻撃や情報流出などの脅威からシステムやデータを保護するための防御技術やプロセスのことです。",
+      "example_en": "Argon delivers frontier performance in complex workflows like software engineering, legal, finance, and cybersecurity."
+    },
+    {
+      "term": "earnings beat",
+      "meaning_ja": "市場予想を上回る決算内容",
+      "note_ja": "企業の発表した売上高や利益が、ウォール街のアナリストによる事前の平均予測（コンセンサス）を上回った状態を意味します。",
+      "example_en": "Micron Technology has reported a massive fourth-quarter earnings beat and issued incredibly strong forward guidance, driving its shares higher in after-hours trading."
+    },
+    {
+      "term": "forward guidance",
+      "meaning_ja": "業績の見通し、ガイダンス",
+      "note_ja": "企業が将来の売上高や利益などの財務指標に関して、投資家向けに示す公式な予測や方針のことです。",
+      "example_en": "Micron Technology has reported a massive fourth-quarter earnings beat and issued incredibly strong forward guidance, driving its shares higher in after-hours trading."
+    },
+    {
+      "term": "high-bandwidth memory",
+      "meaning_ja": "広帯域幅メモリ（HBM）",
+      "note_ja": "DRAMチップを垂直に積層してデータ転送速度を劇的に高速化した、AI処理（GPU等）に必須のメモリ半導体です。",
+      "example_en": "The primary catalyst here is an extraordinary eleven-fold surge in data center revenue, fueled by the relentless demand for high-bandwidth AI memory solutions."
+    },
+    {
+      "term": "biosecurity breakthrough",
+      "meaning_ja": "バイオセキュリティにおける画期的な進展",
+      "note_ja": "生物兵器の製造防止や、AIを用いた危険なウイルスの作成防止など、生物学的安全を維持する上での重要な発見・進歩のことです。",
+      "example_en": "This is a major biosecurity breakthrough, Mika."
+    },
+    {
+      "term": "supply chain resilience",
+      "meaning_ja": "サプライチェーン（供給網）の強靭性",
+      "note_ja": "災害や地政学的紛争、パンデミックなどの混乱が生じても、滞りなく部品調達や製造を維持できる体制や回復力を指します。",
+      "example_en": "Diversifying their manufacturing footprint within the United States helps build supply chain resilience."
+    },
+    {
+      "term": "manufacturing footprint",
+      "meaning_ja": "製造拠点、工場の物理的配置",
+      "note_ja": "企業が持っている工場の展開規模や地理的な広がりを指します。",
+      "example_en": "Diversifying their manufacturing footprint within the United States helps build supply chain resilience."
+    },
+    {
+      "term": "joint development",
+      "meaning_ja": "共同開発",
+      "note_ja": "複数の企業がそれぞれの技術を持ち寄り、新たな技術や製品を協力して作り出すことです。",
+      "example_en": "Joint development reduces the time it takes to bring these complex memory chips from the lab to high-volume manufacturing."
+    },
+    {
+      "term": "supply chain bottlenecks",
+      "meaning_ja": "サプライチェーンのボトルネック（障害箇所）",
+      "note_ja": "物流の遅れや部品不足などにより、全体の生産スピードが低下したり、製品供給が滞ったりする現象を指します。",
+      "example_en": "Arm CEO Rene Haas cited ongoing supply chain bottlenecks for missed revenue targets."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "outstrip",
+    "meaning_ja": "（量や速度などで）〜を上回る、凌駕する",
+    "example_en": "Orders for the new electric vehicle have outstripped production capacity.",
+    "example_ja": "新型電気自動車の注文が生産能力を上回った。"
+  }
+}
