@@ -1,0 +1,627 @@
+{
+  "date": "2026-10-02",
+  "published": "2026-10-02T08:28:07+09:00",
+  "title_en": "TSMC's Texas Expansion and Micron's Record RAM Profit",
+  "title_ja": "TSMCのテキサス拡張とマイクロンの記録的なRAM利益",
+  "summary_ja": "TSMCがテキサス州での大規模なAIチップ拠点建設を検討していることが明らかになりました。ブロードコムはアンソロピックに最大420億ドルの融資を行うことで合意し、AI投資の新たな形を示しています。また、マイクロンは過去最高の利益を記録し、RAM不足が2028年まで続くとの見通しを示しました。",
+  "duration": 688.5,
+  "audio": {
+    "file": "2026-10-02.mp3",
+    "bytes": 5508578,
+    "release_tag": "ep-2026-10-02"
+  },
+  "word_count": 1471,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "text": "gemini-3.8-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Introduction",
+      "heading_ja": "オープニング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it is Friday, October 2nd. Welcome to The Silicon Commute, your essential daily briefing on the global technology sector, investment trends, and the semiconductor landscape.",
+          "ja": "おはようございます。10月2日金曜日、「ザ・シリコン・コミュート」の時間です。グローバルなテクノロジーセクター、投資動向、そして半導体業界に関する必須のデイリー情報をお届けします。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Today, we have an absolute blockbuster lineup. We are covering TSMC weighing a massive second US chip hub in Texas, Broadcom's unprecedented forty-two billion dollar circular financing deal with Anthropic, and Google's breakthrough Gemini 4 Argon frontier model alongside its orbital data center testing with SpaceX.",
+          "ja": "本日も非常に中身の濃いラインナップとなっています。TSMCが検討するテキサス州での巨大な第二の半導体ハブ構想、ブロードコムによるアンソロピックへの420億ドルという前例のない循環型融資、そしてグーグルによる画期的なフロンティアモデル「Gemini 4 Argon」の発表とスペースXとの宇宙データセンター共同テストについてお伝えします。",
+          "t": 13.39
+        },
+        {
+          "speaker": "Alex",
+          "en": "We will also dive into Micron's record-breaking fiscal earnings amid structural memory shortages, Meta's multibillion-dollar regulatory and legal pressures, and key executive insights in our CEO Watch. Let's get started.",
+          "ja": "さらに、構造的なメモリ不足の中でマイクロンが発表した過去最高の決算結果、メタが直面する数十億ドル規模の規制および法的圧力、そして「CEOウォッチ」では有力企業の経営陣による重要な洞察に迫ります。それでは始めましょう。",
+          "t": 34.93
+        }
+      ],
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "TSMC Weighs Multibillion-Dollar Texas Campus",
+      "heading_ja": "TSMC、テキサス州での巨額キャンパス建設を検討",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "First up, Taiwan Semiconductor Manufacturing Company, or TSMC, is evaluating a massive second US semiconductor manufacturing hub in Texas. This planned expansion is rumored to be worth over two hundred and sixty-five billion dollars, representing a major strategic play to scale advanced AI chip capacity within the United States.",
+          "ja": "まず最初のニュースですが、台湾積体電路製造（TSMC）は、テキサス州における新たな数十億ドル規模の第二の米国内半導体製造ハブ建設を検討しています。この計画されている拡張事業は2,650億ドルを超える価値に達すると噂されており、米国内での高度なAIチップ生産能力を拡大するための極めて重要な戦略的一手となります。",
+          "t": 50.41
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is an astonishing sum, Alex. It builds on their existing, massive developments in Phoenix, Arizona, which have already transformed the local economy—evidenced by Taylor Morrison purchasing four hundred and six residential lots nearby. Why is TSMC suddenly focusing on Texas for a second hub?",
+          "ja": "驚異的な投資額ですね、アレックス。これはアリゾナ州フェニックスで進められている既存の巨大開発に続くものであり、周辺の住宅地をテイラー・モリソンが406区画も購入するなど、すでに地元経済を大きく変えつつあります。なぜTSMCは突然、第二の拠点としてテキサス州に注目しているのでしょうか？",
+          "t": 72.83
+        },
+        {
+          "speaker": "Alex",
+          "en": "It is about building supply chain resilience through deep geographical diversification. Texas already boasts a mature tech and semiconductor infrastructure. By setting up a secondary US base, TSMC can mitigate manufacturing bottlenecks and place state-of-the-art fabrication facilities much closer to major American cloud providers and enterprise clients.",
+          "ja": "地理的分散を深めることによって、サプライチェーンの強靭性を構築することが目的です。テキサス州にはすでに成熟したテクノロジーと半導体のインフラが存在します。第二の米国内拠点を設けることで、TSMCは製造ボトルネックを軽減し、米国の主要なクラウドプロバイダーや企業の顧客の物理的に非常に近い場所に最先端の製造施設を配置することができます。",
+          "t": 93.11
+        },
+        {
+          "speaker": "Mika",
+          "en": "But building these advanced fabs takes years and requires immense capital. Does this expansion suggest that TSMC expects the current demand for AI accelerators to persist for the long term?",
+          "ja": "しかし、こうした高度なファブの建設には何年もかかり、膨大な資本が必要です。この拡張計画は、TSMCがAIアクセラレータに対する現在の需要が長期的に持続すると予想していることを示しているのでしょうか？",
+          "t": 117.11
+        },
+        {
+          "speaker": "Alex",
+          "en": "Absolutely. A commitment of over two hundred and sixty-five billion dollars indicates that TSMC and its key customers see AI workloads not as a temporary spike, but as a multi-decade technological shift. This onshore expansion ensures they can satisfy that long-term demand securely.",
+          "ja": "間違いありません。2,650億ドルを超える投資にコミットするということは、TSMCとその主要顧客がAIワークロードを一過性の急増ではなく、数十年にわたる技術的移行と捉えていることを示しています。このオンショアでの拡張により、彼らはその長期的な需要を安全に満たすことができるのです。",
+          "t": 130.63
+        }
+      ],
+      "t": 50.41
+    },
+    {
+      "kind": "story",
+      "heading_en": "Broadcom Agrees to Lend Up to 42 Billion Dollars to Anthropic",
+      "heading_ja": "ブロードコム、アンソロピックに最大420億ドルを融資へ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Next, we look at a highly unusual financial agreement in the AI space. Broadcom has agreed to lend up to forty-two billion dollars to AI startup Anthropic, which Anthropic will use to lease Broadcom's custom-designed AI chips, according to a recent regulatory filing.",
+          "ja": "次に、AI分野における非常に珍しい金融合意に注目します。最近の規制当局への提出書類によると、ブロードコムはAIスタートアップであるアンソロピックに対し、自社のカスタム設計AIチップをリースするための資金として最大420億ドルを融資することに合意しました。",
+          "t": 150.53
+        },
+        {
+          "speaker": "Mika",
+          "en": "This is a massive circular financing arrangement, where a hardware supplier is essentially funding its own customer's lease of its products. Broadcom's stock rose on the news, but what does this tell us about the current market?",
+          "ja": "これは、ハードウェアのサプライヤーが実質的に自社の顧客に対して自社製品のリース資金を融資するという、大規模な循環型ファイナンスの仕組みですね。このニュースを受けてブロードコムの株価は上昇しましたが、この取引は現在の市場について何を物語っているのでしょうか？",
+          "t": 168.79
+        },
+        {
+          "speaker": "Alex",
+          "en": "It shows that hardware suppliers and AI laboratories are becoming deeply intertwined. The capital expenditures required to train and deploy frontier AI models are so immense that traditional bank loans are insufficient. Hardware giants are stepping in to finance their own demand to lock in long-term clients.",
+          "ja": "ハードウェアの供給業者とAI研究機関の結びつきが極めて強固になっていることを示しています。フロンティアAIモデルのトレーニングと導入に必要な資本支出は非常に巨額であるため、従来の銀行融資では追いつきません。ハードウェアの巨頭企業が自ら顧客に資金を提供して自社製品の需要を創出し、長期的な顧客を囲い込もうとしています。",
+          "t": 184.6
+        },
+        {
+          "speaker": "Mika",
+          "en": "But doesn't this circular investing structure carry enormous financial risks for Broadcom if the commercial AI market cools down?",
+          "ja": "しかし、もし商用のAI市場が急速に冷え込んだ場合、この循環型投資の仕組みはブロードコムにとって多大な財務リスクをもたらすことになりませんか？",
+          "t": 205.48
+        },
+        {
+          "speaker": "Alex",
+          "en": "It certainly does. If Anthropic struggles to monetize its models or generate expected revenues, Broadcom is heavily exposed to that credit risk. It highlights the high-stakes, capital-intensive race for compute power where companies are taking unprecedented financial gambles to maintain their lead.",
+          "ja": "まさにその通りです。もしアンソロピックが自社モデルの収益化や期待される利益の創出に苦戦すれば、ブロードコムはその与信リスクに直接さらされることになります。これは、企業が競争優位を維持するために、かつてない財務的ギャンブルに踏み切っている、非常にハイリスクで資本集約的なコンピューティングパワー争奪戦の実態を浮き彫りにしています。",
+          "t": 215.11
+        }
+      ],
+      "t": 150.53
+    },
+    {
+      "kind": "story",
+      "heading_en": "Google Launches Gemini 4 Argon and Tests Space Data Centers",
+      "heading_ja": "グーグル、「Gemini 4 Argon」を発表し宇宙データセンターをテスト",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Google has made two massive announcements that redefine frontier artificial intelligence and orbital computing. First, they officially unveiled Gemini 4 Argon, their next-era frontier model designed for deep reasoning over complex, long-horizon workflows like software engineering and cybersecurity.",
+          "ja": "グーグルは、最先端の人工知能と軌道上コンピューティングを再定義する2つの大きな発表を行いました。まず、ソフトウェアエンジニアリングやサイバーセキュリティといった複雑で長期間にわたるワークロードでのディープラーニングと推論向けに設計された、次世代のフロンティアモデル「Gemini 4 Argon」を正式発表しました。",
+          "t": 235.37
+        },
+        {
+          "speaker": "Mika",
+          "en": "Google is taking a highly cautious approach to safety here, initially restricting access to trusted cyber defenders through its Fairwind Program and working with the US government's voluntary pre-release process. They've announced a competitive pricing structure of two dollars per million input tokens and ten dollars per million output tokens, with cached inputs at a ninety-five percent discount.",
+          "ja": "グーグルは今回の安全性に対して非常に慎重なアプローチを取っており、初期アクセスは「Fairwindプログラム」を通じて信頼できるサイバー防衛担当者に限定し、米国政府の自主的なリリース前検証プロセスにも参加しています。価格設定は非常に競争力があり、100万入力トークンあたり2ドル、100万出力トークンあたり10ドル、キャッシュされた入力は95%オフとなっています。",
+          "t": 255.62
+        },
+        {
+          "speaker": "Alex",
+          "en": "Argon features an industry-leading output token limit of one million tokens. Internally, Google has used it to optimize quantum computing algorithms by forty percent and autonomously save over three hundred tebibytes of memory in its data centers. It's also migrating massive C and C plus plus codebases to Rust, rewriting libraries like libgav1 to run two point seven times faster.",
+          "ja": "Argonは、業界最高となる100万トークンという出力トークン制限を特徴としています。内部的には、グーグルはこれを使用して量子コンピューティングアルゴリズムを40%最適化し、同社のデータセンターで自律的に300テビバイトを超えるメモリを節約しました。さらに、大規模なCおよびC++のコードベースをRustに移行しており、libgav1のようなライブラリを書き換えて2.7倍の高速化を実現しています。",
+          "t": 282.13
+        },
+        {
+          "speaker": "Mika",
+          "en": "But Google isn't stopping on Earth. In partnership with SpaceX, Google launched its first advanced TPU chip into orbit on a satellite built by Planet Labs. This marks the official kickoff of Project Suncatcher, Google's ambitious initiative to test space-based data center infrastructure.",
+          "ja": "しかし、グーグルの野心は地球上にとどまりません。スペースXとの提携により、グーグルはプラネット・ラボが開発した衛星に搭載する形で、初の先進的なTPUチップを軌道上に打ち上げました。これは、宇宙ベースのデータセンターインフラを検証するグーグルの壮大な試み「プロジェクト・サンキャッチャー」の正式なスタートを意味します。",
+          "t": 307.57
+        },
+        {
+          "speaker": "Alex",
+          "en": "The prototype satellite will run the TPU in fifteen-minute bursts to manage power and cooling in space. Eventually, Google envisions a network of eighty-one satellites flying in close formation, processing massive workloads in parallel using advanced laser communication links to minimize latency.",
+          "ja": "このプロトタイプ衛星は、宇宙空間での電力と冷却を管理するため、TPUを15分間のバースト単位で稼働させます。最終的にグーグルは、81機の衛星が近接フォーメーションで飛行し、高度なレーザー通信リンクを使用して遅延を最小限に抑えながら、大規模なワークロードを並列処理するネットワークを構想しています。",
+          "t": 327.14
+        },
+        {
+          "speaker": "Mika",
+          "en": "Google's peer-reviewed white paper in the journal Joule outlines the economics of this. Assuming SpaceX's rocket learning curve continues at twenty percent cost reduction annually, launch prices could drop to two hundred dollars per kilogram by twenty-thirty-five, making space computing economically viable.",
+          "ja": "学術誌「Joule」に掲載されたグーグルの査読付き白書は、この経済性を概説しています。スペースXのロケットに関するラーニングカーブが毎年20%のコスト削減ペースを維持すると仮定すると、打ち上げ価格は2035年までに1キログラムあたり200ドルにまで下がり、宇宙空間でのコンピューティングが経済的に成立するようになります。",
+          "t": 347.27
+        },
+        {
+          "speaker": "Alex",
+          "en": "However, that requires SpaceX's Starship to complete eighteen hundred flights over ten years to launch three hundred and seventy thousand tons of payload. It's a massive long-term bet, and startups like Satlyt are also entering the race, having raised eight million dollars to build open satellite AI software as the Android of orbital computing.",
+          "ja": "しかしそのためには、スペースXのスターシップが10年間で1,800回飛行し、37万トンのペイロードを打ち上げる必要があります。これは巨大な長期の賭けであり、この競争にはサトリット（Satlyt）のようなスタートアップも参入しており、彼らは軌道上コンピューティングのAndroidを目指して、オープンな衛星AIソフトウェアの開発資金として800万ドルを調達しました。",
+          "t": 368.54
+        }
+      ],
+      "t": 235.37
+    },
+    {
+      "kind": "story",
+      "heading_en": "Micron Reports Record Profit Amid RAM Shortages",
+      "heading_ja": "マイクロン、RAM不足の中で過去最高の利益を記録",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Micron reported a massive fiscal fourth quarter earnings beat, forecasting record first-quarter revenue of sixty-one point five billion dollars with an eighty-six point two five percent gross margin, implying over fifty-three billion dollars in gross profit.",
+          "ja": "マイクロンは第4四半期の好決算を発表し、第1四半期の売上高見通しを過去最高となる615億ドル、売上総利益率は86.25%と予測しており、これは530億ドルを超える粗利益に相当します。",
+          "t": 392.68
+        },
+        {
+          "speaker": "Mika",
+          "en": "However, CEO Sanjay Mehrotra warned that severe RAM and storage shortages will worsen through twenty-twenty-eight. Because chipmakers are prioritizing high-bandwidth memory for AI data centers, standard DRAM and NAND supplies will remain extremely tight, meaning higher prices for ordinary consumers.",
+          "ja": "しかし、サンジャイ・メロトラCEOは、深刻なRAMおよびストレージの不足が2028年まで悪化すると警告しました。半導体メーカーがAIデータセンター向けの広帯域メモリ（HBM）の生産を最優先しているため、通常のDRAMおよびNANDの供給は極めて厳しい状況が続き、一般消費者は高価格に直面し続けることになります。",
+          "t": 411.09
+        },
+        {
+          "speaker": "Alex",
+          "en": "This prediction directly clashes with the Acer CEO's forecast that PC prices will decline by late twenty-twenty-seven. Meanwhile, these massive profits have led to Samsung and SK hynix workers receiving huge bonuses, prompting Micron's Taiwan employees to threaten a strike for their share of the AI pie.",
+          "ja": "この予測は、PCの価格が2027年後半までに下落するというエイサー（Acer）のCEOによる予測と真っ向から衝突しています。一方、この巨額の利益を背景に、サムスンやSKハイニックスの従業員が破格のボーナスを獲得したことから、マイクロンの台湾の従業員もAI関連の富の分配を求めてストライキを辞さない構えを見せています。",
+          "t": 432.24
+        },
+        {
+          "speaker": "Mika",
+          "en": "Micron is also fighting on the legal front, filing a major lawsuit against Chinese state-backed memory rival YMTC, accusing them of poaching key engineers who allegedly stole 3D NAND trade secrets and used them to patent technologies and sue Micron.",
+          "ja": "また、マイクロンは法的な戦いも進めており、中国の国策メモリ競合会社であるYMTC（長江ストレージ）に対して大規模な訴訟を起こしました。マイクロンは、同社が主要なエンジニアを引き抜き、彼らが盗み出した3D NANDの営業秘密を利用して特許を出願し、マイクロンを特許侵害で告訴していると非難しています。",
+          "t": 453.65
+        },
+        {
+          "speaker": "Alex",
+          "en": "These poached engineers, including Daesik Song, Wenxi Zhou, and Hua Tan, allegedly hid their roles on LinkedIn while transferring critical technical know-how. This lawsuit underscores the intense geopolitical and intellectual property battles playing out in the global memory market.",
+          "ja": "引き抜かれたデシク・ソン、ウェンシー・ジョウ、ホア・タンといったエンジニアたちは、重要な技術的ノウハウを移転させつつ、LinkedIn上で新しい役職を伏せていたとされています。この訴訟は、世界のメモリ市場で展開されている地政学および知的財産を巡る激しい争いを浮き彫りにしています。",
+          "t": 471.47
+        }
+      ],
+      "t": 392.68
+    },
+    {
+      "kind": "story",
+      "heading_en": "Meta Faces Multibillion-Dollar Legal and Regulatory Pressures",
+      "heading_ja": "メタ、数十億ドル規模の法的・規制的圧力に直面",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In legal news, Meta is facing intense regulatory and legal pressures. Hawaii will receive up to seventy-six million dollars in a landmark child safety settlement, and North Carolina has already received its first forty-five point two million dollar payout to strengthen online protections for children.",
+          "ja": "法務関連のニュースですが、メタは深刻な規制および法的圧力にさらされています。ハワイ州は子どものオンライン上の安全確保に関する画期的な和解案で最大7,600万ドルを受け取ることになり、ノースカロライナ州は子供の保護を強化するための最初の支払いとして、すでに4,520万ドルを受け取っています。",
+          "t": 491.51
+        },
+        {
+          "speaker": "Mika",
+          "en": "But the most severe threat is in New Mexico, where the state is seeking up to forty billion dollars in penalties after a high-profile data privacy trial. Why are state-level authorities pursuing Meta so aggressively?",
+          "ja": "しかし、最も大きな脅威はニューメキシコ州にあります。同州は注目のデータプライバシー裁判の後、最大400億ドルの罰金を要求しています。なぜ州レベルの当局はこれほど積極的にメタを追及しているのでしょうか？",
+          "t": 512.79
+        },
+        {
+          "speaker": "Alex",
+          "en": "State attorneys general are taking a leading role in child protection and user privacy because federal legislation has been slow. They are demanding massive financial penalties and strict platform guardrails to hold social media giants directly accountable.",
+          "ja": "連邦レベルでの法制化が遅れているため、州の司法長官が子どもの保護とユーザープライバシーにおいて主導的な役割を果たしているのです。彼らはソーシャルメディアの巨人たちに直接責任を取らせるため、巨額の金銭的ペナルティと厳しいプラットフォームの制限措置を要求しています。",
+          "t": 528.47
+        },
+        {
+          "speaker": "Mika",
+          "en": "With potential liabilities reaching tens of billions of dollars, these legal challenges represent a massive, ongoing financial risk to Meta's core advertising and social platform business model.",
+          "ja": "数十億から数百億ドルに達する潜在的な負債を抱えるこれらの法的な課題は、メタの主たる広告およびソーシャルプラットフォームのビジネスモデルにとって、継続的な巨大財務リスクとなります。",
+          "t": 546.82
+        },
+        {
+          "speaker": "Alex",
+          "en": "Absolutely. It forces Meta to invest heavily in algorithmic changes and strict age-verification systems, adding significant compliance and operational costs alongside these historic legal penalties.",
+          "ja": "その通りです。これにより、メタはアルゴリズムの変更や厳格な年齢確認システムに巨額の投資を行わざるを得なくなり、歴史的な法的制裁金に加えて、多大なコンプライアンス費用と運用コストが上乗せされることになります。",
+          "t": 561.07
+        }
+      ],
+      "t": 491.51
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch",
+      "heading_ja": "CEOウォッチ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In our CEO Watch segment, Huawei boss Eric Xu claimed that domestic AI chip sales have officially surpassed Nvidia's within China. He noted that although their homegrown chips are less advanced, Chinese enterprises prefer them because they won't face sudden, disruptive US export bans.",
+          "ja": "「CEOウォッチ」のコーナーでは、ファーウェイ（華為技術）のトップであるエリック・シュー氏が、中国国内での国産AIチップの売上高が公式にエヌビディアを上回ったと主張しました。彼は、国産チップの技術的な先進性はやや劣るものの、中国企業にとっては米国からの突然かつ破壊的な輸出禁止措置に直面するリスクがないため選ばれている、と指摘しました。",
+          "t": 576.03
+        },
+        {
+          "speaker": "Mika",
+          "en": "On the consumer front, Qualcomm's boss predicted that advanced AI technology will eventually turn us into 'walking cameras' by placing integrated AI-driven systems directly onto our faces, likely through smart eyewear.",
+          "ja": "消費者向けの分野では、クアルコムのトップが、高度なAI技術によって、最終的にはウェアラブルなAI駆動システムをスマートメガネなどの形で顔に直接装着することで、人々が「歩くカメラ」へと変貌する未来を予測しました。",
+          "t": 594.75
+        },
+        {
+          "speaker": "Alex",
+          "en": "These executive perspectives highlight the dual trends in tech today: achieving national hardware self-reliance in response to geopolitical trade restrictions, and preparing for pervasive, always-on consumer AI hardware.",
+          "ja": "これらの経営陣の見解は、現在のテクノロジーにおける二面的なトレンドを示しています。すなわち、地政学的な貿易制限への対応としてハードウェアの国家的自己完結を達成することと、生活の至る所に存在する、常時オンの消費者向けAIハードウェアの時代に備えることです。",
+          "t": 609.42
+        }
+      ],
+      "t": 576.03
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day",
+      "heading_ja": "本日のフレーズ",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Our phrase of the day is 'line of sight'. In business and finance, having 'line of sight' means having a clear, unobstructed view or reliable understanding of how or when a specific goal or market condition will be realized.",
+          "ja": "本日のフレーズは「line of sight（見通し、確実な予測）」です。ビジネスや金融の世界において、「line of sight」を持つということは、特定の目標や市場の状況がいつ、どのようにして実現されるかについて、遮るもののない明確な見通しや信頼できる理解が得られている状態を意味します。",
+          "t": 624.22
+        },
+        {
+          "speaker": "Alex",
+          "en": "Micron's CEO used it to describe the lack of certainty regarding when the memory supply-demand balance will stabilize. For example: 'Without a clear line of sight on future costs, the company delayed its expansion plans.'",
+          "ja": "マイクロンのCEOは、メモリの需給バランスがいつ安定するかについて確実性がない状況を説明する際にこれを使用しました。例えば、「将来のコストに関する明確な見通しが立たないため、その会社は拡張計画を延期した」というように使えます。",
+          "t": 639.25
+        },
+        {
+          "speaker": "Mika",
+          "en": "In Japanese, this corresponds to having a clear '見通し' or '予測' for future developments. It is an essential term in corporate financial calls.",
+          "ja": "日本語では、将来的な展開に対する「見通し」や「予測」が立っていることに対応します。企業の財務発表などで非常によく使われる重要な表現です。",
+          "t": 654.11
+        }
+      ],
+      "t": 624.22
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Outro",
+      "heading_ja": "エンディング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That brings us to the end of today's episode. From massive US fabrication expansions and circular AI financing to space data centers, memory shortages, and heavy legal battles, the tech sector is moving faster than ever.",
+          "ja": "本日のエピソードはこれで終了です。米国での巨大な製造拠点の拡張や循環型のAI融資、宇宙データセンター、メモリ不足、そして激しい法的な争いまで、テクノロジーセクターはかつてない速さで動いています。",
+          "t": 664.07
+        },
+        {
+          "speaker": "Mika",
+          "en": "Have a wonderful weekend, everyone. We will see you back here on Monday morning for another edition of The Silicon Commute. Take care!",
+          "ja": "皆さん、素晴らしい週末をお過ごしください。月曜日の朝に、再び「ザ・シリコン・コミュート」でお会いしましょう。では、お気をつけて！",
+          "t": 678.87
+        }
+      ],
+      "t": 664.07
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "TSMC Weighs Multibillion-Dollar Texas Campus for AI Chip Expansion",
+      "title_ja": "TSMC、AIチップ拡大に向けテキサス州での巨額キャンパス建設を検討",
+      "summary_ja": "TSMCは米国におけるAIチップ生産能力を強化するため、テキサス州に新たな巨大半導体キャンパスを建設する案を評価しています。これはフェニックスでの大規模な開発に続くものであり、地政学的リスクに対応する動きです。最先端の生産拠点を顧客の近くに配置する戦略となっています。",
+      "why_ja": "米国の半導体サプライチェーンの強靭化（オンショア化）と、地政学的リスク（台湾有事等）に伴う製造拠点の分散化が極めて高いレベルで進行していることを示しています。最先端AIチップの生産能力を米国内のクラウド大手やエンタープライズ顧客の物理的近くに配置することで、将来の膨大なAI需要を安定的かつ迅速に供給する基盤が整備されつつあります。2,650億ドルという天文学的な投資規模は、AIのロードマップが短期的な流行ではなく、数十年にわたる構造的転換であることを裏付けています。",
+      "sources": [
+        {
+          "publisher": "qz.com",
+          "title": "TSMC is weighing a new multibillion-dollar chip campus in Texas",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1RSmNNeWxZYk1ENmdaSDlRZnQyQkJiVGV5Z011YXBKdURzQ0dYbFV2NWRFNG4tVExZdzMwYWZPNmswWWFHTkxmUGNfMDFHTU45MFFUQUhpQ1hSN1BaeExYMlRqRl8?oc=5"
+        },
+        {
+          "publisher": "The Business Journals",
+          "title": "Taylor Morrison snags 406 lots near TSMC's $265B Phoenix development",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNelpGUXo1dXpjT1VOQTV0NlRsdzRTYlVnb0tRc0RrWDVqM2JSd2FnUlJrTUZDNGFZNDdvRExLYXJjSHQweV9QZEdWSDN4NjBwR1FGaDBiMVNmcEp0bHNJdkFKZGM3NzNRVVp3aS1FRV9pdGxqZUUtUjFwTF80U1BBNno5TmN1Vm14Wnpua3RUM3dMWm5zeDE2WXFLOHVBTWludEVTZm9PY2U2UQ?oc=5"
+        },
+        {
+          "publisher": "Startup Fortune",
+          "title": "TSMC Is Weighing a Second US Chip Hub in Texas Worth Over $265 Billion",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUGpQTS1XaDRUaWZmMGtyM3JoSnVrekVkTGh6bkF0cVdZbVoxbHphRVEyOU5FcEF3Vmk1SDlVcGdXNnJjSlFxMEZ3djVwQ0tLRG1teksyLU9aZElUMkRvUjI0VG1xbWI5R3ZqUFNNMkpMbl92SWdZVUhyVFNRdHJPLXFfOHRPSlZpWDZVLVF0djFiRTdsOU1UYi1SejB0QQ?oc=5"
+        },
+        {
+          "publisher": "Briefs Finance",
+          "title": "TSMC Considers Massive Texas AI Chip Campus",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPOTdaN2F3dFRtcnAxZ1RZUG5vTFZQTjg5YUxKWWg4d1RuQXNxLVZqZUstcXA5Ri1xUVBPZktFMEk1NE54dTdUQ1NUMzJZTk9yYk9UcWdBeURKeVFUTDRpY2xqX1FIVUJ3RFNxMU9zZXJIdDlYYkhSRUs3ekZVSnZ4a3JJNkIyZ2R5SG8yMW1IZU84Zw?oc=5"
+        },
+        {
+          "publisher": "finance.yahoo.com",
+          "title": "TSMC Mulls Multibillion-Dollar Texas Campus for More AI Chips",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeTdlWFFnNzhXMW9mYWlzRnhkY09VSG80Ty00eW5VTmNmTGJtdnI3SHpIazhpb3dUMGFJNW4zV3N2UzNRYWFWUzVVdG0zUVByS21RY29WdVhTZjRHcWtkSGlFSmhJVnVrSURoSEh4SndFV1lxSGN1bGVveUNWQkR5VHpVbnQ1WEN5amdRbjBWOHZTTkpHY0JVNkFHcmhXTmtaX2c?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Broadcom Agrees to Lend Anthropic Up to $42 Billion for AI Chip Leasing",
+      "title_ja": "ブロードコム、アンソロピックにAIチップリース用として最大420億ドルを融資",
+      "summary_ja": "ブロードコムは規制当局への提出書類において、アンソロピックに対して最大420億ドルの融資を行うことで合意したと発表しました。この資金はチップのリース費用に充てられ、現在のAIブームを支える新たな循環型ファイナンスの仕組みとなっています。ハードウェア供給企業とAI開発企業の結びつきがより強固になっています。",
+      "why_ja": "最先端AIモデルの開発や学習に必要な資本支出（CapEx）が従来の金融機関や投資スキームの限界を超えているため、半導体メーカー自らが信用供与を行う形で市場の需要を創出し、顧客を囲い込むという新たなビジネスモデルが定着しつつあることを示しています。このスキームによりブロードコムの株価は上昇しましたが、アンソロピックの商業的成功にブロードコムの財務健全性が深く依存することになり、市場が急激に減速した場合には両社が連鎖的に財務リスクを抱えるという、ハイリスク・ハイリターンの構造が浮き彫りになっています。",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "title": "EXCLUSIVE: Broadcom to lend Anthropic up to $42 billion to lease its chips, filing says",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbzU3NnV4NFhNazRXQzVkeTV6VVNBSzUyUE0yM25SWGQtaFM1YkU4Y1htNWMtYXBPcU9pRDZfZUhSQnZyYnpvWWJ5ZGE4T3ZPOEZrN3IzeHBxMURHQlZySUhfQTBrb0FPdUxFSHRjVEd2ZFh2VGVuMjluVDhxYmhDa2hHc3hnV1p6c1hxaDJaa0VCQXQ3NmhackVWSVBJRlpXMzJXQ3Q2UHlhVXFaMDNN?oc=5"
+        },
+        {
+          "publisher": "Barron's",
+          "title": "Broadcom Stock Rises. Anthropic and Broadcom Are Becoming More Intertwined.",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONlU3MlRpX21YbFpIcUUwOWxhNHVIUVNHTl9ydGtoZ3JNcDZGbjhESGhSMmlQN1hyNWNpNGdQNWVKWlc5NUZNblNUekZpSjBmZ1VXOXo3TWxmd092LVJVaWgyamxnc2UyVkk4ZnhjcmxJWGhCYzZpcl9KQnJiR1BHUg?oc=5"
+        },
+        {
+          "publisher": "Benzinga",
+          "title": "Broadcom Bets $42 Billion on Anthropic - Broadcom (NASDAQ:AVGO)",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQWJMWk1UbFA3TXV4VHZLU01qUnVua3VhUllibFFJUmlBT3hTOXNlZmlxZGtJS3UtLW1oUHVJQ1ZmZTJLTGY0TjBXUUljX0JGWkNlWjlaZkNranVnR0RFdG1ncEZTMjhrTXNjZFRqOVcxR202SEMyMzNPaHVfWUM4UUtBbUtEN3lkNmxwRFpDTUw0Sm1obDJtZlZaV3ZFOEtOclpWRWZUVWhvTmFUVUdBbkw0NXBjZmlqeUlvcWItVmc2Z2tZYkdv?oc=5"
+        },
+        {
+          "publisher": "grafa.com",
+          "title": "Broadcom Agrees to $42 Billion Anthropic AI Financing Deal",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT1FoX0I1ZE52RzJ5ajRtY3ZpZzdWenpRUXJ0bHRXay1IWjZYREFxNXdkVFJnQkhHdVlnR2s0ZXlQQ0Nva1h1ai1JLWIyUUF1dWh2R1BPUm5LVVBfYWc1WjRqaDRFS1RDWFhJQnlINVUxYThfQzM2MjNVbHJ4bkNtOHBPdVpoRy15UDM0V0d5U0tfV2pZNlFCNlVwcERKQQ?oc=5"
+        },
+        {
+          "publisher": "finance.yahoo.com",
+          "title": "Broadcom to lend Anthropic up to $42 billion to lease chips, in latest circular investing deal",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQlJmeEJQTjhxdTVYWnlpcmw5VDFMREN0N19PN3pYY1BkTjMzZnI3cmticEpGWjVDZmo2V3dwNTRTLWxaUHk4V1lsWXBZVGlhcFplM2pMYUNwU0RXR0c1WVFZMTk2TE4xUUFPS0ZzYVJKOS1MTnhDVEFYZ0NGMnc2RlM3cUdMOVU3eG9URVRvOEJ2TEd4QkNkMnd1UHFKZFBldldWcFBoZGY3aVkzZjl2R1p5M3d4YnB4WFJUMDY0cVZqNGR6cDVFQ2RoZzBmeE1rN0hYOTRBSl8xajBiQlpEYUItRnVlVEk?oc=5"
+        },
+        {
+          "publisher": "qz.com",
+          "title": "Broadcom is offering to lend Anthropic up to $42 billion to finance its AI chip buildout",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8zNGtPZFdTWHZRcXNRbV9QS004c2dlOVp4QkgySjVtQkcyazhJLTZSVnFwc2tHVFZXRk1oWktPTUpWQTFwZnZrTE5OVWYtODNUQTluTHdoZk83QlB4V0ZfZnVKYXRWSVJhT2czSmQwNk01S0k?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Google Launches Gemini 4 Argon Frontier Model and Tests Space Data Centers with SpaceX",
+      "title_ja": "グーグル、「Gemini 4 Argon」を発表しスペースXと宇宙データセンターをテスト",
+      "summary_ja": "グーグルは安全性を考慮してアクセスを制限した次世代フロンティアモデル「Gemini 4 Argon」を正式に発表しました。同時に、スペースXのロケットを用いて同社初のAIチップを軌道上に打ち上げ、宇宙ベース of データセンター構築に向けた検証を開始しました。将来的なエネルギー制約やデータ処理の負荷を見据えた長期的な取り組みです。",
+      "why_ja": "地上のエネルギー消費の限界や立地・熱処理の問題を克服するため、宇宙空間を次世代のコンピューティング基盤とする「軌道上データセンター」という新たな技術フロンティアが開拓されています。スペースXの打ち上げコストが年間20%のペースで低減し、2035年までに1kgあたり200ドルに達するという長期予測を背景に、81機の衛星による並列計算ネットワーク構築を見据えた野心的な試みです。同時に、Satlytのような宇宙コンピューティング向けオープンソフトウェアを提供するスタートアップが台頭するなど、独自の宇宙エコシステムが形成されつつあります。",
+      "sources": [
+        {
+          "publisher": "Google Blog",
+          "title": "Gemini 4 Argon: our next era of frontier intelligence",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground",
+          "url": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
+          "url": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/"
+        },
+        {
+          "publisher": "Ars Technica",
+          "title": "Google announces Gemini 4 Argon AI model, but you can't use it yet",
+          "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/"
+        },
+        {
+          "publisher": "WSJ",
+          "title": "Can AI Run in Space? Google Is About to Find Out",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVGZOVkRiajV5bDZrYVlGRWhXdzZybWp1V2Z3dWFCaXdyLWNYU3pPZXJNOFNHTFdIOE5mN3RwajRMNko3SkhhZ0dYcXpobHg5M09ZNmp5ZzEwWDE4VW56dF9RWkh1Um55UjZiYWJjaU00SkdkbnI4NC1OVE1WLXNqZXpUa3p4NVpz?oc=5"
+        },
+        {
+          "publisher": "Space",
+          "title": "SpaceX launches Google AI satellite, 129 other payloads on 2nd leg of spaceflight tripleheader (video)",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUFFyWHJickNnMVZxbGNaTmlOQTdUbVQwR0JfV01YaW1heFI1dExadWkzTGRXbUhYYmUzRFBOMUpodjVHZFdEeFczdjBZbGVSNUNHWTAydndEVTVmOWNlb1VaWXgtcno3MVJUb2ZSMmtPOGJvZ3VqOHY4T2dKdzZKZndhOXd3cmtMel93UXFmUHN5djJ4MEctbjBsc1ptN2laSXhucDJuUVFRWlRJbVdWUnc4VHlYajBPT3Rn?oc=5"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Google launches Project Suncatcher, a step towards AI data centers in space",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcHpoSkZMSUJMOGtZbVVtY3RWVmdBVExLSkNSSjlqRmdvRnByRHhuSVhYbVhPS3RYcF9oUTY2aHVZY3FUb1o5YnVScFlmX3Z1a3ZuZHk2NmZJcmNNWmlxS09JZjh6RE0wVGI4YWFpeTZuVjM5QVdmZmpXeWl4VElrWkJxbjFBcVNSa0lXdUJ2cmpvdm8tdlE?oc=5"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Google rolls out new Gemini AI model but restricts access over safety concerns",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeGxacWxBMjBHTEdEel95dW1GOVVOX09PR3laaEVXQXZvNDBRalVNMFNDTmstQUZ2YU1fX19SaHAwZnp1UVdvS2dVeHBPbTBGU1pfYmllWmJoVFozUUZXcDdHQm9kal92dWpCaEtyVndfWFhuVkVQcEk0djRROS1VUEJFa09VOS15M0U1YVZPSHZIWDVqZVZB?oc=5"
+        },
+        {
+          "publisher": "Axios",
+          "title": "Google unveils long-awaited Gemini 4",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zMTN2Y3VVU1JKSnZTcnV1VExtekpnTS1hRy1uSUxhLWxIU2F4bnZkNWJQOEkxaWprb3l6anY5V294RG5KSk5sMUp2a3JQamtiVWhUZDN1YkNlZDli?oc=5"
+        },
+        {
+          "publisher": "CNN",
+          "title": "AI data centers in space? Google kicks off the race with a key test",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOEZncmZIVkt5SXJMM3F6VXVoWDRQUlRHS3dUMl9qOW1LZlliVFVxSW85UUlUWWducmlhU3pOQ2tWeDJqMWZ1Sjh6WnhCSG9OUWxmSndUQVhDcmlkZFlYbzV0WGxvemhFcGpidEM5Q1Q2ZzUwTG0xOVBMRERTUThqNmJRaw?oc=5"
+        },
+        {
+          "publisher": "Barron's",
+          "title": "Google Unveils New AI Model Gemini 4 Argon, Sending Alphabet Stock Higher",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRTVoX2xTZ0c1Mkl5YjNaN2lUaThaMTJFSHQ4RXZsdUtiX2EzT0NCbFM5cFFpMlNBT0F1WTNiQUV2T2VtRDdSYnJ5MlRLTUc3UVVTd2FOYjl5SWNZMUk5ZWFhR21KSmlNdDNKZXNpa0ZyVFVYU0tidWppbUdPMmp1Vkd5UEZMaVVG?oc=5"
+        },
+        {
+          "publisher": "cnbc.com",
+          "title": "SpaceX launches Google AI chips into orbit in push toward space-based data centers",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUkdhZGNReVpJcWxxUzVmZjljcURHdm5oc3ZjMzFWZ3lTd08zUUVISno0QU5LUklld1JSVGc2LVprclc2REVPZW1LN1hveWNpNXhncTlJZjgwMUtvRlJCWHBRUXFLWGVjcXNnNl9mQ0k3VTh0SnBiTmowOFVVZEhseVZLbzM3dkdjaWJNaTZ2aFY2ZmlrTHhscEN6WEpZUlUyVVctWXh5d3hQd9IBrwFBVV95cUxQYVJadHZIVjJjd1dIQUR3cHZiWTZUNzhSMkxVdzV4czFEWDVCajdVNEFPR1ExaERiZE5UbERZNFlwOEoxQkRnMVpfOU1TbTFHcUpGQjNyZHljdWd4aTJTX0lMelRZdUJFSkhYLWlYdk9BdjVfZ21WYzlGN1lYNWJ5Wk1Ud3dFYVRsZ0dGWlVlcW9fckhVcG5teG5JU0RHYzVGNE5NSEkxOHFCT2NlNmFj?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Micron Reports Massive Fiscal Q4 Earnings Beat Amid Continuing RAM Shortages",
+      "title_ja": "マイクロン、RAM不足の中で大幅な四半期増益を達成",
+      "summary_ja": "マイクロンは86.25%という記録的な売上総利益率と530億ドルを超える利益を計上し、市場予想を大きく上回る好決算を発表しました。一方で、経営陣はDRAMやNANDの深刻な供給不足が2028年まで継続すると警告しています。AIデータセンター向けメモリへの需要集中が背景にあります。さらにマイクロンは、中国のYMTCによる特許権・エンジニアの盗用について法廷で戦っています。",
+      "why_ja": "AIデータセンター需要の爆発的な増加が、一般消費者向けのPCやスマートフォン用メモリの価格高騰を長期化させ、市場全体の供給制約を引き起こす構造的要因となっています。メモリ大手SamsungやSK hynixの従業員が巨額のボーナスを獲得する一方で、マイクロンの台湾従業員がストライキを辞さない姿勢を示すなど、AIブームの恩恵を巡る労働摩擦も激化しています。また、中国競合YMTCへの提訴（元従業員の特許出願や技術流出）は、国家間で激化する半導体知的財産（IP）の覇権争いが生々しい法的紛争に発展している現状を反映しています。",
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Micron projects tightening RAM shortages through 2028 as it generates record profit",
+          "url": "https://www.tomshardware.com/pc-components/dram/micron-projects-tightening-ram-shortages-through-2028-as-it-generates-record-profit-record-86-25-percent-gross-margin-drives-over-usd53-billion-in-quarterly-profit"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Micron lawsuit claims Chinese memory maker YMTC poached its engineers, then sued it using its own stolen tech",
+          "url": "https://www.tomshardware.com/pc-components/ssds/micron-lawsuit-claims-chinese-memory-maker-ymtc-poached-its-engineers-then-sued-it-using-its-own-stolen-tech-ex-employees-hid-roles-on-linkedin-patented-micron-tech-and-won-a-german-injunction"
+        },
+        {
+          "publisher": "The Register",
+          "title": "RAM supply set to worsen, says Micron, as CEO celebrates ‘much higher’ prices",
+          "url": "https://www.theregister.com/systems/2026/10/01/ram-supply-set-to-worsen-says-micron-as-ceo-celebrates-much-higher-prices/5300346"
+        },
+        {
+          "publisher": "Seeking Alpha",
+          "title": "Micron Isn't Stepping Off The Gas (NASDAQ:MU)",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE92bU5jblYtdE5PaWY5UFFWaTg3Qi1rS3FKVVlmX1k5d3JTSEh2VGk1dkp2cm5RanhGc2w3X29TbnR2YXJCNXBfQ0ZRZjJpVVdpRmo2dV9ab3pwTVhwRjJLNXVBNVlvUkJYN0ZfYkliejh5R2RScFFPYmdmM3VwUQ?oc=5"
+        },
+        {
+          "publisher": "The Motley Fool",
+          "title": "Micron's Bull Run Isn't Over",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE13X3AwdWVMNlhFR2RqMDRFUE9tOHdSbWxLNXpud3dDWWJRR1I0UllMdGdUWDZhWDEtQnFpNkY3ZzdhUnZGUV92Mk9wYWhOeFh6OUtJVjRNRWpaWDU3SE1BbXlLaHlteF92MXlTNVM3am1iQ044Q08xY1BiOA?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Equities rebound to close higher as surging Treasury yields recede",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT1NWcmpRdnNhV0szWEh4QVRhcF83OVVJSy1jY1BoOFZDb2ZGanhFd3VtQWp5bFJxa2kwRUZJaWExeXF0UmE0NS1vUVpjdWpoc1N4dUUzZ1AtT0ZyNkZBTjU2bmVSSTVjZVRUMmg3YmR2V3FVWXAwWk5lUWlNLVdSSUVRc1NoZEc3R1RrUVpxcnlEOHRmaHRlUjA4ZkVfekc2UGowc2J5T1AxanRxNUNieWw5cS00U3lEaGVN?oc=5"
+        },
+        {
+          "publisher": "Investor's Business Daily",
+          "title": "Micron Reverses Higher After Fiscal Q4 Beat-And-Raise Report",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQWNEZFdodWUxR0N1WUc3elpYN2draXhTV3EwWGFWN3NHRGEzbDh0SUVJMy01Y0l2RUVIQ2ZnU1JvV0swVXRrejN6enJyV0c1REFfQVZqWUY0NGRlUW9aamx3Rkh2c3owUUNZT2RWNjcteDdyazhCcTVhdUZ1UENHYnR4M0dGS0daNHdTLVVNX2oteTZTZFE?oc=5"
+        },
+        {
+          "publisher": "Investopedia",
+          "title": "Micron Investors Aren’t Rewarding Strong Earnings the Way They Used to",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYXplWExuRE1vcEluUEFVQTVKMTdlRng0Tmh6ZENxYWdDOGJ2NjZSNlNaMWREZDNackVyeVdVT25GbF84NzV1NTR2QnZGMmxXTjVkQ0VScFhJZUlfMGliMUxwYWRIcFQ1MDJiX2ZhWHF4TW1kTTd0amtpYXhQakZKQjJkdlM2SjdDb3FCTHlURk92TEd1ZUFWNFNrNG83R29ibTItRV9SeUJjRjB2R3htVDlTa1d4VEpCelBraW5qSXoxdw?oc=5"
+        },
+        {
+          "publisher": "Barron's",
+          "title": "Why Micron’s 87% Gross Margin Is a Blessing and a Curse",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9XUE50ckhwdV9MQVZ3c0ktMkJKLUtpbTJjUURZdHN3WGg1SGJrbFVrZkh6XzIzTnUydDk5T1FtZFd1OWJ2R2tWU0Rjb2g0TUVjYUhoRFRrUkNPTFhILUNsWjJ3cnZ2eXhoSDNBN2pfVWJrZDlWZndrUmtZT1hXUQ?oc=5"
+        },
+        {
+          "publisher": "cnbc.com",
+          "title": "You think Nvidia's $235 billion buyback is big? Just wait and see what Micron might do",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOY2JhTnFqcnpPcDJNbTZGZmJUOUNSZ3FGNWw2cFpsOFE2UjZQSVA5TzJGald3RjA0SFh2NFQtLUF1dXVmY2JuMVVPdmp4TFkzNy12azEzU2FrSmhMWVpwb09iWklObGZkZEkySmZESkZzRTRhX1kwaUt6OG9tUkVRc0tGRVpnVUNIZ0E2U0g1elVLdTByMGQtZC1UNjlVeUhvQ3FUNXJzWkwzMERJMmJ2NVo1bVFlMUl3dnh3cA?oc=5"
+        },
+        {
+          "publisher": "finance.yahoo.com",
+          "title": "Micron stock dips after earnings despite answer to analyst's key question",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZ1lILVk2TkJjdC1Sbmg5WGpyU3BnZlNXSEJNRmtQYTFDNE50NTFwZG5Cc25MdHNNWGV5RGhDWmJ6emxUVV9QYlVzUXhPVXVaUzlZOENHVlEtU3QxbHAwaXJWU25uRVg3Z1JfeGFCMlVqb05GMEVFcURNc1dQRzFudXUzaG4wZ1REWWRwZ0ZQamdiX2szOTJ3dUtVQ1JnVDk2WWRPQW53U2dFU0FkUXVidkdJR1ZwQW00UVdzM2RtY29zX3V1N2liaHktYUg?oc=5"
+        },
+        {
+          "publisher": "TIKR.com",
+          "title": "Micron at 6.6x Earnings: Bargain or Bubble Warning?",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOai1KNmFjczNVVGZpckIyU0oySVJ3S2o5Rk5uckVxR0FmaktiNmNGZWJPNkJSRllKYzZIazNwaU1WTFkyc0hRUmt3Rm1lSERnRUxqWEVWTWhiRU1jYW5UUVpnaExzQmYwc0lfZkNGaHhUUWxfTkY4ay1NTmxEYm5aNA?oc=5"
+        },
+        {
+          "publisher": "MarketWatch",
+          "title": "Why Micron’s big earnings report isn’t lifting the stock",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTG1LM2lObVZDcHJ4SDd2VzNEMHdLbUV5ajV4SnBjNUFSSUxaMnBLT3huekFpaUxCMVQ4VjBGTndDaGR5LVd6RUlrSlhwTDM0RVB0YjFNSzZzWGpMQVRFNDhvaWw1RUljb1BjWFF6U1ExbE42cmtwZF9MeV9zTlN3eGlDOW9jSXNHSnBMal9KODZ3X0ZhVFZCTmlEWEhodw?oc=5"
+        },
+        {
+          "publisher": "Morningstar",
+          "title": "Micron: What We Think of the Stock After Earnings",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOGJ4MzhXOGNFZVZuelpPOUFINlJnc0ZXa3hyeVNRckFYTWpUdUcwd01tZ1FsT21uanAzOENQVERYOFd0UVFZSmRnc0lueDl4bERYZmE3YjZNU2tFTWV5ZTBWeEdJMFh2V0VqaWFmaXg3TGhRVjdfaG5XWGplZlhrSWVORVhkSU5aYXRDSDV3?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Meta Faces Multibillion-Dollar Legal and Regulatory Pressures Over Child Safety and Privacy",
+      "title_ja": "メタ、児童の安全とプライバシーを巡り巨額の法的規制圧力に直面",
+      "summary_ja": "メタは、子どものオンライン保護を巡るハワイ州などとの和解や、ニューメキシコ州での巨額の罰金請求など、高額な法制上の課題に直面しています。児童のプライバシーや安全性に関する規制強化が各州で進められています。",
+      "why_ja": "米国連邦レベルでの法制化が遅れる中、州司法長官や地方政府が主導権を握り、テック大手に対して天文学的な金銭的ペナルティを課す動きが標準化しつつあることを示しています。これにより、ソーシャルメディア企業は単に和解金を支払うだけでなく、アルゴリズムや年齢検証システムの根本的な再設計という重大な運用の変更とコンプライアンスコストの増加を余儀なくされており、メタなどのコア収益モデルに直接的な影響を及ぼしています。",
+      "sources": [
+        {
+          "publisher": "Office of the Governor Josh Green (.gov)",
+          "title": "Hawaiʻi to Receive up to $76 Million in Landmark Meta Settlement to Strengthen Online Protections for Children",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSWxiRkEzVWdOLTJpLTkyTnFCcDBnU3hKdU1WaTZHZUJjcnpYdXZIdk82MmxTSUxlYjl5QnVYY1F6WGd6MUYxMWZaa25DTW1Ebnppd3dxMjRyNThHNmJWdkNZYzAyenRRdjUxX3MwSXlQWDVLa3dVV3lyMGMyaTZnZm9zODJyRzNFTU9RS0xjQk4zTy1mUTNhNVlqMkVtRldSbWIxRnEwQUNWTW1rR3hreEk2U0tmeFRHNkFoX3VpM3d3UFhxY3ZlV3F3d3NKTDdMa00yMFMzYnNxR05hV2twTDJB?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "New Mexico wants Meta to pay up to $40 billion in penalties after data privacy trial",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPejVnckU0ZWxSMDJ5V2d2WXZfa0ZTQ3ctRW9zQWRCMDZYVjhBZ3F0QTJSRVNuN3MzbTZyVzNCREJLclVDZmowNzZCRDV3UmtyblJQd3M4aWxFVXc0UkRwSzExSUh4cTVpdWZuYXItYTM1YWVrbFJzMnR0ZWR3b3A4NVZrbU9maVc3Z3NpNmg3YVpaOEk4OEx1a3VFQXQteEJ6T1NHRmxaX0JKQzZHRmE5emVDOFM3bGFFNVl3?oc=5"
+        },
+        {
+          "publisher": "ncnewsline.com",
+          "title": "NC receives first $45.2M payout from Meta child safety settlement",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ3NTTHVPZnpTam5ZNDhydlBsLU5yWDB6MW5mUmdBSGFXbzZCcG9KZXBaWUZxSjQxNmFROHhJaXIydzNSSmdsRHdfTS1wOGMwbWxhc2ZZM29BcjdjbmdLaGQyTE9xNUZVTlg2Ni1VUHc4M1VqRmUxQ0NTRUZSOUVBR3VIaFhyY2hkSy10NzBFVkYtTzIwVEx3NDNqZ0l5S0dj?oc=5"
+        },
+        {
+          "publisher": "NCDOJ (.gov)",
+          "title": "Meta Pays More Than $45 Million in First Payment to NC from Attorney General Jackson’s Landmark Settlement",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMUg3MVg0VGtlM2NtdDdvNWplcS1ZZ3NTd2dVVFRTNHRtTXM2SkdrS2luNG9uRHBCU3JxR3lvbzZwZWc5QmpqeEQwWFJmempmNDhUZVNOWnZXWFJwYTg1QkdVcjNjeFNyUGxyYmVESjg1RjBDeVY4UG5EWUdxSGhDaFp5bHM2cm1lczA2ZU9TN2xKSkIwUXJhX2plQzZTOE1zbEVVYmFURjVYeEdrSGNDUFR3TWwza1BVMEpGNDZaMlg?oc=5"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "frontier model",
+      "meaning_ja": "フロンティアモデル（最先端のAIモデル）",
+      "note_ja": "最先端の能力を持つAIモデルを指す業界用語としてよく使われます。",
+      "example_en": "Google officially unveiled its new frontier model, Gemini 4 Argon, rolling it out with restricted safety access."
+    },
+    {
+      "term": "circular financing",
+      "meaning_ja": "循環型ファイナンス",
+      "note_ja": "企業間での資金の貸し借いや投資が巡る複雑な金融スキームを指します。",
+      "example_en": "This represents a massive circular financing deal in the current artificial intelligence boom."
+    },
+    {
+      "term": "capital expenditure",
+      "meaning_ja": "資本支出、設備投資",
+      "note_ja": "企業がインフラや資産を維持・取得するために使う投資額のことです。",
+      "example_en": "It shows that hardware suppliers and artificial intelligence labs are becoming deeply intertwined through unprecedented capital expenditure structures to secure future compute power."
+    },
+    {
+      "term": "tensor processing unit",
+      "meaning_ja": "テンソル処理ユニット（TPU）",
+      "note_ja": "AIや機械学習の計算を高速化するためにグーグルが独自開発したプロセッサです。",
+      "example_en": "Additionally, Google launched its first advanced tensor processing unit into orbit via SpaceX to test space-based data center infrastructure."
+    },
+    {
+      "term": "gross margin",
+      "meaning_ja": "売上総利益率、粗利率",
+      "note_ja": "売上高から売上原価を引いた利益の割合を示し、企業の収益性を表す重要な指標です。",
+      "example_en": "Micron reported a massive fiscal fourth quarter earnings beat, driven by a record gross margin of eighty-six point two five percent and over fifty-three billion dollars in quarterly profit."
+    },
+    {
+      "term": "supply constraint",
+      "meaning_ja": "供給制約、供給不足",
+      "note_ja": "需要に対して供給側の能力が追いつかず、品薄や価格上昇を招く状況を指します。",
+      "example_en": "However, CEO Sanjay Mehrotra warned that severe RAM and storage shortages will persist through two thousand and twenty-eight."
+    },
+    {
+      "term": "line of sight",
+      "meaning_ja": "見通し、視界",
+      "note_ja": "今後の状況や結果がどのようになるか明確に把握できている状態を意味します。",
+      "example_en": "For example, you can say, 'Without a clear line of sight on future costs, the company delayed its expansion plans.'"
+    },
+    {
+      "term": "intertwined",
+      "meaning_ja": "密接に結びついた、絡み合った",
+      "note_ja": "2つ以上の企業や要素が切り離せないほど深く関係している様子を表します。",
+      "example_en": "It shows that hardware suppliers and artificial intelligence labs are becoming deeply intertwined through unprecedented capital expenditure structures."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "line of sight",
+    "meaning_ja": "見通し、将来の予測",
+    "example_en": "Without a clear line of sight on future costs, the company delayed its expansion plans.",
+    "example_ja": "将来のコストに関する明確な見通しが立たないため、その会社は拡張計画を延期した。"
+  }
+}
