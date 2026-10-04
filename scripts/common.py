@@ -112,21 +112,37 @@ def is_retryable(err: Exception) -> bool:
     return any(code in s for code in ("429", "500", "502", "503", "504", "RESOURCE_EXHAUSTED", "UNAVAILABLE", "DEADLINE"))
 
 
+_LAST_GOOD: dict[tuple, str] = {}  # model list -> model that last answered (sticky within a run)
+
+
 def call_with_fallback(models: list[str], fn, *, label: str, attempts_per_model: int = 3):
-    """Call fn(model) trying each model in order, with retries on transient errors."""
+    """Call fn(model) trying each model in order, with retries on transient errors.
+
+    - The model that answered last time for the same model list is tried first.
+    - "High demand" (503) moves on to the next model after one quick retry, because
+      a busy model usually stays busy for minutes; rate limits (429) wait and retry.
+    """
+    key = tuple(models)
+    order = list(models)
+    if key in _LAST_GOOD and _LAST_GOOD[key] in order:
+        order.remove(_LAST_GOOD[key])
+        order.insert(0, _LAST_GOOD[key])
     last_err: Exception | None = None
-    for model in models:
+    for model in order:
         for attempt in range(attempts_per_model):
             try:
                 t0 = time.time()
                 result = fn(model)
                 log.info("%s: %s ok (%.1fs)", label, model, time.time() - t0)
+                _LAST_GOOD[key] = model
                 return result, model
             except Exception as e:  # noqa: BLE001
                 last_err = e
                 msg = str(e).replace("\n", " ")[:300]
                 daily_quota = "PerDay" in str(e) or "per_day" in str(e).lower()
-                if is_retryable(e) and not daily_quota and attempt < attempts_per_model - 1:
+                busy = "503" in str(e) or "UNAVAILABLE" in str(e)
+                limit = 2 if busy else attempts_per_model
+                if is_retryable(e) and not daily_quota and attempt < limit - 1:
                     wait = _retry_delay_seconds(e, attempt)
                     log.warning("%s: %s transient error, retry in %.0fs: %s", label, model, wait, msg)
                     time.sleep(wait)
