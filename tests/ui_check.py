@@ -89,7 +89,7 @@ def main():
             assert n_lines > 30, n_lines
             assert page.is_visible("#player"), "player should be visible"
             # tap a line in the Micron story → seek & play
-            target = page.locator(".segment").nth(2).locator(".line").nth(1)
+            target = page.locator(".segment:not(.recap)").nth(2).locator(".line").nth(1)
             t = float(target.get_attribute("data-t"))
             target.click()
             page.wait_for_timeout(1500)

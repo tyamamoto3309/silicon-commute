@@ -42,6 +42,12 @@ MEDIA = """<?xml version="1.0"?><rss version="2.0"><channel>
 </channel></rss>"""
 
 
+WORLD = """<?xml version="1.0"?><rss version="2.0"><channel>
+<item><title>Bank of Japan raises rates to 1%</title><link>https://www.bbc.co.uk/news/boj</link>
+<pubDate>Sun, 27 Sep 2026 07:00:00 GMT</pubDate><description>The central bank lifted its policy rate.</description></item>
+</channel></rss>"""
+
+
 class FakeResp:
     def __init__(self, body, status=200, ctype="application/rss+xml"):
         self.content = body.encode()
@@ -62,6 +68,8 @@ def fake_get(url, **kw):
         return FakeResp(GN if "Nvidia" in url else "<rss><channel></channel></rss>")
     if "techcrunch.com/feed" in url:
         return FakeResp(MEDIA)
+    if "bbci.co.uk" in url:
+        return FakeResp(WORLD)
     if url.startswith("https://techcrunch.com/"):
         return FakeResp("<html><body><article><p>" + "Nvidia details. " * 50 + "</p></article></body></html>", ctype="text/html")
     return FakeResp("<rss><channel></channel></rss>")
@@ -70,7 +78,7 @@ def fake_get(url, **kw):
 collect.requests.get = fake_get
 items = collect.collect(cfg, NOW, 30)
 titles = [i["title"] for i in items]
-assert "Best robot vacuums of 2026" not in titles, "unrelated media item must be filtered"
+assert "Best robot vacuums of 2026" in titles, "tech media feeds are no longer keyword-filtered (the editor skips trivia)"
 assert "Old Nvidia story" not in titles, "old item must be dropped by cutoff"
 assert any("Arm Holdings" in t for t in titles), "Arm item should match keyword"
 nv = [i for i in items if "AI slowdown" in i["title"]]
@@ -79,6 +87,10 @@ assert [i["id"] for i in items] == list(range(1, len(items) + 1))
 kw = collect.company_keywords(cfg)
 assert collect.tag_companies("Rapidus starts 2nm pilot line", kw) == ["Japan chips (Rapidus / Tokyo Electron)"]
 assert "Arm" not in " ".join(collect.tag_companies("an arm of the company", kw)), "lowercase 'arm' must not match"
+assert any(i["section"] == "world" and "Bank of Japan" in i["title"] for i in items), "world feed item expected"
+again = collect.collect(cfg, NOW, 30, history={"urls": {"https://techcrunch.com/c"}, "titles": ["Bank of Japan raises interest rates to 1 percent"]})
+assert not any("Arm Holdings" in i["title"] for i in again), "used URL must be filtered"
+assert not any("Bank of Japan" in i["title"] for i in again), "similar title must be filtered"
 print("✓ collect:", len(items), "items", titles)
 
 # ---------------------------------------------------------------------------
@@ -99,7 +111,20 @@ class FakeModels:
         text = contents if isinstance(contents, str) else ""
         if "news editor" in text:
             ids = [it["id"] for it in items]
-            out = {"stories": [{"headline": "Nvidia slips", "item_ids": ids[:1] + [999], "why": "x"}], "ceo_watch_item_ids": [ids[-1], 12345]}
+            world_id = next(i["id"] for i in items if i["section"] == "world")
+            base = {"companies": [], "follow_up_of": "", "new_development": ""}
+            out = {
+                "stories": [
+                    {**base, "headline": "Nvidia slips", "section": "tech", "topic_key": "nvidia-slip", "item_ids": ids[:1] + [999], "why": "x"},
+                    {**base, "headline": "TSMC weighs Texas fab", "section": "tech", "topic_key": "tsmc-texas-fab", "item_ids": [ids[1]], "why": "x"},
+                    {**base, "headline": "BOJ hikes", "section": "world", "topic_key": "boj-hike", "item_ids": [world_id], "why": "x"},
+                ],
+                "alternates": [
+                    {**base, "headline": "TSMC confirms Texas fab budget", "section": "tech", "topic_key": "tsmc-texas-fab",
+                     "follow_up_of": "tsmc-texas-fab", "new_development": "official budget confirmed", "item_ids": [ids[1]], "why": "x"},
+                ],
+                "ceo_watch_item_ids": [ids[-1], 12345],
+            }
         else:
             out = dict(sample)
             out = json.loads(json.dumps(out))
@@ -113,17 +138,26 @@ class FakeClient:
 
 
 common._client = FakeClient()
-sel = editorial.select_stories(cfg, items, NOW, 30, ["2026-09-25: old story"])
+recent = [{"date": "2026-09-25", "title": "TSMC weighs Texas fab expansion", "topic_key": "tsmc-texas-fab", "section": "tech"}]
+sel = editorial.select_stories(cfg, items, NOW, 30, recent)
+heads = [s["headline"] for s in sel["stories"]]
 assert sel["stories"][0]["item_ids"] == [items[0]["id"]], "invalid ids must be dropped"
+assert "TSMC weighs Texas fab" not in heads, "repeat without new development must be skipped"
+assert "TSMC confirms Texas fab budget" in heads, "follow-up with a new development may return"
+assert sel["stories"][-1]["section"] == "world", "world stories come after tech"
 assert 12345 not in sel["ceo_watch_item_ids"]
 material, extra = editorial.gather_material(cfg, items, sel, 30)
 assert "STORY 1" in material and extra == []
 assert calls[-1][1].tools, "grounding should have been attempted"
-script = editorial.write_script(cfg, material, NOW, {it["id"] for it in items})
+script = editorial.write_script(cfg, material, NOW, {it["id"] for it in items}, sel)
 assert script["segments"][0]["lines"][0]["speaker"] in ("Alex", "Mika")
+kinds = [s["kind"] for s in script["segments"]]
+assert kinds[kinds.index("story") + 1] == "recap", kinds
+assert all(kinds[i + 1] == "recap" for i, k in enumerate(kinds) if k in ("story", "world")), kinds
+assert script["ja_chars"] > 500 and script["word_count"] == sum(common.word_count(l["en"]) for s in script["segments"] if s["lang"] == "en" for l in s["lines"])
 assert script["stories"][0]["source_ids"] == [1]
 assert calls[-1][1].response_json_schema is not None
-print("✓ editorial: select → material (%d chars) → script (%d words, %d model calls)" % (len(material), script["word_count"], len(calls)))
+print("✓ editorial: select %s → script (%d EN words + %d JA chars, %d model calls)" % (heads, script["word_count"], script["ja_chars"], len(calls)))
 
 # ---------------------------------------------------------------------------
 # 3. TTS: request building, WAV/PCM parsing, fallback to per-line parts
@@ -155,7 +189,11 @@ class FakeTTSModels:
         else:
             parts = contents[0].parts
             assert parts[0].speech_metadata.speaker in ("Alex", "Mika")
-            assert "slow pace" in parts[0].speech_metadata.style
+            for pt in parts:
+                if any("\u3040" <= ch <= "\u30ff" for ch in pt.text):
+                    assert "Japanese" in pt.speech_metadata.style, pt.speech_metadata.style
+                else:
+                    assert "slow pace" in pt.speech_metadata.style
             if mode["n"] == 1:  # simulate the per-line format being rejected once → classic is used and remembered
                 raise RuntimeError("400 INVALID_ARGUMENT: speech_metadata not supported")
             data, mime = pcm(3.0), "audio/L16;codec=pcm;rate=24000"
@@ -171,9 +209,10 @@ common._client = FakeTTSClient()
 tts.gemini_client = lambda: FakeTTSClient()
 cfg["episode"]["tts_min_interval_sec"] = 0
 out_wav = ROOT / "out" / "test_tts.wav"
+sample = editorial.finalize(cfg, json.loads((ROOT / "tests/fixtures/sample_script.json").read_text()))
 dur = tts.synthesize(cfg, sample, out_wav)
 chunks = tts.make_chunks(sample, cfg["episode"]["tts_chunk_words"])
-assert all(sum(common.word_count(sample["segments"][s]["lines"][l]["en"]) for s, l in c) <= cfg["episode"]["tts_chunk_words"] for c in chunks)
+assert all(sum(tts.speech_units(sample["segments"][s]["lines"][l]) for s, l in c) <= cfg["episode"]["tts_chunk_words"] for c in chunks)
 ts = [l["t"] for s in sample["segments"] for l in s["lines"]]
 assert ts == sorted(ts) and ts[0] == 0.0
 expected = 2.0 * len(chunks) + tts.PAUSE_BETWEEN_CHUNKS * (len(chunks) - 1)
