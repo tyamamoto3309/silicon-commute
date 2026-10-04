@@ -4,7 +4,8 @@ from __future__ import annotations
 import math
 import struct
 
-from common import ROOT, read_json, word_count
+from common import ROOT, read_json
+from tts import speech_units
 
 FIX = ROOT / "tests" / "fixtures"
 
@@ -14,7 +15,13 @@ def items() -> list[dict]:
 
 
 def select(items_: list[dict]) -> dict:
-    return {"stories": [{"headline": i["title"], "item_ids": [i["id"]], "why": ""} for i in items_[:5]], "ceo_watch_item_ids": []}
+    return {
+        "stories": [
+            {"headline": i["title"], "item_ids": [i["id"]], "why": "", "section": "world" if n == 4 else "tech", "topic_key": f"mock-{n}"}
+            for n, i in enumerate(items_[:5])
+        ],
+        "ceo_watch_item_ids": [],
+    }
 
 
 def material(items_: list[dict], selection: dict) -> str:
@@ -24,7 +31,6 @@ def material(items_: list[dict], selection: dict) -> str:
 def script(cfg: dict, items_: list[dict], selection: dict, now) -> dict:
     sample = read_json(FIX / "sample_script.json")
     if sample:
-        sample["word_count"] = sum(word_count(l["en"]) for s in sample["segments"] for l in s["lines"])
         return sample
     raise FileNotFoundError("tests/fixtures/sample_script.json missing")
 
@@ -33,7 +39,7 @@ def fake_tts(lines: list[dict], rate: int = 24000) -> tuple[bytes, int]:
     """Quiet tones whose length matches ~140 wpm speech, so timings behave realistically."""
     out = bytearray()
     for l in lines:
-        secs = max(1.0, word_count(l["en"]) / 140 * 60)
+        secs = max(1.0, speech_units(l) / 150 * 60)
         freq = 220 if l["speaker"] == "Alex" else 330
         n = int(secs * rate)
         for i in range(n):

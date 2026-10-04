@@ -36,7 +36,8 @@ def make_vtt(ep: dict) -> str:
     out = ["WEBVTT", ""]
     for i, l in enumerate(lines):
         end = lines[i + 1]["t"] if i + 1 < len(lines) else ep.get("duration") or l["t"] + 5
-        out += [f"{_fmt_vtt_time(l['t'])} --> {_fmt_vtt_time(end)}", f"<v {l['speaker']}>{l['en']}", ""]
+        text = l["ja"] if l.get("lang") == "ja" else l["en"]
+        out += [f"{_fmt_vtt_time(l['t'])} --> {_fmt_vtt_time(end)}", f"<v {l['speaker']}>{text}", ""]
     return "\n".join(out)
 
 
@@ -67,8 +68,9 @@ def ensure_audio(ep: dict, dest_dir: Path) -> Path | None:
 def show_notes_html(ep: dict, base: str) -> str:
     h = [f"<p>{html.escape(ep.get('summary_ja', ''))}</p>", "<ol>"]
     for st in ep.get("stories", []):
+        tag = "🌏 " if st.get("section") == "world" else "💻 "
         h.append(
-            f"<li><b>{html.escape(st.get('title_ja', ''))}</b><br/>{html.escape(st.get('title_en', ''))}"
+            f"<li><b>{tag}{html.escape(st.get('title_ja', ''))}</b><br/>{html.escape(st.get('title_en', ''))}"
             f"<br/>{html.escape(st.get('summary_ja', ''))}</li>"
         )
     h.append("</ol>")
@@ -167,7 +169,7 @@ def build() -> None:
             "summary_ja": ep.get("summary_ja", ""),
             "duration": ep.get("duration"),
             "audio_url": page["audio_url"],
-            "stories": [{"title_en": s.get("title_en", ""), "title_ja": s.get("title_ja", "")} for s in ep.get("stories", [])],
+            "stories": [{"title_en": s.get("title_en", ""), "title_ja": s.get("title_ja", ""), "section": s.get("section", "tech")} for s in ep.get("stories", [])],
         })
 
     write_json(SITE_OUT / "data" / "index.json", {

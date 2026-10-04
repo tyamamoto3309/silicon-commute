@@ -106,15 +106,47 @@ def google_news(cfg: dict, cutoff: datetime, hours: int) -> list[dict]:
                 "published": t.isoformat() if t else None,
                 "summary": "",
                 "companies": [c["name"]],
+                "section": "tech",
             })
             n += 1
-            if n >= gn.get("max_items_per_query", 12):
+            if n >= gn.get("max_items_per_query", 6):
                 break
         log.info("Google News %-40s %d items", c["name"], n)
+
+    # top stories by topic (world, business, technology, science)
+    for topic, section in (gn.get("topics") or {}).items():
+        url = (
+            f"https://news.google.com/rss/headlines/section/topic/{topic}"
+            + f"?hl={gn.get('hl', 'en-US')}&gl={gn.get('gl', 'US')}&ceid={quote_plus(gn.get('ceid', 'US:en'))}"
+        )
+        try:
+            feed = _get_feed(url)
+        except Exception as e:  # noqa: BLE001
+            log.warning("Google News topic %s failed: %s", topic, e)
+            continue
+        n = 0
+        for e in feed.entries:
+            t = _entry_time(e)
+            if t and t < cutoff:
+                continue
+            title = e.get("title", "")
+            publisher = (e.get("source") or {}).get("title", "") if isinstance(e.get("source"), dict) else ""
+            if publisher and title.endswith(" - " + publisher):
+                title = title[: -(len(publisher) + 3)]
+            items.append({
+                "origin": "google_news", "publisher": publisher or "Google News", "title": title.strip(),
+                "url": e.get("link", ""), "published": t.isoformat() if t else None, "summary": "",
+                "companies": [], "section": section,
+            })
+            n += 1
+            if n >= gn.get("max_items_per_topic", 25):
+                break
+        log.info("Google News topic %-28s %d items", topic, n)
     return items
 
 
-def rss_feeds(feeds: list[dict], origin: str, cutoff: datetime, kw: dict, require_match: bool) -> list[dict]:
+def rss_feeds(feeds: list[dict], origin: str, cutoff: datetime, kw: dict, require_match: bool,
+              section: str = "tech", cap: int = 30) -> list[dict]:
     items = []
     for f in feeds:
         try:
@@ -140,8 +172,11 @@ def rss_feeds(feeds: list[dict], origin: str, cutoff: datetime, kw: dict, requir
                 "published": t.isoformat() if t else None,
                 "summary": summary,
                 "companies": comps,
+                "section": f.get("section", section),
             })
             n += 1
+            if n >= f.get("cap", cap):
+                break
         log.info("%-12s %-22s %d items", origin, f["name"], n)
     return items
 
@@ -220,7 +255,17 @@ def x_posts(cfg: dict, cutoff: datetime) -> list[dict]:
 # ---------------------------------------------------------------------------
 # dedupe & rank
 # ---------------------------------------------------------------------------
-_ORIGIN_RANK = {"official": 0, "x": 1, "media": 2, "google_news": 3}
+_ORIGIN_RANK = {"official": 0, "x": 1, "media": 2, "world": 3, "google_news": 4}
+_STOP = set("the and for with its new says said over after from into amid than that this will would could about more what why how are has have was were been their they them his her who not but all can may also just one two three year years week day today report reports".split())
+
+
+def content_words(title: str) -> set[str]:
+    return {w for w in re.findall(r"[a-z0-9]+", title.lower()) if len(w) > 2 and w not in _STOP}
+
+
+def similarity(a: str, b: str) -> float:
+    wa, wb = content_words(a), content_words(b)
+    return len(wa & wb) / len(wa | wb) if wa and wb else 0.0
 
 
 def _norm_words(title: str) -> set[str]:
@@ -250,14 +295,29 @@ def dedupe(items: list[dict]) -> list[dict]:
     return kept
 
 
-def collect(cfg: dict, now: datetime, hours: int, max_items: int = 200) -> list[dict]:
+def collect(cfg: dict, now: datetime, hours: int, max_items: int = 280, history: dict | None = None) -> list[dict]:
     cutoff = now.astimezone(timezone.utc) - timedelta(hours=hours)
     kw = company_keywords(cfg)
     items: list[dict] = []
-    items += rss_feeds(cfg.get("official_feeds", []), "official", cutoff, kw, require_match=False)
-    items += rss_feeds(cfg.get("media_feeds", []), "media", cutoff, kw, require_match=True)
+    items += rss_feeds(cfg.get("official_feeds", []), "official", cutoff, kw, require_match=False, cap=10)
+    items += rss_feeds(cfg.get("media_feeds", []), "media", cutoff, kw, require_match=False, cap=30)
+    items += rss_feeds(cfg.get("world_feeds", []), "world", cutoff, kw, require_match=False, section="world", cap=25)
     items += x_posts(cfg, cutoff)
     items += google_news(cfg, cutoff, hours)
+    for it in items:
+        it.setdefault("section", "tech")
+        if not it.get("companies"):
+            it["companies"] = tag_companies(f"{it['title']} {it.get('summary', '')}", kw)
+    # drop articles already used as sources in recent episodes
+    if history:
+        used_urls = history.get("urls", set())
+        used_titles = history.get("titles", [])
+        before = len(items)
+        items = [
+            i for i in items
+            if i["url"] not in used_urls and not any(similarity(i["title"], t) >= 0.6 for t in used_titles)
+        ]
+        log.info("Dropped %d items already used in recent episodes", before - len(items))
     blocked = [b.lower() for b in cfg.get("blocked_publishers", []) or []]
     if blocked:
         before = len(items)
@@ -268,13 +328,19 @@ def collect(cfg: dict, now: datetime, hours: int, max_items: int = 200) -> list[
     items.sort(key=lambda i: i.get("published") or "", reverse=True)
     items.sort(key=lambda i: _ORIGIN_RANK.get(i["origin"], 9))
     if len(items) > max_items:
-        # keep all official/x, trim the rest
+        # keep all official/x posts; split the rest so world news keeps roughly a third of the pool
         head = [i for i in items if i["origin"] in ("official", "x")]
-        tail = [i for i in items if i["origin"] not in ("official", "x")]
-        items = head + tail[: max(0, max_items - len(head))]
+        world = [i for i in items if i not in head and i["section"] == "world"]
+        tech = [i for i in items if i not in head and i["section"] != "world"]
+        room = max(0, max_items - len(head))
+        n_world = min(len(world), max(room // 3, room - len(tech)))
+        items = head + tech[: room - n_world] + world[:n_world]
     for n, it in enumerate(items, 1):
         it["id"] = n
-    log.info("Collected %d unique candidate items", len(items))
+    log.info(
+        "Collected %d unique candidate items (tech %d, world %d)", len(items),
+        sum(i["section"] != "world" for i in items), sum(i["section"] == "world" for i in items),
+    )
     return items
 
 

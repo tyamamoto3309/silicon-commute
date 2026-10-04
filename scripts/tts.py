@@ -16,6 +16,20 @@ from common import call_with_fallback, gemini_client, get_logger, word_count
 
 log = get_logger("tts")
 PAUSE_BETWEEN_CHUNKS = 0.45  # seconds
+USED_TTS_MODELS: set[str] = set()
+JA_WORDS_PER_CHAR = 0.45  # 1 Japanese character ≈ 0.45 English words of speaking time
+
+
+def spoken(line: dict) -> str:
+    """The text that is actually read aloud for a transcript line."""
+    return line["ja"] if line.get("lang") == "ja" else line["en"]
+
+
+def speech_units(line: dict) -> float:
+    """Speaking length in English-word equivalents."""
+    if line.get("lang") == "ja":
+        return len(line["ja"]) * JA_WORDS_PER_CHAR
+    return word_count(line["en"])
 
 
 # ---------------------------------------------------------------------------
@@ -26,7 +40,7 @@ def make_chunks(script: dict, max_words: int) -> list[list[tuple[int, int]]]:
     chunks, cur, cur_words = [], [], 0
     for si, seg in enumerate(script["segments"]):
         for li, line in enumerate(seg["lines"]):
-            w = word_count(line["en"])
+            w = speech_units(line)
             # prefer to start a new chunk at a segment boundary once reasonably full
             boundary = li == 0 and cur_words > max_words * 0.6
             if cur and (cur_words + w > max_words or boundary):
@@ -63,9 +77,9 @@ def _speech_config(cfg: dict):
 def _director_note(cfg: dict) -> str:
     a, b = cfg["hosts"][0], cfg["hosts"][1]
     return (
-        "Read this morning tech-news podcast conversation aloud. "
-        "Pace: moderate, slightly slower than a native news broadcast, with clear articulation for English learners, "
-        "and natural short pauses between speakers. "
+        "Read this morning news podcast aloud. English lines: moderate pace, slightly slower than a native news broadcast, "
+        "with clear articulation for English learners. Japanese lines: natural standard Japanese like a calm NHK radio newsreader. "
+        "Natural short pauses between speakers. "
         f"{a['name']} sounds {a.get('style', 'calm')}; {b['name']} sounds {b.get('style', 'warm')}."
     )
 
@@ -87,6 +101,7 @@ def _pcm_from_part(part) -> tuple[bytes, int]:
 
 
 PACE = "speaking at a moderate, slightly slow pace with clear articulation for English learners"
+JA_STYLE = "a calm, clear Japanese radio newsreader speaking natural standard Japanese (標準語) at a relaxed pace"
 _MODE: dict[str, str] = {}  # model -> request format that worked ("parts" or "classic")
 
 
@@ -96,14 +111,20 @@ def synth_chunk(cfg: dict, lines: list[dict]) -> tuple[bytes, int]:
     client = gemini_client()
     names = {h["name"] for h in cfg["hosts"][:2]}
     styles = {h["name"]: f"{h.get('style', '')}, {PACE}".strip(", ") for h in cfg["hosts"][:2]}
-    transcript = "\n".join(f"{l['speaker']}: {l['en']}" for l in lines if l["speaker"] in names)
+    transcript = "\n".join(f"{l['speaker']}: {spoken(l)}" for l in lines if l["speaker"] in names)
     models = [cfg["models"]["tts"], *cfg["models"].get("tts_fallbacks", [])]
 
     def request(model: str, mode: str, conf):
         if mode == "parts":
             # current format: one part per line with speech_metadata (speaker + style)
             parts = [
-                types.Part(text=l["en"], speech_metadata=types.SpeechMetadata(speaker=l["speaker"], style=styles.get(l["speaker"]) or None))
+                types.Part(
+                    text=spoken(l),
+                    speech_metadata=types.SpeechMetadata(
+                        speaker=l["speaker"],
+                        style=(JA_STYLE if l.get("lang") == "ja" else styles.get(l["speaker"])) or None,
+                    ),
+                )
                 for l in lines
             ]
             return client.models.generate_content(model=model, contents=[types.Content(role="user", parts=parts)], config=conf)
@@ -131,6 +152,7 @@ def synth_chunk(cfg: dict, lines: list[dict]) -> tuple[bytes, int]:
         raise RuntimeError("TTS response contained no audio")
 
     (pcm, rate), model = call_with_fallback(models, run, label="tts", attempts_per_model=5)
+    USED_TTS_MODELS.add(model)
     return pcm, rate
 
 
@@ -138,7 +160,10 @@ def synth_chunk(cfg: dict, lines: list[dict]) -> tuple[bytes, int]:
 # full episode
 # ---------------------------------------------------------------------------
 def _assign_times(script: dict, chunk: list[tuple[int, int]], start: float, dur: float) -> None:
-    weights = [len(script["segments"][si]["lines"][li]["en"]) + 25 for si, li in chunk]
+    weights = [
+        len(spoken(script["segments"][si]["lines"][li])) * (2.7 if script["segments"][si]["lines"][li].get("lang") == "ja" else 1) + 25
+        for si, li in chunk
+    ]
     total = sum(weights) or 1
     t = start
     for (si, li), w in zip(chunk, weights):

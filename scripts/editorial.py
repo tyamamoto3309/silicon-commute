@@ -1,13 +1,19 @@
-"""Step 2 — editorial: pick stories, gather facts, write the bilingual two-host script."""
+"""Step 2 — editorial: pick stories, gather facts, write the bilingual two-host script.
+
+Episode shape
+  intro → tech stories (4–5) → world briefing (2) → [CEO watch] → phrase of the day → outro
+  Every story segment is spoken in English and immediately followed by a short Japanese recap.
+"""
 from __future__ import annotations
 
 import json
 from datetime import datetime
 
-from collect import fetch_article_text
+from collect import fetch_article_text, similarity
 from common import call_with_fallback, extract_json, gemini_client, get_logger, word_count
 
 log = get_logger("editorial")
+USED_MODELS: dict[str, str] = {}  # label -> model that actually answered
 
 
 def _models(cfg: dict) -> list[str]:
@@ -28,7 +34,8 @@ def _json_call(cfg: dict, prompt: str, schema: dict | None, label: str) -> dict:
         resp = client.models.generate_content(model=model, contents=prompt, config=conf)
         return extract_json(resp.text)
 
-    data, _ = call_with_fallback(_models(cfg), run, label=label)
+    data, model = call_with_fallback(_models(cfg), run, label=label)
+    USED_MODELS[label] = model
     return data
 
 
@@ -39,67 +46,126 @@ def _fmt_items(items: list[dict]) -> str:
         pub = (it.get("published") or "")[:16].replace("T", " ")
         summ = f" — {it['summary']}" if it.get("summary") else ""
         also = f" (also: {', '.join(it['also'][:3])})" if it.get("also") else ""
-        lines.append(f"[{it['id']}] {it['origin']} | {it['publisher']}{also} | {pub} | {comp} | {it['title']}{summ}")
+        lines.append(f"[{it['id']}] {it.get('section', 'tech')} | {it['publisher']}{also} | {pub} | {comp} | {it['title']}{summ}")
     return "\n".join(lines)
 
 
 # ---------------------------------------------------------------------------
 # 2a. select
 # ---------------------------------------------------------------------------
+_STORY = {
+    "type": "object",
+    "properties": {
+        "headline": {"type": "string"},
+        "section": {"type": "string", "enum": ["tech", "world"]},
+        "topic_key": {"type": "string"},
+        "item_ids": {"type": "array", "items": {"type": "integer"}},
+        "companies": {"type": "array", "items": {"type": "string"}},
+        "why": {"type": "string"},
+        "follow_up_of": {"type": "string"},
+        "new_development": {"type": "string"},
+    },
+    "required": ["headline", "section", "topic_key", "item_ids", "why", "follow_up_of", "new_development"],
+}
 SELECT_SCHEMA = {
     "type": "object",
     "properties": {
-        "stories": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "headline": {"type": "string"},
-                    "item_ids": {"type": "array", "items": {"type": "integer"}},
-                    "companies": {"type": "array", "items": {"type": "string"}},
-                    "why": {"type": "string"},
-                },
-                "required": ["headline", "item_ids", "why"],
-            },
-        },
+        "stories": {"type": "array", "items": _STORY},
+        "alternates": {"type": "array", "items": _STORY},
         "ceo_watch_item_ids": {"type": "array", "items": {"type": "integer"}},
     },
-    "required": ["stories", "ceo_watch_item_ids"],
+    "required": ["stories", "alternates", "ceo_watch_item_ids"],
 }
 
 
-def select_stories(cfg: dict, items: list[dict], now: datetime, hours: int, recent_titles: list[str]) -> dict:
+def _fmt_recent(recent: list[dict]) -> str:
+    if not recent:
+        return "(none)"
+    return "\n".join(f"- {r['date']} [{r.get('topic_key') or '-'}] ({r.get('section', 'tech')}) {r['title']}" for r in recent)
+
+
+def _is_repeat(story: dict, recent: list[dict]) -> bool:
+    keys = {r.get("topic_key") for r in recent if r.get("topic_key")}
+    if story.get("follow_up_of") or story.get("topic_key") in keys:
+        return True
+    return any(similarity(story["headline"], r["title"]) >= 0.5 for r in recent)
+
+
+def select_stories(cfg: dict, items: list[dict], now: datetime, hours: int, recent: list[dict]) -> dict:
     ep = cfg["episode"]
-    recent = "\n".join(f"- {t}" for t in recent_titles) or "(none)"
-    prompt = f"""You are the news editor of "The Silicon Commute", a weekday 10-minute English podcast about Big Tech (Alphabet/Google, Apple, Meta, Amazon, Microsoft) and the semiconductor industry.
-The listener is a Japanese public-health policy researcher and government official in Kyoto who wants the strategically important moves, not gossip.
+    n_tech, n_world = int(ep.get("tech_stories", 5)), int(ep.get("world_stories", 2))
+    prompt = f"""You are the news editor of "The Silicon Commute", a weekday-morning English podcast.
+Its core is technology (Big Tech, semiconductors, AI and the wider tech industry); it also covers the most important world news of the day.
+The listener is a Japanese public-health policy researcher and government official in Kyoto who wants the strategically important developments, not gossip.
 
 Today is {now:%A, %B %d, %Y} (Japan time). Candidates were published in the last {hours} hours.
 
-CANDIDATE ITEMS (id | origin | publisher | published UTC | companies | title — summary):
+CANDIDATE ITEMS (id | section | publisher | published UTC | companies | title — summary):
 {_fmt_items(items)}
 
-RECENTLY COVERED (skip unless there is a material new development):
-{recent}
+ALREADY COVERED IN RECENT EPISODES (date [topic_key] (section) title):
+{_fmt_recent(recent)}
 
-Choose up to {ep['max_stories']} stories for today's episode.
-Editorial priorities:
-1. Strategic or market-moving news: earnings and guidance, AI capital spending, large deals and M&A, chip supply (TSMC, HBM memory, advanced packaging), export controls and tariffs, antitrust and regulation, major product or AI model launches.
-2. What CEOs themselves said or posted (X posts, interviews, keynotes, memos).
-3. Balance: at least 2 GAFAM stories and 2 semiconductor stories when material exists. Include a Japan/Asia angle only if genuinely relevant.
-4. Merge items about the same event into one story (list all their ids). Prefer stories with enough factual detail in the candidates.
-5. Skip trivia, shopping deals, game mods, single-source rumors and opinion pieces without news.
-6. Source quality: prefer stories reported by established outlets (Reuters, Bloomberg, CNBC, FT, WSJ, Nikkei Asia, AP, The Verge, TechCrunch, Tom's Hardware, company newsrooms, etc.). Do NOT pick a story whose only sources are content farms, aggregators or unknown sites.
+Choose {n_tech} TECH stories and {n_world} WORLD stories, plus up to 4 alternates (mixed), in order of importance.
 
-Also return "ceo_watch_item_ids": up to 3 item ids where a CEO's own words are the news (may overlap with stories).
-Order stories from most to least important. Return JSON only."""
+TECH (section "tech") — keep it broad and varied:
+- Big Tech (Alphabet/Google, Apple, Meta, Amazon, Microsoft), semiconductors (TSMC, NVIDIA, memory, equipment), and AI,
+  but ALSO the wider tech world: cybersecurity incidents, platform regulation and antitrust, telecom, EVs and batteries,
+  space, robotics, digital health, chips policy and supply chains, major startups and funding.
+- At most ONE story per company, and at most TWO stories that are mainly about AI models or AI products.
+- Prefer strategic or market-moving news: earnings and guidance, big deals, launches, regulation, supply-chain shifts, executive statements.
+
+WORLD (section "world") — the most consequential international news of the day:
+- geopolitics, conflicts and diplomacy, elections and major policy decisions, the global economy and markets (central banks, trade, energy),
+  climate and major disasters, public health. Prefer stories with broad global impact or a clear link to Japan and Asia.
+- Skip celebrity, sports, crime stories without wider significance, and local US politics unless globally important.
+
+AVOID REPEATS — very important:
+- Do not choose a story whose topic was already covered in the recent episodes above. Ongoing topics (e.g. a company's planned factory,
+  a model launch, a court case) may return ONLY if there is a concrete new development (new decision, new numbers, official confirmation).
+  In that case set "follow_up_of" to the earlier topic_key and describe the new development in "new_development". At most one follow-up.
+- For new topics set "follow_up_of" and "new_development" to "".
+- "topic_key": a short, stable kebab-case label for the underlying topic (e.g. "tsmc-texas-fab", "apple-taction-patent-verdict"),
+  reused across days for the same topic.
+
+OTHER RULES
+- Merge items about the same event into one story (list all their ids). Prefer stories with enough factual detail in the candidates.
+- Source quality: prefer established outlets (Reuters, Bloomberg, AP, BBC, CNBC, FT, WSJ, Nikkei Asia, NPR, Al Jazeera, The Guardian,
+  The Verge, TechCrunch, Tom's Hardware, company newsrooms). Never pick a story whose only sources are aggregators or unknown sites.
+- Skip trivia, shopping deals, game mods, single-source rumors and opinion pieces without news.
+
+Also return "ceo_watch_item_ids": up to 3 item ids where a tech CEO's own words are the news (may overlap with stories).
+Return JSON only."""
     data = _json_call(cfg, prompt, SELECT_SCHEMA, "select")
     valid = {it["id"] for it in items}
-    for s in data.get("stories", []):
+    pool = []
+    for s in data.get("stories", []) + data.get("alternates", []):
         s["item_ids"] = [i for i in s.get("item_ids", []) if i in valid]
-    data["stories"] = [s for s in data.get("stories", []) if s["item_ids"]][: ep["max_stories"]]
+        if s["item_ids"]:
+            pool.append(s)
+
+    chosen: dict[str, list[dict]] = {"tech": [], "world": []}
+    want = {"tech": n_tech, "world": n_world}
+    follow_ups = 0
+    used_ids: set[int] = set()
+    for s in pool:
+        sec = s.get("section") if s.get("section") in want else "tech"
+        if len(chosen[sec]) >= want[sec] or used_ids & set(s["item_ids"]):
+            continue
+        if _is_repeat(s, recent):
+            if not (s.get("new_development") or "").strip() or follow_ups >= 1:
+                log.info("Skip repeat: %s", s["headline"])
+                continue
+            follow_ups += 1
+        s["section"] = sec
+        chosen[sec].append(s)
+        used_ids |= set(s["item_ids"])
+    data["stories"] = chosen["tech"] + chosen["world"]
     data["ceo_watch_item_ids"] = [i for i in data.get("ceo_watch_item_ids", []) if i in valid][:3]
-    log.info("Selected %d stories: %s", len(data["stories"]), [s["headline"] for s in data["stories"]])
+    log.info(
+        "Selected %d tech + %d world: %s", len(chosen["tech"]), len(chosen["world"]),
+        [s["headline"] for s in data["stories"]],
+    )
     return data
 
 
@@ -110,7 +176,9 @@ def gather_material(cfg: dict, items: list[dict], selection: dict, hours: int) -
     by_id = {it["id"]: it for it in items}
     blocks = []
     for n, s in enumerate(selection["stories"], 1):
-        parts = [f"STORY {n}: {s['headline']}\nWhy it matters (editor): {s.get('why', '')}"]
+        parts = [f"STORY {n} ({s['section'].upper()}, topic_key: {s.get('topic_key', '')}): {s['headline']}\nWhy it matters (editor): {s.get('why', '')}"]
+        if s.get("new_development"):
+            parts.append(f"Follow-up of an earlier story — NEW DEVELOPMENT to focus on: {s['new_development']}")
         fetched = 0
         for i in s["item_ids"]:
             it = by_id[i]
@@ -155,11 +223,11 @@ def _grounded_research(cfg: dict, selection: dict, items: list[dict], hours: int
         f"{n}. {s['headline']} — based on: " + "; ".join(f"{by_id[i]['publisher']}: {by_id[i]['title']}" for i in s["item_ids"][:4])
         for n, s in enumerate(selection["stories"], 1)
     )
-    prompt = f"""You are a meticulous fact-checker for a tech news podcast.
+    prompt = f"""You are a meticulous fact-checker for a news podcast.
 For each story below, search the web and report what reputable outlets published in roughly the last {hours + 24} hours:
 - what exactly happened, with key numbers (units, currency, period) and dates
 - who said what (short exact quotes only if you find them, with attribution)
-- market or competitor reaction, and why it matters for the industry
+- reactions, and why it matters
 - any conflicting reports or corrections
 Do not speculate. Write concise English bullet points per story and name the outlet for each fact.
 
@@ -196,6 +264,11 @@ LINE = {
     },
     "required": ["speaker", "en", "ja"],
 }
+RECAP_LINE = {
+    "type": "object",
+    "properties": {"speaker": {"type": "string"}, "ja": {"type": "string"}},
+    "required": ["speaker", "ja"],
+}
 SCRIPT_SCHEMA = {
     "type": "object",
     "properties": {
@@ -207,12 +280,13 @@ SCRIPT_SCHEMA = {
             "items": {
                 "type": "object",
                 "properties": {
-                    "kind": {"type": "string", "enum": ["intro", "story", "ceo_watch", "phrase", "outro"]},
+                    "kind": {"type": "string", "enum": ["intro", "story", "world", "ceo_watch", "phrase", "outro"]},
                     "heading_en": {"type": "string"},
                     "heading_ja": {"type": "string"},
                     "lines": {"type": "array", "items": LINE},
+                    "recap_ja": {"type": "array", "items": RECAP_LINE},
                 },
-                "required": ["kind", "heading_en", "heading_ja", "lines"],
+                "required": ["kind", "heading_en", "heading_ja", "lines", "recap_ja"],
             },
         },
         "stories": {
@@ -224,10 +298,12 @@ SCRIPT_SCHEMA = {
                     "title_ja": {"type": "string"},
                     "summary_ja": {"type": "string"},
                     "why_ja": {"type": "string"},
+                    "section": {"type": "string", "enum": ["tech", "world"]},
+                    "topic_key": {"type": "string"},
                     "companies": {"type": "array", "items": {"type": "string"}},
                     "source_ids": {"type": "array", "items": {"type": "integer"}},
                 },
-                "required": ["title_en", "title_ja", "summary_ja", "why_ja", "source_ids"],
+                "required": ["title_en", "title_ja", "summary_ja", "why_ja", "section", "topic_key", "source_ids"],
             },
         },
         "vocabulary": {
@@ -258,51 +334,66 @@ SCRIPT_SCHEMA = {
 }
 
 
-def _writer_prompt(cfg: dict, material: str, now: datetime, target_words: int) -> str:
+def _writer_prompt(cfg: dict, material: str, now: datetime, target_words: int, selection: dict) -> str:
     ep, hosts = cfg["episode"], cfg["hosts"]
     a, b = hosts[0], hosts[1]
     friday = now.weekday() == 4
     monday = now.weekday() == 0
     minutes = ep["target_minutes"]
-    return f"""You are the head writer of "The Silicon Commute", a weekday-morning English podcast about Big Tech (GAFAM) and semiconductors.
+    recap = int(ep.get("recap_ja_chars", 190))
+    n_tech = sum(1 for s in selection["stories"] if s["section"] == "tech")
+    n_world = sum(1 for s in selection["stories"] if s["section"] == "world")
+    has_ceo = bool(selection.get("ceo_watch_item_ids"))
+    return f"""You are the head writer of "The Silicon Commute", a weekday-morning podcast. Its core is technology news; it also covers the day's most important world news.
+The conversation is in English; after EACH story, {b['name']} gives a short recap in Japanese.
 
 HOSTS
 - {a['name']}: {a['persona']}
-- {b['name']}: {b['persona']}
+- {b['name']}: {b['persona']} {b['name']} is fluent in Japanese and delivers the Japanese recaps.
 
 LISTENER
-A Japanese professional (public-health policy researcher and prefectural government official in Kyoto) on a 20-minute train commute. Goals: (1) understand what Big Tech and chip companies did and why it matters; (2) train academic/business English listening.
+A Japanese professional (public-health policy researcher and prefectural government official in Kyoto) on a 20-minute train commute.
+Goals: (1) understand what happened and why it matters; (2) train academic/business English listening, using the Japanese recap to check understanding.
 
 TODAY: {now:%A, %B %-d, %Y}.{" It is Monday, so the material covers the weekend too." if monday else ""}
 
 LENGTH — IMPORTANT
-About {target_words} English words in total across all "en" lines (acceptable range {int(target_words*0.9)}–{int(target_words*1.1)}), i.e. about {minutes} minutes of audio.
+- English: about {target_words} words in total across all "en" lines (acceptable {int(target_words*0.9)}–{int(target_words*1.1)}), about {minutes} minutes.
+- Japanese recaps: about {recap} Japanese characters per story (30–40 seconds when read aloud).
 
-STRUCTURE — segments in this order
-1. kind "intro" (~90 words): {a['name']} greets ("Good morning, it's {now:%A, %B %-d}. This is The Silicon Commute."), {b['name']} previews the top three headlines in one short line each.
-2. kind "story", one segment per story, most important first (each 170–260 words): what happened (facts, numbers, who), then why it matters (strategy, competition, supply chain, regulation). {b['name']} asks at least one question per story. Add a Japan/Asia angle only when the material supports it.
-3. kind "ceo_watch" (80–150 words): what CEOs said or posted. Attribute precisely (e.g. "Satya Nadella wrote on X that ..."). If the material has no CEO statements, discuss a leadership angle from today's stories. Never invent quotes.
-4. kind "phrase" (~70 words): "Phrase of the day" — {b['name']} picks one useful business/tech English expression that appeared in today's episode, explains it simply and gives one more example.
-5. kind "outro" (~40 words): one-sentence takeaway and sign-off ("See you on tomorrow's commute."{' — it is Friday, so wish listeners a good weekend and say see you Monday' if friday else ''}).
+STRUCTURE — segments in this order (the material has {n_tech} tech stories, then {n_world} world stories)
+1. kind "intro" (~70 words): {a['name']} greets ("Good morning, it's {now:%A, %B %-d}. This is The Silicon Commute."), {b['name']} previews three headlines, including one world story. recap_ja: [].
+2. kind "story" — one segment per TECH story, most important first (each 150–210 words): what happened (facts, numbers, who), then why it matters. {b['name']} asks at least one question.
+3. kind "world" — one segment per WORLD story (each 110–160 words). The first world segment opens with a short transition such as "Now, a look at the world beyond tech."
+4. kind "ceo_watch" (60–100 words) — {"what tech CEOs said or posted, attributed precisely; never invent quotes" if has_ceo else "SKIP this segment (no CEO material today)"}. recap_ja: [].
+5. kind "phrase" (~60 words): "Phrase of the day" — {b['name']} picks one useful English expression that appeared today, explains it simply, gives one more example. recap_ja: [].
+6. kind "outro" (~35 words): one-sentence takeaway and sign-off ("See you on tomorrow's commute."{' — it is Friday: wish listeners a good weekend, see you Monday' if friday else ''}). recap_ja: one short Japanese sign-off line by {b['name']}.
+
+JAPANESE RECAP ("recap_ja", required for every "story" and "world" segment)
+- 1–3 lines, speaker "{b['name']}", natural spoken Japanese in ですます調, like an NHK radio news summary: 何が起きたか → なぜ重要か.
+- The first recap of the episode starts with 「日本語でおさらいします。」; later ones may start directly.
+- Do not add facts that are not in the English segment. Numbers must match exactly (million = 100万, billion = 10億, trillion = 1兆; e.g. sixty-four billion dollars = 640億ドル).
+- Company, product and person names in their usual Latin spelling (NVIDIA, TSMC, Satya Nadella). 読みにくい漢字の人名・地名には括弧で読み仮名（例: 菊陽町（きくようまち））。
 
 SPOKEN-ENGLISH RULES for "en"
 - {ep['english_style']}
 - speaker must be exactly "{a['name']}" or "{b['name']}". Each line 1–3 sentences, max 60 words. Alternate naturally.
-- Write numbers as a broadcaster reads them: "$4.2 billion" → "4.2 billion dollars", "Q3" → "the third quarter", "YoY" → "compared with a year earlier", "2nm" → "two-nanometer".
-- No URLs, markdown, emojis, stage directions or sound effects. Plain spoken English only.
-- ACCURACY FIRST: use only facts in the MATERIAL. If a number, date or quote is not in the material, do not state it. Attribute reporting ("according to Reuters"). Use names and job titles exactly as the material gives them — executives change, so do not rely on memory.
-- Neutral and analytical. No investment advice.
+- Write numbers as a broadcaster reads them: "$4.2 billion" → "4.2 billion dollars", "Q3" → "the third quarter", "2nm" → "two-nanometer".
+- No URLs, markdown, emojis, stage directions or sound effects.
+- ACCURACY FIRST: use only facts in the MATERIAL. If a number, date or quote is not in the material, do not state it. Attribute reporting
+  ("according to Reuters"). Use names and job titles exactly as the material gives them. For follow-up stories, focus on the new development.
+- Neutral and analytical. No investment advice. On conflicts and politics, report facts and attributed positions without taking sides.
 
-JAPANESE
-- "ja": a natural, accurate Japanese translation of that line in friendly spoken Japanese (ですます調で統一). Keep company, product and person names in their original Latin spelling (例: NVIDIA, TSMC, Satya Nadella).
-- 読みにくい漢字の人名・地名には括弧で読み仮名を付ける（例: 菊陽町（きくようまち））。
-- 数字は英語と必ず一致させる。桁の換算に注意: million = 100万, billion = 10億, trillion = 1兆（例: sixty-four billion dollars = 640億ドル, 1.5 trillion yen = 1.5兆円）。
+LINE TRANSLATIONS
+- Every English line also has "ja": a natural, accurate Japanese translation for the on-screen transcript (ですます調). Same number and name rules as above.
 - Headings: heading_en short English; heading_ja 日本語。
 
 METADATA
-- title_en: catchy episode title (max 70 chars); title_ja: 日本語タイトル; summary_ja: 3文の日本語要約。
-- stories: one entry per story segment, same order. summary_ja 2–3文, why_ja 1–2文（産業・政策への示唆）, source_ids = the [id] numbers from the material that support the story.
-- vocabulary: 8–12 useful terms or collocations that actually appear in the "en" lines (e.g. "capital expenditure", "ramp up production"). meaning_ja = 日本語の意味, note_ja = 使い方やニュアンス, example_en = the sentence from the script where it appears.
+- title_en: catchy episode title (max 70 chars); title_ja: 日本語タイトル; summary_ja: 3文の日本語要約（テックと世界の両方に触れる）。
+- stories: one entry per "story"/"world" segment, same order. section ("tech"/"world") and topic_key copied from the material;
+  summary_ja 2–3文, why_ja 1–2文（産業・政策・日本への示唆）, source_ids = the [id] numbers from the material that support the story.
+- vocabulary: 8–12 useful terms or collocations that actually appear in the "en" lines, from both tech and world stories.
+  meaning_ja, note_ja (使い方やニュアンス), example_en = the sentence from the script where it appears.
 - phrase_of_the_day: the same phrase as the "phrase" segment.
 
 MATERIAL
@@ -312,52 +403,82 @@ Return JSON only."""
 
 
 def _count_words(script: dict) -> int:
-    return sum(word_count(l["en"]) for s in script.get("segments", []) for l in s.get("lines", []))
+    return sum(word_count(l["en"]) for s in script.get("segments", []) if s.get("lang") != "ja" for l in s.get("lines", []))
 
 
-def _normalise(cfg: dict, script: dict, valid_ids: set[int]) -> dict:
+def _count_ja_chars(script: dict) -> int:
+    return sum(len(l["ja"]) for s in script.get("segments", []) if s.get("lang") == "ja" for l in s.get("lines", []))
+
+
+def finalize(cfg: dict, script: dict, valid_ids: set[int] | None = None) -> dict:
+    """Clean speakers/lines and expand each segment's recap_ja into a following Japanese segment."""
     names = [h["name"] for h in cfg["hosts"]]
+    recap_speaker = names[1] if len(names) > 1 else names[0]
+    out_segments = []
     for seg in script.get("segments", []):
+        if seg.get("lang") == "ja":  # already expanded (e.g. re-finalising)
+            out_segments.append(seg)
+            continue
         prev = names[1]
-        clean_lines = []
+        clean = []
         for line in seg.get("lines", []):
             en = (line.get("en") or "").strip()
             if not en:
                 continue
-            sp = line.get("speaker", "").strip()
+            sp = (line.get("speaker") or "").strip()
             if sp not in names:
                 sp = names[0] if prev == names[1] else names[1]
-            line["speaker"], line["en"], line["ja"] = sp, en, (line.get("ja") or "").strip()
+            clean.append({"speaker": sp, "en": en, "ja": (line.get("ja") or "").strip()})
             prev = sp
-            clean_lines.append(line)
-        seg["lines"] = clean_lines
-    script["segments"] = [s for s in script.get("segments", []) if s["lines"]]
-    for st in script.get("stories", []):
-        st["source_ids"] = [i for i in st.get("source_ids", []) if i in valid_ids]
+        if not clean:
+            continue
+        recap = [
+            {"speaker": (r.get("speaker") if r.get("speaker") in names else recap_speaker), "ja": (r.get("ja") or "").strip(), "en": "", "lang": "ja"}
+            for r in seg.pop("recap_ja", []) or [] if (r.get("ja") or "").strip()
+        ]
+        seg["lines"] = clean
+        seg["lang"] = "en"
+        out_segments.append(seg)
+        if recap:
+            out_segments.append({
+                "kind": "recap", "lang": "ja", "of": seg.get("kind"),
+                "heading_en": "Japanese recap" if seg.get("kind") in ("story", "world") else "Japanese",
+                "heading_ja": "日本語でおさらい" if seg.get("kind") in ("story", "world") else "日本語",
+                "lines": recap,
+            })
+    script["segments"] = out_segments
+    if valid_ids is not None:
+        for st in script.get("stories", []):
+            st["source_ids"] = [i for i in st.get("source_ids", []) if i in valid_ids]
+    script["word_count"] = _count_words(script)
+    script["ja_chars"] = _count_ja_chars(script)
     return script
 
 
-def write_script(cfg: dict, material: str, now: datetime, valid_ids: set[int]) -> dict:
+def write_script(cfg: dict, material: str, now: datetime, valid_ids: set[int], selection: dict) -> dict:
     ep = cfg["episode"]
     target = int(ep["target_minutes"] * ep["words_per_minute"])
-    prompt = _writer_prompt(cfg, material, now, target)
-    script = _normalise(cfg, _json_call(cfg, prompt, SCRIPT_SCHEMA, "write"), valid_ids)
-    words = _count_words(script)
-    log.info("Script draft: %d words (target %d)", words, target)
+    prompt = _writer_prompt(cfg, material, now, target, selection)
+    raw = _json_call(cfg, prompt, SCRIPT_SCHEMA, "write")
+    script = finalize(cfg, json.loads(json.dumps(raw)), valid_ids)
+    words = script["word_count"]
+    log.info("Script draft: %d English words (target %d), %d Japanese recap chars", words, target, script["ja_chars"])
     if words < target * 0.88 or words > target * 1.2:
         direction = "longer: deepen the 'why it matters' analysis and add one more exchange per story" if words < target else "shorter: tighten each story"
         revise = (
             f"The draft below has {words} English words but the target is {target} (±10%). "
-            f"Rewrite it to be {direction}. Keep the same JSON structure, facts, stories and sources. "
-            f"Do not add facts that are not in the material.\n\nMATERIAL:\n{material}\n\nDRAFT JSON:\n{json.dumps(script, ensure_ascii=False)}\n\nReturn the full revised JSON only."
+            f"Rewrite it to be {direction}. Keep the same JSON structure (including recap_ja for every story/world segment), facts, stories and sources. "
+            f"Do not add facts that are not in the material.\n\nMATERIAL:\n{material}\n\nDRAFT JSON:\n{json.dumps(raw, ensure_ascii=False)}\n\nReturn the full revised JSON only."
         )
         try:
-            revised = _normalise(cfg, _json_call(cfg, revise, SCRIPT_SCHEMA, "revise"), valid_ids)
-            w2 = _count_words(revised)
-            log.info("Revised script: %d words", w2)
-            if abs(w2 - target) < abs(words - target):
-                script, words = revised, w2
+            revised = finalize(cfg, _json_call(cfg, revise, SCRIPT_SCHEMA, "revise"), valid_ids)
+            log.info("Revised script: %d words", revised["word_count"])
+            if abs(revised["word_count"] - target) < abs(words - target):
+                script = revised
         except Exception as e:  # noqa: BLE001
             log.warning("Revision failed, keeping draft: %s", e)
-    script["word_count"] = words
+    # carry the editor's labels onto the stories (used to avoid repeats tomorrow)
+    for st, sel in zip(script.get("stories", []), selection["stories"]):
+        st.setdefault("section", sel["section"])
+        st["topic_key"] = st.get("topic_key") or sel.get("topic_key", "")
     return script

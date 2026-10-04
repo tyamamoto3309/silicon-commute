@@ -12,7 +12,7 @@ import argparse
 import os
 import sys
 import traceback
-from datetime import datetime, time
+from datetime import datetime, time, timedelta
 
 from common import EPISODES_DIR, JST, OUT_DIR, get_logger, load_config, now_jst, read_json, write_json
 
@@ -27,12 +27,55 @@ def set_output(**kw) -> None:
                 f.write(f"{k}={v}\n")
 
 
-def recent_story_titles(limit_eps: int = 3) -> list[str]:
-    titles = []
-    for p in sorted(EPISODES_DIR.glob("*.json"), reverse=True)[:limit_eps]:
+def recent_history(today: str, days: int) -> tuple[list[dict], dict]:
+    """Stories and source articles from episodes in the last `days` days (to avoid repeats)."""
+    start = (datetime.fromisoformat(today) - timedelta(days=days)).strftime("%Y-%m-%d")
+    recent: list[dict] = []
+    urls: set[str] = set()
+    titles: list[str] = []
+    for p in sorted(EPISODES_DIR.glob("*.json"), reverse=True):
+        d = p.stem
+        if d >= today or d < start:
+            continue
         ep = read_json(p, {}) or {}
-        titles += [f"{ep.get('date')}: {s.get('title_en', '')}" for s in ep.get("stories", [])]
-    return titles
+        for s in ep.get("stories", []):
+            recent.append({"date": d, "title": s.get("title_en", ""), "topic_key": s.get("topic_key", ""), "section": s.get("section", "tech")})
+            for src in s.get("sources", []):
+                urls.add(src.get("url", ""))
+                titles.append(src.get("title", ""))
+    return recent, {"urls": urls, "titles": titles}
+
+
+def lookback_hours(cfg: dict, now: datetime, today: str) -> int:
+    """Cover everything since the previous episode was generated (+2h overlap), within sensible bounds."""
+    ep_cfg = cfg["episode"]
+    default = int(ep_cfg["monday_lookback_hours"] if now.weekday() == 0 else ep_cfg["lookback_hours"])
+    for p in sorted(EPISODES_DIR.glob("*.json"), reverse=True):
+        if p.stem >= today:
+            continue
+        prev = (read_json(p, {}) or {}).get("published")
+        if not prev:
+            break
+        gap = (now - datetime.fromisoformat(prev)).total_seconds() / 3600
+        return int(min(max(gap + 2, 24), 84))
+    return default
+
+
+def models_used(cfg: dict) -> dict:
+    out = {}
+    try:
+        from editorial import USED_MODELS
+
+        out.update(USED_MODELS)
+    except Exception:  # noqa: BLE001
+        pass
+    try:
+        from tts import USED_TTS_MODELS
+
+        out["tts"] = ", ".join(sorted(USED_TTS_MODELS)) or cfg["models"]["tts"]
+    except Exception:  # noqa: BLE001
+        out["tts"] = cfg["models"]["tts"]
+    return out
 
 
 def main() -> int:
@@ -55,7 +98,7 @@ def main() -> int:
         return 0
 
     ep_cfg = cfg["episode"]
-    hours = int(ep_cfg["monday_lookback_hours"] if now.weekday() == 0 else ep_cfg["lookback_hours"])
+    hours = lookback_hours(cfg, now, date)
     OUT_DIR.mkdir(exist_ok=True)
 
     # 1. collect -------------------------------------------------------------
@@ -66,7 +109,8 @@ def main() -> int:
     else:
         from collect import collect
 
-        items = collect(cfg, now, hours)
+        recent, history = recent_history(date, int(ep_cfg.get("avoid_repeat_days", 7)))
+        items = collect(cfg, now, hours, history=history)
     write_json(OUT_DIR / "items.json", items)
     if len(items) < 3:
         log.error("Only %d news items collected — aborting", len(items))
@@ -76,18 +120,20 @@ def main() -> int:
     if args.mock:
         selection = mock.select(items)
         material, extra = mock.material(items, selection), []
-        script = mock.script(cfg, items, selection, now)
+        from editorial import finalize
+
+        script = finalize(cfg, mock.script(cfg, items, selection, now), {it["id"] for it in items})
     else:
         from editorial import gather_material, select_stories, write_script
 
-        selection = select_stories(cfg, items, now, hours, recent_story_titles())
+        selection = select_stories(cfg, items, now, hours, recent)
         if not selection["stories"]:
             log.error("Editor selected no stories — aborting")
             return 2
         material, extra = gather_material(cfg, items, selection, hours)
         write_json(OUT_DIR / "material.json", {"material": material})
         valid = {it["id"] for it in items} | {s["id"] for s in extra}
-        script = write_script(cfg, material, now, valid)
+        script = write_script(cfg, material, now, valid, selection)
 
     pool = {it["id"]: it for it in items + extra}
     for st in script.get("stories", []):
@@ -129,8 +175,9 @@ def main() -> int:
         "duration": duration,
         "audio": audio,
         "word_count": script.get("word_count"),
+        "ja_chars": script.get("ja_chars"),
         "hosts": [h["name"] for h in cfg["hosts"][:2]],
-        "models": {"text": cfg["models"]["text"], "tts": cfg["models"]["tts"]} if not args.mock else {"mock": True},
+        "models": models_used(cfg) if not args.mock else {"mock": True},
         "segments": script["segments"],
         "stories": script.get("stories", []),
         "vocabulary": script.get("vocabulary", []),
