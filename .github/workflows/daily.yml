@@ -2,9 +2,14 @@ name: Daily episode
 
 on:
   schedule:
-    # 04:45 JST, Monday–Friday (= 19:45 UTC, Sunday–Thursday).
-    # GitHub may start scheduled runs 5–30 min late; the episode is normally live well before 6:00.
-    - cron: "45 19 * * 0-4"
+    # Monday–Friday JST (= Sunday–Thursday UTC).
+    # In practice GitHub has been starting scheduled runs about 3–4 hours late, and can drop them,
+    # so we schedule early and repeat. News is collected when the run actually starts, and the
+    # script is idempotent: once today's episode exists, later runs only rebuild the site.
+    - cron: "7 16 * * 0-4"    # 01:07 JST
+    - cron: "37 17 * * 0-4"   # 02:37 JST
+    - cron: "53 18 * * 0-4"   # 03:53 JST
+    - cron: "41 19 * * 0-4"   # 04:41 JST
   workflow_dispatch:
     inputs:
       force:
