@@ -68,11 +68,13 @@ self.addEventListener('fetch', (e) => {
     return;
   }
 
-  // app shell: stale-while-revalidate
+  // app shell: network first (so app updates show up immediately), cache when offline or slow
   e.respondWith((async () => {
     const cache = await caches.open(SHELL);
     const cached = await cache.match(req, { ignoreSearch: true });
-    const network = fetch(req).then((res) => { if (res.ok) cache.put(req, res.clone()); return res; }).catch(() => cached);
-    return cached || network;
+    const network = fetch(req).then((res) => { if (res.ok) cache.put(req, res.clone()); return res; });
+    if (!cached) return network;
+    const timeout = new Promise((resolve) => setTimeout(() => resolve(cached), 3000));
+    return Promise.race([network.catch(() => cached), timeout]);
   })());
 });
