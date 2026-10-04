@@ -150,6 +150,17 @@ body[data-mode="ja"] .ja { color: var(--ink); font-size: var(--en-size); margin:
 body[data-mode="quiz"] .ja:not(.shown) { display: none; }
 body:not([data-mode="quiz"]) .reveal { display: none; }
 body[data-mode="quiz"] .ja.shown + .reveal { display: none; }
+/* Japanese recap blocks */
+.segment.recap { margin: 4px 0 18px; padding: 6px 4px 4px; border-radius: 14px; background: color-mix(in srgb, var(--mika) 7%, transparent); }
+.recap-head { margin: 2px 8px 2px; }
+.recap-head .kind { color: var(--mika); text-transform: none; letter-spacing: .02em; }
+.ja-spoken { font-size: var(--ja-size); line-height: 1.75; margin: 0; color: var(--ink); }
+body[data-mode="en"] .segment.recap { display: none; }
+.seg-head .kind.k-world { color: var(--mika); }
+.sec { display: inline-block; font-size: 11.5px; font-weight: 700; letter-spacing: .04em; padding: 2px 8px; border-radius: 999px; margin-bottom: 6px; }
+.sec-tech { background: color-mix(in srgb, var(--alex) 12%, transparent); color: var(--alex); }
+.sec-world { background: color-mix(in srgb, var(--mika) 14%, transparent); color: var(--mika); }
+.chips li.world { color: var(--mika); }
 .no-audio-note { background: var(--surface-2); border-radius: 12px; padding: 10px 14px; font-size: 13.5px; color: var(--muted); }
 
 /* stories & vocab cards */

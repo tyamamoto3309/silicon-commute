@@ -92,7 +92,7 @@
         <h1>${esc(latest.title_en)}</h1>
         <p class="ja-title">${esc(latest.title_ja)}</p>
         <p class="summary">${esc(latest.summary_ja)}</p>
-        <ul class="chips">${(latest.stories || []).map((s) => `<li>${esc(s.title_ja || s.title_en)}</li>`).join('')}</ul>
+        <ul class="chips">${(latest.stories || []).map((s) => `<li class="${s.section === 'world' ? 'world' : ''}">${s.section === 'world' ? '🌏 ' : ''}${esc(s.title_ja || s.title_en)}</li>`).join('')}</ul>
         <div class="btn-row">
           ${latest.audio_url ? `<button class="btn primary" data-play="${latest.date}">▶ 再生する</button>` : ''}
           <a class="btn" href="#/ep/${latest.date}">スクリプトを読む</a>
@@ -148,22 +148,33 @@
     if (ep.audio_url && (!state.playing || (state.playing.date !== date && audio.paused))) loadIntoPlayer(ep, false);
 
     let n = 0;
-    const script = ep.segments.map((seg, si) => `
-      <section class="segment" data-seg="${si}">
-        <div class="seg-head"><h3>${esc(seg.heading_en)}<small>${esc(seg.heading_ja)}</small></h3>
-          <span class="kind">${esc({ intro: 'Intro', story: 'News', ceo_watch: 'CEO Watch', phrase: 'Phrase', outro: 'Wrap-up' }[seg.kind] || '')}</span></div>
+    const KIND = { intro: 'Intro', story: 'Tech', world: 'World', ceo_watch: 'CEO Watch', phrase: 'Phrase', outro: 'Wrap-up', recap: '日本語' };
+    const script = ep.segments.map((seg, si) => {
+      const ja = seg.lang === 'ja';
+      const head = ja
+        ? `<div class="seg-head recap-head"><span class="kind">🇯🇵 ${esc(seg.heading_ja || '日本語でおさらい')}</span></div>`
+        : `<div class="seg-head"><h3>${esc(seg.heading_en)}<small>${esc(seg.heading_ja)}</small></h3>
+            <span class="kind k-${esc(seg.kind)}">${esc(KIND[seg.kind] || '')}</span></div>`;
+      return `
+      <section class="segment${ja ? ' recap' : ''}" data-seg="${si}">
+        ${head}
         ${seg.lines.map((l) => {
           const s = Math.max(0, hosts.indexOf(l.speaker));
-          return `<div class="line" data-i="${n++}" data-t="${l.t ?? ''}">
+          const body = ja
+            ? `<p class="ja-spoken" lang="ja">${esc(l.ja)}</p>`
+            : `<p class="en" lang="en">${esc(l.en)}</p><p class="ja">${esc(l.ja)}</p><button class="reveal" type="button">和訳</button>`;
+          return `<div class="line${ja ? ' ja-line' : ''}" data-i="${n++}" data-t="${l.t ?? ''}">
             <span class="avatar s${s}" aria-hidden="true">${esc(l.speaker[0])}</span>
-            <div><div class="who">${esc(l.speaker)}</div><p class="en" lang="en">${esc(l.en)}</p><p class="ja">${esc(l.ja)}</p><button class="reveal" type="button">和訳</button></div>
+            <div><div class="who">${esc(l.speaker)}${ja ? ' · 日本語' : ''}</div>${body}</div>
           </div>`;
         }).join('')}
-      </section>`).join('');
+      </section>`;
+    }).join('');
 
-    const storySegs = ep.segments.map((s, i) => ({ s, i })).filter((x) => x.s.kind === 'story');
+    const storySegs = ep.segments.map((s, i) => ({ s, i })).filter((x) => x.s.kind === 'story' || x.s.kind === 'world');
     const stories = (ep.stories || []).map((st, i) => `
       <article class="card">
+        <span class="sec sec-${st.section === 'world' ? 'world' : 'tech'}">${st.section === 'world' ? '🌏 World' : '💻 Tech'}</span>
         <h3>${esc(st.title_ja)}</h3>
         <p class="sub" lang="en">${esc(st.title_en)}</p>
         <p>${esc(st.summary_ja)}</p>
