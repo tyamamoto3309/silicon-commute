@@ -8,28 +8,95 @@
       "heading_en": "Good morning",
       "heading_ja": "オープニング",
       "lines": [
-        {"speaker": "Alex", "en": "Good morning, it's Monday, September 28. This is The Silicon Commute, your ten-minute briefing on Big Tech and chips. I'm Alex.", "ja": "おはようございます。9月28日、月曜日です。ビッグテックと半導体を10分でお届けする「The Silicon Commute」、Alexです。"},
-        {"speaker": "Mika", "en": "And I'm Mika, here in Kyoto. It's a busy week ahead, so let's get into it. Here are today's top three headlines.", "ja": "京都からMikaです。今週は盛りだくさんなので、さっそく始めましょう。今日の主要ニュース3本です。"},
-        {"speaker": "Mika", "en": "One: Microsoft rebuilds Copilot as an all-in-one super app. Two: Micron reports on Wednesday, and memory for AI is still sold out. Three: TSMC's revenue keeps climbing, up more than fifty percent from a year earlier.", "ja": "1本目、MicrosoftがCopilotをオールインワンの「スーパーアプリ」に刷新。2本目、水曜日にMicronが決算発表、AI向けメモリーは依然として売り切れ状態です。3本目、TSMCの売上は伸び続け、前年同月比で50%超の増加です。"},
-        {"speaker": "Alex", "en": "Plus, Apple's first launch season under its new CEO, and what tech leaders were doing at the White House last week.", "ja": "さらに、新CEOのもとでAppleが迎える初の新製品シーズンと、先週ホワイトハウスでのテック経営者たちの動きもお伝えします。"}
-      ]
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it's Monday, September 28. This is The Silicon Commute, your ten-minute briefing on Big Tech and chips. I'm Alex.",
+          "ja": "おはようございます。9月28日、月曜日です。ビッグテックと半導体を10分でお届けする「The Silicon Commute」、Alexです。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "And I'm Mika, here in Kyoto. It's a busy week ahead, so let's get into it. Here are today's top three headlines.",
+          "ja": "京都からMikaです。今週は盛りだくさんなので、さっそく始めましょう。今日の主要ニュース3本です。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "One: Microsoft rebuilds Copilot as an all-in-one super app. Two: Micron reports on Wednesday, and memory for AI is still sold out. Three: TSMC's revenue keeps climbing, up more than fifty percent from a year earlier.",
+          "ja": "1本目、MicrosoftがCopilotをオールインワンの「スーパーアプリ」に刷新。2本目、水曜日にMicronが決算発表、AI向けメモリーは依然として売り切れ状態です。3本目、TSMCの売上は伸び続け、前年同月比で50%超の増加です。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Plus, Apple's first launch season under its new CEO, and what tech leaders were doing at the White House last week.",
+          "ja": "さらに、新CEOのもとでAppleが迎える初の新製品シーズンと、先週ホワイトハウスでのテック経営者たちの動きもお伝えします。"
+        }
+      ],
+      "recap_ja": []
     },
     {
       "kind": "story",
       "heading_en": "Microsoft rebuilds Copilot",
       "heading_ja": "Microsoft、Copilotを「スーパーアプリ」に刷新",
       "lines": [
-        {"speaker": "Alex", "en": "Let's start with Microsoft. On Friday, the company unveiled a single Copilot app that combines AI chat, coding and autonomous agents, for both work and personal use.", "ja": "まずはMicrosoftから。金曜日、同社はAIチャット、コーディング、自律型エージェントを一つにまとめたCopilotアプリを発表しました。仕事にも個人利用にも使えるものです。"},
-        {"speaker": "Mika", "en": "What's actually inside the app?", "ja": "アプリの中身は具体的にどうなっているんですか？"},
-        {"speaker": "Alex", "en": "There are three main areas. Home is where you chat with Copilot and hand tasks to an agent. Code lets you build apps. And Autopilot runs always-on agents that keep working in the background.", "ja": "大きく3つのエリアがあります。「Home」はCopilotと対話してエージェントに仕事を任せる場所。「Code」はアプリを作る機能。そして「Autopilot」は、裏側で動き続ける常時稼働のエージェントを走らせます。"},
-        {"speaker": "Alex", "en": "According to GeekWire, full versions of Word, Excel and PowerPoint are built in as well.", "ja": "GeekWireによると、Word、Excel、PowerPointのフル機能版も組み込まれています。"},
-        {"speaker": "Mika", "en": "So this is Microsoft's answer to OpenAI and Anthropic, which have been selling their own assistants directly to companies.", "ja": "つまり、企業に直接AIアシスタントを売り込んでいるOpenAIやAnthropicへの、Microsoftなりの対抗策というわけですね。"},
-        {"speaker": "Alex", "en": "Exactly. And Microsoft's pitch is choice. It says the app uses models from several labs, including OpenAI's GPT, Anthropic's Opus and Microsoft's own MAI models, so customers aren't locked into a single provider.", "ja": "その通りです。Microsoftの売り文句は「選べること」。OpenAIのGPT、AnthropicのOpus、自社のMAIモデルなど複数の開発元のモデルを使うので、顧客は一社に縛られない、と説明しています。"},
-        {"speaker": "Mika", "en": "How many people are actually paying for Copilot today?", "ja": "今、実際にCopilotにお金を払っている人はどれくらいいるんですか？"},
-        {"speaker": "Alex", "en": "Microsoft said it had 30 million paid Microsoft 365 Copilot seats in July, up from 20 million in April. That sounds big, but it's only about seven percent of its more than 450 million commercial Microsoft 365 subscribers.", "ja": "Microsoftによると、7月時点でMicrosoft 365 Copilotの有料ライセンスは3,000万席で、4月の2,000万席から増えました。大きな数字に聞こえますが、4億5,000万を超える法人向けMicrosoft 365契約者のわずか7%ほどです。"},
-        {"speaker": "Mika", "en": "So there's a lot of room to grow, and a lot of pressure to prove the value.", "ja": "伸びしろは大きいけれど、価値を証明しなければならないプレッシャーも大きい、と。"},
-        {"speaker": "Alex", "en": "Right. That's why the pricing is changing too. Microsoft is moving to what it calls per-seat-plus-consumption billing. A monthly license covers basic use, and heavy agent work or frontier models are charged by usage.", "ja": "そうです。だから料金体系も変わります。Microsoftは「1席あたり料金＋従量課金」と呼ぶ方式に移行します。月額ライセンスで基本的な利用をカバーし、エージェントの重い作業や最先端モデルの利用は使った分だけ課金されます。"},
-        {"speaker": "Mika", "en": "For public organizations with fixed annual budgets, that could make costs harder to predict. Something to watch closely.", "ja": "年度予算が決まっている公的機関にとっては、コストの見通しが立てにくくなるかもしれません。注目したい点ですね。"}
+        {
+          "speaker": "Alex",
+          "en": "Let's start with Microsoft. On Friday, the company unveiled a single Copilot app that combines AI chat, coding and autonomous agents, for both work and personal use.",
+          "ja": "まずはMicrosoftから。金曜日、同社はAIチャット、コーディング、自律型エージェントを一つにまとめたCopilotアプリを発表しました。仕事にも個人利用にも使えるものです。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What's actually inside the app?",
+          "ja": "アプリの中身は具体的にどうなっているんですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "There are three main areas. Home is where you chat with Copilot and hand tasks to an agent. Code lets you build apps. And Autopilot runs always-on agents that keep working in the background.",
+          "ja": "大きく3つのエリアがあります。「Home」はCopilotと対話してエージェントに仕事を任せる場所。「Code」はアプリを作る機能。そして「Autopilot」は、裏側で動き続ける常時稼働のエージェントを走らせます。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "According to GeekWire, full versions of Word, Excel and PowerPoint are built in as well.",
+          "ja": "GeekWireによると、Word、Excel、PowerPointのフル機能版も組み込まれています。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "So this is Microsoft's answer to OpenAI and Anthropic, which have been selling their own assistants directly to companies.",
+          "ja": "つまり、企業に直接AIアシスタントを売り込んでいるOpenAIやAnthropicへの、Microsoftなりの対抗策というわけですね。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. And Microsoft's pitch is choice. It says the app uses models from several labs, including OpenAI's GPT, Anthropic's Opus and Microsoft's own MAI models, so customers aren't locked into a single provider.",
+          "ja": "その通りです。Microsoftの売り文句は「選べること」。OpenAIのGPT、AnthropicのOpus、自社のMAIモデルなど複数の開発元のモデルを使うので、顧客は一社に縛られない、と説明しています。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "How many people are actually paying for Copilot today?",
+          "ja": "今、実際にCopilotにお金を払っている人はどれくらいいるんですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Microsoft said it had 30 million paid Microsoft 365 Copilot seats in July, up from 20 million in April. That sounds big, but it's only about seven percent of its more than 450 million commercial Microsoft 365 subscribers.",
+          "ja": "Microsoftによると、7月時点でMicrosoft 365 Copilotの有料ライセンスは3,000万席で、4月の2,000万席から増えました。大きな数字に聞こえますが、4億5,000万を超える法人向けMicrosoft 365契約者のわずか7%ほどです。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "So there's a lot of room to grow, and a lot of pressure to prove the value.",
+          "ja": "伸びしろは大きいけれど、価値を証明しなければならないプレッシャーも大きい、と。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Right. That's why the pricing is changing too. Microsoft is moving to what it calls per-seat-plus-consumption billing. A monthly license covers basic use, and heavy agent work or frontier models are charged by usage.",
+          "ja": "そうです。だから料金体系も変わります。Microsoftは「1席あたり料金＋従量課金」と呼ぶ方式に移行します。月額ライセンスで基本的な利用をカバーし、エージェントの重い作業や最先端モデルの利用は使った分だけ課金されます。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "For public organizations with fixed annual budgets, that could make costs harder to predict. Something to watch closely.",
+          "ja": "年度予算が決まっている公的機関にとっては、コストの見通しが立てにくくなるかもしれません。注目したい点ですね。"
+        }
+      ],
+      "recap_ja": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。MicrosoftはCopilotを、チャット、アプリ開発、常に動き続けるエージェントを一つにまとめたアプリに刷新しました。有料の利用は3,000万席ですが、法人契約全体の約7%にとどまり、料金は使った分だけ払う従量課金を組み合わせる方式に変わります。"
+        }
       ]
     },
     {
@@ -37,17 +104,67 @@
       "heading_en": "Micron earnings: the AI memory test",
       "heading_ja": "Micron決算：AI向けメモリーの試金石",
       "lines": [
-        {"speaker": "Mika", "en": "Next, memory chips. Micron reports its fiscal fourth-quarter results on Wednesday, September 30, after the U.S. market closes.", "ja": "続いてメモリー半導体です。Micronは9月30日水曜日、米国市場の取引終了後に第4四半期（会計年度ベース）の決算を発表します。"},
-        {"speaker": "Alex", "en": "And expectations are very high. Micron's own guidance is revenue of 50 billion dollars, plus or minus one billion, and adjusted earnings of about 31 dollars per share.", "ja": "期待は非常に高いです。Micron自身の業績見通しは、売上高500億ドル（プラスマイナス10億ドル）、調整後の1株利益は約31ドルです。"},
-        {"speaker": "Mika", "en": "Fifty billion dollars in one quarter? How does that compare with before?", "ja": "1四半期で500億ドルですか？以前と比べるとどうなんでしょう？"},
-        {"speaker": "Alex", "en": "In the previous quarter, reported in June, Micron posted record revenue of 41.5 billion dollars. So the guidance implies growth of roughly 20 percent in just three months.", "ja": "6月に発表された前の四半期は、過去最高の415億ドルでした。つまり今回の見通しは、わずか3カ月で約20%の成長を意味します。"},
-        {"speaker": "Alex", "en": "Analysts, on average, expect slightly more, around 50.6 billion dollars.", "ja": "アナリストの平均予想はそれをやや上回る、約506億ドルです。"},
-        {"speaker": "Mika", "en": "What's driving all this?", "ja": "この勢いを支えているのは何ですか？"},
-        {"speaker": "Alex", "en": "High-bandwidth memory, or HBM. That's the memory stacked right next to AI processors. Micron has said its HBM capacity is largely booked through calendar 2027 and into 2028.", "ja": "高帯域幅メモリー、いわゆるHBMです。AI向けプロセッサーのすぐ隣に積み重ねて使うメモリーのことです。MicronはHBMの生産能力が2027年いっぱい、さらに2028年まで、ほぼ予約で埋まっていると述べています。"},
-        {"speaker": "Mika", "en": "So customers have already reserved production more than a year ahead.", "ja": "つまり顧客は、1年以上先の生産分まですでに押さえているんですね。"},
-        {"speaker": "Alex", "en": "Yes. That's why investors will focus on the outlook more than on the past quarter. Micron's comments also give a read-through for SK hynix and Samsung, the other two big memory makers.", "ja": "はい。だから投資家は過去の実績よりも今後の見通しに注目します。Micronの発言は、他の大手メモリー2社、SK hynixとSamsungの業績を占う手がかりにもなります。"},
-        {"speaker": "Mika", "en": "So Wednesday is really a health check for the whole AI hardware chain.", "ja": "水曜日は、AIハードウェアのサプライチェーン全体の健康診断のようなものですね。"},
-        {"speaker": "Alex", "en": "That's a good way to put it.", "ja": "うまい言い方ですね。"}
+        {
+          "speaker": "Mika",
+          "en": "Next, memory chips. Micron reports its fiscal fourth-quarter results on Wednesday, September 30, after the U.S. market closes.",
+          "ja": "続いてメモリー半導体です。Micronは9月30日水曜日、米国市場の取引終了後に第4四半期（会計年度ベース）の決算を発表します。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "And expectations are very high. Micron's own guidance is revenue of 50 billion dollars, plus or minus one billion, and adjusted earnings of about 31 dollars per share.",
+          "ja": "期待は非常に高いです。Micron自身の業績見通しは、売上高500億ドル（プラスマイナス10億ドル）、調整後の1株利益は約31ドルです。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Fifty billion dollars in one quarter? How does that compare with before?",
+          "ja": "1四半期で500億ドルですか？以前と比べるとどうなんでしょう？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "In the previous quarter, reported in June, Micron posted record revenue of 41.5 billion dollars. So the guidance implies growth of roughly 20 percent in just three months.",
+          "ja": "6月に発表された前の四半期は、過去最高の415億ドルでした。つまり今回の見通しは、わずか3カ月で約20%の成長を意味します。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Analysts, on average, expect slightly more, around 50.6 billion dollars.",
+          "ja": "アナリストの平均予想はそれをやや上回る、約506億ドルです。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What's driving all this?",
+          "ja": "この勢いを支えているのは何ですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "High-bandwidth memory, or HBM. That's the memory stacked right next to AI processors. Micron has said its HBM capacity is largely booked through calendar 2027 and into 2028.",
+          "ja": "高帯域幅メモリー、いわゆるHBMです。AI向けプロセッサーのすぐ隣に積み重ねて使うメモリーのことです。MicronはHBMの生産能力が2027年いっぱい、さらに2028年まで、ほぼ予約で埋まっていると述べています。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "So customers have already reserved production more than a year ahead.",
+          "ja": "つまり顧客は、1年以上先の生産分まですでに押さえているんですね。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. That's why investors will focus on the outlook more than on the past quarter. Micron's comments also give a read-through for SK hynix and Samsung, the other two big memory makers.",
+          "ja": "はい。だから投資家は過去の実績よりも今後の見通しに注目します。Micronの発言は、他の大手メモリー2社、SK hynixとSamsungの業績を占う手がかりにもなります。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "So Wednesday is really a health check for the whole AI hardware chain.",
+          "ja": "水曜日は、AIハードウェアのサプライチェーン全体の健康診断のようなものですね。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "That's a good way to put it.",
+          "ja": "うまい言い方ですね。"
+        }
+      ],
+      "recap_ja": [
+        {
+          "speaker": "Mika",
+          "ja": "Micronは9月30日に決算を発表します。会社の見通しは売上高500億ドルで、前の四半期から約2割の伸びです。AI向けのHBMメモリーは2028年まで予約でほぼ埋まっていて、発表内容はメモリー業界全体の先行きを占う材料になります。"
+        }
       ]
     },
     {
@@ -55,15 +172,57 @@
       "heading_en": "TSMC's revenue keeps climbing",
       "heading_ja": "TSMCの売上、4カ月連続で増加",
       "lines": [
-        {"speaker": "Alex", "en": "Staying with chips, TSMC continues to grow at a remarkable pace. The world's largest contract chipmaker reported August revenue of about 514.8 billion New Taiwan dollars.", "ja": "引き続き半導体です。TSMCが驚くべきペースで成長を続けています。世界最大の半導体受託製造企業である同社の8月の売上高は、約5,148億台湾ドルでした。"},
-        {"speaker": "Mika", "en": "How fast is that growing?", "ja": "伸び率はどのくらいですか？"},
-        {"speaker": "Alex", "en": "It's up 53 percent from a year earlier, and up 10 percent from July. That's the fourth month in a row of higher monthly revenue.", "ja": "前年同月比で53%増、7月と比べて10%増です。月次売上の増加は4カ月連続です。"},
-        {"speaker": "Alex", "en": "For January through August, revenue reached about 3.39 trillion New Taiwan dollars, up 39 percent.", "ja": "1月から8月までの累計売上高は約3兆3,900億台湾ドルで、39%増えています。"},
-        {"speaker": "Mika", "en": "And again, the driver is AI?", "ja": "やはり原動力はAIですか？"},
-        {"speaker": "Alex", "en": "Largely, yes. In the second quarter, high-performance computing, which includes AI accelerators, made up 66 percent of TSMC's revenue. Its five, four and three-nanometer lines are fully booked.", "ja": "大部分はそうです。第2四半期には、AI向けアクセラレーターを含む高性能コンピューティングがTSMCの売上の66%を占めました。5ナノ、4ナノ、3ナノの生産ラインはフル稼働で予約が埋まっています。"},
-        {"speaker": "Mika", "en": "So when we talk about the AI boom, a big share of the money flows to one company in Taiwan.", "ja": "つまりAIブームと言っても、お金の大きな部分は台湾の一社に流れ込んでいるわけですね。"},
-        {"speaker": "Alex", "en": "That's the concentration risk that policymakers worry about. It's also why governments, including Japan's, are supporting new chip plants at home.", "ja": "まさに政策担当者が懸念する「集中リスク」です。日本を含む各国政府が、国内での新しい半導体工場を支援している理由でもあります。"},
-        {"speaker": "Mika", "en": "Like TSMC's plant in Kikuyo, in Kumamoto.", "ja": "熊本県菊陽町（きくようまち）にあるTSMCの工場のように、ですね。"}
+        {
+          "speaker": "Alex",
+          "en": "Staying with chips, TSMC continues to grow at a remarkable pace. The world's largest contract chipmaker reported August revenue of about 514.8 billion New Taiwan dollars.",
+          "ja": "引き続き半導体です。TSMCが驚くべきペースで成長を続けています。世界最大の半導体受託製造企業である同社の8月の売上高は、約5,148億台湾ドルでした。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "How fast is that growing?",
+          "ja": "伸び率はどのくらいですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "It's up 53 percent from a year earlier, and up 10 percent from July. That's the fourth month in a row of higher monthly revenue.",
+          "ja": "前年同月比で53%増、7月と比べて10%増です。月次売上の増加は4カ月連続です。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "For January through August, revenue reached about 3.39 trillion New Taiwan dollars, up 39 percent.",
+          "ja": "1月から8月までの累計売上高は約3兆3,900億台湾ドルで、39%増えています。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "And again, the driver is AI?",
+          "ja": "やはり原動力はAIですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Largely, yes. In the second quarter, high-performance computing, which includes AI accelerators, made up 66 percent of TSMC's revenue. Its five, four and three-nanometer lines are fully booked.",
+          "ja": "大部分はそうです。第2四半期には、AI向けアクセラレーターを含む高性能コンピューティングがTSMCの売上の66%を占めました。5ナノ、4ナノ、3ナノの生産ラインはフル稼働で予約が埋まっています。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "So when we talk about the AI boom, a big share of the money flows to one company in Taiwan.",
+          "ja": "つまりAIブームと言っても、お金の大きな部分は台湾の一社に流れ込んでいるわけですね。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "That's the concentration risk that policymakers worry about. It's also why governments, including Japan's, are supporting new chip plants at home.",
+          "ja": "まさに政策担当者が懸念する「集中リスク」です。日本を含む各国政府が、国内での新しい半導体工場を支援している理由でもあります。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Like TSMC's plant in Kikuyo, in Kumamoto.",
+          "ja": "熊本県菊陽町（きくようまち）にあるTSMCの工場のように、ですね。"
+        }
+      ],
+      "recap_ja": [
+        {
+          "speaker": "Mika",
+          "ja": "TSMCの8月の売上高は、前の年の同じ月より53%増え、4カ月続けて前の月を上回りました。AI向けの需要が中心で、生産が一社に集中するリスクは、日本を含む各国が工場を誘致する背景にもなっています。"
+        }
       ]
     },
     {
@@ -71,28 +230,100 @@
       "heading_en": "Apple's first launch season under John Ternus",
       "heading_ja": "Apple、新CEOのもとで初の新製品シーズン",
       "lines": [
-        {"speaker": "Mika", "en": "Now to Apple. It's been a busy few weeks in Cupertino.", "ja": "続いてAppleです。本社のあるクパチーノは、ここ数週間あわただしかったですね。"},
-        {"speaker": "Alex", "en": "It has. On September 18, the iPhone 18 Pro lineup, Apple Watch Series 12, Apple Watch Ultra 4 and AirPods 5 arrived in stores worldwide. Then last Tuesday, the new Mac mini and Mac Studio went on sale.", "ja": "そうですね。9月18日にiPhone 18 Proシリーズ、Apple Watch Series 12、Apple Watch Ultra 4、AirPods 5が世界中の店頭に並びました。そして先週火曜日には、新しいMac miniとMac Studioが発売されました。"},
-        {"speaker": "Mika", "en": "What chips are inside the new Macs?", "ja": "新しいMacにはどんなチップが入っているんですか？"},
-        {"speaker": "Alex", "en": "According to Apple, the Mac mini comes with the M6 or the M5 Pro chip, and the Mac Studio with the M5 Max or the M5 Ultra. These are all Apple-designed chips.", "ja": "Appleによると、Mac miniはM6かM5 Pro、Mac StudioはM5 MaxかM5 Ultraを搭載しています。いずれもApple自社設計のチップです。"},
-        {"speaker": "Mika", "en": "And this is the first launch season with a new person at the top.", "ja": "そして今回は、トップが交代して初めての新製品シーズンですね。"},
-        {"speaker": "Alex", "en": "That's right. John Ternus became CEO on September 1, and Tim Cook is now executive chairman.", "ja": "その通りです。John Ternus氏が9月1日にCEOに就任し、Tim Cook氏は取締役会長になりました。"},
-        {"speaker": "Mika", "en": "What should we watch?", "ja": "注目点は何でしょう？"},
-        {"speaker": "Alex", "en": "The big question is AI: how Apple's own chips and software keep pace with Google and Microsoft. Product launches are steady, but the AI strategy is where the new CEO will be judged.", "ja": "最大の焦点はAIです。Apple独自のチップとソフトウェアが、GoogleやMicrosoftにどう追いついていくのか。新製品の投入は順調ですが、新CEOが評価されるのはAI戦略の部分でしょう。"}
+        {
+          "speaker": "Mika",
+          "en": "Now to Apple. It's been a busy few weeks in Cupertino.",
+          "ja": "続いてAppleです。本社のあるクパチーノは、ここ数週間あわただしかったですね。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "It has. On September 18, the iPhone 18 Pro lineup, Apple Watch Series 12, Apple Watch Ultra 4 and AirPods 5 arrived in stores worldwide. Then last Tuesday, the new Mac mini and Mac Studio went on sale.",
+          "ja": "そうですね。9月18日にiPhone 18 Proシリーズ、Apple Watch Series 12、Apple Watch Ultra 4、AirPods 5が世界中の店頭に並びました。そして先週火曜日には、新しいMac miniとMac Studioが発売されました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What chips are inside the new Macs?",
+          "ja": "新しいMacにはどんなチップが入っているんですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "According to Apple, the Mac mini comes with the M6 or the M5 Pro chip, and the Mac Studio with the M5 Max or the M5 Ultra. These are all Apple-designed chips.",
+          "ja": "Appleによると、Mac miniはM6かM5 Pro、Mac StudioはM5 MaxかM5 Ultraを搭載しています。いずれもApple自社設計のチップです。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "And this is the first launch season with a new person at the top.",
+          "ja": "そして今回は、トップが交代して初めての新製品シーズンですね。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "That's right. John Ternus became CEO on September 1, and Tim Cook is now executive chairman.",
+          "ja": "その通りです。John Ternus氏が9月1日にCEOに就任し、Tim Cook氏は取締役会長になりました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What should we watch?",
+          "ja": "注目点は何でしょう？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "The big question is AI: how Apple's own chips and software keep pace with Google and Microsoft. Product launches are steady, but the AI strategy is where the new CEO will be judged.",
+          "ja": "最大の焦点はAIです。Apple独自のチップとソフトウェアが、GoogleやMicrosoftにどう追いついていくのか。新製品の投入は順調ですが、新CEOが評価されるのはAI戦略の部分でしょう。"
+        }
+      ],
+      "recap_ja": [
+        {
+          "speaker": "Mika",
+          "ja": "Appleは9月、iPhone 18 Proや新しいMacを相次いで発売しました。9月1日からはJohn Ternus氏がCEOを務めていて、新しい体制のもとでのAI戦略が今後の焦点です。"
+        }
       ]
     },
     {
-      "kind": "story",
+      "kind": "world",
       "heading_en": "Tech CEOs at the Trump–Xi state dinner",
       "heading_ja": "トランプ大統領・習近平主席の晩餐会にテックCEOが集結",
       "lines": [
-        {"speaker": "Mika", "en": "Finally, a story where tech meets geopolitics. Last week, President Trump hosted a White House state dinner for Chinese President Xi Jinping.", "ja": "最後はテクノロジーと地政学が交わるニュースです。先週、トランプ大統領がホワイトハウスで、中国の習近平（しゅう・きんぺい）国家主席を迎える公式晩餐会を開きました。"},
-        {"speaker": "Alex", "en": "And the guest list read like a who's who of AI. According to Quartz and Bloomberg, it included NVIDIA's Jensen Huang, Microsoft's Satya Nadella, Meta's Mark Zuckerberg and OpenAI's Sam Altman.", "ja": "招待客はまるでAI業界の著名人名鑑でした。QuartzとBloombergによると、NVIDIAのJensen Huang氏、MicrosoftのSatya Nadella氏、MetaのMark Zuckerberg氏、OpenAIのSam Altman氏らが含まれていました。"},
-        {"speaker": "Mika", "en": "Why does that matter for our topics?", "ja": "それが私たちのテーマにとって重要なのはなぜですか？"},
-        {"speaker": "Alex", "en": "Because chips are at the center of U.S.–China relations. Export controls decide which AI chips companies like NVIDIA can sell to China, and China is both a huge market and a competitor.", "ja": "半導体が米中関係の中心にあるからです。輸出規制によって、NVIDIAなどがどのAIチップを中国に売れるかが決まります。そして中国は巨大な市場であると同時に、競争相手でもあります。"},
-        {"speaker": "Mika", "en": "Do we know what they discussed?", "ja": "何が話し合われたかは分かっているんですか？"},
-        {"speaker": "Alex", "en": "Not in detail. Reports so far describe who attended, not specific agreements. So this week, watch for any announcements on export rules or trade that could follow the visit.", "ja": "詳しくは分かっていません。これまでの報道は出席者についてで、具体的な合意には触れていません。今週は、訪問を受けて輸出規制や貿易に関する発表が出てくるかに注目です。"},
-        {"speaker": "Mika", "en": "Invitations are signals, but policy is what moves markets.", "ja": "招待はシグナルにすぎず、市場を動かすのは政策そのもの、ということですね。"}
+        {
+          "speaker": "Mika",
+          "en": "Finally, a story where tech meets geopolitics. Last week, President Trump hosted a White House state dinner for Chinese President Xi Jinping.",
+          "ja": "最後はテクノロジーと地政学が交わるニュースです。先週、トランプ大統領がホワイトハウスで、中国の習近平（しゅう・きんぺい）国家主席を迎える公式晩餐会を開きました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "And the guest list read like a who's who of AI. According to Quartz and Bloomberg, it included NVIDIA's Jensen Huang, Microsoft's Satya Nadella, Meta's Mark Zuckerberg and OpenAI's Sam Altman.",
+          "ja": "招待客はまるでAI業界の著名人名鑑でした。QuartzとBloombergによると、NVIDIAのJensen Huang氏、MicrosoftのSatya Nadella氏、MetaのMark Zuckerberg氏、OpenAIのSam Altman氏らが含まれていました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why does that matter for our topics?",
+          "ja": "それが私たちのテーマにとって重要なのはなぜですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Because chips are at the center of U.S.–China relations. Export controls decide which AI chips companies like NVIDIA can sell to China, and China is both a huge market and a competitor.",
+          "ja": "半導体が米中関係の中心にあるからです。輸出規制によって、NVIDIAなどがどのAIチップを中国に売れるかが決まります。そして中国は巨大な市場であると同時に、競争相手でもあります。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Do we know what they discussed?",
+          "ja": "何が話し合われたかは分かっているんですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Not in detail. Reports so far describe who attended, not specific agreements. So this week, watch for any announcements on export rules or trade that could follow the visit.",
+          "ja": "詳しくは分かっていません。これまでの報道は出席者についてで、具体的な合意には触れていません。今週は、訪問を受けて輸出規制や貿易に関する発表が出てくるかに注目です。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Invitations are signals, but policy is what moves markets.",
+          "ja": "招待はシグナルにすぎず、市場を動かすのは政策そのもの、ということですね。"
+        }
+      ],
+      "recap_ja": [
+        {
+          "speaker": "Mika",
+          "ja": "先週、ホワイトハウスで習近平（しゅう・きんぺい）国家主席を迎える晩餐会が開かれ、NVIDIAやMicrosoftなどのトップが招かれました。具体的な合意はまだ報じられておらず、今後の輸出規制の発表に注目です。"
+        }
       ]
     },
     {
@@ -100,53 +331,237 @@
       "heading_en": "CEO Watch: Jensen Huang on AI safety",
       "heading_ja": "CEOウォッチ：Jensen Huang氏とAIの安全性",
       "lines": [
-        {"speaker": "Alex", "en": "In CEO Watch, Jensen Huang again. Earlier this month, Anthropic's Dario Amodei wrote that AI companies must slow the pace at which they improve their models, and OpenAI's Sam Altman publicly agreed.", "ja": "CEOウォッチは、再びJensen Huang氏です。今月初め、AnthropicのDario Amodei氏が「AI企業はモデルの能力向上のペースを落とすべきだ」と書き、OpenAIのSam Altman氏も公に賛同しました。"},
-        {"speaker": "Mika", "en": "And Huang disagreed, right?", "ja": "Huang氏は反対したんですよね？"},
-        {"speaker": "Alex", "en": "He rejected calls for a slowdown. But on Ezra Klein's New York Times podcast last Wednesday, he added an important condition.", "ja": "減速の呼びかけは退けました。ただ、先週水曜日のニューヨーク・タイムズのポッドキャスト「Ezra Klein Show」では、重要な条件を付け加えました。"},
-        {"speaker": "Alex", "en": "If a lab truly cannot contain its experiments, he said, then I think the answer is that we have to shut the labs down.", "ja": "研究所が実験を本当に封じ込められないのであれば、「答えは研究所を閉鎖することだと思う」と述べたのです。"},
-        {"speaker": "Mika", "en": "So, go fast, but containment is non-negotiable.", "ja": "つまり「速く進め、ただし封じ込めは絶対条件」ということですね。"},
-        {"speaker": "Alex", "en": "That's how he framed it: as basic engineering discipline.", "ja": "彼はそれを、エンジニアリングの基本的な規律として位置づけていました。"}
-      ]
+        {
+          "speaker": "Alex",
+          "en": "In CEO Watch, Jensen Huang again. Earlier this month, Anthropic's Dario Amodei wrote that AI companies must slow the pace at which they improve their models, and OpenAI's Sam Altman publicly agreed.",
+          "ja": "CEOウォッチは、再びJensen Huang氏です。今月初め、AnthropicのDario Amodei氏が「AI企業はモデルの能力向上のペースを落とすべきだ」と書き、OpenAIのSam Altman氏も公に賛同しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "And Huang disagreed, right?",
+          "ja": "Huang氏は反対したんですよね？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "He rejected calls for a slowdown. But on Ezra Klein's New York Times podcast last Wednesday, he added an important condition.",
+          "ja": "減速の呼びかけは退けました。ただ、先週水曜日のニューヨーク・タイムズのポッドキャスト「Ezra Klein Show」では、重要な条件を付け加えました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "If a lab truly cannot contain its experiments, he said, then I think the answer is that we have to shut the labs down.",
+          "ja": "研究所が実験を本当に封じ込められないのであれば、「答えは研究所を閉鎖することだと思う」と述べたのです。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, go fast, but containment is non-negotiable.",
+          "ja": "つまり「速く進め、ただし封じ込めは絶対条件」ということですね。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "That's how he framed it: as basic engineering discipline.",
+          "ja": "彼はそれを、エンジニアリングの基本的な規律として位置づけていました。"
+        }
+      ],
+      "recap_ja": []
     },
     {
       "kind": "phrase",
       "heading_en": "Phrase of the day: read-through",
       "heading_ja": "今日のフレーズ：read-through",
       "lines": [
-        {"speaker": "Mika", "en": "Our phrase of the day is read-through. In the Micron story, Alex said the results give a read-through for SK hynix and Samsung.", "ja": "今日のフレーズは「read-through」です。Micronの話で、Alexが「決算はSK hynixとSamsungへのread-throughになる」と言いましたね。"},
-        {"speaker": "Alex", "en": "A read-through is what one company's news tells you about other companies. For example: strong iPhone sales are a positive read-through for Apple's suppliers.", "ja": "read-throughとは、ある企業のニュースから他の企業について読み取れること、です。例えば「iPhoneの好調な販売は、Appleのサプライヤーにとってプラスの材料だ」という使い方をします。"},
-        {"speaker": "Mika", "en": "So when one company reports, investors read through to its customers, competitors and suppliers. Very useful in business English.", "ja": "ある企業が決算を出すと、投資家はその顧客、競合、サプライヤーの状況まで読み取ろうとするわけですね。ビジネス英語でとても便利な表現です。"}
-      ]
+        {
+          "speaker": "Mika",
+          "en": "Our phrase of the day is read-through. In the Micron story, Alex said the results give a read-through for SK hynix and Samsung.",
+          "ja": "今日のフレーズは「read-through」です。Micronの話で、Alexが「決算はSK hynixとSamsungへのread-throughになる」と言いましたね。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "A read-through is what one company's news tells you about other companies. For example: strong iPhone sales are a positive read-through for Apple's suppliers.",
+          "ja": "read-throughとは、ある企業のニュースから他の企業について読み取れること、です。例えば「iPhoneの好調な販売は、Appleのサプライヤーにとってプラスの材料だ」という使い方をします。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "So when one company reports, investors read through to its customers, competitors and suppliers. Very useful in business English.",
+          "ja": "ある企業が決算を出すと、投資家はその顧客、競合、サプライヤーの状況まで読み取ろうとするわけですね。ビジネス英語でとても便利な表現です。"
+        }
+      ],
+      "recap_ja": []
     },
     {
       "kind": "outro",
       "heading_en": "Wrap-up",
       "heading_ja": "まとめ",
       "lines": [
-        {"speaker": "Alex", "en": "Today's takeaway: AI demand is still pulling hard on memory makers and foundries, while software giants like Microsoft race to turn it into revenue.", "ja": "今日のまとめです。AI需要は依然としてメモリーメーカーやファウンドリーを強く牽引しており、Microsoftのようなソフトウェア大手は、それを収益に結びつけようと競っています。"},
-        {"speaker": "Mika", "en": "That's The Silicon Commute for Monday. See you on tomorrow's commute!", "ja": "月曜日の「The Silicon Commute」はここまで。また明日の通勤でお会いしましょう！"}
+        {
+          "speaker": "Alex",
+          "en": "Today's takeaway: AI demand is still pulling hard on memory makers and foundries, while software giants like Microsoft race to turn it into revenue.",
+          "ja": "今日のまとめです。AI需要は依然としてメモリーメーカーやファウンドリーを強く牽引しており、Microsoftのようなソフトウェア大手は、それを収益に結びつけようと競っています。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "That's The Silicon Commute for Monday. See you on tomorrow's commute!",
+          "ja": "月曜日の「The Silicon Commute」はここまで。また明日の通勤でお会いしましょう！"
+        }
+      ],
+      "recap_ja": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、The Silicon Commuteでした。いってらっしゃい。"
+        }
       ]
     }
   ],
   "stories": [
-    {"title_en": "Microsoft rebuilds Copilot as an all-in-one super app", "title_ja": "Microsoft、Copilotをオールインワンの「スーパーアプリ」に刷新", "summary_ja": "MicrosoftはチャットのHome、アプリ開発のCode、常時稼働エージェントのAutopilotを統合した新Copilotを発表しました。OpenAI・Anthropic・自社MAIの複数モデルを使い分け、料金は「1席あたり料金＋従量課金」に移行します。", "why_ja": "有料席は3,000万（法人契約の約7%）にとどまり、普及拡大が課題です。従量課金化は、年度予算で動く公的機関にとってコスト管理の新たな論点になります。", "companies": ["Microsoft"], "source_ids": [4, 5]},
-    {"title_en": "Micron reports Wednesday: a test for AI memory demand", "title_ja": "Micron、水曜に決算発表：AI向けメモリー需要の試金石", "summary_ja": "Micronは9月30日に第4四半期決算を発表します。会社予想は売上高500億ドル（±10億ドル）、調整後EPS約31ドルで、前四半期の過去最高415億ドルから約20%増の水準です。", "why_ja": "HBMの生産能力は2027年から2028年までほぼ予約済みとされ、発言内容はSK hynixやSamsungを含むAIハードウェア供給網全体の先行指標になります。", "companies": ["Memory (Samsung / SK hynix / Micron)"], "source_ids": [6, 7]},
-    {"title_en": "TSMC's August revenue jumps 53%", "title_ja": "TSMCの8月売上、前年同月比53%増", "summary_ja": "TSMCの8月売上高は約5,148億台湾ドルで前年同月比53%増、前月比10%増と4カ月連続の増加でした。1〜8月累計は約3.39兆台湾ドル（39%増）です。", "why_ja": "高性能コンピューティングが売上の66%を占め、AI需要が一社に集中する構図が鮮明です。供給網の集中リスクは、日本の半導体産業政策（熊本県菊陽町（きくようまち）の工場支援など）の根拠にもなっています。", "companies": ["TSMC"], "source_ids": [8]},
-    {"title_en": "Apple's first launch season under CEO John Ternus", "title_ja": "Apple、John Ternus新CEOのもとで初の新製品シーズン", "summary_ja": "9月18日にiPhone 18 Proシリーズなどが発売され、22日にはM6/M5 Pro搭載のMac mini、M5 Max/M5 Ultra搭載のMac Studioが発売されました。9月1日にJohn Ternus氏がCEOに就任し、Tim Cook氏は取締役会長になっています。", "why_ja": "製品投入は順調ですが、新CEOの評価はAI戦略で決まるとみられます。", "companies": ["Apple"], "source_ids": [1, 2, 3]},
-    {"title_en": "Tech CEOs join the Trump–Xi state dinner", "title_ja": "トランプ・習近平会談の晩餐会にテックCEOが出席", "summary_ja": "ホワイトハウスで開かれた習近平（しゅう・きんぺい）国家主席の歓迎晩餐会に、NVIDIA、Microsoft、Meta、OpenAIのトップらが招かれました。具体的な合意内容はまだ報じられていません。", "why_ja": "AIチップの対中輸出規制は米中関係の中心的な論点です。訪問後の輸出規制・通商に関する発表に注目が必要です。", "companies": ["NVIDIA", "Microsoft", "Meta"], "source_ids": [9, 10]}
+    {
+      "title_en": "Microsoft rebuilds Copilot as an all-in-one super app",
+      "title_ja": "Microsoft、Copilotをオールインワンの「スーパーアプリ」に刷新",
+      "summary_ja": "MicrosoftはチャットのHome、アプリ開発のCode、常時稼働エージェントのAutopilotを統合した新Copilotを発表しました。OpenAI・Anthropic・自社MAIの複数モデルを使い分け、料金は「1席あたり料金＋従量課金」に移行します。",
+      "why_ja": "有料席は3,000万（法人契約の約7%）にとどまり、普及拡大が課題です。従量課金化は、年度予算で動く公的機関にとってコスト管理の新たな論点になります。",
+      "companies": [
+        "Microsoft"
+      ],
+      "source_ids": [
+        4,
+        5
+      ],
+      "section": "tech",
+      "topic_key": "microsoft-copilot-super-app"
+    },
+    {
+      "title_en": "Micron reports Wednesday: a test for AI memory demand",
+      "title_ja": "Micron、水曜に決算発表：AI向けメモリー需要の試金石",
+      "summary_ja": "Micronは9月30日に第4四半期決算を発表します。会社予想は売上高500億ドル（±10億ドル）、調整後EPS約31ドルで、前四半期の過去最高415億ドルから約20%増の水準です。",
+      "why_ja": "HBMの生産能力は2027年から2028年までほぼ予約済みとされ、発言内容はSK hynixやSamsungを含むAIハードウェア供給網全体の先行指標になります。",
+      "companies": [
+        "Memory (Samsung / SK hynix / Micron)"
+      ],
+      "source_ids": [
+        6,
+        7
+      ],
+      "section": "tech",
+      "topic_key": "micron-fq4-earnings-preview"
+    },
+    {
+      "title_en": "TSMC's August revenue jumps 53%",
+      "title_ja": "TSMCの8月売上、前年同月比53%増",
+      "summary_ja": "TSMCの8月売上高は約5,148億台湾ドルで前年同月比53%増、前月比10%増と4カ月連続の増加でした。1〜8月累計は約3.39兆台湾ドル（39%増）です。",
+      "why_ja": "高性能コンピューティングが売上の66%を占め、AI需要が一社に集中する構図が鮮明です。供給網の集中リスクは、日本の半導体産業政策（熊本県菊陽町（きくようまち）の工場支援など）の根拠にもなっています。",
+      "companies": [
+        "TSMC"
+      ],
+      "source_ids": [
+        8
+      ],
+      "section": "tech",
+      "topic_key": "tsmc-august-revenue"
+    },
+    {
+      "title_en": "Apple's first launch season under CEO John Ternus",
+      "title_ja": "Apple、John Ternus新CEOのもとで初の新製品シーズン",
+      "summary_ja": "9月18日にiPhone 18 Proシリーズなどが発売され、22日にはM6/M5 Pro搭載のMac mini、M5 Max/M5 Ultra搭載のMac Studioが発売されました。9月1日にJohn Ternus氏がCEOに就任し、Tim Cook氏は取締役会長になっています。",
+      "why_ja": "製品投入は順調ですが、新CEOの評価はAI戦略で決まるとみられます。",
+      "companies": [
+        "Apple"
+      ],
+      "source_ids": [
+        1,
+        2,
+        3
+      ],
+      "section": "tech",
+      "topic_key": "apple-fall-launches-ternus"
+    },
+    {
+      "title_en": "Tech CEOs join the Trump–Xi state dinner",
+      "title_ja": "トランプ・習近平会談の晩餐会にテックCEOが出席",
+      "summary_ja": "ホワイトハウスで開かれた習近平（しゅう・きんぺい）国家主席の歓迎晩餐会に、NVIDIA、Microsoft、Meta、OpenAIのトップらが招かれました。具体的な合意内容はまだ報じられていません。",
+      "why_ja": "AIチップの対中輸出規制は米中関係の中心的な論点です。訪問後の輸出規制・通商に関する発表に注目が必要です。",
+      "companies": [
+        "NVIDIA",
+        "Microsoft",
+        "Meta"
+      ],
+      "source_ids": [
+        9,
+        10
+      ],
+      "section": "world",
+      "topic_key": "trump-xi-state-dinner"
+    }
   ],
   "vocabulary": [
-    {"term": "unveil", "meaning_ja": "発表する、お披露目する", "note_ja": "新製品・新戦略の発表で頻出。announceより「初公開」のニュアンス。", "example_en": "On Friday, the company unveiled a single Copilot app that combines AI chat, coding and autonomous agents."},
-    {"term": "autonomous agent", "meaning_ja": "自律型エージェント", "note_ja": "人が逐一指示しなくてもタスクを進めるAI。", "example_en": "the company unveiled a single Copilot app that combines AI chat, coding and autonomous agents"},
-    {"term": "be locked into", "meaning_ja": "（特定の業者・技術に）縛られる", "note_ja": "vendor lock-in（ベンダーロックイン）と同じ発想。", "example_en": "so customers aren't locked into a single provider."},
-    {"term": "guidance", "meaning_ja": "（企業が示す）業績見通し", "note_ja": "決算報道の必須語。raise/cut guidance＝見通しを上方/下方修正。", "example_en": "Micron's own guidance is revenue of 50 billion dollars, plus or minus one billion"},
-    {"term": "imply", "meaning_ja": "（数字などが）～を意味する、示唆する", "note_ja": "計算上そうなる、という含意で使う。", "example_en": "So the guidance implies growth of roughly 20 percent in just three months."},
-    {"term": "largely booked through", "meaning_ja": "～までほぼ予約で埋まっている", "note_ja": "生産能力・座席・日程などに使う。fully booked＝満杯。", "example_en": "Micron has said its HBM capacity is largely booked through calendar 2027 and into 2028."},
-    {"term": "contract chipmaker", "meaning_ja": "半導体受託製造企業（ファウンドリー）", "note_ja": "foundryとほぼ同義。TSMCの説明で定番の表現。", "example_en": "The world's largest contract chipmaker reported August revenue of about 514.8 billion New Taiwan dollars."},
-    {"term": "concentration risk", "meaning_ja": "集中リスク", "note_ja": "供給・取引先が一カ所に偏ることによるリスク。政策文書でも使える。", "example_en": "That's the concentration risk that policymakers worry about."},
-    {"term": "a who's who of", "meaning_ja": "～の著名人がずらりと並ぶ顔ぶれ", "note_ja": "read like a who's who of ～ で「まるで～の名士録のようだ」。", "example_en": "And the guest list read like a who's who of AI."},
-    {"term": "export controls", "meaning_ja": "輸出規制（輸出管理）", "note_ja": "安全保障上の理由による規制。tighten/ease export controls。", "example_en": "Export controls decide which AI chips companies like NVIDIA can sell to China"},
-    {"term": "non-negotiable", "meaning_ja": "譲れない、絶対条件の", "note_ja": "交渉の余地がないこと。会議で使いやすい。", "example_en": "So, go fast, but containment is non-negotiable."}
+    {
+      "term": "unveil",
+      "meaning_ja": "発表する、お披露目する",
+      "note_ja": "新製品・新戦略の発表で頻出。announceより「初公開」のニュアンス。",
+      "example_en": "On Friday, the company unveiled a single Copilot app that combines AI chat, coding and autonomous agents."
+    },
+    {
+      "term": "autonomous agent",
+      "meaning_ja": "自律型エージェント",
+      "note_ja": "人が逐一指示しなくてもタスクを進めるAI。",
+      "example_en": "the company unveiled a single Copilot app that combines AI chat, coding and autonomous agents"
+    },
+    {
+      "term": "be locked into",
+      "meaning_ja": "（特定の業者・技術に）縛られる",
+      "note_ja": "vendor lock-in（ベンダーロックイン）と同じ発想。",
+      "example_en": "so customers aren't locked into a single provider."
+    },
+    {
+      "term": "guidance",
+      "meaning_ja": "（企業が示す）業績見通し",
+      "note_ja": "決算報道の必須語。raise/cut guidance＝見通しを上方/下方修正。",
+      "example_en": "Micron's own guidance is revenue of 50 billion dollars, plus or minus one billion"
+    },
+    {
+      "term": "imply",
+      "meaning_ja": "（数字などが）～を意味する、示唆する",
+      "note_ja": "計算上そうなる、という含意で使う。",
+      "example_en": "So the guidance implies growth of roughly 20 percent in just three months."
+    },
+    {
+      "term": "largely booked through",
+      "meaning_ja": "～までほぼ予約で埋まっている",
+      "note_ja": "生産能力・座席・日程などに使う。fully booked＝満杯。",
+      "example_en": "Micron has said its HBM capacity is largely booked through calendar 2027 and into 2028."
+    },
+    {
+      "term": "contract chipmaker",
+      "meaning_ja": "半導体受託製造企業（ファウンドリー）",
+      "note_ja": "foundryとほぼ同義。TSMCの説明で定番の表現。",
+      "example_en": "The world's largest contract chipmaker reported August revenue of about 514.8 billion New Taiwan dollars."
+    },
+    {
+      "term": "concentration risk",
+      "meaning_ja": "集中リスク",
+      "note_ja": "供給・取引先が一カ所に偏ることによるリスク。政策文書でも使える。",
+      "example_en": "That's the concentration risk that policymakers worry about."
+    },
+    {
+      "term": "a who's who of",
+      "meaning_ja": "～の著名人がずらりと並ぶ顔ぶれ",
+      "note_ja": "read like a who's who of ～ で「まるで～の名士録のようだ」。",
+      "example_en": "And the guest list read like a who's who of AI."
+    },
+    {
+      "term": "export controls",
+      "meaning_ja": "輸出規制（輸出管理）",
+      "note_ja": "安全保障上の理由による規制。tighten/ease export controls。",
+      "example_en": "Export controls decide which AI chips companies like NVIDIA can sell to China"
+    },
+    {
+      "term": "non-negotiable",
+      "meaning_ja": "譲れない、絶対条件の",
+      "note_ja": "交渉の余地がないこと。会議で使いやすい。",
+      "example_en": "So, go fast, but containment is non-negotiable."
+    }
   ],
-  "phrase_of_the_day": {"phrase": "read-through", "meaning_ja": "ある企業のニュースから、他社（顧客・競合・取引先）について読み取れる示唆", "example_en": "Strong iPhone sales are a positive read-through for Apple's suppliers.", "example_ja": "iPhoneの好調な販売は、Appleのサプライヤーにとってプラスの示唆だ。"}
+  "phrase_of_the_day": {
+    "phrase": "read-through",
+    "meaning_ja": "ある企業のニュースから、他社（顧客・競合・取引先）について読み取れる示唆",
+    "example_en": "Strong iPhone sales are a positive read-through for Apple's suppliers.",
+    "example_ja": "iPhoneの好調な販売は、Appleのサプライヤーにとってプラスの示唆だ。"
+  }
 }
