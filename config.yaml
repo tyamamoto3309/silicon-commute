@@ -6,11 +6,12 @@
 podcast:
   title: "The Silicon Commute"
   title_ja: "シリコン・コミュート"
-  subtitle: "A 10-minute English briefing on Big Tech and chips"
+  subtitle: "Tech and world news in English, with a Japanese recap after each story"
   description: >-
-    Weekday-morning, 10-minute English conversation on GAFAM and the
-    semiconductor industry, with a full English–Japanese transcript
-    for language learners. Auto-generated from public news with Gemini.
+    Weekday-morning English conversation on Big Tech, semiconductors and
+    the most important world news, with a short Japanese recap after each
+    story and a full English–Japanese transcript for language learners.
+    Auto-generated from public news with Gemini.
   author: "The Silicon Commute"
   language: "en"
   # 空欄なら GitHub Pages の URL (https://<user>.github.io/<repo>/) を自動設定
@@ -21,10 +22,18 @@ podcast:
   keep_on_site: 30
 
 episode:
-  target_minutes: 10
+  # 英語パートの長さ（分）。これに日本語のおさらい（1本30〜40秒）が加わり、全体で約15分
+  target_minutes: 9
   # 台本の語数の目安 = target_minutes × words_per_minute（実測: Gemini TTS は約150語/分）
   words_per_minute: 150
-  max_stories: 6
+  # ニュースの本数（テック：最大／最小、世界）
+  tech_stories: 5
+  min_tech_stories: 4
+  world_stories: 2
+  # 日本語のおさらい1本あたりの文字数の目安
+  recap_ja_chars: 190
+  # 何日前までの放送内容と重複を避けるか
+  avoid_repeat_days: 7
   # ニュースを遡る時間。月曜は自動で週末分（78時間）に拡張
   lookback_hours: 30
   monday_lookback_hours: 78
@@ -53,7 +62,7 @@ hosts:
 
 models:
   text: gemini-3.8-flash
-  text_fallbacks: [gemini-3.5-flash, gemini-3.5-flash-lite]
+  text_fallbacks: [gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3.5-flash-lite]
   tts: gemini-3.8-flash-tts
   tts_fallbacks: [gemini-3.8-flash-lite-tts, gemini-2.5-flash-preview-tts]
   # Google検索での裏取り: auto=使えれば使う / on / off
@@ -162,6 +171,13 @@ media_feeds:
   - {name: Ars Technica, url: "https://feeds.arstechnica.com/arstechnica/index"}
   - {name: The Register, url: "https://www.theregister.com/headlines.atom"}
 
+# 世界ニュース（主要な国際報道機関。分野を問わず重要ニュースの候補にする）
+world_feeds:
+  - {name: BBC News, url: "https://feeds.bbci.co.uk/news/world/rss.xml"}
+  - {name: The Guardian, url: "https://www.theguardian.com/world/rss"}
+  - {name: Al Jazeera, url: "https://www.aljazeera.com/xml/rss/all.xml"}
+  - {name: NPR, url: "https://feeds.npr.org/1004/rss.xml"}
+
 # 信頼性の低いまとめサイト等を除外（媒体名の一部一致・大文字小文字は無視）
 blocked_publishers:
   - AD HOC NEWS
@@ -173,7 +189,15 @@ google_news:
   hl: en-US
   gl: US
   ceid: "US:en"
-  max_items_per_query: 12
+  # 企業ごとの検索で拾う最大件数（同じ企業ばかりにならないよう少なめ）
+  max_items_per_query: 6
+  # 分野別トップニュース（右側は tech / world の区分）
+  topics:
+    WORLD: world
+    BUSINESS: world
+    TECHNOLOGY: tech
+    SCIENCE: tech
+  max_items_per_topic: 25
 
 x:
   # GitHub の Secrets に X_BEARER_TOKEN を登録したときだけ動作（従量課金）
