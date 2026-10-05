@@ -1,0 +1,696 @@
+{
+  "date": "2026-10-06",
+  "published": "2026-10-06T07:32:44+09:00",
+  "title_en": "US Grid Costs Battle, Denmark's Mega Breach, and Red Sea Security",
+  "title_ja": "米データセンター電力網コストの攻防、デンマーク大規模データ流出、そして紅海の安全保障",
+  "summary_ja": "今回のエピソードでは、米上院でのデータセンター送電網コスト負担法案の否決や、QualcommとArmによる半導体ライセンス裁判、OpenAIのEU向け電子透かし導入など、主要なテックニュースを取り上げます。さらに、デンマークでの深刻なマイナンバーデータベース流出や、中国による高性能DUV露光装置の大量備蓄実態についても解説。世界ニュースでは、シベリアにおける肺ペストでの研究者死亡事案、およびイエメン暫定政府軍によるバブ・エル・マンデブ海峡の奪還とサウジ石油施設への報復攻撃についてお届けします。",
+  "duration": 704.5,
+  "audio": {
+    "file": "2026-10-06.mp3",
+    "bytes": 5636706,
+    "release_tag": "ep-2026-10-06"
+  },
+  "word_count": 1219,
+  "ja_chars": 968,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.5-flash",
+    "write": "gemini-3.5-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Welcome to The Silicon Commute",
+      "heading_ja": "番組紹介",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning. It is Tuesday, October 6. This is The Silicon Commute, your daily briefing on technology and key global news.",
+          "ja": "おはようございます。10月6日火曜日、テクノロジーと世界の主要ニュースをお届けする「The Silicon Commute」です。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning! Today, we cover the U.S. Senate blocking a bill on AI data center power costs, a massive data breach affecting millions in Denmark, and Saudi-backed forces retaking the strategic Bab al-Mandeb strait. Let us dive in.",
+          "ja": "おはようございます！今日は、AIデータセンターの電力コストに関する米上院での法案否決、デンマークで数百万人規模に影響した大規模なデータ流出、そしてサウジ支援連合軍による戦略的要衝バブ・エル・マンデブ海峡の奪還といったニュースをお届けします。それでは始めましょう。",
+          "t": 9.03
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "U.S. Senate Blocks Ratepayer Protection Act for AI Grid Upgrades",
+      "heading_ja": "米上院、AI電力網コストを消費者保護する法案を否決",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "First up, the United States Senate has officially blocked the Ratepayer Protection Act in a fifty-seven to forty-three vote. The bipartisan legislation fell just three votes short of the sixty needed to pass. It was designed to shield ordinary Americans from rising electricity costs caused by massive AI data center construction nationwide.",
+          "ja": "最初のニュースです。米上院は「電気料金消費者保護法」を57対43の投票結果で正式に否決しました。超党派のこの法案は、可決に必要な60票にわずか3票届きませんでした。これは、全米で急増するAIデータセンターの建設に伴う電気料金の高騰から、一般のアメリカ市民を保護することを目指したものでした。",
+          "t": 24.59
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, who is going to pay for these massive grid upgrades now? Is the financial burden going to shift to tech companies or standard consumers?",
+          "ja": "ということは、送電網の大規模なアップグレード費用は今後だれが負担するのでしょうか？財政負担はテック企業と一般消費者のどちらに向かうのですか？",
+          "t": 46.92
+        },
+        {
+          "speaker": "Alex",
+          "en": "Without this federal standard, the financial burden remains with local utility regulators and ordinary consumers. Proponents wanted to make data center operators cover the incremental costs. However, opponents, mostly Democrats, called the bill toothless because it only directed regulators to consider the standard, rather than mandating it. Some states are taking their own action, though. For instance, an Oregon utility hiked data center bills by thirty percent to offset residential costs.",
+          "ja": "今回の連邦基準が否決されたことで、費用の負担は引き続き地方の公益事業規制当局と一般消費者に委ねられることになります。賛成派はデータセンター事業者に増加分の費用を負担させたいと考えていました。しかし、反対派（主に民主党）は、この法案が規制当局に基準の検討を促すだけで義務化していないため、実効性がないと批判しました。ただ、一部の州は独自に対策を講じており、例えばオレゴン州の電力会社は、データセンター向けの料金を30パーセント値上げし、住宅用の料金を引き下げました。",
+          "t": 56.99
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is interesting. It shows how the massive physical demands of artificial intelligence are directly hitting local communities.",
+          "ja": "興味深いですね。人工知能が必要とする莫大な物理的エネルギーの需要が、地域社会に直接的な影響を及ぼしていることがよく分かります。",
+          "t": 88.66
+        }
+      ],
+      "lang": "en",
+      "t": 24.59
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。米上院は、AIデータセンターの急増による電力インフラ負担を事業者側に求める法案を、僅差で否決しました。これにより、送電網整備の巨額なコストが一般消費者の電気料金に転嫁される懸念が残る形となり、地域の電力規制をめぐる議論が再燃しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 98.05
+        }
+      ],
+      "t": 98.05
+    },
+    {
+      "kind": "story",
+      "heading_en": "Qualcomm and Arm Kick Off Landmark Semiconductor IP Trial",
+      "heading_ja": "QualcommとArm、特許ライセンスめぐり歴史的裁判を開始",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Next, semiconductor giants Qualcomm and Arm have kicked off their highly anticipated trial in court. This landmark silicon IP and contract breach dispute could redefine licensing terms, royalty structures, and testing tools across the entire mobile, PC, and data center chip industries.",
+          "ja": "次に、半導体大手のQualcommとArmの注目の裁判が開始されました。シリコンIP（半導体設計資産）と契約違反をめぐるこの歴史的な紛争は、モバイル、PC、データセンター向けの半導体業界全体におけるライセンス条件、ロイヤルティ体系、およびテストツールを再定義する可能性があります。",
+          "t": 120.99
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is this major lawsuit happening now? I thought they were long-time partners in the mobile ecosystem.",
+          "ja": "なぜこの重要な訴訟が今起きているのでしょうか？彼らはモバイルのエコシステムにおける長年のパートナーだと思っていました。",
+          "t": 139.97
+        },
+        {
+          "speaker": "Alex",
+          "en": "They are, but the relationship has soured. Qualcomm is taking Arm to court over withheld chip testing tools and claims of leaked deal threats. According to Reuters, the case focuses on massive potential damages and licensing terms. Arm is accusing Qualcomm of breaching contracts regarding customized chip designs, while Qualcomm argues Arm is unfairly squeezing its partners. Both companies are fighting to dominate the rapidly growing market for AI-enabled processors.",
+          "ja": "パートナーではありますが、両者の関係は悪化しています。Qualcommは、開示が差し控えられたチップテストツールや、漏洩された契約の脅迫などを理由にArmを提訴しています。Reutersによると、この裁判では巨額の賠償請求とライセンス条項が焦点となっています。ArmはQualcommがカスタムチップ設計に関する契約に違反したと主張する一方、QualcommはArmが不当にパートナー企業を圧迫していると反論しています。両社は、急速に拡大するAI対応プロセッサの市場での主導権を激しく争っています。",
+          "t": 147.84
+        },
+        {
+          "speaker": "Mika",
+          "en": "This could certainly disrupt the global chip supply chain if licensing structures change.",
+          "ja": "ライセンス体系が変更になれば、世界の半導体サプライチェーンに確実に混乱が生じる可能性がありますね。",
+          "t": 178.04
+        }
+      ],
+      "lang": "en",
+      "t": 120.99
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "QualcommとArmの特許ライセンスおよび契約違反をめぐる裁判が始まりました。Qualcommは半導体テストツールの開示などを求めて提訴しており、AI向けチップ市場での主導権争いが背景にあります。判決次第では、モバイルやPC業界全体のライセンス体系に大きな影響を与える可能性があります。",
+          "en": "",
+          "lang": "ja",
+          "t": 185.45
+        }
+      ],
+      "t": 185.45
+    },
+    {
+      "kind": "story",
+      "heading_en": "OpenAI Introduces Invisible Text Watermarking to Comply with EU AI Act",
+      "heading_ja": "OpenAI、EUのAI法準拠のためChatGPTに電子透かしを導入",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our third story concerns regulatory compliance. OpenAI has announced it is introducing mandatory text watermarking for ChatGPT and Codex in the European Union. This move aligns with the transparency rules of the European Union AI Act, which took effect on August second. These rules require AI companies to mark generated content so other systems can identify it.",
+          "ja": "3つ目のニュースは規制遵守に関するものです。OpenAIは、EU（欧州連合）においてChatGPTとCodexに義務的なテキスト電子透かしを導入すると発表しました。この動きは、8月2日に施行された「EU AI法」の透明性ルールに準拠したものです。このルールでは、AI企業に対し、他のシステムが識別できるようにAI生成コンテンツにマーキングを行うことを求めています。",
+          "t": 211.1
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does text watermarking actually work? Is it an actual visible stamp or symbol?",
+          "ja": "テキストの電子透かしは実際どのように機能するのでしょうか？何か目に見えるスタンプや記号のようなものですか？",
+          "t": 234.99
+        },
+        {
+          "speaker": "Alex",
+          "en": "No, it is completely invisible. It uses an approach called textGrain, which subtly influences the model's word choices. It leaves a pattern that readers cannot see, but a detector tool can identify. The watermark travels with the text when copied and pasted. OpenAI noted that the watermark does not identify the user, and it does not hurt model performance. However, they admitted that editing, like replacing ten percent of words with synonyms, dropped detection rates from ninety-two percent to sixty-six percent.",
+          "ja": "いいえ、完全に目には見えません。これは「textGrain」と呼ばれる手法を採用しており、モデルの単語選択に微妙な影響を与えます。読者には見えないものの、検出ツールで識別できるパターンを残すのです。この透かしは、テキストがコピー＆ペーストされた際にも引き継がれます。OpenAIは、この透かしがユーザーを特定することはなく、モデルのパフォーマンスも低下させないと説明しています。ただし、10パーセントの単語を類義語に置き換えるなどの編集を行うと、検出率が92パーセントから66パーセントに低下することも認めています。",
+          "t": 241.58
+        },
+        {
+          "speaker": "Mika",
+          "en": "So it is not a perfect shield against misuse, but a starting point for compliance.",
+          "ja": "悪用を防ぐ完璧な盾というわけではありませんが、規制対応への第一歩と言えますね。",
+          "t": 274.89
+        }
+      ],
+      "lang": "en",
+      "t": 211.1
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "OpenAIは、EUのAI法への準拠に向けて、ChatGPTなどの生成テキストに目に見えない電子透かし技術『textGrain』を導入すると発表しました。単語の並びにパターンを埋め込む仕組みですが、編集によって検知率が低下する限界もあり、まずは欧州限定での提供となります。",
+          "en": "",
+          "lang": "ja",
+          "t": 281.48
+        }
+      ],
+      "t": 281.48
+    },
+    {
+      "kind": "story",
+      "heading_en": "Danish Central Citizen Database Breached, Exposing Eight Million Records",
+      "heading_ja": "デンマーク政府データベースにサイバー攻撃、800万人分のデータ流出",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Moving to cybersecurity, a devastating data breach in Denmark has exposed the records of eight million citizens. Hackers managed to break into the Central Person Register, which is Denmark's central government database containing names, addresses, and state-issued social security numbers.",
+          "ja": "サイバーセキュリティに目を向けると、デンマークでの深刻なデータ漏洩により、800万人の市民の記録が露出しました。ハッカーは、氏名、住所、および国が発行する社会保障番号を保管するデンマーク政府のセントラル住民登録（CPR）データベースへの侵入に成功しました。",
+          "t": 305.63
+        },
+        {
+          "speaker": "Mika",
+          "en": "Eight million people? That is actually larger than the current population of Denmark, is it not?",
+          "ja": "800万人ですか？それは現在のデンマークの総人口よりも多いのではないですか？",
+          "t": 324.96
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, Denmark's current population is about six million, but the database holds eleven million historical records dating back decades. The stolen data includes identity numbers used to pay taxes and access public services. The government stated that hackers abused a Danish company's lawful search access to enter the system. This is now considered the biggest data breach in the country's history.",
+          "ja": "はい、デンマークの現在の人口は約600万人ですが、このデータベースには数十年前まで遡る1100万件の過去の記録が保存されています。盗まれたデータには、納税や公共サービスの利用に使用される識別番号が含まれています。政府は、ハッカーがデンマーク国内の企業の合法的な検索アクセス権を悪用してシステムに侵入したと発表しました。これは同国史上最大のデータ漏洩事案と見なされています。",
+          "t": 332.41
+        },
+        {
+          "speaker": "Mika",
+          "en": "A severe warning for any government managing centralized citizen data.",
+          "ja": "中央集権的な市民データを管理するすべての政府にとって、重大な警告となりますね。",
+          "t": 358.4
+        }
+      ],
+      "lang": "en",
+      "t": 305.63
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "デンマークの政府データベースがハッキングされ、住民や海外在住者など約800万人分の個人情報が流出しました。流出したデータには、納税や行政サービスに用いる市民ID番号などが含まれます。民間企業の正規アクセス権が悪用されたとみられ、同国史上最大のデータ漏洩（ろうえい）事案となっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 364.7
+        }
+      ],
+      "t": 364.7
+    },
+    {
+      "kind": "story",
+      "heading_en": "China Accummulates Hundreds of Advanced ASML DUV Lithography Tools",
+      "heading_ja": "中国、輸出規制の隙を突き高性能DUV露光装置を大量備蓄",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our final tech story is about semiconductor geopolitics. A new report from the Centre for Technology and Statecraft reveals that China has successfully stockpiled three hundred and forty-three advanced deep ultraviolet, or DUV, lithography machines. They imported these tools from ASML between twenty twelve and early twenty twenty-six.",
+          "ja": "最後のテックニュースは、半導体をめぐる地政学についてです。「Centre for Technology and Statecraft」の新しい報告書によると、中国が343台の高度な深紫外線（DUV）露光装置の備蓄に成功したことが明らかになりました。中国はこれらの装置を2012年から2026年初頭にかけてASML社から輸入しました。",
+          "t": 386.96
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is this stockpile so significant? Aren't these older-generation machines compared to extreme ultraviolet systems?",
+          "ja": "この備蓄はなぜそれほど重要のでしょうか？極端紫外線（EUV）システムに比べると、これらは旧世代の装置ではありませんか？",
+          "t": 406.63
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, they are less advanced than extreme ultraviolet, or EUV, systems, which China is already banned from buying. However, the report states that two hundred and seventy of these hoarded tools can be used for multi-patterning to manufacture seven-nanometer chips. Despite Western export curbs on more advanced models like the NXT:2000i, Chinese firms aggressively purchased ninety units of the NXT:1980i in twenty twenty-four, and another eighty-nine in twenty twenty-five, spending over thirteen billion dollars.",
+          "ja": "はい、中国への販売が既に禁止されているEUVシステムに比べれば旧世代です。しかし報告書は、買いだめされた装置のうち270台が、マルチパターニング技術を用いることで7ナノメートル級チップの製造に使用可能であると指摘しています。NXT:2000iといったより高度なモデルに対する西側の輸出規制にもかかわらず、中国企業は2024年に90台、2025年に89台のNXT:1980iを猛烈な勢いで購入し、2年間で130億ドル以上を費やしました。",
+          "t": 414.37
+        },
+        {
+          "speaker": "Mika",
+          "en": "So China has built a substantial buffer to keep manufacturing advanced semiconductors domestically.",
+          "ja": "つまり、中国は国内で先端半導体を製造し続けるために、実質的なバッファー（緩衝材）を構築したのですね。",
+          "t": 443.68
+        }
+      ],
+      "lang": "en",
+      "t": 386.96
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "調査報告によると、中国企業はASMLから343台の高性能なDUV露光装置を買いだめしていたことが判明しました。このうち270台は、規制対象外の技術を工夫することで7nm（ナノメートル）級の先端半導体を製造可能です。輸出規制の隙を突き、国内の製造体制を確保した形です。",
+          "en": "",
+          "lang": "ja",
+          "t": 450.44
+        }
+      ],
+      "t": 450.44
+    },
+    {
+      "kind": "world",
+      "heading_en": "U.S. Monitors Suspected Pneumonic Plague Death in Siberian Lab Accident",
+      "heading_ja": "米政府、シベリアの研究所事故による肺ペスト死亡疑い事例を注視",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, a look at the world beyond tech. U.S. officials are closely monitoring a suspected case of pneumonic plague in Siberia. Researcher Darya Shipilova reportedly died at the Irkutsk Anti-Plague Research Institute of Siberia, leading Russian authorities to quarantine several hospitals and monitor nearly two hundred contacts.",
+          "ja": "ここからは、テック以外の世界情勢です。米政府当局は、シベリアで発生した肺ペストの疑いがある死亡事案を注視しています。研究員のDarya Shipilova氏がシベリアのイルクーツク抗ペスト研究所で死亡したと報じられており、ロシア当局は複数の病院を隔離し、約200人の接触者を監視下に置いています。",
+          "t": 471.37
+        },
+        {
+          "speaker": "Mika",
+          "en": "As a public health researcher, this catches my attention. Pneumonic plague is caused by the bacterium Yersinia pestis. It is highly lethal if untreated, though it is treatable with standard antibiotics. Was it a lab accident?",
+          "ja": "公衆衛生の研究者として、これは非常に気になるニュースです。肺ペストはペスト菌（Yersinia pestis）によって引き起こされます。未治療の場合の致死率は極めて高いですが、通常の抗生物質で治療可能です。これは研究所の事故だったのでしょうか？",
+          "t": 490.5
+        },
+        {
+          "speaker": "Alex",
+          "en": "Unconfirmed reports suggest she may have broken a test tube containing the pathogen. Russia's health watchdog, Rospotrebnadzor, stated they found no emergency situation. However, U.S. Secretary of State Marco Rubio confirmed that Washington is watching the situation closely. President Donald Trump also stated the U.S. is looking very strongly at the case and stands ready to help.",
+          "ja": "未確認の報道では、彼女が病原体が入った試験管を破損した可能性が示唆されています。ロシアの消費者・衛生監視機関であるRospotrebnadzorは緊急事態は検出されていないと発表しました。しかし、米国のMarco Rubio国務長官はワシントンがこの状況を注意深く監視していることを認めました。Donald Trump大統領も米国はこの件を注視しており、支援する用意があると述べています。",
+          "t": 504.12
+        }
+      ],
+      "lang": "en",
+      "t": 471.37
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "シベリアの研究所で女性研究員が肺ペストの疑いで急死し、ロシア当局は約200人を経過観察に、複数の病院を隔離措置としました。事故による所内感染の疑いがあり、米国務省も事態を注視しています。肺ペストは致死率が高いものの、抗生物質による治療が可能です。",
+          "en": "",
+          "lang": "ja",
+          "t": 526.75
+        }
+      ],
+      "t": 526.75
+    },
+    {
+      "kind": "world",
+      "heading_en": "Saudi-Backed Coalition Retakes Strategic Bab al-Mandeb Chokepoint",
+      "heading_ja": "サウジ支援のイエメン連合軍、戦略的要衝バブ・エル・マンデブ海峡を奪還",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Finally, a major development in maritime security. Saudi-backed forces in Yemen have launched a major offensive, recapturing several key areas around the strategic Bab al-Mandeb strait from Iran-backed Houthi rebels. Pro-government forces successfully seized the port city of Mokha and secured the vital Red Sea waterway.",
+          "ja": "最後に、海洋安全保障における重大な進展です。イエメンのサウジ支援連合軍が大規模な攻勢を開始し、イランが支援する反体制派フーシ派から戦略的要衝であるバブ・エル・マンデブ海峡周辺の重要地域を奪還しました。暫定政府派の軍は港湾都市モカを制圧し、重要な紅海の航路を確保することに成功しました。",
+          "t": 550.79
+        },
+        {
+          "speaker": "Mika",
+          "en": "That strait is a critical global shipping chokepoint. How did the Houthis respond?",
+          "ja": "その海峡は世界の海上輸送における最重要のチョークポイント（要衝）です。フーシ派はどう反応したのでしょうか？",
+          "t": 574.07
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Houthis retaliated by launching ballistic missiles and drones at Saudi Aramco oil facilities in Riyadh and Khurais, causing visible fires. They also warned civilian airlines that Saudi airspace is no longer safe. This offensive, named Operation Yemen Dawn, marks a significant escalation after a four-year informal ceasefire began to unravel earlier this year.",
+          "ja": "フーシ派は、リヤドとフライスのサウジアラムコ石油施設に向けて弾道ミサイルとドローンを発射して報復し、大規模な火災を引き起こしました。さらに、フーシ派は民間航空会社に対し、サウジの領空はもはや安全ではないと警告しました。「イエメンの夜明け作戦」と命名されたこの攻勢は、今年初頭に崩壊し始めた4年間の非公式な停戦合意を経て、大きな緊迫化を示しています。",
+          "t": 581.28
+        }
+      ],
+      "lang": "en",
+      "t": 550.79
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "イエメンのサウジ支援連合軍が大規模攻勢を開始し、紅海とアデン湾を結ぶ要衝バブ・エル・マンデブ海峡の周辺地域や港湾都市モカを反体制派フーシ派から奪還しました。フーシ派はサウジの石油施設を攻撃して反撃しており、地域の緊張と海洋安全保障の危機が再び高まっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 607.46
+        }
+      ],
+      "t": 607.46
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "AWS CEO Warns of Opposition Threatening U.S. AI Leadership",
+      "heading_ja": "AWSのCEOがデータセンター開発反対運動に警告",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Let us look at CEO Watch. Amazon Web Services CEO has issued a stark warning. The AWS CEO stated that growing opposition to data centers could undermine U.S. artificial intelligence leadership. According to their warning, blockages and delays facing sixty-eight billion dollars in planned data center projects present a direct threat to the nation's technology goals, as concerns mount over electricity costs and water use.",
+          "ja": "「CEOウォッチ」です。Amazon Web Services（AWS）のCEOが厳しい警告を発しました。AWSのCEOは、データセンター建設への反発の高まりが米国の人工知能分野における主導権を脅かしかねないと述べました。彼らの警告によると、一般消費者の電気料金や水消費への懸念を理由に、計画中の680億ドル規模のデータセンター事業が反対や遅延に直面しており、これが国家のテクノロジー目標に対する直接的な脅威になっているとのことです。",
+          "t": 632.58
+        }
+      ],
+      "lang": "en",
+      "t": 632.58
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: 'Fall Short'",
+      "heading_ja": "今日のフレーズ：'Fall Short'",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Our phrase of the day is 'fall short'. It means to fail to reach an expected or required standard or amount. Today, we heard that the Ratepayer Protection Act 'fell short of the sixty votes required to pass.' For example, 'Our third-quarter revenue fell short of our targets due to supply chain delays.' It is very useful in business discussions.",
+          "ja": "本日の「Phrase of the day（今日のフレーズ）」は『fall short』です。期待された基準や必要な量に『届かない、達しない』という意味です。今日、電気料金消費者保護法が『可決に必要な60票に届かなかった（fell short of the sixty votes）』というニュースがありました。例えば『サプライチェーンの遅延により、当社の第3四半期の売上は目標に達しませんでした』のように使われます。ビジネスの議論において非常に役立つ表現です。",
+          "t": 662.74
+        }
+      ],
+      "lang": "en",
+      "t": 662.74
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Sign-off",
+      "heading_ja": "番組の結び",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That is all for today's commute. Stay safe, stay informed, and we will see you tomorrow.",
+          "ja": "本日の通勤ニュースは以上です。安全運転で、情報を味方に。また明日お会いしましょう。",
+          "t": 688.16
+        },
+        {
+          "speaker": "Mika",
+          "en": "Have a productive day at the office. See you on tomorrow's commute.",
+          "ja": "オフィスで実りある一日をお過ごしください。明日の通勤でお会いしましょう。",
+          "t": 694.09
+        }
+      ],
+      "lang": "en",
+      "t": 688.16
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "それでは、今日の通勤も気をつけて。また明日お会いしましょう！",
+          "en": "",
+          "lang": "ja",
+          "t": 698.92
+        }
+      ],
+      "t": 698.92
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "U.S. Senate Blocks Ratepayer Protection Act, Shielding Tech Firms from Grid-Upgrade Costs",
+      "title_ja": "米上院、データセンター送電網コストを消費者に転嫁する法案を否決",
+      "summary_ja": "米上院は、AIデータセンターの電力網負荷を事業者負担にさせることを目指す「電気料金消費者保護法」を否決しました。57対43の投票結果となり、可決に必要な60票に届きませんでした。",
+      "why_ja": "データセンターの急増による電気料金の高騰から一般市民を保護する試みが挫折したことで、巨額の送電網整備費用が消費者に転嫁される懸念が強まっています。",
+      "section": "tech",
+      "topic_key": "us-data-center-power-policy",
+      "companies": [
+        "Amazon"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "US Senate kills bill that could potentially shield Americans from skyrocketing power bills due to AI data centers",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/us-senate-kills-bill-that-could-potentially-shield-americans-from-skyrocketing-power-bills-due-to-ai-data-centers-opponents-say-bill-is-toothless-and-doesnt-do-enough-to-protect-citizens"
+        }
+      ]
+    },
+    {
+      "title_en": "Qualcomm and Arm Face Off in Landmark Silicon IP and Contract Breach Trial",
+      "title_ja": "QualcommとArm、特許ライセンスおよび契約違反をめぐり歴史的裁判を開始",
+      "summary_ja": "半導体設計大手のQualcommとArmが、特許ライセンスおよび契約違反をめぐる歴史的な裁判を開始しました。",
+      "why_ja": "スマートフォン、PC、データセンター向け半導体市場の主導権争いが激化する中、ライセンス料率やツールの開示をめぐる本訴訟は、業界全体のビジネスモデルを再編する可能性があります。",
+      "section": "tech",
+      "topic_key": "qualcomm-arm-trial",
+      "companies": [
+        "Qualcomm",
+        "Arm"
+      ],
+      "sources": [
+        {
+          "publisher": "qz.com",
+          "title": "Qualcomm vs. Arm Holdings Q4 2026 trial: royalties and contract breach",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TRzNnSml0UEJ2WTlSQjByNlFGN3JEem1TVXVSdFFkZGJPbURhV3p5T2tOWGFnWW9Uc3NsRkNQZUdxNE1pTjRqcG14VGlmc2g0TjFIeXlWMHhvX05lWFFQQU9nR3JTNGZQckRUS19zbzk0LTJ0?oc=5"
+        },
+        {
+          "publisher": "Investing.com",
+          "title": "Qualcomm and Arm begin new trial over chip testing tools",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSS03MkZ2Q1NrZ0NnMGE0VGotME5VMmpIaFphaUdBd2ZWYzhHdTU4Unhad2tmS2k0NXg1ZGY2NHhjX19nZzR0OVNmLTRtTE1jX3c3UGEyYmpIRlhnbmtJZUZ1T2JLcFM3ckRRcDE5ZnB5SEpnbk1vQWtQOUV6VDJnVjd4ZnBHN1QwTlBMMTlkVWdNR0FhU0Q3cE5oVlgyNlBfSmVZanRkanhqZ2tUTlFiX3BBbw?oc=5"
+        },
+        {
+          "publisher": "Benzinga",
+          "title": "Arm, Qualcomm Clash as AI Chip Battle Heats Up - ARM Holdings (NASDAQ:ARM)",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQeWNlRFdZY0RPZEk5R2RKLS14LVdhTllaVTZ5bldlVXNxUG9EQVBEc0cya2tYM1pqWlVfTEV2LXBsclJ2eFpYUVg0aGRLZ2wwV0RJaUtXZVRnakNqaFBGdDNSQml1b1VmNjFCNGtBeTEzbGtiaW9ldmFqU2lOcmlPcDFrMTdOdm01RzFYUnZ2a1puR0VuUjhXNkYwdld2ZzJuT3dCTjJ6bzEydEhEdjJvWktyZ05Mb1ZmaGc4bXR5WEt2dVplcTJWRU1jQQ?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Qualcomm and Arm kick off trial, potential for huge damages in focus",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPS1VVb0RTQ1NhSkFHMXd2RENIQ0xsSjVyTkFKYlVSUmRrOXdCRjVwR0psNEdzdjdEa1Y2bkNDcW9WUkIxampaT3JFSm9NaWJBcXF0ZkFsOUtjcjRfWmNZOU8zaXBQWDdlS2U3c1FyQklSM2NVN3N5Z1BxMjRJVjczcGE3MzdjbmtIMWk1S0s5aXE1c0xrVm5wN2FpY25laTlvSGhsbHdRM1FvODB5ZW52YjZtcjgzM3pj?oc=5"
+        },
+        {
+          "publisher": "TIKR.com",
+          "title": "Qualcomm Takes Arm to Court Over Withheld Chip Testing Tools and Leaked Deal Threats",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQb0lDMnFRV0poY2FhVHRRbXZjOWRqRms4Zk9vU08xaTlnczFxMC1BM18zdUQ1U1U3NnFSOThSNU9ndWhfa2U2VlMxV2FaSmNfZG1PMWF5UVZNNkdWX1lPaXlvdEFXajVjSFJzUUV4bGJzRDJFcm1ZS25IZE03M3RlNWZGamtDQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "OpenAI Introduces Mandatory Text Watermarking in EU to Align with AI Act",
+      "title_ja": "OpenAI、EUのAI法に準拠するためChatGPTに目に見えない電子透かしを導入",
+      "summary_ja": "OpenAIは、EUのAI法に規定された透明性のルールに準拠するため、ChatGPTおよびCodexが生成するテキストに目に見えない電子透かし技術を導入すると発表しました。",
+      "why_ja": "生成AIの出所を明確にする規制が強化される中、初めて地域限定で大規模に透かし技術「textGrain」を導入した事例であり、他地域の企業にとっても法令対応の先例となります。",
+      "section": "tech",
+      "topic_key": "openai-eu-text-watermarking",
+      "companies": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+          "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "OpenAI is adding text watermarking in ChatGPT and Codex",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act"
+        }
+      ]
+    },
+    {
+      "title_en": "Cyberattack on Danish Government Database Exposes Data of Eight Million Citizens",
+      "title_ja": "デンマーク住民登録データベースにハッキング、800万人分の住民データ流出",
+      "summary_ja": "デンマーク政府は、住民登録データベース（CPR）がハッキングされ、約800万人分の氏名、住所、市民ID番号などのデータが流出したことを確認しました。",
+      "why_ja": "企業の正規アクセス権を悪用した攻撃によるものであり、国家規模のマイナンバーデータベースが標的となった事例として、公共セクターのセキュリティ管理に大きな教訓を与えます。",
+      "section": "tech",
+      "topic_key": "denmark-government-data-breach",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "Hackers steal 8 million citizens’ records from Danish government database",
+          "url": "https://techcrunch.com/2026/10/05/hackers-steal-8-million-citizens-records-from-danish-government-database/"
+        }
+      ]
+    },
+    {
+      "title_en": "China Successfully Stockpiles Hundreds of Advanced DUV Lithography Tools Amid Ban Threats",
+      "title_ja": "中国、ASMLから343台の高性能DUV露光装置を蓄積していた実態が判明",
+      "summary_ja": "調査機関の報告書により、中国企業が輸出規制を回避し、ASML社から343台の高性能DUV露光装置を蓄積していたことが明らかになりました。",
+      "why_ja": "西側諸国の先端半導体製造規制にもかかわらず、中国が規制外の装置を用いて7nm級プロセスのチップ生産能力を国内で確保している実態を示しており、輸出管理政策の隙間が浮き彫りになりました。",
+      "section": "tech",
+      "topic_key": "china-duv-stockpile",
+      "companies": [
+        "ASML"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "China stockpiled 343 immersion DUV tools for advanced chipmaking",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/china-stockpiled-343-immersion-duv-tools-for-advanced-chipmaking-report-claims-270-asml-scanners-can-produce-7nm-processors-without-sanctioned-euv-tools"
+        }
+      ]
+    },
+    {
+      "title_en": "U.S. Monitors Suspected Pneumonic Plague Death and Laboratory Accident in Siberia",
+      "title_ja": "米政府、シベリアの研究所での事故による肺ペスト死亡疑い事例を注視",
+      "summary_ja": "シベリアの研究所でペスト研究員が肺ペストの疑いで死亡した件について、米国政府が事態を注視していることが明らかになりました。",
+      "why_ja": "研究所での事故による肺ペスト感染の疑いがあり、国際的なバイオセキュリティおよび感染症対策の観点から警戒が強まっています。",
+      "section": "world",
+      "topic_key": "siberia-plague-researcher-death",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "Ars Technica",
+          "title": "Mass quarantine issued in Russia after unexplained death of plague researcher",
+          "url": "https://arstechnica.com/health/2026/10/researchers-death-from-undisclosed-illness-sparks-mass-quarantine-in-russia/"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "US 'watching closely' after plague researcher dies in Russia",
+          "url": "https://www.bbc.co.uk/news/articles/cv5yn3nwp5n5o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Trump says US ready to aid Russia with plague outbreak in Siberia",
+          "url": "https://www.aljazeera.com/news/2026/10/5/trump-says-us-ready-to-aid-russia-with-plague-outbreak-in-siberia?traffic_source=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "US closely monitoring case of lab worker who ‘possibly’ died of plague in Siberia, says Rubio",
+          "url": "https://www.theguardian.com/world/2026/oct/05/russia-lab-worker-possibly-dies-of-plague-siberia-quarantine-measures-irkutsk"
+        },
+        {
+          "publisher": "Forbes",
+          "title": "Trump Says He Is Concerned About Russian Plague Lab Death",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNalJVTGZQUU00V0xuYkVRamhuMWM4bHU0UEc0STI5NVFRU0pBMmdIeXZ4bFFhM2lRY2pNYl8yOUxMbkxDRmlmSjJvdFB0NGdOXy1CTTA0Y2RBTE55MW5SR0RyVUZTZHhhOGdRWmtwc0ZRYlljZmtteGI2QS0xSm5wOGFKbjBKU01xTmRsRVBtWWYyN3dwNnRsZUI1czM0d1lQTDI0bkVTc244UldzTUdkcVAwZEM4QWR5MUMzeEFxYXRmTTV4bno4VUplZkxZcEQ5b3YwcFlxNklnMC1aekE?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Saudi-Backed Coalition Retakes Bab al-Mandeb Chokepoint from Houthi Rebels",
+      "title_ja": "サウジ支援のイエメン暫定政府軍、紅海の要衝バブ・エル・マンデブ海峡を奪還",
+      "summary_ja": "イエメンのサウジ支援連合軍は、反体制派フーシ派から戦略的要衝であるバブ・エル・マンデブ海峡の周辺地域や港湾都市を奪還しました。",
+      "why_ja": "国際貿易やエネルギー供給網の最重要シーレーンである紅海の海洋安全保障に直結する動きであり、フーシ派の報復を含め、地政学的リスクを再燃させています。",
+      "section": "world",
+      "topic_key": "yemen-bab-al-mandeb-clashes",
+      "companies": [
+        "Saudi Aramco"
+      ],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "Saudi-backed forces recapture key areas around strait from Houthis in Yemen",
+          "url": "https://www.theguardian.com/world/2026/oct/05/saudi-forces-recapture-key-areas-strait-houthis-yemen"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Yemeni military says it has retaken Mokha and 'secured' Red Sea waterway",
+          "url": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Yemeni government forces drive Houthis from Bab el-Mandeb Strait",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSVotTm16YzZEU2xvWHNOcjllZVU1RlNYZjBoUnMzWThDbHRLUmJpUE16d0lSR00xcXRBNXppSGcwZHpjNGd6azFjeVBWSHV5T3lZWG9mZEdMRmhBYzVhMF9seTQ2UnZTa201X3hHb2o1ZHN5alNJRmFPcUdvaWVnX1ZKWFZVYmwyS2huNHg2bG1TNlVNT3RuUk5Mbi1naHRFaFQ0YjRKZ0YtVVUta3V2Q1dmQzN5bTlkZmpV?oc=5"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "fall short of",
+      "meaning_ja": "〜に達しない、届かない",
+      "note_ja": "数量や基準、期待値に満たない場合によく使われるビジネス表現です。",
+      "example_en": "The bipartisan legislation fell just three votes short of the sixty needed to pass."
+    },
+    {
+      "term": "dispute",
+      "meaning_ja": "紛争、争い、論争",
+      "note_ja": "契約違反や特許侵害など、法的な対立を指す場合に使われます。",
+      "example_en": "This landmark silicon IP and contract breach dispute could redefine licensing terms, royalty structures, and testing tools across the entire mobile, PC, and data center chip industries."
+    },
+    {
+      "term": "watermarking",
+      "meaning_ja": "電子透かし（技術）",
+      "note_ja": "デジタルデータの出所を示すために、目に見えない信号を埋め込む技術です。",
+      "example_en": "OpenAI has announced it is introducing mandatory text watermarking for ChatGPT and Codex in the European Union."
+    },
+    {
+      "term": "data breach",
+      "meaning_ja": "データ漏洩、情報漏洩",
+      "note_ja": "ハッキングや不正アクセスにより機密データが露出する事故を指します。",
+      "example_en": "Moving to cybersecurity, a devastating data breach in Denmark has exposed the records of eight million citizens."
+    },
+    {
+      "term": "stockpile",
+      "meaning_ja": "〜を備蓄する、買いだめする",
+      "note_ja": "物資、資源、機器などを将来に備えて蓄える動詞・名詞です。",
+      "example_en": "A new report from the Centre for Technology and Statecraft reveals that China has successfully stockpiled three hundred and forty-three advanced deep ultraviolet, or DUV, lithography machines."
+    },
+    {
+      "term": "lithography",
+      "meaning_ja": "光リソグラフィ（露光技術）",
+      "note_ja": "半導体チップの表面に回路パターンを光で焼き付ける極めて高度な製造工程です。",
+      "example_en": "A new report from the Centre for Technology and Statecraft reveals that China has successfully stockpiled three hundred and forty-three advanced deep ultraviolet, or DUV, lithography machines."
+    },
+    {
+      "term": "chokepoint",
+      "meaning_ja": "（地政学的・交通上の）要衝、ボトルネック",
+      "note_ja": "軍事・商業的に通行を抑えられると致命的なダメージを受ける狭い海峡などを指します。",
+      "example_en": "That strait is a critical global shipping chokepoint. How did the Houthis respond?"
+    },
+    {
+      "term": "retaliate",
+      "meaning_ja": "報復する、仕返しする",
+      "note_ja": "攻撃や不利益な行為に対して、同じような手段で報復行動を起こす時に使います。",
+      "example_en": "The Houthis retaliated by launching ballistic missiles and drones at Saudi Aramco oil facilities in Riyadh and Khurais, causing visible fires."
+    },
+    {
+      "term": "compliance",
+      "meaning_ja": "法令遵守、規制遵守",
+      "note_ja": "法律や業界基準などのルールに従い行動することを意味します。",
+      "example_en": "Our third story concerns regulatory compliance."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "fall short",
+    "meaning_ja": "（基準や数値に）達しない、届かない",
+    "example_en": "The bipartisan legislation fell just three votes short of the sixty needed to pass.",
+    "example_ja": "その超党派の法案は、可決に必要な60票にわずか3票届きませんでした。"
+  }
+}
