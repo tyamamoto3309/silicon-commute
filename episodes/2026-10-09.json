@@ -1,0 +1,790 @@
+{
+  "date": "2026-10-09",
+  "published": "2026-10-09T06:15:53+09:00",
+  "title_en": "US Freezes Tech Green Cards & TSMC's $2 Billion US Packaging Deal",
+  "title_ja": "米、テック大手グリーンカード停止 & TSMCの20億ドル米パッケージング契約",
+  "summary_ja": "トランプ政権がMicrosoftやAdobeなどのH-1Bビザ保有者向けグリーンカード手続きを一時停止しました。また、TSMCがGlobalFoundriesと20億ドル規模の先進パッケージング受託契約を結び、ウクライナ東部では民間バスへのミサイル攻撃で多数の犠牲者が出ています。",
+  "duration": 696.2,
+  "audio": {
+    "file": "2026-10-09.mp3",
+    "bytes": 5570460,
+    "release_tag": "ep-2026-10-09"
+  },
+  "word_count": 1227,
+  "ja_chars": 1039,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.5-flash",
+    "write": "gemini-3.5-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Friday Morning Briefing",
+      "heading_ja": "金曜朝のブリーフィング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it is Friday, October 9. This is The Silicon Commute, your daily briefing on technology and global news.",
+          "ja": "皆さん、おはようございます。10月9日金曜日。テクノロジーと国際ニュースのデイリー解説をお届けする「The Silicon Commute」です。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning. Today, we look at the Trump administration suspending green card paths for Microsoft and Adobe, TSMC partnering with GlobalFoundries, and a devastating Russian missile strike on civilian buses in Ukraine.",
+          "ja": "おはようございます。本日お伝えするのは、トランプ政権によるMicrosoftやAdobeのグリーンカード申請手続き一時停止、TSMCとGlobalFoundriesの提携、そしてウクライナでの民間バスへの深刻なロシア軍ミサイル攻撃についてです。",
+          "t": 8.5
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "U.S. Suspends Green Card Path for Microsoft and Adobe Workers",
+      "heading_ja": "米政府、MicrosoftとAdobe社員のグリーンカード移行を停止",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our top story today. The Trump administration has suspended the permanent labor certification program, known as PERM, for H-1B workers at Microsoft, Adobe, and several major IT outsourcing firms like Infosys and Tata. This freezes new or pending green card applications for these firms. Vice President JD Vance announced the move on Thursday, citing alleged fraud and abuse in the system.",
+          "ja": "今日のトップニュースです。トランプ政権は、Microsoft、Adobe、そしてInfosysやTataなどの大手ITアウトソーシング企業数社に対し、H-1Bビザ保有者向けの永住権労働認定プログラム（PERM）を一時停止しました。これにより、これらの企業の新システム申請や保留中のグリーンカード手続きが凍結されます。JD Vance副大統領は木曜日、制度内の不正や悪用の疑いを理由にこの措置を発表しました。",
+          "t": 22.95
+        },
+        {
+          "speaker": "Mika",
+          "en": "This is a massive change for highly skilled tech talent. How does the government justify targeting a giant like Microsoft?",
+          "ja": "高度な技術を持つテック人材にとっては極めて重大な変更ですね。政府はMicrosoftのような巨大企業を対象にした理由をどう説明しているのでしょうか？",
+          "t": 47.5
+        },
+        {
+          "speaker": "Alex",
+          "en": "Vance pointed to a mismatch in numbers. He stated that Microsoft laid off six thousand workers while obtaining six thousand three hundred H-1B approvals and nearly three thousand green cards. The government argues foreign workers are being used to replace laid-off Americans, though Microsoft responds that eighty percent of their applications were simply to extend status for existing employees.",
+          "ja": "Vance副大統領は、人員削減とビザ取得の「数字の不一致」を指摘しました。Microsoftが6000人の従業員を解雇する一方で、6300人のH-1Bビザ承認と約3000人のグリーンカードを取得していたと主張しています。政府は外国人労働者が解雇された米国人の代替として使われていると主張していますが、Microsoft側は申請の80%が単に既存社員のステータス延長だったと反論しています。",
+          "t": 56.23
+        },
+        {
+          "speaker": "Mika",
+          "en": "They are also investigating nine top universities, including Harvard and Stanford, for allegedly abusing foreign student programs to lower wages. This could fundamentally reshape the tech industry's recruiting pipeline.",
+          "ja": "また、政府はHarvardやStanfordを含む名門9大学に対しても、外国人留学生プログラムを悪用して米国人労働者の賃金を低下させている疑いで調査を行っています。これはテック業界の採用パイプラインを根本から変える可能性があります。",
+          "t": 81.26
+        }
+      ],
+      "lang": "en",
+      "t": 22.95
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。トランプ政権は、不正行為の疑いを理由に、MicrosoftやAdobeなどのH-1Bビザ保有者向けグリーンカード申請手続き（PERM）を一時停止しました。JD Vance副大統領は、Microsoftが6000人を解雇する一方で6300人のビザ承認を得ていた点を批判しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 95.77
+        }
+      ],
+      "t": 95.77
+    },
+    {
+      "kind": "story",
+      "heading_en": "TSMC Partners with GlobalFoundries in $2 Billion US Advanced Packaging Deal",
+      "heading_ja": "TSMC、GlobalFoundriesと20億ドルの米先進パッケージング契約を締結",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Next, TSMC has signed a two-billion-dollar, five-year manufacturing agreement with GlobalFoundries. GlobalFoundries will act as a subcontractor, producing silicon interposers for TSMC's advanced CoWoS packaging technology. Production will expand at GlobalFoundries' fabrication facility in Malta, New York, with volume production scheduled for the first half of 2028.",
+          "ja": "続いて、TSMCはGlobalFoundriesと5年間で20億ドル規模の製造契約を結びました。GlobalFoundriesは下請け業者として、TSMCの高度なCoWoSパッケージング技術向けに、シリコンインターポーザを生産します。生産体制はニューヨーク州Malta（マルタ）にあるGlobalFoundriesの工場で拡張され、2028年前半に量産が開始される予定です。",
+          "t": 121.49
+        },
+        {
+          "speaker": "Mika",
+          "en": "For our listeners who might not know, what exactly is a silicon interposer, and why is this deal so significant?",
+          "ja": "ご存じないリスナーのために、シリコンインターポーザとは具体的に何で、なぜこの契約がそれほど重要なのですか？",
+          "t": 144.79
+        },
+        {
+          "speaker": "Alex",
+          "en": "Think of an interposer as a high-density silicon bridge. It connects processor chiplets to high-bandwidth memory stacks next to the AI chip, allowing incredibly fast data transfer. Advanced packaging is currently a massive bottleneck in AI chip supply chains. By outsourcing this to GlobalFoundries in the United States, TSMC secures a reliable, domestic manufacturing footprint.",
+          "ja": "インターポーザはいわば「高密度のシリコン製の橋」です。プロセッサの小チップ（チプレット）と、AIチップの隣に積層された高帯域幅メモリ（HBM）を接続し、驚異的に高速なデータ転送を可能にします。先進パッケージングは現在、AIチップサプライチェーンの最大のボトルネックです。これを米国内のGlobalFoundriesに委託することで、TSMCは信頼できる国内製造拠点を確保できます。",
+          "t": 152.93
+        },
+        {
+          "speaker": "Mika",
+          "en": "Right, this means TSMC's American clients can eventually brand their chips as completely made and packaged in the U.S., without GlobalFoundries needing to invest billions in leading-edge node manufacturing.",
+          "ja": "つまり、GlobalFoundriesが最先端プロセスの製造に数十億ドルを投資することなく、TSMCのアメリカ人クライアントは「完全に米国製でパッケージされた半導体」として自社製品を売り出せるようになるわけですね。",
+          "t": 176.95
+        }
+      ],
+      "lang": "en",
+      "t": 121.49
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "TSMCはGlobalFoundriesと、5年間で20億ドル規模の半導体製造契約を結びました。GlobalFoundriesはニューヨーク州Malta（マルタ）の工場を拡張し、AIチップに不可欠なTSMCの先進パッケージ技術「CoWoS」向けシリコンインターポーザを受託製造します。2028年前半に量産開始予定です。",
+          "en": "",
+          "lang": "ja",
+          "t": 191.13
+        }
+      ],
+      "t": 191.13
+    },
+    {
+      "kind": "story",
+      "heading_en": "Google Integrates Gemini Agentic AI Into Enterprise Workspaces",
+      "heading_ja": "Google、GeminiエージェントAIを企業ワークスペースに統合",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Moving to software, Google is bringing its Gemini AI into the enterprise workspace with the launch of a new unified agent. Announced at their Gemini at Work event, this agent can plan, execute tasks, and coordinate across various business apps.",
+          "ja": "ソフトウェアの話題に移ります。Googleは新たな統合型エージェントの立ち上げにより、Gemini AIを企業ワークスペースに導入します。「Gemini at Work」イベントで発表されたこのエージェントは、タスクの計画や実行、さまざまなビジネスアプリ間の調整を行うことができます。",
+          "t": 216.95
+        },
+        {
+          "speaker": "Mika",
+          "en": "So this is different from a regular chatbot that just answers questions?",
+          "ja": "ただ質問に答えるだけの一般的なチャットボットとは異なるのですか？",
+          "t": 232.23
+        },
+        {
+          "speaker": "Alex",
+          "en": "Absolutely. Google Cloud CEO Thomas Kurian explained that the agent is given objectives, not just instructions. It acts like a digital coworker, complete with its own corporate email address. It can access data across systems like Microsoft 365, Slack, and Salesforce, and even delegate tasks to other subagents.",
+          "ja": "その通りです。Google CloudのThomas Kurian最高経営責任者（CEO）は、このエージェントには指示だけでなく「目標」が与えられると説明しました。独自の社内メールアドレスを持ち、デジタルの同僚のように振る舞います。Microsoft 365やSlack、Salesforceなどのシステムを横断してデータにアクセスでき、さらに他のサブエージェントにタスクを委任することも可能です。",
+          "t": 237.74
+        },
+        {
+          "speaker": "Mika",
+          "en": "That sounds incredibly powerful, but it also raises some questions. How will companies manage security and track what the AI actually does?",
+          "ja": "非常に強力に聞こえますが、懸念もありますね。企業はセキュリティをどのように管理し、AIが実際に何を行っているかをどう追跡するのでしょうか？",
+          "t": 256.89
+        },
+        {
+          "speaker": "Alex",
+          "en": "Google has built a tasks inbox interface where users can monitor the agent's thinking process and view a full audit trail. They are focusing first on corporate clients, with early testers like PayPal and Shopify, before rolling these agentic capabilities out to consumers.",
+          "ja": "Googleは、ユーザーがエージェントの思考プロセスを監視し、完全な監査証跡を確認できるタスク受信トレイ型のインターフェースを構築しました。まずは企業顧客に焦点を絞り、PayPalやShopifyなどの初期テスターを経て、一般消費者向けにこの自律エージェント機能を展開していく予定です。",
+          "t": 266.21
+        }
+      ],
+      "lang": "en",
+      "t": 216.95
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Googleは企業向けに、自律的にタスクを計画・実行する「Geminiエージェント」を発表しました。このAIは専用のメールアドレスを持ち、同僚のように振る舞い、SlackやMicrosoft 365など複数のビジネスツールを横断して稼働します。まずは企業向けに提供が始まります。",
+          "en": "",
+          "lang": "ja",
+          "t": 283.09
+        }
+      ],
+      "t": 283.09
+    },
+    {
+      "kind": "story",
+      "heading_en": "NVIDIA Pledges $1 Billion for US Supercomputing and Science R&D",
+      "heading_ja": "NVIDIA、米国のスパコンと科学研究開発へ10億ドルを約束",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "NVIDIA is cementing its position in national technology policy by committing one billion dollars over the next five years to advance U.S. scientific research. The announcement was made at a Washington event, highlighting public-private collaborations.",
+          "ja": "NVIDIAは、米国の科学研究を前進させるために今後5年間で10億ドルを拠出することを約束し、国家技術政策における地位をさらに固めています。この発表はワシントンでのイベントで行われ、官民連携が強調されました。",
+          "t": 305.83
+        },
+        {
+          "speaker": "Mika",
+          "en": "Where exactly will this massive investment go?",
+          "ja": "この莫大な投資は、具体的にどのような場所に投じられるのでしょうか？",
+          "t": 321.52
+        },
+        {
+          "speaker": "Alex",
+          "en": "The commitment will support higher-education research and fund superintelligence and quantum computing initiatives. NVIDIA is a key partner in the government's Genesis Mission, collaborating on microelectronics, nuclear fusion, and building the Department of Energy's largest supercomputer for scientific research.",
+          "ja": "この投資は高等教育研究を支援し、超知能（スーパーインテリジェンス）や量子コンピューティング分野のイニシアチブに資金提供されます。NVIDIAは政府の「Genesis Mission」における重要パートナーであり、マイクロエレクトロニクスや核融合で協力し、エネルギー省向けの科学研究用超大型スパコンの構築も行っています。",
+          "t": 325.55
+        },
+        {
+          "speaker": "Mika",
+          "en": "CEO Jensen Huang mentioned this is how the U.S. turns scientific leadership into industrial leadership. It is a smart strategic move to keep NVIDIA's hardware at the core of national science.",
+          "ja": "Jensen Huang最高経営責任者（CEO）は、これによって米国が「科学的指導力を産業的指導力へと転換する」と述べました。NVIDIAのハードウェアを国家科学の中核に維持するための極めて賢明な戦略的動きですね。",
+          "t": 344.82
+        }
+      ],
+      "lang": "en",
+      "t": 305.83
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "NVIDIAは、米国の量子コンピューティングや医療、エネルギーなどの科学研究分野に今後5年間で10億ドルを投資すると発表しました。政府の「Genesis Mission」計画の主導的パートナーとして、アルゴンヌ国立研究所での超大型スパコン建設などを支援し、米国の技術的優位性を強化します。",
+          "en": "",
+          "lang": "ja",
+          "t": 357.54
+        }
+      ],
+      "t": 357.54
+    },
+    {
+      "kind": "story",
+      "heading_en": "Samsung Posts Record Profit Amid Signs of Slowing Memory Growth",
+      "heading_ja": "Samsung、最高益もメモリの成長鈍化の兆しに警戒感",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Rounding out our tech coverage, Samsung Electronics has posted a record operating profit of eighty billion dollars. However, despite the massive absolute numbers, there are clear signs that their rapid growth is starting to slow down.",
+          "ja": "テック分野の最後として、Samsung Electronicsが800億ドルという過去最高の営業利益を記録しました。しかし、この莫大な数字にもかかわらず、その急激な成長が減速し始めている明確な兆候が現れています。",
+          "t": 380.08
+        },
+        {
+          "speaker": "Mika",
+          "en": "We have seen incredible momentum in memory chips due to the AI boom. Why is the market reacting with caution?",
+          "ja": "AIブームによってメモリチップは驚異的な勢いを見せてきましたが、なぜ市場は警戒感を示しているのでしょうか？",
+          "t": 394.19
+        },
+        {
+          "speaker": "Alex",
+          "en": "It comes down to slowing demand momentum. While AI-driven demand has fattened chipmakers' margins, cheaper personal computers and smartphones are becoming harder to produce profitably. Investors who are used to torrid, triple-digit growth in the AI sector are starting to worry that the peak of the current memory cycle might be near.",
+          "ja": "要するに、需要拡大の勢いが鈍化しているためです。AI主導の需要が半導体メーカーの利益率を押し上げている一方、安価なパソコンやスマートフォンの採算性は厳しくなっています。AI分野の凄まじい3桁成長に慣れてしまった投資家たちは、現在のメモリサイクルのピークが近いのではないかと懸念し始めています。",
+          "t": 401.49
+        },
+        {
+          "speaker": "Mika",
+          "en": "It seems like a case of high expectations. Even record-breaking profits are not enough to satisfy investors when the rate of growth begins to decelerate.",
+          "ja": "期待値が高すぎるせいでもありますね。成長率が鈍化し始めると、たとえ過去最高の利益を叩き出していても、投資家を満足させるには不十分だということでしょうか。",
+          "t": 421.05
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. Shares of other memory makers like Micron and SK Hynix also dropped in sync, showing that the entire sector is feeling this cooling sentiment.",
+          "ja": "その通りです。MicronやSK Hynixといった他のメモリメーカーの株価も連鎖して下落しており、業界全体がこの冷え込みつつあるセンチメントを感じていることを示しています。",
+          "t": 430.75
+        }
+      ],
+      "lang": "en",
+      "t": 380.08
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Samsung Electronicsの営業利益は過去最高の800億ドルに達したものの、成長の減速懸念が浮上しています。AI向け需要は好調ですが、安価なパソコンやスマホ向けの採算が悪化しており、投資家は半導体メモリ市場のサイクルがピークを迎えているのではないかと警戒しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 440.34
+        }
+      ],
+      "t": 440.34
+    },
+    {
+      "kind": "world",
+      "heading_en": "Israel and UK Avoid Diplomatic Crisis as Jerusalem Consulate Rebrands",
+      "heading_ja": "イスラエルと英国、エルサレム領事館の改称で外交危機を回避",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, a look at the world beyond tech. Israel and the United Kingdom have backed away from a full-scale diplomatic confrontation. Britain announced it is rebranding its historic consulate general in East Jerusalem as a UK mission, resulting in a much-reduced diplomatic presence.",
+          "ja": "ここからはテック以外の国際ニュースです。イスラエルと英国は、本格的な外交的衝突を回避しました。英国は、東エルサレムにある歴史的な総領事館を「英国代表部」に改称し、外交体制を大幅に縮小すると発表しました。",
+          "t": 462.15
+        },
+        {
+          "speaker": "Mika",
+          "en": "This dispute was triggered by UK sanctions on illegal West Bank settlements, right?",
+          "ja": "この論争は、ヨルダン川西岸地区の違法な入植地に対する英国の制裁がきっかけだったのですね。",
+          "t": 478.65
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Israel had threatened to close the consulate entirely and expel British diplomats. The consulate has had an unusual status since before Israel's founding, reporting directly to London rather than the embassy in Tel Aviv. Israel's foreign minister, Gideon Sa'ar, targeted it to pressure London and assert Israeli sovereignty over all of Jerusalem.",
+          "ja": "はい。イスラエルは領事館を完全に閉鎖し、英国人外交官を追放すると脅していました。この領事館はイスラエル建国前から、テルアビブの英国大使館ではなくロンドンに直接報告する特殊な地位を有していました。イスラエルのGideon Sa'ar外相は、ロンドンに圧力をかけ、エルサレム全域に対するイスラエルの主権を主張するためにここを標的にしました。",
+          "t": 484.54
+        },
+        {
+          "speaker": "Mika",
+          "en": "So this rebranding is a temporary compromise, allowing both sides to save face before Israel's national elections on October twenty-seven.",
+          "ja": "この改称は、10月27日に控えるイスラエルの総選挙を前に、双方が面目を保つための一時的な妥協案というわけですね。",
+          "t": 505.02
+        }
+      ],
+      "lang": "en",
+      "t": 462.15
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "英国とイスラエルは、エルサレムの領事館をめぐる外交対立を回避する一時的な妥協案に達しました。英国は、ヨルダン川西岸地区の入植地への制裁をめぐりイスラエルと対立していましたが、東エルサレムの総領事館を「英国代表部」へ改称し、外交官の人数を大幅に削減して存続させます。",
+          "en": "",
+          "lang": "ja",
+          "t": 514.35
+        }
+      ],
+      "t": 514.35
+    },
+    {
+      "kind": "world",
+      "heading_en": "Russian Strike on Kramatorsk Bus Kills At Least 30 Civilians",
+      "heading_ja": "ロシアのクラマトルスク・バス攻撃、少なくとも民間人30人が死亡",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In Ukraine, a devastating Russian glide bomb attack on two civilian buses in the eastern frontline city of Kramatorsk has killed at least thirty people and wounded eighteen others. Local authorities called it the single deadliest strike on civilians this year.",
+          "ja": "ウクライナでは、東部の最前線都市クラマトルスク（Kramatorsk）で、民間バス2台に対するロシア軍の悲惨な滑空爆弾攻撃があり、少なくとも30人が死亡、18人が負傷しました。地元当局は、今年の民間人への攻撃として単一のものとしては最悪の規模だと非難しています。",
+          "t": 538.33
+        },
+        {
+          "speaker": "Mika",
+          "en": "This is absolutely tragic. Kramatorsk has been a key logistics hub, but targeting civilian transport is horrific.",
+          "ja": "本当に悲劇的です。クラマトルスクは軍の主要な兵站拠点ですが、民間の交通機関を標的にするのはあまりにも凄惨です。",
+          "t": 556.25
+        },
+        {
+          "speaker": "Alex",
+          "en": "President Volodymyr Zelensky strongly condemned the attack, stating that Russia is trying to destroy all life in the Donbas region. In response, local officials have ordered all public transport in the area to stop to protect remaining residents. The strike comes amid a surge in Russian aerial attacks across Ukraine.",
+          "ja": "Volodymyr Zelensky大統領は、ロシアがドンバス地方のすべての生命を破壊しようとしていると述べ、この攻撃を強く非難しました。これを受けて地元当局は、住民の安全を守るため、周辺のすべての公共交通機関の運行停止を命じました。この空爆は、ウクライナ全土でロシアの空中攻撃が急増する中で発生しました。",
+          "t": 564.93
+        },
+        {
+          "speaker": "Mika",
+          "en": "UK Foreign Secretary Ed Miliband, who was visiting Ukraine, promised more sanctions targeting Russia's financing and oil fleet, reiterating that the UK will stand with Ukraine as long as it takes.",
+          "ja": "ウクライナを訪問中だった英国のEd Miliband外相は、ロシアの資金調達や「影の船団（オイルマネー）」を標的とした追加制裁を約束し、英国はウクライナが勝利するまで支援を継続することを改めて言明しました。",
+          "t": 586.5
+        }
+      ],
+      "lang": "en",
+      "t": 538.33
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ウクライナ東部クラマトルスク（Kramatorsk）で、ロシアの滑空爆弾が民間バス2台を直撃し、少なくとも30人が死亡、18人が負傷しました。地元当局は、民間人への攻撃としては今年最悪の惨事だと非難し、安全確保のために周辺地域のすべての公共交通機関の運行停止を命じました。",
+          "en": "",
+          "lang": "ja",
+          "t": 600.39
+        }
+      ],
+      "t": 600.39
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch",
+      "heading_ja": "CEOウォッチ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "For our CEO Watch today, former Apple chief Tim Cook told The Independent that he is not meddling in the business of new CEO John Ternus. Cook stepped down in September to become executive chairman.",
+          "ja": "今日の「CEOウォッチ」です。Appleの元最高経営責任者であるTim Cook氏はインディペンデント紙に対し、新CEOのJohn Ternus氏の仕事には「干渉していない」と述べました。Cook氏は今年9月にCEOを辞任し、執行会長に就任しています。",
+          "t": 625.05
+        },
+        {
+          "speaker": "Mika",
+          "en": "Meanwhile, Elon Musk took to social media to question Starlink's delayed launch in India. Musk posted, \"Is Ambani the real boss of India?\" referencing the powerful Indian billionaire whose telecom empire competes with satellite internet.",
+          "ja": "一方、Elon Musk氏は、インドにおけるStarlinkのサービス開始の遅れについてSNSで疑問を投げかけました。Musk氏は、衛星インターネットと競合する巨大な通信インフラを持つ強力なインドの大富豪を引き合いに出し、「Ambani氏がインドの真のボスなのか？」と投稿しています。",
+          "t": 639.08
+        }
+      ],
+      "lang": "en",
+      "t": 625.05
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day",
+      "heading_ja": "今日のフレーズ",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's phrase of the day is \"back away from.\" It means to choose not to take a specific path, or to retreat from a confrontation. In our world news segment, we heard that the UK and Israel \"backed away from\" a full-scale diplomatic confrontation. For example: \"The company decided to back away from the risky merger.\"",
+          "ja": "今日のフレーズは「back away from」です。「特定の道を選ばない」や「対立から一歩引く、後退する」という意味を持ちます。国際ニュースのコーナーで、英国とイスラエルが本格的な外交対立から「一歩引いた（backed away from）」とお伝えしました。例文としては、「その会社はリスクの高い合併から手を引く（back away from）ことを決定した」のように使えます。",
+          "t": 656.0
+        }
+      ],
+      "lang": "en",
+      "t": 656.0
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Signing Off",
+      "heading_ja": "番組の最後",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That is all for this week's edition of The Silicon Commute.",
+          "ja": "今週の「The Silicon Commute」は以上です。",
+          "t": 676.42
+        },
+        {
+          "speaker": "Mika",
+          "en": "Have a wonderful, relaxing weekend, everyone. We will see you back here for Monday's commute.",
+          "ja": "皆さん、どうぞ素敵な、のんびりとした週末をお過ごしください。月曜日の通勤時間にまたお会いしましょう。",
+          "t": 681.42
+        }
+      ],
+      "lang": "en",
+      "t": 676.42
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "それでは、良い週末をお過ごしください。月曜日の通勤時間にまたお会いしましょう！",
+          "en": "",
+          "lang": "ja",
+          "t": 688.44
+        }
+      ],
+      "t": 688.44
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "U.S. Suspends Green Card Path for Microsoft and Adobe Workers",
+      "title_ja": "米政府、MicrosoftとAdobe社員のグリーンカード移行を停止",
+      "summary_ja": "トランプ政権は、不正行為の疑いを理由に、MicrosoftやAdobeなどの企業のH-1Bビザ保有者向けの永住権労働認定プログラム（PERM）を一時停止しました。JD Vance副大統領は、Microsoftが多額のレイオフを行う一方で大量のビザ承認を得ている状況を批判しています。",
+      "why_ja": "高技能のIT外国人労働者に大きく依存する米テック企業の採用方針や経営戦略に直接的な打撃を与えるとともに、留学生の活用制度への監視強化にも繋がっています。",
+      "section": "tech",
+      "topic_key": "us-h1b-green-card-suspension",
+      "companies": [
+        "Microsoft",
+        "Adobe",
+        "Infosys",
+        "Tata",
+        "Cognizant",
+        "Wipro",
+        "HCL",
+        "Capgemini"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "U.S. suspends green card path for H-1B workers at Microsoft and Adobe — labor certification program blocked due to alleged fraud",
+          "url": "https://www.tomshardware.com/tech-industry/policy/u-s-suspends-green-card-path-for-h-1b-workers-at-microsoft-and-adobe-labor-certification-program-blocked-due-to-alleged-fraud"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "US bars Microsoft, Adobe, and major IT firms from green card program for skilled foreign workers",
+          "url": "https://techcrunch.com/2026/10/08/us-bars-microsoft-adobe-and-major-it-firms-from-green-card-program-for-skilled-foreign-workers/"
+        },
+        {
+          "publisher": "The Washington Post",
+          "title": "Trump officials block Microsoft’s access to program for employee green cards",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWWxEWHVLM3hrdWRUWEVKUU1iWUV5Q1pWMU9qVFlqSmEyaldsUHhKQmE3Vm0zM24wRWI4a0RfQWdBUTVZMEFkZVdSUzFWbENCUWRJY0JtUU9kRkZXcXhvTnlST3RNd005N1VTNl94YVc3aFIzckltOHl0MVl3a2ZveHZJT0NKTmJTYVNPMGcwZUNuQXBTSnJHNVIxbTE1OW9wV0YxYTlUck5fdXg1NlJHbk1JQmYxam53MldLYmM0Vmc?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Trump administration freezes green cards for Microsoft, IT firms, probes universities",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNenk2MHZ3TFhxRjBqU1pTRmZvNFRUYy1CSG5rXzNSeGRqS05lLUlIRlBYM3hTQ3d4dUwyVmdtc0Z4cVhqOUdKZmh0VWhjQmxldjZKejR3WGxzOEdXZEJwVUxXN0pOelgzcndVakpzWHFiNHFIWi1aZkM1SjdfNFB1dG9hcGVEZTlYdmg0ckJ1MmtqMVBNUEl1MHJBVkxmSGdJVDlXS2ZENlpQY3FRSzB1NQ?oc=5"
+        },
+        {
+          "publisher": "AP News",
+          "title": "The Trump administration is suspending Microsoft from a green card program, alleging fraud",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSlNGOUJHbkJ0UXdETE9EUWMySjZkMWVzX3V6Ny1yNlc1Ym4ydmx5NXY2UEJyak1mNVROdkRqOTNGY2kxT1BrQUwyYVRzSmlDNlVIa0xnenNUM2cyWjg2NTd0Rl9seW1JOVFuRHczVk93M2RkOWdDOUV0Sl90WjFJeEZEeWNTUFFvNkNkRU81alBOWlltQ1VN?oc=5"
+        },
+        {
+          "publisher": "Axios",
+          "title": "Trump's foreign worker crackdown comes for Microsoft, Adobe, IT firms",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTHBUeWVBdWg1NlRjbm0wVUJSSFlGeVRMczI1UjNTNmFPUkVfVHpCVzRZVjM1ZHFMQlBoV3I0a21LY1JLaW1QWDNPMVFSYnpDSm0wWW1pVUJyWFhFc1BLdUg2WTRXbUNLMkdDd01zN280U0EwamFyS0puZllkMFRQOHA0Q0l4Wjl0VjJmcml3Rmc3Zk12Tm9ndFlzclRRQzE2?oc=5"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "US suspends Microsoft and Adobe from visa programme amid fraud claims",
+          "url": "https://www.aljazeera.com/economy/2026/10/8/us-suspends-microsoft-and-adobe-from-visa-programme-amid-fraud-claims?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "TSMC Partners with GlobalFoundries in $2 Billion US Advanced Packaging Deal",
+      "title_ja": "TSMC、GlobalFoundriesと20億ドルの米先進パッケージング契約を締結",
+      "summary_ja": "TSMCとGlobalFoundriesは、5年間で20億ドル規模となる製造委託契約を締結しました。GlobalFoundriesはニューヨーク州の工場で、TSMCの「CoWoS」先進パッケージング技術に必要なシリコンインターポーザを製造します。",
+      "why_ja": "AIチップの供給ボトルネックとなっている先進パッケージング工程を米国内に分散し、TSMCの米国内顧客に対して強固で安定したサプライチェーンを確立する狙いがあります。",
+      "section": "tech",
+      "topic_key": "tsmc-globalfoundries-cowos-deal",
+      "companies": [
+        "TSMC",
+        "GlobalFoundries"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "GlobalFoundries to produce silicon interposers for TSMC's CoWoS in the US — Five-year agreement valued at $2 billion",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/globalfoundries-to-produce-silicon-interposers-for-tsmcs-cowos-in-the-us-five-year-agreement-valued-at-usd2-billion"
+        },
+        {
+          "publisher": "The Register",
+          "title": "TSMC taps GlobalFoundries to bolster US silicon interposer production in $2B deal",
+          "url": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061"
+        }
+      ]
+    },
+    {
+      "title_en": "Google Integrates Gemini Agentic AI Into Enterprise Workspaces",
+      "title_ja": "Google、GeminiエージェントAIを企業ワークスペースに統合",
+      "summary_ja": "Googleは、ビジネスのシステムやアプリと連携し、自律的に業務を進める「Geminiエージェント」を企業ユーザー向けにローンチしました。このAIは専用のメールアドレスを持ち、デジタルの同僚のように稼働します。",
+      "why_ja": "従来のチャットボットから自律的に判断・タスク実行を行う「エージェント型AI」への移行が進んでおり、企業の業務プロセス自動化の競争が加速しています。",
+      "section": "tech",
+      "topic_key": "google-gemini-workplace-agent",
+      "companies": [
+        "Google",
+        "PayPal",
+        "Shopify"
+      ],
+      "sources": [
+        {
+          "publisher": "Google Blog",
+          "title": "Google Cloud introduces the Gemini agent.",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Google brings agentic AI to Gemini, starting with businesses",
+          "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/"
+        },
+        {
+          "publisher": "CBS News",
+          "title": "Google launches Gemini AI workplace agent that can write code and run tasks, company says",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1fQTZuSmp1b1dfR2VqWjQwcUxROTlkcWsyZWhZU0RFNlQ5ZGZyQktaT01lY3NqMUdWUENyLWltTzNNXzhDb0dva3d2d3NkOXJjQ3ljUXdYWm9CVmFNLUhlUng3ZGFtS1ZhdU1iXzFoTQ?oc=5"
+        },
+        {
+          "publisher": "Barron's",
+          "title": "Google Workspace Gets AI Agents. What It Means for Alphabet Stock.",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1yY1pHX3kzR3UzXzdZd0lDTjJlM3VLVUFSWW1kaEFLYklVMzFUX2gzRVFhTEJ4RHRTWUltVTB5V2dEMjQ4T2pjV2JxWklzUWk3R0VyS0dNVzlxOXFpVl9iSFh5LTdaUWhjRk85QWE2bm8temJUQkNZc01maVA?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Google Cloud introduces Gemini agent for work as AI race heats up",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSlVSeTZYa0pSOFppNk9GdFF0Y0VZa19lYnRKTjRXb0FpZUhaTlBEUmRLUW04N3E1azhGalpULTNwN2Y0SnhFWGhOTktSdTVMMTJDc2VRX013NGNuSzJYRGxiWVJyU2dzS0lGdGN4YXlxQzR3TWl0eVQwbjFKWW5JVG1kQXdJYVVwd2J2OTZ5NDZYT0JQM09Ycmt2amRmekhNWTBfR0pR?oc=5"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "Google is launching a one-stop Gemini agent for your work tasks",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE12UTlXY3U3c0V2R3V6VzlxUnBIaC0xQmota1VQVUctOGJPclhmMnZpYW1aSTVQOVJsRTdxdWdPTjhqM2lBVnUwV3JUa091YV9vS3MyUWhHRVJoY2lBYjUxZ2NxcXUyNGw3UnVCckxxWER1N0RXZm8wLWtMQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "NVIDIA Pledges $1 Billion to Accelerate US Supercomputing and Science R&D",
+      "title_ja": "NVIDIA、米国のスパコンと科学研究開発へ10億ドルを約束",
+      "summary_ja": "NVIDIAは、米国のスーパーインテリジェンス研究開発を加速するため、5年間で10億ドルを投じることを発表しました。この資金は、量子コンピューティング、医療、エネルギー分野のR&Dに充てられます。",
+      "why_ja": "NVIDIAは米政府の技術政策に足並みを揃え、公共インフラや先進科学技術研究に自社製品を深く浸透させ、市場の基盤固めを図る狙いがあります。",
+      "section": "tech",
+      "topic_key": "nvidia-us-science-commitment",
+      "companies": [
+        "NVIDIA"
+      ],
+      "sources": [
+        {
+          "publisher": "NVIDIA Newsroom",
+          "title": "NVIDIA Commits $1 Billion to Advance US Science Over the Next Five Years",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-commits-1-billion-to-advance-us-science-over-the-next-five-years"
+        }
+      ]
+    },
+    {
+      "title_en": "Samsung Posts Record Profit Amid Signs of Slowing Memory Growth",
+      "title_ja": "Samsung、最高益もメモリの成長鈍化の兆しに警戒感",
+      "summary_ja": "Samsung Electronicsが800億ドルという過去最高の四半期営業利益を記録しましたが、メモリ成長の減速の兆候から、市場は慎重な姿勢を示しています。安価な電子機器向けチップの採算が悪化しています。",
+      "why_ja": "AI向けの高機能メモリの需要は高いものの、パソコンやスマホなどのコンシューマー向け製品需要の伸び悩みにより、半導体市場全体のサイクルが転換期に差し掛かっている可能性を反映しています。",
+      "section": "tech",
+      "topic_key": "samsung-earnings-slowing-growth",
+      "companies": [
+        "Samsung",
+        "Micron",
+        "SK Hynix"
+      ],
+      "sources": [
+        {
+          "publisher": "The Register",
+          "title": "Samsung eyes $80B quarterly profit as memory buyers pay the price",
+          "url": "https://www.theregister.com/systems/2026/10/08/samsung-eyes-80b-quarterly-profit-as-memory-buyers-pay-the-price/5301933"
+        },
+        {
+          "publisher": "Yahoo Finance",
+          "title": "Samsung's Operating Profit Hit a Record $80 Billion. Like Micron's Memory Prices, Its Growth Is Slowing.",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdDlkb1k5WUlHbGt6Qmp1NHhEZlA1SVkwc2pvOGhvVG9xN0VrN1hUaW52TzdINzZUNVdKU0VmeUhCd2FjbDBORkRzaUVuMUtJRHk0cUJ6aXRRV0Z4V003ZVNydE51R1dDcFhFV0FFRHRoeTJ4Ni1pdmgxNUNqLXpFLVRHazd6aHdwcnhaeGUtQ3V2TS0zaGFXVkZlV1kxbUlZei1Z?oc=5"
+        },
+        {
+          "publisher": "Benzinga",
+          "title": "Micron, SK Hynix, SanDisk Drop In Sync: What's Happening? - SAMSUNG ELECT LTD by Samsung Electronics Co.",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOd0w0d1N0X1RjN2tuRVI2VjRxa2xTN3JYN3VoTWFGYjMzQ19Gb1J6U2FidU5hTnNpekNObThSUUZnOHBLRTZxM1Vhek1MZGtqM2FQQWkxMU5tMTVkWjJSYk5CaUpaUzR4ckRzcHJRUDUtc010MWUyUXlJWUtHMUlxQXlrVUpXRkx1ZmRrRVZPd1UyODhSZkZuVXJvUWx4VEdRUldHaE5BSlM?oc=5"
+        },
+        {
+          "publisher": "Bloomberg.com",
+          "title": "Samsung, TSMC Fail to Excite Investors Used to Torrid AI Growth",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaW5SVUlnNC1ZMURXRTBxXzNqNWFNQ2FWRWs5NWM1YU5jV3RIZUFnZ2Fmdm80NzN1a3VYNS1jamRaQi1Ud012U3d1eHVlT3MzNmk1TXdNVGp0eWJ5VTdnTnhZSXlJa1VaZjVoeHpld09FUlhWOTBFUHVqUWp5NXExSlFhbTdPZTVQZFM0Y1ZHVHJMOW40Z1VEcXFnbmw4aC1qbHlLV3hJeGNydUZlQmFyRXQ1S2w5RUE?oc=5"
+        },
+        {
+          "publisher": "Barron's",
+          "title": "Micron Stock Drops. Why Samsung’s Record Profit Didn’t Give It a Lift.",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTzhqZXBTV0V0aTJxT2RpbDB0QU1WNHNCYVZqME00QXVRVjNRbXNzMkRBZTBBWENReHplaHV0dm01c0U2WHJJWDUxQUM5aDRQWmZOZm9oLTdybTQyWUVlMFhFSHhxcjd6TGpobW90ckw4NklOc2RMWVpvZ0pEbGI3d3NRQVhjWllvNDZHMg?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Israel and UK Avoid Diplomatic Crisis as Jerusalem Consulate Rebrands",
+      "title_ja": "イスラエルと英国、エルサレム領事館の改称で外交危機を回避",
+      "summary_ja": "英国とイスラエルはエルサレムの領事館をめぐる外交上の危機を、一時的な妥協によって回避しました。英国は、ヨルダン川西岸地区をめぐる制裁摩擦のさなか、総領事館を「英国代表部」へと改称し、規模を縮小して存続させます。",
+      "why_ja": "エルサレムにおける特殊な主権や歴史的領事館の地位をめぐる争いであり、今後のイスラエル総選挙や対パレスチナ制裁外交への配慮を含んだ駆け引きとなっています。",
+      "section": "world",
+      "topic_key": "israel-uk-jerusalem-consulate-dispute",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Israel shuts down British consulate in occupied East Jerusalem",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/israel-shuts-down-british-consulate-in-occupied-east-jerusalem?traffic_source=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Israel’s downgrading of UK consulate aims to tighten its hold on Jerusalem",
+          "url": "https://www.theguardian.com/world/2026/oct/08/israel-downgrading-uk-consulate-tighten-hold-jerusalem"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "British consulate in East Jerusalem will stay open as UK mission, says Ed Miliband",
+          "url": "https://www.theguardian.com/politics/2026/oct/08/uk-consulate-east-jerusalem-remain-open-uk-mission-ed-miliband"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Most UK diplomats to leave East Jerusalem consulate, Israel says, as Miliband says 'vital services' to remain",
+          "url": "https://www.bbc.co.uk/news/articles/cw33xd6vegnno?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "Russian Missile Strike on Kramatorsk Bus Kills At Least 30 Civilians",
+      "title_ja": "ロシアのクラマトルスク・バス攻撃、少なくとも民間人30人が死亡",
+      "summary_ja": "ウクライナ東部のクラマトルスクでロシアの滑空爆弾が民間バス2台を直撃し、少なくとも30人が死亡、18人が負傷する今年最悪の民間人犠牲が出ました。ウクライナ当局は全公共交通の停止を命じました。",
+      "why_ja": "インフラや交通への直接攻撃が激化する中、国際社会による対ロシア経済制裁の強化を再燃させ、英国など西側諸国による対ウクライナ軍事・資金支援継続の正当性を強調する要素となっています。",
+      "section": "world",
+      "topic_key": "russia-ukraine-kramatorsk-bus-strike",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Dozens killed in Russian strike on civilian buses in eastern Ukraine",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/dozens-killed-in-russian-strike-on-civilian-buses-in-eastern-ukraine?traffic_source=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Russian strike on buses kills at least 30, say officials, as deadly attacks on Ukraine surge",
+          "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Russian attack on bus kills at least 30 people near Ukraine frontline",
+          "url": "https://www.theguardian.com/world/2026/oct/08/russian-attack-buses-ukraine-frontline-kramatorsk"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Russian strikes on Ukraine's public buses leave 30 dead as blackouts worsen in Kyiv",
+          "url": "https://www.npr.org/2026/10/08/g-s1-147106/russia-ukraine-war"
+        },
+        {
+          "publisher": "The Washington Post",
+          "title": "At least 30 dead in Russian bus strike as Moscow closes in on Ukraine’s ‘fortress belt’",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazh5VndTZFZtUmdJejlzMFI4NmlaRl84dENCeDRqaXFxcWswYVhYRzJSaUhLc3M0a09aNUJ6eURnN05qbGRPSEJYc25RSXJYOEQzYjlac20yNFQzZ2dWNjZVdEp4RXNNOUhBaGpzZS15YlFyNVdUNkZxdUNzSXRPTG5WNWtCQTRYRjdpNVgzandVRjVmVGpPanJzZVo5VE5pd2dib0JXMEhESk5DZXV4Y0JmSVk4eXNjX2c?oc=5"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "suspended",
+      "meaning_ja": "一時停止された",
+      "note_ja": "特許やプログラム、資格などが政府や組織によって一時的に凍結されたことを示す際によく使われます。",
+      "example_en": "The Trump administration has suspended the permanent labor certification program, known as PERM, for H-1B workers at Microsoft, Adobe, and several major IT outsourcing firms like Infosys and Tata."
+    },
+    {
+      "term": "subcontractor",
+      "meaning_ja": "下請け業者、受託製造業者",
+      "note_ja": "特定のプロジェクトにおいて、主契約者から仕事の一部を請け負う役割の会社です。",
+      "example_en": "GlobalFoundries will act as a subcontractor, producing silicon interposers for TSMC's advanced CoWoS packaging technology."
+    },
+    {
+      "term": "silicon interposer",
+      "meaning_ja": "シリコンインターポーザ",
+      "note_ja": "積層半導体のチップ間（例：プロセッサと高帯域幅メモリ）を高速接続するための仲介用シリコン基板です。",
+      "example_en": "GlobalFoundries will act as a subcontractor, producing silicon interposers for TSMC's advanced CoWoS packaging technology."
+    },
+    {
+      "term": "agentic",
+      "meaning_ja": "自律エージェント型の",
+      "note_ja": "AI分野でよく使われる用語。指示をそのままこなすだけでなく、自ら計画して行動を起こすシステムを指します。",
+      "example_en": "They are focusing first on corporate clients, with early testers like PayPal and Shopify, before rolling these agentic capabilities out to consumers."
+    },
+    {
+      "term": "audit trail",
+      "meaning_ja": "監査証跡、システム履歴",
+      "note_ja": "誰が、いつ、何をシステム上で実行したかを追跡できるように記録した一連のログ情報のことです。",
+      "example_en": "Google has built a tasks inbox interface where users can monitor the agent's thinking process and view a full audit trail."
+    },
+    {
+      "term": "cementing",
+      "meaning_ja": "〜を強化する、固める",
+      "note_ja": "元々はセメントで固めることから転じ、地位や関係、ポジションなどを「より強固なものにする」という意味で使われます。",
+      "example_en": "NVIDIA is cementing its position in national technology policy by committing one billion dollars over the next five years to advance U.S. scientific research."
+    },
+    {
+      "term": "growth momentum",
+      "meaning_ja": "成長の勢い、成長力",
+      "note_ja": "企業業績や市場規模などの拡大ペースが、どの程度の強さを持っているかを示すビジネス・株式用語です。",
+      "example_en": "It comes down to slowing demand momentum."
+    },
+    {
+      "term": "backed away from",
+      "meaning_ja": "〜から手を引く、後退する",
+      "note_ja": "対決や危険、または以前の決定から「一歩身を引く」や「避ける」という意味で使われます。",
+      "example_en": "Israel and the United Kingdom have backed away from a full-scale diplomatic confrontation."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "back away from",
+    "meaning_ja": "〜から手を引く、後退する、対立などを避ける",
+    "example_en": "The company decided to back away from the risky merger.",
+    "example_ja": "その企業はリスクの高い合併から手を引くことを決定した。"
+  }
+}
