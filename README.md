@@ -1,18 +1,21 @@
-# The Silicon Commute 🎧
+# Commute News 🎧
 
-テックニュース（GAFAM・半導体・AI・サイバー・規制など）を中心に、その日の重要な世界ニュースも加えた
-**平日毎朝・約15分のポッドキャスト**を自動配信する仕組みです。
-英語の2人の掛け合いで1本ずつ伝え、**各ニュースの直後に日本語で30〜40秒のおさらい**が入ります。
+> リポジトリ名・URL（silicon-commute）は購読URLを変えないためそのままです。
+
+テックニュース（GAFAM・半導体・AI・サイバー・規制など）を中心に、**デジタルヘルス**とその日の重要な**世界ニュース**を加えた
+**平日毎朝・約20分のポッドキャスト**を自動配信する仕組みです（テック5本・デジタルヘルス1本・世界3本）。
+英語は学習者向けの**やさしい英語（CEFR B1〜B2）**の2人の掛け合いで、**各ニュースの直後に日本語で約30秒のおさらい**が入ります。
 **英日対訳スクリプト・単語リスト**はスマホのアプリ（PWA）で読めます。
 
 ```
  深夜〜早朝（平日）GitHub Actions が自動起動（1:07 / 2:37 / 3:53 / 4:41 に起動を試み、最初の1回で作成）
    │
-   ├─ ① ニュース収集   Google News（企業別＋分野別トップ）／ テック系メディア ／ 公式ニュースルーム
-   │                   ／ 世界ニュース（BBC・Guardian・Al Jazeera・NPR）／（任意）CEOのXポスト
+   ├─ ① ニュース収集   Google News（企業別＋分野別トップ＋デジタルヘルス検索）／ テック系メディア ／ 公式ニュースルーム
+   │                   ／ ヘルス系（STAT・Healthcare IT News など）／ 世界ニュース（BBC・Guardian・Al Jazeera・NPR）
+   │                   ／（任意）CEOのXポスト
    │                   → 過去7日に使った記事・話題は除外
-   ├─ ② 編集          Gemini がテック4〜5本＋世界2本を選定（同じ企業・AIばかりにならないよう制限）
-   ├─ ③ 台本          英語2人対話（約1,350語）＋各ニュースの日本語おさらい＋全行の日本語訳＋単語リスト
+   ├─ ② 編集          Gemini がテック5本＋デジタルヘルス1本＋世界3本を選定（同じ企業・AIばかりにならないよう制限）
+   ├─ ③ 台本          やさしい英語の2人対話（約2,000語）＋各ニュースの日本語おさらい＋全行の日本語訳＋単語リスト
    ├─ ④ 音声化        Gemini TTS（2話者・英語と日本語）で音声化 → MP3（音量正規化）
    └─ ⑤ 配信          MP3 は GitHub Releases に保存、アプリと Podcast RSS を GitHub Pages に公開
                                      ↓
@@ -93,8 +96,10 @@ gh repo create silicon-commute --public --source=. --push
 |---|---|
 | 対象企業・検索キーワード | `companies`（`enabled: false` で除外、AI企業も追加可） |
 | 長さ・英語の速さ | `episode.target_minutes`（英語パートの分数）/ `words_per_minute`（標準150） |
-| ニュースの本数 | `episode.tech_stories` / `world_stories`、日本語おさらいの長さ `recap_ja_chars` |
-| 世界ニュースの情報源 | `world_feeds`、`google_news.topics` |
+| ニュースの本数 | `episode.tech_stories` / `health_stories` / `world_stories`、日本語おさらいの長さ `recap_ja_chars` |
+| 英語の難しさ | `episode.english_style`（いまは B1〜B2 のやさしい英語） |
+| 番組名 | `podcast.title`（いまは Commute News） |
+| 世界・ヘルスの情報源 | `world_feeds`、`health_feeds`、`google_news.topics`、`google_news.queries` |
 | 重複を避ける期間 | `episode.avoid_repeat_days`（標準7日） |
 | 英語の難しさ | `episode.english_style` |
 | 声・キャラクター | `hosts[].voice`（Gemini TTS のボイス名：Charon, Aoede, Kore, Puck など30種） |

@@ -1,18 +1,19 @@
 # =====================================================================
-#  The Silicon Commute — 設定ファイル
+#  Commute News — 設定ファイル
 #  ここを編集すれば、対象企業・ニュースソース・声・長さを変更できます。
 # =====================================================================
 
 podcast:
-  title: "The Silicon Commute"
-  title_ja: "シリコン・コミュート"
-  subtitle: "Tech and world news in English, with a Japanese recap after each story"
+  title: "Commute News"
+  title_ja: "コミュート・ニュース"
+  subtitle: "20 minutes of tech, digital health and world news in easy English, with a Japanese recap after each story"
   description: >-
-    Weekday-morning English conversation on Big Tech, semiconductors and
-    the most important world news, with a short Japanese recap after each
-    story and a full English–Japanese transcript for language learners.
+    A weekday-morning news podcast for your commute: technology, digital
+    health and the most important world news, told in clear, easy English
+    with a short Japanese recap after each story, plus a full
+    English–Japanese transcript for language learners.
     Auto-generated from public news with Gemini.
-  author: "The Silicon Commute"
+  author: "Commute News"
   language: "en"
   # 空欄なら GitHub Pages の URL (https://<user>.github.io/<repo>/) を自動設定
   site_url: ""
@@ -22,27 +23,33 @@ podcast:
   keep_on_site: 30
 
 episode:
-  # 英語パートの長さ（分）。これに日本語のおさらい（1本30〜40秒）が加わり、全体で約15分
-  target_minutes: 9
-  # 台本の語数の目安 = target_minutes × words_per_minute（実測: Gemini TTS は約150語/分）
-  words_per_minute: 150
-  # ニュースの本数（テック：最大／最小、世界）
+  # 英語パートの長さ（分）。これに日本語のおさらい（1本30〜40秒×9本）が加わり、全体で約20分
+  target_minutes: 13.5
+  # 台本の語数の目安 = target_minutes × words_per_minute（平易な英語はややゆっくり読まれる）
+  words_per_minute: 145
+  # ニュースの本数（テック、デジタルヘルス、世界）
   tech_stories: 5
   min_tech_stories: 4
-  world_stories: 2
+  health_stories: 1
+  world_stories: 3
   # 日本語のおさらい1本あたりの文字数の目安
-  recap_ja_chars: 190
+  recap_ja_chars: 170
   # 何日前までの放送内容と重複を避けるか
   avoid_repeat_days: 7
   # ニュースを遡る時間。月曜は自動で週末分（78時間）に拡張
   lookback_hours: 30
   monday_lookback_hours: 78
+  # 英語の難しさ（B1〜B2：平易な英語）
   english_style: >-
-    Clear, standard international business English at CEFR B2–C1.
-    Short sentences. No slang. Briefly explain jargon (e.g. "HBM, the
-    high-bandwidth memory stacked next to AI chips").
+    Easy, clear English for a Japanese learner (CEFR B1–B2), like a
+    slow news program for learners. Short sentences, mostly under 15
+    words. One idea per sentence. Common everyday words and active voice.
+    Avoid idioms, slang and hard phrasal verbs. When a technical, legal or
+    financial term is needed, say it and then explain it in simple words
+    (e.g. "HBM. That is a special, very fast memory chip used for AI.").
+    Say important numbers clearly and repeat the key number once.
   # 1回のTTSリクエストにまとめる最大語数（無料枠のリクエスト数節約用）
-  tts_chunk_words: 520
+  tts_chunk_words: 560
   # TTSリクエストの最小間隔（秒）。無料枠の「1分あたりの回数」制限を避けるため
   tts_min_interval_sec: 21
 
@@ -178,6 +185,13 @@ world_feeds:
   - {name: Al Jazeera, url: "https://www.aljazeera.com/xml/rss/all.xml"}
   - {name: NPR, url: "https://feeds.npr.org/1004/rss.xml"}
 
+# デジタルヘルス（医療DX・健康データ・医療AIなど）
+health_feeds:
+  - {name: STAT News, url: "https://www.statnews.com/feed/"}
+  - {name: Healthcare IT News, url: "https://www.healthcareitnews.com/home/feed"}
+  - {name: MobiHealthNews, url: "https://www.mobihealthnews.com/feed"}
+  - {name: Fierce Healthcare, url: "https://www.fiercehealthcare.com/rss/xml"}
+
 # 信頼性の低いまとめサイト等を除外（媒体名の一部一致・大文字小文字は無視）
 blocked_publishers:
   - AD HOC NEWS
@@ -197,7 +211,17 @@ google_news:
     BUSINESS: world
     TECHNOLOGY: tech
     SCIENCE: tech
+    HEALTH: health
   max_items_per_topic: 25
+  # 分野別の追加検索（section: tech / health / world）
+  queries:
+    - section: health
+      query: '("digital health" OR "health tech" OR telehealth OR telemedicine OR "health data" OR "electronic health record" OR "personal health record" OR EHR OR "medical AI" OR "AI in healthcare")'
+    - section: health
+      query: '(FDA OR EMA OR WHO OR "health ministry") (AI OR software OR digital OR app OR wearable)'
+    - section: world
+      query: 'Japan (government OR economy OR "Bank of Japan" OR diplomacy)'
+  max_items_per_extra_query: 15
 
 x:
   # GitHub の Secrets に X_BEARER_TOKEN を登録したときだけ動作（従量課金）
