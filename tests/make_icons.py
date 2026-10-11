@@ -57,7 +57,7 @@ def cover(size=1600):
         d.line([(0, y), (size * 0.18, y), (size * 0.24, y + 60)], fill=NAVY2, width=10)
         d.line([(size, y + 40), (size * 0.82, y + 40), (size * 0.76, y + 100)], fill=NAVY2, width=10)
     chip(d, size / 2, size * 0.36, size * 0.34)
-    f1 = ImageFont.truetype(SANS_B, int(size * 0.052))
+    f1 = ImageFont.truetype(SANS_B, int(size * 0.04))
     f2 = ImageFont.truetype(SANS_B, int(size * 0.105))
     f3 = ImageFont.truetype(CJK, int(size * 0.043))
     f4 = ImageFont.truetype(SANS_B, int(size * 0.034))
@@ -66,11 +66,10 @@ def cover(size=1600):
         w = d.textlength(text, font=font)
         d.text(((size - w) / 2, y), text, font=font, fill=fill)
 
-    center("THE", size * 0.60, f1, COPPER)
-    center("SILICON", size * 0.655, f2, WHITE)
-    center("COMMUTE", size * 0.765, f2, WHITE)
-    center("GAFAM × 半導体 ｜ 英日対訳", size * 0.885, f3, TEAL)
-    d.rectangle([size * 0.42, size * 0.955, size * 0.58, size * 0.962], fill=COPPER)
+    center("COMMUTE", size * 0.615, f2, WHITE)
+    center("NEWS", size * 0.725, f2, COPPER)
+    center("Tech · Digital Health · World", size * 0.85, f1, WHITE)
+    center("やさしい英語 ＋ 日本語おさらい", size * 0.905, f3, TEAL)
     img.save(OUT / "cover.png", optimize=True)
 
 

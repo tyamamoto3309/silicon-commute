@@ -48,6 +48,12 @@ WORLD = """<?xml version="1.0"?><rss version="2.0"><channel>
 </channel></rss>"""
 
 
+HEALTH = """<?xml version="1.0"?><rss version="2.0"><channel>
+<item><title>Finland expands national patient data portal to wearables</title><link>https://www.statnews.com/fi-kanta</link>
+<pubDate>Sun, 27 Sep 2026 06:00:00 GMT</pubDate><description>Kanta will accept data from consumer devices.</description></item>
+</channel></rss>"""
+
+
 class FakeResp:
     def __init__(self, body, status=200, ctype="application/rss+xml"):
         self.content = body.encode()
@@ -70,6 +76,8 @@ def fake_get(url, **kw):
         return FakeResp(MEDIA)
     if "bbci.co.uk" in url:
         return FakeResp(WORLD)
+    if "statnews.com" in url:
+        return FakeResp(HEALTH)
     if url.startswith("https://techcrunch.com/"):
         return FakeResp("<html><body><article><p>" + "Nvidia details. " * 50 + "</p></article></body></html>", ctype="text/html")
     return FakeResp("<rss><channel></channel></rss>")
@@ -88,6 +96,7 @@ kw = collect.company_keywords(cfg)
 assert collect.tag_companies("Rapidus starts 2nm pilot line", kw) == ["Japan chips (Rapidus / Tokyo Electron)"]
 assert "Arm" not in " ".join(collect.tag_companies("an arm of the company", kw)), "lowercase 'arm' must not match"
 assert any(i["section"] == "world" and "Bank of Japan" in i["title"] for i in items), "world feed item expected"
+assert any(i["section"] == "health" and "Finland" in i["title"] for i in items), "health feed item expected"
 again = collect.collect(cfg, NOW, 30, history={"urls": {"https://techcrunch.com/c"}, "titles": ["Bank of Japan raises interest rates to 1 percent"]})
 assert not any("Arm Holdings" in i["title"] for i in again), "used URL must be filtered"
 assert not any("Bank of Japan" in i["title"] for i in again), "similar title must be filtered"
@@ -118,6 +127,8 @@ class FakeModels:
                     {**base, "headline": "Nvidia slips", "section": "tech", "topic_key": "nvidia-slip", "item_ids": ids[:1] + [999], "why": "x"},
                     {**base, "headline": "TSMC weighs Texas fab", "section": "tech", "topic_key": "tsmc-texas-fab", "item_ids": [ids[1]], "why": "x"},
                     {**base, "headline": "BOJ hikes", "section": "world", "topic_key": "boj-hike", "item_ids": [world_id], "why": "x"},
+                    {**base, "headline": "Kanta adds wearables", "section": "health", "topic_key": "kanta-wearables",
+                     "item_ids": [next(i["id"] for i in items if i["section"] == "health")], "why": "x"},
                 ],
                 "alternates": [
                     {**base, "headline": "TSMC confirms Texas fab budget", "section": "tech", "topic_key": "tsmc-texas-fab",
@@ -144,7 +155,7 @@ heads = [s["headline"] for s in sel["stories"]]
 assert sel["stories"][0]["item_ids"] == [items[0]["id"]], "invalid ids must be dropped"
 assert "TSMC weighs Texas fab" not in heads, "repeat without new development must be skipped"
 assert "TSMC confirms Texas fab budget" in heads, "follow-up with a new development may return"
-assert sel["stories"][-1]["section"] == "world", "world stories come after tech"
+assert [s["section"] for s in sel["stories"]] == ["tech", "tech", "health", "world"], [s["section"] for s in sel["stories"]]
 assert 12345 not in sel["ceo_watch_item_ids"]
 material, extra = editorial.gather_material(cfg, items, sel, 30)
 assert "STORY 1" in material and extra == []
