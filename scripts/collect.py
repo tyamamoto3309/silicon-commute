@@ -21,7 +21,7 @@ import requests
 from common import ROOT, get_logger, read_json, write_json
 
 log = get_logger("collect")
-UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15 SiliconCommuteBot/1.0 (personal podcast)"
+UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15 CommuteNewsBot/1.0 (personal podcast)"
 TIMEOUT = 20
 X_CACHE = ROOT / "state" / "x_users.json"
 
@@ -142,6 +142,36 @@ def google_news(cfg: dict, cutoff: datetime, hours: int) -> list[dict]:
             if n >= gn.get("max_items_per_topic", 25):
                 break
         log.info("Google News topic %-28s %d items", topic, n)
+
+    # extra searches by section (e.g. digital health)
+    for q in gn.get("queries") or []:
+        url = (
+            "https://news.google.com/rss/search?q=" + quote_plus(f'{q["query"]} when:{days}d')
+            + f"&hl={gn.get('hl', 'en-US')}&gl={gn.get('gl', 'US')}&ceid={quote_plus(gn.get('ceid', 'US:en'))}"
+        )
+        try:
+            feed = _get_feed(url)
+        except Exception as e:  # noqa: BLE001
+            log.warning("Google News query failed (%s): %s", q["section"], e)
+            continue
+        n = 0
+        for e in feed.entries:
+            t = _entry_time(e)
+            if t and t < cutoff:
+                continue
+            title = e.get("title", "")
+            publisher = (e.get("source") or {}).get("title", "") if isinstance(e.get("source"), dict) else ""
+            if publisher and title.endswith(" - " + publisher):
+                title = title[: -(len(publisher) + 3)]
+            items.append({
+                "origin": "google_news", "publisher": publisher or "Google News", "title": title.strip(),
+                "url": e.get("link", ""), "published": t.isoformat() if t else None, "summary": "",
+                "companies": [], "section": q["section"],
+            })
+            n += 1
+            if n >= gn.get("max_items_per_extra_query", 15):
+                break
+        log.info("Google News query  %-28s %d items", q["section"], n)
     return items
 
 
@@ -295,13 +325,14 @@ def dedupe(items: list[dict]) -> list[dict]:
     return kept
 
 
-def collect(cfg: dict, now: datetime, hours: int, max_items: int = 280, history: dict | None = None) -> list[dict]:
+def collect(cfg: dict, now: datetime, hours: int, max_items: int = 320, history: dict | None = None) -> list[dict]:
     cutoff = now.astimezone(timezone.utc) - timedelta(hours=hours)
     kw = company_keywords(cfg)
     items: list[dict] = []
     items += rss_feeds(cfg.get("official_feeds", []), "official", cutoff, kw, require_match=False, cap=10)
     items += rss_feeds(cfg.get("media_feeds", []), "media", cutoff, kw, require_match=False, cap=30)
     items += rss_feeds(cfg.get("world_feeds", []), "world", cutoff, kw, require_match=False, section="world", cap=25)
+    items += rss_feeds(cfg.get("health_feeds", []), "media", cutoff, kw, require_match=False, section="health", cap=20)
     items += x_posts(cfg, cutoff)
     items += google_news(cfg, cutoff, hours)
     for it in items:
@@ -328,18 +359,26 @@ def collect(cfg: dict, now: datetime, hours: int, max_items: int = 280, history:
     items.sort(key=lambda i: i.get("published") or "", reverse=True)
     items.sort(key=lambda i: _ORIGIN_RANK.get(i["origin"], 9))
     if len(items) > max_items:
-        # keep all official/x posts; split the rest so world news keeps roughly a third of the pool
+        # keep all official/x posts; give world news ~30% and digital health ~15% of the remaining pool
         head = [i for i in items if i["origin"] in ("official", "x")]
-        world = [i for i in items if i not in head and i["section"] == "world"]
-        tech = [i for i in items if i not in head and i["section"] != "world"]
+        rest = [i for i in items if i not in head]
+        by_sec = {sec: [i for i in rest if i["section"] == sec] for sec in ("world", "health")}
+        tech = [i for i in rest if i["section"] not in by_sec]
         room = max(0, max_items - len(head))
-        n_world = min(len(world), max(room // 3, room - len(tech)))
-        items = head + tech[: room - n_world] + world[:n_world]
+        n_world = min(len(by_sec["world"]), int(room * 0.30))
+        n_health = min(len(by_sec["health"]), int(room * 0.15))
+        n_tech = room - n_world - n_health
+        if len(tech) < n_tech:  # hand unused tech room to the other sections
+            spare = n_tech - len(tech)
+            n_world = min(len(by_sec["world"]), n_world + spare // 2)
+            n_health = min(len(by_sec["health"]), n_health + spare - spare // 2)
+        items = head + tech[:n_tech] + by_sec["health"][:n_health] + by_sec["world"][:n_world]
     for n, it in enumerate(items, 1):
         it["id"] = n
     log.info(
-        "Collected %d unique candidate items (tech %d, world %d)", len(items),
-        sum(i["section"] != "world" for i in items), sum(i["section"] == "world" for i in items),
+        "Collected %d unique candidate items (tech %d, health %d, world %d)", len(items),
+        sum(i["section"] == "tech" for i in items), sum(i["section"] == "health" for i in items),
+        sum(i["section"] == "world" for i in items),
     )
     return items
 

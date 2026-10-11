@@ -68,7 +68,7 @@ def ensure_audio(ep: dict, dest_dir: Path) -> Path | None:
 def show_notes_html(ep: dict, base: str) -> str:
     h = [f"<p>{html.escape(ep.get('summary_ja', ''))}</p>", "<ol>"]
     for st in ep.get("stories", []):
-        tag = "🌏 " if st.get("section") == "world" else "💻 "
+        tag = {"world": "🌏 ", "health": "🩺 "}.get(st.get("section"), "💻 ")
         h.append(
             f"<li><b>{tag}{html.escape(st.get('title_ja', ''))}</b><br/>{html.escape(st.get('title_en', ''))}"
             f"<br/>{html.escape(st.get('summary_ja', ''))}</li>"

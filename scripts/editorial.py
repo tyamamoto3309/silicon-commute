@@ -1,8 +1,8 @@
 """Step 2 — editorial: pick stories, gather facts, write the bilingual two-host script.
 
-Episode shape
-  intro → tech stories (4–5) → world briefing (2) → [CEO watch] → phrase of the day → outro
-  Every story segment is spoken in English and immediately followed by a short Japanese recap.
+Episode shape (~20 minutes)
+  intro → tech stories (5) → digital health (1) → world briefing (3) → [CEO watch] → phrase of the day → outro
+  Every story segment is spoken in easy English and immediately followed by a short Japanese recap.
 """
 from __future__ import annotations
 
@@ -57,7 +57,7 @@ _STORY = {
     "type": "object",
     "properties": {
         "headline": {"type": "string"},
-        "section": {"type": "string", "enum": ["tech", "world"]},
+        "section": {"type": "string", "enum": ["tech", "health", "world"]},
         "topic_key": {"type": "string"},
         "item_ids": {"type": "array", "items": {"type": "integer"}},
         "companies": {"type": "array", "items": {"type": "string"}},
@@ -93,9 +93,11 @@ def _is_repeat(story: dict, recent: list[dict]) -> bool:
 
 def select_stories(cfg: dict, items: list[dict], now: datetime, hours: int, recent: list[dict]) -> dict:
     ep = cfg["episode"]
-    n_tech, n_world = int(ep.get("tech_stories", 5)), int(ep.get("world_stories", 2))
-    prompt = f"""You are the news editor of "The Silicon Commute", a weekday-morning English podcast.
-Its core is technology (Big Tech, semiconductors, AI and the wider tech industry); it also covers the most important world news of the day.
+    n_tech, n_world = int(ep.get("tech_stories", 5)), int(ep.get("world_stories", 3))
+    n_health = int(ep.get("health_stories", 1))
+    title = cfg["podcast"]["title"]
+    prompt = f"""You are the news editor of "{title}", a weekday-morning English news podcast.
+Its core is technology (Big Tech, semiconductors, AI and the wider tech industry); it also has a digital-health story and the most important world news of the day.
 The listener is a Japanese public-health policy researcher and government official in Kyoto who wants the strategically important developments, not gossip.
 
 Today is {now:%A, %B %d, %Y} (Japan time). Candidates were published in the last {hours} hours.
@@ -106,7 +108,7 @@ CANDIDATE ITEMS (id | section | publisher | published UTC | companies | title �
 ALREADY COVERED IN RECENT EPISODES (date [topic_key] (section) title):
 {_fmt_recent(recent)}
 
-Choose {n_tech} TECH stories and {n_world} WORLD stories, plus up to 4 alternates (mixed), in order of importance.
+Choose {n_tech} TECH stories, {n_health} DIGITAL HEALTH story and {n_world} WORLD stories, plus up to 5 alternates (mixed sections), in order of importance.
 
 TECH (section "tech") — keep it broad and varied:
 - Big Tech (Alphabet/Google, Apple, Meta, Amazon, Microsoft), semiconductors (TSMC, NVIDIA, memory, equipment), and AI,
@@ -114,6 +116,12 @@ TECH (section "tech") — keep it broad and varied:
   space, robotics, digital health, chips policy and supply chains, major startups and funding.
 - At most ONE story per company, and at most TWO stories that are mainly about AI models or AI products.
 - Prefer strategic or market-moving news: earnings and guidance, big deals, launches, regulation, supply-chain shifts, executive statements.
+
+DIGITAL HEALTH (section "health") — health meets technology and data:
+- electronic and personal health records (EHR/PHR), health data sharing and secondary use, AI in medicine and diagnosis,
+  telemedicine, wearables and health apps, digital public health and health security, health-tech regulation and policy
+  (Japan, the Nordic countries, the EU, the US, WHO), and major health-tech companies or deals.
+- Prefer stories with policy or system-level significance over product promotion. Candidates from any section may be used.
 
 WORLD (section "world") — the most consequential international news of the day:
 - geopolitics, conflicts and diplomacy, elections and major policy decisions, the global economy and markets (central banks, trade, energy),
@@ -144,8 +152,8 @@ Return JSON only."""
         if s["item_ids"]:
             pool.append(s)
 
-    chosen: dict[str, list[dict]] = {"tech": [], "world": []}
-    want = {"tech": n_tech, "world": n_world}
+    chosen: dict[str, list[dict]] = {"tech": [], "health": [], "world": []}
+    want = {"tech": n_tech, "health": n_health, "world": n_world}
     follow_ups = 0
     used_ids: set[int] = set()
     for s in pool:
@@ -160,10 +168,10 @@ Return JSON only."""
         s["section"] = sec
         chosen[sec].append(s)
         used_ids |= set(s["item_ids"])
-    data["stories"] = chosen["tech"] + chosen["world"]
+    data["stories"] = chosen["tech"] + chosen["health"] + chosen["world"]
     data["ceo_watch_item_ids"] = [i for i in data.get("ceo_watch_item_ids", []) if i in valid][:3]
     log.info(
-        "Selected %d tech + %d world: %s", len(chosen["tech"]), len(chosen["world"]),
+        "Selected %d tech + %d health + %d world: %s", len(chosen["tech"]), len(chosen["health"]), len(chosen["world"]),
         [s["headline"] for s in data["stories"]],
     )
     return data
@@ -280,7 +288,7 @@ SCRIPT_SCHEMA = {
             "items": {
                 "type": "object",
                 "properties": {
-                    "kind": {"type": "string", "enum": ["intro", "story", "world", "ceo_watch", "phrase", "outro"]},
+                    "kind": {"type": "string", "enum": ["intro", "story", "health", "world", "ceo_watch", "phrase", "outro"]},
                     "heading_en": {"type": "string"},
                     "heading_ja": {"type": "string"},
                     "lines": {"type": "array", "items": LINE},
@@ -298,7 +306,7 @@ SCRIPT_SCHEMA = {
                     "title_ja": {"type": "string"},
                     "summary_ja": {"type": "string"},
                     "why_ja": {"type": "string"},
-                    "section": {"type": "string", "enum": ["tech", "world"]},
+                    "section": {"type": "string", "enum": ["tech", "health", "world"]},
                     "topic_key": {"type": "string"},
                     "companies": {"type": "array", "items": {"type": "string"}},
                     "source_ids": {"type": "array", "items": {"type": "integer"}},
@@ -337,15 +345,16 @@ SCRIPT_SCHEMA = {
 def _writer_prompt(cfg: dict, material: str, now: datetime, target_words: int, selection: dict) -> str:
     ep, hosts = cfg["episode"], cfg["hosts"]
     a, b = hosts[0], hosts[1]
+    title = cfg["podcast"]["title"]
     friday = now.weekday() == 4
     monday = now.weekday() == 0
     minutes = ep["target_minutes"]
-    recap = int(ep.get("recap_ja_chars", 190))
-    n_tech = sum(1 for s in selection["stories"] if s["section"] == "tech")
-    n_world = sum(1 for s in selection["stories"] if s["section"] == "world")
+    recap = int(ep.get("recap_ja_chars", 170))
+    count = {sec: sum(1 for s in selection["stories"] if s["section"] == sec) for sec in ("tech", "health", "world")}
     has_ceo = bool(selection.get("ceo_watch_item_ids"))
-    return f"""You are the head writer of "The Silicon Commute", a weekday-morning podcast. Its core is technology news; it also covers the day's most important world news.
-The conversation is in English; after EACH story, {b['name']} gives a short recap in Japanese.
+    return f"""You are the head writer of "{title}", a weekday-morning news podcast of about 20 minutes.
+Its core is technology news; it also has a digital-health story and the day's most important world news.
+The conversation is in easy English; after EACH story, {b['name']} gives a short recap in Japanese.
 
 HOSTS
 - {a['name']}: {a['persona']}
@@ -353,47 +362,58 @@ HOSTS
 
 LISTENER
 A Japanese professional (public-health policy researcher and prefectural government official in Kyoto) on a 20-minute train commute.
-Goals: (1) understand what happened and why it matters; (2) train academic/business English listening, using the Japanese recap to check understanding.
+Goals: (1) understand what happened and why it matters; (2) practise English listening with English that is EASY to follow,
+using the Japanese recap to check understanding.
 
 TODAY: {now:%A, %B %-d, %Y}.{" It is Monday, so the material covers the weekend too." if monday else ""}
 
 LENGTH — IMPORTANT
 - English: about {target_words} words in total across all "en" lines (acceptable {int(target_words*0.9)}–{int(target_words*1.1)}), about {minutes} minutes.
-- Japanese recaps: about {recap} Japanese characters per story (30–40 seconds when read aloud).
+- Japanese recaps: about {recap} Japanese characters per story (about 30 seconds when read aloud).
 
-STRUCTURE — segments in this order (the material has {n_tech} tech stories, then {n_world} world stories)
-1. kind "intro" (~70 words): {a['name']} greets ("Good morning, it's {now:%A, %B %-d}. This is The Silicon Commute."), {b['name']} previews three headlines, including one world story. recap_ja: [].
-2. kind "story" — one segment per TECH story, most important first (each 150–210 words): what happened (facts, numbers, who), then why it matters. {b['name']} asks at least one question.
-3. kind "world" — one segment per WORLD story (each 110–160 words). The first world segment opens with a short transition such as "Now, a look at the world beyond tech."
-4. kind "ceo_watch" (60–100 words) — {"what tech CEOs said or posted, attributed precisely; never invent quotes" if has_ceo else "SKIP this segment (no CEO material today)"}. recap_ja: [].
-5. kind "phrase" (~60 words): "Phrase of the day" — {b['name']} picks one useful English expression that appeared today, explains it simply, gives one more example. recap_ja: [].
-6. kind "outro" (~35 words): one-sentence takeaway and sign-off ("See you on tomorrow's commute."{' — it is Friday: wish listeners a good weekend, see you Monday' if friday else ''}). recap_ja: one short Japanese sign-off line by {b['name']}.
+STRUCTURE — segments in this order (the material has {count['tech']} tech, {count['health']} digital-health and {count['world']} world stories, in that order)
+1. kind "intro" (~80 words): {a['name']} greets ("Good morning, it's {now:%A, %B %-d}. This is {title}."), {b['name']} previews three headlines
+   (tech, digital health and world). recap_ja: [].
+2. kind "story" — one segment per TECH story, most important first (each 170–220 words): what happened (facts, numbers, who), then why it matters.
+   {b['name']} asks at least one simple question.
+3. kind "health" — the DIGITAL HEALTH story (170–220 words). Open with a short transition such as "Now, our digital health story."
+   Explain what it means for patients, doctors or health systems; add a Japan or Nordic angle only if the material supports it.
+4. kind "world" — one segment per WORLD story (each 120–170 words). The first one opens with "Now, a look at the world beyond tech."
+5. kind "ceo_watch" (60–90 words) — {"what tech CEOs said or posted, attributed precisely; never invent quotes" if has_ceo else "SKIP this segment (no CEO material today)"}. recap_ja: [].
+6. kind "phrase" (~60 words): "Phrase of the day" — {b['name']} picks one useful, everyday English expression that appeared today,
+   explains it simply, gives one more example. recap_ja: [].
+7. kind "outro" (~40 words): one-sentence takeaway and sign-off ("See you on tomorrow's commute."{' — it is Friday: wish listeners a good weekend, see you Monday' if friday else ''}).
+   recap_ja: one short Japanese sign-off line by {b['name']} (e.g. 「以上、{title}でした。いってらっしゃい。」).
 
-JAPANESE RECAP ("recap_ja", required for every "story" and "world" segment)
-- 1–3 lines, speaker "{b['name']}", natural spoken Japanese in ですます調, like an NHK radio news summary: 何が起きたか → なぜ重要か.
-- The first recap of the episode starts with 「日本語でおさらいします。」; later ones may start directly.
-- Do not add facts that are not in the English segment. Numbers must match exactly (million = 100万, billion = 10億, trillion = 1兆; e.g. sixty-four billion dollars = 640億ドル).
-- Company, product and person names in their usual Latin spelling (NVIDIA, TSMC, Satya Nadella). 読みにくい漢字の人名・地名には括弧で読み仮名（例: 菊陽町（きくようまち））。
-
-SPOKEN-ENGLISH RULES for "en"
+EASY ENGLISH — VERY IMPORTANT for every "en" line
 - {ep['english_style']}
-- speaker must be exactly "{a['name']}" or "{b['name']}". Each line 1–3 sentences, max 60 words. Alternate naturally.
+- Prefer simple words: "use" not "utilize", "help" not "facilitate", "buy" not "acquire", "about" not "approximately", "start" not "commence".
+- Keep the structure easy to follow: say the main point first, then one or two details, then why it matters.
+- {b['name']} sometimes checks understanding in plain words ("So, in short, ...?"), and {a['name']} confirms simply.
+- speaker must be exactly "{a['name']}" or "{b['name']}". Each line 1–3 short sentences, max 45 words. Alternate naturally.
 - Write numbers as a broadcaster reads them: "$4.2 billion" → "4.2 billion dollars", "Q3" → "the third quarter", "2nm" → "two-nanometer".
 - No URLs, markdown, emojis, stage directions or sound effects.
 - ACCURACY FIRST: use only facts in the MATERIAL. If a number, date or quote is not in the material, do not state it. Attribute reporting
   ("according to Reuters"). Use names and job titles exactly as the material gives them. For follow-up stories, focus on the new development.
-- Neutral and analytical. No investment advice. On conflicts and politics, report facts and attributed positions without taking sides.
+- Neutral. No investment or medical advice. On conflicts and politics, report facts and attributed positions without taking sides.
+
+JAPANESE RECAP ("recap_ja", required for every "story", "health" and "world" segment)
+- 1–3 lines, speaker "{b['name']}", natural spoken Japanese in ですます調, like an NHK radio news summary: 何が起きたか → なぜ重要か.
+- The first recap of the episode starts with 「日本語でおさらいします。」; later ones may start directly.
+- Do not add facts that are not in the English segment. Numbers must match exactly (million = 100万, billion = 10億, trillion = 1兆;
+  e.g. sixty-four billion dollars = 640億ドル).
+- Company, product and person names in their usual Latin spelling (NVIDIA, TSMC, Satya Nadella). 読みにくい漢字の人名・地名には括弧で読み仮名（例: 菊陽町（きくようまち））。
 
 LINE TRANSLATIONS
-- Every English line also has "ja": a natural, accurate Japanese translation for the on-screen transcript (ですます調). Same number and name rules as above.
-- Headings: heading_en short English; heading_ja 日本語。
+- Every English line also has "ja": a natural, accurate Japanese translation for the on-screen transcript (ですます調). Same number and name rules.
+- Headings: heading_en short, easy English; heading_ja 日本語。
 
 METADATA
-- title_en: catchy episode title (max 70 chars); title_ja: 日本語タイトル; summary_ja: 3文の日本語要約（テックと世界の両方に触れる）。
-- stories: one entry per "story"/"world" segment, same order. section ("tech"/"world") and topic_key copied from the material;
+- title_en: short, easy episode title (max 70 chars); title_ja: 日本語タイトル; summary_ja: 3文の日本語要約（テック・ヘルス・世界に触れる）。
+- stories: one entry per "story"/"health"/"world" segment, same order. section ("tech"/"health"/"world") and topic_key copied from the material;
   summary_ja 2–3文, why_ja 1–2文（産業・政策・日本への示唆）, source_ids = the [id] numbers from the material that support the story.
-- vocabulary: 8–12 useful terms or collocations that actually appear in the "en" lines, from both tech and world stories.
-  meaning_ja, note_ja (使い方やニュアンス), example_en = the sentence from the script where it appears.
+- vocabulary: 10–14 useful words or phrases that actually appear in the "en" lines, from all sections; choose items a B1–B2 learner
+  should learn. meaning_ja, note_ja (使い方やニュアンス), example_en = the sentence from the script where it appears.
 - phrase_of_the_day: the same phrase as the "phrase" segment.
 
 MATERIAL
@@ -442,8 +462,8 @@ def finalize(cfg: dict, script: dict, valid_ids: set[int] | None = None) -> dict
         if recap:
             out_segments.append({
                 "kind": "recap", "lang": "ja", "of": seg.get("kind"),
-                "heading_en": "Japanese recap" if seg.get("kind") in ("story", "world") else "Japanese",
-                "heading_ja": "日本語でおさらい" if seg.get("kind") in ("story", "world") else "日本語",
+                "heading_en": "Japanese recap" if seg.get("kind") in ("story", "health", "world") else "Japanese",
+                "heading_ja": "日本語でおさらい" if seg.get("kind") in ("story", "health", "world") else "日本語",
                 "lines": recap,
             })
     script["segments"] = out_segments
@@ -467,7 +487,7 @@ def write_script(cfg: dict, material: str, now: datetime, valid_ids: set[int], s
         direction = "longer: deepen the 'why it matters' analysis and add one more exchange per story" if words < target else "shorter: tighten each story"
         revise = (
             f"The draft below has {words} English words but the target is {target} (±10%). "
-            f"Rewrite it to be {direction}. Keep the same JSON structure (including recap_ja for every story/world segment), facts, stories and sources. "
+            f"Rewrite it to be {direction}. Keep the same JSON structure (including recap_ja for every story/health/world segment), the easy-English style, facts, stories and sources. "
             f"Do not add facts that are not in the material.\n\nMATERIAL:\n{material}\n\nDRAFT JSON:\n{json.dumps(raw, ensure_ascii=False)}\n\nReturn the full revised JSON only."
         )
         try:
