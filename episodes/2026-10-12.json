@@ -1,0 +1,811 @@
+{
+  "date": "2026-10-12",
+  "published": "2026-10-12T05:11:05+09:00",
+  "title_en": "Microsoft's AI Emergency Brake and Strikes on Russian Cloud Hubs",
+  "title_ja": "マイクロソフトのAI緊急停止構想とロシアのデータセンター被弾",
+  "summary_ja": "Satya Nadella氏がAIの外部安全制御である「緊急ブレーキ」構想を提唱したほか、ウクライナによる無人機攻撃でYandexの主要データセンターが深刻な打撃を受けました。また、ソフトバンクが既存企業をAIで刷新する1000億ドル規模の基金を模索し、PC出荷台数は部品高騰で急減、Googleの医療AIはLancet誌で臨床評価を獲得しました。世界情勢では、リヤド空港へのミサイル攻撃とトランプ氏によるロシア・ウクライナ間のエネルギー停戦宣言が波紋を広げています。",
+  "duration": 726.1,
+  "audio": {
+    "file": "2026-10-12.mp3",
+    "bytes": 5809532,
+    "release_tag": "ep-2026-10-12"
+  },
+  "word_count": 1178,
+  "ja_chars": 1110,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.8-flash",
+    "write": "gemini-3.7-flash",
+    "revise": "gemini-3.7-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Monday Briefing: Tech Safety, Cloud Strikes, and Middle East Tensions",
+      "heading_ja": "月曜ブリーフィング：AIの安全性、データセンター攻撃、中東情勢",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it is Monday, October 12. This is The Silicon Commute.",
+          "ja": "おはようございます、10月12日月曜日です。The Silicon Commuteへようこそ。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Today, Microsoft proposes an independent emergency brake for artificial intelligence, and Ukrainian drone strikes disable Russia's largest data centers.",
+          "ja": "本日は、MicrosoftがAI向けの独立した緊急ブレーキを提案したニュースや、ウクライナの無人機攻撃によりロシア最大のデータセンターが停止した話題をお届けします。",
+          "t": 5.27
+        },
+        {
+          "speaker": "Alex",
+          "en": "We also look at SoftBank seeking 100 billion dollars from Gulf investors to acquire traditional businesses and overhaul them with robotics.",
+          "ja": "さらに、SoftBankが中東の投資家から1000億ドルを調達し、既存企業を買収してロボット技術で刷新を図る動きも見ていきます。",
+          "t": 15.3
+        },
+        {
+          "speaker": "Mika",
+          "en": "And in world news, fatal missile attacks strike Riyadh's international airport. Let us dive in.",
+          "ja": "そして国際ニュースでは、リヤド国際空港への致命的なミサイル攻撃を取り上げます。早速始めましょう。",
+          "t": 24.6
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Microsoft Proposes External 'Emergency Brake' Architecture for AI",
+      "heading_ja": "マイクロソフト、AI向けの外部「緊急ブレーキ」アーキテクチャを提案",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Microsoft Chief Executive Satya Nadella published a post on X over the weekend calling on the industry to step back and assess the trust architecture of artificial intelligence.",
+          "ja": "Microsoftの最高経営責任者であるSatya Nadella氏が週末、Xへの投稿で、AIの信頼アーキテクチャを見直すために一度立ち止まるべきだと業界に呼びかけました。",
+          "t": 31.4
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specifically is he proposing beyond existing safety guidelines?",
+          "ja": "従来の安全ガイドラインと比べて、具体的に何を提案しているのでしょうか。",
+          "t": 42.85
+        },
+        {
+          "speaker": "Alex",
+          "en": "Nadella argued that advanced models cannot be treated as nested black boxes where we simply accept or reject their actions. Instead, he proposed separating the model from the harness that orchestrates its work, externalizing controls and safeguards.",
+          "ja": "Nadella氏は、高度なモデルを行動の承認や拒絶だけで済ませる入れ子状のブラックボックスとして扱ってはならないと主張しました。代わりに、モデルとその動作を統括する基盤を分離し、制御と安全装置を外部化することを提案しました。",
+          "t": 48.12
+        },
+        {
+          "speaker": "Mika",
+          "en": "So the control mechanism sits completely outside the neural network itself?",
+          "ja": "制御の仕組みがニューラルネットワーク自体の完全に外部に置かれるということですね。",
+          "t": 63.65
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. He called for every meaningful action to produce tamper-proof human-readable evidence, ensuring an authorized human can pause or shut down a model mid-task. He said we must assume a model is compromised and contain it from the start, like an emergency brake.",
+          "ja": "その通りです。有意義な行動すべてに改ざん不可能な人間が読める証拠を残し、権限を持つ人間がタスク実行中でもモデルを一時停止またはシャットダウンできるようにすべきだと求めました。モデルが侵害されている前提で最初から封じ込める、緊急ブレーキのような発想です。",
+          "t": 69.32
+        },
+        {
+          "speaker": "Mika",
+          "en": "This shift in tone is significant. Major labs are acknowledging that models can behave unpredictably, so independent safety switches could become standard across enterprise systems.",
+          "ja": "この論調の変化は極めて重要ですね。主要な開発企業がモデルの予測不能な挙動を認める中、独立した安全スイッチは企業システム全体の標準になる可能性があります。",
+          "t": 85.87
+        }
+      ],
+      "lang": "en",
+      "t": 31.4
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。MicrosoftのSatya Nadella CEOは、AIモデルを入れ子状のブラックボックスとして扱うのをやめ、制御機能を外部化した「緊急ブレーキ」構造を導入すべきだと提唱しました。有意義な挙動の改ざん防止記録や人間による即時停止権限を求めています。モデルの暴走リスクを前提に対策を講じる、企業統治の大きな転換点です。",
+          "en": "",
+          "lang": "ja",
+          "t": 97.54
+        }
+      ],
+      "t": 97.54
+    },
+    {
+      "kind": "story",
+      "heading_en": "Ukrainian Drone Strikes Cripple Yandex Data Centers and AI Clusters",
+      "heading_ja": "ウクライナの無人機攻撃、YandexのデータセンターとAI基盤に打撃",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Over the weekend, Ukrainian drone attacks hit several major Russian data centers belonging to Yandex. Cloudflare reported that bot traffic originating from the Yandex network plunged to just 0.4 percent of its recent maximum.",
+          "ja": "週末、ウクライナの無人機攻撃がロシアの検索大手Yandexが所有する複数の主要データセンターを直撃しました。Cloudflareの報告によると、同社ネットワークからのボットトラフィックは直近の最大値のわずか0.4パーセントにまで激減しました。",
+          "t": 125.43
+        },
+        {
+          "speaker": "Mika",
+          "en": "Which facilities were damaged, and how broad is the disruption across Russia?",
+          "ja": "どの施設が被害を受け、ロシア全土でどの程度の障害が生じているのでしょうか。",
+          "t": 139.6
+        },
+        {
+          "speaker": "Alex",
+          "en": "The campaign struck a facility in Sasovo housing two supercomputers used to train Yandex artificial intelligence models, followed by a strike on a massive 63-megawatt campus in Kaluga. That 1.4-million-square-foot facility opened in 2023 with over 3,800 server racks.",
+          "ja": "この攻撃は、YandexのAIモデル訓練に用いられる2台のスーパーコンピュータを擁するサソボの施設を直撃し、続いてカルーガにある63メガワットの大規模拠点を襲いました。140万平方フィートの広さを持つこの施設は2023年に稼働し、3800台以上のサーバラックを備えていました。",
+          "t": 145.39
+        },
+        {
+          "speaker": "Mika",
+          "en": "Russian state media admitted that multiple modules were knocked out of service completely, correct?",
+          "ja": "ロシアの国営メディアも、複数のモジュールが完全に運用停止に追い込まれたと認めたのですね。",
+          "t": 161.94
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, TASS confirmed that, and NetBlocks found that Yandex Cloud network traffic plummeted to 30 percent, with 84 services reported offline. This shows how civilian cloud and artificial intelligence infrastructure has become a prime kinetic target in modern warfare.",
+          "ja": "はい、TASS通信がそれを確認し、NetBlocksはYandex Cloudのトラフィックが30パーセントに急落し、84のサービスが停止したと報告しました。民間のクラウドやAIインフラが、現代戦において直接的な物理攻撃の標的になっている実態を示しています。",
+          "t": 168.96
+        }
+      ],
+      "lang": "en",
+      "t": 125.43
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ウクライナの無人機が、ロシアの検索大手Yandexのサソボおよびカルーガのデータセンターを攻撃しました。AI学習用スパコンや63メガワット級の巨大拠点が被弾し、同社クラウドの通信量は30パーセントに低下、ボット通信も激減しました。デジタル基盤が戦時下における物理的破壊の主要な標的となったことを示す重大な事例です。",
+          "en": "",
+          "lang": "ja",
+          "t": 185.85
+        }
+      ],
+      "t": 185.85
+    },
+    {
+      "kind": "story",
+      "heading_en": "SoftBank Pursues 100 Billion Dollar Fund for Legacy AI Transformation",
+      "heading_ja": "ソフトバンク、既存企業のAI刷新へ1000億ドル規模の基金を模索",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "SoftBank founder Masayoshi Son is approaching Gulf investors, including senior figures in the United Arab Emirates, to raise up to 100 billion dollars for a new fund, according to the Financial Times.",
+          "ja": "フィナンシャル・タイムズによると、SoftBank創業者の孫正義氏がアラブ首長国連邦の要人など中東の投資家に接触し、新たなファンド向けに最大1000億ドルの資金調達を目指しています。",
+          "t": 213.68
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does this vehicle differ from the previous Vision Funds?",
+          "ja": "これまでのビジョン・ファンドとは何が違うのでしょうか。",
+          "t": 227.63
+        },
+        {
+          "speaker": "Alex",
+          "en": "Rather than funding young startups, this fund intends to acquire established businesses that have not yet adopted artificial intelligence, and overhaul their operations using robotics and advanced software to boost their valuation.",
+          "ja": "新興スタートアップへの出資ではなく、まだAIを導入していない既存の確立された企業を買収し、ロボット工学や高度なソフトウェアを用いて業務を刷新し企業価値を高める狙いです。",
+          "t": 232.9
+        },
+        {
+          "speaker": "Mika",
+          "en": "SoftBank's robotics division, Roze, is expected to play a central role, but SoftBank already has high financial leverage, does it not?",
+          "ja": "SoftBankのロボット部門であるRozeが中核を担うとされていますが、同社はすでに財務レバレッジが高い状態ではありませんか。",
+          "t": 248.77
+        },
+        {
+          "speaker": "Alex",
+          "en": "It does. SoftBank has committed roughly 65 billion dollars to OpenAI, financed partly by debt secured by its Arm holdings, and recently issued 11 billion dollars in junk bonds. Its net asset value was 72.3 trillion yen in June, but tying so much capital to volatile artificial intelligence assets carries immense risk.",
+          "ja": "その通りです。SoftBankはArm株を担保とした借入などを通じてOpenAIに約650億ドルを投じており、最近も110億ドルの高利回り債を発行しました。6月時点の純資産価値は72兆3000億円ですが、巨額の資本を変動の激しいAI資産に結びつけることには大きなリスクが伴います。",
+          "t": 258.63
+        }
+      ],
+      "lang": "en",
+      "t": 213.68
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "SoftBankの孫正義氏が、中東投資家から最大1000億ドルを募る新ファンドを計画しています。AI未導入の既存企業を買収し、ロボット部門Rozeなどを活用して業務効率と企業価値を高める戦略です。すでにOpenAIに650億ドルを投じ多額の負債を抱える中、巨額の追加投資がどのような成果を生むか注目されます。",
+          "en": "",
+          "lang": "ja",
+          "t": 279.9
+        }
+      ],
+      "t": 279.9
+    },
+    {
+      "kind": "story",
+      "heading_en": "Global PC Shipments Drop 20 Percent on AI Component Price Pressure",
+      "heading_ja": "AI部品の高騰により、世界PC出荷台数が20%の大幅減",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Global personal computer shipments fell roughly 20 percent year over year in the third quarter of 2026, marking the steepest industry contraction since early 2023.",
+          "ja": "2026年第3四半期の世界のパソコン出荷台数は前年同期比で約20パーセント減少し、2023年初頭以来で最も急激な落ち込みを記録しました。",
+          "t": 307.23
+        },
+        {
+          "speaker": "Mika",
+          "en": "What did the market research firms find, and why did shipments drop so sharply?",
+          "ja": "市場調査会社はどのようなデータを公表しており、なぜこれほど急減したのでしょうか。",
+          "t": 318.89
+        },
+        {
+          "speaker": "Alex",
+          "en": "IDC reported that shipments fell 20.1 percent to 62.7 million units, while Omdia recorded a 21.2 percent decline to 58.1 million. Sales channels and vendors had stockpiled inventory earlier this year anticipating memory price hikes, leaving minimal demand for the third quarter.",
+          "ja": "IDCの報告では出荷台数が20.1パーセント減の6270万台、Omdiaでは21.2パーセント減の5810万台となりました。メモリ価格の高騰を見越して流通やベンダーが今年前半に在庫を積み増したため、第3四半期の需要が激減しました。",
+          "t": 325.33
+        },
+        {
+          "speaker": "Mika",
+          "en": "So soaring component costs caused by data center demand are now directly chilling the consumer hardware market?",
+          "ja": "データセンター需要による部品価格の高騰が、消費者向けハードウェア市場を直接冷え込ませているのですね。",
+          "t": 344.12
+        },
+        {
+          "speaker": "Alex",
+          "en": "Precisely. Artificial intelligence demand is driving up component prices, forcing PC makers to raise retail prices, which in turn suppresses consumer and corporate purchases.",
+          "ja": "まさにその通りです。AI需要が部品価格を押し上げ、PCメーカーが店頭価格の引き上げを余儀なくされた結果、個人や法人の購買意欲が抑制されています。",
+          "t": 352.55
+        }
+      ],
+      "lang": "en",
+      "t": 307.23
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "2026年第3四半期の世界PC出荷台数は、前年比で約20パーセント減少しました。IDCによれば6270万台に落ち込み、第3四半期としては過去最大の下げ幅です。データセンター向け需要によるメモリ等の部品価格高騰を見越し、各社が前半に在庫を積み増した反動に加え、製品価格の上昇が消費者の買い控えを招いています。",
+          "en": "",
+          "lang": "ja",
+          "t": 365.34
+        }
+      ],
+      "t": 365.34
+    },
+    {
+      "kind": "story",
+      "heading_en": "Lancet Study Validates Google's AMIE Clinical Diagnostic AI",
+      "heading_ja": "ランセット誌の論文、Googleの医療AI「AMIE」の臨床的有用性を確認",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "A peer-reviewed study published in The Lancet shows that Google's diagnostic chatbot, AMIE, safely enhanced primary care consultations in a real-world clinic at Beth Israel Deaconess Medical Center.",
+          "ja": "医学誌The Lancetに掲載された査読付き論文によると、Googleの診断用チャットボット「AMIE」が、ベス・イスラエル・ディーコネス医療センターの実臨床において一次診療を安全に改善したことが示されました。",
+          "t": 391.8
+        },
+        {
+          "speaker": "Mika",
+          "en": "How was the clinical trial structured, and did human doctors agree with the system?",
+          "ja": "臨床試験はどのように構成され、医師たちはこのシステムをどう評価したのでしょうか。",
+          "t": 405.27
+        },
+        {
+          "speaker": "Alex",
+          "en": "In the study, 98 patients consulted AMIE before urgent care visits, under real-time physician supervision. Not a single conversation had to be halted under safety criteria. In addition, AMIE's differential diagnoses matched the final diagnoses made by doctors 90 percent of the time.",
+          "ja": "研究では、98名の患者が救急診療の前に医師のリアルタイム監視下でAMIEに相談しました。安全基準に基づき中断された対話は一度もありませんでした。さらに、AMIEの鑑別診断は医師の最終診断と90パーセント一致しました。",
+          "t": 411.79
+        },
+        {
+          "speaker": "Mika",
+          "en": "Doctors also reported that the summaries helped them prepare for visits in 75 percent of cases. For regional clinics facing staff shortages, this kind of intake tool could be transformative.",
+          "ja": "医師の75パーセントが、AIによる要約が診察の準備に役立ったと回答していますね。人手不足に悩む地方の診療所にとっても、こうした問診支援ツールは大きな助けになりそうです。",
+          "t": 430.39
+        },
+        {
+          "speaker": "Alex",
+          "en": "Clinicians also said it influenced their care plan in more than half the visits, demonstrating that clinical AI can assist intake without replacing physician oversight.",
+          "ja": "医師らは診療方針の決定において半数以上のケースで影響を受けたと述べており、臨床AIが医師の監督を損なうことなく問診を補助できることが実証されました。",
+          "t": 443.37
+        }
+      ],
+      "lang": "en",
+      "t": 391.8
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "医学誌The Lancetに掲載された研究で、Googleの診断支援AI「AMIE」が一次診療で医師の診断を効果的に支援することが示されました。患者98名の問診において安全上の問題による中断はなく、鑑別診断は医師の診断と90パーセント一致しました。医療現場の負担軽減と診察の質向上を両立する実証データとして注目されます。",
+          "en": "",
+          "lang": "ja",
+          "t": 455.03
+        }
+      ],
+      "t": 455.03
+    },
+    {
+      "kind": "world",
+      "heading_en": "Fatal Houthi Missile Attacks Strike Riyadh Airport Terminals",
+      "heading_ja": "フーシ派のミサイル攻撃、リヤド空港に着弾し死傷者多数",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, a look at the world beyond tech. King Khalid International Airport in Riyadh was struck by missiles and projectiles in consecutive attacks over the weekend claimed by Yemen's Houthi group.",
+          "ja": "ここで、テック以外の世界の動向を見ていきましょう。リヤドのキング・ハーリド国際空港が週末、イエメンのフーシ派による連続攻撃を受け、ミサイルや飛翔体が着弾しました。",
+          "t": 482.63
+        },
+        {
+          "speaker": "Mika",
+          "en": "What is the toll, and how are authorities responding?",
+          "ja": "被害の規模と、当局の対応はどうなっていますか。",
+          "t": 495.79
+        },
+        {
+          "speaker": "Alex",
+          "en": "Saturday's strike killed at least 12 people and injured hundreds, and a second projectile hit Terminal 4 on Sunday, causing further injuries and fires. The casualties included foreign nationals from Egypt, Syria, and India.",
+          "ja": "土曜日の攻撃では少なくとも12名が死亡し数百名が負傷、日曜にも第4ターミナルに飛翔体が着弾し火災と負傷者が発生しました。死者にはエジプト、シリア、インドなどの外国籍の人が含まれています。",
+          "t": 500.5
+        },
+        {
+          "speaker": "Mika",
+          "en": "The Houthis also warned international airlines to stay away from Saudi airports, which could severely disrupt regional air travel and oil markets ahead of this week's World Petroleum Congress.",
+          "ja": "フーシ派は各国の航空会社に対しサウジの空港を避けるよう警告しており、今週予定される世界石油会議を前に地域の航空交通や原油市場に混乱が生じる恐れがあります。",
+          "t": 515.48
+        },
+        {
+          "speaker": "Alex",
+          "en": "Saudi authorities extended the airport closure, while United States President Donald Trump said he is reviewing whether to join Saudi military operations in Yemen.",
+          "ja": "サウジ当局は空港の閉鎖を延長し、米国のドナルド・トランプ大統領はイエメンにおけるサウジの軍事行動に参加するかどうかを検討中であると述べました。",
+          "t": 528.59
+        }
+      ],
+      "lang": "en",
+      "t": 482.63
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "サウジアラビアのリヤド国際空港が、イエメンのフーシ派によるミサイル攻撃を相次いで受けました。少なくとも12名が死亡、数百名が負傷し、第4ターミナルでも火災が発生しました。フーシ派は航空会社への警告を強めており、サウジ当局が空港閉鎖を延長する中、国際線航路や石油市場への影響が懸念されています。",
+          "en": "",
+          "lang": "ja",
+          "t": 540.39
+        }
+      ],
+      "t": 540.39
+    },
+    {
+      "kind": "world",
+      "heading_en": "Trump Declares Energy Ceasefire and Eases Russian Diesel Sanctions",
+      "heading_ja": "トランプ氏、エネルギー停戦を宣言しロシア産軽油制裁を緩和",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "President Donald Trump posted on Truth Social that an immediate energy ceasefire had been agreed between Russia and Ukraine, barring strikes on energy infrastructure.",
+          "ja": "ドナルド・トランプ大統領はTruth Socialで、ロシアとウクライナの間でエネルギーインフラへの攻撃を禁じる即時「エネルギー停戦」が合意されたと投稿しました。",
+          "t": 565.88
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did Kyiv agree to this deal?",
+          "ja": "ウクライナ政府はこの合意を承認しているのでしょうか。",
+          "t": 577.5
+        },
+        {
+          "speaker": "Alex",
+          "en": "Ukrainian President Volodymyr Zelenskyy said the deal was news to him, though he added Ukraine would accept it if Vladimir Putin adhered to it reciprocally. However, Russian air strikes on Ukrainian thermal power stations continued through Sunday.",
+          "ja": "ウクライナのウォロディミル・ゼレンスキー大統領は初耳だと述べつつも、ウラジーミル・プーチン氏が相互に遵守するなら受け入れると表明しました。しかし、日曜を通じてウクライナの火力発電所に対するロシア軍の空爆は継続しました。",
+          "t": 580.72
+        },
+        {
+          "speaker": "Mika",
+          "en": "Trump also temporarily lifted sanctions on Russian diesel exports to curb domestic fuel prices, which drew sharp criticism in Washington, including from Republican Senator Thom Tillis, who questioned its legality.",
+          "ja": "トランプ氏は国内の燃料価格を抑えるためロシア産軽油の輸出制裁を一時解除しましたが、共和党のトム・ティリス上院議員が違法性を指摘するなどワシントンで強い反発を呼んでいます。",
+          "t": 597.26
+        },
+        {
+          "speaker": "Alex",
+          "en": "The diesel deal promises 300,000 tonnes initially, but analysts say it may do little to lower prices while creating severe diplomatic friction with Ukraine.",
+          "ja": "この軽油合意では当初30万トンの供給が見込まれていますが、専門家は価格引き下げ効果は薄いとみており、ウクライナとの深刻な外交的摩擦を生んでいます。",
+          "t": 611.74
+        }
+      ],
+      "lang": "en",
+      "t": 565.88
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "トランプ米大統領はロシアとウクライナの間でエネルギーインフラ攻撃を禁じる停戦が合意されたと発表しましたが、ウクライナ側は事前協議を否定しつつ相互遵守を求めました。同時に発表されたロシア産軽油の制裁緩和は米議会からも違法性を問う声が上がっており、対露制裁政策の混乱を招いています。",
+          "en": "",
+          "lang": "ja",
+          "t": 622.74
+        }
+      ],
+      "t": 622.74
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch: Nadella, Amon, and Chey",
+      "heading_ja": "CEOウォッチ：ナデラ氏、アモン氏、チェ氏",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In executive statements, Microsoft's Satya Nadella emphasized on X that companies must assume a model is compromised and build external safeguards.",
+          "ja": "経営陣の動向として、MicrosoftのSatya Nadella氏はXで、モデルが侵害されている前提に立ち、外部の安全機構を構築すべきだと強調しました。",
+          "t": 647.09
+        },
+        {
+          "speaker": "Mika",
+          "en": "Meanwhile, Qualcomm Chief Executive Cristiano Amon stated that artificial intelligence developers want smartphones capable of running 100-billion-parameter models by 2028.",
+          "ja": "一方、Qualcommの最高経営責任者Cristiano Amon氏は、AI開発企業が2028年までに1000億パラメータ規模のモデルをスマートフォン上で動かすことを望んでいると述べました。",
+          "t": 657.55
+        },
+        {
+          "speaker": "Alex",
+          "en": "And in South Korea, SK Group Chairman Chey Tae-won warned of rapid advancements by Chinese chip rivals, urging faster construction of the Honam semiconductor fabrication facility.",
+          "ja": "また韓国では、SKグループの崔泰源（チェ・テウォン）会長が中国の半導体競合の急速な台頭に警鐘を鳴らし、湖南（ホナム）半導体工場の建設を急ぐよう求めました。",
+          "t": 669.46
+        }
+      ],
+      "lang": "en",
+      "t": 647.09
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: Step Back",
+      "heading_ja": "今日のフレーズ：Step Back（一歩引いて考える）",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's phrase of the day is 'step back'. Satya Nadella used it when he said it is time to step back and assess the trust architecture of artificial intelligence.",
+          "ja": "今日のフレーズは「step back」です。Satya Nadella氏が、AIの信頼アーキテクチャを見直すために「step back」する時が来たと述べて使われました。",
+          "t": 682.32
+        },
+        {
+          "speaker": "Alex",
+          "en": "To step back means to pause an ongoing activity to evaluate the broader situation objectively before taking further action.",
+          "ja": "「step back」とは、物事を進める手を一時止め、次の行動を起こす前に状況全体を客観的に見直すという意味です。",
+          "t": 692.21
+        },
+        {
+          "speaker": "Mika",
+          "en": "Here is an example: 'Before we allocate next year's budget, let us step back and review the clinical outcomes.'",
+          "ja": "例文です。「来年度の予算を配分する前に、一歩引いて臨床結果を再検証しましょう。」",
+          "t": 700.03
+        }
+      ],
+      "lang": "en",
+      "t": 682.32
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Sign-off and Takeaway",
+      "heading_ja": "エンディングとまとめ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "As artificial intelligence scales into both critical workflows and wartime infrastructure, establishing hard operational guardrails is becoming urgent.",
+          "ja": "AIが重要な業務や戦時下のインフラにまで浸透する中、強固な運用の歯止めを設けることが急務となっています。",
+          "t": 707.22
+        },
+        {
+          "speaker": "Mika",
+          "en": "Thank you for listening. See you on tomorrow's commute.",
+          "ja": "お聴きいただきありがとうございました。明日の通勤時間にお会いしましょう。",
+          "t": 716.53
+        }
+      ],
+      "lang": "en",
+      "t": 707.22
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "今週も良い一週間をお過ごしください。それでは、また明日。",
+          "en": "",
+          "lang": "ja",
+          "t": 720.76
+        }
+      ],
+      "t": 720.76
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Satya Nadella Calls for Independent AI 'Emergency Brake' Architecture",
+      "title_ja": "マイクロソフトのナデラCEO、AI向けの独立した「緊急ブレーキ」構想を提唱",
+      "summary_ja": "MicrosoftのSatya Nadella CEOは、AIモデルを統括基盤から切り離し、外部化された安全制御機構を設けるべきだと提言しました。改ざん不可能な活動記録を残し、権限を持つ人間がいつでもタスク実行中のAIを一時停止・遮断できる仕組みを求めています。",
+      "why_ja": "AIの暴走事故が相次ぐ中、内部安全対策に頼る従来方針から、外部回路による強制停止というハードウェア的なガバナンスへの転換を示唆しています。",
+      "section": "tech",
+      "topic_key": "microsoft-nadella-ai-emergency-brake",
+      "companies": [
+        "Microsoft"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+          "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/"
+        },
+        {
+          "publisher": "Martin Cid Magazine",
+          "title": "Microsoft CEO Satya Nadella Wants an AI Emergency Brake That Sits Outside the Model",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMUVpeElraW5nRWMwM3B3UmpRUHNhRFB5OXdMNjJvT3BsOEloOVFjZ2gzNVNrQmhtSHpXbVhHYXducnJKOFJQWnVmSjN4X1M2Y0NDS1RIMjZiMXZ6NDdjVFNOY1pubmRKdW04NjE5MHNkZ0I0UGxqODYzVDJSZEsyRVI2eDNOcU4tYUo4bTF2NUgzOE93YzFEUmdHLVAxaWpW?oc=5"
+        },
+        {
+          "publisher": "Forbes",
+          "title": "Microsoft's Nadella Wants An Emergency Brake On Every AI Model",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUDVmSEh3X0pzMWZMMy1fNjRKZjlFZ3VHVHBkZ2RodUtHLUFGanVJWHl1X0NSZW82VlNkYjI5OVdJcmxYNHRFeVFfQloyV0ctZ1JCVk5TWHJrTzZJQUpTNURwdXhRVFpvOWdsRkktOUFyM1BIbENZeG5pMUlGam9YY0Y5MTBKY2Z0ZHBGYndBNGV2cm02bkRBdkZiN1pBRHVscG1WTjR5aHJJTkRlaVNPZzAxcEV5b2NoVWd2dGh4WQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Ukrainian Drone Strikes Disable Yandex Data Centers and AI Supercomputers",
+      "title_ja": "ウクライナのドローン攻撃でYandexのデータセンターとAIスパコンが被弾",
+      "summary_ja": "ウクライナ軍の無人機がロシアの検索大手Yandexのサソボおよびカルーガのデータセンターを攻撃しました。AIモデル学習用スパコンや140万平方フィートの大規模施設が破損し、ロシア国内のクラウドサービスが大幅にダウンしました。",
+      "why_ja": "デジタル経済基盤やAI学習インフラが物理的な軍事攻撃の直接標的となり、有事におけるインフラ耐障害性と地域分散の重要性が浮き彫りになりました。",
+      "section": "tech",
+      "topic_key": "ukraine-drone-strike-yandex-datacenters",
+      "companies": [
+        "Yandex",
+        "Cloudflare"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Russia's Yandex bot traffic nearly eliminated overnight after Ukraine drone strikes cripple multiple of 'Russia's Google' data centers",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/russian-disinformation-bot-traffic-nearly-eliminated-overnight-after-ukraine-drone-strikes-cripple-multiple-of-russias-google-data-centers-ukraine-intensifies-bombing-of-yandex-data-centers-in-response-to-moscows-strikes-on-kyiv-data-centers"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Ukrainian drones strike largest data center in Russia, multiple parts of 1.4 million square foot campus knocked offline",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/second-russian-data-center-targeted-by-ukrainian-drones-in-just-two-days-as-yandex-reels-from-another-service-outage-russian-state-media-admits-that-multiple-modules-completely-taken-out"
+        },
+        {
+          "publisher": "Ars Technica",
+          "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+          "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/"
+        },
+        {
+          "publisher": "The Register",
+          "title": "Ukrainian drone attack takes out Russian datacenter",
+          "url": "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Ukraine strikes Yandex data centre in third attack on Russian tech giant",
+          "url": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "SoftBank Pursues $100 Billion Fund to Overhaul Legacy Companies With AI",
+      "title_ja": "ソフトバンク、既存企業のAI刷新に向け中東で1000億ドル規模のファンド設立を模索",
+      "summary_ja": "SoftBankの孫正義氏は、UAEなどの中東政府系資金から最大1000億ドルを調達する新ファンドを構想しています。AIやロボットを未導入の伝統的企業を買収し、ロボット部門Rozeなどの技術で業務改革を行い企業価値を引き上げる計画です。",
+      "why_ja": "OpenAIへの巨額投資と負債を抱えるSoftBankが、新興テック企業投資から既存産業の現場改革を通じた収益化へと戦略の軸足を広げる試みです。",
+      "section": "tech",
+      "topic_key": "softbank-middle-east-ai-fund",
+      "companies": [
+        "SoftBank",
+        "OpenAI",
+        "Arm"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "SoftBank seeks $100 billion for AI-refined projects from Middle Eastern investors",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/softbank-seeks-usd100-billion-for-ai-refined-projects-from-middle-eastern-investors-fund-would-be-used-to-acquire-companies-and-improve-their-operations-using-artificial-intelligence-and-robotics"
+        }
+      ]
+    },
+    {
+      "title_en": "Global PC Shipments Drop 20% Amid AI Component Price Squeeze",
+      "title_ja": "世界PC出荷台数が第3四半期に20%急減、AI部品の価格高騰が需要を圧迫",
+      "summary_ja": "2026年第3四半期の世界PC出荷台数が前年同期比で約20%減少し、2023年第1四半期以来最大の落ち込みを記録しました。メモリ価格高騰を警戒した前半の先買い需要の反動と、AI需要に伴う部品高騰による製品価格上昇が響いています。",
+      "why_ja": "AIデータセンターへの半導体集中がクライアントPCのコストを押し上げ、端末普及や買い替えサイクルに停滞をもたらしています。",
+      "section": "tech",
+      "topic_key": "global-pc-shipments-decline-q3-2026",
+      "companies": [
+        "IDC",
+        "Omdia"
+      ],
+      "sources": [
+        {
+          "publisher": "Ars Technica",
+          "title": "PC shipments fall 20.1 percent in “sharpest decline” since Q1 2023",
+          "url": "https://arstechnica.com/information-technology/2026/10/pc-shipments-fall-20-1-percent-in-sharpest-decline-since-q1-2023/"
+        },
+        {
+          "publisher": "The Register",
+          "title": "Global PC shipments crater 20% as rising prices hammer demand",
+          "url": "https://www.theregister.com/personal-tech/2026/10/09/global-pc-shipments-crater-20-as-rising-prices-hammer-demand/5302264"
+        }
+      ]
+    },
+    {
+      "title_en": "Lancet Study Finds Google's AMIE AI Enhances Primary Care Consultations",
+      "title_ja": "ランセット誌掲載の研究、Googleの医療AI「AMIE」が一次診療を向上させると報告",
+      "summary_ja": "ベス・イスラエル・ディーコネス医療センターで行われた臨床研究がThe Lancet誌に掲載されました。事前問診でGoogleのAI「AMIE」を利用した98名の患者において、対話の中断はなく、AIの鑑別診断は医師の最終診断と90%一致しました。",
+      "why_ja": "実臨床における診断AIの安全性と有効性が一流医学誌で査読されたことで、地方医療や公衆衛生でのAI導入に向けた制度整備の後押しとなります。",
+      "section": "tech",
+      "topic_key": "google-amie-lancet-primary-care-study",
+      "companies": [
+        "Google"
+      ],
+      "sources": [
+        {
+          "publisher": "Google Blog",
+          "title": "Study in The Lancet suggests AI could improve patient-physician relationships.",
+          "url": "https://blog.google/innovation-and-ai/technology/health/amie-clinical-study-lancet/"
+        }
+      ]
+    },
+    {
+      "title_en": "Houthi Missile Strikes Strike Riyadh Airport, Killing 12 and Threatening Flight Corridors",
+      "title_ja": "フーシ派がリヤド国際空港をミサイル攻撃、12名死亡し航空便に重大な脅威",
+      "summary_ja": "サウジアラビアのリヤド国際空港がフーシ派のミサイル攻撃を受け、12名以上が死亡し数百名が負傷しました。第4ターミナルでも火災が発生し、フーシ派が民間航空会社に運航停止を警告したことで空港閉鎖と原油価格の上昇を招いています。",
+      "why_ja": "主要民間航空ハブへの攻撃は中東地域の航空安全保障を揺るがし、湾岸地域の物流と石油関連インフラへの地政学リスクを一段と高めています。",
+      "section": "world",
+      "topic_key": "riyadh-airport-houthi-missile-strikes",
+      "companies": [
+        "Saudi Aramco"
+      ],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "Middle East crisis: Riyadh airport hit again as Houthis claim attacks, including strike that killed 12 – as it happened",
+          "url": "https://www.theguardian.com/world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Riyadh airport hit again after deadly Houthi missile attack, Saudi authorities say",
+          "url": "https://www.theguardian.com/world/2026/oct/11/saudi-coalition-retaliation-houthi-attack-riyadh-airport"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Saudi capital airport hit by second Houthi strike in two days",
+          "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Passenger terminal at Riyadh airport is struck again, a day after 12 were killed",
+          "url": "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say"
+        },
+        {
+          "publisher": "The Washington Post",
+          "title": "Saudi Arabia vows major response after Houthi strike on airport kills 12, injures 309",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPR094dC1TQTlURWVUOFpLQUc0a1kxa1cwM1h5aDQ3bmxzdk9jdk50VU9UaEVNbjFtVHpWNGZ5STNpeFB2RlJBUGxheVYza29vbnowUXMzYUh5VmVzTVR2WjhFQjU5M0RlZE9DWkI0UGtCZDEtMF9wUG9vcmtPalI1REsxYXNOYzhNNTJmaGh6Y2tVdVF6Z2F2WXdWMHEtbC11R1dXdnpyZmhkZmQtNWNpZFBvM2tkeS01WC1oRVVfRQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Trump Announces Unilateral Ukraine-Russia Energy Ceasefire and Diesel Sanctions Easing",
+      "title_ja": "トランプ米大統領、露宇エネルギー停戦を一方的宣言しロシア産軽油制裁を緩和",
+      "summary_ja": "トランプ米大統領は露宇両軍によるエネルギー施設への攻撃停止合意を発表しましたが、ウクライナ側は事前合意を否定しました。同時に米国内の燃料高是正を目的にロシア産軽油の禁輸制裁を一部緩和し、議会から超党派の強い反発を招いています。",
+      "why_ja": "米国の独断的な制裁緩和と停戦発表は、対露包囲網の足並みを乱すとともに同盟国ウクライナとの外交的亀裂を深刻化させています。",
+      "section": "world",
+      "topic_key": "trump-russia-ukraine-energy-ceasefire",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Republican senator says Trump diesel agreement with Russia may be illegal",
+          "url": "https://www.aljazeera.com/news/2026/10/11/republican-senator-says-trump-diesel-agreement-with-russia-may-be-illegal?traffic_source=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Trump announces partial ceasefire in Ukraine war as Zelenskyy says deal is ‘news to me’",
+          "url": "https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Trump’s deal with Putin will have little impact on US diesel prices, experts say",
+          "url": "https://www.theguardian.com/us-news/2026/oct/11/trump-russia-diesel-deal-putin-little-impact-prices"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Trump says Ukraine and Russia agree to ‘energy ceasefire’",
+          "url": "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2?traffic_source=rss"
+        },
+        {
+          "publisher": "NPR",
+          "title": "U.S. and Russia tout diesel deal to ease sanctions and reopen fuel flows",
+          "url": "https://www.npr.org/2026/10/10/nx-s1-5996938/u-s-and-russia-tout-diesel-deal-to-ease-sanctions-and-reopen-fuel-flows"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "step back",
+      "meaning_ja": "一歩引いて考える、立ち止まって見直す",
+      "note_ja": "進行中の活動を一度止めて、客観的に全体像を検証する際にビジネスや政策議論でよく用いられます。",
+      "example_en": "Microsoft Chief Executive Satya Nadella published a post on X over the weekend calling on the industry to step back and assess the trust architecture of artificial intelligence."
+    },
+    {
+      "term": "tamper-proof",
+      "meaning_ja": "改ざん防止の、改ざん不能な",
+      "note_ja": "セキュリティや法規制遵守、監査証跡の文脈で必須となる形容詞です。",
+      "example_en": "He called for every meaningful action to produce tamper-proof human-readable evidence, ensuring an authorized human can pause or shut down a model mid-task."
+    },
+    {
+      "term": "kinetic target",
+      "meaning_ja": "物理的攻撃の標的",
+      "note_ja": "サイバー攻撃（論理的攻撃）に対して、ミサイルや爆弾など物理的破壊をもたらす標的を指す軍事・安保用語です。",
+      "example_en": "This shows how civilian cloud and artificial intelligence infrastructure has become a prime kinetic target in modern warfare."
+    },
+    {
+      "term": "overhaul",
+      "meaning_ja": "徹底的に見直す、総点検して刷新する",
+      "note_ja": "業務プロセスや組織体制、機械などを根本から作り直す際に頻出する動詞です。",
+      "example_en": "Rather than funding young startups, this fund intends to acquire established businesses that have not yet adopted artificial intelligence, and overhaul their operations using robotics and advanced software to boost their valuation."
+    },
+    {
+      "term": "leverage",
+      "meaning_ja": "負債利用度、借り入れ依存度",
+      "note_ja": "財務構造における自己資本に対する負債比率の高さを表す際によく使われます。",
+      "example_en": "SoftBank's robotics division, Roze, is expected to play a central role, but SoftBank already has high financial leverage, does it not?"
+    },
+    {
+      "term": "stockpile",
+      "meaning_ja": "備蓄する、在庫を積み増す",
+      "note_ja": "価格高騰や供給不足を見越して物資を大量に確保する行動を指します。",
+      "example_en": "Sales channels and vendors had stockpiled inventory earlier this year anticipating memory price hikes, leaving minimal demand for the third quarter."
+    },
+    {
+      "term": "differential diagnosis",
+      "meaning_ja": "鑑別診断",
+      "note_ja": "可能性のある複数の疾患を比較検討して絞り込む臨床医学の基本用語です。",
+      "example_en": "In addition, AMIE's differential diagnoses matched the final diagnoses made by doctors 90 percent of the time."
+    },
+    {
+      "term": "reciprocally",
+      "meaning_ja": "相互に、互恵的に",
+      "note_ja": "外交協定や停戦において、双方が等しく義務を果たす条件を述べる際に重要です。",
+      "example_en": "Ukrainian President Volodymyr Zelenskyy said the deal was news to him, though he added Ukraine would accept it if Vladimir Putin adhered to it reciprocally."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "step back",
+    "meaning_ja": "一歩引いて考える、立ち止まって状況を見直す",
+    "example_en": "Before we allocate next year's budget, let us step back and review the clinical outcomes.",
+    "example_ja": "来年度の予算を配分する前に、一歩引いて臨床結果を再検証しましょう。"
+  }
+}
