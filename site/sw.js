@@ -1,4 +1,4 @@
-/* The Silicon Commute — service worker (offline shell + saved episodes) */
+/* Commute News — service worker (offline shell + saved episodes) */
 const VERSION = '__BUILD__';
 const SHELL = `sc-shell-${VERSION}`;
 const DATA = 'sc-data';

@@ -9,6 +9,7 @@
     set(k, v) { try { localStorage.setItem('sc:' + k, JSON.stringify(v)); } catch { /* storage unavailable */ } },
   };
   const DOW = ['日', '月', '火', '水', '木', '金', '土'];
+  const SEC = { tech: '💻 Tech', health: '🩺 Digital Health', world: '🌏 World' };
   const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   const parseDate = (d) => { const [y, m, day] = d.split('-').map(Number); return new Date(y, m - 1, day); };
   const jaDate = (d) => { const x = parseDate(d); return `${x.getMonth() + 1}月${x.getDate()}日(${DOW[x.getDay()]})`; };
@@ -78,7 +79,7 @@
     state.viewDate = null; state.lines = []; state.active = -1;
     const idx = await loadIndex();
     const eps = idx.episodes || [];
-    document.title = 'The Silicon Commute';
+    document.title = 'Commute News';
     if (!eps.length) {
       view.innerHTML = `<div class="empty"><h2>まだエピソードがありません</h2>
         <p>平日の朝6時ごろに最初の回が配信されます。<br>GitHub の Actions タブから「Run workflow」で今すぐ作ることもできます。</p></div>` + subscribeHtml(idx);
@@ -92,7 +93,7 @@
         <h1>${esc(latest.title_en)}</h1>
         <p class="ja-title">${esc(latest.title_ja)}</p>
         <p class="summary">${esc(latest.summary_ja)}</p>
-        <ul class="chips">${(latest.stories || []).map((s) => `<li class="${s.section === 'world' ? 'world' : ''}">${s.section === 'world' ? '🌏 ' : ''}${esc(s.title_ja || s.title_en)}</li>`).join('')}</ul>
+        <ul class="chips">${(latest.stories || []).map((s) => `<li class="${esc(s.section || 'tech')}">${{ world: '🌏 ', health: '🩺 ' }[s.section] || ''}${esc(s.title_ja || s.title_en)}</li>`).join('')}</ul>
         <div class="btn-row">
           ${latest.audio_url ? `<button class="btn primary" data-play="${latest.date}">▶ 再生する</button>` : ''}
           <a class="btn" href="#/ep/${latest.date}">スクリプトを読む</a>
@@ -142,13 +143,13 @@
   async function renderEpisode(date) {
     const ep = await loadEpisode(date);
     state.viewDate = date;
-    document.title = `${ep.title_en} — The Silicon Commute`;
+    document.title = `${ep.title_en} — Commute News`;
     const hosts = ep.hosts || ['Alex', 'Mika'];
     // put this episode in the player unless another one is currently playing
     if (ep.audio_url && (!state.playing || (state.playing.date !== date && audio.paused))) loadIntoPlayer(ep, false);
 
     let n = 0;
-    const KIND = { intro: 'Intro', story: 'Tech', world: 'World', ceo_watch: 'CEO Watch', phrase: 'Phrase', outro: 'Wrap-up', recap: '日本語' };
+    const KIND = { intro: 'Intro', story: 'Tech', health: 'Digital Health', world: 'World', ceo_watch: 'CEO Watch', phrase: 'Phrase', outro: 'Wrap-up', recap: '日本語' };
     const script = ep.segments.map((seg, si) => {
       const ja = seg.lang === 'ja';
       const head = ja
@@ -171,10 +172,10 @@
       </section>`;
     }).join('');
 
-    const storySegs = ep.segments.map((s, i) => ({ s, i })).filter((x) => x.s.kind === 'story' || x.s.kind === 'world');
+    const storySegs = ep.segments.map((s, i) => ({ s, i })).filter((x) => ['story', 'health', 'world'].includes(x.s.kind));
     const stories = (ep.stories || []).map((st, i) => `
       <article class="card">
-        <span class="sec sec-${st.section === 'world' ? 'world' : 'tech'}">${st.section === 'world' ? '🌏 World' : '💻 Tech'}</span>
+        <span class="sec sec-${SEC[st.section] ? st.section : 'tech'}">${(SEC[st.section] || SEC.tech)}</span>
         <h3>${esc(st.title_ja)}</h3>
         <p class="sub" lang="en">${esc(st.title_en)}</p>
         <p>${esc(st.summary_ja)}</p>
@@ -263,7 +264,7 @@
     if (!('mediaSession' in navigator)) return;
     try {
       navigator.mediaSession.metadata = new MediaMetadata({
-        title: ep.title_en, artist: 'The Silicon Commute', album: jaDate(ep.date),
+        title: ep.title_en, artist: 'Commute News', album: jaDate(ep.date),
         artwork: [{ src: absUrl('icons/cover.png'), sizes: '1600x1600', type: 'image/png' }],
       });
       const h = navigator.mediaSession.setActionHandler.bind(navigator.mediaSession);

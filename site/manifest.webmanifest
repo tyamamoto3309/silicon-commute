@@ -1,7 +1,7 @@
 {
-  "name": "The Silicon Commute",
-  "short_name": "Silicon Commute",
-  "description": "GAFAMと半導体の10分英語ニュース（英日対訳つき）",
+  "name": "Commute News",
+  "short_name": "Commute News",
+  "description": "テック・デジタルヘルス・世界の英語ニュース（日本語おさらい・英日対訳つき）",
   "lang": "ja",
   "start_url": "./",
   "scope": "./",
