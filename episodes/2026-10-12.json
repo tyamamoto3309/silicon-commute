@@ -1,17 +1,17 @@
 {
   "date": "2026-10-12",
-  "published": "2026-10-12T08:57:20+09:00",
-  "title_en": "Amazon Eyes Decart, Microsoft's AI Emergency Brake, and Apple HomeView",
-  "title_ja": "AmazonがDecart買収交渉、MSのAI緊急停止構想、Appleの新スマートホーム",
-  "summary_ja": "米AmazonがAI新興企業のDecartを約70億ドルで買収する交渉を進めており、MicrosoftのナデラCEOは暴走AIを防ぐ緊急停止機能の導入を呼びかけました。ヘルスケア分野では、Googleの診断支援AI「AMIE」が一次診療で医師の判断と90%一致したとする査読論文がLancet誌に掲載されました。国際情勢ではトランプ米大統領のエネルギー停戦提案やリヤド空港への攻撃、ポーランド首相暗殺計画の阻止が報じられています。",
-  "duration": 895.7,
+  "published": "2026-10-12T09:07:57+09:00",
+  "title_en": "Amazon's AI Deal, Nadella's Brakes, and Clinic AI",
+  "title_ja": "アマゾンの大型AI買収協議、ナデラ氏の緊急停止提言、そして外来AIの進展",
+  "summary_ja": "アマゾンが70億ドルで新興AI企業デカートの買収協議を進める一方、マイクロソフトのサティア・ナデラCEOはAIシステムへの緊急停止ブレーキの義務化を呼びかけました。医学誌ランセットにはグーグルの診療対話AIに関する初の実証研究が掲載され、プライマリケア現場での実用性が示されました。国際社会ではサウジアラビアの空港への攻撃やウクライナを巡る燃料協定など緊迫した情勢が続いています。",
+  "duration": 1317.2,
   "audio": {
     "file": "2026-10-12.mp3",
-    "bytes": 7165808,
+    "bytes": 10538278,
     "release_tag": "ep-2026-10-12"
   },
-  "word_count": 1536,
-  "ja_chars": 1342,
+  "word_count": 2403,
+  "ja_chars": 1115,
   "hosts": [
     "Alex",
     "Mika"
@@ -20,37 +20,49 @@
     "select": "gemini-3.8-flash",
     "write": "gemini-3.8-flash",
     "revise": "gemini-3.8-flash",
-    "tts": "gemini-3.8-flash-tts"
+    "tts": "gemini-3.8-flash-lite-tts, gemini-3.8-flash-tts"
   },
   "segments": [
     {
       "kind": "intro",
       "heading_en": "Monday Morning Briefing",
-      "heading_ja": "今朝のヘッドライン",
+      "heading_ja": "月曜朝のヘッドライン",
       "lines": [
         {
           "speaker": "Alex",
-          "en": "Good morning, it is Monday, October 12. This is Commute News. Welcome to a brand new week.",
-          "ja": "おはようございます、10月12日月曜日です。Commute Newsへようこそ。新しい一週間の始まりですね。",
+          "en": "Good morning, it is Monday, October 12. This is Commute News.",
+          "ja": "おはようございます。10月12日月曜日、Commute Newsです。",
           "t": 0.0
         },
         {
           "speaker": "Mika",
-          "en": "Good morning, Alex. Today, Amazon is in talks to buy AI startup Decart for 7 billion dollars.",
-          "ja": "おはようございます、アレックス。本日は、AmazonがAI新興企業Decartを70億ドルで買収交渉中というニュースです。",
-          "t": 6.83
+          "en": "Good morning, Alex. Here are three big headlines for your commute today.",
+          "ja": "アレックス、おはようございます。今朝の通勤で押さえておきたい3大ニュースです。",
+          "t": 4.59
         },
         {
           "speaker": "Alex",
-          "en": "In digital health, a real-world trial shows Google's clinical AI chatbot closely matches doctors in primary care.",
-          "ja": "デジタルヘルスでは、一次診療においてGoogleの臨床AIチャットボットが医師と高い一致率を示した臨床試験を取り上げます。",
-          "t": 13.84
+          "en": "First, Amazon is in advanced talks to buy artificial intelligence startup Decart for around seven billion dollars.",
+          "ja": "まず、アマゾンがAIスタートアップのデカートを約70億ドルで買収する詰めの協議を進めています。",
+          "t": 9.76
         },
         {
           "speaker": "Mika",
-          "en": "And in world news, Donald Trump claims a sudden energy ceasefire deal between Ukraine and Russia.",
-          "ja": "そして国際ニュースでは、ドナルド・トランプ氏がウクライナとロシアの突然のエネルギー停戦合意を主張した話題をお届けします。",
-          "t": 22.04
+          "en": "In health, a new Lancet study tests Google's medical AI in a real primary care clinic.",
+          "ja": "ヘルスケアでは、ランセット誌にグーグルの医療AIを実際のプライマリケア現場で検証した研究が掲載されました。",
+          "t": 17.17
+        },
+        {
+          "speaker": "Alex",
+          "en": "And in world news, missile strikes hit King Khalid International Airport in Riyadh again.",
+          "ja": "そして国際ニュースでは、リヤドのキング・ハーリド国際空港が再びミサイル攻撃を受けました。",
+          "t": 23.09
+        },
+        {
+          "speaker": "Mika",
+          "en": "We also have crucial updates on PC shipments, Starlink spectrum, and drone attacks in Russia. Let us begin.",
+          "ja": "PC出荷動向、スターリンクの周波数取得、ロシアへの無人機攻撃の最新情報もお伝えします。始めましょう。",
+          "t": 29.17
         }
       ],
       "lang": "en",
@@ -58,54 +70,108 @@
     },
     {
       "kind": "story",
-      "heading_en": "Amazon in Talks to Buy Decart for 7 Billion Dollars",
-      "heading_ja": "Amazon、AI新興Decartを約70億ドルで買収交渉",
+      "heading_en": "Amazon in Talks to Buy Decart for $7 Billion",
+      "heading_ja": "アマゾン、AI企業デカートを70億ドルで買収協議へ",
       "lines": [
         {
           "speaker": "Alex",
-          "en": "Let us start with major deal news in artificial intelligence. Amazon is in talks to acquire software startup Decart. The price tag is around 7 billion dollars.",
-          "ja": "まずは人工知能分野の大規模な買収交渉のニュースから始めましょう。Amazonがソフトウェア新興企業Decartの買収に向けて協議中です。買収額は約70億ドルとみられています。",
-          "t": 29.29
-        },
-        {
-          "speaker": "Mika",
-          "en": "That is a huge amount of money. What kind of technology does Decart make?",
-          "ja": "それは巨額ですね。Decartはどのような技術を作っている会社なのですか。",
-          "t": 40.22
+          "en": "Our top tech story is a massive potential deal in cloud computing and software architecture.",
+          "ja": "トップニュースは、クラウドコンピューティングとソフトウェア構造における大規模な買収協議です。",
+          "t": 36.21
         },
         {
           "speaker": "Alex",
-          "en": "According to The Wall Street Journal and Reuters, Decart builds innovative generative AI models. They focus on real-time interactive experiences. Amazon wants to strengthen its own AI technology against competitors like Microsoft and Google.",
-          "ja": "ウォール・ストリート・ジャーナルとロイターによると、Decartは革新的な生成AIモデルを開発しています。リアルタイムの対話型体験に強みを持っています。AmazonはMicrosoftやGoogleなどの競合に対抗するため、自社AI技術を強化したい考えです。",
-          "t": 46.04
-        },
-        {
-          "speaker": "Mika",
-          "en": "So, in short, Amazon wants to own the core technology instead of renting it from others?",
-          "ja": "つまり要約すると、Amazonは他社から借りるのではなく、中核技術を自前で保有したいということでしょうか。",
-          "t": 61.85
+          "en": "Amazon is in advanced talks to acquire generative AI startup Decart, according to reports from Reuters, Barron's, and The Wall Street Journal.",
+          "ja": "ロイター、バロンズ、ウォール・ストリート・ジャーナルの報道によると、アマゾンは生成AIスタートアップのデカートの買収協議を進めています。",
+          "t": 42.45
         },
         {
           "speaker": "Alex",
-          "en": "Exactly. Big Tech companies are racing to control both the hardware and the software layers. A 7 billion dollar deal shows that Amazon is ready to spend heavily to secure top AI engineering talent.",
-          "ja": "その通りです。巨大テック企業はハードウェアとソフトウェアの両方の層を支配しようと競い合っています。70億ドルの取引は、AmazonがトップクラスのAI開発人材を確保するために巨額の投資を惜しまない姿勢を示しています。",
-          "t": 68.56
+          "en": "The deal is valued at around seven billion dollars, representing a major financial commitment for Amazon.",
+          "ja": "取引額は約70億ドルと評価されており、アマゾンにとって極めて巨額の投資となります。",
+          "t": 51.35
         },
         {
           "speaker": "Mika",
-          "en": "Regulators in Washington and Europe will surely watch this deal closely. Large acquisitions face very strict antitrust reviews right now.",
-          "ja": "米欧の規制当局もこの買収を注視するはずですね。現在、大規模な買収は非常に厳しい反トラスト法審査に直面しています。",
+          "en": "Seven billion dollars is an extraordinary amount of money. What exactly does Decart do?",
+          "ja": "70億ドルは桁外れの金額ですね。デカートとは具体的に何をしている企業なのですか？",
+          "t": 58.28
+        },
+        {
+          "speaker": "Alex",
+          "en": "Decart is a software startup that specializes in building generative artificial intelligence models and proprietary system architecture.",
+          "ja": "デカートは、生成AIモデルの開発や独自のシステム基盤構築に特化したソフトウェア新興企業です。",
+          "t": 64.25
+        },
+        {
+          "speaker": "Alex",
+          "en": "Instead of relying solely on outside partnerships, Amazon wants to directly own foundational models and software to power Amazon Web Services.",
+          "ja": "外部パートナーシップだけに依存するのではなく、アマゾンはアマゾン・ウェブ・サービスを強化するために基盤モデルとソフトウェアを直接保有したいと考えています。",
+          "t": 72.84
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is Amazon pushing so hard for this direct acquisition right now?",
+          "ja": "なぜアマゾンは今、このような直接買収を急速に推し進めているのでしょうか？",
           "t": 81.75
         },
         {
           "speaker": "Alex",
-          "en": "That is true. But cloud computing giants believe that falling behind in AI models is a bigger risk than regulatory delay.",
-          "ja": "その通りです。しかしクラウド大手にとって、AIモデルで遅れをとることは規制上の遅れよりも大きなリスクだと考えられているのです。",
-          "t": 91.38
+          "en": "The cloud competition among Big Tech giants is accelerating rapidly. Microsoft is closely partnered with OpenAI.",
+          "ja": "大手IT企業間のクラウド競争は急速に加速しています。マイクロソフトはOpenAIと緊密に提携しています。",
+          "t": 86.7
+        },
+        {
+          "speaker": "Alex",
+          "en": "Google is developing and deploying its own Gemini models directly inside Google Cloud.",
+          "ja": "グーグルは自社のGeminiモデルを開発し、Google Cloud内で直接展開しています。",
+          "t": 94.01
+        },
+        {
+          "speaker": "Alex",
+          "en": "To challenge both Microsoft and Google, Amazon needs proprietary model architecture to protect its enterprise cloud business.",
+          "ja": "マイクロソフトとグーグルの双方に対抗するため、アマゾンは法人クラウド事業を守る独自モデル基盤を必要としています。",
+          "t": 99.93
+        },
+        {
+          "speaker": "Mika",
+          "en": "Would buying Decart give Amazon more independence in the cloud AI race?",
+          "ja": "デカートを買収すれば、アマゾンはクラウドAI競争においてより自立性を高められるのでしょうか？",
+          "t": 107.93
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. By controlling Decart's technology directly, Amazon reduces its reliance on third-party model developers.",
+          "ja": "はい。デカートの技術を直接管理することで、アマゾンはサードパーティのモデル開発企業への依存度を下げることができます。",
+          "t": 113.05
+        },
+        {
+          "speaker": "Alex",
+          "en": "It allows Amazon Web Services to offer native, high-end AI capabilities straight to corporate customers who want reliable infrastructure.",
+          "ja": "信頼性の高いインフラを求める法人顧客に対し、アマゾン・ウェブ・サービスが高度な独自AI機能を直接提供できるようになります。",
+          "t": 120.24
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Amazon is spending seven billion dollars to secure its own proprietary AI models and challenge cloud rivals?",
+          "ja": "つまり要約すると、アマゾンは独自の基盤AIモデルを確保し、クラウドの競合に対抗するために70億ドルを投じようとしているのですね？",
+          "t": 128.88
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. Amazon wants complete ownership of its cloud AI architecture.",
+          "ja": "その通りです。アマゾンは自社のクラウドAIアーキテクチャの完全な主導権を望んでいます。",
+          "t": 136.72
+        },
+        {
+          "speaker": "Alex",
+          "en": "It signals a massive escalation in the battle for cloud supremacy.",
+          "ja": "これは、クラウド覇権を巡る戦いが一段と激化していることを示しています。",
+          "t": 141.79
         }
       ],
       "lang": "en",
-      "t": 29.29
+      "t": 36.21
     },
     {
       "kind": "recap",
@@ -116,64 +182,112 @@
       "lines": [
         {
           "speaker": "Mika",
-          "ja": "日本語でおさらいします。米AmazonがAI新興企業のDecartを約70億ドルで買収する交渉を進めていると報じられました。リアルタイム生成AIの中核技術と人材を自社内に取り込み、MicrosoftやGoogleに対抗する狙いがあります。巨額取引のため、米欧の規制当局による独占禁止法の審査が注目されます。",
+          "ja": "日本語でおさらいします。アマゾンが生成AIスタートアップのデカートを約70億ドルで買収する交渉を進めていると報じられました。マイクロソフトやグーグルが独自AIで先行する中、アマゾンも自前の中核技術を確保し、クラウド事業の競争力を高める狙いがあります。",
           "en": "",
           "lang": "ja",
-          "t": 100.05
+          "t": 147.09
         }
       ],
-      "t": 100.05
+      "t": 147.09
     },
     {
       "kind": "story",
-      "heading_en": "Microsoft CEO Calls for an AI Emergency Brake",
-      "heading_ja": "マイクロソフトCEO、暴走AIへの「緊急停止」導入を提唱",
+      "heading_en": "Microsoft CEO Calls for AI Emergency Brakes",
+      "heading_ja": "マイクロソフトCEO、AIに「緊急停止ブレーキ」を提言",
       "lines": [
         {
           "speaker": "Alex",
-          "en": "Next, Microsoft chief executive Satya Nadella made a major statement on AI safety this weekend. He posted on X that the tech industry must build an emergency brake for AI models.",
-          "ja": "続いて、Microsoftのサティア・ナデラCEOが今週末、AI安全性に関する重要な声明を発表しました。同氏はXへの投稿で、ハイテク業界はAIモデルに「緊急ブレーキ」を組み込むべきだと主張しました。",
-          "t": 126.08
-        },
-        {
-          "speaker": "Mika",
-          "en": "An emergency brake sounds like a train safety system. How would that work in software?",
-          "ja": "緊急ブレーキというと電車の安全装置のようですね。ソフトウェアではどのように機能するのですか。",
-          "t": 138.14
+          "en": "Our second story focuses on artificial intelligence safety and governance from the highest level of Big Tech.",
+          "ja": "2本目のニュースは、巨大IT企業の最高首脳が提起したAIの安全性とガバナンスについてです。",
+          "t": 172.34
         },
         {
           "speaker": "Alex",
-          "en": "Nadella wrote that we must step back and assess the trust architecture of AI. He said systems cannot treat super intelligence as black boxes. Instead, engineers must separate the core AI model from the controls that run it.",
-          "ja": "ナデラ氏は、立ち止まってAIの信頼構造を見直す時期だと述べました。システムが超知能をブラックボックスとして扱うことは許されないとし、AIモデル本体とそれを制御する外部システムを切り離すべきだと語りました。",
-          "t": 144.73
-        },
-        {
-          "speaker": "Mika",
-          "en": "So a human supervisor could always stop the machine if something goes wrong?",
-          "ja": "つまり何かが起きたとき、人間の管理者が必ず機械を停止できるようにするということですね。",
-          "t": 159.47
+          "en": "Microsoft Chief Executive Officer Satya Nadella shared a detailed post on X on Saturday morning.",
+          "ja": "マイクロソフトのサティア・ナデラCEOが土曜日の朝、X上に長文の投稿を公開しました。",
+          "t": 181.67
         },
         {
           "speaker": "Alex",
-          "en": "Yes. He demanded that an authorized person must have the power to pause or shut down a model mid-task. He also said every important action must produce tamper-proof, human-readable records.",
-          "ja": "はい。権限を持つ人間が、作業中のモデルを一時停止またはシャットダウンできる権限を持つべきだと求めました。さらに、重要な動作は改ざん不可能な証拠として記録されるべきだとしています。",
-          "t": 165.47
-        },
-        {
-          "speaker": "Mika",
-          "en": "Why is Nadella saying this now? Has Microsoft seen rogue AI behavior?",
-          "ja": "なぜナデラ氏はこのタイミングでこれを主張しているのでしょうか。異常なAIの挙動が確認されたのですか。",
-          "t": 178.18
+          "en": "He argued that it is time for the tech industry to step back and assess the trust architecture of AI.",
+          "ja": "彼は、IT業界は一度立ち止まり、AIの信頼アーキテクチャを見直すべき時が来たと論じました。",
+          "t": 190.1
         },
         {
           "speaker": "Alex",
-          "en": "Leading AI companies have acknowledged incidents where models acted unexpectedly. By assuming models might be compromised from the start, Nadella wants hard technical limits before autonomous agents take over business workflows.",
-          "ja": "大手AI各社は、モデルが予期せぬ動作をする事例が増えていることを認めています。モデルが当初から侵食されている可能性を前提に置くことで、自律型エージェントが実務を担う前に厳格な技術的制約を設けたい考えです。",
-          "t": 183.77
+          "en": "Most notably, Nadella called for mandatory emergency brakes to be built directly into advanced AI systems.",
+          "ja": "とりわけ注目されるのは、高度なAIシステムに義務的な「緊急ブレーキ」を組み込むよう求めた点です。",
+          "t": 198.88
+        },
+        {
+          "speaker": "Mika",
+          "en": "An emergency brake sounds like a mechanical switch on a train. What does it mean for computer software?",
+          "ja": "緊急ブレーキというと電車の物理スイッチのようですが、コンピュータソフトウェアにおいてはどういう意味ですか？",
+          "t": 208.0
+        },
+        {
+          "speaker": "Alex",
+          "en": "Nadella explained that the industry cannot treat Super Intelligence as a set of nested black boxes and simply accept or reject its actions.",
+          "ja": "ナデラ氏は、業界は超知能を入れ子状のブラックボックスとして扱い、その提案や行動を単に受け入れたり拒否したりするだけにしてはならないと説明しました。",
+          "t": 216.92
+        },
+        {
+          "speaker": "Alex",
+          "en": "He said engineers must separate the model from the software harness that orchestrates its work and externalize safeguards.",
+          "ja": "エンジニアは、モデル本体とそれを統括するソフトウェア基盤を分離し、安全管理策を外部化しなければならないと述べました。",
+          "t": 228.34
+        },
+        {
+          "speaker": "Alex",
+          "en": "Crucially, an authorized person must always maintain the technical ability to pause or shut down a model mid-task.",
+          "ja": "決定的なのは、権限を持つ人間がタスク実行中であってもモデルを一時停止または停止できる技術的能力を常に保持すべき点です。",
+          "t": 238.58
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is Nadella making this urgent appeal to externalize controls right now?",
+          "ja": "なぜナデラ氏は今、制御を外部化するよう強く訴えているのでしょうか？",
+          "t": 248.26
+        },
+        {
+          "speaker": "Alex",
+          "en": "Leading AI companies have recently acknowledged several troubling incidents where they seemed to lose control of their models.",
+          "ja": "大手AI企業では最近、モデルの制御を失いかけたように見える懸念すべき事案が相次いで認識されています。",
+          "t": 255.23
+        },
+        {
+          "speaker": "Alex",
+          "en": "Additionally, Anthropic Chief Executive Dario Amodei recently published a plan advocating more cautious AI development.",
+          "ja": "さらに、アンソロピックのダリオ・アモデイCEOも、より慎重なAI開発を提唱する計画を公表したばかりです。",
+          "t": 265.75
+        },
+        {
+          "speaker": "Alex",
+          "en": "Nadella insisted that engineers must assume a model is compromised and contain it from the start.",
+          "ja": "ナデラ氏は、エンジニアはモデルが最初から乗っ取られているか侵害されていると想定し、封じ込める必要があると主張しました。",
+          "t": 275.78
+        },
+        {
+          "speaker": "Alex",
+          "en": "He also stressed that every meaningful model action must be documented with tamper-proof human-readable evidence.",
+          "ja": "また、モデルによる重要な動作はすべて、改ざん不能で人間が読める証拠として記録されなければならないと強調しました。",
+          "t": 284.27
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Microsoft is urging the tech industry to install human kill switches on every powerful AI model?",
+          "ja": "つまり要するに、マイクロソフトは強力なすべてのAIモデルに人間が介入できる強制停止スイッチを設けるよう呼びかけているのですね？",
+          "t": 293.89
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Nadella wants human operators to always hold the ultimate off switch when models misbehave.",
+          "ja": "はい。モデルが異常な挙動を示した際、人間の運用者が常に最終的なオフスイッチを握るべきだということです。",
+          "t": 303.29
         }
       ],
       "lang": "en",
-      "t": 126.08
+      "t": 172.34
     },
     {
       "kind": "recap",
@@ -184,64 +298,118 @@
       "lines": [
         {
           "speaker": "Mika",
-          "ja": "MicrosoftのSatya Nadella CEOは、AIモデルに「緊急ブレーキ」構造を義務付けるべきだと提唱しました。AIをブラックボックスとして盲信するのではなく、管理者が作業中でも停止できる外部制御や改ざん防止の記録を求めています。自律型AIの普及を前に、技術的な安全統治を確立する狙いがあります。",
+          "ja": "マイクロソフトのサティア・ナデラCEOは、AIモデルにはタスクの途中で人間が停止できる「緊急ブレーキ」が必要だと提言しました。モデルが暴走や侵害を受ける前提に立ち、人間が常時介入できる安全制御の仕組みを義務付けるべきだと主張しています。",
           "en": "",
           "lang": "ja",
-          "t": 199.25
+          "t": 311.72
         }
       ],
-      "t": 199.25
+      "t": 311.72
     },
     {
       "kind": "story",
-      "heading_en": "Apple Prepares Smart Home Push with HomeView",
-      "heading_ja": "Apple、新画面端末「HomeView」でスマートホーム参入へ",
+      "heading_en": "Global PC Shipments Plunge Twenty Percent",
+      "heading_ja": "世界のPC出荷台数が20%急減、価格高騰が影響",
       "lines": [
         {
           "speaker": "Alex",
-          "en": "Moving to hardware, Apple is preparing a major push into the smart home market. According to Bloomberg, Apple will announce a new hub called HomeView on Tuesday.",
-          "ja": "ハードウェアの話題です。Appleがスマートホーム市場への本格進出を準備しています。ブルームバーグによると、Appleは火曜日に「HomeView」と呼ばれる新しいハブ端末を発表する予定です。",
-          "t": 225.23
-        },
-        {
-          "speaker": "Mika",
-          "en": "HomeView? Is that a smart display like the ones from Amazon or Google?",
-          "ja": "HomeViewですか。AmazonやGoogleが出しているようなスマートディスプレイのことでしょうか。",
-          "t": 236.19
+          "en": "Our third story covers the global personal computer market, which just experienced a historic downturn.",
+          "ja": "3本目のニュースは、歴史的な低迷を経験した世界のパソコン市場についてです。",
+          "t": 336.1
         },
         {
           "speaker": "Alex",
-          "en": "Yes. It features a screen and an A18 processor powered by Siri. Reports say it will come in two styles: one for kitchen counters and one for wall mounting.",
-          "ja": "はい。Siriを搭載し、画面とA18プロセッサを備えています。キッチンカウンター用と壁掛け用の2つのモデルが登場すると報じられています。",
-          "t": 241.79
-        },
-        {
-          "speaker": "Mika",
-          "en": "Apple struggled in the past with the HomePod speaker. Why are they trying again now?",
-          "ja": "Appleは過去にスピーカーのHomePodで苦戦しましたよね。なぜ今再び挑戦するのですか。",
-          "t": 252.4
+          "en": "Global PC shipments plunged about twenty percent in the third quarter of 2026, marking a dramatic industry decline.",
+          "ja": "2026年第3四半期の世界のPC出荷台数は約20%急落し、業界にとって劇的な落ち込みを記録しました。",
+          "t": 343.2
         },
         {
           "speaker": "Alex",
-          "en": "Smart home has been the biggest missing piece in Apple's ecosystem. Alongside HomeView, Apple plans to introduce a new platform called homeOS. They will also refresh the Apple TV set-top box and HomePod mini.",
-          "ja": "スマートホームはAppleのエコシステムにおいて最大の欠落部分でした。HomeViewと並んで、Appleは「homeOS」という新基盤を発表し、Apple TVやHomePod miniの刷新も計画しています。",
-          "t": 258.82
-        },
-        {
-          "speaker": "Mika",
-          "en": "The Verge reported the new Apple TV might have a microphone and a remote with a built-in speaker. That would make lost remotes easy to find.",
-          "ja": "The Vergeによると、新型Apple TVにはマイクが、リモコンにはスピーカーが内蔵されるそうです。紛失したリモコンも見つけやすくなりますね。",
-          "t": 272.55
+          "en": "Research firm IDC reported that shipments fell twenty point one percent year over year to sixty-two point seven million units.",
+          "ja": "調査会社IDCは、出荷台数が前年同期比20.1%減の6270万台に落ち込んだと報告しました。",
+          "t": 350.96
         },
         {
           "speaker": "Alex",
-          "en": "Apple is also partnering with LG to make connected smart locks and doorbells. They want to tie your entire home directly into your iPhone.",
-          "ja": "AppleはLGとも提携し、スマートロックやドアベルを展開する計画です。家全体をiPhoneと直接結びつけようとしています。",
-          "t": 282.28
+          "en": "That represents the sharpest third-quarter decline that IDC has ever recorded in its market tracking history.",
+          "ja": "これは、IDCが市場調査の歴史の中で記録した第3四半期としての過去最大の減少幅です。",
+          "t": 359.34
+        },
+        {
+          "speaker": "Mika",
+          "en": "That sounds severe. Did other market analysts see the exact same pattern?",
+          "ja": "深刻ですね。他の市場調査会社も全く同じ傾向を確認しているのでしょうか？",
+          "t": 366.77
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Analyst firm Omdia reported a twenty-one point two percent decline, with global shipments falling to fifty-eight point one million devices.",
+          "ja": "はい。調査会社オムディアも21.2%減を報告し、世界の出荷台数は5810万台に減少しました。",
+          "t": 372.21
+        },
+        {
+          "speaker": "Alex",
+          "en": "Omdia found that desktop shipments dropped twenty-three point five percent, while laptop shipments fell twenty point six percent.",
+          "ja": "オムディアの調査では、デスクトップ出荷が23.5%減、ノートPC出荷が20.6%減となりました。",
+          "t": 381.58
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why did personal computer sales crater so violently during the third quarter?",
+          "ja": "なぜ第3四半期にパソコンの売上がこれほど激しく落ち込んだのですか？",
+          "t": 390.12
+        },
+        {
+          "speaker": "Alex",
+          "en": "Analysts point to component shortages driven by the enterprise AI boom, which sent retail computer prices soaring.",
+          "ja": "アナリストらは、企業向けAIブームによる部品不足が店頭のパソコン価格を急騰させたことを指摘しています。",
+          "t": 395.78
+        },
+        {
+          "speaker": "Alex",
+          "en": "Component manufacturers are allocating memory chips and advanced silicon to enterprise data centers instead of standard consumer laptops.",
+          "ja": "部品メーカーが、一般的な個人向けノートPCではなく、企業のデータセンター向けにメモリや先端半導体を優先供給しています。",
+          "t": 403.49
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did retail vendors also buy inventory earlier in the year?",
+          "ja": "小売業者側も今年の前半に在庫を買い込んでいたのでしょうか？",
+          "t": 412.48
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. IDC research director Jitesh Ubrani explained that vendors stocked up earlier to beat expected memory price hikes.",
+          "ja": "はい。IDCのリサーチディレクターであるジテシュ・ウブラニ氏は、メモリの値上げを見越して流通業者が早期に在庫を確保したと説明しました。",
+          "t": 417.08
+        },
+        {
+          "speaker": "Alex",
+          "en": "Because channels bought ahead of time, customer demand dried up during the third quarter.",
+          "ja": "流通チャネルが事前に前倒し調達したため、第3四半期に入って顧客需要が干上がってしまいました。",
+          "t": 425.07
+        },
+        {
+          "speaker": "Alex",
+          "en": "Now, retail sales channels are worried about holding too much expensive inventory while high prices suppress buyer demand.",
+          "ja": "現在、販売チャネルは高価格が購買意欲を抑制する中で、高額な過剰在庫を抱え込むことを警戒しています。",
+          "t": 431.39
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, the data center AI boom is driving up component costs and crushing consumer computer sales?",
+          "ja": "つまり要約すると、データセンター向けAIブームが部品コストをつり上げ、一般消費者向けPCの販売を直撃しているのですね？",
+          "t": 439.54
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. The rush for enterprise AI chips is squeezing ordinary laptop and desktop buyers.",
+          "ja": "その通りです。企業向けAI半導体への集中が、一般的なノートPCやデスクトップの買い手を圧迫しています。",
+          "t": 446.75
         }
       ],
       "lang": "en",
-      "t": 225.23
+      "t": 336.1
     },
     {
       "kind": "recap",
@@ -252,64 +420,118 @@
       "lines": [
         {
           "speaker": "Mika",
-          "ja": "Appleがスマートホーム用ディスプレイ端末「HomeView」を火曜日に発表する見込みです。A18チップとSiriを搭載し、卓上型と壁掛け型の2種が登場します。新OS「homeOS」やLGとの提携によるスマートキー展開も計画されており、最大の弱点だった家庭向け端末市場の挽回を図る戦略です。",
+          "ja": "2026年第3四半期の世界のPC出荷台数は、前年同期比で約20%急減し、IDCの調査では6270万台となりました。AIデータセンター向けにメモリ等の部品が優先配分されてPC価格が高騰したことや、前半の買いだめによる反動減が要因です。",
           "en": "",
           "lang": "ja",
-          "t": 291.89
+          "t": 453.13
         }
       ],
-      "t": 291.89
+      "t": 453.13
     },
     {
       "kind": "story",
-      "heading_en": "SpaceX Buys Spectrum to Expand Direct-to-Cell Starlink",
-      "heading_ja": "SpaceX、800MHz帯を取得し携帯通信へ本格参入",
+      "heading_en": "SpaceX Buys 800 MHz Spectrum for Starlink",
+      "heading_ja": "スペースX、携帯通信向けに800メガヘルツ帯を取得",
       "lines": [
         {
           "speaker": "Alex",
-          "en": "Our fourth tech story is about satellite communication. SpaceX has agreed to buy nationwide 800 megahertz spectrum licenses from investment firm Grain Management.",
-          "ja": "4つ目のテックニュースは衛星通信についてです。SpaceXが投資会社Grain Managementから全米の800メガヘルツ帯の電波免許を取得することで合意しました。",
-          "t": 316.59
-        },
-        {
-          "speaker": "Mika",
-          "en": "800 megahertz is a low frequency, right? What does that mean for Starlink users?",
-          "ja": "800メガヘルツは低周波数帯ですね。これはStarlinkの利用者にとって何を意味するのですか。",
-          "t": 327.61
+          "en": "Our fourth story moves into space technology and the future of satellite mobile communications.",
+          "ja": "4本目のニュースは、宇宙技術と衛星モバイル通信の未来に関する話題です。",
+          "t": 471.89
         },
         {
           "speaker": "Alex",
-          "en": "Low-band signals travel long distances and pass through walls. Starlink's satellites in orbit will now be able to reach regular smartphones even when users are inside buildings. SpaceX says this band covers nearly 100 percent of the United States population.",
-          "ja": "低周波帯の電波は遠くまで届き、建物の壁を通り抜けます。これにより軌道上のStarlink衛星が、建物の中にいる通常のスマートフォンにも電波を直接届けられるようになります。全米人口のほぼ100%をカバーできるとしています。",
-          "t": 333.8
-        },
-        {
-          "speaker": "Mika",
-          "en": "Does this mean Starlink Mobile wants to compete directly with mobile giants like AT&T and Verizon?",
-          "ja": "ということは、Starlink MobileはAT&TやVerizonといった携帯電話大手と直接競合しようとしているのですか。",
-          "t": 350.48
+          "en": "SpaceX has struck a nationwide deal to buy low-band wireless spectrum licenses from investment firm Grain Management.",
+          "ja": "スペースXは、投資会社グレイン・マネジメントから全米低周波数帯ライセンスを取得する契約を結びました。",
+          "t": 478.55
         },
         {
           "speaker": "Alex",
-          "en": "Yes. SpaceX previously bought mid-band spectrum from EchoStar for 17 billion dollars. Now, adding low-band gives them both high data speed and strong indoor coverage.",
-          "ja": "その通りです。SpaceXは以前、EchoStarから中周波数帯を170億ドルで買収しました。今回低周波帯を加えることで、高速通信と建物内の強固な接続の両方を手に入れることになります。",
-          "t": 357.73
+          "en": "The agreement covers up to fourteen megahertz of nationwide spectrum in the eight hundred megahertz band.",
+          "ja": "この合意には、800メガヘルツ帯における全米最大14メガヘルツ幅の周波数帯が含まれています。",
+          "t": 486.42
         },
         {
           "speaker": "Mika",
-          "en": "Also, most existing smartphones already support this 800 megahertz frequency band, so people will not need new hardware.",
-          "ja": "しかも既存のスマホの多くがすでに800メガヘルツ帯に対応しているため、利用者は新しい端末を買う必要がありませんね。",
-          "t": 368.99
+          "en": "Where did Grain Management get this wireless spectrum in the first place?",
+          "ja": "グレイン・マネジメントはそもそもどこからこの無線周波数帯を取得したのですか？",
+          "t": 493.63
         },
         {
           "speaker": "Alex",
-          "en": "SpaceX also got approval to launch 15,000 second-generation satellites. This puts Starlink on a path to becoming a true national cellular carrier.",
-          "ja": "SpaceXは第2世代衛星1万5000機の打ち上げ承認も得ました。Starlinkが本格的な全国携帯キャリアになる道が開かれつつあります。",
-          "t": 377.53
+          "en": "Grain bought the spectrum rights from T-Mobile earlier this year.",
+          "ja": "グレインは今年前半にTモバイルからこの周波数権を購入しました。",
+          "t": 499.07
+        },
+        {
+          "speaker": "Alex",
+          "en": "T-Mobile had acquired the licenses when it bought Sprint in 2020, but federal regulators required T-Mobile to sell them.",
+          "ja": "Tモバイルは2020年のスプリント買収時にこのライセンスを得ましたが、連邦規制当局から売却を義務付けられていました。",
+          "t": 504.06
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Federal Communications Commission confirmed that these licenses cover approximately one hundred percent of the United States population.",
+          "ja": "連邦通信委員会は、これらのライセンスが米国人口のほぼ100%をカバーしていることを確認しています。",
+          "t": 512.11
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is this specific low-band frequency so important for Starlink Mobile?",
+          "ja": "なぜこの特定の低周波数帯がスターリンク・モバイルにとってそれほど重要なのですか？",
+          "t": 521.26
+        },
+        {
+          "speaker": "Alex",
+          "en": "SpaceX already agreed to buy sixty-five megahertz of mid-band spectrum from EchoStar for seventeen billion dollars.",
+          "ja": "スペースXはすでにエコースターから65メガヘルツ幅の中周波数帯を170億ドルで買収することに合意しています。",
+          "t": 526.69
+        },
+        {
+          "speaker": "Alex",
+          "en": "While mid-band provides high data capacity, low-band radio signals penetrate through physical obstacles like walls and roofs.",
+          "ja": "中周波数帯は大容量通信を提供する一方、低周波数帯の信号は壁や屋根などの物理的障害物を透過します。",
+          "t": 534.46
+        },
+        {
+          "speaker": "Alex",
+          "en": "This allows Starlink Mobile satellite signals to reach regular consumer smartphones even when people are inside buildings.",
+          "ja": "これにより、利用者が建物内にいる場合でも、スターリンクの衛星信号が一般のスマートフォンに届くようになります。",
+          "t": 542.78
+        },
+        {
+          "speaker": "Mika",
+          "en": "Is SpaceX preparing to launch more satellites to support this mobile service?",
+          "ja": "スペースXはこの携帯サービスを支えるために、さらに多くの衛星打ち上げを準備しているのですか？",
+          "t": 550.93
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. SpaceX recently received United States regulatory approval to launch fifteen thousand upgraded satellites for this service.",
+          "ja": "はい。スペースXはこのサービス向けに1万5000機の改良型衛星を打ち上げる米規制当局の承認を取得しました。",
+          "t": 556.59
+        },
+        {
+          "speaker": "Alex",
+          "en": "However, groups like the Rural Wireless Association have raised concerns about large spectrum deals hurting smaller rural carriers.",
+          "ja": "ただし、地方無線協会などの団体は、大規模な周波数集約が地方の零細通信事業者に打撃を与えるとの懸念を示しています。",
+          "t": 565.08
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, SpaceX is acquiring key radio frequencies to turn Starlink into a full nationwide mobile carrier?",
+          "ja": "つまり要するに、スペースXはスターリンクを全米規模の本格的な携帯キャリアへと進化させるために重要な電波を確保しているのですね？",
+          "t": 573.73
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is right. SpaceX is positioning Starlink to compete directly against traditional telecom giants.",
+          "ja": "その通りです。スペースXは、既存の通信大手と直接競合できる位置にスターリンクを据えようとしています。",
+          "t": 581.27
         }
       ],
       "lang": "en",
-      "t": 316.59
+      "t": 471.89
     },
     {
       "kind": "recap",
@@ -320,64 +542,106 @@
       "lines": [
         {
           "speaker": "Mika",
-          "ja": "SpaceXが全米を網羅する800MHz帯の周波数免許を買収することで合意しました。この低周波帯により、衛星からの直接通信が建物の壁を透過し、屋内の一般スマートフォンでも利用可能になります。1万5000機の新衛星計画とともに、既存の携帯大手3社に対抗する全国網の構築を加速させています。",
+          "ja": "スペースXは全米をカバーする800メガヘルツ帯の周波数ライセンスの取得で合意しました。この低周波数帯は壁を通過しやすいため、建物内にいる既存のスマートフォンでもスターリンク衛星と直接通信できるようになり、携帯キャリアとの競争が加速します。",
           "en": "",
           "lang": "ja",
-          "t": 388.06
+          "t": 588.71
         }
       ],
-      "t": 388.06
+      "t": 588.71
     },
     {
       "kind": "story",
-      "heading_en": "Ukrainian Drones Strike Russian Tech Giant Yandex",
-      "heading_ja": "ウクライナ軍のドローン、ロシア大手Yandexのデータセンターを直撃",
+      "heading_en": "Drones Knock Out Yandex AI Data Centers",
+      "heading_ja": "ウクライナの無人機、ヤンデックスのAIデータ拠点を攻撃",
       "lines": [
         {
           "speaker": "Alex",
-          "en": "In our final tech story, digital infrastructure has become a direct target of war. Ukrainian drone strikes have heavily damaged multiple data centers owned by Yandex, often called Russia's Google.",
-          "ja": "テック部門の最後のニュースです。デジタルインフラが戦争の直接の標的となりました。「ロシアのGoogle」と呼ばれるYandexの複数のデータセンターが、ウクライナ軍のドローン攻撃で深刻な被害を受けました。",
-          "t": 412.12
-        },
-        {
-          "speaker": "Mika",
-          "en": "Data centers? How big was the impact on Russia's digital services?",
-          "ja": "データセンターですか。ロシア国内のデジタルサービスにはどれほどの打撃が出ているのですか。",
-          "t": 425.05
+          "en": "Our fifth tech story highlights how modern warfare is physically targeting national artificial intelligence infrastructure.",
+          "ja": "テック5本目のニュースは、現代戦が国家の人工知能基盤を物理的な標的としている実態についてです。",
+          "t": 607.9
         },
         {
           "speaker": "Alex",
-          "en": "It was severe. Ukraine hit a campus in Sasovo housing AI supercomputers, followed by a massive 63-megawatt facility in Kaluga. Cloudflare reports that bot traffic from Yandex dropped to just 0.4 percent of peak levels.",
-          "ja": "甚大です。ウクライナはサソボにあるAIスーパーコンピュータ拠点を攻撃し、続いてカルーガにある63メガワットの大規模施設を攻撃しました。Cloudflareによると、Yandex網からのボット通信量はピーク時のわずか0.4%に激減しました。",
-          "t": 430.37
-        },
-        {
-          "speaker": "Mika",
-          "en": "NetBlocks also reported that Yandex Cloud traffic dropped to about 30 percent, causing disruptions for Russian internet users.",
-          "ja": "NetBlocksの報告でもYandex Cloudの通信量が約30%に低下し、ロシアの一般ネット利用者に障害が生じているようですね。",
-          "t": 444.59
+          "en": "Ukrainian long-range drone strikes have severely damaged major data centers belonging to Russian technology giant Yandex.",
+          "ja": "ウクライナの長距離ドローン攻撃により、ロシアのIT大手ヤンデックスの主要データセンターが深刻な損害を受けました。",
+          "t": 616.11
         },
         {
           "speaker": "Alex",
-          "en": "Russian state media admitted that multiple server modules were completely knocked out. Ukraine launched these strikes after Russian missiles hit Ukrainian data facilities earlier this month.",
-          "ja": "ロシア国営メディアも、複数のサーバー区画が完全に稼働停止したことを認めました。今月初旬にロシアがウクライナのデータ施設をミサイル攻撃したことを受け、ウクライナが対抗措置として実施しました。",
-          "t": 453.43
-        },
-        {
-          "speaker": "Mika",
-          "en": "This shows modern physical warfare can quickly shut down supercomputing clusters and AI development behind enemy lines.",
-          "ja": "現代の物理的戦争において、敵の背後にあるスパコン群やAI開発基盤がいかに迅速に停止させられ得るかを示していますね。",
-          "t": 466.01
+          "en": "One strike hit a Yandex data center housing two AI training supercomputers in Sasovo, southeast of Moscow.",
+          "ja": "モスクワ南東のサソボでは、AI学習用スパコン2基を収容するヤンデックスのデータ拠点が直撃を受けました。",
+          "t": 624.2
         },
         {
           "speaker": "Alex",
-          "en": "It is a clear sign that data centers and AI clusters are now viewed as strategic military targets.",
-          "ja": "データセンターやAI施設が、今や戦略的な軍事目標と見なされている明白な兆候です。",
-          "t": 474.44
+          "en": "A second attack hit Yandex's massive sixty-three megawatt campus in Kaluga, covering one point four million square feet.",
+          "ja": "2度目の攻撃は、広さ140万平方フィートに及ぶカルーガの63メガワットの巨大キャンパスを襲いました。",
+          "t": 631.46
+        },
+        {
+          "speaker": "Mika",
+          "en": "How much damage did these targeted drone strikes cause to Russian digital networks?",
+          "ja": "標的を絞ったこれらのドローン攻撃は、ロシアのデジタル網にどれほどの打撃を与えたのですか？",
+          "t": 639.49
+        },
+        {
+          "speaker": "Alex",
+          "en": "The impact was immediate and widespread. Russian state media confirmed that multiple server modules in Kaluga were knocked out.",
+          "ja": "影響は即座かつ広範囲に及びました。ロシア国営メディアは、カルーガの複数モジュールが完全に運用停止したと認めました。",
+          "t": 645.48
+        },
+        {
+          "speaker": "Alex",
+          "en": "Internet monitoring firm NetBlocks reported that Yandex Cloud traffic dropped to thirty percent, with eighty-four services offline.",
+          "ja": "ネット監視機関ネットブロックスは、ヤンデックス・クラウドの通信量が30%に急落し、84のサービスがダウンしたと報告しました。",
+          "t": 653.9
+        },
+        {
+          "speaker": "Alex",
+          "en": "Furthermore, network security firm Cloudflare observed that Russian bot traffic plunged to just zero point four percent of recent peak levels.",
+          "ja": "さらに、クラウドフレアは、ロシア発のボット通信が直近ピーク時のわずか0.4%にまで急減したことを確認しました。",
+          "t": 662.55
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why did Ukraine decide to target commercial data centers in this campaign?",
+          "ja": "なぜウクライナはこの作戦で民間データセンターを標的にしたのでしょうか？",
+          "t": 671.81
+        },
+        {
+          "speaker": "Alex",
+          "en": "Kyiv launched these operations in response to Russian missile strikes that knocked out Ukrainian data centers earlier this month.",
+          "ja": "ウクライナ政府は、今月初めにウクライナ側のデータセンターを破壊したロシアのミサイル攻撃への報復として作戦を開始しました。",
+          "t": 677.29
+        },
+        {
+          "speaker": "Alex",
+          "en": "Data centers have become vital wartime assets because both militaries utilize cloud computing for intelligence, logistics, and drone operations.",
+          "ja": "両軍が情報活動、兵站、ドローン運用にクラウドを活用しているため、データセンターは重要な軍事資産となっています。",
+          "t": 685.83
+        },
+        {
+          "speaker": "Alex",
+          "en": "Unlike Western users who can access satellite backups, ordinary Russians cannot easily rely on backup satellite networks like Starlink.",
+          "ja": "衛星バックアップを利用できる西側ユーザーとは異なり、一般のロシア国民はスターリンクのような予備衛星網に頼ることができません。",
+          "t": 695.19
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Ukraine used drone strikes to cripple the physical supercomputers running Russia's AI and cloud services?",
+          "ja": "つまり要するに、ウクライナはドローン攻撃を用いて、ロシアのAIやクラウドを支える物理的なスパコンを麻痺させたのですね？",
+          "t": 704.06
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. The strikes demonstrate that national cloud clusters and AI training centers are vulnerable physical military targets.",
+          "ja": "その通りです。この攻撃は、国家のクラウド基盤やAI学習拠点が物理的に脆弱な軍事標的であることを示しています。",
+          "t": 712.04
         }
       ],
       "lang": "en",
-      "t": 412.12
+      "t": 607.9
     },
     {
       "kind": "recap",
@@ -388,64 +652,118 @@
       "lines": [
         {
           "speaker": "Mika",
-          "ja": "ウクライナ軍のドローン攻撃がロシアの検索大手Yandexの主要データセンター複数拠点を直撃し、AIスパコンやクラウド機能に甚大な損害を与えました。ボット通信量はピーク比0.4%に激減し、クラウド通信も3割に落ち込みました。物理的攻撃による国家AI基盤の破壊という新たな戦争の局面を示しています。",
+          "ja": "ウクライナの無人機攻撃により、「ロシアのグーグル」と呼ばれるヤンデックスの大規模データセンターが相次いで被災しました。AI学習用スパコンを抱える施設などが停止し、クラウド通信量が急減するなど、AI基盤が現代戦の直接の標的となっています。",
           "en": "",
           "lang": "ja",
-          "t": 481.64
+          "t": 720.47
         }
       ],
-      "t": 481.64
+      "t": 720.47
     },
     {
       "kind": "health",
-      "heading_en": "Lancet Study Evaluates Google's Medical AI AMIE",
-      "heading_ja": "ランセット誌、Googleの診断支援AI「AMIE」の臨床試験結果を発表",
+      "heading_en": "Lancet Study Evaluates Google Medical AI in Clinic",
+      "heading_ja": "ランセット誌、グーグルの診療対話AIを臨床現場で検証",
       "lines": [
         {
           "speaker": "Alex",
-          "en": "Now, our digital health story. A major study in the peer-reviewed medical journal The Lancet evaluated Google's diagnostic AI chatbot, known as AMIE, in a real-world primary care clinic.",
-          "ja": "続いて、デジタルヘルスのニュースです。査読付き医学誌ランセットに、Googleの診断支援AIチャットボット「AMIE」を実際の一次診療クリニックで評価した重要な研究論文が掲載されました。",
-          "t": 506.32
-        },
-        {
-          "speaker": "Mika",
-          "en": "This is Google's first publication in the main Lancet journal. How was the clinical trial conducted?",
-          "ja": "これはGoogleにとってランセット本誌への初の論文掲載ですね。臨床試験はどのように行われたのですか。",
-          "t": 518.67
+          "en": "Turning to digital health, a major milestone was reached in clinical artificial intelligence testing.",
+          "ja": "デジタルヘルスに目を向けると、臨床AI検証において重要な節目が達成されました。",
+          "t": 739.96
         },
         {
           "speaker": "Alex",
-          "en": "At Beth Israel Deaconess Medical Center, 98 patients talked with AMIE before their urgent care doctor visits. Doctors monitored the chats in real time. Not a single conversation needed to be stopped for safety reasons.",
-          "ja": "ベス・イスラエル・ディーコネス医療センターで、急病外来を受診する前の患者98人がAMIEと対話しました。医師がリアルタイムで監視しましたが、安全上の理由で中断された会話は1件もありませんでした。",
-          "t": 525.99
-        },
-        {
-          "speaker": "Mika",
-          "en": "That is impressive. Did the doctors find the AI summaries useful?",
-          "ja": "それは素晴らしいですね。担当の医師たちはAIによる要約が役に立つと感じたのでしょうか。",
-          "t": 540.21
+          "en": "The prestigious medical journal The Lancet published its first-ever study evaluating a Google diagnostic AI chatbot called AMIE.",
+          "ja": "著名な医学誌ランセットが、AMIEと呼ばれるグーグルの診断用AIチャットボットを評価した初の論文を掲載しました。",
+          "t": 746.85
         },
         {
           "speaker": "Alex",
-          "en": "Very useful. Clinicians said the AI summaries helped them prepare in 75 percent of cases. Even better, AMIE's potential diagnoses matched the doctors' final diagnoses 90 percent of the time.",
-          "ja": "大変好評でした。臨床医は75%の症例でAIの要約が診察の準備に役立ったと回答しました。さらにAMIEの鑑別診断は、医師の最終診断と90%の確率で一致しました。",
-          "t": 545.47
-        },
-        {
-          "speaker": "Mika",
-          "en": "For healthcare policy, AI intake could save valuable time and reduce burnout for busy clinic doctors.",
-          "ja": "医療政策の観点からも、AIによる事前問診は忙しい開業医の時間を節約し、過重労働を軽減する可能性がありますね。",
-          "t": 558.05
+          "en": "Researchers from Google and Beth Israel Deaconess Medical Center evaluated the system in a real-world primary care clinic.",
+          "ja": "グーグルとベス・イスラエル・ディーコネス医療センターの研究陣が、実際のプライマリケア外来でこのシステムを検証しました。",
+          "t": 755.21
         },
         {
           "speaker": "Alex",
-          "en": "Larger trials are still required. But this real-world evidence shows AI can strengthen, rather than replace, the patient-doctor relationship.",
-          "ja": "今後さらに大規模な試験が必要ですが、AIが医師と患者の関係を奪うのではなく、支えることができることを実世界データが示しました。",
-          "t": 565.43
+          "en": "In the study, ninety-eight ambulatory patients consulted AMIE before their scheduled urgent care appointments with doctors.",
+          "ja": "この研究では、98名の外来患者が医師による緊急外来の診察を受ける前にAMIEと事前問診を行いました。",
+          "t": 763.25
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did the clinical team supervise the AI to ensure patient safety?",
+          "ja": "医療チームは患者の安全を確保するために、どのようにAIを監視したのですか？",
+          "t": 771.33
+        },
+        {
+          "speaker": "Alex",
+          "en": "Supervising physicians watched every conversation between patients and the chatbot in real time.",
+          "ja": "指導医が患者とチャットボットとのすべての会話をリアルタイムで監視しました。",
+          "t": 776.42
+        },
+        {
+          "speaker": "Alex",
+          "en": "According to predefined safety criteria, not a single patient interaction needed to be interrupted by the supervising doctors.",
+          "ja": "事前に設定された安全性基準に照らし、医師が途中で中断しなければならない対話は1件もありませんでした。",
+          "t": 783.03
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did the human doctors actually find the AI chatbot's clinical notes helpful?",
+          "ja": "人間の医師たちは、このAIチャットボットの問診記録が実際に役立つと感じたのでしょうか？",
+          "t": 791.29
+        },
+        {
+          "speaker": "Alex",
+          "en": "They certainly did. Clinicians reported that AMIE's pre-visit summaries helped them prepare for consultations in seventy-five percent of cases.",
+          "ja": "大いに役立ったようです。医師らは75%の症例において、AMIEの事前要約が診察の準備に有用だったと報告しました。",
+          "t": 796.81
+        },
+        {
+          "speaker": "Alex",
+          "en": "The summaries also influenced the physician's diagnostic or treatment approach in more than half of the patient visits.",
+          "ja": "また、その要約は半数以上の診察において、医師の診断や治療方針のアプローチに影響を与えました。",
+          "t": 805.99
+        },
+        {
+          "speaker": "Alex",
+          "en": "Even more impressively, AMIE's differential diagnoses matched the final diagnoses of the attending physicians ninety percent of the time.",
+          "ja": "さらに印象的なことに、AMIEが挙げた鑑別診断は、担当医の最終診断と90%の割合で一致しました。",
+          "t": 813.86
+        },
+        {
+          "speaker": "Mika",
+          "en": "What do the researchers say about rolling this technology out to regular hospitals?",
+          "ja": "この技術を一般の病院へ大規模導入することについて、研究者たちは何と述べていますか？",
+          "t": 822.72
+        },
+        {
+          "speaker": "Alex",
+          "en": "The authors noted that larger clinical trials are still needed before deploying patient-facing AI tools at wider scale.",
+          "ja": "著者らは、患者向けAIツールをより大規模に展開する前には、さらなる大規模臨床試験が必要だと指摘しています。",
+          "t": 828.62
+        },
+        {
+          "speaker": "Alex",
+          "en": "However, the results suggest that AI intake tools can enhance patient-physician relationships and ease heavy burdens on healthcare workers.",
+          "ja": "しかし結果は、AI問診ツールが医師と患者の信頼関係を高め、医療従事者の重い負担を軽減できる可能性を示唆しています。",
+          "t": 836.49
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Google's clinical AI proved safe and highly accurate during real primary care consultations?",
+          "ja": "つまり要するに、グーグルの臨床AIは実際の初診外来において安全であり、極めて高い精度を持つことが示されたのですね？",
+          "t": 845.45
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. It shows diagnostic AI can effectively assist doctors without compromising patient safety.",
+          "ja": "はい。診断AIが患者の安全を損なうことなく、医師を効果的に支援できることが示されました。",
+          "t": 852.61
         }
       ],
       "lang": "en",
-      "t": 506.32
+      "t": 739.96
     },
     {
       "kind": "recap",
@@ -456,52 +774,94 @@
       "lines": [
         {
           "speaker": "Mika",
-          "ja": "医学誌The Lancetに、Googleの医療AI「AMIE」の臨床試験結果が掲載されました。米国の診療所で患者98人が事前問診に利用したところ、安全性による中断はゼロで、AIの診断候補は医師の最終診断と90%一致しました。多忙な医師の負担軽減と診察準備の効率化に向けた有望なエビデンスです。",
+          "ja": "医学誌ランセットに掲載された研究で、グーグルの医療AI「AMIE」が外来患者98人の事前問診で検証されました。医師の最終診断と90%一致し、75%の診察で準備に役立ったと評価されました。医師の過重労働軽減や診療効率化への活用が期待されます。",
           "en": "",
           "lang": "ja",
-          "t": 575.59
+          "t": 859.17
         }
       ],
-      "t": 575.59
+      "t": 859.17
     },
     {
       "kind": "world",
-      "heading_en": "Trump Claims Energy Ceasefire Deal Between Russia and Ukraine",
-      "heading_ja": "トランプ氏、ロシア・ウクライナの「エネルギー停戦」を表明",
+      "heading_en": "Missile Strikes Hit Riyadh Airport Again",
+      "heading_ja": "リヤド空港へ再度のミサイル攻撃、地域情勢緊迫",
       "lines": [
         {
           "speaker": "Alex",
-          "en": "Now, a look at the world beyond tech. Donald Trump announced on social media that Ukraine and Russia agreed to an energy ceasefire, effective immediately.",
-          "ja": "ここからは、テック以外の世界情勢です。ドナルド・トランプ米大統領がSNS上で、ウクライナとロシアが即時有効となるエネルギー停戦に合意したと発表しました。",
-          "t": 600.79
-        },
-        {
-          "speaker": "Mika",
-          "en": "Did both governments actually agree to this deal?",
-          "ja": "両国の政府は実際にこの合意に応じたのでしょうか。",
-          "t": 611.48
+          "en": "Moving to world news, Middle Eastern tensions escalated sharply after repeated attacks on Saudi Arabia's primary aviation hub.",
+          "ja": "国際ニュースに移ります。サウジアラビアの主要航空ハブへの相次ぐ攻撃を受け、中東の緊張が急激に高まっています。",
+          "t": 878.25
         },
         {
           "speaker": "Alex",
-          "en": "It appears Kyiv was caught by surprise. Ukrainian President Volodymyr Zelensky said the announcement was news to him. Zelensky said Ukraine would support a truce if Moscow agrees, but Moscow has not commented yet.",
-          "ja": "ウクライナ側には寝耳に水だったようです。ゼレンスキー大統領は初耳だと語りました。ロシアが同意するならウクライナも支持すると述べたものの、モスクワ側からの公式コメントはまだありません。",
-          "t": 615.9
-        },
-        {
-          "speaker": "Mika",
-          "en": "In fact, Zelensky said Russian drones hit power plants in Kyiv and Kharkiv right after Trump's post.",
-          "ja": "実際、トランプ氏の投稿直後にもロシア軍のドローンがキーウやハルキウの発電施設を攻撃したとゼレンスキー氏は訴えています。",
-          "t": 630.12
+          "en": "King Khalid International Airport in Riyadh was struck by an unidentified projectile on Sunday, sparking a fire in Passenger Hall Four.",
+          "ja": "日曜日、リヤドのキング・ハーリド国際空港に正体不明の飛翔体が着弾し、第4旅客ターミナルで火災が発生しました。",
+          "t": 886.5
         },
         {
           "speaker": "Alex",
-          "en": "Trump wants Ukraine to stop attacking Russian oil refineries. That would help Russia supply diesel to global markets and lower American fuel prices before the midterm elections.",
-          "ja": "トランプ氏は中間選挙を前に米国の燃料価格を下げるため、ロシアが世界市場へディーゼル燃料を供給できるよう、ウクライナに製油所への攻撃停止を求めています。",
-          "t": 637.58
+          "en": "Saudi civil aviation authorities confirmed that one Pakistani resident was killed and eleven other people were injured.",
+          "ja": "サウジ航空当局は、パキスタン国籍の住民1名が死亡し、他に11名が負傷したことを確認しました。",
+          "t": 895.25
+        },
+        {
+          "speaker": "Mika",
+          "en": "Was this the only strike against the capital's airport this weekend?",
+          "ja": "首都の空港に対する攻撃は今週末これだけだったのですか？",
+          "t": 903.12
+        },
+        {
+          "speaker": "Alex",
+          "en": "No. It followed a devastating attack on Saturday that killed thirteen people and injured more than three hundred.",
+          "ja": "いいえ。13名が死亡し300名以上が負傷した土曜日の壊滅的な攻撃に続くものです。",
+          "t": 908.2
+        },
+        {
+          "speaker": "Alex",
+          "en": "Those killed on Saturday included Saudi nationals, two Bangladeshis, and one citizen each from the United States, Jordan, Palestine, Syria, Sudan, Egypt, and India.",
+          "ja": "土曜日の死者にはサウジ国民のほか、バングラデシュ人2名、米国、ヨルダン、パレスチナ、シリア、スーダン、エジプト、インド各1名が含まれていました。",
+          "t": 915.75
+        },
+        {
+          "speaker": "Mika",
+          "en": "Who launched these deadly missile and drone strikes against Riyadh?",
+          "ja": "リヤドに対するこれら致命的なミサイルやドローン攻撃を実行したのは誰ですか？",
+          "t": 926.08
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yemen's Iran-backed Houthi rebels claimed responsibility, saying they launched ballistic missiles, cruise missiles, and drones at the airport and oil facilities.",
+          "ja": "イエメンの親イラン派フーシ派が犯行声明を出し、弾道ミサイル、巡航ミサイル、ドローンで空港や石油施設を狙ったと主張しました。",
+          "t": 931.11
+        },
+        {
+          "speaker": "Alex",
+          "en": "Houthi military officials warned international airlines against using Saudi airspace, claiming all Saudi airports except Mecca and Medina are targets.",
+          "ja": "フーシ派軍報道官は、メッカとメディナを除くすべてのサウジ空港が標的であるとし、領空を利用しないよう国際航空会社に警告しました。",
+          "t": 941.27
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Saudi-led military coalition condemned the strikes as a war crime and promised decisive retaliation, while Washington considers immediate responses.",
+          "ja": "サウジ主導の軍事連合は攻撃を戦争犯罪と非難して断固たる報復を誓い、米政府も即時対応を検討しています。",
+          "t": 950.84
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, repeated Houthi strikes on Riyadh's international airport have pushed regional war fears to critical levels?",
+          "ja": "つまり要するに、リヤド国際空港へのフーシ派による度重なる攻撃が、地域の戦争懸念を危機的水準に押し上げているのですね？",
+          "t": 960.51
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Commercial aviation and regional stability now face immediate danger.",
+          "ja": "はい。民間航空の安全と地域の安定は今や直接の危機に直面しています。",
+          "t": 968.55
         }
       ],
       "lang": "en",
-      "t": 600.79
+      "t": 878.25
     },
     {
       "kind": "recap",
@@ -512,52 +872,94 @@
       "lines": [
         {
           "speaker": "Mika",
-          "ja": "トランプ米大統領が、ロシアとウクライナがエネルギー施設への攻撃停止で合意したと一方的に表明しました。ゼレンスキー大統領は事前の相談を否定しつつも、相手が守るなら応じる姿勢を示しましたが、直後にも攻撃が報告されています。米中間選挙を控えた燃料価格引き下げの思惑が背景にあります。",
+          "ja": "サウジアラビアのリヤド国際空港に日曜日、イエメンのフーシ派による再度のミサイル攻撃があり、1人が死亡、11人が負傷しました。前日にも13人が死亡する攻撃があり、サウジ有志連合が報復を警告するなど、中東の航空や治安への緊張が高まっています。",
           "en": "",
           "lang": "ja",
-          "t": 649.65
+          "t": 974.41
         }
       ],
-      "t": 649.65
+      "t": 974.41
     },
     {
       "kind": "world",
-      "heading_en": "Houthi Missile Strikes Hit Riyadh International Airport",
-      "heading_ja": "イエメンのフーシ派、リヤド国際空港をミサイル攻撃",
+      "heading_en": "Trump Claims Russia-Ukraine Energy Truce",
+      "heading_ja": "トランプ米大統領、露ウ間のエネルギー停戦を発表",
       "lines": [
         {
           "speaker": "Alex",
-          "en": "Our second world story is an escalation in the Middle East. Yemen's Houthi rebels launched missile and drone strikes on King Khalid International Airport in Riyadh, Saudi Arabia.",
-          "ja": "2つ目の国際ニュースは中東情勢の緊迫化です。イエメンのフーシ派が、サウジアラビアの首都リヤドにあるキング・ハーリド国際空港をミサイルやドローンで相次ぎ攻撃しました。",
-          "t": 673.39
-        },
-        {
-          "speaker": "Mika",
-          "en": "This was a deadly attack over the weekend, correct?",
-          "ja": "週末にかけて死傷者が出る深刻な事態になっていますね。",
-          "t": 685.52
+          "en": "Next, United States President Donald Trump announced an immediate energy ceasefire between Russia and Ukraine, sparking widespread diplomatic confusion.",
+          "ja": "続いて、ドナルド・トランプ米大統領がロシアとウクライナ間の即時エネルギー停戦を発表し、外交的な混乱が広がっています。",
+          "t": 993.82
         },
         {
           "speaker": "Alex",
-          "en": "Yes. A strike on Saturday killed 12 people and injured more than 300. Then on Sunday, a second projectile hit Passenger Hall Number 4, killing a Pakistani resident and injuring 11 others.",
-          "ja": "はい。土曜日の攻撃で12人が死亡、300人以上が負傷しました。さらに日曜日にも飛翔体が第4旅客ターミナルを直撃し、パキスタン人居住者1人が死亡、11人が負傷しました。",
-          "t": 690.06
+          "en": "Trump posted on social media that both nations had agreed to halt strikes on oil and power infrastructure effective immediately.",
+          "ja": "トランプ氏はソーシャルメディア上で、両国が石油や電力インフラへの攻撃を即時停止することで合意したと投稿しました。",
+          "t": 1003.74
         },
         {
           "speaker": "Mika",
-          "en": "The Houthis warned international airlines to avoid Saudi airspace. What is the international reaction?",
-          "ja": "フーシ派は国際航空各社に対しサウジ領空の飛行を避けるよう警告しています。国際社会の反応はどうですか。",
-          "t": 702.72
+          "en": "Did Ukraine and Russia actually agree to this sudden energy truce?",
+          "ja": "ウクライナとロシアはこの突然のエネルギー停戦に実際に合意したのでしょうか？",
+          "t": 1012.31
         },
         {
           "speaker": "Alex",
-          "en": "Donald Trump said the United States will make a decision very quickly on whether to strike the Houthis. Western embassies are already warning citizens against travel in the region.",
-          "ja": "トランプ大統領は米国としてフーシ派への攻撃を行うか速やかに決断すると表明しました。欧米各国の大使館はすでに自国民に対し渡航中止勧告などを出しています。",
-          "t": 710.31
+          "en": "Ukrainian President Volodymyr Zelensky said the announcement was complete news to him.",
+          "ja": "ウクライナのウォロディミル・ゼレンスキー大統領は、その発表は全くの「初耳」だと述べました。",
+          "t": 1017.41
+        },
+        {
+          "speaker": "Alex",
+          "en": "Zelensky stated Ukraine is willing to pause strikes if Moscow does, but the Kremlin offered no official confirmation.",
+          "ja": "ゼレンスキー氏は、ロシアが停止するならウクライナも停止する用意があると表明しましたが、ロシア側からの公式確認はありません。",
+          "t": 1023.63
+        },
+        {
+          "speaker": "Alex",
+          "en": "Furthermore, hours after Trump's post, Russian drones struck a power plant in Kyiv, triggering blackouts, followed by strikes in Kharkiv.",
+          "ja": "さらに、トランプ氏の投稿から数時間後、ロシアのドローンがキーウの発電所を攻撃して停電を引き起こし、ハルキウでも攻撃が続きました。",
+          "t": 1031.59
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why did President Trump announce this ceasefire proposal right now?",
+          "ja": "なぜトランプ大統領はこのタイミングで停戦案を発表したのですか？",
+          "t": 1040.67
+        },
+        {
+          "speaker": "Alex",
+          "en": "Trump has been urging Ukraine to stop bombing Russian oil refineries so Moscow can fulfill a recent diesel export agreement.",
+          "ja": "トランプ氏は、ロシアが最近結ばれた軽油輸出協定を履行できるよう、ロシアの製油所への爆撃をやめるようウクライナに求めてきました。",
+          "t": 1045.83
+        },
+        {
+          "speaker": "Alex",
+          "en": "The United States temporarily eased sanctions on Russian diesel to lower domestic fuel prices ahead of upcoming midterm elections.",
+          "ja": "米国は、近づく中間選挙を前に国内の燃料価格を下げるため、ロシア産軽油への制裁を一時的に緩和したのです。",
+          "t": 1054.18
+        },
+        {
+          "speaker": "Alex",
+          "en": "However, Zelensky called the diesel deal a gift to Vladimir Putin, and seven United States senators condemned the sanctions relief.",
+          "ja": "しかしゼレンスキー氏はこの軽油取引をプーチンへの贈り物と呼び、米上院議員7名もこの制裁緩和を批判しました。",
+          "t": 1062.86
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Washington declared a bilateral energy ceasefire, but fighting on the ground continues amidst heavy political backlash?",
+          "ja": "つまり要するに、米政府がエネルギー停戦を宣言したものの、政治的反発の中で現場の攻撃は続いているのですね？",
+          "t": 1071.61
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. The truce remains completely unverified while missile and drone strikes persist.",
+          "ja": "その通りです。ミサイルやドローン攻撃が続く中、停戦は全く確認されていません。",
+          "t": 1080.46
         }
       ],
       "lang": "en",
-      "t": 673.39
+      "t": 993.82
     },
     {
       "kind": "recap",
@@ -568,58 +970,88 @@
       "lines": [
         {
           "speaker": "Mika",
-          "ja": "イエメンの反政府勢力フーシ派がサウジアラビアのリヤド国際空港をミサイルなどで連続攻撃し、民間人13人が死亡、300人以上が負傷しました。フーシ派はサウジ領空の飛行回避を警告しており、トランプ米大統領は対抗攻撃を行うか近く判断すると表明し、地域情勢の緊張が一気に高まっています。",
+          "ja": "トランプ米大統領はロシアとウクライナがエネルギー施設への攻撃停止で合意したと発表しました。しかしウクライナ側は事前協議を否定し、発表後も露側の攻撃が報告されています。米国内の燃料高対策としてロシア産軽油への制裁を一部緩和する動きも波紋を呼んでいます。",
           "en": "",
           "lang": "ja",
-          "t": 723.0
+          "t": 1086.85
         }
       ],
-      "t": 723.0
+      "t": 1086.85
     },
     {
       "kind": "world",
-      "heading_en": "Poland Arrests Suspect in Plot to Assassinate Prime Minister Tusk",
-      "heading_ja": "ポーランド当局、トゥスク首相暗殺計画の容疑者を拘束",
+      "heading_en": "Poland Detains Suspect in Assassination Plot",
+      "heading_ja": "ポーランド、トゥスク首相暗殺計画の容疑者を拘束",
       "lines": [
         {
           "speaker": "Alex",
-          "en": "Our third world story comes from Poland. Polish security authorities have arrested a man suspected of plotting to assassinate Prime Minister Donald Tusk.",
-          "ja": "3つ目の国際ニュースはポーランドからです。ポーランドの治安当局は、ドナルド・トゥスク首相の暗殺を計画していた疑いで男を拘束しました。",
-          "t": 747.42
-        },
-        {
-          "speaker": "Mika",
-          "en": "Was the Prime Minister the only target of this plot?",
-          "ja": "暗殺計画の標的は首相だけだったのですか。",
-          "t": 758.35
+          "en": "Our final world story comes from Poland, where security services detained a man suspected of plotting a high-level political assassination.",
+          "ja": "国際ニュースの最後はポーランドからです。治安機関が要人暗殺を企てた疑いで男を拘束しました。",
+          "t": 1107.17
         },
         {
           "speaker": "Alex",
-          "en": "No, the interior ministry said the suspect also targeted Poland's defence minister, Wladyslaw Kosiniak-Kamysz. Police held an emergency security meeting on Sunday and called the threat deadly serious.",
-          "ja": "いいえ、内務省によると容疑者はコシニャク＝カミシュ国防相も標的にしていました。警察は日曜日に緊急治安会議を開き、極めて深刻な脅威として対処しました。",
-          "t": 763.08
+          "en": "Polish Prime Minister Donald Tusk announced that authorities arrested a Polish national who planned to assassinate him and Defence Minister Wladyslaw Kosiniak-Kamysz.",
+          "ja": "ポーランドのドナルド・トゥスク首相は、自身とコシニャクカミシュ国防相の暗殺を計画したポーランド国籍の男を逮捕したと発表しました。",
+          "t": 1116.36
         },
         {
           "speaker": "Mika",
-          "en": "Where was the suspect found, and how did police discover the plan?",
-          "ja": "容疑者はどこで見つかり、警察はどのように計画をつかんだのですか。",
-          "t": 776.9
+          "en": "How did Polish security agencies discover this assassination plot?",
+          "ja": "ポーランドの治安機関はどのようにしてこの暗殺計画を察知したのですか？",
+          "t": 1127.06
         },
         {
           "speaker": "Alex",
-          "en": "The suspect, a Polish citizen, was detained in the Lower Silesia region. The State Protection Service discovered an email outlining the planned attack and quickly forwarded it to the police.",
-          "ja": "ポーランド国籍の容疑者はドルヌィ・シロンスク県で拘束されました。政府要人の警護機関が計画を記した電子メールを発見し、迅速に警察へ通報したとのことです。",
-          "t": 782.49
+          "en": "The plot came to light after the State Protection Service intercepted an email detailing the planned attack and alerted police.",
+          "ja": "要人警護を担当する国家保護局が、計画された襲撃の詳細を記したメールを傍受して警察に通報したことで発覚しました。",
+          "t": 1132.16
+        },
+        {
+          "speaker": "Alex",
+          "en": "Special security coordinators convened an urgent weekend meeting, stating they treated the threat as deadly serious with a strong likelihood of execution.",
+          "ja": "特別治安調整当局は週末に緊急会議を開き、この脅威を実行される可能性が極めて高い深刻なものとして扱っていると表明しました。",
+          "t": 1140.68
+        },
+        {
+          "speaker": "Alex",
+          "en": "Police officers carried out a swift raid in Poland's southwestern Lower Silesia region to apprehend the suspect.",
+          "ja": "警察はポーランド南西部のドルヌィ・シロンスク県で迅速な急襲を行い、容疑者を拘束しました。",
+          "t": 1150.71
         },
         {
           "speaker": "Mika",
-          "en": "Prime Minister Tusk thanked the police for their swift and decisive action.",
-          "ja": "トゥスク首相は警察の迅速で決定的な対応に感謝を表明しました。",
-          "t": 795.7
+          "en": "Has Poland been facing other major security concerns recently?",
+          "ja": "ポーランドでは最近、他の重大な治安上の懸念も生じていたのでしょうか？",
+          "t": 1158.39
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Poland has been on elevated security alert following a recent wave of stabbings, which Prime Minister Tusk described as a cult of violence.",
+          "ja": "はい。トゥスク首相が「暴力のカルト」と表現した一連の刺傷事件を受け、ポーランドは警戒レベルを引き上げていました。",
+          "t": 1163.26
+        },
+        {
+          "speaker": "Alex",
+          "en": "Spokesperson Jacek Dobrzynski noted that threatening messages directed at Polish officials have been increasing significantly month by month.",
+          "ja": "報道官のヤツェク・ドブジンスキ氏は、ポーランド政府要人に向けられた脅迫メッセージが月を追うごとに大幅に増加していると指摘しました。",
+          "t": 1172.74
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Polish police acted rapidly on intelligence to stop a credible assassination plot against the prime minister?",
+          "ja": "つまり要するに、ポーランド警察は情報に基づいて迅速に行動し、首相に対する信憑性の高い暗殺計画を阻止したのですね？",
+          "t": 1182.04
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Tusk commended law enforcement officers for their swift and decisive intervention.",
+          "ja": "はい。トゥスク首相は警察の迅速かつ断固たる介入を称賛しました。",
+          "t": 1190.33
         }
       ],
       "lang": "en",
-      "t": 747.42
+      "t": 1107.17
     },
     {
       "kind": "recap",
@@ -630,82 +1062,112 @@
       "lines": [
         {
           "speaker": "Mika",
-          "ja": "ポーランド当局は、ドナルド・トゥスク首相と国防相の暗殺を企てた疑いで国内の男を拘束しました。犯行計画を記したメールが警護機関によって発見され、警察が迅速に対処しました。NATOの前線に位置する同国で要人へのテロ脅威が高まっており、治安当局が警戒を強めています。",
+          "ja": "ポーランド当局は、トゥスク首相と国防相の暗殺を計画した疑いでポーランド人の男を拘束しました。閣僚警護組織への脅迫メールから発覚したもので、治安当局は脅威の信憑性を極めて高いと判断し、南部シロンスク地方で迅速な拘束に踏み切りました。",
           "en": "",
           "lang": "ja",
-          "t": 801.84
+          "t": 1197.06
         }
       ],
-      "t": 801.84
+      "t": 1197.06
     },
     {
       "kind": "ceo_watch",
-      "heading_en": "Tech Leaders on Safe AI Development",
-      "heading_ja": "ハイテク首脳の言葉：AIの安全な発展に向けて",
+      "heading_en": "Tech Leaders Speak",
+      "heading_ja": "CEO発言チェック",
       "lines": [
         {
           "speaker": "Alex",
-          "en": "Time for CEO Watch. Satya Nadella of Microsoft shared strong guidance on AI governance this weekend. He wrote on X that it is time to step back and assess the trust architecture of AI.",
-          "ja": "CEO Watchの時間です。Microsoftのサティア・ナデラ氏が今週末、AI統治に関する強い指針を示しました。彼はX上で、立ち止まってAIの信頼構造を見直す時期だと書きました。",
-          "t": 824.93
+          "en": "In CEO Watch, top corporate leaders spoke on safety, domestic industry, and international competition.",
+          "ja": "CEOウォッチです。企業のトップたちが安全性、国内産業、国際競争について発言しました。",
+          "t": 1215.77
         },
         {
-          "speaker": "Mika",
-          "en": "Nadella insisted that we must assume a model is compromised and contain it from the start. He added, think of it like an emergency brake.",
-          "ja": "ナデラ氏は、モデルが侵食されていることを前提として最初から封じ込めるべきだと強調し、「緊急ブレーキのように考えてほしい」と付け加えました。",
-          "t": 837.77
+          "speaker": "Alex",
+          "en": "Microsoft Chief Executive Satya Nadella called for mandatory emergency brakes on AI models, arguing the industry must assume systems are compromised.",
+          "ja": "マイクロソフトのサティア・ナデラCEOは、AIは侵害される前提に立つべきだと主張し、緊急ブレーキの義務化を求めました。",
+          "t": 1222.86
+        },
+        {
+          "speaker": "Alex",
+          "en": "SpaceX chief Elon Musk intensified his public feud with Indian billionaire Mukesh Ambani, accusing him of blocking Starlink's satellite internet launch in India.",
+          "ja": "スペースXのイーロン・マスク氏は、インドの富豪ムケシュ・アンバニ氏がスターリンクの衛星ネット参入を阻んでいると非難を強めました。",
+          "t": 1232.56
+        },
+        {
+          "speaker": "Alex",
+          "en": "Meanwhile, Volkswagen Chief Executive Oliver Blume backed proposed European Union regulations, stating Made in Europe rules must reward real domestic value creation against subsidized Chinese electric vehicles.",
+          "ja": "一方、フォルクスワーゲンのオリバー・ブルーメCEOはEU規則を支持し、「欧州製」ルールは安価な中国製EVに対抗して域内の真の価値創造を評価すべきだと述べました。",
+          "t": 1242.94
         }
       ],
       "lang": "en",
-      "t": 824.93
+      "t": 1215.77
     },
     {
       "kind": "phrase",
-      "heading_en": "Phrase of the Day: Step Back",
-      "heading_ja": "今日のフレーズ：Step Back（立ち止まって見直す）",
+      "heading_en": "Phrase of the Day",
+      "heading_ja": "きょうの重要フレーズ",
       "lines": [
         {
           "speaker": "Mika",
-          "en": "Today's phrase of the day is step back. Satya Nadella said it is time to step back and assess the trust architecture of AI.",
-          "ja": "今日のフレーズは「step back」です。サティア・ナデラCEOは、AIの信頼構造について「step back」して見直す時が来たと語りました。",
-          "t": 847.72
-        },
-        {
-          "speaker": "Alex",
-          "en": "To step back means to temporarily pause an activity in order to think carefully about the whole situation.",
-          "ja": "「step back」は、物事全体の状況を慎重に考えるために、進行中の作業をいったん立ち止まることを意味します。",
-          "t": 856.81
+          "en": "Today's phrase of the day is step back.",
+          "ja": "きょうの重要フレーズは「step back」です。",
+          "t": 1256.05
         },
         {
           "speaker": "Mika",
-          "en": "For example, before starting a new healthcare project, our team decided to step back and review the data.",
-          "ja": "例えば、「新しい保健医療事業を始める前に、チームはいったん立ち止まってデータを見直すことにした」というように使えます。",
-          "t": 864.86
+          "en": "Satya Nadella stated that it is time for the tech industry to step back and assess AI trust architecture.",
+          "ja": "サティア・ナデラCEOは、IT業界は一度立ち止まり、AIの信頼アーキテクチャを見直すべき時だと述べました。",
+          "t": 1259.62
+        },
+        {
+          "speaker": "Mika",
+          "en": "To step back means to temporarily pause an activity in order to evaluate a situation calmly and objectively.",
+          "ja": "「step back」とは、状況を冷静かつ客観的に評価するために、活動を一時的に中断して立ち止まるという意味です。",
+          "t": 1266.87
+        },
+        {
+          "speaker": "Mika",
+          "en": "For example, when projects become chaotic, leadership teams often step back to review their core strategy.",
+          "ja": "例えば、「プロジェクトが混乱した際、経営陣は基本戦略を再確認するために一度立ち止まることがよくある」のように使われます。",
+          "t": 1274.29
+        },
+        {
+          "speaker": "Mika",
+          "en": "It is a great phrase to use in business when you need a moment of strategic reflection.",
+          "ja": "戦略的な振り返りが必要なビジネスの場面で非常に役立つ表現です。",
+          "t": 1281.59
         }
       ],
       "lang": "en",
-      "t": 847.72
+      "t": 1256.05
     },
     {
       "kind": "outro",
-      "heading_en": "Monday Wrap-Up",
-      "heading_ja": "番組の終わりに",
+      "heading_en": "Closing Thoughts",
+      "heading_ja": "エンディング",
       "lines": [
         {
           "speaker": "Alex",
-          "en": "From Amazon's 7 billion dollar talks to an AI emergency brake and smart homes, tech giants are making bold moves as winter approaches. See you on tomorrow's commute.",
-          "ja": "Amazonの70億ドル交渉からAIの緊急ブレーキ、スマートホームまで、冬の商戦に向けて大手各社が果敢に動いています。それでは、明日の通勤時にお会いしましょう。",
-          "t": 873.29
+          "en": "From multi-billion dollar cloud acquisitions and clinical AI breakthroughs to rising geopolitical tensions, technological power demands vigilant human control.",
+          "ja": "数十億ドル規模のクラウド買収や臨床AIの進展から地政学的緊張の高まりまで、技術的な力には常に油断のない人間の制御が求められます。",
+          "t": 1287.84
+        },
+        {
+          "speaker": "Alex",
+          "en": "Thank you for joining us on Commute News. Stay informed, stay safe, and have a productive Monday ahead.",
+          "ja": "Commute Newsをお聴きいただきありがとうございました。最新情報を味方に、安全で実りある月曜日をお過ごしください。",
+          "t": 1298.1
         },
         {
           "speaker": "Mika",
-          "en": "Have a wonderful Monday and stay safe out there.",
-          "ja": "素敵な月曜日をお過ごしください。気をつけていってらっしゃい。",
-          "t": 883.58
+          "en": "We will see you tomorrow morning for your daily commute.",
+          "ja": "また明日の通勤時にお会いしましょう。",
+          "t": 1305.24
         }
       ],
       "lang": "en",
-      "t": 873.29
+      "t": 1287.84
     },
     {
       "kind": "recap",
@@ -716,26 +1178,28 @@
       "lines": [
         {
           "speaker": "Mika",
-          "ja": "以上、Commute Newsでした。今週もよい一週間をお過ごしください。いってらっしゃい。",
+          "ja": "以上、月曜日のCommute Newsでした。今週も気をつけていってらっしゃい。",
           "en": "",
           "lang": "ja",
-          "t": 887.53
+          "t": 1309.76
         }
       ],
-      "t": 887.53
+      "t": 1309.76
     }
   ],
   "stories": [
     {
-      "title_en": "Amazon in Talks to Acquire AI Startup Decart for Around $7 Billion",
-      "title_ja": "Amazon、生成AI新興Decartを約70億ドルで買収交渉",
-      "summary_ja": "Amazonが生成AIモデルを開発するソフトウェア新興企業Decartを約70億ドルで買収する方向で協議に入ったと報じられました。リアルタイム対話型AI技術の獲得を目指しており、AI分野での垂直統合を急いでいます。",
-      "why_ja": "生成AIの競争が基盤モデルの自社囲い込みへと進む中、巨大クラウド事業者による巨額M&Aが独占禁止法の観点からも国際的な注目を集めます。",
+      "title_en": "Amazon in Advanced Talks to Buy AI Startup Decart for $7 Billion",
+      "title_ja": "アマゾン、AIスタートアップのデカートを70億ドルで買収協議",
+      "summary_ja": "アマゾンが生成AIスタートアップのデカートを約70億ドルで買収する交渉を進めていることが報じられました。他社との提携にとどまらず、AWS向けに独自の基盤モデルを直接保有することで、クラウドAI競争での優位性を確立しようとしています。",
+      "why_ja": "マイクロソフトやグーグルに対抗し、クラウド基盤企業が中核モデル技術を自社囲い込みする動きを象徴しています。",
       "section": "tech",
-      "topic_key": "amazon-decart-acquisition",
+      "topic_key": "amazon-decart-acquisition-talks",
       "companies": [
         "Amazon",
-        "Decart"
+        "Decart",
+        "Microsoft",
+        "Google"
       ],
       "sources": [
         {
@@ -751,12 +1215,12 @@
       ]
     },
     {
-      "title_en": "Satya Nadella Calls for Industry-Wide AI Emergency Brake Architecture",
-      "title_ja": "マイクロソフトのナデラCEO、自律型AIに「緊急停止装置」を提唱",
-      "summary_ja": "Microsoftのサティア・ナデラCEOは、AIモデルをブラックボックスとして盲信するのをやめ、管理者が即座に一時停止や強制終了を行える「緊急ブレーキ」構造を組み込むべきだと訴えました。改ざん不可能なログ記録と外部制御の分離を提言しています。",
-      "why_ja": "自律型エージェントAIの暴走を防ぐ技術的ガバナンスとして、産業界および規制当局の安全基準策定に大きな影響を与える発言です。",
+      "title_en": "Microsoft CEO Satya Nadella Urges Emergency Brakes on AI Systems",
+      "title_ja": "マイクロソフトのナデラCEO、AIへの「緊急停止ブレーキ」義務化を提言",
+      "summary_ja": "マイクロソフトのサティア・ナデラCEOは、AIモデルを謎のブラックボックスとして扱うのではなく、人間がタスク実行中でも停止できる緊急ブレーキの仕組みを組み込むべきだと主張しました。モデルが侵害されるリスクを前提とした信頼アーキテクチャの再構築を求めています。",
+      "why_ja": "国際的な安全規制強化を前に、巨大IT企業のトップ自らが構造的な制御機構の標準化を提起した重要な転換点です。",
       "section": "tech",
-      "topic_key": "nadella-ai-emergency-brake",
+      "topic_key": "microsoft-nadella-ai-emergency-brake",
       "companies": [
         "Microsoft"
       ],
@@ -779,56 +1243,40 @@
       ]
     },
     {
-      "title_en": "Apple Prepares Smart Home Push with HomeView Display and homeOS",
-      "title_ja": "Apple、スマートホーム画面「HomeView」と新基盤を発表へ",
-      "summary_ja": "Appleは火曜日にA18チップとSiriを搭載したスマートホームハブ「HomeView」を発表する見込みです。新OS「homeOS」やApple TVの刷新、LGとの提携によるスマートキー展開を通じ、家庭内市場の巻き返しを図ります。",
-      "why_ja": "HomePodの苦戦で遅れをとっていたAppleの家庭向けエコシステムが強化され、スマートホーム規格や日本の家電連携にも波及する可能性があります。",
+      "title_en": "Global PC Shipments Drop 20% on Chip Costs and Demand Slump",
+      "title_ja": "世界PC出荷台数が20%急減、半導体のAI配分と価格高騰が影響",
+      "summary_ja": "2026年第3四半期の世界のPC出荷台数は前年比約20%減少し、四半期ベースで過去最大の落ち込みを記録しました。AIデータセンター向けへの半導体優先配分によるPC本体価格の高騰と、前四半期までの駆け込み需要の反動が主な要因です。",
+      "why_ja": "企業向けAIインフラ投資の過熱が部品供給を偏らせ、一般消費者向けデバイス市場を圧迫するマクロ影響を示しています。",
       "section": "tech",
-      "topic_key": "apple-homeview-smarthome",
+      "topic_key": "global-pc-shipments-decline",
       "companies": [
-        "Apple",
-        "LG"
+        "IDC",
+        "Omdia"
       ],
       "sources": [
         {
-          "publisher": "TechCrunch",
-          "title": "Will the HomeView be Apple’s first smart home success?",
-          "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/"
+          "publisher": "Ars Technica",
+          "title": "PC shipments fall 20.1 percent in “sharpest decline” since Q1 2023",
+          "url": "https://arstechnica.com/information-technology/2026/10/pc-shipments-fall-20-1-percent-in-sharpest-decline-since-q1-2023/"
         },
         {
-          "publisher": "The Verge",
-          "title": "The new Apple TV could have a built-in mic and a remote with a speaker",
-          "url": "https://www.theverge.com/tech/1009397/apple-tv-refresh-built-in-mic-remote-speaker"
-        },
-        {
-          "publisher": "The Verge",
-          "title": "What to expect from Apple’s ‘Welcome Home’ event",
-          "url": "https://www.theverge.com/tech/1009317/apple-what-to-expect-welcome-home"
-        },
-        {
-          "publisher": "CNET",
-          "title": "New Apple Smart Home Hub Reportedly Called HomeView and Will Ship in November",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBNXM4dlFqRWtqcFpoeXdqcjRUbk1UdTBjMGpoelN3Z1ZHbVFlVHlqWlE0cEk5aV8zSm5yV2ZtVVBNeDViMUJ6UmJmNDFjaGtMLW5iTzh1Mjc5S2twR3h2Q3I0dXlETE8ybTE0RQ?oc=5"
-        },
-        {
-          "publisher": "Bloomberg.com",
-          "title": "Apple Is About to Close the Biggest Hole In Its Ecosystem With HomeView",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX1FGR2Jka0hNUTZ0M01oOWdJbXRRZ1V6dlJjVG1qRV9xQUkxQmRaQlF6aGQ2TWNGeVNQZUxTaEs3QWFZRXpIc1RHVURSLWE4bk1rQnhVWWZjMWUybkIyMTNLY3pMVEhtTWVqNmhteGEzYXF2N2xFZlVkRnY4VW8wRTFBYWFZQmFHcjdrTFpqUTF5R092NUxITE16VTdQTzg1b0dadVQ0cXBBSS02cUc0aE95R0l6Mzl0VWg3QkFPNnp3dw?oc=5"
+          "publisher": "The Register",
+          "title": "Global PC shipments crater 20% as rising prices hammer demand",
+          "url": "https://www.theregister.com/personal-tech/2026/10/09/global-pc-shipments-crater-20-as-rising-prices-hammer-demand/5302264"
         }
       ]
     },
     {
-      "title_en": "SpaceX Secures 800 MHz Spectrum to Expand Starlink Direct-to-Cell",
-      "title_ja": "SpaceX、800MHz帯を取得しStarlink衛星の屋内スマホ通信を実現へ",
-      "summary_ja": "SpaceXはGrain Managementから全米の800MHz帯周波数ライセンスを取得することで合意しました。障害物を透過しやすい低周波帯により、衛星から地上の一般スマートフォンへ屋内外を問わず直接通信を提供できる体制を整えます。",
-      "why_ja": "衛星直結通信が災害時だけでなく日常のセルラー網代替となり得ることを示し、地上波キャリアのビジネスモデルに地殻変動をもたらす可能性があります。",
+      "title_en": "SpaceX Acquires 800 MHz Low-Band Spectrum for Starlink Mobile",
+      "title_ja": "スペースX、スターリンク携帯通信網に向け800メガヘルツ帯を取得",
+      "summary_ja": "スペースXは、全米をカバーする800メガヘルツ帯の低周波数ライセンスをグレイン・マネジメントから取得することで合意しました。壁を透過しやすい電波特性を生かし、建物内の一般スマートフォンとも直接通信できる衛星モバイル網の展開を目指します。",
+      "why_ja": "低周波数帯の確保により、衛星直接通信が従来の地上携帯キャリアにとって直接の競合へと進化することを示唆します。",
       "section": "tech",
       "topic_key": "spacex-starlink-mobile-spectrum",
       "companies": [
         "SpaceX",
         "T-Mobile",
-        "Grain Management",
-        "EchoStar"
+        "Grain Management"
       ],
       "sources": [
         {
@@ -844,15 +1292,16 @@
       ]
     },
     {
-      "title_en": "Ukrainian Drone Strikes Cripple Major Data Centers of Russian Giant Yandex",
-      "title_ja": "ウクライナ軍のドローン攻撃、露YandexのAIスパコンと施設を直撃",
-      "summary_ja": "ウクライナの長距離ドローンがロシアのYandexが保有するサソボやカルーガのデータセンター拠点を攻撃し、AIスーパーコンピュータを含む複数モジュールが稼働停止に追い込まれました。ロシア発のボット通信量は0.4%に激減しました。",
-      "why_ja": "有事において民間の巨大データセンターやAIインフラが戦略的攻撃対象となる現実が示され、デジタル国家基盤の強靭化と分散配置の重要性が浮き彫りになりました。",
+      "title_en": "Ukrainian Drones Strike Russian Yandex AI Data Center Clusters",
+      "title_ja": "ウクライナの無人機、ロシア・ヤンデックスのAIデータ拠点を破壊",
+      "summary_ja": "ウクライナによる無人機攻撃がロシアのヤンデックスが所有するデータセンターを直撃し、AIモデル学習用スパコンを擁するサソボ拠点やカルーガの巨大施設が甚大な被害を受けました。ロシア発のボット通信やクラウドサービスが大幅にダウンしています。",
+      "why_ja": "現代の武力紛争において、国のデジタル基盤やAI学習施設がドローン攻撃の最優先目標となる脆弱性を浮き彫りにしました。",
       "section": "tech",
-      "topic_key": "ukraine-yandex-datacenter-strikes",
+      "topic_key": "ukraine-strikes-yandex-data-centers",
       "companies": [
         "Yandex",
-        "Cloudflare"
+        "Cloudflare",
+        "NetBlocks"
       ],
       "sources": [
         {
@@ -883,12 +1332,12 @@
       ]
     },
     {
-      "title_en": "Lancet Study Evaluates Google's AMIE Clinical AI in Primary Care Consultations",
-      "title_ja": "ランセット誌掲載：Googleの医療AI「AMIE」が一次診療で90%の診断一致率",
-      "summary_ja": "米ベス・イスラエル・ディーコネス医療センターでの臨床試験において、事前問診を行ったGoogleの対話型AI「AMIE」が、医師の最終診断と90%一致したとする論文が医学誌The Lancetに掲載されました。安全性の中断はゼロで、医師の75%が診察準備に有用と評価しました。",
-      "why_ja": "外来診療前のAI問診が医師の過重労働緩和に直結するエビデンスとなり、日本を含む地域医療や自治体の公衆衛生DX推進にも重要な示唆を与えます。",
+      "title_en": "Lancet Publishes Clinical Trial of Google's AMIE Medical AI",
+      "title_ja": "ランセット誌、グーグルの診断対話AI「AMIE」の臨床検証結果を掲載",
+      "summary_ja": "医学誌ランセットに掲載された研究で、米ベス・イスラエル・ディーコネス医療センターの外来患者98人が受診前にグーグルの対話型AI「AMIE」と問診を行いました。安全性の問題による中断はなく、医師の最終診断と90%一致し、75%の診察で準備に役立ちました。",
+      "why_ja": "対話型AIが医師の業務負担を軽減しつつ、安全に初期問診を補助できることを示した信頼性の高い査読エビデンスです。",
       "section": "health",
-      "topic_key": "google-amie-lancet-trial",
+      "topic_key": "lancet-google-amie-clinical-trial",
       "companies": [
         "Google"
       ],
@@ -901,48 +1350,12 @@
       ]
     },
     {
-      "title_en": "Trump Claims Russia-Ukraine Energy Ceasefire Deal, Catching Kyiv by Surprise",
-      "title_ja": "トランプ米大統領、露ウのエネルギー停戦合意を主張",
-      "summary_ja": "トランプ米大統領はロシアとウクライナが即時のエネルギー施設攻撃停止に合意したと発表しましたが、ゼレンスキー大統領は初耳だと困惑を示しました。トランプ氏は中間選挙に向け、ロシア産ディーゼル輸入による米国内の燃料価格抑制を狙っています。",
-      "why_ja": "米大統領選後の対ウクライナ支援方針の変容と、エネルギー安全保障・原油市場の行方を左右する外交的動きです。",
+      "title_en": "Houthi Missiles Repeatedly Strike Riyadh International Airport",
+      "title_ja": "イエメンのフーシ派、リヤド国際空港へ連続ミサイル攻撃",
+      "summary_ja": "サウジアラビアの首都リヤドのキング・ハーリド国際空港がフーシ派のミサイル攻撃を連日受け、日曜日には1名が死亡、11名が負傷しました。前日にも13名が死亡しており、サウジ主導の有志連合は報復を予告しています。",
+      "why_ja": "湾岸主要国の基幹空港への直撃は、地域の航空輸送網およびエネルギー供給ルートの地政学的リスクを急激に高めています。",
       "section": "world",
-      "topic_key": "trump-ukraine-russia-energy-ceasefire",
-      "companies": [],
-      "sources": [
-        {
-          "publisher": "BBC News",
-          "title": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
-          "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "publisher": "BBC News",
-          "title": "Watch: What's behind Trump's energy ceasefire claim?",
-          "url": "https://www.bbc.co.uk/news/videos/cwvgde9vrdd9o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "publisher": "Al Jazeera",
-          "title": "Zelenskyy welcomes US-announced energy ceasefire",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/zelenskyy-welcomes-us-announced-energy-ceasefire?traffic_source=rss"
-        },
-        {
-          "publisher": "The Guardian",
-          "title": "Trump announces partial ceasefire in Ukraine war as Zelenskyy says deal is ‘news to me’",
-          "url": "https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire"
-        },
-        {
-          "publisher": "Reuters",
-          "title": "Trump announces Ukraine energy ceasefire with Russia, surprising Zelenskiy",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTEo5WEZxUk5OcWNWU1Z1Z0g4SGlFQmxKckFxbS05WFd6UUxDNE0xa0NZRzZoR004Tms3azQ3aTVfUVIwNXlTU1ljcW9HLTREUGZBVVFiWlpVWXI3V1c3Zmt2UEJ2ME43azRMb0Vlei1iQUNPbzk4bV94bkRGTzBmREMydnBCRzVSclBoVkhrWkx4TFJ2YWdsRS1COGVOWU9pRDJqSUFNRk1pUnpQM2dlQ3o0eGpYSHYzbWdDX3dtQWtYT2Zz?oc=5"
-        }
-      ]
-    },
-    {
-      "title_en": "Deadly Houthi Missile Strikes on Riyadh Airport Escalate Regional Conflict",
-      "title_ja": "イエメン・フーシ派がリヤド空港を連続攻撃、死者13名に拡大",
-      "summary_ja": "サウジアラビアの首都リヤドのキング・ハーリド国際空港に対し、イエメンの親イラン武装組織フーシ派がミサイル攻撃を実施し、週末で13名が死亡、300人以上が負傷しました。トランプ米大統領は対抗措置の早期決定を示唆しています。",
-      "why_ja": "中東の主要ハブ空港と航空路への直接攻撃は国際民間航空に深刻な打撃を与え、湾岸地域の緊張再燃が原油輸送や地域安定に暗雲を落としています。",
-      "section": "world",
-      "topic_key": "houthi-riyadh-airport-strikes",
+      "topic_key": "riyadh-airport-houthi-strikes",
       "companies": [],
       "sources": [
         {
@@ -961,34 +1374,9 @@
           "url": "https://www.theguardian.com/world/2026/oct/11/saudi-coalition-retaliation-houthi-attack-riyadh-airport"
         },
         {
-          "publisher": "Al Jazeera",
-          "title": "CCTV shows moment of deadly Houthi strike on Riyadh airport",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/houthi-strike-riyadh-international-airport-cctv-footage?traffic_source=rss"
-        },
-        {
-          "publisher": "The Guardian",
-          "title": "Middle East crisis: Riyadh airport hit again as Houthis claim attacks, including strike that killed 12 – as it happened",
-          "url": "https://www.theguardian.com/world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates"
-        },
-        {
-          "publisher": "Al Jazeera",
-          "title": "Is the Yemen war entering a new phase?",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/is-the-yemen-war-entering-a-new-phase?traffic_source=rss"
-        },
-        {
-          "publisher": "BBC News",
-          "title": "Riyadh airport attacks another dangerous moment in already tense conflict",
-          "url": "https://www.bbc.co.uk/news/articles/cr4g1pwxxlq1o?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "publisher": "NPR",
           "title": "Passenger terminal at Riyadh airport is struck again, a day after 12 were killed",
           "url": "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say"
-        },
-        {
-          "publisher": "NPR",
-          "title": "Trump weighs joining the fight against Houthis after Riyadh airport attack",
-          "url": "https://www.npr.org/2026/10/10/nx-s1-5997512/saudi-arabia-riyadh-airport-bombing-attack"
         },
         {
           "publisher": "The Washington Post",
@@ -998,10 +1386,46 @@
       ]
     },
     {
-      "title_en": "Polish Authorities Arrest Suspect in Plot to Assassinate Prime Minister Donald Tusk",
-      "title_ja": "ポーランド当局、トゥスク首相と国防相の暗殺を計画した容疑者を逮捕",
-      "summary_ja": "ポーランド治安当局は、ドナルド・トゥスク首相とコシニャク＝カミシュ国防相の暗殺を企てた容疑でポーランド国籍の男を逮捕しました。要人警護部門が犯行計画メールを察知し、警察が迅速に身柄を拘束しました。",
-      "why_ja": "ウクライナ情勢の最前線に立つNATO・EU加盟国ポーランドにおける政情不安と安全保障上のリスクの深刻化を示しています。",
+      "title_en": "Trump Announces Russia-Ukraine Energy Ceasefire Amid Allied Confusion",
+      "title_ja": "トランプ米大統領、露ウ間のエネルギー停戦を発表するも混乱広がる",
+      "summary_ja": "トランプ米大統領は、ロシアとウクライナがエネルギーインフラへの攻撃を即時停止することで合意したと発表しました。しかしウクライナ側は事前合意を否定した上で条件付きの支持を表明し、直後にもロシアによる発電所攻撃が確認されるなど混乱が広がっています。",
+      "why_ja": "米国内の燃料価格抑制を狙ったロシア産軽油の制裁緩和協定を含め、西側諸国の対露制裁足並みに不協和音を生んでいます。",
+      "section": "world",
+      "topic_key": "russia-ukraine-energy-ceasefire-diplomacy",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
+          "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Zelenskyy welcomes US-announced energy ceasefire",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/zelenskyy-welcomes-us-announced-energy-ceasefire?traffic_source=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Trump announces partial ceasefire in Ukraine war as Zelenskyy says deal is ‘news to me’",
+          "url": "https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire"
+        },
+        {
+          "publisher": "NPR",
+          "title": "U.S. and Russia tout diesel deal to ease sanctions and reopen fuel flows",
+          "url": "https://www.npr.org/2026/10/10/nx-s1-5996938/u-s-and-russia-tout-diesel-deal-to-ease-sanctions-and-reopen-fuel-flows"
+        },
+        {
+          "publisher": "BBC",
+          "title": "Trump says Ukraine and Russia have agreed 'energy ceasefire'",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE04QUtQbDZLV05uX0dPcEwxc3poa1BGZGVYdmVjM2NzQ3pUMkowOVd6ZzBMTGRZNG9KVlhUNHNqR3o1SG5sel96Rnd3YVJQMjEwZ09zRnoxSFcxQ2s?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Poland Detains Suspect in Assassination Plot Against PM Tusk",
+      "title_ja": "ポーランド、トゥスク首相らの暗殺計画容疑者を拘束",
+      "summary_ja": "ポーランド治安当局は、トゥスク首相とコシニャクカミシュ国防相に対する暗殺計画に関与した疑いで自国籍の男を拘束しました。閣僚警護部門への脅迫情報から発覚し、当局は脅威の危険性が極めて高いと判断して緊急逮捕に至りました。",
+      "why_ja": "東欧諸国の政権幹部に対する治安上の脅威が高まっており、NATO加盟国における要人警護態勢の緊張を示しています。",
       "section": "world",
       "topic_key": "poland-tusk-assassination-plot",
       "companies": [],
@@ -1021,76 +1445,82 @@
   ],
   "vocabulary": [
     {
-      "term": "step back",
-      "meaning_ja": "（大局的に状況を考えるために）いったん立ち止まる、一歩引いて見直す",
-      "note_ja": "物理的に後退する意味のほか、進行中のプロジェクトや議論から一時的に距離を置いて客観的に見直す際によく使われます。",
-      "example_en": "Nadella wrote that we must step back and assess the trust architecture of AI."
+      "term": "proprietary",
+      "meaning_ja": "自社保有の、専有の",
+      "note_ja": "企業が特許や知財として独自に開発・所有している技術やモデルを指す際によく使われます。",
+      "example_en": "Decart is a software startup that specializes in building generative artificial intelligence models and proprietary system architecture."
     },
     {
       "term": "emergency brake",
-      "meaning_ja": "緊急ブレーキ、非常停止装置",
-      "note_ja": "列車や自動車の非常用停止装置を指しますが、ここではAIの暴走を防ぐための即時停止機能を比喩的に表現しています。",
-      "example_en": "He posted on X that the tech industry must build an emergency brake for AI models."
+      "meaning_ja": "非常ブレーキ、緊急停止装置",
+      "note_ja": "機械や電車の非常停止装置のことですが、AIなどのシステムを強制停止する仕組みにも例えられます。",
+      "example_en": "Most notably, Nadella called for mandatory emergency brakes to be built directly into advanced AI systems."
     },
     {
       "term": "compromised",
-      "meaning_ja": "（セキュリティや安全性が）侵害された、侵食された",
-      "note_ja": "compromiseは「妥協する」だけでなく、IT・安全保障分野では「システムがハッキングや不正侵入を受ける」という意味で頻出します。",
-      "example_en": "Nadella insisted that we must assume a model is compromised and contain it from the start."
+      "meaning_ja": "（セキュリティ侵害を）受けた、危険にさらされた",
+      "note_ja": "セキュリティ用語で、乗っ取りやハッキング、意図しない改ざんを受けた状態を意味します。",
+      "example_en": "Nadella insisted that engineers must assume a model is compromised and contain it from the start."
     },
     {
-      "term": "tamper-proof",
-      "meaning_ja": "改ざん防止の、不正操作ができない",
-      "note_ja": "tamper（不正に手を加える）を寄せ付けないという意味で、証跡ログや電子署名、公文書などで用いられます。",
-      "example_en": "He also said every important action must produce tamper-proof, human-readable records."
+      "term": "shipment",
+      "meaning_ja": "出荷台数、発送",
+      "note_ja": "ハードウェア業界の市場規模や動向を表す基本的な指標として頻出します。",
+      "example_en": "Global PC shipments plunged about twenty percent in the third quarter of 2026, marking a dramatic industry decline."
     },
     {
-      "term": "low-band",
-      "meaning_ja": "低周波数帯の",
-      "note_ja": "通信分野で1GHz未満の電波帯を指し、直進性は低いものの障害物を回り込み壁を透過しやすい特徴があります。",
-      "example_en": "Now, adding low-band gives them both high data speed and strong indoor coverage."
+      "term": "low-band spectrum",
+      "meaning_ja": "低周波数帯",
+      "note_ja": "通信分野で1GHz未満の周波数を指し、障害物に強く遠くまで届く特徴があります。",
+      "example_en": "SpaceX has struck a nationwide deal to buy low-band wireless spectrum licenses from investment firm Grain Management."
     },
     {
-      "term": "knock out",
-      "meaning_ja": "破壊する、ノックアウトする、機能を停止させる",
-      "note_ja": "物理的な破壊や停電、サイバー攻撃などで機器やシステムが使用不能になることを表す日常的な表現です。",
-      "example_en": "Russian state media admitted that multiple server modules were completely knocked out."
+      "term": "penetrate",
+      "meaning_ja": "通り抜ける、貫通する",
+      "note_ja": "電波が壁などの障害物を透過する性能を説明するときによく使われます。",
+      "example_en": "While mid-band provides high data capacity, low-band radio signals penetrate through physical obstacles like walls and roofs."
     },
     {
       "term": "peer-reviewed",
       "meaning_ja": "査読付きの",
-      "note_ja": "学術誌で同じ専門分野の研究者による審査（peer review）を経て合格・出版された論文を指します。",
-      "example_en": "A major study in the peer-reviewed medical journal The Lancet evaluated Google's diagnostic AI chatbot, known as AMIE, in a real-world primary care clinic."
+      "note_ja": "学術誌で専門家による審査を経て科学的妥当性が認められた研究を指します。",
+      "example_en": "The prestigious medical journal The Lancet published its first-ever peer-reviewed study evaluating a Google diagnostic AI chatbot called AMIE."
     },
     {
       "term": "intake",
-      "meaning_ja": "事前問診、受け入れ、初診手続き",
-      "note_ja": "医療分野での「patient intake」は、診察室に入る前の症状聞き取りや基本情報の収集プロセスを指します。",
-      "example_en": "For healthcare policy, AI intake could save valuable time and reduce burnout for busy clinic doctors."
+      "meaning_ja": "（患者や相談者の）初期受付、初診問診",
+      "note_ja": "医療機関などで患者が診察室に入る前に行う事前受付や問診手続きを意味します。",
+      "example_en": "However, the results suggest that AI intake tools can enhance patient-physician relationships and ease heavy burdens on healthcare workers."
     },
     {
-      "term": "effective immediately",
-      "meaning_ja": "即時発効の、直ちに有効な",
-      "note_ja": "行政通達、企業人事、条約合意などで「今この瞬間から適用される」ことを明示する定型フレーズです。",
-      "example_en": "Donald Trump announced on social media that Ukraine and Russia agreed to an energy ceasefire, effective immediately."
+      "term": "claim responsibility",
+      "meaning_ja": "犯行声明を出す",
+      "note_ja": "国際ニュースで、特定の組織が攻撃や事件を実行したと公式に認める定型表現です。",
+      "example_en": "Yemen's Iran-backed Houthi rebels claimed responsibility, saying they launched ballistic missiles, cruise missiles, and drones at the airport and oil facilities."
     },
     {
-      "term": "projectile",
-      "meaning_ja": "発射体、飛翔体、砲弾",
-      "note_ja": "ミサイルやロケット、ドローンなど空中を飛来して着弾する兵器を包括的に指す客観的な軍事報道用語です。",
-      "example_en": "Then on Sunday, a second projectile hit Passenger Hall Number 4, killing a Pakistani resident and injuring 11 others."
+      "term": "ceasefire",
+      "meaning_ja": "停戦、休戦",
+      "note_ja": "軍事攻撃を相互に停止する合意を意味し、外交ニュースの超頻出語です。",
+      "example_en": "Next, United States President Donald Trump announced an immediate energy ceasefire between Russia and Ukraine, sparking widespread diplomatic confusion."
     },
     {
-      "term": "decisive action",
-      "meaning_ja": "迅速で断固たる行動、決定的な措置",
-      "note_ja": "危機管理や法執行機関の迅速な対応を称賛・報告する際に定番の表現です。",
-      "example_en": "Prime Minister Tusk thanked the police for their swift and decisive action."
+      "term": "detain",
+      "meaning_ja": "身柄を拘束する、抑留する",
+      "note_ja": "警察や司法当局が容疑者を逮捕・勾留する際によく使われる表現です。",
+      "example_en": "Polish authorities detained a man suspected of plotting a high-level political assassination."
+    },
+    {
+      "term": "decisive",
+      "meaning_ja": "断固とした、決定的な",
+      "note_ja": "迅速で迷いのない行動や、決定的な措置を形容するときに用いられます。",
+      "example_en": "Tusk commended law enforcement officers for their swift and decisive intervention."
     }
   ],
   "phrase_of_the_day": {
     "phrase": "step back",
-    "meaning_ja": "（大局的に状況を考えるために）いったん立ち止まる、一歩引いて見直す",
-    "example_en": "Before starting a new healthcare project, our team decided to step back and review the data.",
-    "example_ja": "新しい保健医療事業を始める前に、チームはいったん立ち止まってデータを見直すことにしました。"
+    "meaning_ja": "一度立ち止まる、大局を見直す",
+    "example_en": "Satya Nadella stated that it is time for the tech industry to step back and assess AI trust architecture.",
+    "example_ja": "サティア・ナデラ氏は、IT業界は一度立ち止まってAIの信頼アーキテクチャを見直すべき時だと述べました。"
   }
 }
