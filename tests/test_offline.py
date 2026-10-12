@@ -204,7 +204,7 @@ class FakeTTSModels:
                 if any("\u3040" <= ch <= "\u30ff" for ch in pt.text):
                     assert "Japanese" in pt.speech_metadata.style, pt.speech_metadata.style
                 else:
-                    assert "slow pace" in pt.speech_metadata.style
+                    assert "slower than normal news" in pt.speech_metadata.style
             if mode["n"] == 1:  # simulate the per-line format being rejected once → classic is used and remembered
                 raise RuntimeError("400 INVALID_ARGUMENT: speech_metadata not supported")
             data, mime = pcm(3.0), "audio/L16;codec=pcm;rate=24000"
