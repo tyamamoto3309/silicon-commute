@@ -29,9 +29,9 @@ episode:
   # 英語の語数の目安（パートごと）。全体の長さはこの合計で決まる（短いと思ったら story を増やす）
   segment_words:
     intro: 90
-    story: 250
-    health: 250
-    world: 190
+    story: 220
+    health: 220
+    world: 165
     ceo_watch: 80
     phrase: 70
     outro: 45
