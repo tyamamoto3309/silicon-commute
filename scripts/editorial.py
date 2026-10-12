@@ -394,7 +394,10 @@ STRUCTURE — segments in this order (the material has {count['tech']} tech, {co
 
 EASY ENGLISH — VERY IMPORTANT for every "en" line
 - {ep['english_style']}
-- Prefer simple words: "use" not "utilize", "help" not "facilitate", "buy" not "acquire", "about" not "approximately", "start" not "commence".
+- Prefer simple words: "use" not "utilize", "help" not "facilitate", "buy" not "acquire", "about" not "approximately", "start" not "commence",
+  "very large" not "massive/extraordinary", "its own" not "proprietary", "design" not "architecture", "promise" not "commitment".
+- Sentences of 8–14 words; never more than 20 words. Before you finish, re-read every "en" line and replace any word a B1 learner
+  may not know with a simpler one — unless it is the key term of the story, in which case explain it right after.
 - Keep the structure easy to follow: say the main point first, then one or two details, then why it matters.
 - {b['name']} sometimes checks understanding in plain words ("So, in short, ...?"), and {a['name']} confirms simply.
 - speaker must be exactly "{a['name']}" or "{b['name']}". Each line 1–3 short sentences, max 45 words. Alternate naturally.
@@ -409,7 +412,8 @@ JAPANESE RECAP ("recap_ja", required for every "story", "health" and "world" seg
 - The first recap of the episode starts with 「日本語でおさらいします。」; later ones may start directly.
 - Do not add facts that are not in the English segment. Numbers must match exactly (million = 100万, billion = 10億, trillion = 1兆;
   e.g. sixty-four billion dollars = 640億ドル).
-- Company, product and person names in their usual Latin spelling (NVIDIA, TSMC, Satya Nadella). 読みにくい漢字の人名・地名には括弧で読み仮名（例: 菊陽町（きくようまち））。
+- Company, product and person names in their usual Latin spelling, exactly as in the English (Amazon, Google, NVIDIA, TSMC, Satya Nadella)
+  — do not write them in katakana. 読みにくい漢字の人名・地名には括弧で読み仮名（例: 菊陽町（きくようまち））。
 
 LINE TRANSLATIONS
 - Every English line also has "ja": a natural, accurate Japanese translation for the on-screen transcript (ですます調). Same number and name rules.
@@ -437,8 +441,32 @@ def _count_ja_chars(script: dict) -> int:
     return sum(len(l["ja"]) for s in script.get("segments", []) if s.get("lang") == "ja" for l in s.get("lines", []))
 
 
+# Big-company names the model sometimes writes in katakana; keep them in Latin letters so they match the English audio.
+_LATIN_NAMES = {
+    "アマゾン": "Amazon", "グーグル": "Google", "マイクロソフト": "Microsoft", "エヌビディア": "NVIDIA",
+    "インテル": "Intel", "クアルコム": "Qualcomm", "サムスン電子": "Samsung Electronics", "サムスン": "Samsung",
+    "ブロードコム": "Broadcom", "テスラ": "Tesla", "スペースX": "SpaceX", "スターリンク": "Starlink",
+    "オープンAI": "OpenAI", "アンソロピック": "Anthropic", "アップル社": "Apple", "メタ社": "Meta",
+}
+
+
+def _latin_names(text: str) -> str:
+    for k, v in _LATIN_NAMES.items():
+        text = text.replace(k, v)
+    return text
+
+
+def _fix_ja(obj):
+    if isinstance(obj, dict):
+        return {k: (_latin_names(v) if isinstance(v, str) and ("ja" in k) else _fix_ja(v)) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_fix_ja(x) for x in obj]
+    return obj
+
+
 def finalize(cfg: dict, script: dict, valid_ids: set[int] | None = None) -> dict:
     """Clean speakers/lines and expand each segment's recap_ja into a following Japanese segment."""
+    script = _fix_ja(script)
     names = [h["name"] for h in cfg["hosts"]]
     recap_speaker = names[1] if len(names) > 1 else names[0]
     out_segments = []
@@ -483,7 +511,7 @@ def finalize(cfg: dict, script: dict, valid_ids: set[int] | None = None) -> dict
 
 
 def segment_words(cfg: dict) -> dict[str, int]:
-    default = {"intro": 90, "story": 250, "health": 250, "world": 190, "ceo_watch": 80, "phrase": 70, "outro": 45}
+    default = {"intro": 90, "story": 220, "health": 220, "world": 165, "ceo_watch": 80, "phrase": 70, "outro": 45}
     return {**default, **(cfg["episode"].get("segment_words") or {})}
 
 
