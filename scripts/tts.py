@@ -77,8 +77,8 @@ def _speech_config(cfg: dict):
 def _director_note(cfg: dict) -> str:
     a, b = cfg["hosts"][0], cfg["hosts"][1]
     return (
-        "Read this morning news podcast aloud. English lines: moderate pace, slightly slower than a native news broadcast, "
-        "with clear articulation for English learners. Japanese lines: natural standard Japanese like a calm NHK radio newsreader. "
+        "Read this morning news podcast aloud. English lines: a little slower than a native news broadcast (about 140 words per minute), "
+        "clear articulation and short pauses between sentences, for English learners. Japanese lines: natural standard Japanese like a calm NHK radio newsreader. "
         "Natural short pauses between speakers. "
         f"{a['name']} sounds {a.get('style', 'calm')}; {b['name']} sounds {b.get('style', 'warm')}."
     )
@@ -100,7 +100,7 @@ def _pcm_from_part(part) -> tuple[bytes, int]:
     return data, int(m.group(1)) if m else 24000
 
 
-PACE = "speaking at a moderate, slightly slow pace with clear articulation for English learners"
+PACE = "speaking a little slower than normal news (about 140 words per minute), clearly, with short pauses between sentences, for English learners"
 JA_STYLE = "a calm, clear Japanese radio newsreader speaking natural standard Japanese (標準語) at a relaxed pace"
 _MODE: dict[str, str] = {}  # model -> request format that worked ("parts" or "classic")
 

@@ -352,6 +352,12 @@ def _writer_prompt(cfg: dict, material: str, now: datetime, target_words: int, s
     recap = int(ep.get("recap_ja_chars", 170))
     count = {sec: sum(1 for s in selection["stories"] if s["section"] == sec) for sec in ("tech", "health", "world")}
     has_ceo = bool(selection.get("ceo_watch_item_ids"))
+    sw = segment_words(cfg)
+
+    def rng(kind: str) -> str:
+        n = sw[kind]
+        return f"{int(n * 0.9)}–{int(n * 1.15)} words"
+
     return f"""You are the head writer of "{title}", a weekday-morning news podcast of about 20 minutes.
 Its core is technology news; it also has a digital-health story and the day's most important world news.
 The conversation is in easy English; after EACH story, {b['name']} gives a short recap in Japanese.
@@ -368,21 +374,22 @@ using the Japanese recap to check understanding.
 TODAY: {now:%A, %B %-d, %Y}.{" It is Monday, so the material covers the weekend too." if monday else ""}
 
 LENGTH — IMPORTANT
-- English: about {target_words} words in total across all "en" lines (acceptable {int(target_words*0.9)}–{int(target_words*1.1)}), about {minutes} minutes.
+- English: about {target_words} words in total across all "en" lines (acceptable {int(target_words*0.95)}–{int(target_words*1.15)}), about {minutes} minutes.
+  This is a 20-minute show: do NOT write short segments. Each segment must reach its word range below.
 - Japanese recaps: about {recap} Japanese characters per story (about 30 seconds when read aloud).
 
 STRUCTURE — segments in this order (the material has {count['tech']} tech, {count['health']} digital-health and {count['world']} world stories, in that order)
-1. kind "intro" (~80 words): {a['name']} greets ("Good morning, it's {now:%A, %B %-d}. This is {title}."), {b['name']} previews three headlines
+1. kind "intro" ({rng('intro')}): {a['name']} greets ("Good morning, it's {now:%A, %B %-d}. This is {title}."), {b['name']} previews three headlines
    (tech, digital health and world). recap_ja: [].
-2. kind "story" — one segment per TECH story, most important first (each 170–220 words): what happened (facts, numbers, who), then why it matters.
-   {b['name']} asks at least one simple question.
-3. kind "health" — the DIGITAL HEALTH story (170–220 words). Open with a short transition such as "Now, our digital health story."
+2. kind "story" — one segment per TECH story, most important first (EACH {rng('story')}): what happened (facts, numbers, who),
+   the background a learner needs, then why it matters. {b['name']} asks at least two simple questions. End with a one-sentence "So, in short" summary.
+3. kind "health" — the DIGITAL HEALTH story ({rng('health')}). Open with a short transition such as "Now, our digital health story."
    Explain what it means for patients, doctors or health systems; add a Japan or Nordic angle only if the material supports it.
-4. kind "world" — one segment per WORLD story (each 120–170 words). The first one opens with "Now, a look at the world beyond tech."
-5. kind "ceo_watch" (60–90 words) — {"what tech CEOs said or posted, attributed precisely; never invent quotes" if has_ceo else "SKIP this segment (no CEO material today)"}. recap_ja: [].
-6. kind "phrase" (~60 words): "Phrase of the day" — {b['name']} picks one useful, everyday English expression that appeared today,
+4. kind "world" — one segment per WORLD story (EACH {rng('world')}). Give the basic background (who, where, why) in simple words. The first one opens with "Now, a look at the world beyond tech."
+5. kind "ceo_watch" ({rng('ceo_watch')}) — {"what tech CEOs said or posted, attributed precisely; never invent quotes" if has_ceo else "SKIP this segment (no CEO material today)"}. recap_ja: [].
+6. kind "phrase" ({rng('phrase')}): "Phrase of the day" — {b['name']} picks one useful, everyday English expression that appeared today,
    explains it simply, gives one more example. recap_ja: [].
-7. kind "outro" (~40 words): one-sentence takeaway and sign-off ("See you on tomorrow's commute."{' — it is Friday: wish listeners a good weekend, see you Monday' if friday else ''}).
+7. kind "outro" ({rng('outro')}): one-sentence takeaway and sign-off ("See you on tomorrow's commute."{' — it is Friday: wish listeners a good weekend, see you Monday' if friday else ''}).
    recap_ja: one short Japanese sign-off line by {b['name']} (e.g. 「以上、{title}でした。いってらっしゃい。」).
 
 EASY ENGLISH — VERY IMPORTANT for every "en" line
@@ -475,19 +482,48 @@ def finalize(cfg: dict, script: dict, valid_ids: set[int] | None = None) -> dict
     return script
 
 
+def segment_words(cfg: dict) -> dict[str, int]:
+    default = {"intro": 90, "story": 250, "health": 250, "world": 190, "ceo_watch": 80, "phrase": 70, "outro": 45}
+    return {**default, **(cfg["episode"].get("segment_words") or {})}
+
+
+def _target_words(cfg: dict, selection: dict) -> int:
+    sw = segment_words(cfg)
+    kinds = {"tech": "story", "health": "health", "world": "world"}
+    total = sw["intro"] + sw["phrase"] + sw["outro"] + (sw["ceo_watch"] if selection.get("ceo_watch_item_ids") else 0)
+    total += sum(sw[kinds[s["section"]]] for s in selection["stories"])
+    return total
+
+
+def _short_segments(cfg: dict, script: dict) -> list[str]:
+    sw = segment_words(cfg)
+    out = []
+    for i, seg in enumerate(script.get("segments", [])):
+        if seg.get("lang") == "ja" or seg.get("kind") not in sw:
+            continue
+        n = sum(word_count(l["en"]) for l in seg["lines"])
+        if n < sw[seg["kind"]] * 0.85:
+            out.append(f'- {seg["kind"]} segment "{seg.get("heading_en", "")}" has {n} words; needs about {sw[seg["kind"]]}')
+    return out
+
+
 def write_script(cfg: dict, material: str, now: datetime, valid_ids: set[int], selection: dict) -> dict:
-    ep = cfg["episode"]
-    target = int(ep["target_minutes"] * ep["words_per_minute"])
+    target = _target_words(cfg, selection)
     prompt = _writer_prompt(cfg, material, now, target, selection)
     raw = _json_call(cfg, prompt, SCRIPT_SCHEMA, "write")
     script = finalize(cfg, json.loads(json.dumps(raw)), valid_ids)
     words = script["word_count"]
     log.info("Script draft: %d English words (target %d), %d Japanese recap chars", words, target, script["ja_chars"])
-    if words < target * 0.88 or words > target * 1.2:
-        direction = "longer: deepen the 'why it matters' analysis and add one more exchange per story" if words < target else "shorter: tighten each story"
+    if words < target * 0.9 or words > target * 1.25:
+        short = _short_segments(cfg, script)
+        direction = (
+            "longer. These segments are too short:\n" + "\n".join(short) + "\n"
+            "Expand them with more background explained in simple words, one or two more question-and-answer exchanges, "
+            "and a short summary line — using only facts from the material"
+        ) if words < target else "shorter: tighten each story"
         revise = (
-            f"The draft below has {words} English words but the target is {target} (±10%). "
-            f"Rewrite it to be {direction}. Keep the same JSON structure (including recap_ja for every story/health/world segment), the easy-English style, facts, stories and sources. "
+            f"The draft below has {words} English words but the target is {target}. Make it {direction}. "
+            f"Keep the same JSON structure (including recap_ja for every story/health/world segment), the easy-English style, facts, stories and sources. "
             f"Do not add facts that are not in the material.\n\nMATERIAL:\n{material}\n\nDRAFT JSON:\n{json.dumps(raw, ensure_ascii=False)}\n\nReturn the full revised JSON only."
         )
         try:
