@@ -1,0 +1,1159 @@
+{
+  "date": "2026-10-13",
+  "published": "2026-10-13T08:26:59+09:00",
+  "title_en": "Commute News: Microsoft Maia 300, Meta Muse Wonder, and Europe's Fridge Hack",
+  "title_ja": "通勤ニュース：MicrosoftのMaia 300、メタのMuse Wonder、そして欧州の冷蔵庫ハッキング事件",
+  "summary_ja": "MicrosoftがAI用の新型カスタムチップ「Maia 300」を発表し、メタも新モデル「Muse Wonder」を公開しました。また、欧州ではスーパーの冷蔵庫がハッキングされ、食品が大量に廃棄される被害が発生しました。",
+  "duration": 831.0,
+  "audio": {
+    "file": "2026-10-13.mp3",
+    "bytes": 6648595,
+    "release_tag": "ep-2026-10-13"
+  },
+  "word_count": 1629,
+  "ja_chars": 838,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.5-flash-lite",
+    "write": "gemini-3.5-flash-lite",
+    "revise": "gemini-3.5-flash-lite",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Good Morning and Today's Headlines",
+      "heading_ja": "おはようございます。今日のヘッドライン",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning and welcome to another edition of Commute News. Today is Tuesday, October the thirteenth, and we have a packed schedule of global technology breakthroughs, digital health innovations, and critical updates from around the world.",
+          "ja": "おはようございます。Commute Newsへようこそ。本日は10月13日火曜日です。世界的なテクノロジーの突破口、デジタルヘルスの革新、そして世界各地からの重要なニュースをお届けします。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, Alex. That is right. In today's episode, we will cover major custom silicon announcements from Microsoft and brand-new frontier models from Meta designed to compete at the highest level. We will also examine hardware updates from Nvidia, Cisco, AMD, and Intel, a major digital health expansion from Google, ongoing energy strikes in Ukraine, an unprecedented supermarket cyberattack in Europe, and new trade limits on Chinese hybrid vehicles.",
+          "ja": "おはようございます、アレックス。その通りです。本日のエピソードでは、Microsoftによる大型のカスタムシリコン発表や、最高レベルで競合するように設計されたメタの真新しいフロンティアモデルを取り上げます。また、NVIDIA、シスコ、AMD、Intelからのハードウェア更新、Googleによる大規模なデジタルヘルス事業の拡大、ウクライナにおける継続的なエネルギー施設への攻撃、欧州での前例のないスーパーマーケットへのサイバー攻撃、そして中国製ハイブリッド車に対する新しい貿易制限についても検証します。",
+          "t": 15.3
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Microsoft Unveils Maia 300 Chip",
+      "heading_ja": "Microsoftが「Maia 300」チップを発表",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Microsoft announced its new Maia 300 chip on Monday as part of a massive multi-gigawatt AI infrastructure push.",
+          "ja": "Microsoftは月曜日、数ギガワット規模の巨大なAIインフラ構築の一環として、新型チップ「Maia 300」を発表しました。",
+          "t": 43.06
+        },
+        {
+          "speaker": "Mika",
+          "en": "Alex, why is Microsoft making its own custom silicon instead of relying entirely on companies like Nvidia?",
+          "ja": "アレックス、なぜMicrosoftはNVIDIAのような企業に完全に依存するのではなく、自社製のカスタムシリコンを作っているのですか？",
+          "t": 50.91
+        },
+        {
+          "speaker": "Alex",
+          "en": "Custom silicon helps Microsoft reduce its reliance on Nvidia and lower overall operating costs. The new Maia 300 chip is a complete intelligent system designed specifically for the new types of AI workloads emerging today, including long-context reasoning, latency-sensitive conversational experiences, and sustained, multi-step agentic tasks.",
+          "ja": "カスタムシリコンにより、MicrosoftはNVIDIAへの依存を減らし、全体の運用コストを削減できます。新しいMaia 300チップは、長文の推論、レイテンシに敏感な会話体験、そして持続的なマルチステップのエージェント型タスクなど、現在出現している新しいタイプのAIワークロード専用に設計された完全なインテリジェントシステムです。",
+          "t": 58.47
+        },
+        {
+          "speaker": "Mika",
+          "en": "How much more efficient is this new chip compared to older systems?",
+          "ja": "この新しいチップは、古いシステムと比較してどれくらい効率的なのですか？",
+          "t": 79.71
+        },
+        {
+          "speaker": "Alex",
+          "en": "By improving efficiency across the system, Microsoft expects Maia 300 to deliver forty percent more tokens per megawatt compared to leading GPU-based systems. In a full ninety-six-accelerator configuration, it delivers up to seven times the rack-scale token throughput of Maia 200.",
+          "ja": "システム全体の効率を改善することで、MicrosoftはMaia 300が主要なGPUベースのシステムと比較して、1メガワットあたり40パーセント多いトークンを処理できると期待しています。96アクセラレータのフル構成では、Maia 200の最大7倍のラック規模のトークン処理スループットを実現します。",
+          "t": 85.02
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Microsoft is building custom chips to save money and run future AI workloads much more efficiently?",
+          "ja": "つまり、Microsoftはコストを削減し、将来のAI処理をより効率的に実行するためにカスタムチップを開発しているということですね？",
+          "t": 102.68
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is correct. The company is making its biggest bet yet on custom silicon to scale its infrastructure for the era of super intelligence.",
+          "ja": "その通りです。同社はスーパーインテリジェンスの時代に向けてインフラを拡張するため、カスタムシリコンに対してこれまでで最大の賭けに出ています。",
+          "t": 110.64
+        }
+      ],
+      "lang": "en",
+      "t": 43.06
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。Microsoftは、NVIDIAへの依存を減らしコストを抑えるため、新型チップ「Maia 300」を発表しました。長文推論やエージェント型タスクに最適化されており、2027年から大規模なAIインフラに導入される予定です。",
+          "en": "",
+          "lang": "ja",
+          "t": 120.11
+        }
+      ],
+      "t": 120.11
+    },
+    {
+      "kind": "story",
+      "heading_en": "Meta Launches Muse Wonder Models",
+      "heading_ja": "メタが「Muse Wonder」モデルを投入",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Meta released two new frontier AI models on Monday, called Muse Wonder and Muse Wonder Full, as part of an overhaul of its AI efforts.",
+          "ja": "メタはAI開発体制の刷新の一環として、月曜日に「Muse Wonder」および「Muse Wonder Full」と呼ばれる2つの新しいフロンティアAIモデルを発表しました。",
+          "t": 141.17
+        },
+        {
+          "speaker": "Mika",
+          "en": "How do these new models compare to other AI systems on the market, and what tasks can they handle?",
+          "ja": "これらの新モデルは市場にある他のAIシステムと比べてどうであり、どのようなタスクを処理できるのですか？",
+          "t": 150.06
+        },
+        {
+          "speaker": "Alex",
+          "en": "According to Meta, they achieve comparable benchmark scores to leading industry models. They are built for expert domains including law, finance, and health, and they feature frontier coding performance.",
+          "ja": "メタによると、業界をリードするモデルに匹敵するベンチマークスコアを達成しています。法律、金融、健康などの専門分野向けに構築されており、最先端のコーディング性能を備えています。",
+          "t": 156.94
+        },
+        {
+          "speaker": "Mika",
+          "en": "What makes these models unique in how they remember and process user information over time?",
+          "ja": "長期にわたってユーザーの情報を記憶し処理する方法において、これらのモデルをユニークにしているものは何ですか？",
+          "t": 169.69
+        },
+        {
+          "speaker": "Alex",
+          "en": "They feature active memory, which is the ability to carry what matters across conversations and bring back relevant details. They also feature active focus, which helps them keep working toward a goal when a task gets hard.",
+          "ja": "それらは会話全体で重要な事項を持ち越し、関連する詳細を呼び戻す能力であるアクティブメモリを備えています。また、タスクが困難になったときに目標に向かって働き続けるのを助けるアクティブフォーカスも備えています。",
+          "t": 176.18
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Meta is launching powerful new models with active memory to compete directly with OpenAI and Anthropic?",
+          "ja": "つまり、メタはOpenAIやAnthropicと直接競合するため、アクティブメモリを備えた強力な新モデルを投入したということですね？",
+          "t": 190.05
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. It is Meta's first major attempt at a true frontier model, marking a major leap toward personal superintelligence.",
+          "ja": "その通りです。これは本格的なフロンティアモデルに向けたメタにとって初めての主要な試みであり、パーソナルスーパーインテリジェンスに向けた大きな飛躍となります。",
+          "t": 197.99
+        }
+      ],
+      "lang": "en",
+      "t": 141.17
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "メタは、OpenAIやAnthropicに対抗するため、新モデル「Muse Wonder」を発表しました。長期的な記憶機能であるアクティブメモリを搭載し、専門的なタスクを処理できるように設計されています。",
+          "en": "",
+          "lang": "ja",
+          "t": 206.27
+        }
+      ],
+      "t": 206.27
+    },
+    {
+      "kind": "story",
+      "heading_en": "NVIDIA and Cisco Introduce USFP Optics",
+      "heading_ja": "NVIDIAとシスコが「USFP」規格を発表",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Nvidia and Cisco announced a new networking standard on Monday called Ultra-Dense Small Form Factor Pluggable, or USFP for short.",
+          "ja": "NVIDIAとシスコは月曜日、ウルトラ・デンス・スモール・フォーム・ファクター・プラグアブル、略してUSFPと呼ばれる新しいネットワーク規格を発表しました。",
+          "t": 223.07
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specific problem does this new USFP standard solve for modern data centers and AI factories?",
+          "ja": "この新しいUSFP規格は、現代のデータセンターやAIファクトリーのどのような具体的な問題を解決するのですか？",
+          "t": 231.69
+        },
+        {
+          "speaker": "Alex",
+          "en": "As AI factories grow from megawatts to gigawatts, they require much higher data density and bandwidth. USFP delivers four times the bandwidth density and better power efficiency, allowing operators to connect more computing systems without adding complex network tiers.",
+          "ja": "AIファクトリーがメガワットからギガワット規模に成長するにつれ、はるかに高いデータ密度と帯域幅が必要になります。USFPは4倍の帯域幅密度と優れた電力効率を実現し、複雑なネットワーク層を追加することなく、より多くの計算システムを接続できるようにします。",
+          "t": 238.51
+        },
+        {
+          "speaker": "Mika",
+          "en": "How much total capacity can these new optical modules support?",
+          "ja": "これらの新しい光モジュールは、総容量でどれくらいをサポートできるのですか？",
+          "t": 254.95
+        },
+        {
+          "speaker": "Alex",
+          "en": "The modules support capacity up to twelve point eight terabits per second, helping AI factory builders scale their Ethernet AI fabrics efficiently.",
+          "ja": "このモジュールは最大12.8テラビット毎秒の容量をサポートし、AIファクトリーの構築者がイーサネットAIファブリックを効率的に拡張するのを支援します。",
+          "t": 259.82
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, USFP is a new optical module designed to connect massive AI systems with higher speed and less power?",
+          "ja": "つまり、USFPは、大規模なAIシステムをより高速かつ低電力で接続するために設計された新しい光モジュールということですね？",
+          "t": 269.44
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, it is built to help the industry scale next-generation AI factories efficiently while keeping networking power consumption under control.",
+          "ja": "はい、ネットワークの電力消費を抑えながら、業界が次世代AIファクトリーを効率的に拡張できるように構築されています。",
+          "t": 277.27
+        }
+      ],
+      "lang": "en",
+      "t": 223.07
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "NVIDIAとシスコは、AI工場のネットワークを効率化するため、新しい光モジュール規格「USFP」を発表しました。電力消費を抑えながらデータ帯域を大幅に拡大することができます。",
+          "en": "",
+          "lang": "ja",
+          "t": 287.06
+        }
+      ],
+      "t": 287.06
+    },
+    {
+      "kind": "story",
+      "heading_en": "AMD Unveils Helion AI Racks",
+      "heading_ja": "AMDが「Helion」AIラックを発表",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "AMD revealed a new rack-scale reference design called Helion at the Open Compute Project summit, supporting up to thirty-two thousand Zen six cores.",
+          "ja": "AMDはオープン・コンピュート・プロジェクトのサミットで、最大3万2000個のZen 6コアをサポートする「Helion」と呼ばれる新しいラック規模のリファレンスデザインを発表しました。",
+          "t": 302.29
+        },
+        {
+          "speaker": "Mika",
+          "en": "Is this new Helion rack meant for training large AI models, or does it serve a different purpose?",
+          "ja": "この新しいHelionラックは大規模なAIモデルのトレーニングを目的としているのですか、それとも別の目的なのですか？",
+          "t": 312.32
+        },
+        {
+          "speaker": "Alex",
+          "en": "It is primarily focused on CPUs rather than heavy training GPUs. In a CPU-only deployment, it can hold up to one hundred twenty-eight EPYC processors, providing a massive core count for agentic AI sandboxes and enterprise data management.",
+          "ja": "重いトレーニング用GPUではなく、主にCPUに焦点を当てています。CPUのみの構成では、最大128基のEPYCプロセッサを搭載でき、エージェント型AIのサンドボックスや企業のデータ管理向けに膨大なコア数を提供します。",
+          "t": 319.39
+        },
+        {
+          "speaker": "Mika",
+          "en": "When will this new reference design be available to the market?",
+          "ja": "この新しいリファレンスデザインはいつ市場に提供されるのですか？",
+          "t": 334.64
+        },
+        {
+          "speaker": "Alex",
+          "en": "Although AMD does not sell the racks directly, the design will be brought to market by OEM and ODM partners starting in November.",
+          "ja": "AMDがラックを直接販売するわけではありませんが、OEMおよびODMパートナーによって11月から市場に投入される予定です。",
+          "t": 339.74
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, AMD's Helion is a high-core CPU rack designed to support enterprise agentic AI workloads?",
+          "ja": "つまり、AMDのHelionは、企業のAIエージェントの作業をサポートするために設計された、高コアCPUのラックということですね？",
+          "t": 348.67
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is right. It offers a flexible infrastructure option for running personal AI agents alongside inference servers.",
+          "ja": "その通りです。推論サーバーと並行してパーソナルAIエージェントを実行するための柔軟なインフラ選択肢を提供します。",
+          "t": 356.09
+        }
+      ],
+      "lang": "en",
+      "t": 302.29
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "AMDは、AIエージェントの処理をサポートする新しいCPUラック「Helion」を発表しました。最大3万2000個のZen 6コアを収容可能で、11月から出荷される予定です。",
+          "en": "",
+          "lang": "ja",
+          "t": 364.32
+        }
+      ],
+      "t": 364.32
+    },
+    {
+      "kind": "story",
+      "heading_en": "Intel Launches GPU D-Series",
+      "heading_ja": "Intelが「GPU Dシリーズ」を発表",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Intel officially launched its Crescent Island AI accelerator as the GPU D-Series family, providing new performance specifications for data centers.",
+          "ja": "IntelはCrescent Island AIアクセラレータをGPU Dシリーズファミリーとして正式に発表し、データセンター向けの新しい性能仕様を提供しました。",
+          "t": 379.39
+        },
+        {
+          "speaker": "Mika",
+          "en": "What are the key performance metrics of this new Intel accelerator chip?",
+          "ja": "この新しいIntel製アクセラレータチップの主要な性能指標は何ですか？",
+          "t": 389.36
+        },
+        {
+          "speaker": "Alex",
+          "en": "The chip delivers one point three PFLOPS of FP8 compute alongside up to four hundred eighty gigabytes of LPDDR5X memory, delivering one point five terabytes per second of memory bandwidth.",
+          "ja": "このチップは1.3ペタフロップスのFP8演算性能と最大480ギガバイトのLPDDR5Xメモリを備え、毎秒1.5テラバイトのメモリ帯域幅を提供します。",
+          "t": 394.99
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does it fit into server rooms compared to liquid-cooled systems?",
+          "ja": "液冷システムと比較して、サーバー室にどのように適合するのですか？",
+          "t": 407.34
+        },
+        {
+          "speaker": "Alex",
+          "en": "It is built for traditional air-cooled rack servers with a thermal design power of three hundred fifty watts, targeting latency-sensitive inference and large language models.",
+          "ja": "熱設計電力350ワットの従来の空冷式ラックサーバー向けに作られており、レイテンシに敏感な推論や大規模言語モデルをターゲットにしています。",
+          "t": 412.73
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Intel is offering an air-cooled AI accelerator to help servers run inference services efficiently?",
+          "ja": "つまり、Intelはサーバーが推論サービスを効率的に実行できるように、空冷式のAIアクセラレータを提供しているということですね？",
+          "t": 424.27
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, customer sampling is already in progress as Intel tries to secure an AI accelerator foothold.",
+          "ja": "はい、IntelがAIアクセラレータの足場を固めようとする中、顧客向けのサンプル出荷はすでに進行中です。",
+          "t": 432.21
+        }
+      ],
+      "lang": "en",
+      "t": 379.39
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Intelは、AI推論アクセラレータ「GPU Dシリーズ」を正式に発表しました。空冷式のサーバー向けに設計されており、効率的なAI推論サービスの実行を目的としています。",
+          "en": "",
+          "lang": "ja",
+          "t": 439.79
+        }
+      ],
+      "t": 439.79
+    },
+    {
+      "kind": "health",
+      "heading_en": "Google Expands Digital Health Ecosystem",
+      "heading_ja": "Googleがデジタルヘルス事業を拡大",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Google announced a major expansion of its digital health ecosystem on Monday, introducing new wearable hardware and software features.",
+          "ja": "Googleは月曜日、デジタルヘルスエコシステムの大型拡張を発表し、新しいウェアラブルハードウェアとソフトウェア機能を導入しました。",
+          "t": 453.12
+        },
+        {
+          "speaker": "Mika",
+          "en": "What is the new wearable device that Google unveiled, and where does it fit in their lineup?",
+          "ja": "Googleが発表した新しいウェアラブルデバイスは何であり、そのラインナップのどこに位置づけられるのですか？",
+          "t": 461.54
+        },
+        {
+          "speaker": "Alex",
+          "en": "Google unveiled the Fitbit Edge tracker, which costs one hundred seventy-nine dollars and ninety-nine cents. It sits right between the lightweight Fitbit Air and the more powerful Pixel Watch 5, featuring an OLED display for glanceable guidance.",
+          "ja": "Googleは179.99ドルのFitbit Edgeトラッカーを発表しました。軽量なFitbit Airとより高性能なPixel Watch 5の間に位置し、一目でわかるガイダンス用の有機ELディスプレイを備えています。",
+          "t": 467.73
+        },
+        {
+          "speaker": "Mika",
+          "en": "What software updates and partnerships are being added to the Google Health ecosystem?",
+          "ja": "Google Healthエコシステムには、どのようなソフトウェアのアップデートやパートナーシップが追加されているのですか？",
+          "t": 482.02
+        },
+        {
+          "speaker": "Alex",
+          "en": "Google is partnering with Flo Health to integrate cycle, pregnancy, and menopause guidance directly into the Google Health app and Health Coach, while also expanding workout tracking accuracy.",
+          "ja": "GoogleはFlo Healthと提携し、生理、妊娠、閉経に関するガイダンスをGoogle Healthアプリとヘルスコーチに直接統合すると同時に、ワークトレーニングの追跡精度を向上させています。",
+          "t": 487.9
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Google is launching the Fitbit Edge tracker and expanding its AI health features to offer a more complete wellness companion?",
+          "ja": "つまり、GoogleはFitbit Edgeトラッカーを発売し、より充実した健康管理の相棒を提供するためにAIヘルス機能を拡大しているということですね？",
+          "t": 499.38
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, it represents a deliberate step change in design and performance to support proactive, personalized health tracking.",
+          "ja": "はい、これは積極的でパーソナライズされた健康トラッキングをサポートするための、デザインと性能における意図的な大きな変化を表しています。",
+          "t": 508.07
+        }
+      ],
+      "lang": "en",
+      "t": 453.12
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Googleは、新型トラッカー「Fitbit Edge」を発表し、ヘルスケアエコシステムを拡大しました。AIを活用した健康指導や、女性の健康管理機能などが強化されています。",
+          "en": "",
+          "lang": "ja",
+          "t": 515.79
+        }
+      ],
+      "t": 515.79
+    },
+    {
+      "kind": "world",
+      "heading_en": "Russia Strikes Ukrainian Energy Sites",
+      "heading_ja": "ロシアがウクライナのエネルギー施設を攻撃",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Russia has struck several Ukrainian energy facilities despite a proposed partial energy ceasefire announced by US President Donald Trump.",
+          "ja": "ドナルド・トランプ米大統領が発表したエネルギー部分停戦の提案にもかかわらず、ロシアはウクライナのいくつかのエネルギー施設を攻撃しました。",
+          "t": 529.41
+        },
+        {
+          "speaker": "Mika",
+          "en": "What was the immediate aftermath of these strikes, according to Ukrainian officials?",
+          "ja": "ウクライナ当局によると、これらの攻撃の直後の影響はどうでしたか？",
+          "t": 537.99
+        },
+        {
+          "speaker": "Alex",
+          "en": "Ukrainian President Volodymyr Zelenskyy reported that six energy facilities were hit hours after the announcement, injuring thirty-three people and causing blackouts in cities like Izyum.",
+          "ja": "ウクライナのウォロディミル・ゼレンスキー大統領は、発表から数時間後に6つのエネルギー施設が攻撃され、33人が負傷し、イジュームなどの都市で停電が発生したと報告しました。",
+          "t": 543.76
+        },
+        {
+          "speaker": "Mika",
+          "en": "How has the Ukrainian government interpreted these ongoing attacks?",
+          "ja": "ウクライナ政府はこれらの継続的な攻撃をどのように解釈していますか？",
+          "t": 554.98
+        },
+        {
+          "speaker": "Alex",
+          "en": "Zelenskyy stated that the strikes are clear proof that Russia is unwilling to accept an energy truce and is ignoring diplomatic efforts.",
+          "ja": "ゼレンスキー氏は、この攻撃がロシアはエネルギー停戦を受け入れる意志がなく、外交努力を無視していることの明確な証拠であると述べました。",
+          "t": 559.85
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Russian strikes on energy infrastructure continue, raising serious doubts about the proposed ceasefire?",
+          "ja": "つまり、エネルギーインフラに対するロシアの攻撃が続き、提案された停戦に対する深刻な疑問が生じているということですね？",
+          "t": 568.37
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is correct. Diplomatic friction remains high as both sides continue exchanging strikes ahead of the winter season.",
+          "ja": "その通りです。冬の季節を前に双方による攻撃の応酬が続く中、外交的摩擦が高止まりしています。",
+          "t": 575.89
+        }
+      ],
+      "lang": "en",
+      "t": 529.41
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "トランプ米大統領が発表したエネルギー停戦の提案にもかかわらず、ロシアによるウクライナのエネルギー施設への攻撃が続いています。これにより、停戦合意の実現性に疑問が投げかけられています。",
+          "en": "",
+          "lang": "ja",
+          "t": 583.96
+        }
+      ],
+      "t": 583.96
+    },
+    {
+      "kind": "world",
+      "heading_en": "Cyberattack Cripples Supermarket Fridges",
+      "heading_ja": "サイバー攻撃がスーパーの冷蔵庫を麻痺させる",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "An unprecedented cyberattack has crippled supermarket refrigeration systems across France and several other European countries.",
+          "ja": "前例のないサイバー攻撃により、フランスやその他の欧州諸国のスーパーの冷蔵システムが麻痺しました。",
+          "t": 598.55
+        },
+        {
+          "speaker": "Mika",
+          "en": "What did the hackers do to the refrigeration systems, and what was the physical result in the stores?",
+          "ja": "ハッカーたちは冷蔵システムに対して何をし、店舗ではどのような物理的結果が生じたのですか？",
+          "t": 606.75
+        },
+        {
+          "speaker": "Alex",
+          "en": "Hackers gained control of Danfoss software and forced refrigeration units into a continuous defrost cycle at fifty degrees Celsius. This created waves of heat, caused small fires, and spoiled millions of euros worth of fresh and frozen food across hundreds of stores.",
+          "ja": "ハッカーはダンフォスのソフトウェアを乗っ取り、冷蔵庫を50度の連続解凍サイクルに強制設定しました。これにより熱波が発生し、小規模な火災が起き、数百店舗で数百万ユーロ相当の生鮮食品や冷凍食品が台無しになりました。",
+          "t": 613.54
+        },
+        {
+          "speaker": "Mika",
+          "en": "Which major supermarket chains were affected by this incident?",
+          "ja": "どの主要スーパーマーケットチェーンがこの事件の影響を受けたのですか？",
+          "t": 629.28
+        },
+        {
+          "speaker": "Alex",
+          "en": "Chains such as Intermarché, Leclerc, Coopérative U, and Carrefour were impacted in France, while similar disruptions hit Dutch retailers like Albert Heijn.",
+          "ja": "フランスではインターマルシェ、ルクレール、カープランなどのチェーンが影響を受け、オランダでもアルバート・ハインなどの小売店が同様の混乱に見舞われました。",
+          "t": 633.97
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, a major cyberattack heated supermarket fridges in Europe, causing massive food spoilage and launching criminal investigations?",
+          "ja": "つまり、大規模なサイバー攻撃によって欧州のスーパーの冷蔵庫が加熱され、大量の食品腐敗が発生して刑事捜査が開始されたということですね？",
+          "t": 643.67
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, French prosecutors have opened a specific cyber-crime investigation into the large-scale incident.",
+          "ja": "はい、フランスの検察当局はこの大規模な事件について特定のサイバー犯罪捜査を開始しました。",
+          "t": 652.56
+        }
+      ],
+      "lang": "en",
+      "t": 598.55
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "欧州で前例のないサイバー攻撃が発生し、スーパーの冷蔵庫の温度が50度に上げられました。数百店舗で食品が腐敗し、当局が捜査を開始しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 659.46
+        }
+      ],
+      "t": 659.46
+    },
+    {
+      "kind": "world",
+      "heading_en": "EU Limits Chinese Hybrid Imports",
+      "heading_ja": "EUが中国製ハイブリッド車の輸入を制限",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "The European Union has confirmed it will limit the number of hybrid electric vehicles imported from China to three hundred fifty thousand cars a year.",
+          "ja": "欧州連合は、中国から輸入されるハイブリッド車の年間輸入量を35万台に制限することを正式に確認しました。",
+          "t": 670.85
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is the EU implementing this specific quota, and what mechanism are they using?",
+          "ja": "EUはなぜこの特定の割当枠を導入しており、どのような仕組みを使用しているのですか？",
+          "t": 680.29
+        },
+        {
+          "speaker": "Alex",
+          "en": "Imports have surged in recent years, threatening domestic industry and jobs. The EU is using World Trade Organization safeguard measures, which allow the quota to be implemented swiftly without lengthy anti-dumping investigations.",
+          "ja": "近年、輸入が急増し、国内産業や雇用を脅かしています。EUは世界貿易機関のセーフガード措置を利用しており、これにより長期間の反ダンピング調査なしで迅速に割当枠を導入できます。",
+          "t": 686.05
+        },
+        {
+          "speaker": "Mika",
+          "en": "What impact is this quota expected to have on China's market share in Europe?",
+          "ja": "この割当枠は、欧州における中国の市場シェアにどのような影響を与えると予想されていますか？",
+          "t": 699.8
+        },
+        {
+          "speaker": "Alex",
+          "en": "Officials expect the quota, coming into force in December, to halve China's market share from six percent down to three percent.",
+          "ja": "当局者は、12月に発効するこの割当枠により、中国の市場シェアが6パーセントから3パーセントに半減すると予想しています。",
+          "t": 705.3
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, the EU is imposing an annual quota on Chinese hybrid cars to protect its local automotive industry?",
+          "ja": "つまり、EUは地元の自動車産業を守るために、中国製ハイブリッド車に年間輸入枠を課しているということですね？",
+          "t": 713.54
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly, reflecting a major paradigm shift toward curbing imports to prevent deindustrialisation.",
+          "ja": "その通りです。産業空洞化を防ぐために輸入抑制へと向かう大きなパラダイムシフトを反映しています。",
+          "t": 720.98
+        }
+      ],
+      "lang": "en",
+      "t": 670.85
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "EUは国内の自動車産業を保護するため、中国製ハイブリッド車の輸入を年間35万台に制限すると発表しました。これにより中国の市場シェアが半減すると見込まれています。",
+          "en": "",
+          "lang": "ja",
+          "t": 728.01
+        }
+      ],
+      "t": 728.01
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch: AI Funding and Bottlenecks",
+      "heading_ja": "CEOウォッチ：AIの資金調達とボトルネック",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In CEO Watch, top executives from Broadcom and Intel have issued warnings regarding future AI funding and infrastructure bottlenecks.",
+          "ja": "CEOウォッチです。BroadcomとIntelのトップ経営陣が、将来のAI資金調達とインフラのボトルネックに関して警告を発しました。",
+          "t": 741.23
+        },
+        {
+          "speaker": "Mika",
+          "en": "What did they identify as the primary concern for the technology sector moving forward?",
+          "ja": "テクノロジーセクターが今後直面する主な懸念事項として、彼らは何を挙げたのですか？",
+          "t": 749.89
+        },
+        {
+          "speaker": "Alex",
+          "en": "They pointed out that as AI models and data centers continue to expand rapidly, the next major bottleneck will not just be chip supply, but broader infrastructure funding, electrical grid capacity, and power availability.",
+          "ja": "彼らは、AIモデルやデータセンターが急速に拡大し続ける中、次の大きなボトルネックはチップの供給だけでなく、より幅広いインフラの資金調達、送電網の容量、そして電力の確保になると指摘しました。",
+          "t": 756.03
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, industry CEOs are warning that funding and power limits may pose bigger challenges than chip manufacturing alone?",
+          "ja": "つまり、業界のCEOたちは、資金調達や電力の制限がチップ製造単体よりも大きな課題をもたらす可能性があると警告しているということですね？",
+          "t": 769.52
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is right. Leaders are urging careful planning as multi-gigawatt facilities require unprecedented resources.",
+          "ja": "その通りです。数ギガワット規模の施設には前例のないリソースが必要となるため、リーダーたちは慎重な計画を求めています。",
+          "t": 777.86
+        }
+      ],
+      "lang": "en",
+      "t": 741.23
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: To Go Toe-to-Toe",
+      "heading_ja": "今日のフレーズ：「渡り合う、互角に勝負する」",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Our phrase of the day is to go toe-to-toe. It means to compete directly, equally, and fiercely with a strong rival or competitor.",
+          "ja": "今日のフレーズは「to go toe-to-toe」です。強力なライバルや競合相手と直接、対等に、そして激しく競い合うという意味です。",
+          "t": 785.37
+        },
+        {
+          "speaker": "Alex",
+          "en": "For example, you can say: Meta's new frontier models are designed to go toe-to-toe with OpenAI and Anthropic.",
+          "ja": "例えば、「メタの新しいフロンティアモデルは、OpenAIやAnthropicと互角に勝負できるように設計されている」のように使うことができます。",
+          "t": 793.81
+        },
+        {
+          "speaker": "Mika",
+          "en": "It is a great idiom to describe close competition in business and technology.",
+          "ja": "ビジネスやテクノロジーにおける熾烈な競争を表現するのに最適なイディオムですね。",
+          "t": 801.16
+        }
+      ],
+      "lang": "en",
+      "t": 785.37
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Closing and Sign-off",
+      "heading_ja": "エンディング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That covers all our major stories and updates for today. Thank you for listening to Commute News, and we hope you found these insights helpful for your morning journey.",
+          "ja": "本日の主要なニュースとアップデートは以上です。Commute Newsをお聴きいただきありがとうございました。朝の通勤時間の情報収集にお役立ていただければ幸いです。",
+          "t": 806.75
+        },
+        {
+          "speaker": "Mika",
+          "en": "Have a wonderful Tuesday, and be sure to tune in again tomorrow for more global technology and business news. See you then!",
+          "ja": "素晴らしい火曜日をお過ごしください。明日の世界的なテクノロジーとビジネスのニュースもお見逃しなく。それではまた明日お会いしましょう！",
+          "t": 817.34
+        }
+      ],
+      "lang": "en",
+      "t": 806.75
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。いってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 825.45
+        }
+      ],
+      "t": 825.45
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Microsoft Unveils Maia 300 Chip",
+      "title_ja": "MicrosoftがMaia 300チップを発表",
+      "summary_ja": "Microsoftは2027年からのマルチギガワット規模のAIインフラ展開に向け、新型カスタムチップ「Maia 300」を発表しました。Maia 200はすでに本番環境で稼働しており、次世代のMaia 300は長文推論やエージェント型タスクに最適化されています。これによりNVIDIAへの依存を減らし、システムの効率性を大幅に高める狙いがあります。",
+      "why_ja": "自社製カスタムシリコンへの大型投資を通じてインフラコストを削減し、将来のAIワークロードにおける処理効率を最大化する戦略です。",
+      "section": "tech",
+      "topic_key": "microsoft-maia-300-chip",
+      "sources": [
+        {
+          "publisher": "Microsoft Source",
+          "title": "Microsoft to expand Maia chip for the AI era",
+          "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/"
+        },
+        {
+          "publisher": "Microsoft Source",
+          "title": "Introducing Microsoft’s latest custom chip: Maia 300",
+          "url": "https://news.microsoft.com/maia-2026/"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Microsoft plans huge deployment of its own AI chips, with an eye on saving costs",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWHVSM1ltUmRIUHVldm04ZU5JX2hLc0lhYjZVaDMzMDlkVkxXNUM3OTFFVU1kdlM1R3BneGN5cXp3Ui1Yc211TFF0VUU3ZlpRWjhBRy0yOGJjdlZxR3FmdmFHdFNMRDM3Rnh3WjJMd0d1MHNINEdvdWpBVEc5TTJNMjk1Xy1JNEY2b1g5RkYzWXYtakQ0SmNnMHdoUlRnbjFMSWVBUm9QaVBXbkFNUVgwSDVLdURleTBwMHc?oc=5"
+        },
+        {
+          "publisher": "The Official Microsoft Blog",
+          "title": "Microsoft to expand Azure Maia system to multi-gigawatt deployments",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQWtCRTJBSThLQjBSa09qbEhKc2d2N0xyMDdJYXFXZWg4UGFRcUExcVBBd292eFl2WGwzVXBCVzg2WWtnOFM5eE1ma2gzTGNSMms5SFFpdTZOVjR4TEZEcmlpZmNYbEdUZmxya1FremFRNmVNTTdzYUlRdzZEYmFBV3VwVWNEUmFDMG9NMjNRX25BRW9Gbktyb0RGNWE2a0kxLTV0VEZ1YXozZDRuNm91YkpB?oc=5"
+        },
+        {
+          "publisher": "GeekWire",
+          "title": "Microsoft makes ‘biggest bet yet’ on its own silicon, unveils new AI chip to reduce reliance on Nvidia",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUEZEbjdfOE1lY3RRLVpLcGZDNlUtLU93MTlhbW9JYzRoMmlGZHJsNmd5UFRXNjZkWE9FUmhLRFNqOTZVQ3dKaHkyNm15blIwSXduVk9wb18wV1d4djQ5Sm9Fc1E0aFA3cC0wbjhubVFHRlM2emVWTGhvRGNDYmJiN0JwV2tfQ2xHelBzUEU5R1ZPNVZPNW4tY1VhbjhuQUtHMXZILWdqTDgwdkFHZU5XbnZKNEdWUjk2M01jQ1pUeV9tQ2NUQ3FEV0Rn?oc=5"
+        },
+        {
+          "publisher": "CNBC",
+          "title": "Microsoft to rely more on homegrown AI chips, reducing dependence on Nvidia",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbXdvdGREcjRPNHptRzBRc0U2a3ZSZXQ5cHdDRG5HVkpyYnZCTmJKcVdJVnpGUnhua09PbmR4bXdXM0diYVptTWNmcHFaY3FTRmlJV2N6d2Vma183QnA3UnFjUTVNRjhEWWRFZDJNQTdGNkkzbFNNSzFvLTloQ25kQmlYRXFfcmRCSzVvdU9VdXhSUEx5d1ZqU3VB0gGfAUFVX3lxTFBYNlVqUHRKWk9zYWtJU1hCWEpKM2tRUDgxdDltRlV1aU52dmlieFIyWTNwOEt2VndRT01ERnVmVG1xaEt6YnptRDhJNW42bFgwQWM4QXJMTTE5SllPZFc5dUtoclhJamluZENjdXdzeGdDNDFzejZlSHRwbjBVX0VTbHh0ZDRPVlNfQVgyelJVUl9KZi1LQllkR29uRlg4NA?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Meta Launches Muse Wonder Models",
+      "title_ja": "メタがMuse Wonderモデルを投入",
+      "summary_ja": "メタは、OpenAIやAnthropicに対抗するため、新モデル「Muse Wonder」および「Muse Wonder Full」を発表しました。これらのモデルは専門的なタスクで高い性能を発揮し、長期的な記憶を保持する「アクティブメモリ」を備えています。メタの新しいスーパーコンピューティングデータセンターでトレーニングされました。",
+      "why_ja": "フロンティアAIモデルのレースにおいて存在感を高め、パーソナルAIエージェントの性能を飛躍的に向上させるための重要なステップです。",
+      "section": "tech",
+      "topic_key": "meta-muse-wonder-models",
+      "sources": [
+        {
+          "publisher": "Meta Newsroom",
+          "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
+          "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Meta releases its first frontier model, Muse Wonder",
+          "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "Meta has some Wonder Full new AI models",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model"
+        },
+        {
+          "publisher": "WSJ",
+          "title": "Meta Says New AI Model Is State-of-the-Art, Will Make Muse Agent Smarter",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQVkxbnFYRFlRdVIwVm5MX2hxakc1a29XeFM2d3E2X1Z6YS15M21mSHB2LVBjVFRTaV9TYkhodklCcTc3R1ZQTk41NWc1LXR4TS1Gc1pzc1FtOFl3TlJRWnF2cm1DT1lWcnhUOG1IWi1YQkJTY3FyRl9SNUl3WnlVb2preFJFeHdhb3JDRkRtdDV1NkxkV3JhQWNJeUpVYjJpV09rWkhtZmVPOXpv?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Meta releases Muse Wonder AI models to challenge Anthropic and OpenAI",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYWVqemVLdThXMGhqbFNrdkZ1NDUtWjNkdEVfenp5RUp6RXNwNjhlV0JRS3BJcEl0eHl3ZVZBY09HSl80RVV2RHhueXZzTUZQUUlpWnlDVFFTNkZGa1BqQlBxQUl3WlNudDlwNVNFYjVJNFZ1ajRNUUMxODlrWmhTV3Nha3dGQnhSUzNtamNicDR3ekVHRmpRRnZEbDJhV1pHb1Y2TUdac0VtTUE?oc=5"
+        },
+        {
+          "publisher": "Axios",
+          "title": "Meta unveils new frontier-class AI models to compete with OpenAI, Anthropic",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50WlVKQWVQZDJBOUh3M29URVE3aERKWG9CUVNtQjk1eDdKTmN2Sl8wamZQeDRPNEltbU1EelhDWWt5VEtyVFVVUkRJQTJNbWFwcnp1UkVTaU90Vkw4R0pKT0gwN1A1cHZ4Tzg0YkJpVlVZNUJGbnRR?oc=5"
+        },
+        {
+          "publisher": "CNBC",
+          "title": "Meta debuts Muse Wonder AI model in latest test of users' willingness to pay",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11QldFTGNiMGg4N0FwZHE0OGl5ZTBoZkZGdnBjZ1ZyOURmb1lxUHZScVViOXQzMzNmZnJBdlNPbE1xdkVTWEpLSXVPR1R1ajRmTElvSi1JNG5YbHk0SnlnUUhVZzR5SG16YXZyMWFQQWQ2YzRUUmpZ0gF8QVVfeXFMUFVKWjBUSUhEcDFKSk1lQ2M0dVNWMHYtZVVlbkRfS0ZTVnZIQ0E2elc1UEdSbkFKcXRncjhOVjAteDJ0Y0R2YzVhRGlOY0tOWnpuUjN0dmxHSy0zUVk3bW5RWFBlUTJ5LWd0WWMxaEpqVkoxY05pdzY4a3JzSA?oc=5"
+        },
+        {
+          "publisher": "The New York Times",
+          "title": "Meta Unveils New Series of Advanced A.I. Models",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQ3hUd1VrZ2o4V1lPMjZHeUd1RnRpMTRMZHQ3QUppcWtUdFo0TXYzM1FDUHZoZ0wtUWtwTUhFZFl3b19xT1IwMEpTcWUxcEY4NEliN2ZWRWM5ckJlYkVIZnM3bzg5TUN3dFZyTHNydWNKZ05aTHVqOGRNdXhOUW5jNXl0bEd2QQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "NVIDIA and Cisco Introduce USFP Optics",
+      "title_ja": "NVIDIAとシスコがUSFP規格を発表",
+      "summary_ja": "NVIDIAとシスコは、次世代AIファクトリー向けの新しい高密度光モジュール規格「USFP」を発表しました。400Gb/sペーパレーンの電気信号をサポートし、帯域幅密度を4倍に高めながら電力効率を向上させます。これにより、ネットワーク層を追加せずに大規模なAIシステムを接続できるようになります。",
+      "why_ja": "ギガワット規模へと拡大するAI工場のデータ密度と消費電力の課題を解決し、スケーラブルなネットワークインフラを実現するためです。",
+      "section": "tech",
+      "topic_key": "nvidia-cisco-usfp-optics",
+      "sources": [
+        {
+          "publisher": "NVIDIA Newsroom",
+          "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+          "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/"
+        },
+        {
+          "publisher": "NVIDIA Newsroom",
+          "title": "NVIDIA and Cisco Introduce New Pluggable Optics Form Factor to Scale AI Factories",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-cisco-introduce-new-pluggable-optics-form-factor-to-scale-ai-factories"
+        },
+        {
+          "publisher": "Cisco Blogs",
+          "title": "Cisco and NVIDIA Announce USFP: Expanding the Path to AI Connectivity",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORW82XzZySmhBUllpTmFFR1RWSVBWUGN0UUZjOE1FNlFsYzg3WlJXRjMzWHRBdWZvRE9GUDRCWkF5UGl2NG9EbG9abGVFMkVlYWFsRFV5cDVqLWZ6bG4ta3g4NENfTkcxQzIyOUpla0cwVEtrdE16dFhvcTVYcDFiNnFWSGRWSWRwQ2J5SERJTTRMWmpkV1M5MGRvdEZMZw?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "AMD Unveils Helion AI Racks",
+      "title_ja": "AMDがHelion AIラックを発表",
+      "summary_ja": "AMDは、オープン・コンピュート・プロジェクトのサミットで、最大3万2000個のZen 6コアを収容できるCPU主体のラックリファレンスデザイン「Helion」を発表しました。メタなどの企業が採用しているAIエージェントのサンドボックス環境や企業のデータ管理向けに最適化されています。",
+      "why_ja": "高コア数のCPUアーキテクチャを活用し、急増する企業向けのエージェント型AIサーバー市場でのシェアを拡大するためです。",
+      "section": "tech",
+      "topic_key": "amd-helion-ai-racks",
+      "sources": [
+        {
+          "publisher": "The Register",
+          "title": "AMD unveils Helion racks for AI agents at OCP summit",
+          "url": "https://www.theregister.com/systems/2026/10/12/amd-unveils-helion-racks-for-ai-agents-at-ocp-summit/5302652"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "AMD debuts Helion reference design for agentic AI servers with up to 32,768 Zen 6 ‘Venice’ cores",
+          "url": "https://www.tomshardware.com/pc-components/cpus/amd-debuts-helion-reference-design-for-agentic-ai-servers-with-up-to-32-768-zen-6-venice-cores-rack-design-ships-next-year-in-cpu-only-and-all-in-one-configurations"
+        },
+        {
+          "publisher": "Data Center Dynamics",
+          "title": "AMD unveils Helion rack to support agentic AI workloads",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPa3F4dWZDTDRVcjhkYnlQWnNZdWZDQVZSaHZYR1BkaEhyMHVBUVVhUmMzU2pLdjhmWmF1MUxUQi1sU3FscVVEWk12aWEzYkdxb0tiYnVxNlR4a3hPWmlPaDZENDlrbkVaZC1uaC03dVBheU9EUFh1djBBMi1GTjRBc1lBZTdxeTBIT0I0ZDhIOVNVa1ZaV2d0S0psNy1jU3U0b1ZldHc1WDBGSTA4?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Intel Launches GPU D-Series",
+      "title_ja": "IntelがGPU Dシリーズを発表",
+      "summary_ja": "Intelは、Crescent Island AIアクセラレータを「GPU Dシリーズ」として正式に発表しました。1.3ペタフロップスのFP8演算性能と480GBのLPDDR5Xメモリを備え、従来の空冷式ラックサーバー向けに設計されています。大規模言語モデルや長文推論など、レイテンシに敏感なワークロードをターゲットとしています。",
+      "why_ja": "データセンター向けAIアクセラレータ市場において足場を固め、増大する推論需要を取り込むための商業的な重要マイルストーンとなります。",
+      "section": "tech",
+      "topic_key": "intel-crescent-island-accelerator",
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Intel's Crescent Island AI accelerator officially powers new GPU D-Series products",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/intels-crescent-island-ai-accelerator-officially-powers-new-gpu-d-series-products-chip-delivers-1-3-peak-pflops-of-fp8-compute-and-1-5-tb-s-of-memory-bandwidth"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Intel's Crescent Island AI accelerator officially powers new GPU D-Series products — chip delivers 1.3 peak PFLOPS of FP8 compute and 1.5 TB/s of memory bandwidth",
+          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQOXd1M3pZdFA0UGZVOXF0RFhrM1YxdjAzakxEdFN5YWNUWmVoRlBkaEVPRUZnaXc1SGVEZlVQTmtreGVPd29sVDh3UkpQYWEzb1pHb1hZbUhOSUIxWEozb00xZFBUcTBRR3kzcVRuR2FabGRrS19YMUR0blhnSDdEbWlZLTVxbGxkNFMzSUNreUtBaUQ2aUpXZzBVUWtDWnlYU3g1Y0hhT0s2QTRPTXhjVnRmaWUyMVFsRElSdFNLTHBfYWdTZWpiYnZEMm5PbHFfQjY2NGx3eWpTVFZNUVFGSmJtc1BiYmluWks5UGFhNDgyUmFqUzJ5aHpaTWFEMk42cXcwU2oyT2dSamc5R1FMMGQwdDk3VFRKcm83bWlsaURaS0cxTmhaOHFvMzRxanBSOU5zU3k3VVYzb0pCQW1QN0UwUVZxNGZqZ0E?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Google Expands Digital Health Ecosystem",
+      "title_ja": "Googleがデジタルヘルス事業を拡大",
+      "summary_ja": "Googleは、ヘルスケアエコシステムの拡大を発表し、新しいフィットネストラッカー「Fitbit Edge」を公開しました。Fitbit AirとPixel Watchの中間に位置し、AIを活用した健康指導やリアルタイムガイダンスを提供します。また、Flo Healthとの提携による女性の健康管理機能の統合も行われています。",
+      "why_ja": "コンシューマー向けウェアラブル端末と高度なAI臨床ヘルスケアツールを融合させ、総合的なデジタルヘルスポートフォリオを強化するためです。",
+      "section": "health",
+      "topic_key": "google-fitbit-edge-health-expansion",
+      "sources": [
+        {
+          "publisher": "Google Blog",
+          "title": "Applying technology to understand and treat disease",
+          "url": "https://blog.google/innovation-and-ai/technology/health/ai-health-research/"
+        },
+        {
+          "publisher": "Google Blog",
+          "title": "Google Health: Evolving so you can focus on living better",
+          "url": "https://blog.google/products-and-platforms/products/google-health/google-health-updates/"
+        },
+        {
+          "publisher": "Google Blog",
+          "title": "How we’re making Google Health and Fitbit Air smarter than ever",
+          "url": "https://blog.google/products-and-platforms/products/google-health/fitbit-google-health-updates/"
+        },
+        {
+          "publisher": "Google Blog",
+          "title": "Google Fitbit Edge: Our all-new smartest fitness tracker ever",
+          "url": "https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge/"
+        },
+        {
+          "publisher": "Google Blog",
+          "title": "From game days to daily life: The familiar faces teaming up with Google Health",
+          "url": "https://blog.google/products-and-platforms/products/google-health/google-health-partnership-athletes-creators/"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Fitbit Edge is Google’s middle ground between Fitbit Air and Pixel Watch",
+          "url": "https://techcrunch.com/2026/10/12/fitbit-edge-is-googles-middle-ground-between-fitbit-air-and-pixel-watch/"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "The Fitbit Edge is for folks who don’t want to go totally screenless",
+          "url": "https://www.theverge.com/gadgets/1008410/fitbit-edge-price-battery-specs-fitness-tracker"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "Google teases Fitbit Edge launch next week",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5wY0ExMmFsWW1GRTl4S2FfWWNNa0JzeDdjeU1kWXdsQjZEemR5blJjV3dVd2xqelB1enRwNnBGZHpBU0t6aVZnMTlPMU10dGhnQzhtcFdPbEZjb2ZRcTJvWDBLYnpCWFFISHJfR0pSMkxja0JBbXNIdzFST3E0dw?oc=5"
+        },
+        {
+          "publisher": "Android Headlines",
+          "title": "Google Fitbit Edge: Ultimate Buyer's Guide",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zY0kxQlY5aU9QaUVvNWpkQ3lKQzYwWHZxa28xUFNWQXcwWGhBSWtTaXg4aTdscTRKOUplX2JWc0Q5ckhOeUktUXY3c0x1MklxMWY1QkZLWjI0bmRhU25TVw?oc=5"
+        },
+        {
+          "publisher": "Fierce Healthcare",
+          "title": "Google unveils new Fitbit Edge tracker as tech giant expands health monitoring ambitions",
+          "url": "https://www.fiercehealthcare.com/health-tech/google-unveils-new-fitbit-edge-tracker-tech-giant-expands-health-monitoring-ambitions"
+        },
+        {
+          "publisher": "Yahoo Finance",
+          "title": "Google expands wearables lineup with $180 Fitbit Edge to boost digital health push",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcFlETWtVM0FVMUp4NGxRMmlSNzcwRFNqV1F5Zk9IMGdvMUpwZGw0VmYwdElROFF3Zm51NXFpTUc1NDBOd1JLdFBnUTBIUXYzODBIYnN1T055dklqSFJTU1A1MHZqbDNBQ0owX3A2VWRWSlJ2R1RDQzhGTXYwaW4xQVJjbC1hLWE3SlVxWVRRN2R2NUhhZXdKY0pKOXI?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Russia Strikes Ukrainian Energy Sites",
+      "title_ja": "ロシアがウクライナのエネルギー施設を攻撃",
+      "summary_ja": "トランプ米大統領がエネルギーインフラへの攻撃停止を発表した直後にもかかわらず、ロシア軍はウクライナのエネルギー施設を攻撃しました。この攻撃によりウクライナ各地で停電や負傷者が発生し、ゼレンスキー大統領はロシアが停戦を受け入れる意志がないと非難しています。",
+      "why_ja": "エネルギー停戦に関する米国の外交的発表と現地の軍事行動の間に大きな乖離があり、冬を前に外交的摩擦が激化しているためです。",
+      "section": "world",
+      "topic_key": "russia-ukraine-energy-ceasefire-diplomacy",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "title": "Trump announced a partial Russia-Ukraine ceasefire. Did either country know about it?",
+          "url": "https://www.npr.org/2026/10/12/nx-s1-5998808/trump-announced-a-partial-russia-ukraine-ceasefire-did-either-country-know-about-it"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
+          "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Why Moscow is staying tight-lipped on Trump's energy ceasefire",
+          "url": "https://www.bbc.co.uk/news/articles/cjx2359qekrdo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Zelenskyy says ‘increasingly clear’ Russia does not want energy ceasefire after strikes on energy facilities – as it happened",
+          "url": "https://www.theguardian.com/world/live/2026/oct/12/ukraine-russia-trump-energy-ceasefire-nato-zelenskyy-nobel-latest-news-updates"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Russia hits Ukraine gas facilities after Trump claims 'energy ceasefire'",
+          "url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire"
+        },
+        {
+          "publisher": "WSJ",
+          "title": "Stock Market Today: Dow Edges Up, Oil Gains on Fresh Energy Strikes in Ukraine — Live Updates",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOblNTYV9JS1kzM2ZZTUtSMTJOLUlqa1AtWWlqSm1pSlZyd3R5Z0ZTN0RwWVFwMFVUVFV2VXU2eTBXY3BSN0NIRFd5Q2l2Z2tkTUdsRzZoVW5TQUFrbVZqb3dpNHY1blFWRVJaVTJtTExxaERGT3MtNkJadldvVGs0WEFqQkZlbDA?oc=5"
+        },
+        {
+          "publisher": "AP News",
+          "title": "Zelenskyy says Russia strikes energy facilities despite Trump claim of an energy ceasefire",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYk9yd3EweHFPQ2doVnFxQmxCdEJxMmdBdF9FT2tzdExGZmR3eUo0TjFyTmU0azY4UEtmRW56djNGaERmMGdpcmNHZWRPcllwdEhPUVhsNjJqMzYxRko2dXA0VTBtdGZvYUdid1hZZkFMeGtJOGdVX1J0NUU5X29naUJaUVNxMG9LWEw2Q3prUHVTNTlyanVIbjFxOE80Y3oyNTlfX3VhT2U?oc=5"
+        },
+        {
+          "publisher": "NBC News",
+          "title": "Energy prices rise after Trump’s ‘energy ceasefire’ fails to move Russia or Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTGFrRDRZWWhPUnEtNVNhbnBFZFc4cS00MmhuZC1hZDJzc0dROWpwU18waGpMY1hRNWFGS19LZXNUc0ZhSUgwRDUyR0hnaHhHRkRZbXRXVlN0YUU2MzVTbVo1cVBESFgyQUdfQUs5d201TUJ6YW56NVB3aDVLazNnZUlLdHowVHpPLUI5MFk4Tk9yMkFR?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Cyberattack Cripples Supermarket Fridges",
+      "title_ja": "サイバー攻撃がスーパーの冷蔵庫を麻痺させる",
+      "summary_ja": "フランスやその他の欧州諸国で前例のない大規模なサイバー攻撃が発生し、スーパーマーケットの冷蔵システムが乗っ取られました。ハッカーによって冷蔵庫が50度の強制解凍モードに設定され、数百店舗で多額の生鮮食品や冷凍食品が廃棄される事態となりました。",
+      "why_ja": "コネクテッド化された小売りのIoTインフラストラクチャにおける重大なセキュリティ脆弱性と、サプライチェーンへの深刻な脅威を浮き彫りにするためです。",
+      "section": "world",
+      "topic_key": "european-supermarket-cyberattack-fridges",
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "'Unprecedented' Cyberattack cripples supermarket fridges across Europe as hackers activate automatic defrosting",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Fridges in French supermarkets hit by cyber attack",
+          "url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Hackers force French supermarket fridges to heat up to 50C in ‘unprecedented’ cyber-attack",
+          "url": "https://www.theguardian.com/world/2026/oct/12/cyber-attack-defrosts-refrigerators-france-supermarket-chains-intermarche-cooperative-u"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Hackers heat French supermarket fridges, sparking fires and spoiling food",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLU1iNVd4N0RyM29yWVFhSldLS2lsa0YydGZld3hRWTFONXlPWGhMcHVNcDB2N3JUSjdiNU1OVURBY0taUVVhMFBOTFNmZHV6dVREX2hsdjBEQ3g3RWRQa0dGLUZQUTZNTERGNlFnT1YzNUFHVVNGd3JLVDNCMnVINHo2Y285UF9sUktjblE1Sm9jcXFuZWZPUFk4cVJpZTNERzZJM2tVT2RzVWVKZXNhQ3NCYzZyeWU1LUM5UEVMRnB6V3ZpUm9IbU5PdzlvX0h2R3ZF?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "EU Limits Chinese Hybrid Imports",
+      "title_ja": "EUが中国製ハイブリッド車の輸入を制限",
+      "summary_ja": "欧州連合（EU）は、世界貿易機関のルールを活用し、中国からのハイブリッド車輸入量を年間35万台に制限することを正式決定しました。この割当枠は12月に発効予定であり、中国製自動車の市場シェアを半減させることが狙いです。",
+      "why_ja": "中国からの輸入急増による国内自動車産業の空洞化や雇用喪失の危機感から、EUが保護貿易的な措置に踏み切ったためです。",
+      "section": "world",
+      "topic_key": "eu-china-hybrid-vehicle-import-quota",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "Stellantis and Renault back UK to get EU car industry protection",
+          "url": "https://www.theguardian.com/business/2026/oct/12/stellantis-renault-uk-eu-car-industry-imports-china"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "EU to limit Chinese hybrid vehicle imports to 350,000 a year",
+          "url": "https://www.theguardian.com/environment/2026/oct/12/eu-deal-china-limit-imports-hybrid-electric-vehicles"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "custom silicon",
+      "meaning_ja": "カスタムシリコン（独自設計の半導体チップ）",
+      "note_ja": "汎用チップではなく、特定の企業が自社目的に合わせて設計したチップを指します。",
+      "example_en": "The company is making its biggest bet yet on custom silicon."
+    },
+    {
+      "term": "frontier model",
+      "meaning_ja": "フロンティアモデル（最先端のAI基盤モデル）",
+      "note_ja": "業界最高水準の性能を持つ大規模言語モデルなどを指す言葉として使われます。",
+      "example_en": "Meta released two new frontier AI models on Monday."
+    },
+    {
+      "term": "active memory",
+      "meaning_ja": "アクティブメモリ（長期的な記憶・保持機能）",
+      "note_ja": "AIが過去の対話やユーザーの情報を長期間にわたり記憶し活用する機能を指します。",
+      "example_en": "They feature a new property called active memory to retain information over a long time."
+    },
+    {
+      "term": "bandwidth density",
+      "meaning_ja": "帯域幅密度",
+      "note_ja": "単位面積あたり、または限られたスペース内で処理できるデータ通信量の大きさを表します。",
+      "example_en": "USFP delivers four times the bandwidth density and better power efficiency."
+    },
+    {
+      "term": "rack-scale",
+      "meaning_ja": "ラック規模の、ラック単位の",
+      "note_ja": "個別のチップ単体ではなく、サーバーラック全体を一体のシステムとして設計・構築するアプローチを指します。",
+      "example_en": "AMD revealed a new rack-scale reference design called Helion."
+    },
+    {
+      "term": "inference accelerator",
+      "meaning_ja": "推論アクセラレータ",
+      "note_ja": "学習済みのAIモデルを使って新しいデータから回答を導き出す（推論）処理に特化したハードウェアです。",
+      "example_en": "Intel officially launched its Crescent Island AI accelerator as the GPU D-Series."
+    },
+    {
+      "term": "air-cooled",
+      "meaning_ja": "空冷式の",
+      "note_ja": "ファンなどを使って空気の循環により冷却する方式を指します。液体で冷やす液冷（liquid-cooled）の対義語です。",
+      "example_en": "It is built for traditional air-cooled rack servers."
+    },
+    {
+      "term": "ecosystem",
+      "meaning_ja": "エコシステム（生態系、関連企業や技術の枠組み）",
+      "note_ja": "ハードウェアやソフトウェア、サービスなどが互いに連携して形成する業界の仕組みを指します。",
+      "example_en": "Google announced a major expansion of its health ecosystem on Monday."
+    },
+    {
+      "term": "ceasefire",
+      "meaning_ja": "停戦、休戦",
+      "note_ja": "武力衝突や戦争において、戦闘を一時的または恒久的に停止することです。",
+      "example_en": "Russia has struck several Ukrainian energy facilities despite a proposed energy ceasefire."
+    },
+    {
+      "term": "quota",
+      "meaning_ja": "割当枠、制限数量",
+      "note_ja": "貿易や生産において、許可される最大数量や金額の制限を指します。",
+      "example_en": "The European Union has confirmed it will limit the number of hybrid electric vehicles imported from China to three hundred fifty thousand cars a year."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "to go toe-to-toe",
+    "meaning_ja": "渡り合う、互角に勝負する",
+    "example_en": "Meta's new models are designed to go toe-to-toe with OpenAI.",
+    "example_ja": "メタの新モデルは、OpenAIと互角に勝負できるように設計されています。"
+  }
+}
