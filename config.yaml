@@ -23,10 +23,18 @@ podcast:
   keep_on_site: 30
 
 episode:
-  # 英語パートの長さ（分）。これに日本語のおさらい（1本30〜40秒×9本）が加わり、全体で約20分
-  target_minutes: 13.5
-  # 台本の語数の目安 = target_minutes × words_per_minute（平易な英語はややゆっくり読まれる）
+  # 英語パートの長さの目安（分）。これに日本語のおさらい（1本約35秒×9本）が加わり、全体で約20分
+  target_minutes: 14
   words_per_minute: 145
+  # 英語の語数の目安（パートごと）。全体の長さはこの合計で決まる（短いと思ったら story を増やす）
+  segment_words:
+    intro: 90
+    story: 250
+    health: 250
+    world: 190
+    ceo_watch: 80
+    phrase: 70
+    outro: 45
   # ニュースの本数（テック、デジタルヘルス、世界）
   tech_stories: 5
   min_tech_stories: 4
