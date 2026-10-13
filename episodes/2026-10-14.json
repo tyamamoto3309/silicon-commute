@@ -1,0 +1,1232 @@
+{
+  "date": "2026-10-14",
+  "published": "2026-10-14T07:11:17+09:00",
+  "title_en": "Google Launches Gemini 4 Argon and Apple Unveils HomeView",
+  "title_ja": "GoogleがGemini 4 Argonを発表、AppleはHomeViewで参入",
+  "summary_ja": "Googleが高度な推論と安全対策を備えた新型AIモデル「Gemini 4 Argon」を公開し、Appleは家庭向けスマート画面端末「HomeView」を発表しました。医療分野では米国退役軍人省の電子カルテ刷新事業における170億ドルの契約増額を巡り議会が調査を求めています。国際ニュースではローマ教皇の手術成功、ロシアによる日本人記者の拘束、パキスタンでの非常事態宣言を取り上げます。",
+  "duration": 1135.8,
+  "audio": {
+    "file": "2026-10-14.mp3",
+    "bytes": 9087140,
+    "release_tag": "ep-2026-10-14"
+  },
+  "word_count": 2144,
+  "ja_chars": 1143,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.8-flash",
+    "write": "gemini-3.8-flash",
+    "revise": "gemini-3.8-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Welcome to Commute News",
+      "heading_ja": "オープニング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, everyone. Today is Wednesday, October 14, 2026. Welcome to Commute News, your quick daily update on global technology, healthcare, and world events.",
+          "ja": "みなさんおはようございます。本日は2026年10月14日水曜日です。世界のテクノロジー、ヘルスケア、国際情勢を素早くお届けするCommute Newsへようこそ。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, Alex. We have an eventful morning ahead. What are our top stories today?",
+          "ja": "おはようございます、Alex。今朝もたくさんのニュースがありますね。今日の主なニュースは何でしょうか？",
+          "t": 10.57
+        },
+        {
+          "speaker": "Alex",
+          "en": "Google has officially launched Gemini 4 Argon, its new frontier artificial intelligence model designed for complex coding and cybersecurity. At the same time, Apple is entering the home screen market with its new HomeView smart display.",
+          "ja": "Googleが複雑なプログラミングやサイバー防御向けに設計された最新AIモデルGemini 4 Argonを公開しました。同時にAppleも新型スマート画面HomeViewで家庭用ディスプレイ市場に参入します。",
+          "t": 16.85
+        },
+        {
+          "speaker": "Mika",
+          "en": "In health policy, United States lawmakers are demanding answers over a seventeen billion dollar budget increase for veteran medical records. In world news, Pope Leo has undergone successful lung surgery in Rome.",
+          "ja": "医療政策では、米議員らが退役軍人の電子カルテ事業における170億ドルの予算増額について説明を求めています。国際ニュースでは、ローマ教皇がローマで肺の手術を受け成功しました。",
+          "t": 31.6
+        },
+        {
+          "speaker": "Alex",
+          "en": "We will also cover legal battles in semiconductors and breaking international updates. Let us begin with Google's big AI launch.",
+          "ja": "半導体を巡る法廷闘争や注目の国際ニュースも詳しく見ていきます。まずはGoogleの大型AI発表から始めましょう。",
+          "t": 44.95
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Google Launches Gemini 4 Argon Frontier Model",
+      "heading_ja": "Googleが最先端AIモデルGemini 4 Argonを発表",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Google has officially introduced its newest frontier artificial intelligence model, named Gemini 4 Argon. It is designed to handle long, multi-step tasks across real-world software engineering, finance, legal work, and cybersecurity defense.",
+          "ja": "Googleは、Gemini 4 Argonと名付けられた最新の最先端AIモデルを正式に公開しました。実際のソフトウェア開発や金融、法務、サイバー防御における長期の多段階作業をこなすよう設計されています。",
+          "t": 53.6
+        },
+        {
+          "speaker": "Mika",
+          "en": "What makes Argon significantly more capable than earlier models?",
+          "ja": "Argonが以前のモデルと比べて大幅に優れている点は何ですか？",
+          "t": 68.64
+        },
+        {
+          "speaker": "Alex",
+          "en": "Google says Argon excels at structural precision and deep reasoning. In simulated cyberattack tests, Argon solved all twelve scenarios, compared to just five in the prior generation. It also proved useful during early testing. For example, cybersecurity firm Wiz used Argon to uncover a critical bug in hospital software, safeguarding hundreds of thousands of patient records.",
+          "ja": "Googleによると、Argonは構造的正確性と深い推論に優れています。模擬サイバー攻撃の試験では、前世代が5件だったのに対し、Argonは12件すべてを解決しました。早期テストでも成果を上げており、セキュリティ企業WizはArgonを使って病院ソフトの重大な欠陥を発見し、数十万件の患者記録を保護しました。",
+          "t": 73.67
+        },
+        {
+          "speaker": "Mika",
+          "en": "Because this tool is so powerful, how is Google stopping criminals from misusing it for hacking or biological weapons?",
+          "ja": "これほど強力なツールですが、犯罪者がハッキングや生物兵器に悪用するのをGoogleはどう防いでいるのですか？",
+          "t": 96.34
+        },
+        {
+          "speaker": "Alex",
+          "en": "Under its Frontier Safety Framework, Google placed three layers of real-time defense around the model. Smaller models inspect incoming requests for hidden malicious intent. Inside the model, special activation probes check for disguised attacks. In red-team stress tests, harmful violations dropped nearly twofold compared to older models.",
+          "ja": "フロンティア安全枠組みのもと、Googleはモデルの周囲に3層のリアルタイム防御を配置しました。小型モデルが悪意ある意図がないか入力を検査し、内部では特殊なプローブが偽装攻撃を検知します。ストレステストでは、有害な違反が従来比でほぼ半減しました。",
+          "t": 104.42
+        },
+        {
+          "speaker": "Mika",
+          "en": "Where can developers and enterprise clients access it right now?",
+          "ja": "開発者や法人顧客は今どこで利用できますか？",
+          "t": 125.0
+        },
+        {
+          "speaker": "Alex",
+          "en": "Starting today, developers can use the paid Gemini API in Google AI Studio, Android Studio, and the Google Antigravity platform. Consumers can access Argon through Google AI Pro and Ultra subscriptions, and Google is offering fifty percent discounts on API rates through November.",
+          "ja": "本日から、開発者はGoogle AI Studio、Android Studio、Google Antigravityで有料APIを利用できます。一般ユーザーはGoogle AI ProおよびUltraの定期購入で利用でき、Googleは11月中API料金を50％割引で提供しています。",
+          "t": 130.03
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in summary, Google is shipping an advanced problem-solving model that combines higher technical reasoning with rigorous safety layers.",
+          "ja": "要するにGoogleは、高度な技術的推論力と厳重な安全対策を兼ね備えた実用AIモデルを投入したのですね。",
+          "t": 147.28
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is exactly the plan.",
+          "ja": "まさにその通りです。",
+          "t": 156.49
+        }
+      ],
+      "lang": "en",
+      "t": 53.6
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。Googleは最新AIモデルGemini 4 Argonを公開しました。プログラミングやサイバー防御など複雑な作業に特化し、模擬攻撃テストで12件中12件を解決する性能を示しています。入力検査や内部監視など3層の安全対策を施し、APIや有料プラン向けに即日提供を開始しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 159.77
+        }
+      ],
+      "t": 159.77
+    },
+    {
+      "kind": "story",
+      "heading_en": "Apple Enters Smart Display Market with HomeView",
+      "heading_ja": "Appleがスマート画面端末HomeViewを発表",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Apple has officially entered the smart home display category by unveiling HomeView, a seven-inch tabletop screen priced at two hundred and ninety-nine dollars. Pre-orders start today, and shipments begin on November 13.",
+          "ja": "Appleは、299ドルの7インチ卓上型画面端末HomeViewを発表し、スマートディスプレイ市場への参入を正式に表明しました。本日から予約を受け付け、11月13日に出荷が始まります。",
+          "t": 184.73
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does HomeView fit into a busy family household?",
+          "ja": "HomeViewは忙しい家庭の生活にどのように役立つのでしょうか？",
+          "t": 198.89
+        },
+        {
+          "speaker": "Alex",
+          "en": "The device features an aluminum body with a Liquid Retina display mounted on a domed speaker base with a smooth hinge. It uses facial recognition to distinguish up to six family members. When you step close, it shifts from a general household dashboard to your personal calendar, reminders, messages, and FaceTime calls.",
+          "ja": "アルミボディの7インチ高精細画面が滑らかなヒンジで半球形スピーカー台座に固定されています。顔認識で家族最大6人を識別し、近づくと共有ダッシュボードから個人の予定表やリマインダー、メッセージ、FaceTime通話へと自動で切り替わります。",
+          "t": 203.3
+        },
+        {
+          "speaker": "Mika",
+          "en": "Is HomeView running the newly updated Siri voice system?",
+          "ja": "HomeViewには新しく刷新されたSiri音声システムが搭載されているのですか？",
+          "t": 223.32
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. It is powered by Siri AI, an upgraded assistant built on Apple Intelligence. Siri AI understands broader world knowledge, conversational context, and personal details from paired iPhones. Apple also refreshed the Apple TV 4K with far-field microphones for hands-free voice control and announced the HomePod mini 2.",
+          "ja": "はい。Apple Intelligenceを基盤とした強化版アシスタントSiri AIで動作します。幅広い知識や対話の文脈、連携したiPhoneの個人情報を理解します。Appleはさらに、ハンズフリー音声操作が可能な新型Apple TV 4KやHomePod mini 2も発表しました。",
+          "t": 228.02
+        },
+        {
+          "speaker": "Mika",
+          "en": "What strategic goal is Apple pursuing here?",
+          "ja": "Appleはここでどのような戦略的狙いを追っているのですか？",
+          "t": 247.99
+        },
+        {
+          "speaker": "Alex",
+          "en": "For years, Amazon Echo Show and Google Nest Hub dominated home kitchen counters. Apple wants to give iPhone households a private, connected hub that ties entertainment, home sensors, and personal schedules together.",
+          "ja": "長年、キッチンの画面端末はAmazonのEcho ShowやGoogleのNest Hubが独占していました。AppleはiPhoneユーザーに向けて、エンタメや家電センサー、個人の予定を安全に一元管理できる拠点を提供しようとしています。",
+          "t": 251.93
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in summary, Apple is using personalized Siri AI and privacy-first hardware to challenge Amazon and Google in the connected home.",
+          "ja": "要するにAppleは、個別化されたSiri AIとプライバシーを重視したハードウェアで、スマートホーム分野の先行2社に対抗しているのですね。",
+          "t": 265.86
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, it is Apple's biggest smart home push in years.",
+          "ja": "はい、Appleにとってここ数年で最大のスマートホーム展開です。",
+          "t": 274.97
+        }
+      ],
+      "lang": "en",
+      "t": 184.73
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Appleは299ドルの7インチスマート画面端末HomeViewを発表しました。最大6人の顔を見分けて個人の予定やメッセージを表示し、Siri AIを搭載しています。新型Apple TV 4KやHomePod mini 2とともに、先行するAmazonやGoogleに対抗する狙いがあります。",
+          "en": "",
+          "lang": "ja",
+          "t": 279.44
+        }
+      ],
+      "t": 279.44
+    },
+    {
+      "kind": "story",
+      "heading_en": "FBI Arrests OpenAI Engineer Over Hidden Microphone",
+      "heading_ja": "FBIがOpenAIの会議室盗聴容疑で社員を逮捕",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Federal prosecutors and the FBI have arrested an OpenAI employee named Abdulrahman Alfozan, a thirty-five-year-old Saudi national who worked on the company's product team. He is accused of secretly bugging an executive conference room.",
+          "ja": "連邦検察とFBIは、OpenAIのプロダクトチームに所属していた35歳のサウジアラビア国籍の社員、Abdulrahman Alfozan容疑者を逮捕しました。役員会議室に盗聴機器を隠し設置した疑いが持たれています。",
+          "t": 304.22
+        },
+        {
+          "speaker": "Mika",
+          "en": "How was this hidden recording device discovered inside the office?",
+          "ja": "社内の隠し録音機器はどのようにして発見されたのですか？",
+          "t": 318.69
+        },
+        {
+          "speaker": "Alex",
+          "en": "Security found a sophisticated recording device plugged into a USB port on the back of a television inside an executive meeting room. The device was wrapped in toilet paper and stored encrypted audio. OpenAI used its internal AI models to examine the hardware, while security cameras recorded Alfozan looking behind that exact television. Security also found a bag he left behind containing his identification and a second recording device.",
+          "ja": "役員会議室のテレビ背面にあるUSB端子に高度な録音機器が差し込まれているのを警備員が発見しました。機器はトイレットペーパーに包まれ暗号化音声が記録されていました。OpenAIは社内AIモデルで機器を分析し、防犯カメラ映像からテレビの裏をのぞき込む容疑者を特定しました。彼の身分証と別の録音機器が入った置き忘れのバッグも見つかりました。",
+          "t": 323.76
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did the suspect steal any sensitive code or artificial intelligence models?",
+          "ja": "容疑者は重要なコードやAIモデルを持ち出したのでしょうか？",
+          "t": 349.64
+        },
+        {
+          "speaker": "Alex",
+          "en": "OpenAI confirmed there is no evidence that model weights, source code, or customer information were exfiltrated. However, FBI Director Kash Patel stated the plot aimed to capture sensitive communications regarding super intelligence technology. The suspect faces up to five years in federal prison.",
+          "ja": "OpenAIは、モデルの重み付けやソースコード、顧客情報が流出した形跡はないと確認しました。しかしFBI長官Kash Patel氏は、超知能技術に関する機密の協議を盗聴する計画だったと述べています。容疑者は最大5年の連邦刑務所収監に直面しています。",
+          "t": 355.2
+        },
+        {
+          "speaker": "Mika",
+          "en": "What does this case tell us about overall security in the AI race?",
+          "ja": "この事件はAI競争における全体のセキュリティについて何を物語っていますか？",
+          "t": 373.18
+        },
+        {
+          "speaker": "Alex",
+          "en": "It shows that physical corporate espionage and insider risks are just as dangerous as external cyberattacks when proprietary frontier technology is involved.",
+          "ja": "独自の最先端技術が絡む場合、社内の人的スパイや物理的な脅威は外部からのサイバー攻撃と同じくらい危険であることを示しています。",
+          "t": 378.24
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in summary, physical conference room security has become a high-priority front for leading AI labs.",
+          "ja": "要するに、会議室の物理的な防犯対策が主要AI研究所にとって最重要の防衛線になっているのですね。",
+          "t": 388.37
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is absolutely clear.",
+          "ja": "まさにその通りです。",
+          "t": 395.5
+        }
+      ],
+      "lang": "en",
+      "t": 304.22
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "OpenAIの役員会議室のテレビ裏に録音機器を設置したとして、FBIが同社社員を逮捕しました。AIのソースコードやモデルの流出はありませんが、超知能を巡る機密協議の盗聴が目的だったとされ、AI企業における物理的な内部不正対策の重要性が浮き彫りになりました。",
+          "en": "",
+          "lang": "ja",
+          "t": 398.28
+        }
+      ],
+      "t": 398.28
+    },
+    {
+      "kind": "story",
+      "heading_en": "Qualcomm Defeats Arm in High-Stakes Chip Trial",
+      "heading_ja": "QualcommがArmとのライセンス訴訟で勝訴",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Qualcomm has won a major legal victory over British chip designer Arm in Delaware federal court. A jury ruled that Arm breached its licensing agreement with Qualcomm.",
+          "ja": "Qualcommはデラウェア州連邦地裁で、英国の半導体設計大手Armに対する重要な勝訴を勝ち取りました。陪審団はArmがQualcommとのライセンス契約に違反したとの評決を下しました。",
+          "t": 418.91
+        },
+        {
+          "speaker": "Mika",
+          "en": "What was the core disagreement between the two semiconductor giants?",
+          "ja": "半導体大手2社の間に対立の根本原因は何だったのですか？",
+          "t": 429.54
+        },
+        {
+          "speaker": "Alex",
+          "en": "Arm licenses foundational processor architecture to companies like Qualcomm. Qualcomm acquired a chip design startup to build custom CPU cores for next-generation personal computers and smartphones. Arm argued that Qualcomm violated licensing terms by using those acquired designs and attempted to terminate or restrict Qualcomm's architecture license, which could have disrupted Qualcomm's Snapdragon chip roadmap.",
+          "ja": "ArmはQualcommなどの企業にプロセッサの基本設計をライセンス供与しています。Qualcommは次世代PCやスマートフォン向けの独自CPUコアを開発するため設計新興企業を買収しました。Armはその技術流用が契約違反だと主張しライセンスの解除や制限を試みたため、QualcommのSnapdragon計画が脅かされていました。",
+          "t": 434.71
+        },
+        {
+          "speaker": "Mika",
+          "en": "What did the federal jury decide, and what are the financial damages?",
+          "ja": "連邦陪審団はどのような判断を下し、損害賠償額はどうなりましたか？",
+          "t": 459.2
+        },
+        {
+          "speaker": "Alex",
+          "en": "The jury awarded Qualcomm nominal damages of just two dollars. While the financial award is symbolic, the legal outcome is enormous. It gives Qualcomm complete legal clearance to continue developing and selling its custom Snapdragon processors without fear of licensing blocks.",
+          "ja": "陪審団はQualcommに対しわずか2ドルの名目的な賠償を認めました。金銭的補償は象徴的ですが、法的な意味は絶大です。Qualcommは契約解除の懸念なく、独自Snapdragonプロセッサの開発と販売を継続できる完全な法的確証を得ました。",
+          "t": 464.43
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does this outcome affect the broader computer chip market?",
+          "ja": "この結果は、半導体市場全体にどのような影響を与えますか？",
+          "t": 481.24
+        },
+        {
+          "speaker": "Alex",
+          "en": "It protects the supply of Arm-compatible laptops and mobile devices, reassuring device makers that custom processor designs can move forward legally.",
+          "ja": "Arm互換のノートPCや携帯機器の供給基盤が守られ、端末メーカーは独自設計プロセッサが法的に安全に進められると安心できます。",
+          "t": 486.08
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in summary, Qualcomm secured full legal rights to sell its custom CPUs, resolving a multi-year cloud over its business.",
+          "ja": "要するにQualcommは、事業の懸念事項となっていた独自CPUの販売権利を法的に完全に確保したのですね。",
+          "t": 495.77
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly, it is a definitive win for Qualcomm.",
+          "ja": "その通りです。Qualcommにとって決定的な勝利となりました。",
+          "t": 504.0
+        }
+      ],
+      "lang": "en",
+      "t": 418.91
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米デラウェア州連邦陪審団は、ArmがQualcommとのライセンス契約に違反したとの評決を下しました。賠償額は2ドルにとどまるものの、Qualcommは買収企業由来の独自CPUコアを用いたSnapdragonチップの製造・販売を継続できる法的安全性を確保しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 508.35
+        }
+      ],
+      "t": 508.35
+    },
+    {
+      "kind": "story",
+      "heading_en": "Broadcom CEO Warns of Reckless AI Infrastructure Spending",
+      "heading_ja": "BroadcomのCEOが過剰なAI投資に警鐘",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Broadcom Chief Executive Officer Hock Tan has ignited a heated discussion across Wall Street and Silicon Valley. He publicly warned that massive corporate spending on artificial intelligence data centers is beginning to look reckless.",
+          "ja": "Broadcomの最高経営責任者Hock Tan氏が、ウォール街とシリコンバレーで激しい議論を巻き起こしました。同氏は企業のAIデータセンターに対する巨額の設備投資が無謀に見え始めていると公に警告しました。",
+          "t": 529.5
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why does Hock Tan's perspective carry so much weight in the tech industry?",
+          "ja": "なぜHock Tan氏の視点がハイテク業界でこれほど重く受け止められるのですか？",
+          "t": 543.86
+        },
+        {
+          "speaker": "Alex",
+          "en": "Broadcom produces custom AI processors and specialized networking equipment for tech titans like Meta and Google. Because Broadcom supplies the underlying physical hardware, Tan sees order books and data center buildouts long before revenue reports appear. He cautioned that some corporate spenders act like gamblers who risk building far more computing capacity than real market demand can sustain.",
+          "ja": "BroadcomはMetaやGoogleなどの大手IT企業向けに特注AI半導体や通信機器を製造しています。基礎ハードウェアを供給しているため、Tan氏は決算数字が出るはるか前から受注状況やデータセンター建設の推移を把握しています。同氏は一部企業を、実際の需要を上回る過剰な計算能力を作ろうとする賭博師のようだと警告しました。",
+          "t": 549.36
+        },
+        {
+          "speaker": "Mika",
+          "en": "How have other technology leaders responded to his warning?",
+          "ja": "他のハイテク企業幹部はこの警告にどう反応していますか？",
+          "t": 572.87
+        },
+        {
+          "speaker": "Alex",
+          "en": "Elon Musk quickly reacted on social media, writing that there is no crying in the casino. Some investors worry cloud providers may face expensive overcapacity. However, competing leaders argue that heavy capital spending is essential to stay competitive in next-generation frontier intelligence.",
+          "ja": "Elon Musk氏はSNSで「カジノで泣き言はなしだ」と即座に応酬しました。一部投資家はクラウド大手が過剰投資のツケを払うのではないかと懸念する一方、次世代知能で競争力を保つには巨額投資が不可欠だと主張する経営者もいます。",
+          "t": 577.53
+        },
+        {
+          "speaker": "Mika",
+          "en": "What is the key takeaway for regular investors and tech watchers?",
+          "ja": "一般の投資家やテック関係者にとっての重要な教訓は何ですか？",
+          "t": 595.27
+        },
+        {
+          "speaker": "Alex",
+          "en": "It shows that even chip insiders are questioning whether the current wave of capital expenditures can deliver sustainable financial returns.",
+          "ja": "半導体の内部関係者でさえ、現在の設備投資ブームが持続的な利益をもたらすか疑問を呈し始めているという点です。",
+          "t": 600.26
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in summary, a key hardware supplier is urging caution while tech giants continue their high-stakes spending spree.",
+          "ja": "要するに、主要な半導体供給元が警戒を促す一方で、テック大手による巨額の賭けが続いているのですね。",
+          "t": 609.42
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, and the financial debate is only getting louder.",
+          "ja": "はい、投資の妥当性を巡る議論はさらに白熱しています。",
+          "t": 617.35
+        }
+      ],
+      "lang": "en",
+      "t": 529.5
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "大手半導体サプライヤーBroadcomのHock Tan CEOが、企業のAIデータセンター投資の過熱ぶりを「賭博師」に例えて警鐘を鳴らしました。Elon Musk氏らが反論する中、AIインフラへの巨額投資が将来の需要に見合っているのか市場で疑問視されています。",
+          "en": "",
+          "lang": "ja",
+          "t": 621.67
+        }
+      ],
+      "t": 621.67
+    },
+    {
+      "kind": "health",
+      "heading_en": "Congress Investigates Seventeen Billion Dollar VA EHR Cost Surge",
+      "heading_ja": "米議会が退役軍人省の電子カルテ170億ドル増額を調査",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now for digital healthcare. Top United States congressional leaders are formally demanding answers from the Department of Veterans Affairs following a seventeen billion dollar increase in contracts for its electronic health records modernization program.",
+          "ja": "続いてデジタルヘルスニュースです。米議会幹部は退役軍人省に対し、電子カルテ刷新計画における契約額が170億ドル増額されたことについて正式な説明を求めました。",
+          "t": 642.67
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is this specific health records program so critical for patient care?",
+          "ja": "この電子カルテ計画はなぜ患者の診療にとってそれほど重要なのでしょうか？",
+          "t": 658.15
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Veterans Affairs health network is the largest integrated public health system in America, providing medical care for over nine million military veterans across hundreds of clinics and hospitals. The multi-year modernization effort was designed to replace aging legacy databases with a modern commercial electronic record, ensuring seamless medical histories and preventing dangerous prescription errors.",
+          "ja": "退役軍人省の医療網は全米最大の公的統合医療制度であり、数百の診療所や病院で900万人以上の退役軍人を診療しています。この複数年計画は、老朽化した旧式システムを刷新し、病歴の確実な共有と危険な投薬ミスの防止を目的としていました。",
+          "t": 663.58
+        },
+        {
+          "speaker": "Mika",
+          "en": "What problems caused lawmakers to step in with heightened oversight?",
+          "ja": "議員たちが監視強化に乗り出した原因は何ですか？",
+          "t": 687.59
+        },
+        {
+          "speaker": "Alex",
+          "en": "The implementation has experienced repeated software outages, serious patient safety warnings, and severe cost overruns. Frontline doctors reported confusing workflows, leading to clinical delays. Now lawmakers insist on complete financial audits and technical milestones before granting further funding approval.",
+          "ja": "導入現場で度重なるシステム停止、深刻な患者安全上の警告、大幅な予算超過が発生したためです。現場の医師から操作性の悪さによる遅延が報告され、議員らは追加予算承認の前に完全な会計監査と技術的達成目標の提示を求めています。",
+          "t": 692.75
+        },
+        {
+          "speaker": "Mika",
+          "en": "What broader lesson does this offer for hospital technology overhauls?",
+          "ja": "この事例は病院のIT刷新全体にどのような教訓を与えていますか？",
+          "t": 711.5
+        },
+        {
+          "speaker": "Alex",
+          "en": "It demonstrates that transitioning large healthcare systems to digital records requires careful coordination with frontline medical staff, not just expensive software purchases.",
+          "ja": "巨大医療機関のデジタル化には、高額なソフト導入だけでなく、現場の医療従事者との綿密な連携が不可欠であることを示しています。",
+          "t": 716.76
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in summary, America's largest public health IT project is facing strict legislative scrutiny over ballooning costs and deployment reliability.",
+          "ja": "要するに、米国最大の公的医療IT刷新が、膨らむ費用とシステムの信頼性を巡って議会の厳しい監視に直面しているのですね。",
+          "t": 727.97
+        },
+        {
+          "speaker": "Alex",
+          "en": "That summarizes the challenge accurately.",
+          "ja": "その課題を的確に表しています。",
+          "t": 737.45
+        }
+      ],
+      "lang": "en",
+      "t": 642.67
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米議会は退役軍人省に対し、電子カルテ刷新事業の契約額が170億ドル増額された経緯の説明を求めました。900万人以上を支える巨大公的医療制度でのIT移行の遅れや安全性への懸念は、医療DX推進の難しさを示しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 741.56
+        }
+      ],
+      "t": 741.56
+    },
+    {
+      "kind": "world",
+      "heading_en": "Pope Leo Diagnosed with Lung Cancer After Successful Surgery",
+      "heading_ja": "ローマ教皇が手術後に肺がんと診断",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In world news, Pope Leo the Fourteenth has been diagnosed with lung adenocarcinoma following surgery in Rome to remove the lower lobe of his right lung.",
+          "ja": "国際ニュースです。ローマ教皇Leo 14世がローマで右肺の下葉を切除する手術を受け、肺腺がんと診断されました。",
+          "t": 759.53
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did the surgical procedure go, and how is the Pope recovering?",
+          "ja": "手術の経過はどうでしたか、また教皇の回復具合はいかがですか？",
+          "t": 769.74
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Vatican confirmed that the ninety-minute operation at Rome's Gemelli hospital was successful with zero complications. The radical surgery aimed to remove all suspect tissue. The seventy-one-year-old pontiff is resting comfortably in his hospital room and has cancelled audiences through October 20.",
+          "ja": "バチカンは、ローマのジェメッリ病院で行われた90分の手術は合併症なく成功したと発表しました。疑わしい組織を完全切除する手術でした。71歳の教皇は病室で順調に回復しており、10月20日までの公務を取りやめました。",
+          "t": 775.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Will his upcoming international travel schedule still take place?",
+          "ja": "予定されている海外歴訪は予定通り行われるのでしょうか？",
+          "t": 793.88
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Pope told reporters he still intends to make his ambitious tour to Uruguay, Argentina, and Peru scheduled for November, despite a demanding itinerary of twelve flights and significant altitude changes.",
+          "ja": "教皇は報道陣に対し、12回のフライトや高地の移動を含む厳しい日程であるものの、11月に予定されているウルグアイ、アルゼンチン、ペルーへの南米歴訪を実施する意向だと伝えました。",
+          "t": 799.07
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in summary, Pope Leo is recovering smoothly following successful lung surgery and plans to maintain his international travel commitments.",
+          "ja": "要するに、教皇Leo 14世は肺の手術を終えて順調に回復しており、国際的な歴訪日程も維持する方針なのですね。",
+          "t": 812.35
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, faithful around the world are watching his recovery closely.",
+          "ja": "はい、世界中の信徒がその回復を温かく見守っています。",
+          "t": 821.93
+        }
+      ],
+      "lang": "en",
+      "t": 759.53
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ローマ教皇Leo 14世が肺がんの摘出手術を受けました。71歳の教皇の手術は成功し順調に回復中で、10月20日までの公務を取りやめました。11月に予定されている南米3カ国の歴訪を行う意向を示しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 827.13
+        }
+      ],
+      "t": 827.13
+    },
+    {
+      "kind": "world",
+      "heading_en": "Russia Arrests Japanese Reporter on Sakhalin Island",
+      "heading_ja": "ロシア当局がサハリンで日本人記者を拘束",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Russian security authorities have arrested a Japanese journalist on Sakhalin Island on espionage charges, accusing him of gathering military defense information for Japanese intelligence.",
+          "ja": "ロシア治安当局はサハリン島で日本人記者をスパイ容疑で拘束し、日本の情報機関のために軍事防衛情報を収集したと非難しました。",
+          "t": 844.31
+        },
+        {
+          "speaker": "Mika",
+          "en": "Who is the journalist, and what legal measures have Russian authorities taken?",
+          "ja": "拘束された記者は誰で、ロシア当局はどのような法的手続きをとっていますか？",
+          "t": 856.55
+        },
+        {
+          "speaker": "Alex",
+          "en": "Russia's Ministry of Foreign Affairs identified the reporter as Imai Yuki from the Hokkaido Shimbun newspaper. Russia's FSB detained him in Yuzhno-Sakhalinsk as he prepared to leave the country. He was immediately flown to Moscow, where a court ordered him held in custody for nearly two months pending further investigation. He could face up to twenty years in prison if convicted.",
+          "ja": "ロシア外務省は、北海道新聞の今井幸記者であると公表しました。ロシアFSBは出国準備中だった同氏をユジノサハリンスクで拘束しました。直ちにモスクワへ移送され、裁判所は捜査のため約2カ月の勾留を命じました。有罪となれば最大20年の禁錮刑が科されます。",
+          "t": 862.5
+        },
+        {
+          "speaker": "Mika",
+          "en": "What is the broader geopolitical backdrop behind this arrest?",
+          "ja": "この拘束の背景にはどのような地政学的緊張があるのですか？",
+          "t": 885.99
+        },
+        {
+          "speaker": "Alex",
+          "en": "Relations between Tokyo and Moscow have deteriorated sharply over the disputed Kuril Islands, which Japan calls the Northern Territories, especially following Vladimir Putin's trip to the islands in August. Japanese diplomats in Moscow are actively working to confirm the reporter's safety.",
+          "ja": "日本が北方領土と呼ぶクリル諸島を巡り、8月のウラジーミル・プーチン大統領の現地訪問以来、日露関係は急激に冷え込んでいます。モスクワの日本外交官が安全確認を急いでいます。",
+          "t": 890.96
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in summary, diplomatic tensions between Russia and Japan have escalated significantly with the espionage detention of a working newspaper reporter.",
+          "ja": "要するに、現役新聞記者のスパイ拘束によって日露の外交的緊張が一段と高まったのですね。",
+          "t": 909.14
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is the critical concern right now.",
+          "ja": "現在最も懸念されている点です。",
+          "t": 919.31
+        }
+      ],
+      "lang": "en",
+      "t": 844.31
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ロシア連邦保安庁はサハリンで北海道新聞の今井幸記者をスパイ容疑で拘束し、モスクワへ移送して約2カ月間の勾留を決定しました。北方領土を巡る対立が続く中、日露間の外交的摩擦が急激に激化しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 923.45
+        }
+      ],
+      "t": 923.45
+    },
+    {
+      "kind": "world",
+      "heading_en": "Pakistan Imposes Emergency Rule in Khyber Pakhtunkhwa",
+      "heading_ja": "パキスタンがカイバル・パクトゥンクワ州に非常事態宣言",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Pakistan's federal government has imposed emergency rule in Khyber Pakhtunkhwa province, suspending the local provincial administration in the primary stronghold of imprisoned former prime minister Imran Khan.",
+          "ja": "パキスタン連邦政府はカイバル・パクトゥンクワ州に非常事態宣言を発令し、収監中の元首相イムラン・カーン氏の強固な拠点である現地州政府の権限を停止しました。",
+          "t": 939.92
+        },
+        {
+          "speaker": "Mika",
+          "en": "What official justification did the federal government provide for this dramatic step?",
+          "ja": "連邦政府はこの劇的な措置についてどのような公式説明を行いましたか？",
+          "t": 953.49
+        },
+        {
+          "speaker": "Alex",
+          "en": "Federal Information Minister Attah Tarrar claimed the emergency rule was necessary to protect residents from terrorism threats, alleging ties between local leaders and militant groups. However, critics point out the decision followed a week of massive protest marches demanding Imran Khan's release. Security forces deployed shipping containers to block roads and fired tear gas at demonstrators, while several regional party leaders went into hiding.",
+          "ja": "アッタ・タラール情報相はテロの脅威から住民を守るためだと主張し、州幹部と武装勢力の結託を主張しました。しかし批評家らは、カーン氏の釈放を求める1週間の大規模抗議デモの直後に行われた点を指摘しています。治安部隊はコンテナで道路を封鎖し催涙ガスを使用、州幹部の多くが潜伏しました。",
+          "t": 959.92
+        },
+        {
+          "speaker": "Mika",
+          "en": "What do international political analysts warn about the regional fallout?",
+          "ja": "国際政治アナリストは地域への波及について何を警告していますか？",
+          "t": 987.52
+        },
+        {
+          "speaker": "Alex",
+          "en": "South Asia experts warn that suspending an elected provincial administration will deepen institutional polarization and could spark wider civil unrest rather than restoring stability.",
+          "ja": "南アジアの専門家は、選挙で選ばれた州政府を停止させることは制度的対立を深め、安定を取り戻すどころか広範な市民蜂起を招きかねないと警告しています。",
+          "t": 993.2
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in summary, Islamabad's crackdown on Imran Khan's stronghold province threatens to intensify national political instability.",
+          "ja": "要するに、カーン氏の拠点州に対するイスラマバードの中央政府による強権措置は、国家の政情不安をさらに激化させる恐れがあるのですね。",
+          "t": 1005.25
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, tensions remain extremely elevated across the province.",
+          "ja": "はい、州全域で緊張が極度に高まっています。",
+          "t": 1014.12
+        }
+      ],
+      "lang": "en",
+      "t": 939.92
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "パキスタン政府は収監中の元首相イムラン・カーン氏の支持基盤であるカイバル・パクトゥンクワ州に非常事態宣言を発令し、州政権を停止しました。治安対策を名目としていますが、カーン氏の釈放を求める抗議活動への強硬な弾圧と受け止められています。",
+          "en": "",
+          "lang": "ja",
+          "t": 1019.05
+        }
+      ],
+      "t": 1019.05
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "Tech Leaders Speak on AI Capex and Expansion",
+      "heading_ja": "AI投資と事業拡大を巡る経営者の発言",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In executive news, Broadcom chief executive Hock Tan cautioned that corporate AI capital spending is turning into a risky casino. Elon Musk fired back on social media, writing that there is no crying in the casino.",
+          "ja": "経営者の動向です。BroadcomのCEOであるHock Tan氏は企業のAI設備投資が危険なカジノになりつつあると警告しました。Elon Musk氏はSNSで「カジノで泣き言はなしだ」と反論しました。",
+          "t": 1038.81
+        },
+        {
+          "speaker": "Mika",
+          "en": "Meanwhile, Nvidia chief Jensen Huang announced plans for two billion dollars in European AI partnerships next week.",
+          "ja": "一方、NvidiaのJensen Huang氏は来週欧州で20億ドル規模のAI提携を展開する計画を発表しました。",
+          "t": 1052.67
+        },
+        {
+          "speaker": "Alex",
+          "en": "And Chinese chipmaker CXMT president Cao Kanyu stated his company will deliver its first DDR5 server memory module by year-end.",
+          "ja": "また中国の半導体メーカーCXMTの曹和宇（ツァオ・カンユー）総裁は、年内に同社初のサーバー向けDDR5メモリモジュールを出荷すると表明しました。",
+          "t": 1060.78
+        }
+      ],
+      "lang": "en",
+      "t": 1038.81
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: Cut Corners",
+      "heading_ja": "今日のフレーズ：Cut corners",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's phrase of the day is to cut corners. It means to do something in the easiest, fastest, or cheapest way possible, often by skipping important safety steps or sacrificing quality.",
+          "ja": "今日のフレーズは「cut corners」です。重要な安全手順を省いたり品質を犠牲にしたりして、最も簡単・迅速・安価な方法で物事を済ませる「手抜きをする」という意味です。",
+          "t": 1069.59
+        },
+        {
+          "speaker": "Alex",
+          "en": "Google used this exact concept in its Gemini 4 Argon safety report, explaining that advanced reasoning models must never cut corners or take hazardous shortcuts when handling sensitive code or real-world decisions.",
+          "ja": "GoogleはGemini 4 Argonの安全性報告書でまさにこの概念を用い、高度な推論モデルは機密コードや現実の判断を行う際に決して手抜きや危険な近道をしてはならないと説明しました。",
+          "t": 1081.76
+        },
+        {
+          "speaker": "Mika",
+          "en": "Here is another everyday workplace example: The hospital refused to cut corners on patient safety, even during budget cuts.",
+          "ja": "日常の職場での例文です。「病院は予算削減の最中でも、患者の安全面で手抜きをすることを拒否しました」。",
+          "t": 1095.62
+        },
+        {
+          "speaker": "Alex",
+          "en": "Remember, cutting corners may save a little time now, but it usually creates bigger problems down the road.",
+          "ja": "手抜きをすれば今は時間を節約できるかもしれませんが、後でより大きな問題を生むことになります。",
+          "t": 1104.2
+        }
+      ],
+      "lang": "en",
+      "t": 1069.59
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Closing Thoughts",
+      "heading_ja": "エンディング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "From frontier AI models and courtroom semiconductor verdicts to crucial global events, technology and world news continue moving at breakneck speed. Thank you for tuning in to Commute News for your morning briefing.",
+          "ja": "最先端AIモデルや半導体の法廷闘争から重要な国際ニュースまで、世界は急速に動いています。朝の情報収集にCommute Newsをお聴きいただきありがとうございました。",
+          "t": 1112.3
+        },
+        {
+          "speaker": "Mika",
+          "en": "Stay safe, have a productive day ahead, and join us tomorrow morning for your next daily commute update.",
+          "ja": "安全に気をつけて、充実した一日をお過ごしください。明日の通勤時間のニュースでお会いしましょう。",
+          "t": 1123.77
+        }
+      ],
+      "lang": "en",
+      "t": 1112.3
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。今日も気をつけていってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 1129.94
+        }
+      ],
+      "t": 1129.94
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Google Launches Gemini 4 Argon Frontier Model for Developers and Consumers",
+      "title_ja": "Googleが最先端AIモデルGemini 4 Argonを一般・開発者向けに公開",
+      "summary_ja": "Googleは複雑なプログラミングやサイバー防御、科学計算に対応する最新フロンティアモデルGemini 4 Argonを公開しました。内部の悪用を防ぐために入力監視や内部検査など3層の安全対策を導入しています。開発者向けAPIや個人向け有料プランで即日利用可能となりました。",
+      "why_ja": "AIによるサイバー攻撃と防御の両面で能力が急伸する中、安全性検証と実用化のバランスが今後のAIガバナンスの基準となります。",
+      "section": "tech",
+      "topic_key": "google-gemini-4-argon",
+      "companies": [
+        "Google",
+        "Wiz"
+      ],
+      "sources": [
+        {
+          "publisher": "Google Blog",
+          "title": "Developing Gemini 4 Argon responsibly and safely",
+          "url": "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/"
+        },
+        {
+          "publisher": "Google Blog",
+          "title": "Gemini 4 Argon is now available for developers.",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/"
+        },
+        {
+          "publisher": "Google Blog",
+          "title": "Gemini 4 Argon comes to the Gemini app.",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/"
+        },
+        {
+          "publisher": "Google Blog",
+          "title": "Gemini 4 Argon: Built to solve your hardest problems",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+        },
+        {
+          "publisher": "Ars Technica",
+          "title": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay",
+          "url": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Google launches flagship AI model Gemini 4 Argon for developers, businesses",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclhsaXp4NUtqeVJDQTNIUjVXQVdJcnNXYnpYZUFTZm4wY3UxcTM1SzJvdzRBNE9HaURlNG1obzFGQ0o3R0pWNVJfNGFDOUdFZnhfdEJxSkszQ2hZQlowMjdCbVliRE9uX3A5ak1CYkJHOEV1elBYRWgtUHBwdF9lcWEyUGdjbmhQb2JONkpNeWhLTHgzQzRhRFRnZTEwcDRCa3k3RkpxY0c5Z1RsSlFCSmQwNmRmQQ?oc=5"
+        },
+        {
+          "publisher": "blog.google",
+          "title": "Gemini 4 Argon for Robotics",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1VZ2cwR0ROa3N6T1Z5ZXlHdTR3TkdTTE1VcVNFcF9sQnBoM2tTbHNoUFJ5MFRjNWo0djd4a3hIa2gyUzRYay10YWZzblJPSHJmSzhkWkZrYV9VcTN2QWFCUkMtZ0hCSzJkTjFSckk3RQ?oc=5"
+        },
+        {
+          "publisher": "Business Insider",
+          "title": "Google says Gemini 4 Argon is a 'powerhouse' AI model — and it's rolling out now",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVG9jVmlJb2RvS2FvOWF0LUtZVngtbTlEZUdST1BveFNteG93UEktZGtvVjh5a3FiVVpzLVBPaVZ4TTQxY194YU0zLVNGQS1OT3dRT1RRb3Q4S09XWU44akJoSDZSN3g0aS10ZENfcFp6WDVVSVoxcDc1YnlnNGxRLUxwNXljZ09BbG5BaG5CcjVFNk1H?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Apple Enters Smart Display Market with HomeView Alongside Siri AI Hardware Push",
+      "title_ja": "Appleがスマート画面HomeViewを発表しSiri AIハードウェアを刷新",
+      "summary_ja": "Appleは299ドルの7インチスマート画面端末HomeViewを発表し、11月13日に発売すると明らかにしました。顔認識により家族最大6人を識別して各自の個人情報を表示し、Apple Intelligence基盤のSiri AIを搭載しています。あわせてApple TV 4KやHomePod mini 2も刷新しました。",
+      "why_ja": "AmazonやGoogleが握るスマートホーム画面市場にプライバシーと生態系連携を武器に切り込む戦略的な布石です。",
+      "section": "tech",
+      "topic_key": "apple-homeview-smart-display",
+      "companies": [
+        "Apple",
+        "LG Electronics",
+        "Schneider Electric"
+      ],
+      "sources": [
+        {
+          "publisher": "Apple Newsroom",
+          "title": "Meet Apple HomeView, a new way to enjoy entertainment and manage the home",
+          "url": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/"
+        },
+        {
+          "publisher": "Apple Newsroom",
+          "title": "Apple unveils the new Apple TV 4K, supercharged by Siri AI",
+          "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/"
+        },
+        {
+          "publisher": "Apple Newsroom",
+          "title": "Apple announces the next generation of HomePod mini",
+          "url": "https://www.apple.com/newsroom/2026/10/apple-announces-the-next-generation-of-homepod-mini/"
+        },
+        {
+          "publisher": "Apple Newsroom",
+          "title": "Introducing Apple Home Collection, a new lineup of smart home accessories",
+          "url": "https://www.apple.com/newsroom/2026/10/introducing-apple-home-collection-a-new-lineup-of-smart-home-accessories/"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "Apple’s HomeView ad is confusing to everyone except parents",
+          "url": "https://www.theverge.com/tech/1010561/apple-homeview-commercial-reaction"
+        },
+        {
+          "publisher": "Ars Technica",
+          "title": "Apple’s first smart display is the 7-inch HomeView for $299",
+          "url": "https://arstechnica.com/apple/2026/10/apple-homeview-smart-home-hub-opens-for-preorders-at-299/"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Apple's HomeView brings personalized Siri to smart home, takes on Amazon and Google",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUHhjOXpZaTJwY3lOa2E5TXgzQUFkUVh1WnhFT0dCZVZWQ25Ec2FLYTk2QjhtSTd1Y3Q4cjJSV1BWQmg2cEsxU19jR3ZQSy02Yk91X1JhV2NEcHBvRGRESE9ZRWtRS080NlRJcHJxT0dlQjZJV0dZd2xQWHBjdnV2VTBFQWxleElKdmlYbmZpaVFOc0Z2QVI5ZThseXU0ZUkwam9ub0NyaXpfWFdEWl9RRnZYaDZvUzdVb0o1ZFBZSVh2VHVhdnRIN0lsYTE?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Apple bets on new screen gadget, Siri AI in home device push",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNVpsSWNUUWZvOTRSMFEwZVRpLUhfbmZwdDkxbUI5b0RVeE5FZGpZTTd5QzNoWUdyLWY5YWRPY2ZVZ0F2RVVlUWhJUXRjOWJCLUFaQXJBOTFvQ3M2OE5tbzdlZXFPM0s1ZUhGaEVMZ0JvaWVIYW5GMFRYc0lPVVFvYWJSUGk2cGhTNG9uLVZNNC1yUzJiSVFEUXBRTjRBNjJ1RURVRVZtYVVWSExUei1MM1kxSE4wbG84d3oxbHdyZnZvQQ?oc=5"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Apple unveils new smart home devices that showcase upgraded Siri AI",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSUtPYkZiMFdGTVFibFdLcWMwT0tpYVFGTDEzTzZSNlNEcFJ6ZmJfcmR3SjVkd2tkckFnQ0JRUGpIclZsMkJ1UXdLejhUQ1dtbS1IaV9VTndzWE5JaGZPcjN1ZHZUeG1IZThkNzBWUlV5Mk9CVk5TVVJYdEZGWG9wTWE5UEtkUXNp?oc=5"
+        },
+        {
+          "publisher": "GSMArena.com",
+          "title": "Apple Home Collection launches with LG and Schneider cameras, thermostats, and sensors - GSMArena.com news",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQS0s1U1AwdDFCLXo1LUtOTUpocXJMSWJvRktfbGt6OGJkX25NdldadlVQX05lWHNjVjNuWG5mb0NGbUVMeGd6NGRRaHlxRjlPRVRDVWxIZXZ1UHpZZEliMDZyMHBMa19YOGJuSnFyMEgyOHB6REhnMjZsOUV1Z2pXVEpiSmJldDRYTWM5UmRQS2JGTWw2d2tYQWs1a0prT3U1NUpSV3J3SGtGaTFzTzN1bGVaQjBTYmpUZFR4RV9Mbk5KZ9IBvgFBVV95cUxNT3ZqRkQwTnFMZ181VEozUEYxLTE2RXdHZ1NLLWdUU1Y0eEFKcTNiVjI3b2Q4dkV3VEVCbUVSY0dqaWxMV016bVdCWWZKVTROU0dxVF8zV2tvOXFIWWlGb3oydlhwVVFPclp1UUpCNTkzMGFLRWU5N3B3UktCZ2xkZENGUXZJZ05LZktnY1Y4MWNOUWQ4TlJSLWZ3N2NBUVptanR1YTVRT2hsY2xNVkRJMmp0VElWcFFVSXd4M01n?oc=5"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Apple refreshes its HomePod mini with a new chip and $149 price tag",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVjlsbFNoNHZvRm9oQlJNWTdyNHJYeFlLMUVpOHBEMkswdzQ5bjlrMlREN1VMZlBlSnJzTm1XQzlDb280amk4NzU0Ui0zZlBobG9aUEFwQnZZWHpPN1RCdTRqUHlfU290VmpZTHY0YkZ4V2NDakdqTThPMm5rMVZJT1ZBamZlWFFOLUYwb3VyVFM0cW5XZzZqcy1uQ0o3ekVoMFUw?oc=5"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Apple launches a new Apple TV 4K with Siri AI and remote-free voice commands",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOERnbGJDT0t1aHBWd2RBdkttbVpYLVZueFdkREI5VnRJaWh3bXE0QW1scjZrY0czOE1ROUJiX0w2cHZHV2d2eTRoRGJYSFl3M1ppRDFCN25aUUI1Z19YeWlDTGZwRUxzNEd0Mjh3QkM4VkZLeXhjNHJfM1hkWkZsZjY4ejVRWm0zVzJUdnUzWHpEQkxXbWwydU5kRDdYcTFmcDY4WE5lODE?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "FBI Arrests OpenAI Engineer Over Conference Room Wiretapping Scheme",
+      "title_ja": "FBIがOpenAIの役員会議室を盗聴した容疑で同社社員を逮捕",
+      "summary_ja": "米司法省とFBIは、OpenAIの役員会議室のテレビ裏に録音機器を設置したとして同社社員を逮捕しました。機器は暗号化されUSB端子に接続されていましたが、OpenAIは社内AIモデルと監視カメラ映像を用いて犯人を特定しました。モデルコードの流出は確認されていません。",
+      "why_ja": "超知能開発を巡る国家や産業スパイのリスクが、サイバー空間だけでなく社内物理セキュリティにも直接波及している実態を示しています。",
+      "section": "tech",
+      "topic_key": "openai-conference-room-bugging-arrest",
+      "companies": [
+        "OpenAI"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "FBI arrests OpenAI employee accused of planting hidden recording device in conference room",
+          "url": "https://techcrunch.com/2026/10/13/fbi-arrests-openai-employee-accused-of-planting-hidden-recording-device-in-conference-room/"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
+          "url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "CNBC",
+          "title": "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNckJQNWJCVWJZSzdEUVRzWHZyZ2I0amJxTVVqX1ltcmZtSGxKWkRUVUdEWnp4Wm9HSUctWlFGNk9mOTQwVXBVd3A4SzQ0YXB3WHFfaE9YaE1mX3ZUZ1BpWWU2dDhIRXd1NENRaTAxdHdaRTFYNm5tVEZxWFQ4anpvdXo2anrSAYoBQVVfeXFMTzdwQXJjWlRmTlVDNXhWSzhsOTBHbjJpVENKRXVsUzhOR28zMjhIbGJxRFNtMTVxQVpqZlFscXhFMmx5eFhJcHRiLXJuSkhiQkZRV0tqSENqdE5TMXpxNy02c1pZb1UxNldGUkIzc3lLNTJaN1Q1QzNfVF9MX1N6bzc3dkRkNGQ0WU53?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Qualcomm Secures Jury Verdict Finding Arm Breached Architectural License",
+      "title_ja": "米陪審団がArmの契約違反を認定、Qualcommが勝訴",
+      "summary_ja": "米デラウェア州の連邦陪審団は、半導体設計大手ArmがQualcommとのライセンス契約に違反したとの評決を下しました。損害賠償額はわずか2ドルでしたが、Qualcommによる独自CPUコアの開発継続が法的に認められました。これにより同社のPCおよびスマートフォン向け半導体戦略の不透明感が解消されました。",
+      "why_ja": "半導体業界の知的所有権紛争において独自アーキテクチャの継続性が保たれ、PC向けArmプロセッサ市場の成長基盤が維持されました。",
+      "section": "tech",
+      "topic_key": "qualcomm-arm-license-trial-verdict",
+      "companies": [
+        "Qualcomm",
+        "Arm Holdings"
+      ],
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "title": "Delaware jury awards Qualcomm $2 in damages, finds Arm breached license agreement",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQ3B0dlZXT01OUXZmR2FEMXhoVWx5RnpzUk92dzNtR0dWSWZFZGkyTzlpQmc1VmNxc0N6VTBtTndzZUd0NzVYMGxIQUU3VEFaTUZnUnhVMmlpSWhjM1YxLWxKQWMxTFN2M0g1cTVKV20wWUc3LVMtZ0MzRXY1c1AxSTgzUjlQV21kb19uSmZndHdYVDVlQzZ2X2VjN210SWN0cWRZeDVkY1BaV21H?oc=5"
+        },
+        {
+          "publisher": "Thurrott.com",
+          "title": "Qualcomm Prevails Against Arm Holdings in Court Again",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOHFxQnNySzBxdlVVdHFDN3FXT2lrSmZHTVE0ZzJIZHlhdjZHYUNKUEhJVDZ5anNXcEFLRFFGVUdPTC1Td2ZyR04xY3FRMG9lcS1EYXNmeFZ4aDk2SWJpeG9yQXQxczFWUURNVXMtR2hxRWsyZGxBczNDQ3lGaGp4TnJQZkJVOF82eHd5aFBQbHBnVlc2Mk5IbUtR?oc=5"
+        },
+        {
+          "publisher": "Seeking Alpha",
+          "title": "Qualcomm, Arm weigh in after jury finds Arm breached license agreement (QCOM:NASDAQ)",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMV8tQUFMTWFESmpTaUhQRGN4a1dSMGVoRE9PNklNV2JCd2lPck9RT1dwZkhpaW5jYjRTNGJLc1psR18tR3JHcUQ1RFpZdGR1bEYyNWVMYVhrUlliUU1fWTY5VHZ2LVoxV2NnaFdWcDdobV94UlhRaHhDc2pPa1Z0ZWh3TWp1UUlyX0hQdE4tV0lYMWp4Q3VsWmxydC03NDVyRGJFMVRjcw?oc=5"
+        },
+        {
+          "publisher": "Arm Newsroom",
+          "title": "Arm welcomes favorable jury verdict in Qualcomm litigation",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1YYmJrRm9sNDBRbldxT09sc3loRUVOME5ocDBJWnJXQWg4SjFDYUVQUVY2QVlaMVhPZThwRTI2MWdrak5iUXRMVFo1dzF3VlFubDBZMG5sZEZMaGdFemJEWWd1WUVRN1k?oc=5"
+        },
+        {
+          "publisher": "Qualcomm",
+          "title": "Qualcomm Statement on Trial Verdict Win",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYUhrWnlYM09DQi1OaHBjSF83YldQRXRIbnV0d25EZTY2MlJ0X1dVMlUyaG1LQTNlamZVcEpXRHNoN2FmajQ1cVJVVDA1X2dIMkpFczJndFZvZUE1b180VzVSOGtiNzdJRk5RalpRZkhtWXZFT0d6a1Q4ZXI5VlVYRnZUdHJEVl9HNWM3UUhOemF3S1RUbTEwdzUwQnZ0VWNUS25VM3BKelVZY0x4NEhVb01PN0d6SzRwbkgtbmdZdnR6YXhmQmc?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Broadcom CEO Sparks AI Infrastructure Debate by Warning of Reckless Capex",
+      "title_ja": "BroadcomのCEOが過剰なAIインフラ投資を「賭博師」と批判し波紋",
+      "summary_ja": "BroadcomのHock Tan最高経営責任者は、大手テック企業によるAIデータセンター投資の過熱について警鐘を鳴らしました。同氏は一部企業の無謀な投資姿勢をギャンブラーに例え、計算能力の過剰構築に懸念を示しました。これに対しElon Musk氏ら他の経営者が反応し議論が白熱しています。",
+      "why_ja": "主要半導体サプライヤーのトップが過剰設備投資のリスクを指摘したことで、市場のAI投資持続可能性に対する警戒感が高まっています。",
+      "section": "tech",
+      "topic_key": "broadcom-ceo-ai-spending-warning",
+      "companies": [
+        "Broadcom",
+        "Meta",
+        "Google"
+      ],
+      "sources": [
+        {
+          "publisher": "MarketWatch",
+          "title": "Was Broadcom CEO bullish or bearish on AI? ‘Gamblers’ comment creates storm.",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQkRGVUFfVWQyOGJmUkhINjlBbE52UHJRUzJjcWtNcF9xaTgxZG5zWG42SnBySWtjeUtDd2RiNE9qNWhVenA4QjlqdXJYMVJjdjVHY2JrUE1ldk0tSmRPb082R0xJNU90X1BEZk1sWHg2dG9CUjU4aGk1YWxJaDg2VzV4Yml0blIwaWdVeFlCSEU3aHN0SnVVaHBMTzY5UHlaMC1ScVJNclNmaTl4bEQ2dU5BcEtIUQ?oc=5"
+        },
+        {
+          "publisher": "Barron's",
+          "title": "Elon Musk Says ‘No Crying in the Casino’ After Broadcom CEO Warns AI Frenzy Is Getting Out of Hand",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5RdEU2OWItTHotZG1RWWVPb25XYy1xYmEtQ1BzTlZ4Vk5BaGRlSk5mX1RqQ2VJWlVVQUM4UnV4dG5EYzFub0FpY190blY1Tl94X3dPUmludzktYnc4eExCZXpfT2FYXzBzQmRVRUtEd25HVTdmNEZqajdHemk?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Congressional Leaders Press Veterans Affairs Over $17B Surge in EHR Modernization Costs",
+      "title_ja": "米議会が退役軍人省の電子カルテ刷新における170億ドル費用急増を追及",
+      "summary_ja": "米議会幹部は、退役軍人省が進める電子カルテ近代化プロジェクトの契約額が170億ドル増額されたことに対し詳細な説明を求めました。900万人以上の退役軍人を対象とする同事業では、システムの不具合や患者安全上の懸念、スケジュール遅延が相次いでいます。議員らは追加予算承認の前提として徹底的な情報開示を要求しています。",
+      "why_ja": "医療機関の電子カルテ統合とDX推進において、現場の運用適合性と巨額の公的ITガバナンスが直面する共通の構造的課題を浮き彫りにしています。",
+      "section": "health",
+      "topic_key": "us-va-ehr-modernization-scrutiny",
+      "companies": [
+        "Department of Veterans Affairs"
+      ],
+      "sources": [
+        {
+          "publisher": "Nextgov/FCW",
+          "title": "Top Dems press VA for answers on $17B EHR modernization contract boost",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdjc1Uk9YUWtKTEk4VVp5NG5uX1Q4dUtwNU96bHhWQkZVRTd5dUFnb2RTcVkzRWE0cWVPZDduV1VDa0Z6aEZGQi1vOTR4VklJa0swUXNfeGZFMzJMMGVlM1BoZFMwN3h6QTdmQk1VeXk3VlhNbEFKaHRUNEZpNlJHVWVVR1RGNEpzMVMtV0Q3SWI5MElOaWNvWFl1RThuSmdrQ21Vd05vdFhGN0xFNXZvMXZJV3BHbVZVTkF3RGY3TXRaUVNoclhqTVltZ1V1bHNfNGQ3dUpn?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Pope Leo XIV Diagnosed with Lung Cancer After Successful Surgery in Rome",
+      "title_ja": "ローマ教皇Leo 14世が肺がん手術を受け成功",
+      "summary_ja": "ローマ教皇Leo 14世がローマの病院で右肺下葉を切除する手術を受け、肺腺がんと診断されました。90分間の手術は無事に成功し合併症はなく、教皇は1週間の入院療養に入り10月20日までの公務を取りやめました。11月に予定されている南米歴訪は予定通り行う姿勢を示しています。",
+      "why_ja": "カトリック教会最高指導者の健康状態は、世界の信徒のみならずバチカンが主導する国際外交の行方にも影響を与えます。",
+      "section": "world",
+      "topic_key": "pope-leo-lung-cancer-diagnosis",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Pope Leo diagnosed with cancer after surgery to remove part of lung",
+          "url": "https://www.aljazeera.com/news/2026/10/13/pope-leo-diagnosed-with-cancer-after-surgery-to-remove-part-of-lung?traffic_source=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Vatican confirms Pope Leo’s surgery was successful",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/vatican-confirms-pope-leos-surgery-was-successful?traffic_source=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
+          "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Pope Leo diagnosed with lung cancer as growth removed during surgery",
+          "url": "https://www.theguardian.com/world/2026/oct/13/pope-leo-hospital-operation-growth-lung"
+        }
+      ]
+    },
+    {
+      "title_en": "Russia Detains Japanese Journalist on Sakhalin Island on Espionage Charges",
+      "title_ja": "ロシア当局がサハリンで北海道新聞の日本人記者をスパイ容疑で拘束",
+      "summary_ja": "ロシア連邦保安庁はサハリン島で北海道新聞の今井幸記者をスパイ容疑で拘束し、モスクワへ移送しました。ロシア側は防衛情報収集の疑いを主張し、裁判所は約2カ月間の拘束を認めています。日本外務省は報道の事実確認と安全確保を進めています。",
+      "why_ja": "北方領土問題を巡る日ロ関係の冷却化が、ジャーナリスト拘束という極めて厳しい外交摩擦に発展したことを示しています。",
+      "section": "world",
+      "topic_key": "russia-arrests-japanese-journalist-espionage",
+      "companies": [
+        "Hokkaido Shimbun"
+      ],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Russia arrests Japanese reporter for alleged espionage",
+          "url": "https://www.aljazeera.com/news/2026/10/13/russia-arrests-japanese-reporter-for-alleged?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "Pakistan Imposes Emergency Rule in Imran Khan's Stronghold Province",
+      "title_ja": "パキスタン政府がカーン元首相の拠点州に非常事態宣言を発令",
+      "summary_ja": "パキスタン連邦政府は、収監中の元首相イムラン・カーン氏の政党が率いるカイバル・パクトゥンクワ州に非常事態宣言を発令し州政府の権限を停止しました。治安対策を名目に掲げていますが、カーン氏の釈放を求める大規模デモを抑え込む狙いとみられています。州幹部が身を隠すなど緊迫した状況が続いています。",
+      "why_ja": "地方自治の強権的な停止は、核保有国パキスタンにおける軍・中央政府と野党勢力の亀裂をさらに深め、地域全体の政情不安につながる恐れがあります。",
+      "section": "world",
+      "topic_key": "pakistan-emergency-rule-khan-stronghold",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Pakistan has locked down Imran Khan's stronghold - but it could backfire",
+          "url": "https://www.bbc.co.uk/news/articles/crgqwv4vl24jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Pakistan imposes emergency rule in former prime minister's stronghold",
+          "url": "https://www.npr.org/2026/10/13/nx-s1-5998798/pakistan-imposes-emergency-rule-in-former-prime-ministers-stronghold"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "frontier model",
+      "meaning_ja": "最先端AIモデル",
+      "note_ja": "現在開発可能な最も高度で大規模な基盤AIモデルを指す業界用語です。",
+      "example_en": "Google has officially released its newest frontier AI model, named Gemini 4 Argon."
+    },
+    {
+      "term": "facial recognition",
+      "meaning_ja": "顔認識技術",
+      "note_ja": "カメラ映像から個人の顔の特徴を識別・照合する技術です。",
+      "example_en": "It uses facial recognition to tell apart up to six family members."
+    },
+    {
+      "term": "encryption",
+      "meaning_ja": "暗号化",
+      "note_ja": "第三者にデータを読み取られないよう特殊な規則で変換することです。",
+      "example_en": "It was covered in toilet paper and protected with strong encryption."
+    },
+    {
+      "term": "breach",
+      "meaning_ja": "（契約や義務の）違反、破棄",
+      "note_ja": "法律や契約の合意事項を破ることを意味する重要単語です。",
+      "example_en": "A jury decided that Arm breached its licensing agreement with Qualcomm."
+    },
+    {
+      "term": "reckless",
+      "meaning_ja": "無謀な、向こう見ずな",
+      "note_ja": "リスクや結果を顧みずに過剰な行動をとる様子を表します。",
+      "example_en": "He issued a public warning about reckless spending on artificial intelligence data centers."
+    },
+    {
+      "term": "electronic health records",
+      "meaning_ja": "電子カルテ",
+      "note_ja": "EHRと略され、医療機関間で共有可能な患者の電子健康記録のことです。",
+      "example_en": "Congressional leaders in the United States are questioning the Department of Veterans Affairs over a seventeen billion dollar increase for its electronic health records modernization program."
+    },
+    {
+      "term": "adenocarcinoma",
+      "meaning_ja": "腺がん",
+      "note_ja": "肺や胃などの腺組織から発生するがんの組織型です。",
+      "example_en": "Tests confirmed a diagnosis of lung adenocarcinoma, the Vatican added."
+    },
+    {
+      "term": "espionage",
+      "meaning_ja": "スパイ行為、諜報活動",
+      "note_ja": "国家や企業の機密情報を不正に収集する行為を指します。",
+      "example_en": "Russian authorities have arrested a Japanese journalist on Sakhalin Island on espionage charges."
+    },
+    {
+      "term": "stronghold",
+      "meaning_ja": "本拠地、牙城、強固な支持基盤",
+      "note_ja": "政治勢力や軍事が強い影響力を持つ地域を意味します。",
+      "example_en": "That region is the political stronghold of imprisoned former prime minister Imran Khan."
+    },
+    {
+      "term": "capital spending",
+      "meaning_ja": "設備投資（Capex）",
+      "note_ja": "将来の事業拡大のために建物や設備、サーバーなどに投じる資金です。",
+      "example_en": "In executive news, Broadcom chief executive Hock Tan cautioned that corporate AI capital spending is turning into a risky casino."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "cut corners",
+    "meaning_ja": "手抜きをする、安易なやり方で済ませる",
+    "example_en": "The hospital refused to cut corners on patient safety, even during budget cuts.",
+    "example_ja": "その病院は予算削減の最中でも、患者の安全面で手抜きをすることを拒否しました。"
+  }
+}
