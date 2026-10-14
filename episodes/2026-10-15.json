@@ -1,0 +1,1393 @@
+{
+  "date": "2026-10-15",
+  "published": "2026-10-15T05:09:41+09:00",
+  "title_en": "Japan Backs US Chip Fabs and Massive Phishing Ring Dismantled",
+  "title_ja": "日本による米半導体工場への巨額投資と国際詐欺網の摘発",
+  "summary_ja": "日本政府が米ニューヨーク州の半導体工場新設に210億ドルを投じる協定を結び、日米警察とMicrosoftは10億件以上の詐欺SMSを放った国際犯罪網を摘発しました。医療分野では州ごとのAI規制ガイドライン策定を巡る議論が本格化しています。世界情勢ではウクライナのStarlink制限、ホルムズ海峡での商船沈没、インドでの有権者名簿削除を巡る大規模デモを取り上げます。",
+  "duration": 1217.8,
+  "audio": {
+    "file": "2026-10-15.mp3",
+    "bytes": 9743135,
+    "release_tag": "ep-2026-10-15"
+  },
+  "word_count": 2186,
+  "ja_chars": 1218,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.7-flash",
+    "write": "gemini-3.7-flash",
+    "revise": "gemini-3.7-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Welcome to Commute News",
+      "heading_ja": "Commute News へようこそ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it is Thursday, October 15. Welcome to Commute News, your daily briefing on global technology, business, and world events.",
+          "ja": "おはようございます。10月15日木曜日、Commute Newsです。世界のテクノロジー、ビジネス、そして国際情勢を毎朝お届けします。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, Alex. We have an action-packed show for our listeners today. What are the top stories on our radar?",
+          "ja": "おはようございます、Alex。今日も注目のニュースが盛りだくさんですね。本日のトップストーリーは何でしょうか？",
+          "t": 8.73
+        },
+        {
+          "speaker": "Alex",
+          "en": "First in tech, Japan backs 21 billion dollars for chip factories in New York, and Microsoft teams up with Japanese police to dismantle a massive cybercrime ring.",
+          "ja": "まずテックでは、日本がニューヨークの半導体工場に210億ドルを支援し、Microsoftと日本の警察が連携して巨大サイバー犯罪組織を解体しました。",
+          "t": 16.21
+        },
+        {
+          "speaker": "Mika",
+          "en": "In health, medical leaders meet to draft state rules for artificial intelligence in clinical care.",
+          "ja": "ヘルスケアでは、医療団体の指導者たちが集まり、臨床現場における人工知能の州規制ルール策定に向け協議しています。",
+          "t": 26.29
+        },
+        {
+          "speaker": "Alex",
+          "en": "And in world news, two ships sink in the Strait of Hormuz as missile attacks surge.",
+          "ja": "そして国際ニュースでは、ミサイル攻撃の急増に伴いホルムズ海峡で商船2隻が沈没しました。",
+          "t": 32.96
+        },
+        {
+          "speaker": "Mika",
+          "en": "Let us dive right into these major developments.",
+          "ja": "それでは、早速詳しいニュースの中身を見ていきましょう。",
+          "t": 38.81
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Japan Invests $21B in GlobalFoundries New York Fabs",
+      "heading_ja": "日本、米GFのニューヨーク半導体工場に210億ドル投資へ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Japan has agreed to invest 21 billion dollars into up to two semiconductor manufacturing plants in New York.",
+          "ja": "日本政府は、ニューヨーク州にある最大2つの半導体製造工場に210億ドルを投資することに合意しました。",
+          "t": 42.77
+        },
+        {
+          "speaker": "Alex",
+          "en": "Under this landmark bilateral initiative, chipmaker GlobalFoundries will construct and operate the facilities in Saratoga County.",
+          "ja": "この画期的な二国間イニシアチブのもと、半導体受託大手のGlobalFoundriesがサラトガ郡で施設を建設・運営します。",
+          "t": 49.98
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is Japan choosing to invest such a massive amount of capital in American manufacturing facilities?",
+          "ja": "なぜ日本はアメリカ国内の製造施設にこれほど巨額の資金を投資することを選んだのですか？",
+          "t": 58.33
+        },
+        {
+          "speaker": "Alex",
+          "en": "It is part of a landmark trade and semiconductor pact between Japan and the United States. Both nations want to secure resilient supply chains against unexpected disruptions.",
+          "ja": "日米間の画期的な貿易および半導体協定の一環です。両国は不測の供給途絶に備え、強靭なサプライチェーンを確保したいと考えています。",
+          "t": 65.21
+        },
+        {
+          "speaker": "Alex",
+          "en": "Modern semiconductors are absolutely vital components for automobiles, industrial equipment, consumer gadgets, and artificial intelligence infrastructure.",
+          "ja": "現代の半導体は、自動車や産業用機械、消費者向け機器、そして人工知能インフラにとって絶対に不可欠な基盤部品です。",
+          "t": 76.0
+        },
+        {
+          "speaker": "Alex",
+          "en": "By creating shared manufacturing hubs on friendly soil, both governments hope to avoid painful shortages that previously paralyzed global factories.",
+          "ja": "友好国の土地に共同の製造拠点を築くことで、かつて世界の工場を麻痺させた痛烈な半導体不足を回避したい狙いがあります。",
+          "t": 85.71
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does GlobalFoundries already have an active production presence in that specific part of New York?",
+          "ja": "GlobalFoundriesはすでにニューヨーク州のその地域で製造を行っているのですか？",
+          "t": 95.08
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, GlobalFoundries already operates an existing semiconductor fabrication plant in Malta, New York.",
+          "ja": "はい、GlobalFoundriesはニューヨーク州マルタにすでに既存の半導体製造工場を稼働させています。",
+          "t": 101.75
+        },
+        {
+          "speaker": "Alex",
+          "en": "This new bilateral agreement enables the construction of up to two additional state-of-the-art fabs alongside the existing site.",
+          "ja": "今回の二国間協定により、既存の敷地に隣接して最大2つの最先端工場を新たに追加建設することが可能になります。",
+          "t": 108.58
+        },
+        {
+          "speaker": "Mika",
+          "en": "What does this surprise funding mean for the local region and for international buyers?",
+          "ja": "この予想外の資金拠出は、現地地域や国際的な購買者にとって何を意味するのでしょうか？",
+          "t": 116.88
+        },
+        {
+          "speaker": "Alex",
+          "en": "Local reports note this surprise funding cements Saratoga County as a premier global hub for chip manufacturing.",
+          "ja": "現地の報道によると、この思いがけない資金提供によってサラトガ郡は世界有数の半導体製造拠点としての地位を固めることになります。",
+          "t": 122.95
+        },
+        {
+          "speaker": "Alex",
+          "en": "For Japan, this enormous investment ensures priority access to advanced chips produced by a reliable partner.",
+          "ja": "日本にとっては、この巨額投資によって信頼できるパートナーが製造する先端半導体への優先的な調達ルートが確保されます。",
+          "t": 130.37
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Japan is funding 21 billion dollars in New York fabs to build resilient, shared semiconductor supply chains.",
+          "ja": "つまり要約すると、日本は強靭で相互乗り入れ可能な半導体供給網を築くため、ニューヨークの工場に210億ドルを拠出するのですね。",
+          "t": 137.64
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is precisely the core goal behind this bilateral pact.",
+          "ja": "まさにそれこそが、この二国間協定の根底にある主要な目的です。",
+          "t": 145.61
+        }
+      ],
+      "lang": "en",
+      "t": 42.77
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。日本政府は日米協定のもと、米GlobalFoundriesがニューヨーク州サラトガ郡で新設する最大2つの半導体工場に210億ドルを投資することを決めました。自動車や産業機械、AIに不可欠な基幹部品の供給網を日米で強化し、将来の供給途絶リスクを防ぐ狙いがあります。",
+          "en": "",
+          "lang": "ja",
+          "t": 150.61
+        }
+      ],
+      "t": 150.61
+    },
+    {
+      "kind": "story",
+      "heading_en": "Microsoft and Japanese Police Take Down Phishing Ring",
+      "heading_ja": "Microsoftと警察庁、10億件の詐欺網を解体",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Microsoft and Japan's National Police Agency have joined forces to dismantle a massive global cybercrime marketplace.",
+          "ja": "Microsoftと日本の警察庁が協力し、世界規模の巨大なサイバー犯罪市場を解体しました。",
+          "t": 174.72
+        },
+        {
+          "speaker": "Alex",
+          "en": "Since January 2026, this criminal infrastructure enabled more than one billion scam messages targeting over 75,000 organizations across 150 countries.",
+          "ja": "2026年1月以来、この犯罪インフラは150カ国・7万5000以上の組織を狙った10億件以上の詐欺メッセージを生み出していました。",
+          "t": 183.04
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specific kinds of deceptive messages were these cybercriminals sending to everyday people?",
+          "ja": "これらのサイバー犯罪者たちは、一般の人々に具体的にどのような偽メッセージを送りつけていたのですか？",
+          "t": 193.31
+        },
+        {
+          "speaker": "Alex",
+          "en": "People received urgent fake notifications claiming an unpaid road toll, a missed delivery package, an overdue tax bill, or a suspended bank account.",
+          "ja": "高速道路の未払い料金、荷物の不在通知、税金の滞納請求、あるいは銀行口座の停止などを装う緊急の偽通知が送られていました。",
+          "t": 200.34
+        },
+        {
+          "speaker": "Alex",
+          "en": "The attackers designed these messages to lure victims into clicking dangerous links, surrendering passwords, and sharing credit card numbers.",
+          "ja": "攻撃者たちは被害者を誘い込んで危険なリンクをクリックさせ、パスワードを入力させたりクレジットカード情報を詐取したりするよう設計していました。",
+          "t": 210.49
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did investigators uncover and take down such an extensive international syndicate?",
+          "ja": "捜査当局はどのようにして、このような広域にわたる国際犯罪シンジケートを突き止め、解体したのですか？",
+          "t": 220.22
+        },
+        {
+          "speaker": "Alex",
+          "en": "The investigation began in late 2025 when Japanese police warned Microsoft about fraud campaigns hitting people in Japan.",
+          "ja": "捜査は2025年後半、日本の警察が日本国内を標的とした詐欺キャンペーンについてMicrosoftに通報したことから始まりました。",
+          "t": 226.73
+        },
+        {
+          "speaker": "Alex",
+          "en": "Working with the Japan Cybercrime Control Center, Cloudflare, Oracle, and health non-profit Health-ISAC, they uncovered a Chinese-language marketplace.",
+          "ja": "日本サイバー犯罪対策センターやCloudflare、Oracle、医療非営利団体のHealth-ISACと連携し、中国語の闇市場を特定しました。",
+          "t": 235.29
+        },
+        {
+          "speaker": "Alex",
+          "en": "Criminals used a store called YAM Store to purchase fraudulent accounts, alongside phishing kits named CoGUI and Iron Man.",
+          "ja": "犯罪者たちはYAM Storeと呼ばれる闇サイトで不正アカウントを購入し、CoGUIやIron Manといったフィッシングツールキットを利用していました。",
+          "t": 245.62
+        },
+        {
+          "speaker": "Alex",
+          "en": "Iron Man offered more than 2,300 fake templates impersonating trusted banks and police departments.",
+          "ja": "Iron Manは、実在する銀行や警察機関を偽装するための2300種類以上の偽テンプレートを提供していました。",
+          "t": 254.24
+        },
+        {
+          "speaker": "Alex",
+          "en": "Microsoft took aggressive action by disabling over 20,000 criminal accounts and blocking more than 100,000 malicious web domains.",
+          "ja": "Microsoftは断固とした措置を講じ、2万件以上の犯罪アカウントを無効化し、10万件以上の悪意あるドメインを遮断しました。",
+          "t": 261.51
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Microsoft and Japanese authorities crushed a criminal platform behind one billion phishing texts worldwide.",
+          "ja": "つまり要約すると、Microsoftと日本の治安当局が世界で10億件もの詐欺メールを支えていた犯罪基盤を壊滅させたのですね。",
+          "t": 270.54
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, striking a major blow against organized online fraud networks.",
+          "ja": "はい、組織化されたオンライン詐欺ネットワークに大きな打撃を与えました。",
+          "t": 279.1
+        }
+      ],
+      "lang": "en",
+      "t": 174.72
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本の警察庁とMicrosoftは、2026年1月以降で10億件以上の詐欺SMSを生成していた国際犯罪ネットワークを解体しました。不在通知や未払い料金を装う偽サイトを販売していたYAM Storeなどの基盤に対し、2万件のアカウント停止と10万件超のドメイン遮断を実施しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 284.5
+        }
+      ],
+      "t": 284.5
+    },
+    {
+      "kind": "story",
+      "heading_en": "Apple and OpenAI Face Off Over Device Trade Secrets",
+      "heading_ja": "アップルとOpenAI、未発表AI端末の企業秘密巡り法廷闘争へ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Apple and OpenAI are heading into a high-stakes legal confrontation in federal court over trade secrets.",
+          "ja": "AppleとOpenAIが、企業秘密を巡って連邦裁判所で重大な法的対立に突入しています。",
+          "t": 308.42
+        },
+        {
+          "speaker": "Alex",
+          "en": "OpenAI has filed a lawsuit alleging that a former employee took confidential files regarding an unreleased hardware device before departing for Apple.",
+          "ja": "OpenAIは、元従業員がAppleへ移籍する直前に、未発表ハードウェア端末に関する機密ファイルを持ち出したと主張して提訴しました。",
+          "t": 315.6
+        },
+        {
+          "speaker": "Mika",
+          "en": "Is OpenAI actively designing its own consumer hardware rather than just software models?",
+          "ja": "OpenAIは単なるソフトウェアモデルの開発にとどまらず、独自の消費者向けハードウェアを積極的に設計しているのですか？",
+          "t": 325.33
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, court filings reveal that OpenAI has been secretly engineering dedicated hardware devices designed around its artificial intelligence systems.",
+          "ja": "はい、裁判資料により、OpenAIが自社の人工知能システム向けに特化した専用ハードウェア端末を水面下で開発していたことが明らかになっています。",
+          "t": 331.62
+        },
+        {
+          "speaker": "Alex",
+          "en": "At the same time, legacy tech giants like Apple are racing to build specialized consumer products optimized for edge AI processing.",
+          "ja": "同時に、Appleのような既存の巨大IT企業も、端末側で処理を行うエッジAIに最適化された専用製品の開発を急ピッチで進めています。",
+          "t": 341.19
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why are trade secrets for an unreleased device creating such a contentious courtroom dispute?",
+          "ja": "なぜ未発表端末の企業秘密が、これほど激しい法廷闘争を引き起こしているのでしょうか？",
+          "t": 349.87
+        },
+        {
+          "speaker": "Alex",
+          "en": "The tech industry widely believes that standalone AI hardware could become the next dominant computing platform after the smartphone.",
+          "ja": "テック業界では、スマートフォンに次ぐ次世代の主要コンピューティング基盤は専用AIハードウェアになると広く信じられているからです。",
+          "t": 356.43
+        },
+        {
+          "speaker": "Alex",
+          "en": "Both companies are fiercely competing to pioneer intuitive personal AI assistants and next-generation smart gadgets.",
+          "ja": "両社は、直感的なパーソナルAIアシスタントや次世代スマート端末の先駆者となるべく猛烈に争っています。",
+          "t": 365.22
+        },
+        {
+          "speaker": "Alex",
+          "en": "OpenAI contends that proprietary blueprints or technical specifications could improperly accelerate Apple's internal hardware roadmaps.",
+          "ja": "OpenAIは、独自の設計図面や仕様情報がApple社内のハードウェア開発計画を不当に加速させる可能性があると主張しています。",
+          "t": 373.07
+        },
+        {
+          "speaker": "Alex",
+          "en": "If confidential designs were indeed transferred, it could provide an enormous competitive advantage in a completely new product category.",
+          "ja": "もし機密設計が実際に流出していたとすれば、全く新しい製品カテゴリーにおいて莫大な競争上の優位性を与えかねません。",
+          "t": 381.97
+        },
+        {
+          "speaker": "Mika",
+          "en": "How might this federal lawsuit impact the broader tech landscape?",
+          "ja": "この連邦訴訟は、テック業界全体にどのような影響を与える可能性がありますか？",
+          "t": 390.98
+        },
+        {
+          "speaker": "Alex",
+          "en": "It marks a dramatic shift as frontier AI research labs transform into direct hardware competitors against established Silicon Valley giants.",
+          "ja": "最先端のAI研究所が、シリコンバレーの既存の巨頭に対して直接的なハードウェア競合へと変貌を遂げつつある劇的な変化を示しています。",
+          "t": 395.99
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, OpenAI is taking Apple to court over stolen confidential blueprints for unreleased AI gadgets.",
+          "ja": "つまり要約すると、未発表AI機器の機密図面の盗用を巡り、OpenAIがAppleを相手取って裁判を起こしているのですね。",
+          "t": 405.17
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly, and this battle could define the future of dedicated AI hardware.",
+          "ja": "その通りです。そしてこの戦いは、専用AIハードウェアの将来を左右する可能性があります。",
+          "t": 412.57
+        }
+      ],
+      "lang": "en",
+      "t": 308.42
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "OpenAIは、未発表の専用AI機器に関する機密ファイルを元従業員が持ち出してAppleに移籍したとして、連邦地裁で争っています。スマホの次の覇権を狙うAI端末開発において、最先端AIラボと大手ハードウェア企業の知財を巡る対立が激化していることを示しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 418.07
+        }
+      ],
+      "t": 418.07
+    },
+    {
+      "kind": "story",
+      "heading_en": "FBI Shuts Down North Korean Remote-Worker Laptop Farms",
+      "heading_ja": "FBI、北朝鮮の偽装リモートワーカー拠点を摘発",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "The FBI has carried out a major national security operation, dismantling more than 40 laptop farms across Texas.",
+          "ja": "米連邦捜査局（FBI）は国家安全保障に関わる大規模作戦を実施し、テキサス州全域で40カ所以上のノートパソコン拠点を解体しました。",
+          "t": 438.99
+        },
+        {
+          "speaker": "Alex",
+          "en": "Federal agents seized over 180 computers that sanctioned North Korean operatives used to secretly infiltrate American corporations.",
+          "ja": "連邦捜査官は、制裁対象である北朝鮮の工作員が米企業に秘密裏に潜入するために使用していた180台以上のパソコンを押収しました。",
+          "t": 446.61
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did North Korean operatives manage to get hired by major American companies in the first place?",
+          "ja": "北朝鮮の工作員たちはそもそも、どのようにしてアメリカの大手企業に採用されることができたのでしょうか？",
+          "t": 455.29
+        },
+        {
+          "speaker": "Alex",
+          "en": "They used stolen identities of United States citizens, complete with fabricated resumes and fake LinkedIn profiles, to apply for remote IT jobs.",
+          "ja": "彼らは盗まれた米国市民の身元情報を用い、捏造した履歴書や偽のLinkedInプロフィールを使ってリモートのIT職に応募していました。",
+          "t": 462.19
+        },
+        {
+          "speaker": "Alex",
+          "en": "When companies hired them and shipped out corporate laptops, American facilitators hosted the computers inside domestic residences.",
+          "ja": "企業が彼らを採用して業務用パソコンを郵送すると、米国内の協力者が自宅などの拠点でそれらのパソコンを稼働させていました。",
+          "t": 471.59
+        },
+        {
+          "speaker": "Alex",
+          "en": "These local setups allowed overseas hackers to log in remotely, completely hiding their true geographic location from corporate IT security.",
+          "ja": "この現地拠点を通じて海外のハッカーがリモートログインし、企業のITセキュリティに対して実際の所在地を完全に隠蔽していました。",
+          "t": 480.27
+        },
+        {
+          "speaker": "Mika",
+          "en": "What did these fraudulent workers do once they gained access to company networks?",
+          "ja": "社内ネットワークへのアクセス権を得た後、これらの偽装労働者は何をしていたのですか？",
+          "t": 489.45
+        },
+        {
+          "speaker": "Alex",
+          "en": "They collected steady corporate wages while stealing confidential intellectual property and sensitive customer data.",
+          "ja": "彼らは定期的に企業からの給与を受け取りながら、機密の知的財産や重要な顧客データを盗み出していました。",
+          "t": 495.35
+        },
+        {
+          "speaker": "Alex",
+          "en": "Federal prosecutors revealed that at least 70 companies were infiltrated, across healthcare, manufacturing, communications, and retail sectors.",
+          "ja": "連邦検察当局は、医療、製造、通信、小売など少なくとも70社が潜入被害に遭ったことを明らかにしました。",
+          "t": 503.19
+        },
+        {
+          "speaker": "Alex",
+          "en": "Security firm CrowdStrike assisted investigators, noting that North Korea generates up to 500 million dollars annually through this scheme to finance its weapons programs.",
+          "ja": "捜査を支援したCrowdStrikeによると、北朝鮮はこの手口により年間最大5億ドルを稼ぎ出し、兵器開発計画の資金源にしているとのことです。",
+          "t": 512.54
+        },
+        {
+          "speaker": "Alex",
+          "en": "In some instances, victim companies were even extorted after the hackers exfiltrated proprietary corporate records.",
+          "ja": "一部のケースでは、ハッカーが機密文書を不正に持ち出した後、被害企業に対して金銭を要求する恐喝まで行われていました。",
+          "t": 523.44
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, the FBI crushed a Texas network of laptop farms used by North Korean impostors funding state weapons.",
+          "ja": "つまり要約すると、FBIは兵器開発の資金源となっていた北朝鮮のなりすまし労働者によるテキサスのパソコン拠点を壊滅させたのですね。",
+          "t": 531.23
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, exposing a massive corporate identity fraud operation threatening Western businesses.",
+          "ja": "はい、欧米企業を脅かしていた国家主導の巨大な雇用身元偽装工作を暴き出しました。",
+          "t": 539.02
+        }
+      ],
+      "lang": "en",
+      "t": 438.99
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "FBIはCrowdStrikeの協力のもと、テキサス州で40カ所以上のパソコン拠点を家宅捜索しました。北朝鮮のIT技術者が米国市民の身元を盗んで70社以上に就職し、機密窃盗や給与取得で兵器資金として年最大5億ドルを稼いでいたとされ、米国内の協力者も浮き彫りになりました。",
+          "en": "",
+          "lang": "ja",
+          "t": 545.87
+        }
+      ],
+      "t": 545.87
+    },
+    {
+      "kind": "story",
+      "heading_en": "Nvidia Pledges $250M UK Compute and Warns Unsafe Devs",
+      "heading_ja": "NVIDIA、英AI研究に2.5億ドル寄贈　CEOは安全性巡り警告",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Nvidia has announced a five-year compute donation valued at 250 million dollars to strengthen the United Kingdom's artificial intelligence research.",
+          "ja": "NVIDIAは、英国の人工知能研究能力を強化するため、5年間で2億5000万ドル相当の計算資源を寄贈すると発表しました。",
+          "t": 567.59
+        },
+        {
+          "speaker": "Alex",
+          "en": "The initiative provides 50 million dollars in compute access each year, delivered through British-based Nvidia Cloud Partners.",
+          "ja": "この取り組みは、英国を拠点とするNVIDIAクラウドパートナーを通じて、毎年5000万ドル相当の計算能力へのアクセスを提供するものです。",
+          "t": 577.24
+        },
+        {
+          "speaker": "Mika",
+          "en": "Which institutions will benefit from this compute access, and what problems are they studying?",
+          "ja": "どの研究機関がこの計算資源の恩恵を受け、どのような課題を研究する予定ですか？",
+          "t": 585.66
+        },
+        {
+          "speaker": "Alex",
+          "en": "The computing power will directly support pioneering academic teams, including Imperial College London, Oxford University's BOLD laboratory, and University College London's SOFAIR laboratory.",
+          "ja": "この計算資源は、インペリアル・カレッジ・ロンドン、オックスフォード大学のBOLD研究所、UCLのSOFAIR研究所などの先駆的研究チームを直接支援します。",
+          "t": 592.3
+        },
+        {
+          "speaker": "Alex",
+          "en": "Researchers will focus on agentic safety, testing safeguards for autonomous AI agents, robotics, and fundamental foundation models.",
+          "ja": "研究者たちはエージェント型AIの安全性に注力し、自律型AIエージェント、ロボティクス、基盤モデルに対する安全保護策を検証します。",
+          "t": 604.34
+        },
+        {
+          "speaker": "Mika",
+          "en": "Beyond the UK grant, did Nvidia chief executive Jensen Huang deliver a direct warning to software builders?",
+          "ja": "英国への支援にとどまらず、NVIDIAのJensen Huang CEOはソフトウェア開発者に向けて直接の警告を発したのですか？",
+          "t": 613.04
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, Jensen Huang made headlines by stating he would cut off customers who develop unsafe artificial intelligence systems.",
+          "ja": "はい、Jensen Huang氏は安全でない人工知能システムを開発する顧客への製品供給を遮断すると明言し、大きな話題となっています。",
+          "t": 620.4
+        },
+        {
+          "speaker": "Alex",
+          "en": "Huang emphasized that capability and safety must advance together, insisting there should be zero AI cybersecurity incidents.",
+          "ja": "Huang氏はAIの能力向上と安全性は両輪で進歩しなければならないと強調し、AIのサイバーセキュリティインシデントはゼロであるべきだと主張しました。",
+          "t": 628.6
+        },
+        {
+          "speaker": "Alex",
+          "en": "He warned that chip suppliers hold the power to deny high-performance hardware to developers who ignore critical safety protocols.",
+          "ja": "重要な安全基準を無視する開発者に対しては、半導体サプライヤー側が高性能ハードウェアの提供を拒絶する権限を持つと警告しました。",
+          "t": 636.97
+        },
+        {
+          "speaker": "Alex",
+          "en": "This stance shows how the world's primary chip designer could enforce strict compliance standards across the entire global AI industry.",
+          "ja": "この姿勢は、世界最大の半導体設計企業が世界のAI業界全体に対して厳格な安全基準の順守を強制できる可能性を示しています。",
+          "t": 645.61
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Nvidia is funding advanced UK safety research while warning developers that unsafe AI will result in hardware cutoffs.",
+          "ja": "つまり要約すると、NVIDIAは英国の先端安全研究に巨額支援を行う一方で、危険なAI開発者にはチップ供給を断つと警告したのですね。",
+          "t": 654.53
+        },
+        {
+          "speaker": "Alex",
+          "en": "Precisely, demonstrating that compute access may soon depend on meeting rigorous safety standards.",
+          "ja": "その通りです。今後は厳しい安全基準を満たすことが計算資源の確保条件になる可能性を示しています。",
+          "t": 663.29
+        }
+      ],
+      "lang": "en",
+      "t": 567.59
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "NVIDIAは英国のAI安全研究に対し、5年間で2億5000万ドル相当の計算資源を提供すると発表しました。同時にJensen Huang CEOは、安全性を無視したAIを作る顧客には供給を停止すると表明し、半導体供給元が開発倫理に踏み込む姿勢を示しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 670.15
+        }
+      ],
+      "t": 670.15
+    },
+    {
+      "kind": "health",
+      "heading_en": "Health Groups Mobilize to Shape State Medical AI Rules",
+      "heading_ja": "米医療界、州ごとの医療AI規制策定に向けて結集",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Moving to our digital health coverage, influential medical organizations, insurers, and tech companies are meeting to establish guidelines for artificial intelligence in medicine.",
+          "ja": "デジタルヘルス関連の話題に移ります。有力な医療団体、保険会社、IT企業が集まり、医療における人工知能のガイドライン策定を進めています。",
+          "t": 690.82
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Federation of State Medical Boards convened a twenty-two member working group behind closed doors in Washington, D.C.",
+          "ja": "全米州医療委員会連合（FSMB）は、ワシントンD.C.で非公開の22名の専門家作業部会を招集しました。",
+          "t": 702.19
+        },
+        {
+          "speaker": "Mika",
+          "en": "Who is participating in these discussions, and why are these specific groups involved?",
+          "ja": "この協議には誰が参加しており、なぜこれらの特定の団体が関わっているのですか？",
+          "t": 710.34
+        },
+        {
+          "speaker": "Alex",
+          "en": "The workgroup includes top leaders from the American Medical Association, the American Hospital Association, health insurer Elevance Health, and AI developer Anthropic.",
+          "ja": "作業部会には、全米医師会、全米病院協会、医療保険大手のElevance Health、AI企業のAnthropicの幹部が参加しています。",
+          "t": 716.53
+        },
+        {
+          "speaker": "Alex",
+          "en": "The federation stated the group was intentionally created to balance clinical care delivery, AI development expertise, medical licensing, and patient safety.",
+          "ja": "連合側は、実際の診療現場、AI開発の知見、医療免許の管理、そして患者の安全性のバランスを取るためにこの部会を立ち上げたと述べています。",
+          "t": 727.29
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is there such an urgent push for state-level medical AI guidelines right now?",
+          "ja": "なぜ今、州レベルの医療AIガイドラインの策定がこれほど急務となっているのですか？",
+          "t": 737.44
+        },
+        {
+          "speaker": "Alex",
+          "en": "In the United States, individual state medical boards govern doctor licensure and the legal practice of medicine.",
+          "ja": "米国では、各州の医療委員会が医師免許と法律上の医療行為を個別に規制・管轄しているためです。",
+          "t": 743.35
+        },
+        {
+          "speaker": "Alex",
+          "en": "The workgroup is paying particular attention to AI software that performs clinical tasks with limited or no direct doctor supervision.",
+          "ja": "作業部会は、医師の直接の監督が限定的であるか、あるいは全く介在しない状態で臨床判断を行うAIツールに特に注目しています。",
+          "t": 751.05
+        },
+        {
+          "speaker": "Alex",
+          "en": "Federation CEO Humayun Chaudhry indicated that draft recommendations could be released to the public in weeks or months.",
+          "ja": "連合のHumayun Chaudhry CEOは、勧告案が数週間から数カ月以内に一般に公開される見通しであると述べました。",
+          "t": 759.91
+        },
+        {
+          "speaker": "Alex",
+          "en": "Once published, these model guidelines are expected to serve as the blueprint for state legislation governing physician liability, algorithm transparency, and automated clinical diagnosis.",
+          "ja": "公開されれば、これらのモデル指針は医師の法的責任、アルゴリズムの透明性、自動診断を規定する州法の青写真になると見込まれます。",
+          "t": 768.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, healthcare leaders and tech firms are drafting state standards for clinical AI before lawmakers pass new rules.",
+          "ja": "つまり要約すると、立法化に先立ち、医療指導者やテック企業が臨床AIの州基準づくりを主導して進めているわけですね。",
+          "t": 779.88
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly, laying the groundwork for how autonomous medical software will be legally regulated in hospitals.",
+          "ja": "まさにその通りで、自律型医療ソフトウェアが病院で法的にどう扱われるかの土台を築いています。",
+          "t": 788.24
+        }
+      ],
+      "lang": "en",
+      "t": 690.82
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米国の医師会や病院協会、保険会社、Anthropicなどが非公開で集まり、医療AIの規制指針作りに着手しました。米国では州ごとに医師免許を管理するため、医師の監督なしに自律動作するAIの法的責任や安全基準を明確にし、今後の州法制定に備える狙いです。",
+          "en": "",
+          "lang": "ja",
+          "t": 796.0
+        }
+      ],
+      "t": 796.0
+    },
+    {
+      "kind": "world",
+      "heading_en": "Ukraine Accuses SpaceX of Throttling Military Starlink",
+      "heading_ja": "ウクライナ、SpaceXによるStarlink制限を非難",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Moving to world events, Ukraine's military reports that SpaceX's Starlink satellite internet was suddenly restricted without explanation.",
+          "ja": "国際情勢です。ウクライナ軍は、SpaceXのStarlink衛星通信が何の説明もなく突如制限されたと報告しました。",
+          "t": 815.87
+        },
+        {
+          "speaker": "Alex",
+          "en": "The satellite system stopped operating on equipment moving faster than 100 miles per hour, effectively disabling drones flying above that speed limit.",
+          "ja": "同衛星システムは時速100マイルを超える速度で移動する機器での通信を停止し、その制限速度以上で飛ぶドローンが実質的に機能停止に追い込まれました。",
+          "t": 824.81
+        },
+        {
+          "speaker": "Mika",
+          "en": "How severely has this satellite throttling impacted Ukraine's defensive capabilities on the frontlines?",
+          "ja": "この衛星通信の制限は、前線におけるウクライナの防衛力にどれほど深刻な打撃を与えていますか？",
+          "t": 834.48
+        },
+        {
+          "speaker": "Alex",
+          "en": "Ukrainian officials say the sudden limitation crippled their primary air defense drones used to intercept Russian jet-powered attack drones over Kyiv.",
+          "ja": "ウクライナ当局者は、キーウ上空でロシアのジェット推進式攻撃ドローンを迎撃する主力防空ドローンが麻痺したと述べています。",
+          "t": 841.55
+        },
+        {
+          "speaker": "Alex",
+          "en": "President Volodymyr Zelenskyy said he felt personally betrayed, warning that the outage directly endangers civilians as Russian missile strikes continue.",
+          "ja": "Volodymyr Zelenskyy大統領は個人的に裏切られたと感じていると述べ、ロシアのミサイル攻撃が続く中で民間人の命が危険にさらされていると警告しました。",
+          "t": 851.21
+        },
+        {
+          "speaker": "Alex",
+          "en": "The restrictions arrived amid rising diplomatic tension, as Washington demanded that Ukraine stop striking Russian oil refineries to stabilize fuel markets.",
+          "ja": "この通信制限は、燃料市場安定のためにロシアの製油所への攻撃を停止するよう米政府がウクライナに強く迫る中で発生しました。",
+          "t": 861.04
+        },
+        {
+          "speaker": "Alex",
+          "en": "However, military analysts noted that Starlink had already been disabled inside Russia's borders, making the drone cutoff purely harmful to local defensive operations.",
+          "ja": "しかし軍事アナリストは、Starlinkは以前からロシア領内では無効化されていたため、今回の遮断は前線の自国防空活動に一方的な打撃を与えていると指摘しています。",
+          "t": 871.03
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Starlink satellite limits have disrupted Ukraine's drone air defenses amid intense political pressure from Washington.",
+          "ja": "つまり要約すると、米政府からの外交圧力が高まる中でStarlinkが制限され、ウクライナの防空ドローン作戦が混乱しているのですね。",
+          "t": 881.64
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, revealing the high risks of relying on foreign private communications during wartime.",
+          "ja": "はい、戦時において民間の外国製通信インフラに依存することの大きなリスクを露呈しています。",
+          "t": 890.31
+        }
+      ],
+      "lang": "en",
+      "t": 815.87
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ウクライナ軍は、SpaceXのStarlinkが高速飛行ドローンで突然使えなくなり、ロシア軍の攻撃ドローンを迎撃する防空作戦に深刻な支障が出ていると発表しました。米政府がロシア製油所への攻撃停止を求めて圧力をかける中で起きており、外交的な摩擦が深まっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 896.66
+        }
+      ],
+      "t": 896.66
+    },
+    {
+      "kind": "world",
+      "heading_en": "Two Cargo Ships Sink in Strait of Hormuz",
+      "heading_ja": "ホルムズ海峡でミサイル被弾の商船2隻が沈没",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In the Middle East, two commercial container ships have sunk near the Strait of Hormuz after being struck by projectiles.",
+          "ja": "中東では、ホルムズ海峡付近で飛しょう体の直撃を受けた民間コンテナ船2隻が沈没しました。",
+          "t": 917.42
+        },
+        {
+          "speaker": "Alex",
+          "en": "The sunken vessels are the Singapore-flagged GFS Pride and the Antigua-flagged Cape Dao, following a dramatic surge in regional maritime attacks.",
+          "ja": "沈没したのはシンガポール船籍のGFS Prideとアンティグア船籍のCape Daoで、周辺海域での攻撃の急増に伴うものです。",
+          "t": 925.48
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why has maritime traffic through this vital chokepoint suddenly become so hazardous?",
+          "ja": "なぜこの極めて重要な要衝を通る海上航路が、突如としてこれほど危険になったのでしょうか？",
+          "t": 934.87
+        },
+        {
+          "speaker": "Alex",
+          "en": "British maritime authorities reported repeated missile and drone strikes, with two dozen vessels hit across a two-week period.",
+          "ja": "英海軍海運調整機関はミサイルやドローンによる連続攻撃を報告しており、過去2週間だけで24隻の船が被弾しました。",
+          "t": 940.89
+        },
+        {
+          "speaker": "Alex",
+          "en": "Iranian officials confirmed they adopted aggressive new tactics, aiming to restrict transit and drive up global fuel prices ahead of United States midterm elections.",
+          "ja": "イラン当局者は、米中間選挙を前に通航を阻害して世界的な原油価格を高騰させるため、新たな強硬戦術を採用したことを認めました。",
+          "t": 949.23
+        },
+        {
+          "speaker": "Alex",
+          "en": "While Iran claimed one vessel struck a naval mine on an unauthorized route, international observers attributed the sinkings to missile fire.",
+          "ja": "イラン側は1隻が無許可航路で機雷に接触したと主張していますが、国際的な監視機関はミサイルによる被弾が原因だと指摘しています。",
+          "t": 959.72
+        },
+        {
+          "speaker": "Alex",
+          "en": "Compounding the crisis, United Nations officials warned that fertilizer shipments through the strait have essentially ground to a halt, risking widespread agricultural failure across Asia and Africa.",
+          "ja": "危機をさらに深刻化させているのは、海峡経由の肥料輸送がほぼ停止し、アジアやアフリカで農業崩壊の危機が高まっているという国連の警告です。",
+          "t": 968.83
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, rising missile strikes have sunk two cargo ships in Hormuz, choking vital energy and fertilizer supply routes.",
+          "ja": "つまり要約すると、ミサイル攻撃の増加でホルムズ海峡の商船2隻が沈没し、重要なエネルギーや肥料の輸送路が塞がれつつあるのですね。",
+          "t": 981.2
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly, threatening severe economic disruption and global food security.",
+          "ja": "その通りです。深刻な経済的混乱と世界的な食糧安全保障の危機をもたらしています。",
+          "t": 989.43
+        }
+      ],
+      "lang": "en",
+      "t": 917.42
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ホルムズ海峡でシンガポール船籍など民間コンテナ船2隻がミサイル攻撃を受け相次ぎ沈没しました。米中間選挙を前に原油価格を押し上げる意図が指摘されているほか、化学肥料の輸送が滞っており、国連は世界的な食料生産への悪影響に強い警戒を呼びかけています。",
+          "en": "",
+          "lang": "ja",
+          "t": 995.29
+        }
+      ],
+      "t": 995.29
+    },
+    {
+      "kind": "world",
+      "heading_en": "Protests Erupt Across India Over Deleted Voter Rolls",
+      "heading_ja": "インド、1億3000万人の有権者削除巡り抗議デモ激化",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In India, massive youth-led protests have intensified following reports that 130 million citizens were removed from the national electoral rolls.",
+          "ja": "インドでは、1億3000万人の国民が国の有権者名簿から削除されたとの報道を受け、若者主導の大規模な抗議デモが激化しています。",
+          "t": 1015.66
+        },
+        {
+          "speaker": "Alex",
+          "en": "The demonstrations are organized by the Cockroach movement, a youth group demanding the resignation of the chief election commissioner.",
+          "ja": "デモを主導しているのは選挙管理委員長の辞任を要求する若者団体「Cockroach運動」です。",
+          "t": 1025.43
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specifically triggered the latest wave of arrests in the capital city?",
+          "ja": "首都デリーで起きた今回の逮捕劇の直接の引き金は何だったのですか？",
+          "t": 1034.62
+        },
+        {
+          "speaker": "Alex",
+          "en": "A court sentenced two youth leaders, Ashutosh Ranka and Saurav Das, to five days in prison for jumping police barricades at Jantar Mantar.",
+          "ja": "裁判所は、ジャンタル・マンタルで警察のバリケードを飛び越えたとして、学生指導者のAshutosh Ranka氏とSaurav Das氏に禁錮5日の判決を言い渡しました。",
+          "t": 1040.37
+        },
+        {
+          "speaker": "Alex",
+          "en": "Delhi police had banned demonstrations at Jantar Mantar, which has served as the capital's designated historic protest ground for over thirty years.",
+          "ja": "デリー警察は、30年以上にわたり首都の指定抗議場所として使われてきた歴史的なジャンタル・マンタルでのデモを全面禁止していました。",
+          "t": 1049.74
+        },
+        {
+          "speaker": "Alex",
+          "en": "Opposition parties and student groups accuse Prime Minister Narendra Modi's government of manipulating voter registries, an allegation the ruling party firmly denies.",
+          "ja": "野党や学生団体はNarendra Modi首相の政権が選挙名簿を不正に操作していると非難していますが、与党側はこれを真っ向から否定しています。",
+          "t": 1059.68
+        },
+        {
+          "speaker": "Alex",
+          "en": "Over 7,000 demonstrators have been detained under massive security crackdowns, drawing international rebukes from Amnesty International and the United Nations.",
+          "ja": "厳戒態勢のもとで7000人以上のデモ参加者が拘束されており、アムネスティ・インターナショナルや国連から国際的な非難の声が上がっています。",
+          "t": 1070.66
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, the purging of 130 million registered voters has ignited national demonstrations and heavy police detentions in India.",
+          "ja": "つまり要約すると、1億3000万人の有権者削除がインド全土での抗議運動と警察による大規模な拘束事態に発展しているわけですね。",
+          "t": 1081.23
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, raising serious domestic and international concerns over democratic rights and voting access.",
+          "ja": "はい、民主的権利と投票へのアクセスを巡り、国内外で深刻な懸念が巻き起こっています。",
+          "t": 1090.26
+        }
+      ],
+      "lang": "en",
+      "t": 1015.66
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "インドで1億3000万人の有権者が名簿から削除されたことに怒った若者や学生による抗議デモが激化しています。歴史的な集会場所での抗議を強行した若者団体の指導者2名が投獄され、これまでに7000人超が拘束されるなど、国内外から批判が集まっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 1097.32
+        }
+      ],
+      "t": 1097.32
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch: Huang, Zuckerberg, and Musk",
+      "heading_ja": "CEO Watch: ファン氏、ザッカーバーグ氏、マスク氏",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In today's CEO Watch, tech leaders traded bold statements regarding artificial intelligence spending, safety, and risks.",
+          "ja": "本日のCEO Watchでは、人工知能への投資、安全性、リスクを巡りテック界の指導者たちが強気の声明を交わしました。",
+          "t": 1117.69
+        },
+        {
+          "speaker": "Alex",
+          "en": "Nvidia chief executive Jensen Huang announced he would cut off hardware access to any customer building unsafe AI models.",
+          "ja": "NVIDIAのJensen Huang CEOは、安全基準を満たさないAIモデルを開発する顧客に対してはハードウェア供給を遮断すると明言しました。",
+          "t": 1126.03
+        },
+        {
+          "speaker": "Alex",
+          "en": "Meanwhile, Meta CEO Mark Zuckerberg vigorously defended his infrastructure spending, stating he is prepared to write checks for up to 200 billion dollars to dominate AI for decades.",
+          "ja": "一方、MetaのMark Zuckerberg CEOは巨額インフラ投資を熱烈に弁護し、今後数十年にわたるAI支配を確立するためなら最大2000億ドルの小切手を切る用意があると語りました。",
+          "t": 1134.42
+        },
+        {
+          "speaker": "Alex",
+          "en": "Finally, Elon Musk fired back at Broadcom CEO Hock Tan's warnings about excessive AI capital spending, declaring on social media that there is no crying in the casino.",
+          "ja": "そしてElon Musk氏は、AI設備投資の過熱に警鐘を鳴らしたBroadcomのHock Tan CEOに対し、SNS上で「カジノで泣き言を言うな」と反論しました。",
+          "t": 1146.26
+        }
+      ],
+      "lang": "en",
+      "t": 1117.69
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: Behind Closed Doors",
+      "heading_ja": "今日のフレーズ: Behind Closed Doors",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's phrase of the day is behind closed doors.",
+          "ja": "今日のフレーズ・オブ・ザ・デイは「behind closed doors」です。",
+          "t": 1157.74
+        },
+        {
+          "speaker": "Mika",
+          "en": "We heard this expression in our health story about regulators and tech leaders meeting in Washington.",
+          "ja": "ワシントンで規制当局者やテック企業幹部が会合を開いたというヘルスケアのニュースで使われていましたね。",
+          "t": 1161.69
+        },
+        {
+          "speaker": "Mika",
+          "en": "It describes meetings, discussions, or decisions that take place in private, hidden away from the public eye and media scrutiny.",
+          "ja": "公衆の目やメディアの取材から隠された、秘密裏や非公開で行われる会合や議論、決定を表現する言葉です。",
+          "t": 1168.41
+        },
+        {
+          "speaker": "Mika",
+          "en": "For example: Government officials and industry executives negotiated the new trade agreement behind closed doors.",
+          "ja": "例えば「政府高官と業界幹部は非公開で新たな貿易協定の交渉を行った」というように使います。",
+          "t": 1176.57
+        },
+        {
+          "speaker": "Alex",
+          "en": "It is an essential term when following confidential corporate negotiations and diplomatic summit meetings.",
+          "ja": "企業の秘密交渉や外交サミットの動向を追う上で、極めて頻出の重要フレーズですね。",
+          "t": 1183.93
+        }
+      ],
+      "lang": "en",
+      "t": 1157.74
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Sign-off",
+      "heading_ja": "番組の終わりに",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That concludes today's edition of Commute News. From bilateral chip investments to satellite disputes and global trade chokepoints, the intersection of technology and geopolitics continues to move at rapid speed.",
+          "ja": "本日のCommute Newsは以上です。二国間の半導体投資から衛星通信を巡る対立、そして国際貿易の要衝に至るまで、テクノロジーと地政学の交差点は急速に動き続けています。",
+          "t": 1190.92
+        },
+        {
+          "speaker": "Alex",
+          "en": "Thank you for listening, and please stay safe out there. We will see you on tomorrow's commute!",
+          "ja": "お聴きいただきありがとうございました。安全にお過ごしください。それでは、明日の通勤でお会いしましょう！",
+          "t": 1203.56
+        }
+      ],
+      "lang": "en",
+      "t": 1190.92
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。今日も安全運転でお出かけください。いってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 1209.96
+        }
+      ],
+      "t": 1209.96
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Japan Backs $21B GlobalFoundries Fabs in New York",
+      "title_ja": "日本、米GFのニューヨーク半導体工場に210億ドル投資へ",
+      "summary_ja": "日本政府は日米協定に基づき、GlobalFoundriesが米ニューヨーク州に建設する最大2つの半導体工場に210億ドルを投資することを決めました。自動車やAI産業を支える基幹部品の安定供給を確保し、サプライチェーンの強化を図ります。",
+      "why_ja": "同盟国との共同製造基盤を拡大することで、将来の地政学リスクや半導体不足に対する日本の産業レジリエンスが大幅に高まります。",
+      "section": "tech",
+      "topic_key": "japan-us-globalfoundries-fabs",
+      "companies": [
+        "GlobalFoundries"
+      ],
+      "sources": [
+        {
+          "publisher": "The Business Journals",
+          "title": "Second GlobalFoundries fab is a go in Saratoga County, backed by surprise funding source",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONnhrTG5jdGVIaVBMVWRvcTBIQzN3REpBdkdiZXdSbU9BY2RvNmlkWDNSSzlrdlZhRThoUkhLZm8tM2tVeTN0MFBVdkw0X1R6bkJWb3U4WjJkVjMtdXI1ZU10c3hCdFpQaE9zblFfRllrX3J5NmR6UW8wSGhSd2JWRGU3MHgtbGJJ?oc=5"
+        },
+        {
+          "publisher": "GlobalFoundries",
+          "title": "GlobalFoundries selected to operate two new semiconductor fabs in New York under landmark U.S.-Japan initiative",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQVW9mTXJLZWtuSlVKNGw4bTZ1aTJuXzZ4UGZkcW14SFpXVjc5eDFsQUo5eldnMFo1a1NBNFpvTnhVSm5qRHAxbzE3Nl95cU9OMkhFLWMyamdST2ljcTl3NnhndjJzRnNnR3BwSWtiNTA5TWl2Vkx4YVBIVE1rZC1haFNDZjhUQUNXanlGZUFVN3NFT3Bzckp4UFRXaXRWbEZtYV9GbjBlakNXazBkSEtoSDJUbWJLTTFwOFZBMm1oWnN4T2dnSjIyY2laazlNLUxZQ3NrZWswMUY0M0Z6RWZn?oc=5"
+        },
+        {
+          "publisher": "Manufacturing Dive",
+          "title": "GlobalFoundries building $21B New York fabs under US-Japan trade deal",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVzRrdUR0TUFWdmMtVlg2WkJBT2dDMlJ4aERac1RBa0NnQTlUMWo0Q1BEVEFCX1JrZEhnZ1NMSjBCTHZPMTBrd0owRXVFRUFMb2hTLU1BYW9mUXZOV0RmTzZvSnJFeEhZSW84X3Z6V1Q4SVpaMnRDYnJLNkNMemhEYVVIUTE5dFoyV0IxQUJZdV9ZLXpWbi1ZZEY4WUdOckRGWTF2am1zYnhReElL?oc=5"
+        },
+        {
+          "publisher": "Spectrum News",
+          "title": "Japan selects GlobalFoundries to construct 2 semiconductor fabs in Malta",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQTXZmdGhqT1R2c3R1ZFJ5RzVEUlBvUXF5RFRiOXM5d0xwalZjNm1LYXFuM3hybzVDZjl3NTdobnpxRjhzQ1BlNjh3bjc4eElDSTRXVzdWRmtfNTJiTEpFQ1Y5WFFUTXl5WnBkSzA0UXM5Ml96SmNoSmJSUS11TkcxMjEtMEQ4WHE2UTZNX2xaZnctOW5EYzRaa29icS1lblh4Z0ZwR255ZHpEai1YNlhFcHd6a0tZTExwb0tWWm1WbkJOYlJLTkJWb2YybFFxcUJBbUFRc1VHVWs?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Japan to invest $21 billion in up to two GlobalFoundries chip factories in New York",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZjM3SC1iaHFNLTdkS2N5U3JVS3lMR0p4Q1ZTclVOa2RDbFpzR2E3R2I5UlFlYWlsWHJfeGlKSEpockRseEpCTGpsNFAzanBPUkVVa3FiUFNVeVZ3S0daZ2JRWGc3Zy04RmFSbFRHeU5kRy1HaGJ2ZmViUHlfYk5CN0xYMEhXb250eE41clpvVHF1RDhIRWF4Z1p0NS1rQmVtbjFNc2FjMzVTaTlvM24weWtzS1V4M1RVdHpXWVNCU2REdDVkd2FwZWQ1V1kxZUZU?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Microsoft and Japan Dismantle Global 1B-Message Phishing Ring",
+      "title_ja": "Microsoftと警察庁、10億件の詐欺網を解体",
+      "summary_ja": "日本の警察庁とMicrosoftは、2026年1月以来10億件以上の詐欺メッセージを生み出していた闇市場YAM Storeなどの犯罪基盤を特定し解体しました。2万件以上のアカウント停止と10万件超の不正ドメイン遮断が行われました。",
+      "why_ja": "日本の法執行機関と米巨大IT企業が国境を越えて連携し、日常生活を脅かすモバイルフィッシングの供給源を根絶した画期的な事例です。",
+      "section": "tech",
+      "topic_key": "microsoft-japan-cybercrime-marketplace-takedown",
+      "companies": [
+        "Microsoft",
+        "Google",
+        "Cloudflare",
+        "Oracle",
+        "Proofpoint"
+      ],
+      "sources": [
+        {
+          "publisher": "Microsoft Source",
+          "title": "Unpaid toll? Missed delivery? Microsoft moves to disrupt a global cybercrime marketplace",
+          "url": "https://blogs.microsoft.com/on-the-issues/2026/10/14/disrupting-the-service-economy-behind-transnational-cybercrime-operations/"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "Microsoft and Japan took down a cybercrime network behind over a billion scam messages",
+          "url": "https://www.theverge.com/tech/1011487/microsoft-scam-messages-marketplace-takedown"
+        }
+      ]
+    },
+    {
+      "title_en": "Apple and OpenAI Clash in Court Over AI Device Trade Secrets",
+      "title_ja": "アップルとOpenAI、未発表AI端末の企業秘密巡り法廷闘争へ",
+      "summary_ja": "OpenAIは、元社員が未発表のAIハードウェア端末に関する機密ファイルを持ち出してAppleへ移籍したと主張し、連邦地裁で争っています。スマートフォンの次を担う次世代エッジAI端末の知財を巡る対立が鮮明になりました。",
+      "why_ja": "フロンティアAI研究所と巨大ハードウェア企業の利害が衝突し始めており、今後のAIガジェット市場の主導権争いに影響を与えます。",
+      "section": "tech",
+      "topic_key": "apple-openai-trade-secrets-lawsuit",
+      "companies": [
+        "Apple",
+        "OpenAI"
+      ],
+      "sources": [
+        {
+          "publisher": "Bloomberg.com",
+          "title": "Apple, OpenAI Head to Court in High-Stakes AI Trade Secret Fight",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWkZXOGQtY20wYks4cjUyN3lSZEFCNDJvYWVlSGxra0IyOHQ5bEVUTC1jU0E5aU1WY1Y4NFZuT3lvX2JOdjhIeHJyaWVwWG5QVExsUjZSeUhQS2tObzM2Wlg1RjY4bGtzaWhOclRDNnRqMXdINTI4bGJtNkxYOEEtUFo0VDNwUWFuT3Z4b2tFRGIxWlNwXzhnTzI1Mnl5OGl3WXZxS25rblVrbTZtdlNjNFVRbXI?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "OpenAI employee who left for Apple took files about unreleased device, OpenAI alleges",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcjgxdHhRZV9nbnF4cVNBbkg0ZGJGWXFTZ2hDa2dTMXVCT3R4OWF6aDNZSjVnaDJEYm5pbUJqSzdtaDhPei1VbXU1SGlsZHFIOFhBNEVsaUZ1WlFsYjJ6ZGNPc1NVNk9fVVVQTVlYMEtPbjdKZ2hNcG9xM0VBLUpTVFlHSi0yTVZtNGpTODA2SGpOb3JLUXQ1S1E3WHZ6RzRldnZkeF8tamJodUZjMUc1OXN2dWI2QmhfUUk3bkZzR0ZaXzZnd2lNMndLMUZGamRhMHo3LUVfdm8?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "FBI Shuts Down North Korean Remote-Worker Laptop Farms in Texas",
+      "title_ja": "FBI、北朝鮮の偽装リモートワーカー拠点を摘発",
+      "summary_ja": "FBIはCrowdStrikeの協力により、テキサス州で40カ所以上の拠点を家宅捜索し、180台以上のパソコンを押収しました。北朝鮮の技術者が米国市民の身元を盗んで70社以上に潜入し、兵器開発資金として年5億ドルを稼いでいたとされます。",
+      "why_ja": "リモートワーク環境を突いた国家主導のなりすまし雇用と企業機密窃取が、西側の安全保障とサプライチェーンに与える脅威を浮き彫りにしました。",
+      "section": "tech",
+      "topic_key": "us-north-korea-remote-worker-laptop-farms",
+      "companies": [
+        "CrowdStrike",
+        "Amazon"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "FBI shuts down over 40 North Korean laptop farms used by fake remote workers",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/fbi-shuts-down-over-40-north-korean-laptop-farms-used-by-fake-remote-workers-over-200-devices-seized-in-texas-although-no-arrests-were-made-so-far"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Justice Department says North Koreans have infiltrated dozens of US companies",
+          "url": "https://techcrunch.com/2026/10/13/justice-department-says-north-koreans-have-infiltrated-dozens-of-u-s-companies/"
+        }
+      ]
+    },
+    {
+      "title_en": "Nvidia Pledges $250M UK Compute and Huang Warns Unsafe Devs",
+      "title_ja": "NVIDIA、英AI研究に2.5億ドル寄贈　CEOは安全性巡り警告",
+      "summary_ja": "NVIDIAは英国のAI安全性研究のため、5年間で2億5000万ドル相当の計算資源を寄贈すると発表しました。同時にJensen Huang CEOは、安全基準を無視したAIを作る顧客に対してはチップ供給を停止すると表明しました。",
+      "why_ja": "市場を独占する半導体メーカーが、計算資源の提供を通じて国家の研究力を支援する一方、危険な開発者への供給制限という強力な自己規制姿勢を示しました。",
+      "section": "tech",
+      "topic_key": "nvidia-huang-ai-safety-commitment",
+      "companies": [
+        "Nvidia"
+      ],
+      "sources": [
+        {
+          "publisher": "NVIDIA Newsroom",
+          "title": "From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA",
+          "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/"
+        },
+        {
+          "publisher": "NVIDIA Newsroom",
+          "title": "NVIDIA Commits $250 Million to Advance UK Agentic Safety and Security Research Over the Next Five Years",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years"
+        },
+        {
+          "publisher": "Quartz",
+          "title": "Nvidia CEO Jensen Huang would cut off unsafe AI developers",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MYVBVdE5KUFNTZDFnZmE4YTMyZTFVYXdqdmczeDZHeHlOY2FuOGtNQXNfeUxlak9EODNYdE81TXFFNExZQXFZMng3ZkdmblZ5ZWpWLVlVTXltNVRJVGFucVNPYkRMLUdQbEhxNkFLZ3c1VVBXVzFWbA?oc=5"
+        },
+        {
+          "publisher": "Fortune",
+          "title": "Nvidia’s Jensen Huang wants “no incidents” of AI cybersecurity, and says AI doomers “ought to stop working on” the technology",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOLVNXMEVqSGxEa1RhSEI0WjVxM3QtbE14ak1sOHFRWkk3aFd6MkxfNmFrcWdoZFVHVmR2dlNRY1RKbUY2Z21UZVg5ZXJuZUpZLUJ4bktaWl9XNGtSQ2NaQ3hIWUJxWGNZWThYaTcyQUp4b0VXaG1FcUh5eUI2YmtyWkxQSGc2NU51SmE1QVRSLUZMQVpNQjlqMy1jSm8tNUtrYmROQ1lPa2tFNGhWMjhtM0U2RHhUdHl5RFp6cGhIcWtSdUJSYmJlWGxRel8xeDBHQVNjelNyclk5NVdoVzgtTjB4YWhUcGJCbXc?oc=5"
+        },
+        {
+          "publisher": "Bloomberg.com",
+          "title": "Nvidia CEO Says He Would Cut Off Customers Who Build Unsafe AI",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSnhxakNaMklvT25NQjFreTNHYVhMME45SHh4QkhBSGhVNFlPUFFCTmNyaGhYWFJobXZSMFZSUGtlUE5JNkxicGNhOVIzUkowVFo1UjlfZmliN2lFVmlJVDN6UGNUMFhDN0twbnJ6ejdpU19xQ01jSUR5Y3lnWnkxM0pUdGVDQnNiNFdkenE2dG9Zcm1DakdFUUdnbFZqTXc4TVR1c2hHX0hWV2I3aGFFcmhTcw?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Healthcare Groups Mobilize to Shape State Medical AI Regulations",
+      "title_ja": "米医療界、州ごとの医療AI規制策定に向けて結集",
+      "summary_ja": "全米州医療委員会連合が医師会、病院協会、保険会社、Anthropicなどを集めた作業部会を設置し、医療AIの規制指針の作成を進めています。医師の直接の監督がない自律的臨床AIの法的責任や安全基準を明確化する狙いです。",
+      "why_ja": "医療AIが急速に普及する中で、臨床上の過失責任や医師の関与基準を法制化する動きは、日本の医療AIガバナンスにとっても極めて重要な先行モデルとなります。",
+      "section": "health",
+      "topic_key": "us-medical-ai-state-regulation-lobbying",
+      "companies": [
+        "Anthropic",
+        "Elevance Health"
+      ],
+      "sources": [
+        {
+          "publisher": "STAT News",
+          "title": "STAT+: Lobbyists and trade groups fight to shape how states regulate medical AI",
+          "url": "https://www.statnews.com/2026/10/14/lobbyists-trade-groups-ama-push-autonomous-clinical-ai-regulations/?utm_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "Ukraine Accuses SpaceX of Throttling Military Starlink Service",
+      "title_ja": "ウクライナ、SpaceXによるStarlink制限を非難",
+      "summary_ja": "ウクライナ軍は、時速100マイルを超える高速飛行ドローンでStarlinkの通信が制限され、防空迎撃作戦に大きな被害が出ていると発表しました。米政府がロシア製油所攻撃の停止をウクライナに迫る中で起きたとみられています。",
+      "why_ja": "現代の軍事作戦が民間衛星通信インフラに依存することの脆弱性と、地政学的駆け引きによる供給遮断リスクを露呈しています。",
+      "section": "world",
+      "topic_key": "ukraine-starlink-throttling-dispute",
+      "companies": [
+        "SpaceX"
+      ],
+      "sources": [
+        {
+          "publisher": "NBC News",
+          "title": "Ukraine says new Starlink restrictions disrupt military as it reels from intel gaps and Trump clash",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVFZxOFpYUkhfNjVDUzFoSUhVQ3JRdERHWXdlbk1PUW9zc0tvNEo5cnVnODNTUHA0V1lmX1hyVERYc2FtX0d4MjMzdVZOVGpETjNTTy1FaHpFakZKYzQwWW9RV2hJeE9nQ0JoSUs4c0FJVE1ZSUdsWk5zSmxJcHVEaHJza2NjSEd1RmNYNVM0MHUxcDV1dzBraTB2UUh2RzhSdk05VmMyOUhVeEdKcFZjXzZGYUhTSlE?oc=5"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Volodymyr Zelenskyy feels ‘betrayed’ by Donald Trump over Starlink access",
+          "url": "https://www.theguardian.com/world/2026/oct/14/volodymyr-zelenskyy-feels-betrayed-by-donald-trump-over-starlink-access"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "In Ukraine, civilian casualties were already rising. Restrictions on Starlink will only worsen the death toll",
+          "url": "https://www.theguardian.com/world/2026/oct/14/ukraine-starlink-civilian-casualties-death-toll"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Ukraine accuses Elon Musk’s SpaceX of throttling Starlink terminals",
+          "url": "https://www.aljazeera.com/news/2026/10/14/ukraine-accuses-elon-musks-spacex-of-throttling-starlink-terminals?traffic_source=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Ukrainian military’s access to Starlink satellite internet suddenly restricted",
+          "url": "https://www.theguardian.com/world/2026/oct/14/ukraine-soldiers-combat-access-starlink-satellite-internet-restricted"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Starlink restrictions in Ukraine war linked to political situation, Zelensky aide says",
+          "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "Two Commercial Vessels Sink in Strait of Hormuz After Missile Hits",
+      "title_ja": "ホルムズ海峡でミサイル被弾の商船2隻が沈没",
+      "summary_ja": "ホルムズ海峡付近でミサイル攻撃を受けた民間コンテナ船2隻が相次いで沈没しました。米中間選挙を前に原油価格を押し上げる意図が疑われる中、国連は肥料輸送の麻痺が世界的な農業危機を招くと警告しています。",
+      "why_ja": "エネルギーおよび化学肥料の世界的重要要衝が封鎖危機に直面し、世界的なインフレと食料安保の混乱リスクが高まっています。",
+      "section": "world",
+      "topic_key": "hormuz-shipping-attacks-iran",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "Two container ships sink near strait of Hormuz amid surge in Iranian attacks",
+          "url": "https://www.theguardian.com/world/2026/oct/14/container-ship-sinks-strait-of-hormuz-surge-iranian-attacks-iran-us-midterm-elections"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "UN official warns of looming food crisis as Hormuz fertiliser plan stalls",
+          "url": "https://www.aljazeera.com/news/2026/10/14/un-official-warns-of-looming-food-crisis-as-hormuz-fertiliser-plan-stalls?traffic_source=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Container ship hit by projectile sinks in Strait of Hormuz, Singapore says",
+          "url": "https://www.bbc.co.uk/news/articles/crkg7q97z078o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "Protests Erupt Across India Over 130M Purged Voters",
+      "title_ja": "インド、1億3000万人の有権者削除巡り抗議デモ激化",
+      "summary_ja": "インドで1億3000万人の有権者が名簿から除外されたことを巡り、学生や若者による抗議活動が激化しています。歴史的抗議地へ立ち入った若者リーダー2名が投獄され、7000人超が拘束される事態に発展しています。",
+      "why_ja": "世界最大の人口を抱える民主主義国での選挙公正性を巡る争いは、国内の政治的安定と基本的権利の行方に直結しています。",
+      "section": "world",
+      "topic_key": "india-electoral-roll-deletion-protests",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "India’s cockroach protesters defy Modi’s crackdown – The Latest",
+          "url": "https://www.theguardian.com/news/audio/2026/oct/14/indias-cockroach-protesters-defy-modis-crackdown-the-latest"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Leaders of India’s Cockroach party jailed for violating ban on protest site",
+          "url": "https://www.theguardian.com/world/2026/oct/14/leaders-of-indias-cockroach-party-jailed-for-violating-ban-on-protest-site"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "‘How do you explain the deletion of 130 million names?’: why Indian voters are on the streets",
+          "url": "https://www.theguardian.com/world/2026/oct/14/india-protests-election-commission-gyanesh-kumar"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "bilateral pact",
+      "meaning_ja": "二国間協定",
+      "note_ja": "2つの国の間で結ばれる合意や条約を指します。",
+      "example_en": "It is part of a landmark trade and semiconductor pact between Japan and the United States."
+    },
+    {
+      "term": "resilient",
+      "meaning_ja": "強靭な、回復力のある",
+      "note_ja": "ショックや障害があっても迅速に回復できる状態を表します。",
+      "example_en": "Both nations want to secure resilient supply chains against unexpected disruptions."
+    },
+    {
+      "term": "disrupt",
+      "meaning_ja": "混乱させる、解体・妨害する",
+      "note_ja": "サイバー捜査で犯罪ネットワークの活動を強制的に止める際によく用いられます。",
+      "example_en": "Microsoft and Japan's National Police Agency have joined forces to dismantle a massive global cybercrime marketplace."
+    },
+    {
+      "term": "infiltrate",
+      "meaning_ja": "潜入する、入り込む",
+      "note_ja": "組織やネットワークに身元を偽って潜入すること。",
+      "example_en": "These computers were used by operatives to secretly infiltrate American corporations."
+    },
+    {
+      "term": "extort",
+      "meaning_ja": "ゆする、脅し取る",
+      "note_ja": "機密データや弱みをもとに脅迫して金銭を要求する犯罪行為です。",
+      "example_en": "In some instances, victim companies were even extorted after the hackers exfiltrated records."
+    },
+    {
+      "term": "facilitator",
+      "meaning_ja": "手助けをする人、仲介者",
+      "note_ja": "サイバーセキュリティや法律の文脈では、犯罪の実行を補助・手引きした者を指します。",
+      "example_en": "American facilitators hosted the computers inside domestic residences."
+    },
+    {
+      "term": "compute",
+      "meaning_ja": "計算能力、計算資源",
+      "note_ja": "AIの学習や推論に必要なGPUやサーバーの処理能力全般を名詞として表します。",
+      "example_en": "The initiative provides 50 million dollars in compute access each year."
+    },
+    {
+      "term": "safeguard",
+      "meaning_ja": "安全装置、保護措置",
+      "note_ja": "危害や暴走を防ぐためのルールや技術的な防御策のことです。",
+      "example_en": "Researchers will focus on agentic safety, testing safeguards for autonomous AI agents."
+    },
+    {
+      "term": "behind closed doors",
+      "meaning_ja": "非公開で、内密に",
+      "note_ja": "一般に公開されず秘密裏に行われる会議や交渉を表現します。",
+      "example_en": "The Federation of State Medical Boards convened a twenty-two member working group behind closed doors in Washington."
+    },
+    {
+      "term": "throttling",
+      "meaning_ja": "通信速度制限、絞り込み",
+      "note_ja": "ネットワークの帯域やアクセス速度を意図的に制限すること。",
+      "example_en": "The satellite throttling impacted Ukraine's defensive capabilities on the frontlines."
+    },
+    {
+      "term": "projectile",
+      "meaning_ja": "飛しょう体、発射体（ミサイルなど）",
+      "note_ja": "軍事報道でミサイルや砲弾などを包括的に指す客観的な語です。",
+      "example_en": "Two commercial container ships have sunk near the Strait of Hormuz after being struck by projectiles."
+    },
+    {
+      "term": "electoral roll",
+      "meaning_ja": "有権者名簿",
+      "note_ja": "選挙権を持つ市民が公式に登録されている名簿。",
+      "example_en": "Massive youth-led protests have intensified following reports that 130 million citizens were removed from the national electoral rolls."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "behind closed doors",
+    "meaning_ja": "非公開で、内密に",
+    "example_en": "Government officials and industry executives negotiated the new trade agreement behind closed doors.",
+    "example_ja": "政府高官と業界幹部は非公開で新たな貿易協定の交渉を行った。"
+  }
+}
