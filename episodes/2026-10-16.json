@@ -1,0 +1,1189 @@
+{
+  "date": "2026-10-16",
+  "published": "2026-10-16T04:50:16+09:00",
+  "title_en": "TSMC Weighs Texas Terafab and AI Approvals Shift",
+  "title_ja": "TSMCテキサス新工場検討と医療AIの承認競争",
+  "summary_ja": "TSMCがテキサス州で巨大工場の運用を検討し、ASMLやSK Hynixの動向とともに半導体競争が激化しています。デジタルヘルスでは保険の事前承認を不要にする医療AIスタートアップが登場しました。世界情勢では黒海での船舶攻撃、米仲介によるエネルギー停戦の崩壊、ブラジルの週40時間労働導入を伝えます。",
+  "duration": 1184.4,
+  "audio": {
+    "file": "2026-10-16.mp3",
+    "bytes": 9475615,
+    "release_tag": "ep-2026-10-16"
+  },
+  "word_count": 2156,
+  "ja_chars": 1168,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.8-flash",
+    "write": "gemini-3.8-flash",
+    "revise": "gemini-3.8-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Good Morning Commute",
+      "heading_ja": "朝のご挨拶とハイライト",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it is Friday, October 16. Welcome to Commute News, your quick audio guide to the most important global headlines.",
+          "ja": "おはようございます。10月16日金曜日、Commute Newsです。世界の重要ヘッドラインをコンパクトにお届けします。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, Alex! In technology today, chip manufacturing giant TSMC is in talks with Elon Musk about expanding to Texas, while ASML reports record sales amid severe machine shortages.",
+          "ja": "アレックス、おはようございます！本日のテックでは、半導体受託製造大手のTSMCがイーロン・マスク氏とテキサス拡張を協議しているほか、ASMLが深刻な供給不足の中で記録的な売上を発表しました。",
+          "t": 9.6
+        },
+        {
+          "speaker": "Alex",
+          "en": "In healthcare, a startup raises eight million dollars to stop insurance approval delays. And in world news, Brazil passes a landmark constitutional amendment to ban six-day workweeks.",
+          "ja": "医療分野では保険承認の遅延を防ぐスタートアップが800万ドルを調達し、国際情勢ではブラジルが週休2日を義務付ける歴史的な憲法改正案を可決しました。",
+          "t": 22.92
+        },
+        {
+          "speaker": "Mika",
+          "en": "We also have updates on Black Sea drone strikes and energy diplomacy. Let us jump right in!",
+          "ja": "黒海でのドローン攻撃やエネルギー外交の最新情報もお伝えします。さっそく始めましょう！",
+          "t": 36.06
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "TSMC Explores Texas Terafab Expansion",
+      "heading_ja": "TSMCがテキサスでテラファブ運用を検討",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "TSMC is exploring an expansion into Texas beyond its construction sites in Arizona. Chief Executive C.C. Wei confirmed on Thursday that the company is actively talking with Elon Musk about his massive semiconductor complex called Terafab.",
+          "ja": "TSMCはアリゾナ州での建設現場に加え、テキサス州への進出を検討しています。C.C. Wei最高経営責任者は木曜日、イーロン・マスク氏が進める「テラファブ」と呼ばれる巨大半導体施設計画について協議中であることを認めました。",
+          "t": 43.39
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does TSMC plan to co-own the entire facility, or simply share cleanroom space with Musk?",
+          "ja": "TSMCは施設全体を共同所有する予定ですか、それとも単にマスク氏とクリーンルームを共有するのでしょうか？",
+          "t": 60.0
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is the central disagreement. C.C. Wei insisted that if TSMC joins Terafab, the factory must be fully operated by TSMC. However, Musk previously stated that Terafab would operate the building while TSMC could only sub-lease cleanroom space.",
+          "ja": "そこが主な対立点です。Wei氏はTSMCがテラファブに参画するなら、工場全体を自社が運営しなければならないと主張しました。しかしマスク氏は以前、施設はテラファブ側が運営し、TSMCには一部のクリーンルームの転貸のみを認める方針を示していました。",
+          "t": 67.13
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is TSMC considering a second American manufacturing location so soon?",
+          "ja": "なぜTSMCはこれほど早く米国での2つ目の製造拠点を検討しているのですか？",
+          "t": 84.12
+        },
+        {
+          "speaker": "Alex",
+          "en": "Demand for advanced artificial intelligence chips is creating a fierce battleground among designers. TSMC reported historic third-quarter revenue of 46.72 billion dollars, a 41.2 percent jump from last year. Its quarterly net income reached nearly 23.9 billion dollars. Driven by AI infrastructure demand, its gross margin rose to a record 66.4 percent.",
+          "ja": "先端AI半導体の需要が開発企業の間で激しい争奪戦を引き起こしているためです。TSMCの第3四半期の売上高は前年同期比41.2％増の467億2000万ドルと過去最高を更新し、四半期純利益は約239億ドルに達しました。AI需要に牽引され、粗利益率も過去最高の66.4％を記録しています。",
+          "t": 90.31
+        },
+        {
+          "speaker": "Mika",
+          "en": "Are TSMC teams already visiting Texas to inspect the ground reality?",
+          "ja": "TSMCのチームは現地調査のためにすでにテキサスを訪れているのでしょうか？",
+          "t": 114.18
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. TSMC has budgeted up to 64 billion dollars for American expansion and sent scouts to Texas to evaluate local power supplies, infrastructure, and construction progress before making any final agreements.",
+          "ja": "はい。TSMCは米国での拡張に向けて最大640億ドルの予算枠を設けており、最終合意を結ぶ前に電力供給やインフラ、建設の進捗状況を評価するためテキサスに調査団を派遣しました。",
+          "t": 120.05
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, TSMC wants to expand U.S. chip production with Musk, but only if it retains complete operational control over the factory floor.",
+          "ja": "要するに、TSMCはマスク氏とともに米国内での半導体製造を拡大したいものの、工場の完全な運営権を自社で握ることを条件としているのですね。",
+          "t": 134.71
+        }
+      ],
+      "lang": "en",
+      "t": 43.39
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。TSMCがアリゾナに続く米国拠点として、テキサス州にあるイーロン・マスク氏の「テラファブ」への参画を検討しています。第3四半期の売上高が467億2000万ドルと過去最高を記録する中、TSMCは参画の絶対条件として工場運営の全権を要求しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 145.25
+        }
+      ],
+      "t": 145.25
+    },
+    {
+      "kind": "story",
+      "heading_en": "ASML Posts Record Quarter Amid Equipment Shortage",
+      "heading_ja": "ASMLが過去最高決算、露光装置の供給逼迫続く",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Dutch semiconductor equipment giant ASML reported record third-quarter results. Revenue soared 55 percent year-over-year to 13.06 billion dollars, while net profit hit 5.56 billion dollars. Gross margin reached a historic 57.5 percent.",
+          "ja": "オランダの半導体製造装置大手ASMLが、第3四半期に過去最高の決算を発表しました。売上高は前年同期比55％増の130億6000万ドルに急増し、純利益は55億6000万ドル、粗利益率は57.5％の最高値を記録しました。",
+          "t": 170.13
+        },
+        {
+          "speaker": "Mika",
+          "en": "What kinds of machines generated this massive wave of revenue?",
+          "ja": "どのような装置がこれほど莫大な売上を生み出しているのですか？",
+          "t": 186.2
+        },
+        {
+          "speaker": "Alex",
+          "en": "ASML sold 121 lithography systems during the quarter, including 17 cutting-edge extreme ultraviolet, or EUV, machines and 85 deep ultraviolet tools. Logic chipmakers accounted for 54 percent of tool revenue, while memory manufacturers represented 46 percent.",
+          "ja": "当四半期、ASMLは17台の最先端極端紫外線（EUV）露光装置と85台の深紫外線（DUV）装置を含む計121台を販売しました。売上比率はロジック半導体メーカーが54％、メモリメーカーが46％を占めています。",
+          "t": 191.58
+        },
+        {
+          "speaker": "Mika",
+          "en": "Where are these advanced lithography machines being shipped?",
+          "ja": "それらの先端露光装置はどこへ出荷されているのでしょうか？",
+          "t": 209.07
+        },
+        {
+          "speaker": "Alex",
+          "en": "Taiwan and South Korea bought 63 percent of the equipment, reflecting huge factory investments by firms like TSMC and Samsung, while China represented 23 percent and the United States took 13 percent.",
+          "ja": "TSMCやSamsungによる巨額投資を反映し、台湾と韓国が装置売上の63％を占めました。中国が23％、米国が13％と続いています。",
+          "t": 214.32
+        },
+        {
+          "speaker": "Mika",
+          "en": "Can ASML expand factory output quickly enough to satisfy this AI boom?",
+          "ja": "ASMLはこのAIブームを満たすだけの増産を迅速に行えるのでしょうか？",
+          "t": 228.23
+        },
+        {
+          "speaker": "Alex",
+          "en": "Not completely. Chief Executive Christophe Fouquet warned that customer demand will exceed production through at least 2028, even with plans to increase capacity by 30 percent in 2027 and another 30 percent in 2028. Clients are already booking delivery slots for 2029 and 2030.",
+          "ja": "完全には追いつきません。クリストフ・フケCEOは、2027年と2028年に生産能力をそれぞれ30％引き上げる計画であるにもかかわらず、少なくとも2028年まで需要が供給を上回り続けると警告しました。顧客はすでに2029年や2030年の納品枠を予約しています。",
+          "t": 234.1
+        },
+        {
+          "speaker": "Mika",
+          "en": "Will chipmakers face higher costs to secure these scarce tools?",
+          "ja": "半導体メーカーは希少な装置を確保するために、より高い費用を支払うことになるのでしょうか？",
+          "t": 252.77
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. ASML confirmed that it will raise equipment prices starting in 2027 to reflect these persistent bottlenecks.",
+          "ja": "はい。ASMLは、この慢性的な供給ボトルネックを反映して、2027年から装置価格を引き上げると認めました。",
+          "t": 258.21
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, ASML is virtually sold out for years as surging global AI investments outpace factory capacity.",
+          "ja": "要するに、世界的なAI投資の急拡大に生産が追いつかず、ASMLの露光装置は何年先まで事実上完売状態にあるわけですね。",
+          "t": 266.74
+        }
+      ],
+      "lang": "en",
+      "t": 170.13
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "半導体露光装置最大手のASMLが第3四半期に過去最高の130億6000万ドルの売上高を記録しました。AIインフラ向け需要が供給能力を大幅に上回っており、顧客は2030年納品の予約を入れ始めています。同社は2027年からの装置値上げも決定しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 275.02
+        }
+      ],
+      "t": 275.02
+    },
+    {
+      "kind": "story",
+      "heading_en": "SK Hynix Links US Factory to China Export Approvals",
+      "heading_ja": "SKハイニックス、米工場建設と中国輸出許可を連動",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "South Korean memory chipmaker SK Hynix is using clever bargaining tactics with the United States government. The company is offering to build a 3D NAND flash memory factory in America, but only if Washington approves tool exports to its facility in Dalian, China.",
+          "ja": "韓国のメモリ半導体大手SK Hynixが、米国政府に対して巧みな交渉を行っています。同社は米国内に3D NANDフラッシュメモリ工場を建設することを提案する一方、その条件として中国・大連工場への製造装置の輸出許可をワシントンに求めています。",
+          "t": 297.09
+        },
+        {
+          "speaker": "Mika",
+          "en": "Where in the United States would SK Hynix build this new memory plant?",
+          "ja": "SK Hynixは米国のどこに新しいメモリ工場を建設する予定なのですか？",
+          "t": 314.89
+        },
+        {
+          "speaker": "Alex",
+          "en": "Its flash unit, Solidigm, is considering upstate New York as a potential location. This would fill a major strategic gap, because no company has manufactured NAND flash memory inside the United States for years.",
+          "ja": "同社傘下のSolidigmがニューヨーク州北部を候補地として検討しています。米国内では長年にわたりNANDフラッシュメモリが生産されていないため、これが実現すれば戦略的な空白を埋めることになります。",
+          "t": 320.77
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is the Chinese factory in Dalian so critical for Solidigm right now?",
+          "ja": "なぜ大連工場がSolidigmにとって今それほど重要なのでしょうか？",
+          "t": 335.35
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Dalian fab is the world's only site producing specialized 192-layer NAND chips for enterprise solid-state drives used in AI data centers. Solidigm wants to install American tools from Applied Materials, KLA, and Lam Research into unused space completed in 2023.",
+          "ja": "大連工場は、AIデータセンター向けエンタープライズSSDに不可欠な192層NANDチップを生産する世界唯一の拠点です。Solidigmは2023年に完成した空きスペースに、アプライド・マテリアルズやKLA、ラムリサーチといった米国製装置を導入したいと考えています。",
+          "t": 341.35
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why has Washington hesitated to grant those equipment export licenses?",
+          "ja": "米国政府はなぜそれらの装置輸出許可の発行をためらっているのですか？",
+          "t": 359.27
+        },
+        {
+          "speaker": "Alex",
+          "en": "The United States restricted chip equipment exports to China over national security concerns. While Washington granted equipment licenses for 2026, it has not issued approvals for 2027. SK Hynix argues that Dalian profits are vital to fund its proposed American plant and support a planned 2027 public offering.",
+          "ja": "米国が安全保障上の懸念から中国への半導体装置輸出を規制しているためです。2026年分の輸出許可は出たものの、2027年分は保留されています。SK Hynixは大連工場での利益が米工場建設の原資となり、計画中の2027年の新規上場にも不可欠だと主張しています。",
+          "t": 365.15
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, SK Hynix is leveraging a domestic American factory proposal to protect its high-margin memory operations in China.",
+          "ja": "要するに、SK Hynixは米国への工場誘致というカードを使って、中国にある高収益なメモリ工場の操業を守ろうとしているのですね。",
+          "t": 385.91
+        }
+      ],
+      "lang": "en",
+      "t": 297.09
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "韓国のSK Hynixは、子会社Solidigmによる米国でのNANDメモリ工場建設を提示する見返りとして、中国・大連工場への米国製半導体製造装置の輸出許可を求めています。米中対立の中で自社工場の操業を守るための高度な外交交渉です。",
+          "en": "",
+          "lang": "ja",
+          "t": 395.82
+        }
+      ],
+      "t": 395.82
+    },
+    {
+      "kind": "story",
+      "heading_en": "Apple and Meta Partner on Open-Weight AI Models",
+      "heading_ja": "AppleとMeta、Mac向けオープンモデルで連携",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In a surprising collaboration between longtime Silicon Valley rivals, Apple and Meta have teamed up. Meta released its new frontier artificial intelligence model, called Muse Spark Open, and worked directly with Apple engineers to make it run smoothly on Mac desktop hardware.",
+          "ja": "シリコンバレーの長年のライバル同士による驚きの提携として、AppleとMetaが手を組みました。Metaは「Muse Spark Open」と呼ばれる最新のオープンウェイトAIモデルを発表し、Macのデスクトップ上で滑らかに動作するようAppleの技術者と直接協力しました。",
+          "t": 416.67
+        },
+        {
+          "speaker": "Mika",
+          "en": "What makes this new Muse Spark Open model stand out?",
+          "ja": "この新しいMuse Spark Openモデルにはどのような特徴があるのですか？",
+          "t": 435.22
+        },
+        {
+          "speaker": "Alex",
+          "en": "Meta describes it as the most capable American open-weight model to date. It features 816 billion parameters and excels at complex software engineering, multi-step reasoning, and long-horizon tasks. It is a natively multimodal model designed for advanced research. Meta's chief AI officer Alexandr Wang joked that mommy and daddy are finally playing nice after months of joint engineering.",
+          "ja": "Metaはこれを米国で最も高性能なオープンウェイトモデルと位置付けています。8160億のパラメータを持ち、複雑なソフトウェア開発や多段階の推論、長期的なタスクに優れ、高度な研究に適したネイティブマルチモーダル仕様です。MetaのAI最高責任者アレクサンドル・ワン氏は、数か月にわたる共同作業を経て「両親がようやく仲良くしてくれた」と語りました。",
+          "t": 439.96
+        },
+        {
+          "speaker": "Mika",
+          "en": "How can developers run an 816-billion parameter model without renting a massive cloud server farm?",
+          "ja": "開発者は膨大なクラウドサーバーを借りることなく、どうやって8160億パラメータもの巨大モデルを動かすのですか？",
+          "t": 465.48
+        },
+        {
+          "speaker": "Alex",
+          "en": "Meta and Apple optimized the software using Apple's MLX array framework. As a result, developers can run the entire model locally on their office desks using just two Mac Studio computers equipped with M5 Ultra chips.",
+          "ja": "両社はAppleの機械学習フレームワーク「MLX」を用いてソフトウェアを最適化しました。その結果、M5 Ultraチップを搭載したMac Studioわずか2台を使い、職場のデスク上でモデル全体をローカル実行できるようになりました。",
+          "t": 473.06
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did the top executives celebrate this milestone publicly?",
+          "ja": "両社の経営トップもこの成果を公式に祝福したのでしょうか？",
+          "t": 487.98
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Meta chief Mark Zuckerberg praised Apple publicly on social media, and Apple's new chief executive John Ternus replied that Mac Studio continues to push the boundaries of efficient, on-device computing.",
+          "ja": "はい。Metaのマーク・ザッカーバーグCEOがSNS上でAppleを公に称賛し、Appleの新CEOであるジョン・ターナス氏も、Mac Studioが効率的なオンデバイス処理の限界を押し広げ続けていると応じました。",
+          "t": 493.03
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Apple and Meta joined forces to enable frontier AI model inference right on local developer workstations.",
+          "ja": "要するに、AppleとMetaが連携し、最先端AIの推論処理を開発者の手元のワークステーションで直接動かせるようにしたわけですね。",
+          "t": 507.33
+        }
+      ],
+      "lang": "en",
+      "t": 416.67
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ライバル関係にあるAppleとMetaが提携しました。Metaの8160億パラメータを持つ最新オープンモデル「Muse Spark Open」が、AppleのMLXフレームワークによりMac Studio2台の環境でローカル実行できるようになり、クラウドに頼らない高度なAI開発が可能になります。",
+          "en": "",
+          "lang": "ja",
+          "t": 516.21
+        }
+      ],
+      "t": 516.21
+    },
+    {
+      "kind": "story",
+      "heading_en": "Online Ad Networks Exploited for Zero-Click Spyware",
+      "heading_ja": "オンライン広告網が悪用されゼロクリック侵入",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "A disturbing investigation from The Citizen Lab at the University of Toronto reveals that government surveillance operations are exploiting commercial online advertising networks. Merceary spyware vendors are weaponizing programmatic digital ads to silently hack into personal computers around the world.",
+          "ja": "トロント大学のシチズン・ラボによる衝撃的な調査で、政府の監視機関が民間のオンライン広告配信網を悪用している実態が明らかになりました。営利目的のスパイウェア業者がプログラマティック広告を兵器化し、世界中のPCへ静かに侵入しています。",
+          "t": 542.83
+        },
+        {
+          "speaker": "Mika",
+          "en": "How can someone get hacked just by viewing a normal digital advertisement?",
+          "ja": "通常のウェブ広告を見るだけで、どのようにして端末がハッキングされてしまうのですか？",
+          "t": 560.98
+        },
+        {
+          "speaker": "Alex",
+          "en": "The attacks rely on zero-click exploits. A targeted user does not need to click a suspicious link or open a malicious file. Simply loading a legitimate webpage displaying the weaponized ad allows malicious code to compromise the computer invisibly.",
+          "ja": "この攻撃は「ゼロクリック」脆弱性を悪用しています。標的となったユーザーは、不審なリンクをクリックしたりファイルを開いたりする必要がありません。悪意ある広告が表示された正規のウェブページを読み込むだけで、見えないうちに端末が乗っ取られます。",
+          "t": 566.45
+        },
+        {
+          "speaker": "Mika",
+          "en": "Who was targeted by this commercial advertising attack?",
+          "ja": "この広告経由のサイバー攻撃で誰が標的にされたのでしょうか？",
+          "t": 581.51
+        },
+        {
+          "speaker": "Alex",
+          "en": "Researchers confirmed that at least 45 Windows computers at media organization Al Jazeera were compromised across 2024 and 2025. The spyware was delivered by an Israeli firm called Discover-Tech through its advertising platform called Controlium.",
+          "ja": "研究チームは、報道機関アルジャジーラの少なくとも45台のWindows端末が2024年から2025年にかけて侵入被害に遭ったことを確認しました。スパイウェアはイスラエル企業Discover-Techの広告基盤「Controlium」を介して送り込まれていました。",
+          "t": 585.92
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did researchers discover this covert surveillance pipeline?",
+          "ja": "研究者たちはどのようにしてこの秘密の監視ルートを突き止めたのですか？",
+          "t": 600.88
+        },
+        {
+          "speaker": "Alex",
+          "en": "Discover-Tech left source code and passwordless database records exposed online. This allowed Citizen Lab researchers to uncover login records belonging to known spyware makers Candiru and Bindecy, alongside billions of commercial ad bidding logs.",
+          "ja": "Discover-Techがソースコードやパスワード不要のデータベースをネット上に放置していたためです。これによりシチズン・ラボは、CandiruやBindecyといった著名スパイウェア業者のログイン履歴や、数十億件の広告入札ログを特定できました。",
+          "t": 605.73
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does this make installing ad-blockers an essential cyber defense for everyone?",
+          "ja": "これは、広告ブロッカーの導入が誰にとっても必須の防衛策になるという意味でしょうか？",
+          "t": 620.74
+        },
+        {
+          "speaker": "Alex",
+          "en": "Senior researcher Bill Marczak emphasized that while ad-blockers help, commercial advertising ubiquity makes defensive isolation difficult against targeted state surveillance.",
+          "ja": "上席研究員のビル・マルチャック氏は、広告ブロッカーは有効であるものの、広告網が日常のあらゆる場所に普及しているため、国家主導の標的型監視から完全に逃れるのは極めて困難だと指摘しています。",
+          "t": 626.42
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, state-backed spyware makers turned regular web advertising networks into invisible delivery systems for cyber surveillance.",
+          "ja": "要するに、国家が関与するスパイウェア企業が、日常的なネット広告の配信網を不可視のサイバー監視兵器に変えてしまったわけですね。",
+          "t": 637.46
+        }
+      ],
+      "lang": "en",
+      "t": 542.83
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "トロント大学のシチズン・ラボが、民間のオンライン広告網が悪用され、クリック不要で感染する「ゼロクリック」スパイウェアが配信されていた実態を公表しました。アルジャジーラのPC45台が被害を受け、広告入札システムが監視ツールとして転用されていました。",
+          "en": "",
+          "lang": "ja",
+          "t": 646.4
+        }
+      ],
+      "t": 646.4
+    },
+    {
+      "kind": "health",
+      "heading_en": "Otter Health Raises Funds to End Care Approval Battles",
+      "heading_ja": "Otter Healthが800万ドル調達、事前承認の不要化へ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In healthcare, getting insurance coverage for medical treatments has turned into an aggressive artificial intelligence arms race. Insurance companies use automated algorithms to instantly deny expensive claims, while hospitals deploy large language models to generate thousands of automated appeal letters.",
+          "ja": "医療分野において、治療の保険適用審査は激しいAIの「軍備競争」と化しています。保険会社がアルゴリズムを使って高額請求を瞬時に却下する一方、病院側は大規模言語モデルを活用して何千通もの異議申立書を自動作成しています。",
+          "t": 666.1
+        },
+        {
+          "speaker": "Mika",
+          "en": "How are healthcare startups trying to resolve this exhausting administrative battle?",
+          "ja": "ヘルスケアのスタートアップは、この不毛な事務手続きの争いをどう解決しようとしているのですか？",
+          "t": 684.37
+        },
+        {
+          "speaker": "Alex",
+          "en": "A new startup called Otter Health officially launched with eight million dollars in seed funding co-led by Fika Ventures and Evidenced Capital. Otter Health aims to dismantle this adversarial system by eliminating the need for prior authorization entirely.",
+          "ja": "新興企業のOtter Healthが、Fika VenturesとEvidenced Capitalの主導で800万ドルのシード資金を調達して正式に立ち上がりました。同社は「事前承認」そのものを不要にすることで、この対立的な構造を解体することを目指しています。",
+          "t": 690.38
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does Otter Health eliminate authorization checkpoints without increasing healthcare costs?",
+          "ja": "医療費を膨らませることなく、どうやって事前承認の手続きをなくすのでしょうか？",
+          "t": 705.89
+        },
+        {
+          "speaker": "Alex",
+          "en": "Founded by physician Amol Navathe and healthcare executive Keith Florance, the company built an artificial intelligence platform that connects doctors and payers to a shared clinical view. Instead of requiring permission before a procedure, the software provides real-time guidance directly aligned with evidence-based standards of care.",
+          "ja": "医師のアモル・ナヴァテ氏と医療幹部のキース・フローレンス氏が共同創業した同社は、医師と保険会社が共通の臨床データをリアルタイムで共有するAI基盤を構築しました。事前許可を求める代わりに、診察中に医学的根拠に基づいた標準治療へ誘導します。",
+          "t": 712.45
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does that mean doctors can treat patients without waiting weeks for paperwork?",
+          "ja": "医師が書類の審査結果を何週間も待たずに患者を治療できるということですか？",
+          "t": 732.43
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. By guiding clinicians toward gold-standard medical choices during patient consultations, treatments are validated immediately across outpatient procedures, referrals, and care transitions, ensuring insurance compliance upfront without delay.",
+          "ja": "その通りです。診察の現場で医師を模範的な標準治療へと導くことで、外来処置や紹介、治療移行がその場で正当化され、遅延なく最初から保険基準を満たすことができます。",
+          "t": 738.11
+        },
+        {
+          "speaker": "Mika",
+          "en": "Could this collaborative approach also help national health systems manage medical quality?",
+          "ja": "こうした協調的なアプローチは、各国の公的医療制度の質を維持する上でも役立ちますか？",
+          "t": 753.28
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Transparent clinical standards reduce unnecessary medical variation and curb waste while keeping clinicians focused on patient outcomes.",
+          "ja": "はい。透明性の高い診療基準を共有すれば、不要な治療のばらつきを減らして無駄な支出を抑えつつ、医師が患者の治療結果に専念できるようになります。",
+          "t": 759.68
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Otter Health replaces administrative insurance disputes with real-time, evidence-based clinical guidance.",
+          "ja": "要するに、Otter Healthは保険をめぐる泥沼の審査争いを、科学的根拠に基づいたリアルタイムの診療支援へと置き換えているのですね。",
+          "t": 768.84
+        }
+      ],
+      "lang": "en",
+      "t": 666.1
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米医療スタートアップのOtter Healthが800万ドルを調達しました。保険会社の自動却下AIと病院側の再申請AIによる不毛な対立を終わらせるため、診察時に根拠ある標準治療を提示することで、事前の保険承認手続きそのものを不要にするプラットフォームを展開します。",
+          "en": "",
+          "lang": "ja",
+          "t": 777.24
+        }
+      ],
+      "t": 777.24
+    },
+    {
+      "kind": "world",
+      "heading_en": "Drones Strike Merchant Tankers Near Romania",
+      "heading_ja": "黒海のルーマニア領海付近でタンカー被弾",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Commercial shipping in the Black Sea faced serious drone strikes this week within NATO territorial waters. Suspected Russian drones struck two chemical tankers near the mouth of the Sulina canal, setting both vessels ablaze near Romania and Ukraine's crucial Danube export route.",
+          "ja": "今週、黒海を航行する民間商船がNATO領海内で深刻なドローン攻撃を受けました。ロシア軍のものとみられるドローンがスリナ運河の河口付近で化学薬品タンカー2隻を直撃し、ウクライナにとって極めて重要なドナウ川輸出路の近くで炎上させました。",
+          "t": 799.14
+        },
+        {
+          "speaker": "Mika",
+          "en": "Were there casualties among the commercial crews aboard these tankers?",
+          "ja": "それらのタンカーに乗っていた民間船員に死傷者は出たのでしょうか？",
+          "t": 816.59
+        },
+        {
+          "speaker": "Alex",
+          "en": "While the crew of the Comoros-flagged tanker Yara J was safely evacuated inside Romanian waters, rescue teams are searching for seven missing sailors from the tanker Wine Trader. Over the past ten days, at least 23 sailors have been killed or reported missing across the Romanian and Bulgarian coasts.",
+          "ja": "ルーマニア領海内で被弾したコモロ船籍の「Yara J」の乗組員は無事救助されたものの、「Wine Trader」の船員7名が行方不明となっており捜索が続いています。過去10日間で、ルーマニアとブルガリア沖では少なくとも23名の船員が死亡または行方不明になっています。",
+          "t": 822.05
+        },
+        {
+          "speaker": "Mika",
+          "en": "How is the NATO military alliance responding to these strikes on merchant vessels?",
+          "ja": "民間船舶への攻撃に対し、NATO軍事同盟はどのように対応しているのですか？",
+          "t": 840.77
+        },
+        {
+          "speaker": "Alex",
+          "en": "Romanian President Nicusor Dan called attacks on civilian shipping unacceptable. After emergency talks with Romanian and Bulgarian leaders, NATO Secretary General Mark Rutte announced that the alliance has strengthened counter-drone capabilities along its eastern flank.",
+          "ja": "ルーマニアのダン大統領は民間船への攻撃を断じて容認できないと非難しました。ルーマニアおよびブルガリア首脳との緊急協議を経て、NATOのルッテ事務総長は同盟東部における対ドローン防衛能力を強化したと発表しました。",
+          "t": 846.91
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, drone attacks on Danube trade routes have brought direct maritime danger to NATO waters.",
+          "ja": "要するに、ドナウ川の貿易ルートに対するドローン攻撃が、NATO加盟国の領海に直接の海洋危機をもたらしているわけですね。",
+          "t": 863.85
+        }
+      ],
+      "lang": "en",
+      "t": 799.14
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "黒海のルーマニア領海および近海で化学薬品タンカー2隻がドローン攻撃を受けて炎上し、船員7名が行方不明となっています。ウクライナ産穀物の主要輸送路であるドナウ川河口付近が標的となり、NATOは東部防衛線の防空体制強化を発表しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 871.14
+        }
+      ],
+      "t": 871.14
+    },
+    {
+      "kind": "world",
+      "heading_en": "Diplomatic Energy Ceasefire Between Russia and Ukraine Collapses",
+      "heading_ja": "米仲介のエネルギー停戦が崩壊、双方攻撃再開",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "The diplomatic energy ceasefire between Russia and Ukraine announced by United States President Donald Trump has completely collapsed. Moscow launched massive drone swarms targeting Ukrainian power grids, prompting Ukraine to officially abandon the truce and resume deep drone strikes against Russian oil refineries.",
+          "ja": "米国のドナルド・トランプ大統領が仲介を発表したロシアとウクライナのエネルギー停戦が完全に崩壊しました。ロシアがウクライナの電力網に対して大規模なドローン攻撃を行ったことを受け、ウクライナは停戦を破棄し、ロシア国内の石油精製所への深部ドローン攻撃を再開しました。",
+          "t": 890.4
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why did the temporary pause on energy attacks dissolve so rapidly?",
+          "ja": "なぜエネルギー攻撃の一時停止がこれほど急速に消滅してしまったのですか？",
+          "t": 909.98
+        },
+        {
+          "speaker": "Alex",
+          "en": "Ukrainian President Volodymyr Zelenskyy told the Financial Times that Ukraine paused refinery strikes for three days, but Russia ignored the deal and fired hundreds of drones at Ukrainian electrical infrastructure. Zelenskyy declared that the block on strikes is officially over.",
+          "ja": "ウクライナのゼレンスキー大統領がフィナンシャル・タイムズに語ったところによると、ウクライナは3日間製油所攻撃を自制したものの、ロシアが合意を無視して電力網へ数百機のドローンを撃ち込んだとのことです。ゼレンスキー氏は攻撃停止措置は完全に終了したと宣言しました。",
+          "t": 915.21
+        },
+        {
+          "speaker": "Mika",
+          "en": "Which targets in Russia were struck following that announcement?",
+          "ja": "その宣言の後、ロシア国内のどの標的が攻撃されたのですか？",
+          "t": 932.66
+        },
+        {
+          "speaker": "Alex",
+          "en": "Ukraine targeted a major oil refinery in the Ryazan region south of Moscow with dozens of drones, igniting substantial fires. Meanwhile, Zelenskyy expressed frustration over sudden restrictions placed on Starlink satellite speeds and American intelligence sharing.",
+          "ja": "ウクライナ軍はモスクワ南方のリャザン州にある主要な石油精製所を数十機のドローンで攻撃し、大規模な火災を発生させました。一方でゼレンスキー氏は、Starlinkの通信制限や米国の情報共有制限に対して強い不満を表明しています。",
+          "t": 937.77
+        },
+        {
+          "speaker": "Mika",
+          "en": "Are European allies worried about energy security entering winter?",
+          "ja": "欧州の同盟国は冬に向けてエネルギー安全保障を懸念しているのでしょうか？",
+          "t": 954.36
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. European leaders meeting in Brussels warned that continuous strikes on civilian power and fuel networks threaten winter stability across the region.",
+          "ja": "はい。ブリュッセルで開かれた首脳会議で欧州各国の指導者たちは、民間電力網や燃料供給施設への連日の攻撃が冬の地域安定を脅かしていると警鐘を鳴らしました。",
+          "t": 959.59
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, bilateral energy strikes have escalated sharply as diplomatic attempts at a ceasefire unraveled.",
+          "ja": "要するに、外交的な停戦の試みが破綻し、双方のエネルギー施設に対する報復攻撃が一段と激化している状況です。",
+          "t": 969.81
+        }
+      ],
+      "lang": "en",
+      "t": 890.4
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米トランプ大統領が主導したエネルギー停戦は、ロシアによる電力インフラ攻撃を受けて崩壊しました。ウクライナのゼレンスキー大統領は合意終了を宣言し、ロシア・リャザン州の製油所を攻撃したほか、冬を目前にしてエネルギー危機が再燃しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 978.01
+        }
+      ],
+      "t": 978.01
+    },
+    {
+      "kind": "world",
+      "heading_en": "Brazil Passes Landmark Ban on Six-Day Workweeks",
+      "heading_ja": "ブラジル議会が週休2日制の憲法改正を可決",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Brazil's Congress has passed a landmark constitutional amendment banning six-day work schedules and cutting the maximum working week from 44 hours to 40 hours without salary reductions. The measure represents Brazil's biggest labor reform since its 1988 constitution.",
+          "ja": "ブラジル議会は、週6日勤務を禁止し、給与を減らさずに法定労働時間の上限を週44時間から40時間に短縮する歴史的な憲法改正案を可決しました。1988年の現行憲法制定以来、最大の労働改革となります。",
+          "t": 997.75
+        },
+        {
+          "speaker": "Mika",
+          "en": "Which workers in Brazil will benefit most from this new law?",
+          "ja": "この新しい法律によって最も恩恵を受けるのはどの労働者ですか？",
+          "t": 1014.79
+        },
+        {
+          "speaker": "Alex",
+          "en": "The constitutional change will directly benefit over 30 million employees, especially sixteen million low-paid workers in supermarkets, restaurants, and hotels who currently work six consecutive days each week.",
+          "ja": "この憲法改正は3000万人以上の労働者に恩恵をもたらします。特にスーパーや飲食店、ホテルなどで現在週6日連続勤務を余儀なくされている1600万人の低賃金労働者が大きな恩恵を受けます。",
+          "t": 1019.75
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why did Brazilian senators approve this reform by an overwhelming vote of 75 to one?",
+          "ja": "ブラジルの上院議員たちはなぜ75対1という圧倒的な賛成多数でこの改革を承認したのですか？",
+          "t": 1033.47
+        },
+        {
+          "speaker": "Alex",
+          "en": "The proposal originated from a grassroots movement called Life Beyond Work and gained support from nearly 70 percent of Brazilians. Left-wing President Lula championed the measure ahead of the October 25 presidential election runoff.",
+          "ja": "この法案は「労働を超えた人生」と呼ばれる草の根運動から生まれ、国民の7割近くの支持を集めました。左派のルラ大統領が10月25日の大統領選決選投票を前に強く推進した背景もあります。",
+          "t": 1039.83
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did opposition candidate Flavio Bolsonaro support the amendment in the end?",
+          "ja": "野党候補のフラビオ・ボルソナロ氏も最終的には賛成したのでしょうか？",
+          "t": 1054.89
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Facing immense public support, Bolsonaro dropped his previous objections and voted yes, though employers warn the reform could raise consumer prices.",
+          "ja": "はい。国民の圧倒的な支持を前にボルソナロ氏も従来の反対意見を取り下げ賛成票を投じました。ただし経営者側は消費者物価の上昇を招くと警告しています。",
+          "t": 1060.73
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Brazil amended its constitution to guarantee workers two full days off each week.",
+          "ja": "要するに、ブラジルは労働者に完全な週休2日を保障するために憲法を改正したわけですね。",
+          "t": 1071.18
+        }
+      ],
+      "lang": "en",
+      "t": 997.75
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ブラジル連邦議会が、給与を維持したまま週労働時間を44時間から40時間に短縮し週6日勤務を禁じる憲法改正案を可決しました。小売や外食業など3000万人以上の労働環境が改善される見込みで、間近に迫る大統領選でも大きな焦点となっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 1078.18
+        }
+      ],
+      "t": 1078.18
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch: AI Risks and Global Talent",
+      "heading_ja": "CEO動向：AIエージェントのリスクと移民政策",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "On CEO Watch today, Microsoft chief Satya Nadella warned that autonomous artificial intelligence agents must be treated as insider risks within corporate IT networks.",
+          "ja": "本日のCEOウォッチです。Microsoftのサティア・ナデラCEOは、自律型AIエージェントを企業の社内システムにおける「内部脅威」として警戒すべきだと指摘しました。",
+          "t": 1098.08
+        },
+        {
+          "speaker": "Mika",
+          "en": "Meanwhile, Nvidia head Jensen Huang defended skilled immigration, arguing that America needs all the world's great minds to build next-generation technology.",
+          "ja": "一方、NVIDIAのジェンスン・フアンCEOは高度人材の移民を擁護し、次世代技術を開発するために世界中の優れた頭脳を米国に集める必要があると主張しました。",
+          "t": 1109.22
+        },
+        {
+          "speaker": "Alex",
+          "en": "And Apple chief executive John Ternus dismissed early foldable phones from rival manufacturers, calling them kind of cheap and crappy compared to Apple's design standards.",
+          "ja": "そしてAppleの新CEOジョン・ターナス氏は、競合他社が出した初期の折りたたみ式スマートフォンを振り返り、同社の基準からすれば「安っぽく粗悪だった」と一蹴しました。",
+          "t": 1119.85
+        },
+        {
+          "speaker": "Mika",
+          "en": "That wraps up our executive insights for today!",
+          "ja": "以上、本日の経営トップたちの動向でした！",
+          "t": 1131.29
+        }
+      ],
+      "lang": "en",
+      "t": 1098.08
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: Keep Up With",
+      "heading_ja": "今日のフレーズ：keep up with",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's phrase is keep up with. In our semiconductor story, I asked whether ASML can keep up with the soaring customer demand for lithography machines.",
+          "ja": "本日のフレーズは「keep up with」です。半導体のニュースで、ASMLが急増する露光装置の需要に「追いつくことができるか」という場面で使われました。",
+          "t": 1135.94
+        },
+        {
+          "speaker": "Alex",
+          "en": "To keep up with means to move, produce, or progress at the same pace as someone or something else. For example: our engineering team worked late every evening to keep up with incoming project requests.",
+          "ja": "「keep up with」は、相手や需要のペースに遅れずについていく、追いつくという意味です。例文としては「our engineering team worked late every evening to keep up with incoming project requests（開発チームは次々と来る案件に追いつくため毎晩遅くまで働いた）」のように使います。",
+          "t": 1144.49
+        },
+        {
+          "speaker": "Mika",
+          "en": "It is an essential phrase for discussing busy workloads, fast supply chains, and rapid technological change.",
+          "ja": "業務量の多さやサプライチェーンの逼迫、目まぐるしい技術革新を語る際によく登場する重要な表現です。",
+          "t": 1155.48
+        }
+      ],
+      "lang": "en",
+      "t": 1135.94
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Weekend Wrap-up",
+      "heading_ja": "週末のご挨拶",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That brings us to the end of today's commute. From Texas gigafabs and healthcare AI to Black Sea shipping corridors and labor reforms in Brazil, you are fully up to date.",
+          "ja": "今日の通勤ニュースはここまでです。テキサスの巨大半導体工場から医療AI、黒海の海上回廊、ブラジルの労働改革まで、世界の重要ニュースを網羅しました。",
+          "t": 1161.94
+        },
+        {
+          "speaker": "Mika",
+          "en": "Have a safe commute, enjoy a wonderful and relaxing weekend, and join us again on Monday morning!",
+          "ja": "安全運転でお過ごしいただき、素晴らしい週末をお迎えください。月曜日の朝にまたお会いしましょう！",
+          "t": 1171.42
+        }
+      ],
+      "lang": "en",
+      "t": 1161.94
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。充実した週末をお過ごしください。いってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 1177.35
+        }
+      ],
+      "t": 1177.35
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "TSMC Considers Texas Terafab Expansion with Musk",
+      "title_ja": "TSMC、マスク氏のテラファブ構想でのテキサス拡張を検討",
+      "summary_ja": "TSMCのC.C. Wei最高経営責任者は、アリゾナに続く米国生産拠点としてテキサス州への進出を検討していることを明かしました。イーロン・マスク氏の「テラファブ」計画での連携を模索していますが、TSMCは工場全体の単独運営を条件として求めています。",
+      "why_ja": "生成AIブームに伴い先端半導体の生産能力確保が世界的な最優先課題となる中、米国内での製造サプライチェーン強化と主導権争いが浮き彫りになっています。",
+      "section": "tech",
+      "topic_key": "tsmc-texas-terafab-expansion",
+      "companies": [
+        "TSMC"
+      ],
+      "sources": [
+        {
+          "publisher": "The Register",
+          "title": "TSMC sends scouts to check whether America's datacenters can deliver",
+          "url": "https://www.theregister.com/systems/2026/10/15/tsmc-sends-scouts-to-check-whether-americas-datacenters-can-deliver/5303260"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "TSMC confirms it is considering Terafab chipmaking expansion with Elon Musk",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-confirms-it-is-considering-terafab-chipmaking-expansion-with-elon-musk-ceo-insists-tsmc-would-have-to-run-texas-based-project"
+        },
+        {
+          "publisher": "The Business Journals",
+          "title": "TSMC explores Texas for second U.S. fab site as chip giant ramps up domestic expansion",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTkRRMERPcFNpbkg2OWpScXF5dDM2bXVXWUpFZk8wbE1LVmxuVE1saDFXbGYtN0JsSWJyaVMwY2laNXNMYU9TZld3OTQzZ2FBUU5MdDRybk11YlRmcjVGaF9id29xWkZaYTQ3RV9hVEhxczR1ckhkeWRULVd0Z0hUZ19naW9IeGRvYkE?oc=5"
+        },
+        {
+          "publisher": "CNBC",
+          "title": "TSMC chip capacity is ‘fierce’ battleground for AI customers, amid record quarter",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcTFFbGhXV2lUQmRUM2o1WWtweGVWa1VZQThOY3dTaTNkZFppb1I0cGd5eDcxSVpMWVRJVG5IN1JCOGJZQkJOcVIyY09ya0Q0X3FMaFh1dDh0T1lRSTNnNHpCVHhLSWNxMW9XM1RnaVhOV2RJWGJ5UVU4VjdQZFg2X1hOeG10LS15TS1uMzBfWlBoUjdCSVdWQmZvVkFRd9IBowFBVV95cUxPUkZGUlVRSTZaVDQ5OUtSR0MtV1JuN1NKMi0xbXBENDNfaVNucS1SaG92VDFhalBNNlhfS3VBQnlxOG1wS0t3MVNUQ2pmNnVFR2g5dWlQX05kTEFQay03c09NczIyTlplQXpZcmEzWWpsbHBLSDJvZTQxbGIzam9fM1JFT3ZmQWxJZ05hcDkyQzBuMDMzX3E2aDFMM0NCdzBqT1pZ?oc=5"
+        },
+        {
+          "publisher": "Fortune",
+          "title": "Taiwan's chipmaker TSMC explores collaborating with Elon Musks's Terafab complex in Texas",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9wcXpNbWFteDNtMjBST0E5TF9GRF9NTkM2R0padXk3aG1VTDQwLUJrQTJTZlBCUThrMzgycW9tQUoxc2p1TXVjS3lpZGtSeWlmcFRQbVVmQnJsVU5sMjBlajlKaEk3YXdZbWM0Qk5HTU0?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "ASML Books Record $13B Quarter as Capacity Strains",
+      "title_ja": "ASMLが130億ドルの記録的決算、供給逼迫で受注は2030年まで",
+      "summary_ja": "オランダのASMLは第3四半期の売上高が前年比55％増の130億6000万ドルに達し過去最高を記録しました。世界的なAIインフラ投資により最先端の露光装置需要が急増しており、2028年まで供給不足が続く見通しです。",
+      "why_ja": "半導体製造の最上流を押さえる同社のボトルネックは、半導体業界全体の増産計画や価格戦略に直結しており、日本企業を含むサプライチェーン全体に影響を与えます。",
+      "section": "tech",
+      "topic_key": "asml-q3-earnings-capacity-strain",
+      "companies": [
+        "ASML"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "ASML reports record $13 billion quarter, vows to expand capacity as demand for lithography equipment soars",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-reports-record-usd13-billion-quarter-vows-to-expand-capacity-as-demand-for-lithography-equipment-soars-customers-eager-to-secure-orders-in-2030-as-demand-is-expected-to-outstrip-2027-and-2028-supply"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "ASML struggling to keep up with demand for chipmaking equipment as AI spending continues to boom",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-struggling-to-keep-up-with-demand-for-chipmaking-equipment-as-ai-spending-continues-to-boom-chipmakers-are-already-looking-to-place-orders-for-2029-and-2030-output-ceo-says-demand-could-surpass-capacity-despite-massive-expansion-plans"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "ASML's 'sold out' outlook forces investors to look beyond demand",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLXhjVzlpdUwzS1JPM0o3VFFnRXZfTnF5SndiVS1jOGNaUU9BWnowWWoySnRvbFpabjFEQVlZaWdhSFo0NnJmMTJaYXZWQ3R2c3I3dmNIdkY5TjVZQklTd0xTbXhGald1NjJGdVhBVTVkU2pjbll0MXA0NmpzSWFxNTlKVWxzeXRKWmtSMks1VGdMbkUzOG8zRWx4REZUb2RwNmFUd2ZkN1F5YXVaQ2pmREFBY1pxMl9tcmNF?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "SK Hynix Conditions US Fab on China Export Clearances",
+      "title_ja": "SKハイニックス、米工場建設と引き換えに中国工場の装置輸出許可を要求",
+      "summary_ja": "SK Hynixは子会社Solidigmを通じた米国内でのNANDフラッシュメモリ工場新設の条件として、中国・大連工場への製造装置輸出許可を米国政府に要求しています。大連工場はデータセンター向けSSDを生産しており、拡張ではなく既存建屋の設備導入を主張しています。",
+      "why_ja": "米中デカップリングの狭間に立つアジア半導体企業が、米国での巨額投資をレバレッジにして自社の中国拠点操業を守ろうとするサプライチェーンの実利主義を示しています。",
+      "section": "tech",
+      "topic_key": "sk-hynix-us-china-chip-leverage",
+      "companies": [
+        "SK Hynix",
+        "Solidigm"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "SK hynix reportedly playing hardball with Trump admin over 3D NAND fab — company demands increased chipmaking equipment exports to China in exchange for US fab",
+          "url": "https://www.tomshardware.com/pc-components/ssds/sk-hynix-reportedly-playing-hardball-with-trump-admin-over-3d-nand-fab-company-demands-increased-chipmaking-equipment-exports-to-china-in-exchange-for-us-fab"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "SK Hynix bargains for chip equipment exports to its China facility in return for building a factory in US",
+          "url": "https://techcrunch.com/2026/10/15/sk-hynix-bargains-for-chip-equipment-exports-to-its-china-facility-in-return-for-building-a-factory-in-us/"
+        }
+      ]
+    },
+    {
+      "title_en": "Apple and Meta Optimize Muse AI Models for Mac Silicon",
+      "title_ja": "AppleとMetaが連携、8160億パラメータAIをMac Studioでローカル実行",
+      "summary_ja": "AppleとMetaが提携し、Metaの最新オープンモデル「Muse Spark Open」をMac Studio上で動作可能にしました。8160億パラメータという巨大モデルが、クラウドではなく2台のデスクトップ環境で効率的に実行できるよう最適化されています。",
+      "why_ja": "クラウド依存による費用とプライバシーの課題を克服し、ローカル環境で先端AI開発を行うワークステーションとしてのMacの地位を確立する動きです。",
+      "section": "tech",
+      "topic_key": "apple-meta-muse-mac-partnership",
+      "companies": [
+        "Apple",
+        "Meta"
+      ],
+      "sources": [
+        {
+          "publisher": "The Verge",
+          "title": "Meta and Apple team up to make Muse AI models run better on Macs",
+          "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx"
+        },
+        {
+          "publisher": "MacRumors",
+          "title": "Meta and Apple Bring Muse Spark Open AI Model to Mac Studio",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE01SExMb1Z4Zm45LUVtYXhNSEZZSlRyaXdsMl9UTkgtNTlNa0E0U1g3WDgyNUdtUWFIZmw0b29qVjY5Y2tyVS16UFhvVFY2NVFvbl9ISTNJS0NpY000dURNQXU2Z1RlUGtkejM3VlJ1NjREdTNlcTBLYQ?oc=5"
+        },
+        {
+          "publisher": "Axios",
+          "title": "\"Mommy and daddy\" play nice: Apple and Meta team up to bring open-source Muse to Macs",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBPMHkzbG9EYWhwX241Y1R3ZmJmbExHdXAyQnRZOEUzM1dfaXBiMmZGYjNQM2IzT2NGUW1PM1hMSkhTZmpNN3VfNlR2eEUxSXZnUnNpQjZRd0NxQjJjSnBqZHhWbW9wb1NJTG1LbU5fa0Rod215cVhjanEyYw?oc=5"
+        },
+        {
+          "publisher": "CNBC",
+          "title": "Apple and Meta team up to make Muse AI model run on Mac computers",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4yN20yMnBlVzc4aS0wdWFEbE5Xb2NEam5KRVV2SUMtNElVdkhwa2l5MlVGZzMxemJqWGhEbUZWYUtJd1JhSW1qY2R4djRsUTNKRzhkbHZzTEdJZHpROTFpNnZ5T0JLYWlKLXfSAW9BVV95cUxQSlFLOV9CYWZWMlBDb2N5ZEgzODdobW83Vzh1Qy03R2lpWGtsOXhPbG9OMHRFaDR2UG5kNDhnRDFVTWtWVVUxOHBTWTZ5d0E4WHRVdUZiZ2hEMmlEODByOFZMYjVhNHNESVRNRzFCUUU?oc=5"
+        },
+        {
+          "publisher": "WSJ",
+          "title": "Meta and Apple, Longtime Foes, Team Up to Put Open-Weight AI on Macs",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQzh2RmRTanJlLWlJdUQ4Z3FNQXI5aGZVWlVCdHNVdWlQNGJ5MlhCbkR5d3QtdWVLYXNfdlpmOHVGVTJidXBrTFh4Wml6d1dkYmFiUGJtNDRHVl9vSWF0T2Zvb1pjc0ttX19FYjQwdDA5U214ZGFlNFpVclNxOXR1RERXZlRwUTFLcXVyOTNpd2NRamdGTExfdFVaSURGSDkyTjZ1WWRR?oc=5"
+        },
+        {
+          "publisher": "Meta AI",
+          "title": "Introducing Muse Spark Open, The Most Capable US Open‑Weight Model to Date",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBxQTR0N0dqcHl2SFlORVRDWlZ2MFg3c1l3czJ5ZF9pQVJMd1FFcTBzTjdfQ00ydURKSVpESEloR2hhVzNJTkIyNU9XalpybnFmdWlJYjhHV0k?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Governments Weaponize Ad Networks for Zero-Click Spyware",
+      "title_ja": "オンライン広告網が悪用されゼロクリックでスパイウェア感染",
+      "summary_ja": "トロント大学のCitizen Labは、国家支援のスパイウェア業者が民間のオンライン広告システムを利用して「ゼロクリック」攻撃を行っていたことを明らかにしました。アルジャジーラのPC45台が広告を介してCandiruなどのスパイウェアに感染しました。",
+      "why_ja": "ターゲットを絞った商業広告ネットワークが国家レベルのサイバー監視兵器として転用されている実態を示しており、組織や個人の防衛策の見直しが迫られます。",
+      "section": "tech",
+      "topic_key": "adtech-zero-click-spyware",
+      "companies": [
+        "Discover-Tech",
+        "Candiru",
+        "Bindecy"
+      ],
+      "sources": [
+        {
+          "publisher": "The Register",
+          "title": "Spyware vendors found a way to make targeted ads even worse",
+          "url": "https://www.theregister.com/security/2026/10/15/spyware-vendors-found-a-way-to-make-targeted-ads-even-worse/5303334"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Governments are hacking people with ‘zero-click’ spyware by showing them online ads",
+          "url": "https://techcrunch.com/2026/10/15/citizen-lab-says-governments-are-abusing-online-ads-to-hack-people-with-zero-click-spyware/"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Online ads weaponised to deliver ‘zero-click’ spyware, researchers say",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQR1RpeTl2ZWhPMDFLZndVR2V4bUJ2U2g4UHN3MXFKN0JaOGdnVnZ1dmJ6RUcxUXd5M3VOakJyV2UtemlGWWhjaTEwR1NmRGVXei1BZnp2eko0V3JReFB3NzFwYmsxNzFaYTFYSFNTSGlJa3pUMC1tM2c0d2dhbUZlZzc5aWloR3U5eHJWUW9WNVcxaWUwb2NueUM1bkRJVGZuRWFiVlU1RTU5VlNHREI1WmduRnNwaHg5ZmhSRTVWanhIaDhqeW4xYXJpMHoxTHdw?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Otter Health Raises $8M to Dismantle Prior Auth Friction",
+      "title_ja": "Otter Healthが800万ドル調達、診療ガイドで事前承認を不要化",
+      "summary_ja": "米医療スタートアップのOtter Healthは、保険会社と医療機関の間で激化するAI事前承認の対立を解消するため800万ドルを調達しました。診療時にリアルタイムで標準治療データを示すことで、事前の承認審査を不要にするプラットフォームを提供します。",
+      "why_ja": "アルゴリズムによる保険金給付拒否と生成AIによる異議申し立てという不毛な自動化競争から、診療現場の質と効率を直接改善する新しい医療DXの形を提示しています。",
+      "section": "health",
+      "topic_key": "ai-prior-authorization-healthcare",
+      "companies": [
+        "Otter Health"
+      ],
+      "sources": [
+        {
+          "publisher": "Fierce Healthcare",
+          "title": "As prior auth becomes an AI ‘arms race,’ Otter Health raises $8M for a different approach",
+          "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/otter-health-launches-8m-take-prior-authorization"
+        }
+      ]
+    },
+    {
+      "title_en": "Suspected Russian Drones Strike Black Sea Tankers Near Romania",
+      "title_ja": "黒海のルーマニア沿岸で商船がドローン被弾、船員7名不明",
+      "summary_ja": "黒海のルーマニア領海および排他的経済水域付近で化学薬品タンカー2隻がドローン攻撃を受けて炎上し、7名の船員が行方不明となっています。標的となったドナウ川河口の運河は、ウクライナにとって主要な穀物輸出路です。",
+      "why_ja": "ロシアの攻撃がNATO加盟国の領海間近の民間商船にまで拡大しており、欧州の食料・エネルギー物流の安全確保とNATOの防衛態勢に直接的な緊張をもたらしています。",
+      "section": "world",
+      "topic_key": "black-sea-tanker-drone-strikes",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "Ars Technica",
+          "title": "NATO may redeploy anti-drone defenses as attacks sink more Black Sea shipping",
+          "url": "https://arstechnica.com/gadgets/2026/10/nato-may-redeploy-anti-drone-defenses-as-attacks-sink-more-black-sea-shipping/"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Seven sailors missing after drones strike tankers near Romania’s Black Sea coast",
+          "url": "https://www.theguardian.com/world/2026/oct/15/sailors-missing-drone-strike-tankers-romania-black-sea-coast"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "EU must curb energy prices to prevent people turning to populists, commissioner warns – as it happened",
+          "url": "https://www.theguardian.com/world/live/2026/oct/15/ukraine-russia-war-starlink-zelenskyy-putin-elon-musk-trump-europe-latest-news"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
+          "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "Diplomatic Energy Truce Collapses as Reciprocal Strikes Resume",
+      "title_ja": "米仲介のエネルギー停戦が崩壊、ウクライナがロシア製油所攻撃を再開",
+      "summary_ja": "トランプ米大統領が主導したエネルギーインフラ停戦は、ロシアによるウクライナ電力網への大規模攻撃を受けて崩壊しました。ゼレンスキー大統領は停戦終了を明言し、ウクライナ軍はロシア・リャザン州の製油所へのドローン攻撃を再開しました。",
+      "why_ja": "冬を前にした電力インフラ破壊の再開は両国の生活基盤と世界の燃料価格に直接的な打撃を与え、米国の外交的調停力の限界を示しています。",
+      "section": "world",
+      "topic_key": "russia-ukraine-energy-ceasefire-diplomacy",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
+          "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Russia and Ukraine trade strikes as Trump ‘energy ceasefire’ collapses",
+          "url": "https://www.theguardian.com/world/2026/oct/15/us-effort-to-get-russia-ukraine-energy-ceasefire-collapses"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce",
+          "url": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war"
+        },
+        {
+          "publisher": "AP News",
+          "title": "Ukraine abandons truce and attacks Russian oil refinery as Zelenskyy says he feels betrayed by Trump",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOanVvOXBrUl9qVzlNb3ljaFNMclJtU0JkcGMwOHg3WngxQnJhSUc4VzZGV0hvRDBBek9DejBaaTNwWVVSd0thaUt4dXJWZGVEVHdaeXNHQXVpV3pmZVJwN2o2ZDFrTXNGTVdaLTcwY1haLXBlWTRRNnpZSXFFSmllQ0xEdTZHLVRhREJCU3Q3WHlycGhCcEdTSXpjX0VDb1BXYXFiaGp5VjBXQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Brazil Passes Constitutional Ban on Six-Day Workweeks",
+      "title_ja": "ブラジル議会が憲法改正、週40時間労働・週休2日制を義務化",
+      "summary_ja": "ブラジル連邦議会は、週法定労働時間を44時間から40時間に短縮し、給与削減なしで週6日勤務を禁止する憲法改正案を可決しました。小売や外食業など3000万人以上の労働者が対象となり、10月25日の大統領選決選投票を前にルラ大統領の大きな成果となりました。",
+      "why_ja": "南米最大の経済大国における大幅な労働環境改善であり、国民的人気政策が与野党の支持を得て憲法改正に結実した政策展開として注目されます。",
+      "section": "world",
+      "topic_key": "brazil-40-hour-workweek-amendment",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Brazil's Congress approves shorter working week in win for Lula",
+          "url": "https://www.bbc.co.uk/news/articles/cmwy43pp08elo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff",
+          "url": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "lithography",
+      "meaning_ja": "露光技術、リソグラフィ",
+      "note_ja": "シリコンウェハー上に光を用いて超微細な半導体回路パターンを転写する技術。",
+      "example_en": "ASML builds lithography systems, which use light to print tiny circuits onto silicon wafers."
+    },
+    {
+      "term": "leverage",
+      "meaning_ja": "交渉力、テコ、有利な影響力",
+      "note_ja": "交渉などで自らの要求を通すために利用する有利な条件や強み。",
+      "example_en": "South Korean memory chip giant SK Hynix is using strong leverage in negotiations with the United States government."
+    },
+    {
+      "term": "cleanroom",
+      "meaning_ja": "クリーンルーム、防塵室",
+      "note_ja": "半導体製造のため空気中の微粒子や不純物が極小に保たれた部屋。",
+      "example_en": "Musk previously wanted Terafab to run the site and let TSMC sub-lease cleanroom space."
+    },
+    {
+      "term": "parameters",
+      "meaning_ja": "パラメータ、媒介変数",
+      "note_ja": "AIモデルの規模や学習能力を示す指標となる変数。",
+      "example_en": "It has 816 billion parameters."
+    },
+    {
+      "term": "zero-click",
+      "meaning_ja": "ゼロクリック（ユーザー操作を必要としない侵入手法）",
+      "note_ja": "リンクのクリックやファイルの展開などをせず、受信・表示しただけで感染するサイバー攻撃。",
+      "example_en": "The attack uses zero-click methods."
+    },
+    {
+      "term": "prior authorization",
+      "meaning_ja": "事前承認",
+      "note_ja": "医療機関が保険適用される高額な治療や検査を行う前に、保険会社から事前に得る許可。",
+      "example_en": "In America, health insurance companies often require prior authorization before patients can receive tests or treatments."
+    },
+    {
+      "term": "arms race",
+      "meaning_ja": "軍備競争、技術の過熱した競争",
+      "note_ja": "双方が競い合って技術や対策をエスカレートさせる状況の比喩表現。",
+      "example_en": "Doctors and insurers are now fighting an artificial intelligence arms race over these approvals."
+    },
+    {
+      "term": "compromise",
+      "meaning_ja": "（セキュリティ上の）侵害を受ける、不正侵入される",
+      "note_ja": "日常語の「妥協する」だけでなく、セキュリティ分野ではシステムが突破・感染されることを意味する。",
+      "example_en": "Citizen Lab confirmed that at least 45 computers at news network Al Jazeera were compromised in 2024 and 2025."
+    },
+    {
+      "term": "reciprocal",
+      "meaning_ja": "相互の、報復としての",
+      "note_ja": "お互いにやり返す、または双方向で行われる関係を指す表現。",
+      "example_en": "However, both nations quickly resumed heavy reciprocal bombardments."
+    },
+    {
+      "term": "amendment",
+      "meaning_ja": "修正条項、憲法改正",
+      "note_ja": "法律や憲法の条文を変更・追加する手続きや文書。",
+      "example_en": "Brazil's Congress has approved a historic constitutional amendment that shortens the standard working week from 44 hours to 40 hours."
+    },
+    {
+      "term": "autonomous",
+      "meaning_ja": "自律型の、自己完結的な",
+      "note_ja": "人間の介入なしに自動で判断してタスクを実行するAIシステムなどに用いる。",
+      "example_en": "On CEO Watch today, Microsoft chief Satya Nadella warned that autonomous AI agents should be treated as an insider risk inside corporate computer systems."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "keep up with",
+    "meaning_ja": "〜に遅れずについていく、〜（の需要や進度）に追いつく",
+    "example_en": "Our small factory worked overtime to keep up with incoming orders.",
+    "example_ja": "小規模な私たちの工場は、入ってくる注文に追いつくために残業しました。"
+  }
+}
