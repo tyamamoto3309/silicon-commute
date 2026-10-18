@@ -1,0 +1,1159 @@
+{
+  "date": "2026-10-19",
+  "published": "2026-10-19T03:35:15+09:00",
+  "title_en": "Samsung-TSMC Alliance, Medical AI Rules, and Europe Living Cost Unrest",
+  "title_ja": "SamsungとTSMCの異例連携、医療AI統括指針、南欧の生活苦抗議デモ",
+  "summary_ja": "半導体大手のSamsungとTSMCがNVIDIA向け先端AIメモリー製造で提携し、米医師会は自律型AIに関する初の医療統括指針を策定しました。欧州では物価高に対する大規模な暴動が発生し、米国ではロシア制裁猶予を巡り議論が深まっています。ビジネスパーソンに必要な最新動向をわかりやすい英語でお届けします。",
+  "duration": 1159.9,
+  "audio": {
+    "file": "2026-10-19.mp3",
+    "bytes": 9279427,
+    "release_tag": "ep-2026-10-19"
+  },
+  "word_count": 2023,
+  "ja_chars": 1599,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.8-flash",
+    "write": "gemini-3.8-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Monday Morning Briefing",
+      "heading_ja": "月曜朝のニュースブリーフィング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, everyone. It is Monday, October 19. This is Commute News. Welcome to a new week of fresh technology insights.",
+          "ja": "みなさん、おはようございます。10月19日月曜日、Commute Newsです。今週も通勤時間に役立つ最新テクノロジー情報をお届けします。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, Alex. Today, chip rivals Samsung and TSMC join hands to build advanced memory chips for Nvidia.",
+          "ja": "Alex、おはようございます。本日は、半導体ライバルのSamsungとTSMCがNVIDIAの次世代メモリーチップ製造で手を組む話題を取り上げます。",
+          "t": 9.01
+        },
+        {
+          "speaker": "Alex",
+          "en": "In digital health, American doctors create the first national safety rules for autonomous AI agents in medicine.",
+          "ja": "デジタルヘルスでは、米国の医師団体が自律型医療AIエージェントに関する全米初の安全基準を策定しました。",
+          "t": 17.17
+        },
+        {
+          "speaker": "Mika",
+          "en": "And in world news, large street protests over the cost of living shake cities across France and southern Europe.",
+          "ja": "そして国際ニュースでは、生活費高騰に対する大規模な抗議デモがフランスや南欧各地を揺るがしています。",
+          "t": 25.52
+        },
+        {
+          "speaker": "Alex",
+          "en": "We have these top stories and more, explained simply for your morning commute. Let us jump right in.",
+          "ja": "これら注目の話題を、朝の通勤中にわかりやすい英語で解説します。それでは始めましょう。",
+          "t": 33.86
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Samsung and TSMC Team Up on Nvidia AI Memory",
+      "heading_ja": "SamsungとTSMC、NVIDIA向け次世代AIメモリーで異例の連携",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our top story is a big shift in the computer chip industry. Samsung is partnering with TSMC. They will build base dies for Nvidia next-generation memory chips.",
+          "ja": "トップニュースは半導体業界の大きな変化です。SamsungがTSMCと提携し、NVIDIAの次世代メモリーチップ向けにベースダイを製造します。",
+          "t": 41.47
+        },
+        {
+          "speaker": "Mika",
+          "en": "Wait, aren't Samsung and TSMC usually fierce rivals in chip making? Why are they working together now?",
+          "ja": "ちょっと待ってください、SamsungとTSMCは半導体製造で激しいライバル同士ですよね。なぜ今手を組むのでしょうか。",
+          "t": 52.68
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, they are major competitors. But Nvidia needs high-bandwidth memory chips, called NVHBM, for its future AI systems. Samsung makes the memory chips. However, Samsung will tap TSMC three-nanometer technology to build the base die underneath.",
+          "ja": "はい、彼らは最大の競合相手です。しかしNVIDIAは将来のAIシステム向けにNVHBMと呼ばれる広帯域メモリーを必要としています。Samsungがメモリー本体を作り、その土台となるベースダイにはTSMCの先端3ナノメートル技術を活用します。",
+          "t": 60.41
+        },
+        {
+          "speaker": "Mika",
+          "en": "What is a base die, and why does TSMC need to make it?",
+          "ja": "ベースダイとは何ですか、そしてなぜTSMCが作る必要があるのですか。",
+          "t": 76.73
+        },
+        {
+          "speaker": "Alex",
+          "en": "Think of a base die as the foundation of a building. It sits at the bottom of stacked memory chips. It connects the memory directly to Nvidia processors. TSMC leads the world in advanced three-nanometer manufacturing.",
+          "ja": "ベースダイは建物の基礎のようなものだと考えてください。積み重ねたメモリーチップの最下部に位置し、NVIDIAのプロセッサと直接接続します。TSMCは先端3ナノメートル製造技術で世界をリードしています。",
+          "t": 81.54
+        },
+        {
+          "speaker": "Mika",
+          "en": "That sounds like a very unusual deal for two historic competitors.",
+          "ja": "長年競合してきた2社にとって、極めて異例の取引に思えます。",
+          "t": 96.28
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does this mean chip companies must cooperate even when they compete?",
+          "ja": "これは、半導体企業は競争関係にあっても協力せざるを得ないということでしょうか。",
+          "t": 101.82
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. Making hardware for advanced AI is now too complex for one company alone. Nvidia wants the best manufacturing from both suppliers. Seoul newspapers and Reuters say this partnership reshapes the semiconductor supply chain.",
+          "ja": "その通りです。最先端AIハードウェアの製造は1社単独では担えないほど複雑化しています。NVIDIAは両社から最高の技術を求めています。ソウルの地元紙やReutersは、この提携が半導体サプライチェーンを再編すると報じています。",
+          "t": 107.48
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, rival giants Samsung and TSMC are teaming up to build critical AI memory components for Nvidia.",
+          "ja": "要するに、ライバルであるSamsungとTSMCが手を組み、NVIDIA向けに不可欠なAIメモリー部品を共同で供給するということです。",
+          "t": 123.01
+        }
+      ],
+      "lang": "en",
+      "t": 41.47
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。半導体大手のSamsungが、NVIDIAの次世代AI向けメモリーチップの製造で、競合のTSMCと提携します。TSMCの先端3ナノメートル技術で土台となるベースダイを生産します。AI半導体の高度化に伴い、激しく競合する受託生産会社同士が異例の協力関係を結ぶことになり、半導体供給網に大きな変化をもたらしそうです。",
+          "en": "",
+          "lang": "ja",
+          "t": 131.17
+        }
+      ],
+      "t": 131.17
+    },
+    {
+      "kind": "story",
+      "heading_en": "Microsoft Scraps Multi-Billion Pound UK Data Center Deal",
+      "heading_ja": "Microsoft、英国Nscaleとの巨額データセンター提携を撤回",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Next, Microsoft has made a sudden move in the United Kingdom. It abruptly scrapped a multi-billion pound data center partnership with Nscale.",
+          "ja": "続いて、Microsoftが英国で急な決定を下しました。Nscaleとの複数年・数十億ポンド規模のデータセンター提携を突如撤回しました。",
+          "t": 160.77
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why did Microsoft pull the plug on this deal so suddenly?",
+          "ja": "Microsoftはなぜこの大型契約を突然打ち切ったのでしょうか。",
+          "t": 170.53
+        },
+        {
+          "speaker": "Alex",
+          "en": "The British newspaper The Telegraph first reported the story. Reuters, Bloomberg, and the Financial Times also confirmed the cancellation. Microsoft planned to build large infrastructure with Nscale to power artificial intelligence. But big tech companies are facing serious limits on electric power in Europe.",
+          "ja": "英字紙The Telegraphが最初に報じ、Reuters、Bloomberg、Financial Timesも契約解消を確認しました。MicrosoftはNscaleと連携してAI向け大型インフラを構築する計画でした。しかし大手テック企業は欧州での深刻な電力制限に直面しています。",
+          "t": 175.35
+        },
+        {
+          "speaker": "Mika",
+          "en": "Is electricity really becoming such a big problem for AI data centers?",
+          "ja": "電力不足は、AIデータセンターにとってそこまで深刻な問題になっているのですか。",
+          "t": 195.05
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, AI servers require huge amounts of energy. In the United Kingdom, connecting to the power grid can take years. In addition, tech giants are reviewing their budgets carefully. They want to make sure every billion dollars spent brings real returns.",
+          "ja": "はい、AIサーバーは莫大な電力を消費します。英国では送電網への接続に何年もかかることがあります。さらに大手テック各社は投資予算を厳格に見直しており、投じた資金が確実な利益を生むかを吟味しています。",
+          "t": 200.64
+        },
+        {
+          "speaker": "Mika",
+          "en": "What does this cancellation mean for the wider cloud market?",
+          "ja": "この撤回はクラウド市場全体にとって何を意味しますか。",
+          "t": 216.87
+        },
+        {
+          "speaker": "Alex",
+          "en": "It shows that building AI data centers is becoming harder and more selective. European infrastructure often struggles with power constraints and slow grid upgrades. Hyperscale cloud providers like Microsoft may choose locations where power is cheaper and available faster.",
+          "ja": "AIデータセンターの構築がより難しく、選別的になっていることを示しています。欧州のインフラは電力制約や送電網の整備遅れに悩まされています。Microsoftのような巨大クラウド事業者は、電力が安く素早く確保できる地域を優先する可能性があります。",
+          "t": 221.87
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, Microsoft cancelled its multi-billion pound data center project with Nscale as energy limits and high costs challenge European AI expansion.",
+          "ja": "要するに、電力制限と巨額コストが欧州でのAI拡大の壁となり、MicrosoftはNscaleとの数十億ポンドのデータセンター計画を中止したということです。",
+          "t": 239.33
+        }
+      ],
+      "lang": "en",
+      "t": 160.77
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Microsoftがイギリスのインフラ企業Nscaleとの複数年・数十億ポンド規模のデータセンター提携を突如撤回しました。欧州ではAI向け電力需要の急増に対し送電網の整備が追いつかず、電力供給の制約が深刻化しています。今回の契約解除は、米IT大手が巨額のAI投資を見直し、費用対効果と電力確保を厳しく再評価している現実を浮き彫りにしています。",
+          "en": "",
+          "lang": "ja",
+          "t": 249.86
+        }
+      ],
+      "t": 249.86
+    },
+    {
+      "kind": "story",
+      "heading_en": "Taiwan Sets Prison Terms for Illicit AI Server Exports",
+      "heading_ja": "台湾、対中AIサーバー不正輸出に最長5年の禁錮刑を導入",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our third story is about strict export controls in Taiwan. The Taiwanese government is expanding its Foreign Trade Act to block illicit AI server sales to China.",
+          "ja": "3つ目のニュースは台湾の厳格な輸出規制についてです。台湾政府は対中不正輸出を防ぐため貿易法を拡大しています。",
+          "t": 278.48
+        },
+        {
+          "speaker": "Mika",
+          "en": "What are the new penalties for people who break this rule?",
+          "ja": "この規則に違反した場合、どのような罰則が科されるのですか。",
+          "t": 289.42
+        },
+        {
+          "speaker": "Alex",
+          "en": "Smugglers will now face criminal charges, including up to five years in prison and fines of around 92,500 dollars. In the past, Taiwan did not treat exporting AI chips to China as a direct crime under trade law. Prosecutors had to rely on other charges, like fraud.",
+          "ja": "密輸業者には最長5年の禁錮刑や約9万2500ドルの罰金といった刑事罰が科されます。これまで台湾ではAI半導体の対中輸出自体を貿易法違反として直接罰することができず、検察は詐欺罪などに頼らざるを得ませんでした。",
+          "t": 294.3
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is Taiwan taking such a tough step right now?",
+          "ja": "なぜ台湾は今、このような厳しい措置に踏み切ったのですか。",
+          "t": 311.35
+        },
+        {
+          "speaker": "Alex",
+          "en": "Taiwan is aligning its policies with United States trade restrictions. Earlier this year, Taiwan and the United States signed a trade deal to lower tariffs. Taiwan Minister of Economic Affairs Kung Ming-hsin said Taiwan committed to matching American security measures.",
+          "ja": "台湾が米国の貿易規制と足並みを揃えているためです。今年初め、台湾と米国は関税引き下げを盛り込んだ貿易協定を締結しました。台湾経済部長のKung Ming-hsin氏は、米国の安全保障措置に協調することを約束したと述べています。",
+          "t": 315.7
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did recent smuggling cases push authorities to act?",
+          "ja": "最近の密輸事件が当局を動かすきっかけになったのでしょうか。",
+          "t": 332.99
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. United States prosecutors recently charged Super Micro employees, including co-founder Wally Liaw, for smuggling 2.5 billion dollars worth of AI servers. Following that probe, Taiwanese police raided Super Micro offices in Taipei and indicted nine people.",
+          "ja": "はい。米検察がSuper Microの共同創業者Wally Liaw氏を含む社員らを25億ドル相当のAIサーバー密輸で起訴しました。その捜査を受け、台湾当局も台北オフィスを捜索し9名を起訴しました。",
+          "t": 337.46
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, Taiwan is imposing five-year prison terms to stop advanced AI servers from being smuggled into China.",
+          "ja": "要するに、台湾は先端AIサーバーの中国への密輸を防ぐため、最長5年の禁錮刑という重い刑事罰を導入したということです。",
+          "t": 354.22
+        }
+      ],
+      "lang": "en",
+      "t": 278.48
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "台湾政府は対中輸出規制を強化し、最先端AIサーバーや半導体を密輸した者に対し最長5年の禁錮刑や罰金を科す方針を固めました。米当局によるSuper Micro関係者の摘発や台北オフィスの家宅捜索を受け、抜け道を防ぐ狙いです。米国との貿易協定に基づき規制基準を米国の制裁措置と一致させる動きで、米中対立の狭間にある台湾の安全保障戦略を反映しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 362.9
+        }
+      ],
+      "t": 362.9
+    },
+    {
+      "kind": "story",
+      "heading_en": "Anthropic Gives Independent Watchdog Deep AI Access",
+      "heading_ja": "Anthropic、外部監査組織に社員同等のモデル検証権限を付与",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Turning to artificial intelligence governance, Anthropic has set a major industry precedent. It is giving an outside safety watchdog employee-level access to inspect its most powerful models.",
+          "ja": "AIガバナンスの話題に移ります。Anthropicが業界で重要な前例を作りました。外部の安全性監視組織に社員レベルの権限を与え、最先端モデルを監査させています。",
+          "t": 393.89
+        },
+        {
+          "speaker": "Mika",
+          "en": "Which watchdog is doing the inspection, and how much access do they really have?",
+          "ja": "どの組織が監査を担当し、実際にどこまでのアクセス権を持っているのですか。",
+          "t": 407.49
+        },
+        {
+          "speaker": "Alex",
+          "en": "The group is a non-profit called METR. Its researchers are now embedded inside Anthropic offices. They have access to internal code, hardware, and systems. Crucially, METR can publish its safety findings without Anthropic approval.",
+          "ja": "METRという非営利組織です。その研究員がAnthropicの社内に常駐し、内部コードやハードウェア、システムに直接アクセスできます。重要なのは、METRがAnthropicの承認なしで監査結果を公開できる点です。",
+          "t": 414.11
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why would an AI company allow an outside group to see its secret technology?",
+          "ja": "なぜAI企業が自社の機密技術を外部組織に見せるのでしょうか。",
+          "t": 430.23
+        },
+        {
+          "speaker": "Alex",
+          "en": "Anthropic chief executive Dario Amodei says frontier models require stronger safeguards before they get out of control. Amodei compares this setup to bank regulation, where government examiners work inside large banks. Last month, OpenAI boss Sam Altman and Elon Musk also supported this idea.",
+          "ja": "AnthropicのCEOであるDario Amodei氏は、最先端モデルが暴走する前に強固な安全対策が必要だと述べています。大手銀行内に監督官が常駐する銀行規制に例えています。先月にはOpenAIのSam Altman氏やElon Musk氏もこの提案に賛同しました。",
+          "t": 436.59
+        },
+        {
+          "speaker": "Mika",
+          "en": "Are there any concerns or criticisms about this arrangement?",
+          "ja": "この取り組みに対して懸念や批判の声はありますか。",
+          "t": 456.61
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, some critics worry about conflicts of interest, just like in private accounting firms. They argue that official government regulations are needed instead of private audits. Anthropic responds that open sharing with the public could help bad actors, so trusted inspectors are the best solution.",
+          "ja": "はい、会計業界のような利益相反を懸念する声があります。民間監査ではなく公的な政府規制が必要だという指摘もあります。これに対しAnthropicは、全てを一般公開すると悪意ある者に利用される恐れがあるため、信頼できる検査官の常駐が最善だと説明しています。",
+          "t": 461.97
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, Anthropic is letting an independent auditor inspect its internal AI systems freely to set a new standard for AI safety.",
+          "ja": "要するに、Anthropicは独立した監査機関に社内AIシステムの自由な検証を認め、AI安全性の新たな標準を築こうとしているということです。",
+          "t": 482.31
+        }
+      ],
+      "lang": "en",
+      "t": 393.89
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "AI開発のAnthropicは、非営利組織METRの外部監査チームに対し、社員と同等の権限で社内システムやコードへのアクセスを認めました。監査結果は同社の事前承認なしで公開できます。CEOのDario Amodei氏は銀行検査官のような仕組みだと説明しており、フロンティアAIのリスク管理において自主的な外部監査という新たな業界標準を示す試みです。",
+          "en": "",
+          "lang": "ja",
+          "t": 492.26
+        }
+      ],
+      "t": 492.26
+    },
+    {
+      "kind": "story",
+      "heading_en": "Meta Backtracks on Commercial AI Scraping Terms",
+      "heading_ja": "Meta、法人データを用いたAI学習条項を批判受け削除",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In our fifth tech story, Meta has faced sharp backlash over data privacy. The social media giant recently updated its commercial terms of service in a controversial way.",
+          "ja": "5つ目のテックニュースは、Metaがデータプライバシーを巡り強い反発を受けた件です。同社は最近、法人向け利用規約を議論を呼ぶ形で改定しました。",
+          "t": 523.87
+        },
+        {
+          "speaker": "Mika",
+          "en": "What did those new terms say, and why were businesses angry?",
+          "ja": "改定された規約には何が書かれており、なぜ企業は怒ったのですか。",
+          "t": 534.97
+        },
+        {
+          "speaker": "Alex",
+          "en": "The rules stated Meta could take content from any business website or URL to train its AI models. Legal experts warned this gave Meta free permission to scrape data from corporate websites. Publishers feared Meta was using their hard work without paying licensing fees.",
+          "ja": "企業アカウントのWebサイトやURLのコンテンツをAIモデル学習に利用できると記載されていました。法務専門家は、Metaが企業サイトから自由にデータを収集できる条項だと警告しました。メディア各社は自社の制作物が無償で流用されると警戒しました。",
+          "t": 539.84
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did Meta change its mind after people complained?",
+          "ja": "批判を受けてMetaは方針を変更したのですか。",
+          "t": 556.67
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, it did. After reports by outlets like Ars Technica and TechCrunch, Meta removed the controversial sentence. A Meta spokesperson clarified that the terms only applied to advertising tools and business products, not general web scraping for AI training.",
+          "ja": "はい、撤回しました。Ars TechnicaやTechCrunchの報道後、Metaは問題の文言を削除しました。広報担当者は、この規約は広告ツールやビジネス製品のみに適用され、一般的なAI学習用の収集ではないと釈明しました。",
+          "t": 560.9
+        },
+        {
+          "speaker": "Mika",
+          "en": "Is this issue of AI training data becoming a bigger legal fight everywhere?",
+          "ja": "AI学習データを巡る問題は、各地でさらに大きな法的争いになっているのでしょうか。",
+          "t": 576.99
+        },
+        {
+          "speaker": "Alex",
+          "en": "Absolutely. Big tech firms need massive amounts of new data to train powerful systems. But enterprise companies and content creators want to protect their intellectual property. They do not want AI companies taking their valuable data for free.",
+          "ja": "その通りです。大手テック企業は強力なモデルの訓練に膨大なデータを必要としています。しかし企業やコンテンツ制作者は自らの知的財産を守ろうとしており、貴重なデータを無償で提供することを拒んでいます。",
+          "t": 582.71
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, Meta quickly removed an aggressive contract term after businesses protested against their data being scraped for AI training.",
+          "ja": "要するに、Metaは法人データがAI学習に勝手に流用されるという企業の抗議を受け、強硬な規約条項を即座に削除したということです。",
+          "t": 598.11
+        }
+      ],
+      "lang": "en",
+      "t": 523.87
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Metaが法人向け利用規約を改定し、企業のWebサイトやURLからコンテンツを収集してAI学習に利用できる条項を盛り込んだことに対し、強い批判が巻き起こりました。規約変更により無償でデータを流用されると警戒したメディアや企業が反発したため、Metaは広告関連の記述だったと釈明し該当箇所を削除しました。AI学習データの権利を巡る攻防が続いています。",
+          "en": "",
+          "lang": "ja",
+          "t": 607.49
+        }
+      ],
+      "t": 607.49
+    },
+    {
+      "kind": "health",
+      "heading_en": "AMA Issues First Governance Rules for Agentic AI",
+      "heading_ja": "米医師会、自律型医療AIに関する全米初の統括指針を発表",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, our digital health story. The American Medical Association, or AMA, has released the first national governance framework for agentic artificial intelligence in clinical care.",
+          "ja": "続いて、デジタルヘルスの話題です。米医師会（AMA）が、診療現場で使われる自律型エージェントAIに関する全米初の統括枠組みを発表しました。",
+          "t": 635.81
+        },
+        {
+          "speaker": "Mika",
+          "en": "What exactly is agentic AI, and how does this framework affect doctors and patients?",
+          "ja": "エージェント型AIとは具体的に何ですか、そしてこの指針は医師や患者にどう影響するのでしょうか。",
+          "t": 647.49
+        },
+        {
+          "speaker": "Alex",
+          "en": "Agentic AI means software that can take actions and make decisions on its own. For example, it might order medical tests or draft treatment plans. The AMA prefers the term augmented intelligence to emphasize that AI should support doctors, not replace them.",
+          "ja": "エージェント型AIとは、自ら判断して自律的に行動できるソフトウェアです。検査の発注や治療計画の作成などが該当します。AMAは医師を代替するのではなく支援する役割を強調するため、「拡張知能」という呼称を用いています。",
+          "t": 653.73
+        },
+        {
+          "speaker": "Mika",
+          "en": "What are the main rules in this new medical framework?",
+          "ja": "この新しい医療指針の主要なルールは何ですか。",
+          "t": 669.87
+        },
+        {
+          "speaker": "Alex",
+          "en": "AMA Chief Executive Doctor John Whyte explained that clinical authority must be earned through evidence and proven performance. The guide helps hospitals and regulators decide how much autonomy an AI tool should have. It also sets clear rules for legal liability if an AI tool makes a mistake.",
+          "ja": "AMAのCEOであるJohn Whyte医師は、臨床上の権限は科学的根拠と実証された実績に基づいて付与されるべきだと説明しています。指針はAIツールの自律権限の範囲を判断し、過誤が生じた際の法的責任の明確化を求めています。",
+          "t": 674.39
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is the medical community acting so quickly on this topic?",
+          "ja": "なぜ医療界はこの問題にこれほど迅速に動いているのですか。",
+          "t": 692.59
+        },
+        {
+          "speaker": "Alex",
+          "en": "Doctor Whyte warned that doctors cannot rely on trial and error when patient lives are at stake. Autonomous tools are entering hospitals quickly. This framework gives health leaders a roadmap to protect patient safety while adopting modern digital tools.",
+          "ja": "Whyte医師は、患者の命に関わる場面で試行錯誤に頼ることはできないと警鐘を鳴らしています。自律型ツールが急速に病院へ導入される中、この枠組みは患者の安全を守りつつデジタルツールを取り入れる道筋を示しています。",
+          "t": 697.51
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, the American Medical Association created the first national rules to govern autonomous AI agents in direct clinical practice.",
+          "ja": "要するに、米医師会は直接の臨床現場における自律型AIエージェントの管理と責任を定めた初の全国ルールを策定したということです。",
+          "t": 713.48
+        }
+      ],
+      "lang": "en",
+      "t": 635.81
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米医師会（AMA）が、診療行為を自律的に行うエージェント型AIに関する全米初の統括指針を発表しました。医師の代替ではなく支援を目的とする「拡張知能」と位置づけ、AIへの権限付与は臨床試験の実証データに基づいて段階的に行うべきだと定めています。患者の安全を守るため、法的責任や医師免許との関係について試行錯誤を許さない明確なルール作りが急がれます。",
+          "en": "",
+          "lang": "ja",
+          "t": 723.32
+        }
+      ],
+      "t": 723.32
+    },
+    {
+      "kind": "world",
+      "heading_en": "Cost-of-Living Protests Spark Crisis Talks in France",
+      "heading_ja": "フランス、生活苦デモが暴動化し政府が緊急危機協議",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, a look at the world beyond tech. The French government entered emergency crisis talks over the weekend after violent riots erupted across major cities.",
+          "ja": "それでは、テック以外の世界情勢に目を向けましょう。主要都市で激しい暴動が発生したことを受け、フランス政府は週末に緊急の危機協議に入りました。",
+          "t": 751.03
+        },
+        {
+          "speaker": "Mika",
+          "en": "What triggered these large protests across France, and how serious is the damage?",
+          "ja": "フランス全土での大規模抗議は何がきっかけで、被害はどれほど深刻なのですか。",
+          "t": 761.22
+        },
+        {
+          "speaker": "Alex",
+          "en": "Protests originally began over school conditions and teacher shortages. But they quickly widened into angry demonstrations against high living costs. More than 1,800 people were arrested nationwide after public buildings, shops, and cars were set on fire in Paris, Marseille, and Limoges.",
+          "ja": "抗議は当初、学校環境や教員不足を巡って始まりましたが、生活費高騰に対する怒りのデモへと急速に拡大しました。パリやマルセイユ、リモージュなどで公共施設や店舗、車両が放火され、全土で1800人以上が逮捕されました。",
+          "t": 767.19
+        },
+        {
+          "speaker": "Mika",
+          "en": "How is the French government responding to this widespread unrest?",
+          "ja": "フランス政府はこの広範な混乱にどう対処していますか。",
+          "t": 784.82
+        },
+        {
+          "speaker": "Alex",
+          "en": "Interior Minister Laurent Nuñez said the republic will not yield to violence. President Emmanuel Macron held emergency meetings with ministers and prepared a national televised address.",
+          "ja": "Laurent Nuñez内相は、共和国は暴力に屈しないと述べました。Emmanuel Macron大統領は閣僚と緊急会議を開き、国民向けのテレビ演説を準備しました。",
+          "t": 789.94
+        },
+        {
+          "speaker": "Mika",
+          "en": "Has this protest movement spread outside France as well?",
+          "ja": "この抗議行動はフランス国外にも広がっていますか。",
+          "t": 801.77
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, clashes with police broke out in Milan, Italy, and protesters set up tent camps in Lisbon, Portugal, showing growing public frustration across southern Europe.",
+          "ja": "はい、イタリアのミラノで警察との衝突が起き、ポルトガルのリスボンでは抗議者がテント村を設営するなど、南欧全体で市民の不満が高まっています。",
+          "t": 806.33
+        },
+        {
+          "speaker": "Alex",
+          "en": "In short, escalating riots over living costs have pushed the French government into crisis mode.",
+          "ja": "要するに、生活費高騰を巡る激しい暴動により、フランス政府は危機対応に追われているということです。",
+          "t": 816.97
+        }
+      ],
+      "lang": "en",
+      "t": 751.03
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "フランス各地で物価高や学校環境の悪化に抗議する大規模デモが暴動に発展し、全土で1800人以上が逮捕されました。リモージュ市庁舎が放火されるなど被害が拡大し、Macron大統領は緊急閣僚会議を開き国民向け演説を準備しています。同様の抗議活動はイタリアのミラノやポルトガルのリスボンにも波及しており、南欧で生活費高騰に対する不満が高まっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 823.79
+        }
+      ],
+      "t": 823.79
+    },
+    {
+      "kind": "world",
+      "heading_en": "Diplomatic Tensions Rise After West Bank Settler Assaults",
+      "heading_ja": "ヨルダン川西岸、入植者が欧州外交官らを襲撃し外交摩擦へ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Next in world news, diplomatic tensions are rising in the Middle East following violent attacks by Israeli settlers in the occupied West Bank.",
+          "ja": "次の国際ニュースです。占領下のヨルダン川西岸でイスラエル人入植者による暴力事件が発生し、中東での外交緊張が高まっています。",
+          "t": 851.19
+        },
+        {
+          "speaker": "Mika",
+          "en": "Who was attacked, and what were they doing in the area?",
+          "ja": "誰が襲撃され、現地で何をしていたのですか。",
+          "t": 860.6
+        },
+        {
+          "speaker": "Alex",
+          "en": "On Saturday, masked settlers assaulted European diplomats, a French mayor, and a Catholic archbishop near the town of Taybeh. The officials were visiting Palestinian farmers during the olive harvest. Three people were injured, and a diplomatic vehicle was damaged.",
+          "ja": "土曜日、タイベ近郊で覆面をした入植者が欧州の外交官やフランスの市長、カトリックの大司教を襲撃しました。関係者はオリーブ収穫中のパレスチナ人農家を訪問していました。3名が負傷し外交車両が破損しました。",
+          "t": 865.1
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did this happen alongside another high-profile attack on a journalist?",
+          "ja": "ジャーナリストに対する別の注目された襲撃事件もあったのでしょうか。",
+          "t": 881.37
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, a day earlier, settlers severely beat award-winning American photojournalist Heidi Levine, breaking her ribs and hand. United States Ambassador Mike Huckabee strongly condemned the attack on Levine, calling it a despicable act of terror and demanding criminal prosecution.",
+          "ja": "はい、前日に受賞歴のある米国の写真記者Heidi Levine氏が入植者に激しく暴行され、肋骨や手を骨折しました。米国のMike Huckabee駐イスラエル大使は卑劣なテロ行為だと強く非難し、犯人の逮捕と起訴を求めました。",
+          "t": 886.72
+        },
+        {
+          "speaker": "Mika",
+          "en": "How has the international community reacted to these violent incidents?",
+          "ja": "国際社会はこれらの一連の暴力事件にどう反応していますか。",
+          "t": 903.73
+        },
+        {
+          "speaker": "Alex",
+          "en": "The European Union and French officials strongly condemned the violence and demanded full accountability from the Israeli government.",
+          "ja": "欧州連合とフランス当局は暴力を強く非難し、イスラエル政府に対して完全な説明責任と真相究明を要求しました。",
+          "t": 909.14
+        },
+        {
+          "speaker": "Alex",
+          "en": "In short, violent settler attacks against diplomats and a journalist have triggered severe international diplomatic backlash.",
+          "ja": "要するに、外交官や著名記者に対する入植者の暴力的な襲撃が、深刻な国際的外交摩擦を引き起こしているということです。",
+          "t": 918.03
+        }
+      ],
+      "lang": "en",
+      "t": 851.19
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ヨルダン川西岸地区でオリーブ収穫を視察していた欧州の外交官やフランスの市長、大司教が覆面のイスラエル人入植者に襲撃され負傷しました。前日には米写真記者のHeidi Levine氏も暴行を受け重傷を負っており、米国のHuckabee駐イスラエル大使は卑劣なテロ行為として逮捕と起訴を要求しました。外交官らへの直接攻撃を受け、欧米各国の批判が強まっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 926.93
+        }
+      ],
+      "t": 926.93
+    },
+    {
+      "kind": "world",
+      "heading_en": "Trump Waives Key Congressional Russia Sanctions",
+      "heading_ja": "Trump米大統領、議会のロシア制裁を一部一時停止",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Finally in world news, United States President Donald Trump has temporarily waived key congressional sanctions against Russia, sparking sharp debate in Washington.",
+          "ja": "国際ニュースの最後は、米国のDonald Trump大統領が議会の対ロシア主要制裁を一時停止し、米国内で激しい議論を呼んでいる話題です。",
+          "t": 956.71
+        },
+        {
+          "speaker": "Mika",
+          "en": "What did these sanctions target, and why did Trump put them on hold?",
+          "ja": "これらの制裁は何を対象としており、なぜTrump大統領は適用を保留したのですか。",
+          "t": 967.84
+        },
+        {
+          "speaker": "Alex",
+          "en": "Congress recently passed the bipartisan sanctions to punish Russian energy exports, financial institutions, and shipping vessels. However, Trump signed an executive order pausing several measures for sixty days. Secretary of State Marco Rubio said the administration needs time to study potential economic impacts.",
+          "ja": "米議会はロシアのエネルギー輸出や金融機関、輸送船を対象とする超党派制裁法を可決したばかりでした。しかしTrump大統領は大統領令で一部措置を60日間猶予しました。Marco Rubio国務長官は、世界経済への影響を分析する時間が必要だと説明しています。",
+          "t": 973.34
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did Ukrainian President Volodymyr Zelenskyy respond to the decision?",
+          "ja": "ウクライナのVolodymyr Zelenskyy大統領はこの決定にどう反応しましたか。",
+          "t": 993.42
+        },
+        {
+          "speaker": "Alex",
+          "en": "President Zelenskyy expressed deep disappointment, saying the sanctions were vital to pressure Moscow. He highlighted that Russian strikes just hit fifteen Ukrainian energy facilities, threatening blackouts ahead of winter.",
+          "ja": "Zelenskyy大統領は深い失望を表明し、ロシアに圧力をかけるために制裁は不可欠だと訴えました。また、ロシアが15か所のエネルギー施設を攻撃し、冬を前に停電の危機にあることを強調しました。",
+          "t": 999.16
+        },
+        {
+          "speaker": "Mika",
+          "en": "What are American lawmakers saying about the president's move?",
+          "ja": "米国の議員たちは大統領のこの動きについて何と言っていますか。",
+          "t": 1013.84
+        },
+        {
+          "speaker": "Alex",
+          "en": "Lawmakers from both parties criticized the decision. Democrats accused Trump of weakening support for Kyiv, while some key Republicans called the waiver a reckless mistake.",
+          "ja": "与野党双方の議員が批判しています。民主党はキーウへの支援を後退させたと非難し、一部の有力共和党議員も制裁猶予は無謀な過ちだと苦言を呈しました。",
+          "t": 1018.99
+        },
+        {
+          "speaker": "Alex",
+          "en": "In short, Trump paused major Russian sanctions, deepening political divisions at home and straining ties with Ukraine.",
+          "ja": "要するに、Trump大統領が主要なロシア制裁を保留したことで、国内の政治的対立が深まり、ウクライナとの関係も緊張しているということです。",
+          "t": 1030.66
+        }
+      ],
+      "lang": "en",
+      "t": 956.71
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Donald Trump米大統領は、議会が可決した対ロシア制裁法の施行直前に、大統領令で主要な制裁を60日間一時停止すると発表しました。世界経済への影響を分析するためと説明していますが、米議会では与野党双方から無謀だと批判の声が上がっています。ウクライナのZelenskyy大統領は、冬を前に電力施設が爆撃を受ける中での制裁猶予は極めて遺憾だと強く反発しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 1039.12
+        }
+      ],
+      "t": 1039.12
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "Executive Voices on Autonomous Agents",
+      "heading_ja": "自律型エージェントを巡るリーダーたちの発言",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In CEO Watch today, Replit chief executive Amjad Masad spoke about the future of work. He envisions self-driving companies, where autonomous AI agents handle daily operations while people focus on big decisions.",
+          "ja": "本日のCEOウォッチでは、ReplitのCEOであるAmjad Masad氏が仕事の未来について語りました。自律型AIエージェントが日常業務をこなし、人間は重要な意思決定に集中する「自動運転企業」の構想を掲げています。",
+          "t": 1069.7
+        },
+        {
+          "speaker": "Mika",
+          "en": "Meanwhile, Doctor John Whyte, chief executive of the American Medical Association, addressed healthcare leaders. He said AI is advancing into critical clinical functions, raising urgent questions about authority and accountability that cannot wait for trial and error.",
+          "ja": "一方、米医師会CEOのJohn Whyte医師は医療リーダーらに向けて発言しました。AIが極めて重要な診療機能へ進出する中、権限と説明責任を巡る緊急の課題は、試行錯誤を待つ猶予はないと警鐘を鳴らしました。",
+          "t": 1083.67
+        },
+        {
+          "speaker": "Alex",
+          "en": "Two leaders looking at how software agents are transforming both businesses and medicine.",
+          "ja": "ソフトウェアエージェントがビジネスと医療の双方をどう変革しているかを示す2つの発言でした。",
+          "t": 1101.02
+        }
+      ],
+      "lang": "en",
+      "t": 1069.7
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: Pull the Plug",
+      "heading_ja": "今日のフレーズ：Pull the Plug",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's phrase of the day is \"pull the plug.\" Alex mentioned that Microsoft decided to pull the plug on its UK data center partnership.",
+          "ja": "今日のフレーズは「pull the plug」です。Alexが、Microsoftが英国のデータセンター提携を打ち切る（pull the plug on）と決定した際に使いましたね。",
+          "t": 1108.22
+        },
+        {
+          "speaker": "Alex",
+          "en": "To pull the plug on something means to stop an activity or project suddenly, usually by cutting off support or money.",
+          "ja": "何かに「pull the plug」するとは、支援や資金提供を打ち切ることで、活動やプロジェクトを途中で突然中止することを意味します。",
+          "t": 1116.48
+        },
+        {
+          "speaker": "Mika",
+          "en": "Exactly. For example: \"The company decided to pull the plug on the new smartphone app after three months.\" A very practical phrase for business discussions.",
+          "ja": "その通りです。例えば、「その会社は3か月後に新しいスマートフォンアプリの開発を打ち切ることを決めました」のように使えます。ビジネスでとても役立つ表現です。",
+          "t": 1123.82
+        }
+      ],
+      "lang": "en",
+      "t": 1108.22
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Wrap-Up and Sign-Off",
+      "heading_ja": "まとめと終了のご挨拶",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That wraps up today's episode. From semiconductor partnerships to medical AI rules, technology is forcing industries to rethink how they operate.",
+          "ja": "本日のエピソードは以上です。半導体の連携から医療AIのルール作りまで、テクノロジーはあらゆる産業に仕組みの再考を迫っています。",
+          "t": 1133.16
+        },
+        {
+          "speaker": "Mika",
+          "en": "Keep listening each weekday morning to build your English vocabulary while staying informed on global news.",
+          "ja": "平日の毎朝、この番組を聴いて世界の最新ニュースを押さえながら英語の語彙を広げていきましょう。",
+          "t": 1141.94
+        },
+        {
+          "speaker": "Alex",
+          "en": "Thank you for listening, and we will see you on tomorrow's commute.",
+          "ja": "お聴きいただきありがとうございました。それでは、明日の通勤時間にお会いしましょう。",
+          "t": 1148.76
+        }
+      ],
+      "lang": "en",
+      "t": 1133.16
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。今週も気をつけていってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 1153.51
+        }
+      ],
+      "t": 1153.51
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Samsung Partners with TSMC to Build Base Dies for Nvidia Next-Generation AI Memory",
+      "title_ja": "Samsung、NVIDIA次世代AIメモリー製造で競合TSMCと異例の提携",
+      "summary_ja": "SamsungがNVIDIAの次世代AI向けメモリーチップ（NVHBM）の製造において、競合のTSMCと提携することになりました。積層メモリーの基礎となるベースダイをTSMCの先端3ナノメートル技術で製造します。激しく覇権を争ってきたファウンドリ大手が手を組む異例の協業となります。",
+      "why_ja": "AI半導体の製造難易度が極限に達する中、競合同士の水平分業が不可逆的に進み、半導体サプライチェーン全体の構造変化を促す重要な契機となります。",
+      "section": "tech",
+      "topic_key": "samsung-tsmc-nvidia-nvhbm",
+      "companies": [
+        "Samsung",
+        "TSMC",
+        "Nvidia"
+      ],
+      "sources": [
+        {
+          "publisher": "https://tech-insider.org/",
+          "title": "Samsung Taps TSMC 3nm for Nvidia NVHBM Chips [2026]",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5lU3VIa096VDdKaTZIU3VFWEtqa1V1UVpzR1gzWlNYR0g1bElnbGVWN2d6T1JUR1c5aVlUcGNRR3d3UVRYS2thVWRSYTRkTHhUTFFpaXh3alNIU0NoTEJYcHUxN2ZMODd6UDFkNkU2TWROVV9SYUVUMXh6ZC1TUQ?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Samsung to use TSMC technology for Nvidia's next-generation memory chips, Seoul newspaper reports",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQLVd3RU5QdzNwZHd0cUNCbUQxM3B6M2JOTXZZbEE4b3Y4czkxSjBuNklIRXU2S1VyRld6WTlRQUdlZkN3TGNRcng5cjR6ZEViNXNqcHh2RnlRU2hWVXRPUVFjVXRvd2FaaTVkd002aUk4WHlEQ2wxTGk3alF5S0FUTGNMUXF2dV9QUjk4eThjcWVPaVBLYzc2c0NUaUN4UUVMcVZTSERiMDE5VXp0NDdoVFpuS2E0TGZoUnBrRTExcnZDRlJia1VNcU40SUxQcE1y?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Microsoft Abruptly Scraps Multi-Billion Pound UK Data Center Partnership with Nscale",
+      "title_ja": "Microsoft、英Nscaleとの数十億ポンド規模のデータセンター提携を解消",
+      "summary_ja": "Microsoftが英国のNscaleと進めていた数十億ポンド規模のAIデータセンター建設計画を突如中止しました。欧州における送電網接続の遅れや電力制約、資本配分の厳格化が背景にあると報じられています。大手テックの欧州インフラ投資計画に大きな見直しが迫られています。",
+      "why_ja": "欧州でのAIデータセンター開発において電力供給が最大の制約要因となっており、巨額投資に対する費用対効果の精査が加速していることを示唆しています。",
+      "section": "tech",
+      "topic_key": "microsoft-nscale-datacenter-cancellation",
+      "companies": [
+        "Microsoft",
+        "Nscale"
+      ],
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "title": "Microsoft pulls out of UK data center deal with Nscale, Telegraph reports",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMmVDUVQyZjhnbFN2MHQ1MHVPMHVpLVVsUFE1aU44Y2QzMUx2a25MRXR5OWtkTGd5RkViaG9fM3lZcnFHblYyT2xMeGZ3MHI3NkFjQ0FhdWFVRWlmdHlPRDRFRVRsclFpbUExakpiN3Z4aGMtODdDb09Mb0xXbnIxdU04ZmQ3UTEyTkhQd2EyMFhDNzQzYVgzZG9FeDlNYTJTanNOOThVSGRTb2RnRWdCajBVXzFMcDB4MWZpbXR1STMzZ1JaOXRr?oc=5"
+        },
+        {
+          "publisher": "Bloomberg.com",
+          "title": "Microsoft Scraps UK Data Center Deal With Nscale, Telegraph Says",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYXhlWkpqYnAwNVVYQjBLWTdQdi1HYm50VjhBQ3UwTkNhc0gtTGhoMnluWGxuMVdmZWM3eFRjVFA5dWZ0STlFRVJ6S090WVFveFF1RVNjcHFpd2ZNTFJfamxDNGl6YTNrSmkta2pteXpnMElHVXVjcUI5WDNlemltdVRSZURQUXBmcTFrV0NyY2R0a3J1clFlOGU2RjRTbVRnbzRnU3NvRktJR3g3RUw4Zm9vTnE?oc=5"
+        },
+        {
+          "publisher": "Financial Times",
+          "title": "Microsoft pulls plug on Nscale data centre deal",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc2tKTy15UEJzWmJFTzV1WVFLb1VURGtPYzYzbi14T1ZXZlpudjBTR1AybllYQ3V0dk9VNDFXUHY2ZzRLd3dtNzdEbmd3cTNSbFJoaER5d25sSlRubjhpOFVBNHVGTjliNUJKcEZtNHRiQmNTZGVfS1F4ZEFOMF9uQTJpR1c?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Taiwan Imposes Five-Year Prison Sentences for Illicit AI Server Exports to China",
+      "title_ja": "台湾、中国へのAIサーバー密輸に対し最長5年の禁錮刑を科す法改正",
+      "summary_ja": "台湾政府は貿易法を改正し、最先端AIサーバーや半導体を中国へ不正輸出した個人や企業に最長5年の禁錮刑と罰金を科す方針を打ち出しました。Super Micro元幹部らによる25億ドル規模の密輸事件や台北オフィスの家宅捜索を受けた法制化です。米国との貿易協定に基づく制裁基準の統合が進んでいます。",
+      "why_ja": "東アジアの半導体ハブである台湾が対中抜け道を刑事罰で厳しく塞ぐことで、グローバルな先端AIハードウェア供給網の安全保障基準が一段と厳格化されます。",
+      "section": "tech",
+      "topic_key": "taiwan-export-controls-ai-servers",
+      "companies": [
+        "Super Micro",
+        "Nvidia"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Taiwan targets illicit AI server exports to China with five-year prison terms",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/taiwan-targets-illicit-ai-server-exports-to-china-with-five-year-prison-terms-strict-new-controls-follow-us-tariff-deal-and-super-micro-raid"
+        }
+      ]
+    },
+    {
+      "title_en": "Anthropic Grants Independent AI Watchdog Unilateral Access to Audit Frontier Models",
+      "title_ja": "Anthropic、外部安全組織METRに社員同等の監査権限を付与",
+      "summary_ja": "AI開発大手のAnthropicは、非営利組織METRの研究チームに対し、社員同等の権限で社内システムやコードへアクセスする権限を与えました。METRは同社の承認なしに監査結果を公表できます。CEOのAmodei氏は銀行検査のような常駐監査体制を目指しています。",
+      "why_ja": "フロンティアAIモデルの暴走や悪用を防ぐため、企業主導の自主規制として独立監査を制度化する動きであり、今後の国際的なAI統治枠組みのモデルケースとなります。",
+      "section": "tech",
+      "topic_key": "anthropic-independent-safety-auditor",
+      "companies": [
+        "Anthropic",
+        "METR",
+        "OpenAI"
+      ],
+      "sources": [
+        {
+          "publisher": "Ars Technica",
+          "title": "Anthropic gives outside AI watchdog “employee-like” access",
+          "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/"
+        }
+      ]
+    },
+    {
+      "title_en": "Meta Faces Backlash Over Commercial Terms Permitting AI Training on Business Customer Data",
+      "title_ja": "Meta、法人顧客データを用いたAI学習条項を抗議受け撤回",
+      "summary_ja": "Metaが法人向け利用規約を改定し、企業サイトのコンテンツを自社AIモデルの学習に利用できる条項を追加したことで強い批判を浴びました。無償でデータが収集されることを警戒した企業やメディアが反発し、Metaは該当の記述を削除しました。同社は広告ツールの文脈だったと釈明しています。",
+      "why_ja": "ビッグテックがAIモデル訓練用の良質なデータを求める中、法人のデータ主権や知的財産保護との間で生じる摩擦が浮き彫りになっています。",
+      "section": "tech",
+      "topic_key": "meta-commercial-tos-ai-scraping",
+      "companies": [
+        "Meta"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "Meta removes language that raised scraping and AI training concerns",
+          "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
+        },
+        {
+          "publisher": "The Register",
+          "title": "Meta grants itself right to scrape content from business customers for model training",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/16/meta-grants-itself-right-to-scrape-content-from-business-customers-for-model-training/5303658"
+        },
+        {
+          "publisher": "Ars Technica",
+          "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+          "url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/"
+        }
+      ]
+    },
+    {
+      "title_en": "American Medical Association Releases First National Governance Framework for Agentic AI",
+      "title_ja": "米医師会、自律型医療AIエージェントの臨床統括指針を策定",
+      "summary_ja": "米医師会（AMA）は、診療行為を自律的に担うエージェント型AIに関する全米初の統括指針を発表しました。AIを医師の代替ではなく「拡張知能」と位置づけ、臨床上の権限付与は実証された実績に基づくべきだと定めています。法的責任や医師免許、規制のあり方について具体的な基準を示しました。",
+      "why_ja": "患者の生命に直結する医療現場で自律型AIの導入が進む中、臨床責任の所在と医師の監督義務を明確化する医療政策の重要な指標となります。",
+      "section": "health",
+      "topic_key": "ama-agentic-ai-clinical-governance",
+      "companies": [
+        "American Medical Association"
+      ],
+      "sources": [
+        {
+          "publisher": "Fierce Healthcare",
+          "title": "American Medical Association rolls out governance framework for agentic AI solutions",
+          "url": "https://www.fiercehealthcare.com/regulatory/american-medical-association-rolls-out-governance-framework-agentic-ai-solutions"
+        }
+      ]
+    },
+    {
+      "title_en": "French Government Enters Crisis Talks as Cost-of-Living Riots Spread Across Southern Europe",
+      "title_ja": "フランスで生活苦抗議デモが激化、1800人逮捕で政府が危機協議へ",
+      "summary_ja": "フランス各地で教員不足や教育環境への不満から始まったデモが生活費高騰に対する大規模暴動へと発展し、全国で1800人以上が逮捕されました。リモージュ市庁舎が放火されるなど被害が拡大し、Macron政権は緊急閣僚協議を開きました。イタリアやポルトガルでも同様の抗議行動が確認されています。",
+      "why_ja": "インフレと生活費高騰に対する国民の不満が南欧全体で治安リスクへと発展しており、欧州の政治的安定と経済政策に深刻な課題を突きつけています。",
+      "section": "world",
+      "topic_key": "europe-cost-of-living-riots",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "French government in crisis talks after ‘colossal failure of the state’",
+          "url": "https://www.theguardian.com/world/2026/oct/18/french-government-crisis-talks-violent-unrest-policing-macron"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
+          "url": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
+          "url": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "‘We are suffocating’: protests spread to Lisbon and Milan as housing and living cost tensions intensify",
+          "url": "https://www.theguardian.com/world/2026/oct/18/lisbon-milan-protests-housing-living-costs"
+        },
+        {
+          "publisher": "NPR",
+          "title": "French police arrest 1,800 after violent clashes and looting mar protests",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france"
+        },
+        {
+          "publisher": "The New York Times",
+          "title": "Huge Riots and Anti-Government Protests in France: What to Know",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GYnoxd1dncFRldUlCNW5vMDEydGR3U1VpY1RtQVNQdGJGTlItUVpoR1U2dUwyNVNoQU1uQzBDNU5LWUl2UTc2REswb3QzQjVpcFlEVGZhOWxJd3J0RTlIbU4xeUN2RmtIU1IyLWxaaGctZw?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Diplomatic Tensions Surge After Israeli Settlers Attack European Officials in West Bank",
+      "title_ja": "ヨルダン川西岸で入植者が欧州外交官や米記者を襲撃、外交緊張高まる",
+      "summary_ja": "パレスチナのヨルダン川西岸地区で、覆面をしたイスラエル人入植者が欧州の外交団やフランスの市長、大司教らを襲撃し負傷させました。前日には米国の著名写真記者Heidi Levine氏も激しい暴行を受けて骨折しました。米国やEUは強く非難し、責任者の処罰を求めています。",
+      "why_ja": "外国の外交官や米国民に対する直接的な暴力行為が発生したことで、イスラエル政府に対する国際的な非難と外交的圧力が一段と強まっています。",
+      "section": "world",
+      "topic_key": "west-bank-settler-attacks-diplomats",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "JERUSALEM DAILY: Settlers attack EU diplomats",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/aje-onl-nf_draft-2-yt-short-oct-18-p-daily-1-181026?traffic_source=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "US ambassador to Israel calls West Bank settler attack on American photojournalist ‘terror’",
+          "url": "https://www.theguardian.com/world/2026/oct/18/us-ambassador-israel-mike-huckabee-west-bank-settler-attack-photojournalist-heidi-levine"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "French mayor attacked by settlers during occupied West Bank olive harvest",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/18-10-sv-mayor-of-france-assaulted-by-settlers-ps?traffic_source=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "EU condemns Israeli settler attack on diplomats in occupied West Bank",
+          "url": "https://www.aljazeera.com/news/2026/10/18/eu-condemns-israeli-settler-attack-on-diplomats-in-occupied-west-bank?traffic_source=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Israeli settlers attack European diplomats in West Bank",
+          "url": "https://www.theguardian.com/world/2026/oct/17/israeli-settlers-attack-european-diplomats-in-west-bank"
+        },
+        {
+          "publisher": "CBS News",
+          "title": "U.S. ambassador to Israel calls for \"arrest and prosecution\" of Heidi Levine's West Bank settler attackers",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVWVOVVE1UGhXd1lqWC03MXFfRldCRnpoUDJvUGtGNkxsSThFdlZici1VYjNNOWpETGVMZUF1MHRFRlRuUU9uaEdDWF9id0NFeGlWNWlZWHVzNUV3VUFtOU1CclYtczdDR2xOSi12RUtfS0tmVXdaNTNsTzZJeWJDUEtHOA?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Trump Issues Waivers on Key Congressional Russia Sanctions Amid Deepening Rift with Kyiv",
+      "title_ja": "Trump米大統領、議会のロシア制裁を一時猶予、ウクライナは反発",
+      "summary_ja": "Donald Trump米大統領は、米議会が可決したロシアに対する新たな制裁法の施行直前に、大統領令により主要な制裁措置を60日間一時停止しました。世界経済への影響を分析するためと説明していますが、ウクライナのZelenskyy大統領は電力インフラ攻撃が続く中での猶予に強い失望を表明しました。",
+      "why_ja": "米国の対露制裁姿勢の軟化は西側諸国の協調体制に亀裂を生じさせ、ウクライナ情勢の地政学的先行きに大きな不確実性をもたらしています。",
+      "section": "world",
+      "topic_key": "us-russia-sanctions-waiver-zelenskyy",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6006745/us-sanctions-russia"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "base die",
+      "meaning_ja": "ベースダイ（積層半導体の最下層に配置される基礎チップ）",
+      "note_ja": "半導体業界でよく使われる用語。上に積むメモリーチップとプロセッサ間の配線や接続を担う基盤回路です。",
+      "example_en": "Think of a base die as the foundation of a building."
+    },
+    {
+      "term": "pull the plug",
+      "meaning_ja": "（計画や事業を）中止する、打ち切る",
+      "note_ja": "電気のプラグを抜いて電源を切るイメージから、資金や支援を断ってプロジェクトを中断させる意味の日常・ビジネス表現です。",
+      "example_en": "Why did Microsoft pull the plug on this deal so suddenly?"
+    },
+    {
+      "term": "power grid",
+      "meaning_ja": "送電網、電力網",
+      "note_ja": "発電所から各施設へ電気を運ぶネットワーク。データセンター新設の際に接続期間や送電容量が大きな課題になります。",
+      "example_en": "In the United Kingdom, connecting to the power grid can take years."
+    },
+    {
+      "term": "illicit",
+      "meaning_ja": "違法の、不正な",
+      "note_ja": "法律や社会通念に反していることを表す単語で、illicit trade（不正貿易）やillicit exports（不正輸出）などの形で使われます。",
+      "example_en": "The Taiwanese government is expanding its Foreign Trade Act to block illicit AI server sales to China."
+    },
+    {
+      "term": "align",
+      "meaning_ja": "（方針や基準を）合わせる、一致させる",
+      "note_ja": "align A with Bの形で、複数の国や組織が政策や戦略の足並みを揃える際によく使われます。",
+      "example_en": "Taiwan is aligning its policies with United States trade restrictions."
+    },
+    {
+      "term": "watchdog",
+      "meaning_ja": "監視組織、監視団体",
+      "note_ja": "本来は番犬を意味し、企業や政府の不正や安全基準を第三者としてチェックする機関を指します。",
+      "example_en": "It is giving an outside safety watchdog employee-level access to inspect its most powerful models."
+    },
+    {
+      "term": "embedded",
+      "meaning_ja": "常駐した、組み込まれた",
+      "note_ja": "組織の内部に深く入り込んで業務を行う状態を表します。軍に同行する従軍記者などにも使われます。",
+      "example_en": "Its researchers are now embedded inside Anthropic offices."
+    },
+    {
+      "term": "terms of service",
+      "meaning_ja": "利用規約、サービス利用規約",
+      "note_ja": "Webサービスやクラウド製品を利用する際に合意する法的な取り決め全般を指します。略称はTOS。",
+      "example_en": "The social media giant recently updated its commercial terms of service in a controversial way."
+    },
+    {
+      "term": "agentic AI",
+      "meaning_ja": "自律型AI、エージェント型AI",
+      "note_ja": "指示を待つだけでなく、自らゴールを設定し計画を立てて自律的にタスクを遂行する次世代AI技術です。",
+      "example_en": "The American Medical Association, or AMA, has released the first national governance framework for agentic artificial intelligence in clinical care."
+    },
+    {
+      "term": "augmented intelligence",
+      "meaning_ja": "拡張知能（人間の能力を支援・補強するAI）",
+      "note_ja": "AIを人間の代替（Artificial Intelligence）とみなすのではなく、人間の専門性を高める道具として強調する言葉です。",
+      "example_en": "The AMA prefers the term augmented intelligence to emphasize that AI should support doctors, not replace them."
+    },
+    {
+      "term": "accountability",
+      "meaning_ja": "説明責任、責任の所在",
+      "note_ja": "政策や企業統治、医療過誤などの場面で、結果に対して誰がどう責任を負うかを論じる際の重要語です。",
+      "example_en": "He said AI is advancing into critical clinical functions, raising urgent questions about authority and accountability that cannot wait for trial and error."
+    },
+    {
+      "term": "waiver",
+      "meaning_ja": "（権利や制裁の）放棄、適用除外、猶予",
+      "note_ja": "動詞waiveの名詞形。法律や義務、経済制裁の適用を一時的または恒久的に免除・猶予する公的手続きを指します。",
+      "example_en": "Democrats accused Trump of weakening support for Kyiv, while some key Republicans called the waiver a reckless mistake."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "pull the plug",
+    "meaning_ja": "（計画や支援などを）途中で打ち切る、中止する",
+    "example_en": "The company decided to pull the plug on the new smartphone app after three months.",
+    "example_ja": "その会社は3か月後に新しいスマートフォンアプリの開発を打ち切ることを決めました。"
+  }
+}
