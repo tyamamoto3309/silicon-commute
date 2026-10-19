@@ -1,0 +1,1170 @@
+{
+  "date": "2026-10-20",
+  "published": "2026-10-20T05:59:55+09:00",
+  "title_en": "Amazon's Nuclear Bet, Industrial AI, and EHR Drug Prices",
+  "title_ja": "Amazonの原発投資、産業用AI、電子カルテ薬価表示",
+  "summary_ja": "AmazonがAIデータセンター向けに小型原子炉の建設計画を支援し、Nvidiaはドイツ政府と産業用AIで提携しました。医療分野では電子カルテ最大手Epicが処方薬のリアルタイム価格比較機能を導入します。世界情勢ではフランスの夜間外出禁止令やケニアのエボラ出血熱感染、イエメンの軍事衝突を取り上げます。",
+  "duration": 1265.0,
+  "audio": {
+    "file": "2026-10-20.mp3",
+    "bytes": 10120124,
+    "release_tag": "ep-2026-10-20"
+  },
+  "word_count": 2316,
+  "ja_chars": 1515,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.7-flash",
+    "write": "gemini-3.7-flash",
+    "revise": "gemini-3.7-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Welcome to Commute News",
+      "heading_ja": "Commute Newsへようこそ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it is Tuesday, October 20. This is Commute News. Welcome to your daily briefing on global technology, digital health, and world events.",
+          "ja": "おはようございます。10月20日火曜日、Commute Newsです。世界のテクノロジー、デジタルヘルス、そして国際情勢のデイリー解説をお届けします。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, Alex! Today, Amazon backs a massive nuclear power deal for its artificial intelligence datacenters in the United States.",
+          "ja": "おはようございます、Alex！本日は、Amazonが自社の米国内AIデータセンター向けに大規模な原子力発電契約を支援するニュースを取り上げます。",
+          "t": 9.91
+        },
+        {
+          "speaker": "Mika",
+          "en": "In digital health, electronic medical record giant Epic helps patients see cheap drug cash prices right inside the clinic before leaving the doctor's office.",
+          "ja": "デジタルヘルスでは、電子カルテ大手のEpicが、診察室を出る前にその場で安価な処方薬の現金価格を確認できる仕組みを導入します。",
+          "t": 18.96
+        },
+        {
+          "speaker": "Mika",
+          "en": "And in world news, France imposes night curfews in major cities after violent weekend riots over the cost of living.",
+          "ja": "そして国際ニュースでは、生活費高騰を巡る週末の激しい暴動を受けてフランスが主要都市で夜間外出禁止令を発令しました。",
+          "t": 29.33
+        },
+        {
+          "speaker": "Alex",
+          "en": "We have plenty of fascinating stories to cover today, so let us jump right into our top tech stories.",
+          "ja": "本日も注目の話題が満載です。それでは最初のテックニュースから見ていきましょう。",
+          "t": 37.36
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Amazon Backs Indiana Small Nuclear Reactor Project",
+      "heading_ja": "Amazon、米インディアナ州の小型原子炉建設計画を支援",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our first story is about power for artificial intelligence. Amazon is funding a major new nuclear power plant in Indiana to feed its growing datacenters.",
+          "ja": "最初のニュースは、人工知能のための電力についてです。Amazonが拡大するデータセンターへの電力供給に向け、米インディアナ州の大型新設原発プロジェクトに資金を拠出しています。",
+          "t": 44.53
+        },
+        {
+          "speaker": "Alex",
+          "en": "The facility will feature twelve Xe-100 small modular reactors supplied by X-energy. Together, these reactors will generate nine hundred sixty megawatts of carbon-free electricity, which is nearly one full gigawatt.",
+          "ja": "この施設はX-energy社が供給するXe-100小型モジュール炉12基を採用します。合計で960メガワット、ほぼ丸々1ギガワットに相当する二酸化炭素排出ゼロの電力を発電します。",
+          "t": 54.67
+        },
+        {
+          "speaker": "Mika",
+          "en": "Where will they build these reactors, and who will manage daily operations?",
+          "ja": "これらの原子炉はどこに建設され、日々の運転管理は誰が行うのですか？",
+          "t": 68.34
+        },
+        {
+          "speaker": "Alex",
+          "en": "They will build them on the site of a demolished coal power plant in Sullivan County, Indiana. The regional utility company American Electric Power will operate the facility. The clean electricity will flow into the public power grid while directly serving Amazon datacenters.",
+          "ja": "インディアナ州サリバン郡にある解体された石炭火力発電所の跡地に建設されます。地域の電力会社であるAmerican Electric Powerが運転を担当します。クリーンな電力は一般送電網に供給されつつ、Amazonのデータセンターにも直接電力を送ります。",
+          "t": 74.03
+        },
+        {
+          "speaker": "Mika",
+          "en": "Has X-energy already built and operated this reactor model before?",
+          "ja": "X-energy社はこの設計の原子炉をすでに建設し、運転した実績があるのですか？",
+          "t": 91.18
+        },
+        {
+          "speaker": "Alex",
+          "en": "No, not yet. X-energy has not finished its very first commercial installation at a Dow Chemical site in Texas, where federal regulators are still reviewing the construction permit. However, Amazon previously led a seven hundred million dollar investment round in X-energy, and the two partners plan to build five gigawatts of nuclear capacity by 2039.",
+          "ja": "いいえ、まだありません。X-energy社はテキサス州のダウ・ケミカル敷地における初の商業炉すら完成させておらず、連邦規制当局による建設許可の審査が続いています。それでもAmazonは過去に同社への7億ドルの出資ラウンドを主導しており、両社は2039年までに計5ギガワットの原発を建設する計画です。",
+          "t": 96.36
+        },
+        {
+          "speaker": "Alex",
+          "en": "Big tech firms need massive amounts of clean electricity that runs constantly day and night. By shrinking reactors and manufacturing parts in factories, developers hope to avoid the huge budget overruns and delays of older nuclear projects.",
+          "ja": "大手テック企業は、昼夜を問わず連続稼働する膨大な量のクリーン電力を必要としています。原子炉を小型化して工場で部品を量産することで、従来の原発プロジェクトが直面してきた巨額の予算超過や工期遅延を回避できると期待されています。",
+          "t": 117.77
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Amazon is funding twelve small reactors at a former coal site to guarantee dependable, clean power for AI workloads.",
+          "ja": "つまり手短に言うと、AmazonはAI処理に不可欠な信頼性の高いクリーン電力を確保するため、元石炭発電所の敷地に12基の小型原子炉を建設する資金を提供しているのですね。",
+          "t": 132.86
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly, it is a huge bet on next-generation nuclear technology.",
+          "ja": "その通りです。次世代原子力技術に対する巨額の賭けと言えます。",
+          "t": 141.69
+        }
+      ],
+      "lang": "en",
+      "t": 44.53
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。AmazonはX-energyおよび電力大手American Electric Powerと提携し、インディアナ州の石炭火力発電所跡地に小型モジュール炉12基、出力960メガワットの原発を建設する計画に資金を提供します。電力は一般送電網を経由してAIデータセンターに常時供給される計画で、2039年までに計5ギガワットを目指す長期脱炭素戦略の一環です。",
+          "en": "",
+          "lang": "ja",
+          "t": 147.21
+        }
+      ],
+      "t": 147.21
+    },
+    {
+      "kind": "story",
+      "heading_en": "Nvidia and Germany Form Industrial AI Partnership",
+      "heading_ja": "Nvidiaとドイツ政府、産業用AI戦略で提携",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Next, Nvidia is partnering directly with the German government on a national roadmap for industrial artificial intelligence.",
+          "ja": "次は、Nvidiaが産業用人工知能に関する国家ロードマップの策定でドイツ政府と直接提携した話題です。",
+          "t": 177.54
+        },
+        {
+          "speaker": "Alex",
+          "en": "German Chancellor Friedrich Merz and Nvidia chief executive Jensen Huang met at a former power station in Berlin on Monday. They signed a joint declaration to accelerate AI adoption across heavy manufacturing and automotive sectors.",
+          "ja": "ドイツのFriedrich Merz首相とNvidiaのJensen Huang最高経営責任者は月曜日にベルリンの元発電所施設で会談しました。両者は重工業や自動車分野でのAI導入を加速させる共同意思表明書に署名しました。",
+          "t": 186.02
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is Germany focusing so heavily on industrial AI rather than general software?",
+          "ja": "ドイツは一般的なソフトウェアではなく、なぜこれほど産業用AIに注力しているのでしょうか？",
+          "t": 200.65
+        },
+        {
+          "speaker": "Alex",
+          "en": "Germany is famous for world-class mechanical engineering and automobiles. Chancellor Merz wants small and medium-sized family businesses, known as the Mittelstand, to open their rich factory data to advanced AI tools and create modern digital twins.",
+          "ja": "ドイツは世界最高峰の機械工学と自動車産業で知られています。Merz首相は、「ミッテルシュタント」と呼ばれる中堅・中小の同族企業に対して、豊富な工場データを最先端AIツールに開放し、現代的なデジタルツインを構築するよう求めています。",
+          "t": 206.69
+        },
+        {
+          "speaker": "Mika",
+          "en": "Are factory managers and workers worried that AI might replace their traditional skills?",
+          "ja": "工場の管理者や労働者たちは、AIによって自分たちの伝統的な技能が奪われるのではないかと懸念していないのですか？",
+          "t": 222.29
+        },
+        {
+          "speaker": "Alex",
+          "en": "Jensen Huang directly addressed those fears during the summit. He told the audience that German engineering expertise is irreplaceable. He insisted that artificial intelligence will only augment human workers rather than replace them, acting as a powerful new instrument for machinery and car suppliers.",
+          "ja": "Jensen Huang氏はサミットの中でその懸念に直接答えました。同氏は聴衆に対し、ドイツの高度な技術力は決して代替できないと強調しました。人工知能は労働者を置き換えるのではなく能力を拡張するものであり、機械メーカーや自動車サプライヤーにとって強力な新しい道具になると主張しています。",
+          "t": 228.73
+        },
+        {
+          "speaker": "Alex",
+          "en": "European leaders want to establish a sovereign industrial AI ecosystem so European manufacturers do not fall behind rivals in the United States and China.",
+          "ja": "欧州の指導者たちは、米国の巨大テックや中国の競合に欧州の製造業が後れを取らないよう、主権ある産業用AIエコシステムを確立したいと考えています。",
+          "t": 247.4
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Germany is joining forces with Nvidia to combine its traditional factory mastery with modern physical AI models.",
+          "ja": "つまり手短に言うと、ドイツは自国が誇る工場の熟練技と最新のフィジカルAIモデルを融合させるため、Nvidiaと手を組んだのですね。",
+          "t": 257.6
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly, turning physical industry data into a competitive digital advantage.",
+          "ja": "その通りです。現場の産業データを競争力あるデジタル優位性に変える狙いです。",
+          "t": 266.19
+        }
+      ],
+      "lang": "en",
+      "t": 177.54
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "NvidiaのJensen Huang CEOとドイツのMerz首相がベルリンで会談し、製造業向け産業用AIの国家戦略で合意しました。ドイツの基幹を成す中堅製造業「ミッテルシュタント」の保有データをAIに開放し、デジタルツインや自律制御を加速させる方針です。Huang氏はAIが熟練工を代替するのではなく、その能力を拡張する道具であると強調しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 272.0
+        }
+      ],
+      "t": 272.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Tenstorrent Raises 1.5 Billion Dollars for Open Chips",
+      "heading_ja": "Tenstorrent、オープンチップ開発で15億ドルを調達",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our third story is about artificial intelligence chip startup Tenstorrent. The company has just raised 1.5 billion dollars in fresh venture funding.",
+          "ja": "3つ目のニュースは、AI半導体スタートアップのTenstorrentに関する話題です。同社は新たなベンチャー資金として15億ドルを調達しました。",
+          "t": 300.78
+        },
+        {
+          "speaker": "Alex",
+          "en": "This massive investment values the ten-year-old startup at 6.2 billion dollars. That is more than double its valuation of 2.6 billion dollars from late 2024.",
+          "ja": "この巨額出資により、創業10年の同社の企業価値は62億ドルと評価されました。これは2024年末時点の評価額26億ドルの2倍以上に相当します。",
+          "t": 310.45
+        },
+        {
+          "speaker": "Mika",
+          "en": "Who leads Tenstorrent, and what makes its computer chips different from the competition?",
+          "ja": "Tenstorrentを率いているのは誰で、同社のチップは何が競合と異なるのですか？",
+          "t": 320.62
+        },
+        {
+          "speaker": "Alex",
+          "en": "The chief executive officer is Jim Keller, a legendary microprocessor engineer who designed famous chips for major tech firms. Tenstorrent specializes in AI inference processors that run trained models. Instead of relying on closed proprietary technology, it builds hardware using open-standard RISC-V designs.",
+          "ja": "最高経営責任者は、大手テック企業で名立たるプロセッサを設計してきた伝説的半導体エンジニアのJim Keller氏です。Tenstorrentは学習済みモデルを動かすAI推論プロセッサに特化しています。閉鎖的な独自規格に頼るのではなく、オープン規格であるRISC-V設計を採用してハードウェアを構築しています。",
+          "t": 326.94
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did major semiconductor giants try to buy the company earlier this year?",
+          "ja": "今年前半に、大手半導体企業が同社を買収しようとした動きはあったのですか？",
+          "t": 345.66
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, both Intel and Qualcomm reportedly offered to acquire Tenstorrent for up to 5 billion dollars. However, Jim Keller turned down those buyout offers to keep the company independent, especially after proving that Tenstorrent Galaxy servers could successfully run open-weight DeepSeek models.",
+          "ja": "はい、IntelとQualcommの双方が最大50億ドルで同社を買収する打診を行ったと報じられています。しかしKeller氏は、自社のGalaxyサーバーでオープンウェイトのDeepSeekモデルを稼働できることを証明したのち、独立性を維持するために買収提案を拒否しました。",
+          "t": 351.08
+        },
+        {
+          "speaker": "Alex",
+          "en": "The new funding was led by Trace Capital and Innovation X, with backing from Fidelity and SanDisk. The money will help scale hardware tailored for serving open AI models and generating video. Cloud buyers want cheaper alternatives to avoid being locked into Nvidia's costly hardware ecosystem.",
+          "ja": "今回の資金調達はTrace CapitalとInnovation Xが主導し、FidelityやSanDiskなども参加しました。調達資金はOpenAIモデルの提供や動画生成に特化したチップの量産に充てられます。クラウド事業者は、高額なNvidiaのエコシステムに縛られない安価な選択肢を求めています。",
+          "t": 368.86
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Tenstorrent rejected buyout offers from tech giants to build independent, open-architecture AI processors.",
+          "ja": "つまり手短に言うと、Tenstorrentは巨大テック企業からの買収提案を断り、自前で独立したオープン規格のAIプロセッサを開発する道を選んだのですね。",
+          "t": 386.63
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly, offering the tech world a viable alternative for running modern AI.",
+          "ja": "その通りです。最新AIを動かすための実効的な選択肢をテクノロジー界に提供しています。",
+          "t": 394.73
+        }
+      ],
+      "lang": "en",
+      "t": 300.78
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "著名な半導体設計者Jim Keller氏率いるTenstorrentは、評価額62億ドルで15億ドルを調達しました。IntelやQualcommからの最大50億ドル規模の買収提案を拒否し、独立路線を選択。オープン規格RISC-Vを採用したAI推論サーバーでDeepSeek等の稼働を実証しており、Nvidia寡占に対する安価な代替手段の量産を急ぎます。",
+          "en": "",
+          "lang": "ja",
+          "t": 400.38
+        }
+      ],
+      "t": 400.38
+    },
+    {
+      "kind": "story",
+      "heading_en": "European Telecom Giants Plan Satellite Alliance",
+      "heading_ja": "欧州通信大手4社、対Starlink衛星通信同盟を結成へ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our fourth story takes us into space telecommunications. Four of Europe's largest mobile network carriers are joining forces to build a direct-to-device satellite network.",
+          "ja": "4つ目のニュースは宇宙通信についてです。欧州の主要携帯通信キャリア4社が、スマートフォンと衛星を直接結ぶ通信網を構築するために連携します。",
+          "t": 428.34
+        },
+        {
+          "speaker": "Alex",
+          "en": "Deutsche Telekom, Orange, Telefonica, and Vodafone signed a joint letter of intent on Monday. They are preparing a shared bid for wireless spectrum that lets ordinary smartphones connect straight to satellites orbiting Earth.",
+          "ja": "Deutsche Telekom、Orange、Telefonica、Vodafoneの4社が月曜日に共同の基本合意書に署名しました。通常のスマートフォンを地球周回軌道上の衛星に直接つなぐための無線周波数帯に、共同で入札する準備を進めています。",
+          "t": 439.29
+        },
+        {
+          "speaker": "Mika",
+          "en": "Are these telecom companies planning to build and launch their own satellite constellations?",
+          "ja": "これらの通信会社は、自前で衛星コンステレーションを製造・打ち上げする計画なのですか？",
+          "t": 453.26
+        },
+        {
+          "speaker": "Alex",
+          "en": "No, they are dividing the work. The four telecom operators will build and manage the ground network infrastructure, coordination centers, and monitoring stations across Europe. Meanwhile, an outside commercial satellite partner will be chosen later to supply and operate the spacecraft constellation in orbit.",
+          "ja": "いいえ、役割を分担します。4社は欧州全土における地上ネットワーク網、調整センター、監視局の構築と管理を担当します。一方、軌道上で運用される衛星群の供給と運用は、今後選定される外部の商業衛星パートナーが担うことになります。",
+          "t": 459.8
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why are Europe's biggest competitors working together on space connectivity?",
+          "ja": "欧州最大のライバル企業同士が、なぜ宇宙通信で手を組むのでしょうか？",
+          "t": 478.47
+        },
+        {
+          "speaker": "Alex",
+          "en": "They want to provide universal coverage in rural dead zones and protect critical communications during emergencies, without relying entirely on SpaceX's Starlink service. European policymakers also want sovereign communications infrastructure under local governance.",
+          "ja": "地方の圏外地域にユニバーサルな通信範囲を提供し、災害などの緊急時にも重要な通信を維持するためです。SpaceXのStarlinkサービスだけに依存することを避け、欧州の統治下にある主権的な通信インフラを確保したいという狙いもあります。",
+          "t": 484.12
+        },
+        {
+          "speaker": "Alex",
+          "en": "Earlier this year, major American carriers formed a similar partnership to share spectrum in rural areas. By working together, the European telecom giants can avoid duplicate infrastructure costs and present a unified front.",
+          "ja": "今年前半には米国の主要キャリアも地方の周波数帯を共有する同様の提携を発表しました。欧州の通信大手も連携することで、設備の重複投資を避け、強固な協力体制を築くことができます。",
+          "t": 500.38
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, four major European carriers are uniting to challenge Starlink and offer direct satellite phone connectivity.",
+          "ja": "つまり手短に言うと、欧州大手4社が結束し、Starlinkに対抗してスマートフォン直接接続の衛星サービスを提供しようとしているのですね。",
+          "t": 514.3
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly, keeping Europe's critical communications independent and resilient against outside disruptions.",
+          "ja": "その通りです。外部の混乱から独立し、強靱な重要通信網を欧州内に維持することが目的です。",
+          "t": 522.57
+        }
+      ],
+      "lang": "en",
+      "t": 428.34
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Deutsche Telekom、Orange、Telefonica、Vodafoneの欧州大手4社が、一般スマホと衛星を直接接続するサービスの共同展開で合意しました。地上局インフラや周波数帯取得で連携し、衛星網は外部事業者から調達します。SpaceXのStarlinkへの過度な依存を脱し、欧州主権の強靱な通信インフラを確立する狙いがあります。",
+          "en": "",
+          "lang": "ja",
+          "t": 530.23
+        }
+      ],
+      "t": 530.23
+    },
+    {
+      "kind": "story",
+      "heading_en": "Autonomous AI Agents Breach Corporate Networks",
+      "heading_ja": "自律型AIエージェント、100社以上の企業網に侵入",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our fifth tech story brings a serious warning about cybersecurity. Hackers are now deploying fully autonomous artificial intelligence agents to breach corporate computer networks.",
+          "ja": "5つ目のテックニュースは、サイバーセキュリティに関する重大な警告です。ハッカーが企業のコンピュータ網に侵入するため、完全に自律したAIエージェントを配備し始めています。",
+          "t": 556.98
+        },
+        {
+          "speaker": "Alex",
+          "en": "Threat researchers at cybersecurity firm Norforge discovered that a Chinese-speaking attacker used autonomous AI agents to break into more than one hundred corporate websites, including farm equipment manufacturer Deere, appliance maker SharkNinja, and engine company Cummins.",
+          "ja": "セキュリティ会社Norforgeの脅威調査チームによると、中国語を話す攻撃者が自律型AIエージェントを使い、農機メーカーのDeere、家電のSharkNinja、エンジン大手のCumminsなど、100社以上の企業ウェブサイトに侵入しました。",
+          "t": 568.08
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did the hacker spend weeks writing custom software code to infiltrate each target?",
+          "ja": "ハッカーは各標的に侵入するために、何週間もかけて専用のコードを書いたのですか？",
+          "t": 584.44
+        },
+        {
+          "speaker": "Alex",
+          "en": "No, and that is what makes this attack so alarming. The attacker issued basic prompts using fewer than one hundred Chinese characters on an open-source tool called Cairn. From those brief instructions, the AI agents worked completely on their own without human supervision.",
+          "ja": "いいえ、それこそが今回の攻撃で極めて警戒されている点です。攻撃者はCairnと呼ばれるオープンソースツール上で、わずか100文字に満たない中国語の指示を出しただけでした。その簡潔な指示から、AIエージェントは人間の監視なしに完全自律で動作しました。",
+          "t": 590.26
+        },
+        {
+          "speaker": "Mika",
+          "en": "How exactly did these AI agents manage to break through corporate security defenses?",
+          "ja": "AIエージェントは具体的にどのようにして企業のセキュリティ防御を破ったのですか？",
+          "t": 606.46
+        },
+        {
+          "speaker": "Alex",
+          "en": "The AI agents scanned online records to map company infrastructure, located public-facing control panels, tested for vulnerabilities, and executed malicious commands. Norforge researchers noted that successful breaches took around twenty-three hours, and the hacker attempted intrusions on more than twelve hundred websites across the United States, Canada, Australia, and Japan.",
+          "ja": "AIエージェントはネット上の公開記録を探索してインフラを特定し、外部公開されていた管理画面を発見して脆弱性を検証し、不正なコマンドを実行しました。Norforgeによると侵入成功までに約23時間しかかからず、攻撃者は米・加・豪・日の1200以上のサイトに侵入を試みていました。",
+          "t": 612.39
+        },
+        {
+          "speaker": "Alex",
+          "en": "Security experts warn that autonomous agents lower the barrier for offensive cyber warfare, allowing a single individual to conduct hundreds of complex attacks simultaneously.",
+          "ja": "セキュリティ専門家は、自律型エージェントの登場によりサイバー攻撃の参入障壁が下がり、単独の個人でも数百件の高度な攻撃を同時に実行できるようになってしまったと警鐘を鳴らしています。",
+          "t": 634.35
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, a hacker used simple AI prompts to unleash self-directed software agents against over a hundred corporate targets.",
+          "ja": "つまり手短に言うと、ハッカーが簡単なAI指示文だけで自律型ソフトウェア部隊を放ち、100社以上の企業サイトを攻撃したのですね。",
+          "t": 645.23
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly, marking a dangerous new era of automated cyber threats.",
+          "ja": "その通りです。自動化されたサイバー脅威という危険な新時代が幕を開けました。",
+          "t": 653.54
+        }
+      ],
+      "lang": "en",
+      "t": 556.98
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "セキュリティ調査会社Norforgeにより、中国語話者のハッカーがオープンソースのAI問題解決ツールCairnを悪用し、DeereやSharkNinjaなど100社以上の企業サイトに侵入したことが判明しました。100文字未満の短い指示だけで、AIエージェントが自律的に脆弱性の探索からコマンド実行まで約23時間で完了させていました。",
+          "en": "",
+          "lang": "ja",
+          "t": 658.38
+        }
+      ],
+      "t": 658.38
+    },
+    {
+      "kind": "health",
+      "heading_en": "Epic Adds Cash Drug Prices to Doctor Workflows",
+      "heading_ja": "Epic、電子カルテに処方薬の現金価格比較を追加",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now for our digital health story. Electronic medical record provider Epic is introducing transparent pharmacy pricing directly into clinical prescribing software.",
+          "ja": "続いてデジタルヘルスのニュースです。電子カルテ大手のEpicが、医師が使う処方入力画面に直接、透明性の高い薬局価格を表示する機能を導入します。",
+          "t": 684.56
+        },
+        {
+          "speaker": "Alex",
+          "en": "Epic is partnering with Amazon Pharmacy, Mark Cuban Cost Plus Drugs, Costco, and Eli Lilly's LillyDirect platform. Starting next summer, doctors and patients will be able to compare medication costs across multiple pharmacies before any prescription is transmitted.",
+          "ja": "EpicはAmazon Pharmacy、Mark Cuban Cost Plus Drugs、Costco、Eli LillyのLillyDirectと提携しました。来年夏以降、医師と患者は処方箋を送信する前に、複数の薬局での薬代を比較できるようになります。",
+          "t": 695.06
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is it important for physicians to check retail drug prices inside the examination room?",
+          "ja": "なぜ医師が診察室の中で薬局の販売価格を確認することが重要なのですか？",
+          "t": 711.35
+        },
+        {
+          "speaker": "Alex",
+          "en": "In the United States, more than forty percent of adults report skipping prescribed medications due to high costs. Interestingly, paying cash directly at discount pharmacies is sometimes far cheaper than using traditional insurance copays, but patients rarely discover this until arriving at the pharmacy counter.",
+          "ja": "米国では成人の40%以上が、費用の高さを理由に処方薬の服用を見合わせていると回答しています。興味深いことに、割引薬局で直接現金払いした方が従来の保険適用の自己負担額よりはるかに安い場合がありますが、患者は薬局の窓口に行くまでそれに気付けないのが実情です。",
+          "t": 717.86
+        },
+        {
+          "speaker": "Mika",
+          "en": "How will doctors and patients use this information during an actual appointment?",
+          "ja": "実際の診療現場で、医師と患者はこの情報をどのように活用するのですか？",
+          "t": 736.78
+        },
+        {
+          "speaker": "Alex",
+          "en": "The software will show insurance copays right alongside transparent cash prices. For instance, if an insured copay is five hundred dollars, the doctor can immediately see if the identical generic drug sells for one hundred dollars at Cost Plus Drugs or Amazon Pharmacy, allowing the patient to pick the most affordable option.",
+          "ja": "カルテ画面に保険適用時の自己負担額と透明な現金価格が並んで表示されます。例えば保険適用の負担額が500ドルであっても、全く同じ後発薬がCost Plus DrugsやAmazon Pharmacyで100ドルで買えることがひと目で分かり、患者は最も負担の少ない選択肢を選べます。",
+          "t": 742.68
+        },
+        {
+          "speaker": "Alex",
+          "en": "Epic says its earlier insurance benefit tools saved patients over two hundred fifty million dollars in 2025. Embedding direct-to-consumer pharmacy options inside electronic records helps close care gaps and reduces prescription abandonment.",
+          "ja": "Epicによると、既存の保険給付確認ツールだけでも2025年に患者の負担を2億5000万ドル以上削減したとのことです。電子カルテ内に消費者直販型薬局の選択肢を組み込むことで、医療格差を埋め、薬の受け取り拒否を防ぐ効果があります。",
+          "t": 762.39
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Epic is bringing cash drug prices into physician screens so patients can choose affordable medications before leaving the clinic.",
+          "ja": "つまり手短に言うと、Epicは診察室を出る前に安価な薬を選べるよう、医師の画面に薬局の現金価格を表示する仕組みを取り入れたのですね。",
+          "t": 777.27
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly, tackling healthcare affordability right at the point of care.",
+          "ja": "その通りです。医療の経済的負担という問題を、まさに診察の現場で直接解決しようとしています。",
+          "t": 786.71
+        }
+      ],
+      "lang": "en",
+      "t": 684.56
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "電子カルテ最大手Epicは、Amazon Pharmacy、Costco、Mark Cubanの低価格薬局、LillyDirectと提携し、処方画面で保険負担額と各薬局の現金価格をリアルタイム比較できる機能を来夏導入します。米国では4割以上の成人が費用負担から服薬を中断しており、処方段階で安価な選択肢を提示して服薬継続率を高める狙いです。",
+          "en": "",
+          "lang": "ja",
+          "t": 792.04
+        }
+      ],
+      "t": 792.04
+    },
+    {
+      "kind": "world",
+      "heading_en": "France Imposes Curfews Following Violent Unrest",
+      "heading_ja": "仏政府、暴動を受け主要都市で夜間外出禁止令を発令",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Turning to world news, French authorities have ordered overnight curfews in Paris and several other major cities following days of violent civil unrest.",
+          "ja": "世界情勢に目を向けます。フランス当局は、数日間にわたる激しい暴動を受け、パリやその他の主要都市で夜間外出禁止令を発令しました。",
+          "t": 819.22
+        },
+        {
+          "speaker": "Alex",
+          "en": "French Prime Minister Sebastien Lecornu announced localized curfews after nationwide weekend demonstrations over the rising cost of living escalated into widespread rioting. More than half a million people joined protests across the country, where gangs looted hundreds of shops and attacked public buildings.",
+          "ja": "フランスのSebastien Lecornu首相は、生活費高騰を巡る週末の全国デモが大規模な暴動へと発展したことを受け、局所的な外出禁止令を発表しました。全国で50万人以上が抗議行動に参加し、一部の集団が数百軒の商店を略奪し公共施設を襲撃しました。",
+          "t": 829.16
+        },
+        {
+          "speaker": "Mika",
+          "en": "How severe was the disruption, and what actions are security forces taking?",
+          "ja": "混乱の規模はどれほどで、治安部隊はどのような措置を講じているのですか？",
+          "t": 847.92
+        },
+        {
+          "speaker": "Alex",
+          "en": "Police arrested nearly twenty-four hundred people nationwide. Overnight curfews now cover high-risk areas in Paris, including Place de la Republique and Les Halles, alongside parts of Lyon, Nice, and northern cities like Lille. France's interior minister admitted that police temporarily lost control during the unrest and offered his resignation, but President Emmanuel Macron rejected it and ordered a complete review of intelligence and planning failures.",
+          "ja": "警察は全国で2400人近くを逮捕しました。夜間外出禁止令は共和国広場やレ・アール地区などのパリの警戒地域のほか、リヨン、ニース、リールなどの北部都市に適用されています。内相は警察が一時的に統制を失ったことを認め辞意を表明しましたが、Macron大統領は慰留し警備体制や情報分析の失敗について全面的な見直しを命じました。",
+          "t": 853.53
+        },
+        {
+          "speaker": "Alex",
+          "en": "Labor unions have already announced plans for a fresh round of national strikes and rallies on November 5.",
+          "ja": "労働組合はすでに11月5日に向けた全国一斉ストライキと抗議集会の実施を呼びかけています。",
+          "t": 880.65
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, France has imposed targeted curfews across several cities to restore order following massive cost-of-living riots.",
+          "ja": "つまり手短に言うと、フランスは生活費高騰に伴う大規模暴動を受け、秩序回復のために複数都市で限定的な外出禁止令を出したのですね。",
+          "t": 888.01
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, as political pressure mounts on the French government.",
+          "ja": "はい、フランス政府に対する政治的圧力は急速に強まっています。",
+          "t": 896.6
+        }
+      ],
+      "lang": "en",
+      "t": 819.22
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "フランスで生活費高騰に抗議する50万人規模のデモが暴徒化し、商店略奪や約2,400人の逮捕者が出たことを受け、Lecornu首相はパリの一部やリール、リヨン等に夜間外出禁止令を発令しました。内相は警察が一時統制を失ったと認めて辞任を申し出ましたがMacron大統領は拒否し、警備体制の徹底検証を指示しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 901.77
+        }
+      ],
+      "t": 901.77
+    },
+    {
+      "kind": "world",
+      "heading_en": "Ebola Cluster Expands in Kenya Amid Funding Cuts",
+      "heading_ja": "ケニアでエボラ感染者が拡大、国際支援削減が影",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our next world story highlights an escalating public health emergency in East Africa, where an eighth person in Kenya has tested positive for the Ebola virus.",
+          "ja": "次の国際ニュースは、東アフリカで深刻化する公衆衛生上の緊急事態についてです。ケニアで8人目のエボラウイルス陽性者が確認されました。",
+          "t": 927.63
+        },
+        {
+          "speaker": "Alex",
+          "en": "This case marks Kenya's first-ever cluster of the Bundibugyo Ebola strain. The broader regional outbreak, centered in the neighbouring Democratic Republic of the Congo, has already infected more than nine thousand people and caused over forty-three hundred deaths.",
+          "ja": "この事例により、ケニア国内で初となるブンディブギョ株のエボラ感染クラスターが拡大しています。隣国コンゴ民主共和国を中心とする一連の地域的流行では、すでに9000人以上が感染し4300人以上が死亡しています。",
+          "t": 938.37
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why are international medical experts so alarmed by this new cluster in Kenya?",
+          "ja": "国際的な医療専門家たちは、なぜケニアでの新規クラスターをそれほど警戒しているのですか？",
+          "t": 955.32
+        },
+        {
+          "speaker": "Alex",
+          "en": "Health officials warn that the regional response is severely crippled by major international funding cuts. Sweeping reductions to United States foreign health programs and closures of disease prevention offices have left African clinics short on staff and monitoring resources.",
+          "ja": "国際的な資金拠出の大幅な打ち切りにより、現地の感染封じ込め体制が大きな打撃を受けているためです。米国による対外保健支援の全面削減や疾病予防拠点の閉鎖により、アフリカの診療現場では人員や監視リソースが不足しています。",
+          "t": 961.37
+        },
+        {
+          "speaker": "Mika",
+          "en": "What local controversies are complicating the containment efforts on the ground?",
+          "ja": "現地ではどのような問題が封じ込め対策を複雑にしているのですか？",
+          "t": 979.08
+        },
+        {
+          "speaker": "Alex",
+          "en": "Public mistrust grew after the United States attempted to construct an American quarantine center at a Kenyan military airbase. A Kenyan court halted the facility following local protests, leaving health authorities struggling to build community trust while tracing infections.",
+          "ja": "米国がケニア国内の空軍基地に米国人用の隔離施設を建設しようとしたことで、住民の不信感が強まりました。地元住民の抗議を受けてケニアの裁判所が施設の運用差し止めを命じたため、保健当局は接触者追跡を行うにあたり住民との信頼関係再構築に苦慮しています。",
+          "t": 985.25
+        },
+        {
+          "speaker": "Alex",
+          "en": "Experts warn that without restored international funding, containing the deadly virus across borders will prove extremely difficult.",
+          "ja": "国際的な支援金が回復しなければ、国境を越えて致死性のウイルスを封じ込めることは極めて困難になると専門家は警告しています。",
+          "t": 1002.96
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Kenya's first Ebola cluster is spreading just as vital international health support has been drastically reduced.",
+          "ja": "つまり手短に言うと、不可欠な国際保健支援が大幅に削減される中で、ケニア初のエボラクラスターが拡大してしまっているのですね。",
+          "t": 1012.17
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is correct, posing severe risks for the entire region.",
+          "ja": "その通りです。東アフリカ地域全体に深刻なリスクをもたらしています。",
+          "t": 1021.09
+        }
+      ],
+      "lang": "en",
+      "t": 927.63
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ケニア国内で初となるエボラ出血熱（ブンディブギョ株）の集団感染で8人目の陽性者が確認されました。コンゴ民主共和国を中心とする一連の流行では死者が4,300人を超えています。しかし米国の国際保健予算削減やケニア国内の隔離施設を巡る法廷闘争が影響し、越境感染防止に向けた対策に重大な懸念が生じています。",
+          "en": "",
+          "lang": "ja",
+          "t": 1026.02
+        }
+      ],
+      "t": 1026.02
+    },
+    {
+      "kind": "world",
+      "heading_en": "Houthi Missile Strike Kills 53 Recruits in Yemen",
+      "heading_ja": "イエメンでフーシ派ミサイル攻撃、新兵53人死亡",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our final world report covers a devastating escalation in Yemen, where a missile strike has killed at least fifty-three security recruits and injured more than two hundred others.",
+          "ja": "最後の国際ニュースはイエメンの壊滅的な軍事衝突についてです。ミサイル攻撃により、少なくとも53人の治安新兵が死亡し、200人以上が負傷しました。",
+          "t": 1051.54
+        },
+        {
+          "speaker": "Alex",
+          "en": "Houthi forces launched three ballistic missiles at the al-Alam military training facility in the southern province of Shabwa. The missiles directly struck a parade ground where newly enlisted internal security recruits were assembled in formation.",
+          "ja": "反政府勢力フーシ派が南部シャブワ州のアル・アラム軍事訓練施設に向けて3発の弾道ミサイルを発射しました。ミサイルは新たに召集され整列中だった治安維持部隊の新兵たちを直撃しました。",
+          "t": 1063.22
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did the Yemeni government respond to this catastrophic attack?",
+          "ja": "イエメン政府はこの壊滅的な被害に対してどのように反応しているのですか？",
+          "t": 1078.79
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yemeni President Rashad al-Alimi condemned the strike as a cowardly terrorist atrocity against young recruits far from the frontlines. He promised an immediate military response and spoke directly with the United Nations Secretary-General, urging the international body to officially designate the Houthi movement as a terrorist organization.",
+          "ja": "イエメンのRashad al-Alimi大統領は、前線から離れた若い新兵を狙った卑劣なテロ行為だと非難しました。大統領は断固たる軍事報復を約束するとともに国連事務総長と直接協議し、フーシ派を国際テロ組織に再指定するよう要請しました。",
+          "t": 1084.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does this strike signal a broader return to full-scale warfare in Yemen?",
+          "ja": "今回の攻撃は、イエメンで全面的な戦争が再開したことを意味しているのでしょうか？",
+          "t": 1105.02
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. This incident represents the single deadliest military attack since civil war fighting reignited across Yemen in September. Clashes have intensified along the Red Sea coast near the strategic Bab al-Mandab Strait, overwhelming local hospitals with casualties.",
+          "ja": "はい。9月に国内で内戦が再燃して以降、一度の軍事攻撃としては最悪の犠牲者数となりました。要衝バブ・エル・マンデブ海峡に近い紅海沿岸でも激しい戦闘が続いており、現地の病院は負傷者で収容能力を超えています。",
+          "t": 1110.57
+        },
+        {
+          "speaker": "Alex",
+          "en": "The tragic strike highlights the persistent danger facing troop gatherings within range of advanced ballistic missiles.",
+          "ja": "この悲劇的な攻撃は、高性能弾道ミサイルの射程圏内に大規模部隊が集結することの危険性を浮き彫りにしています。",
+          "t": 1127.12
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, a Houthi missile attack killed over fifty security recruits in southern Yemen, sharply escalating the renewed civil war.",
+          "ja": "つまり手短に言うと、イエメン南部でフーシ派のミサイル攻撃により50人以上の新兵が命を落とし、再燃した内戦が一段と激化しているのですね。",
+          "t": 1135.36
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly, raising serious security concerns across the entire Red Sea region.",
+          "ja": "その通りです。紅海周辺地域全体の安全保障に深刻な懸念をもたらしています。",
+          "t": 1144.47
+        }
+      ],
+      "lang": "en",
+      "t": 1051.54
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "イエメン南部シャブワ州の治安訓練施設に対し、反政府武装勢力フーシ派が弾道ミサイル3発を発射し、新兵ら53人が死亡、200人以上が負傷しました。9月に内戦が再燃して以来、単一の攻撃としては最大規模の人的被害となり、紅海航路周辺の軍事的緊張が急速に高まっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 1150.25
+        }
+      ],
+      "t": 1150.25
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch: Statements from Leaders",
+      "heading_ja": "CEOウォッチ：リーダーたちの発言",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Time for CEO Watch. In Berlin, Nvidia chief executive Jensen Huang told German manufacturers that digital tools will not replace their engineering skills, saying AI will only augment human capability.",
+          "ja": "CEOウォッチの時間です。ベルリンでNvidiaのJensen Huang最高経営責任者はドイツの製造業者に対し、デジタルツールが熟練の技術に取って代わることはなく、AIは人間の能力を拡張するだけだと述べました。",
+          "t": 1171.78
+        },
+        {
+          "speaker": "Mika",
+          "en": "Meanwhile, Rivian chief executive RJ Scaringe said vehicle autonomy will enable dramatically different designs than the outdoor trucks his company builds today.",
+          "ja": "一方、RivianのRJ Scaringe最高経営責任者は、自動運転技術によって同社が現在製造しているアウトドア向けトラックとは劇的に異なる車両デザインが可能になると語りました。",
+          "t": 1184.66
+        },
+        {
+          "speaker": "Alex",
+          "en": "And Elon Musk promised to give one SpaceX share to every child in the United States starting next year.",
+          "ja": "そしてElon Musk氏は、来年から米国のすべての子どもにSpaceX株を1株ずつ贈与する計画だと表明しました。",
+          "t": 1195.25
+        }
+      ],
+      "lang": "en",
+      "t": 1171.78
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: Join Forces",
+      "heading_ja": "本日のフレーズ：Join Forces",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's phrase of the day is join forces. It means to combine efforts or work together with someone else to achieve a shared objective.",
+          "ja": "本日のフレーズは「join forces」です。共通の目標を達成するために協力し合う、力を合わせるという意味です。",
+          "t": 1203.03
+        },
+        {
+          "speaker": "Alex",
+          "en": "We heard this expression earlier when discussing European telecommunications: Four major European mobile network carriers are joining forces to build a direct-to-device satellite network.",
+          "ja": "先ほどの欧州通信のニュースでも登場しましたね。「欧州の大手携帯通信キャリア4社は、スマホ直接接続の衛星網を構築するために手を組んでいます（joining forces）。」",
+          "t": 1211.55
+        },
+        {
+          "speaker": "Mika",
+          "en": "You can also use it in business or science. For example: Leading medical researchers and technology companies will join forces to develop innovative therapies for rare diseases.",
+          "ja": "ビジネスや研究の場でも使えます。「一流の医学研究者とテック企業が手を組み（join forces）、希少疾患の革新的な治療法を開発します。」",
+          "t": 1222.84
+        },
+        {
+          "speaker": "Alex",
+          "en": "Whenever distinct groups cooperate toward a single mission, they join forces.",
+          "ja": "別々の組織が共通の使命に向かって協力するときにぴったりな表現です。",
+          "t": 1233.6
+        }
+      ],
+      "lang": "en",
+      "t": 1203.03
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Sign-off",
+      "heading_ja": "番組の終わりに",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "From nuclear-powered datacenters and industrial AI to direct satellite networks and medicine pricing tools, technology continues to reshape our critical infrastructure.",
+          "ja": "原発で動くデータセンターから産業用AI、衛星直結通信、薬価比較ツールまで、テクノロジーは私たちの重要インフラを次々と刷新しています。",
+          "t": 1239.04
+        },
+        {
+          "speaker": "Mika",
+          "en": "And that brings us to the end of Commute News for today. Thank you for listening, stay safe, and join us again tomorrow morning for your daily commute!",
+          "ja": "以上で本日のCommute Newsを終わります。お聴きいただきありがとうございました。どうぞお気をつけて、また明日の通勤時間にお耳にかかりましょう！",
+          "t": 1249.31
+        }
+      ],
+      "lang": "en",
+      "t": 1239.04
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。お気をつけて行ってらっしゃい！",
+          "en": "",
+          "lang": "ja",
+          "t": 1258.69
+        }
+      ],
+      "t": 1258.69
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Amazon Backs 1-Gigawatt Small Modular Nuclear Project in Indiana to Fuel Datacenters",
+      "title_ja": "Amazon、データセンター電力供給に向け米インディアナ州の1ギガワット小型原子炉計画を支援",
+      "summary_ja": "AmazonはX-energyおよび電力会社American Electric Powerと提携し、インディアナ州の石炭火力発電所跡地に12基の小型モジュール炉（SMR）を建設する計画に資金を拠出します。合計出力は960メガワットで、生成されるクリーンな電力は一般送電網へ供給されつつAmazonのAIデータセンター運用を支えます。2039年までに計5ギガワットの原発新設を目指す長期戦略の一環です。",
+      "why_ja": "AI処理の急拡大に伴う莫大な電力需要に対し、昼夜を問わず安定稼働する低炭素電源として原発への再評価が加速しています。工期遅延や予算超過を防ぐSMRの商業化は、次世代インフラ戦略における試金石となります。",
+      "section": "tech",
+      "topic_key": "amazon-xenergy-smr-nuclear-power",
+      "companies": [
+        "Amazon",
+        "X-energy",
+        "American Electric Power"
+      ],
+      "sources": [
+        {
+          "publisher": "The Register",
+          "title": "Amazon makes vague commitment to unproven nuclear tech to power Indiana datacenters",
+          "url": "https://www.theregister.com/offbeat/2026/10/19/amazon-makes-vague-commitment-to-unproven-nuclear-tech-to-power-indiana-datacenters/5303974"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Amazon to fund 12 small nuclear reactors at former Indiana coal plant",
+          "url": "https://techcrunch.com/2026/10/19/amazon-to-fund-12-small-nuclear-reactors-at-former-indiana-coal-plant/"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "Amazon is funding a new nuclear plant in Indiana",
+          "url": "https://www.theverge.com/tech/1013735/amazon-x-energy-aep-nuclear-indiana"
+        }
+      ]
+    },
+    {
+      "title_en": "Nvidia and German Chancellor Partner on Industrial AI Strategy for Manufacturing",
+      "title_ja": "Nvidiaと独首相、製造業向け産業用AI戦略ロードマップで合意",
+      "summary_ja": "NvidiaのJensen Huang CEOとドイツのFriedrich Merz首相はベルリンで会談し、産業用AIの国家ロードマップ策定に関する合意書に署名しました。同国の強みである自動車や機械製造業、中堅企業群ミッテルシュタントの現場データとAIを統合し、フィジカルAIやデジタルツインの活用を促進します。Huang氏はAIが熟練工を代替するのではなく能力を強化すると強調しました。",
+      "why_ja": "欧州の産業競争力維持に向け、伝統的な製造業技術と最先端AIの融合が国家主導で進められています。現場の暗黙知や製造データを主権的に活用する取り組みは、日本の製造業にとっても極めて示唆に富む動きです。",
+      "section": "tech",
+      "topic_key": "nvidia-germany-industrial-ai",
+      "companies": [
+        "Nvidia"
+      ],
+      "sources": [
+        {
+          "publisher": "NVIDIA Newsroom",
+          "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
+          "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/"
+        },
+        {
+          "publisher": "European Interest",
+          "title": "Nvidia CEO urges German manufacturers to embrace AI",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZ3BKYWpfejRRWi12TXkydExqY0NFdzllMXFsUm9XUURWZVRJaV84VHpNVEg1X21TeGwyZDVGMlptTXlENkYwNzdIeXo2SVVyb3lpVVE0ZDFBdjJTYzhJNGNkQ0tuMnVaWDNCSXI0YVd2UDNMdnFzeURyZkNUdEJVUS1XdTh0eDJKcTQtbw?oc=5"
+        },
+        {
+          "publisher": "KTVN",
+          "title": "Nvidia CEO urges German manufacturers to adopt AI, saying digital tech won't replace heavy industry",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNdzNZR1dGbENWdFRrLXBoZXFnSUJTM2h2STR6X2dZSVQwVEpfTW15ekpubUt2WV84SVBxYzFRb05QckQ0REdTNEYzWE03RmxFaTVaOFQ3SEY0OG9LNXZiZUtTZmpjeW5jVEdRVEYzcS1ncTNHeldsMVcxR011YUszam5FS0ZEMk50LVg0NUtXaUJuNDF4MXVNb2c4dmlKdkx5UEprWGdrc2R2QnQtVFo2eS1XX29jdkQzVHBONXBpWkt2MFd6MnNKXzROM3lmeDlVSEh6dm5MUnJ5TThmRVRCVTl1bTZ5V05sWkl6ZGloTkRQQ3pmM0xFY1Q4UldMVnlFMlRkVXpHS3U3VnF1X1E?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Tenstorrent Raises $1.5 Billion at $6.2 Billion Valuation to Scale Open AI Hardware",
+      "title_ja": "Tenstorrent、評価額62億ドルで15億ドルを調達しOpenAI半導体を拡大",
+      "summary_ja": "著名な半導体設計者Jim Keller氏が率いるAIチップ新興企業Tenstorrentは、企業評価額62億ドルで15億ドルの資金調達を実施しました。同社はIntelやQualcommからの最大50億ドル規模の買収打診を退け、独立路線を選択しました。調達資金は、オープンアーキテクチャのRISC-Vを採用したAI推論向けチップや動画生成向けハードウェアの量産に充てられます。",
+      "why_ja": "NvidiaのCUDAを中心とする独自エコシステムに対し、オープン設計と低コストを武器にした対抗勢力が本格的な資金力を得て台頭しています。半導体調達の多様化とベンダーロックイン回避を求める市場の強い期待を反映しています。",
+      "section": "tech",
+      "topic_key": "tenstorrent-funding-open-chips",
+      "companies": [
+        "Tenstorrent",
+        "Intel",
+        "Qualcomm"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+          "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/"
+        },
+        {
+          "publisher": "Startup Fortune",
+          "title": "Tenstorrent turns down Intel and Qualcomm, raises $1.5 billion instead",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWkVKeXA0SUUyR0pQUlhGMF9tWHNpalkyWnM2MFhjQUtFQjBlSlQ4UFlIbVN5RnJvdHc5S1YwQTBCdWlEVFRXRkpneHhtalNuUEdaM29yT0hpcHlIRm03T1hEMXU0dGNSQS12UTBMWWRHSmtILXJwT2ZKUVh3UHFCRnh6Nzh1dTVFRTVuNVZ3SEZhMGpGOXlRcHpMVQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "European Telecom Giants Form Alliance to Build Sovereign Direct-to-Device Satellite Network",
+      "title_ja": "欧州通信大手4社が同盟を結成、スマホ直接接続の衛星網構築へ",
+      "summary_ja": "Deutsche Telekom、Orange、Telefonica、Vodafoneの欧州大手通信4社は、一般スマートフォンと人工衛星を直接結ぶ通信網の展開に向けた基本合意書に署名しました。4社は地上局インフラの整備と周波数帯の共同取得を担当し、宇宙側の衛星コンステレーションは外部企業から調達する方針です。圏外対策や災害時の通信強靭化を目指します。",
+      "why_ja": "SpaceXのStarlinkなど米国の衛星インフラに対する過度な依存を避け、欧州主権の重要通信ネットワークを確保する狙いがあります。通信大手同士が地上設備を共有することで投資負担を抑えつつ対抗するモデルです。",
+      "section": "tech",
+      "topic_key": "europe-telco-direct-satellite-alliance",
+      "companies": [
+        "Deutsche Telekom",
+        "Orange",
+        "Telefonica",
+        "Vodafone",
+        "SpaceX"
+      ],
+      "sources": [
+        {
+          "publisher": "The Verge",
+          "title": "Major European mobile carriers are teaming up for a ‘direct’ satellite program without Starlink",
+          "url": "https://www.theverge.com/policy/1013680/european-mobile-carriers-mobile-satellite-starlink"
+        }
+      ]
+    },
+    {
+      "title_en": "Autonomous AI Agents Breach Over 100 Corporate Networks in Landmark Cyberattack",
+      "title_ja": "自律型AIエージェントが企業100社以上に侵入、自動化サイバー攻撃が顕在化",
+      "summary_ja": "サイバーセキュリティ調査企業Norforgeは、オープンソースの汎用AI問題解決ツールCairnを悪用した中国語話者のハッカーにより、DeereやSharkNinjaなど100社以上の企業サイトが侵入被害に遭ったと報告しました。攻撃者は100文字未満の短い指示を与えるだけで、AIエージェントが自律的に脆弱性の探索から侵入まで約23時間で完了していました。",
+      "why_ja": "単独のハッカーでもAIエージェント部隊を操ることで、高度かつ大規模なサイバー侵入を完全自動化できる段階に達したことを示しています。従来のシグネチャ型防御では対応困難であり、防御側のAI自動化が急務となっています。",
+      "section": "tech",
+      "topic_key": "autonomous-ai-agent-corporate-cyberattacks",
+      "companies": [
+        "Deere",
+        "SharkNinja",
+        "Cummins"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "A Chinese hacker used AI agents to break into more than 100 company websites",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/a-chinese-hacker-used-ai-agents-to-break-into-more-than-100-company-websites-deere-and-sharkninja-among-websites-hit-by-open-source-ai-powered-problem-solving-platform-demo"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
+        }
+      ]
+    },
+    {
+      "title_en": "Epic Integrates Real-Time Prescription Pricing into Clinical EHR Workflows",
+      "title_ja": "Epic、電子カルテ処方画面にリアルタイム薬価・現金価格比較機能を統合",
+      "summary_ja": "電子カルテ最大手のEpicは、Amazon Pharmacy、Costco、Mark Cuban Cost Plus Drugs、LillyDirectと提携し、来夏から医師の処方画面で医薬品の保険価格と薬局の現金価格をリアルタイムに比較できる機能を導入します。米国では高額な薬価により成人の40%以上が処方薬の服用を見合わせており、診察時に安価な選択肢を提示することで服薬遵守を支援します。",
+      "why_ja": "診察の現場に透明な価格比較を埋め込むことで、処方箋の未受け取りや治療中断を防ぐ効果が期待されます。医療情報システムを通じた患者自己負担の適正化モデルとして、世界各国の医療政策担当者からも注目されます。",
+      "section": "health",
+      "topic_key": "epic-ehr-prescription-price-transparency",
+      "companies": [
+        "Epic",
+        "Amazon",
+        "Costco",
+        "Eli Lilly"
+      ],
+      "sources": [
+        {
+          "publisher": "Fierce Healthcare",
+          "title": "Epic teams up with Amazon Pharmacy, LillyDirect and Mark Cuban to launch prescription drug pricing tool",
+          "url": "https://www.fiercehealthcare.com/health-tech/epic-teams-amazon-pharmacy-mark-cuban-launch-prescription-drug-pricing-tool"
+        }
+      ]
+    },
+    {
+      "title_en": "France Imposes Night Curfews in Major Cities as Government Struggles to Contain Unrest",
+      "title_ja": "仏政府、物価高を巡る大規模暴動を受けパリなどで夜間外出禁止令を発令",
+      "summary_ja": "フランス各地で生計費の高騰に抗議する50万人規模のデモが暴徒化し、商店略奪や2,400人以上の逮捕者が出たことを受け、Lecornu首相はパリの一部やリヨン、ニースなどで部分的な夜間外出禁止令を発令しました。内相は警察が一時的に統制を失ったことを認め辞意を表明しましたがMacron大統領はこれを慰留し、警備失敗の徹底調査を命じました。",
+      "why_ja": "欧州全体に広がる生活費高騰への不満が急速に治安悪化へと転じており、マクロン政権の求心力低下が浮き彫りとなっています。11月には労組による追加ストも予告されており、政治的不安定さが長期化する懸念があります。",
+      "section": "world",
+      "topic_key": "europe-cost-of-living-riots",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "French authorities announce partial curfews as PM blames ‘ultra-left’ for exploiting protests – Europe live",
+          "url": "https://www.theguardian.com/world/live/2026/oct/19/europe-france-protests-riots-macron-ukraine-russia-zelenskyy-sweden-latest-news-updates"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "France imposes partial curfews in several cities, including parts of Paris",
+          "url": "https://www.theguardian.com/world/2026/oct/19/french-police-lost-control-during-riots-concedes-interior-minister"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "France protests escalate with riots, looting and 2,400 arrests – The Latest",
+          "url": "https://www.theguardian.com/news/audio/2026/oct/19/france-protests-escalate-riots-looting-arrests-the-latest"
+        },
+        {
+          "publisher": "The New York Times",
+          "title": "France Imposes Curfews in Parts of Paris and Other Cities After Nationwide Rioting",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QRGxBeGRuaWEyc1kxNmhHM2x5SDliNDRhVklzT1ljYm1JNmg1SjVnQ19YMDBVS2taX0FRQkp4UjVVRDQzMFNBSjlfSHBxODNUVDhaX2tjaExoc2N6eFB6UzVodlFaQkNHQnJBUXdJTVJlT1BDOXNiSHpWUEp0SGs?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Ebola Cluster in Kenya Expands as International Health Funding Cuts Impede Regional Response",
+      "title_ja": "ケニア初のエボラクラスターが拡大、米国の国際保健支援削減が対策に影響",
+      "summary_ja": "ケニア国内で史上初となるエボラ出血熱の感染クラスターにおいて、8人目の陽性者が確認されました。隣接するコンゴ民主共和国を中心とする一連の流行では死者が4,300人を超えています。しかし、米国による国際保健予算や関連機関の大幅縮小、ケニア国内の隔離施設設置を巡る法廷闘争が重なり、越境感染防止に向けた現地対応体制に深刻な支障が生じています。",
+      "why_ja": "超大国の国際保健枠組みからの離脱や予算削減が、新興感染症の封じ込め能力をいかに脆弱化させるかを如実に示しています。感染症対策における多国間協調と持続的な資金拠出の重要性が改めて問われています。",
+      "section": "world",
+      "topic_key": "kenya-ebola-outbreak-funding-crisis",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "Ebola cases in Kenya highlight US failures amid Trump cuts to key services",
+          "url": "https://www.theguardian.com/world/2026/oct/19/ebola-cases-kenya-us-quarantine"
+        }
+      ]
+    },
+    {
+      "title_en": "Houthi Ballistic Missile Attack Kills Over 50 Security Recruits in Southern Yemen",
+      "title_ja": "イエメンでフーシ派の弾道ミサイル攻撃、治安部隊の新兵53人が死亡",
+      "summary_ja": "イエメン南部シャブワ州の治安部隊訓練キャンプに対し、反政府武装組織フーシ派が3発の弾道ミサイルを発射し、新兵ら53人が死亡、200人以上が負傷しました。整列中だった若い新兵が集中的に狙われました。同国暫定政府のアリーミ大統領はテロ行為として非難し、国連に対してフーシ派をテロ組織に再指定するよう求めました。",
+      "why_ja": "9月に内戦が再燃して以降、単一の攻撃としては最大規模の犠牲者を記録しました。紅海沿岸の要衝を巡る攻防と連動しており、紅海航路の航行安全および中東地域全体の地政学リスクを一段と引き上げています。",
+      "section": "world",
+      "topic_key": "yemen-civil-war-houthi-missile-strike",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "Houthi attack kills 53 in biggest single loss of life since Yemen civil war reignited",
+          "url": "https://www.theguardian.com/world/2026/oct/19/houthi-attack-yemen-al-alam-camp-biggest-single-loss-of-life-civil-war"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Houthi missile strike on Yemen camp kills 50 security recruits, local authorities say",
+          "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "small modular reactor",
+      "meaning_ja": "小型モジュール炉（SMR）",
+      "note_ja": "工場で部品を製造して現地で組み立てる小型の次世代原子炉のことです。",
+      "example_en": "The facility will feature twelve Xe-100 small modular reactors supplied by X-energy."
+    },
+    {
+      "term": "grid",
+      "meaning_ja": "送電網、電力供給網",
+      "note_ja": "発電所から各家庭や事業所へ電気を運ぶネットワーク網を指します。",
+      "example_en": "The clean electricity will flow into the public power grid while directly serving Amazon datacenters."
+    },
+    {
+      "term": "manufacturing",
+      "meaning_ja": "製造業",
+      "note_ja": "原料を加工して製品を作る産業全般を指す名詞です。",
+      "example_en": "They signed a joint declaration to accelerate AI adoption across heavy manufacturing and automotive sectors."
+    },
+    {
+      "term": "inference",
+      "meaning_ja": "（AIの）推論",
+      "note_ja": "学習済みのAIモデルが入力データに基づいて回答や予測を計算して出力することです。",
+      "example_en": "Tenstorrent specializes in AI inference processors that run trained models."
+    },
+    {
+      "term": "spectrum",
+      "meaning_ja": "（電波の）周波数帯",
+      "note_ja": "通信サービスを提供するために政府から割り当てられる電波の範囲のことです。",
+      "example_en": "They are preparing a shared bid for wireless spectrum that lets ordinary smartphones connect straight to satellites."
+    },
+    {
+      "term": "dead zone",
+      "meaning_ja": "圏外地域、電波不感地帯",
+      "note_ja": "携帯電話などの電波が届かず、通信が利用できない場所のことです。",
+      "example_en": "They want to provide universal coverage in rural dead zones and protect critical communications during emergencies."
+    },
+    {
+      "term": "autonomous",
+      "meaning_ja": "自律的な、自動運転の",
+      "note_ja": "人間の介入なしに、自らの判断でタスクを実行する性質を表します。",
+      "example_en": "Hackers are now deploying fully autonomous artificial intelligence agents to breach corporate computer networks."
+    },
+    {
+      "term": "breach",
+      "meaning_ja": "侵入する、突破する",
+      "note_ja": "サイバーセキュリティにおいて、システムの防御を破って不正侵入することを指す動詞です。",
+      "example_en": "Threat researchers discovered that an attacker used AI agents to breach more than one hundred corporate websites."
+    },
+    {
+      "term": "prescription",
+      "meaning_ja": "処方箋、処方薬",
+      "note_ja": "医師が出す薬の処方、または処方された薬そのものを指します。",
+      "example_en": "Doctors and patients will be able to compare medication costs across multiple pharmacies before any prescription is transmitted."
+    },
+    {
+      "term": "curfew",
+      "meaning_ja": "夜間外出禁止令",
+      "note_ja": "治安維持や災害対応のため、特定の時間帯の外出を禁止する行政命令です。",
+      "example_en": "French authorities have ordered overnight curfews in Paris and several other major cities following days of violent civil unrest."
+    },
+    {
+      "term": "cluster",
+      "meaning_ja": "集団発生、感染者群",
+      "note_ja": "特定の地域や期間において、同じ疾患の患者が集中して発生することを表します。",
+      "example_en": "This case marks Kenya's first-ever cluster of the Bundibugyo Ebola strain."
+    },
+    {
+      "term": "ballistic missile",
+      "meaning_ja": "弾道ミサイル",
+      "note_ja": "放物線を描いて高速で目標に落下するロケット推進型の長距離兵器です。",
+      "example_en": "Houthi forces launched three ballistic missiles at the al-Alam military training facility in the southern province of Shabwa."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "join forces",
+    "meaning_ja": "力を合わせる、提携・協力する",
+    "example_en": "Four major European mobile network carriers are joining forces to build a direct-to-device satellite network.",
+    "example_ja": "欧州の大手携帯通信キャリア4社は、スマホ直接接続の衛星網を構築するために手を組んでいます。"
+  }
+}
