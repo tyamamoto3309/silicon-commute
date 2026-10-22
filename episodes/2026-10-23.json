@@ -1,0 +1,1256 @@
+{
+  "date": "2026-10-23",
+  "published": "2026-10-23T05:27:47+09:00",
+  "title_en": "TSMC Moves Away from Chinese Rare Earths and AI Hacking Accelerates",
+  "title_ja": "TSMCの脱中国レアアースとAIサイバー攻撃の加速",
+  "summary_ja": "TSMCが工場の製造装置から中国産レアアース磁石の排除を目指し、AIエージェントによる企業クラウドへの大規模サイバー攻撃が判明しました。FDAが処方箋薬連動アプリの最終指針を公開し、デジタル治療の承認基準を整理しました。ホルムズ海峡でのタンカー被害による原油急騰やウクライナ情勢、欧州での初の人体感染症例など国際ニュースも解説します。",
+  "duration": 1066.8,
+  "audio": {
+    "file": "2026-10-23.mp3",
+    "bytes": 8535036,
+    "release_tag": "ep-2026-10-23"
+  },
+  "word_count": 1839,
+  "ja_chars": 1428,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.8-flash",
+    "write": "gemini-3.8-flash",
+    "revise": "gemini-3.5-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Friday Morning Briefing",
+      "heading_ja": "金曜朝のニュースブリーフィング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it is Friday, October 23. Welcome to Commute News, your essential morning briefing on global technology, digital health, and international affairs.",
+          "ja": "おはようございます。10月23日金曜日、Commute Newsです。世界のテクノロジー、デジタルヘルス、国際情勢の最新ニュースをお届けします。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, Alex. Today, chipmaker TSMC asks suppliers to eliminate Chinese rare earth magnets, while state-backed hackers deploy AI agents to breach thousands of cloud accounts.",
+          "ja": "おはようございます。本日はまず、半導体大手のTSMCが製造装置から中国製レアアース磁石の排除を求めている話題と、国家系ハッカーがAIエージェントで多数のクラウドに侵入したニュースです。",
+          "t": 11.32
+        },
+        {
+          "speaker": "Alex",
+          "en": "In digital health, the FDA releases long-awaited final guidance for software companion apps used with prescription medications.",
+          "ja": "デジタルヘルスでは、米FDAが処方箋医薬品と連動するアプリに関する待望の最終指針を発表しました。",
+          "t": 23.8
+        },
+        {
+          "speaker": "Mika",
+          "en": "And in world news, oil prices jump to a five-month high after tanker attacks in the Strait of Hormuz, and Russia strikes Kyiv after agreeing to peace talks. Let us begin.",
+          "ja": "そして国際ニュースでは、ホルムズ海峡でのタンカー攻撃による原油急騰や、和平協議合意直後のキーウ攻撃をお伝えします。それでは始めましょう。",
+          "t": 33.05
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "TSMC Demands Machinery Free of Chinese Rare Earths",
+      "heading_ja": "TSMC、装置メーカーに中国産レアアース磁石の排除を要請",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our top tech story is a major strategic shift in semiconductor supply chains.",
+          "ja": "最初のテックニュースは、半導体サプライチェーンにおける重大な戦略転換です。",
+          "t": 44.92
+        },
+        {
+          "speaker": "Alex",
+          "en": "According to Reuters, TSMC is asking equipment suppliers to build factory machinery without Chinese rare earth magnets to protect fab lines from export controls.",
+          "ja": "ロイター通信によると、TSMCは製造ラインを中国の輸出規制から守るため、中国製レアアース磁石を使わない工場設備の開発をサプライヤーに要請しています。",
+          "t": 51.13
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why are permanent magnets so important inside TSMC advanced chip factories?",
+          "ja": "なぜTSMCの最先端工場において永久磁石がそれほど重要なのですか？",
+          "t": 62.45
+        },
+        {
+          "speaker": "Alex",
+          "en": "TSMC makes cutting-edge chips for Nvidia, Apple, Broadcom, Qualcomm, and automotive leaders. Its automated factories rely on powerful electric motors containing rare earths like neodymium, dysprosium, and terbium.",
+          "ja": "TSMCはNvidia、Apple、Broadcom、Qualcomm、自動車大手に最先端チップを供給しています。工場の自動化機械はネオジムやジスプロシウムなどのレアアースを含む強力なモーターに依存しています。",
+          "t": 68.53
+        },
+        {
+          "speaker": "Alex",
+          "en": "China controls 70 percent of rare earth mining and 95 percent of finished permanent magnets. Last year, Beijing imposed strict export controls, creating severe supply risks for equipment maintenance.",
+          "ja": "中国はレアアース採掘の70パーセント、永久磁石製品の95パーセントを支配しています。中国が昨年厳格な輸出規制を敷いたため、設備の保守管理に深刻なリスクが生じました。",
+          "t": 83.02
+        },
+        {
+          "speaker": "Mika",
+          "en": "Which tech companies rely on TSMC chips, and why are export controls such a threat?",
+          "ja": "どのような企業がTSMCのチップに依存しており、なぜ輸出規制が脅威となるのですか？",
+          "t": 96.65
+        },
+        {
+          "speaker": "Alex",
+          "en": "Nvidia, Apple, Broadcom, and Qualcomm all depend on TSMC. Even small shortages of specialized motor parts could disrupt factory repairs, tools, or expansion plans.",
+          "ja": "NvidiaやAppleをはじめとする多くの企業が頼っています。特殊なモーター部品が僅かに不足するだけでも、工場の修理や装置の導入、拡張計画が停止する恐れがあります。",
+          "t": 103.23
+        },
+        {
+          "speaker": "Mika",
+          "en": "What technical alternatives can equipment suppliers use to replace rare earths?",
+          "ja": "装置メーカーはレアアースを代替するためにどのような技術的選択肢を使えるのですか？",
+          "t": 114.67
+        },
+        {
+          "speaker": "Alex",
+          "en": "Suppliers can switch to conventional induction motors, switched-reluctance designs, or ferrite magnets, but these come with trade-offs in power density, size, and precision control.",
+          "ja": "サプライヤーは従来の誘導モーターやフェライト磁石へ切り替えられますが、出力密度やサイズ、精密制御とのトレードオフが発生します。",
+          "t": 121.0
+        },
+        {
+          "speaker": "Alex",
+          "en": "Taiwan and the United States are also pursuing domestic rare earth supply chains outside China.",
+          "ja": "台湾と米国はまた、中国に依存しない国内レアアース供給網の構築を進めています。",
+          "t": 133.54
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, TSMC is redesigning factory tool standards to keep making chips without Chinese mineral disruptions.",
+          "ja": "要するに、TSMCは中国の鉱物規制による混乱を避けて半導体生産を続けるため、工場設備の標準を再設計しているのです。",
+          "t": 140.84
+        }
+      ],
+      "lang": "en",
+      "t": 44.92
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。TSMCが製造装置メーカーに対し、中国産レアアース磁石を含まない設備の供給を求め始めました。中国は永久磁石の世界シェアの約95パーセントを握り、輸出管理を強めています。TSMCは自社ファブの保守や拡張が止まるリスクを避けるため、モーターの代替技術や調達網の脱中国化を急いでいます。",
+          "en": "",
+          "lang": "ja",
+          "t": 149.3
+        }
+      ],
+      "t": 149.3
+    },
+    {
+      "kind": "story",
+      "heading_en": "Chinese AI Agents Breach 2,250 ConnectWise Cloud Tenants",
+      "heading_ja": "ConnectWise侵入でAIエージェントが悪用、2250社に被害",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Next, Microsoft revealed a major cybersecurity breach involving state-aligned hackers and autonomous artificial intelligence.",
+          "ja": "次は、国家系ハッカーと自律型AIが関与した重大なサイバーセキュリティ侵害についてです。",
+          "t": 176.25
+        },
+        {
+          "speaker": "Alex",
+          "en": "Chinese hackers breached IT management provider ConnectWise, stealing credentials from its cloud backup service to access corporate customer files and emails.",
+          "ja": "中国系ハッカーがIT管理サービス大手のConnectWiseに侵入し、クラウドバックアップの認証情報を盗んで顧客企業のファイルやメールにアクセスしました。",
+          "t": 184.49
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did the attackers move so fast after stealing those backup credentials?",
+          "ja": "認証情報を盗んだ後、攻撃者はなぜそれほど素早く動き回れたのですか？",
+          "t": 194.55
+        },
+        {
+          "speaker": "Alex",
+          "en": "Microsoft says the hackers deployed autonomous AI agents built on ARTEX, an open source stress-testing framework.",
+          "ja": "Microsoftによると、ハッカーはARTEXというオープンソースの検証用基盤で作成した自律型AIエージェントを投入しました。",
+          "t": 200.04
+        },
+        {
+          "speaker": "Alex",
+          "en": "These AI agents launched nearly 3,000 sign-in attempts per minute across thousands of target organizations.",
+          "ja": "このAIエージェントは、多数の標的組織に対して1分間に約3000回ものサインイン試行を自動で実行しました。",
+          "t": 207.63
+        },
+        {
+          "speaker": "Alex",
+          "en": "As a result, they breached approximately 2,250 cloud tenants, gaining privileged access in under three hours in some environments.",
+          "ja": "その結果、約2250のクラウド環境に侵入し、一部の環境では3時間未満で特権アクセスを奪取しました。",
+          "t": 214.88
+        },
+        {
+          "speaker": "Mika",
+          "en": "Has this AI hacking tool been seen in other major cyber incidents?",
+          "ja": "このAI攻撃ツールは他の主要なサイバー攻撃でも使われていますか？",
+          "t": 223.4
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, the ARTEX framework was recently used in attacks against South Korean financial systems that lacked strong multi-factor authentication.",
+          "ja": "はい。ARTEX基盤は最近、多要素認証が不十分だった韓国の金融システムへの攻撃でも悪用されました。",
+          "t": 228.4
+        },
+        {
+          "speaker": "Mika",
+          "en": "How is ConnectWise responding to protect its enterprise customers?",
+          "ja": "ConnectWiseは法人顧客を保護するためにどのような対応を取っていますか？",
+          "t": 237.46
+        },
+        {
+          "speaker": "Alex",
+          "en": "ConnectWise paused access to its cloud backup system and is working on restoring secure service while investigating.",
+          "ja": "ConnectWiseはクラウドバックアップへのアクセスを一時停止し、調査と安全なサービスの復旧を進めています。",
+          "t": 242.46
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, state-backed hackers deployed rapid AI agents to breach over two thousand corporate cloud environments in record time.",
+          "ja": "要するに、国家系ハッカーが高速なAIエージェントを悪用し、異例のスピードで2000以上の企業クラウドに侵入したのです。",
+          "t": 250.21
+        }
+      ],
+      "lang": "en",
+      "t": 176.25
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "IT管理大手ConnectWiseのクラウドバックアップが侵害され、約2250社の顧客環境に中国系ハッカーが不正アクセスしました。攻撃者はARTEXというオープンソースのAI基盤をエージェント化し、毎分約3000回のログイン試行で自動侵入しました。AIによる攻撃の超高速化に対し、防御側が対応時間を奪われる新たな脅威となっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 258.84
+        }
+      ],
+      "t": 258.84
+    },
+    {
+      "kind": "story",
+      "heading_en": "Google Custom TPUs Deployed in Meta Data Centers",
+      "heading_ja": "GoogleのカスタムAI半導体TPU、Metaの商用環境で稼働",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our third story covers a historic hardware collaboration between Google and Meta.",
+          "ja": "3つ目のニュースは、GoogleとMetaによる画期的なハードウェア提携です。",
+          "t": 284.84
+        },
+        {
+          "speaker": "Alex",
+          "en": "Meta is now running Google custom TPU chips inside its production artificial intelligence systems to serve PyTorch models natively.",
+          "ja": "Metaは現在、自社の商用AIシステム内でGoogleのカスタム半導体TPUを稼働させ、PyTorchモデルを直接動作させています。",
+          "t": 290.67
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is Meta using Google chips instead of buying more Nvidia GPUs?",
+          "ja": "なぜMetaはNvidiaのGPUを追加購入せずGoogleのチップを使っているのですか？",
+          "t": 299.24
+        },
+        {
+          "speaker": "Alex",
+          "en": "Meta wants to avoid depending entirely on a single hardware vendor like Nvidia. Previously, TPUs required Google's JAX software, which Meta did not want to adopt.",
+          "ja": "MetaはNvidia単独への依存を回避したい考えです。以前はTPU利用にGoogleのJAXソフトが必要で、Metaは移行を拒んでいました。",
+          "t": 304.24
+        },
+        {
+          "speaker": "Alex",
+          "en": "To solve this, Meta, Google, and startup RadixArk created TorchTPU, allowing PyTorch code to run natively on Tensor Processing Units without rewriting.",
+          "ja": "これを解決するため、Meta、Google、スタートアップのRadixArkがTorchTPUを開発し、コード書き換えなしにPyTorchをTPU上で動作可能にしました。",
+          "t": 314.51
+        },
+        {
+          "speaker": "Mika",
+          "en": "How powerful is the performance on Google TPU hardware?",
+          "ja": "GoogleのTPUハードウェアのパフォーマンスはどれほど強力なのですか？",
+          "t": 324.18
+        },
+        {
+          "speaker": "Alex",
+          "en": "Tests show Google seventh-generation Ironwood TPU achieved over 700 tokens per second on Moonshot AI Kimi model, nearly double the speed of Nvidia GB200 setups.",
+          "ja": "テストによると、第7世代Ironwood TPUはMoonshot AIのモデルで毎秒700トークン以上を達成し、Nvidia GB200構成の約2倍の速度を出しました。",
+          "t": 328.58
+        },
+        {
+          "speaker": "Mika",
+          "en": "Are other hyper-scalers also opening up their AI chip ecosystems?",
+          "ja": "他のハイパースケーラーも自社AIチップの他社展開を進めていますか？",
+          "t": 338.75
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, Amazon open-sourced TorchNeuron on the same day to support PyTorch on its Trainium chips, signaling a broader industry push.",
+          "ja": "はい、Amazonも自社製TrainiumチップでPyTorchを動かすTorchNeuronを同日に公開し、業界全体の脱Nvidiaの動きを示しています。",
+          "t": 343.69
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, tech giants are uniting around PyTorch software to deploy Google TPUs in production and break Nvidia hardware dominance.",
+          "ja": "要するに、テック大手はPyTorchソフトウェアを通じて連携し、商用環境でGoogle TPUを活用してNvidiaの市場独占を崩そうとしています。",
+          "t": 352.15
+        }
+      ],
+      "lang": "en",
+      "t": 284.84
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Metaが商用AI環境にGoogleの独自半導体TPUを採用しました。PyTorch開発元のMetaはGoogleなどと共同でTorchTPUを開発し、ソフトウェアの書き換えなしにTPU上でAIを高速動作させています。Amazonも自社製チップのPyTorch対応を進めており、Nvidiaの市場支配に対抗する巨大テックの協調が鮮明です。",
+          "en": "",
+          "lang": "ja",
+          "t": 361.34
+        }
+      ],
+      "t": 361.34
+    },
+    {
+      "kind": "story",
+      "heading_en": "Micron Scraps 4F² DRAM Architecture to Shift Long-Term Memory Roadmap",
+      "heading_ja": "Micron、20年研究した4F²メモリ微細化を中止へ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our fourth story comes from the memory semiconductor industry.",
+          "ja": "4つ目のニュースは、半導体メモリー業界からの話題です。",
+          "t": 384.56
+        },
+        {
+          "speaker": "Alex",
+          "en": "Micron Technology announced it is abandoning 4F squared DRAM architecture after two decades of research, shifting its long-term memory roadmap.",
+          "ja": "Micron Technologyは、20年にわたる研究を経て将来の4Fスクエア型DRAM開発を断念し、長期ロードマップを転換すると発表しました。",
+          "t": 388.76
+        },
+        {
+          "speaker": "Mika",
+          "en": "What is 4F squared DRAM, and why did Micron spend twenty years researching it?",
+          "ja": "4Fスクエア型DRAMとは何ですか？なぜMicronは20年も研究してきたのですか？",
+          "t": 396.86
+        },
+        {
+          "speaker": "Alex",
+          "en": "Conventional DRAM uses a 6F squared structure. The 4F squared design promised a 33 percent reduction in cell area, theoretically increasing memory cell yield per wafer by 50 percent.",
+          "ja": "従来のDRAMは6Fスクエア構造です。4Fスクエア設計はセル面積を33パーセント削減でき、理論上ウエハーあたりのセル数を50パーセント増やせると期待されていました。",
+          "t": 401.83
+        },
+        {
+          "speaker": "Mika",
+          "en": "If it offers so much extra capacity, why did Micron decide to cancel it?",
+          "ja": "それほど容量を増やせるのに、なぜMicronは中止を決めたのでしょうか？",
+          "t": 411.82
+        },
+        {
+          "speaker": "Alex",
+          "en": "Micron chief technology officer Scott DeBoer called the density advantage a myth in real manufacturing. He explained that capacitor size and pitch determine true memory density, not transistor area alone.",
+          "ja": "Micronのスコット・デボアCTOは、量産においてその密度優位性は見せかけだと述べました。トランジスタの広さではなく、キャパシタの寸法こそが真の密度限界を決めるためです。",
+          "t": 416.5
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does Micron strategy compare with industry rivals like Samsung and SK Hynix?",
+          "ja": "SamsungやSK Hynixといった競合他社と比べてMicronの戦略はどう異なりますか？",
+          "t": 427.55
+        },
+        {
+          "speaker": "Alex",
+          "en": "Samsung and SK Hynix still keep 4F squared on their roadmaps, but Micron is choosing to skip it and focus instead on vertical 3D DRAM scaling.",
+          "ja": "競合は計画に残していますが、Micronはこれをスキップし、垂直方向の3D積層技術へ集中的に投資する方針を選びました。",
+          "t": 432.62
+        },
+        {
+          "speaker": "Alex",
+          "en": "Micron previously delayed EUV lithography and remained competitive, showing it is willing to break with industry consensus.",
+          "ja": "Micronは過去にもEUV露光の導入を遅らせながら競争力を維持しており、業界の主流とは異なる独自路線を進む姿勢を示しています。",
+          "t": 440.67
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, Micron ended two decades of 4F squared DRAM research to focus on vertical 3D scaling and cost efficiency.",
+          "ja": "要するに、Micronは20年続けた4FスクエアDRAMの研究に区切りを付け、3次元積層とコスト効率向上に舵を切ったのです。",
+          "t": 447.81
+        }
+      ],
+      "lang": "en",
+      "t": 384.56
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米Micronが、20年間研究してきた次世代メモリ構造「4FスクエアDRAM」の開発中止を発表しました。理論上はセル面積を33パーセント削減できる夢の技術とされていましたが、同社はキャパシタの配置限界と製造コスト増を理由に断念しました。Samsungなどが開発を継続する中、Micronは垂直3D構造への移行を優先します。",
+          "en": "",
+          "lang": "ja",
+          "t": 454.76
+        }
+      ],
+      "t": 454.76
+    },
+    {
+      "kind": "story",
+      "heading_en": "Critical PHP2Shell Flaw Hits Global Web Services",
+      "heading_ja": "深刻なPHP2Shell脆弱性、世界のWebサービスを直撃",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our final tech story is a massive zero-day vulnerability threatening global web infrastructure.",
+          "ja": "最後のテックニュースは、世界のWeb基盤を脅かす大規模なゼロデイ脆弱性についてです。",
+          "t": 477.39
+        },
+        {
+          "speaker": "Alex",
+          "en": "A critical flaw called PHP2Shell, carrying a maximum severity score of 9.2, is being broadly exploited across the internet.",
+          "ja": "PHP2Shellと呼ばれる、最高レベルの深刻度スコア9.2を記録した脆弱性が、インターネット上で広範に悪用されています。",
+          "t": 484.07
+        },
+        {
+          "speaker": "Alex",
+          "en": "PHP is a foundational programming language that powers roughly 70 percent of all websites worldwide.",
+          "ja": "PHPは世界中の全Webサイトの約70パーセントを支える基礎的なプログラミング言語です。",
+          "t": 492.31
+        },
+        {
+          "speaker": "Mika",
+          "en": "How severe are the real-world disruptions caused by this zero-day bug?",
+          "ja": "このゼロデイ欠陥による現実の被害はどの程度深刻なのですか？",
+          "t": 499.27
+        },
+        {
+          "speaker": "Alex",
+          "en": "The United Kingdom government had to take 32 public services offline and saw four others disrupted to prevent unauthorized access.",
+          "ja": "英国政府は不正アクセスを防ぐため、32のオンライン公共サービスを停止し、さらに4つのサービスで影響が出ました。",
+          "t": 504.56
+        },
+        {
+          "speaker": "Mika",
+          "en": "When did attackers start targeting this flaw relative to security fixes?",
+          "ja": "修正パッチが公開されるタイミングに対して、攻撃者はいつから狙っていたのですか？",
+          "t": 513.19
+        },
+        {
+          "speaker": "Alex",
+          "en": "Amazon reported that attackers began probing systems four days before patches were publicly disclosed. Security firms like Cloudflare detected millions of exploit attempts.",
+          "ja": "Amazonによると、パッチ公開の4日前から攻撃者が侵入を試みていました。Cloudflareなどのセキュリティ企業も数百万回の攻撃試行を検知しています。",
+          "t": 518.59
+        },
+        {
+          "speaker": "Mika",
+          "en": "How was this hidden flaw finally uncovered after remaining undetected for a decade?",
+          "ja": "10年以上も潜んでいたこの欠陥は、どのようにして発見されたのですか？",
+          "t": 529.56
+        },
+        {
+          "speaker": "Alex",
+          "en": "OpenAI revealed that researchers used advanced AI models, including GPT-5.6 Sol, to discover the vulnerability and demonstrate working exploits.",
+          "ja": "OpenAIは、研究者がGPT-5.6 Solなどの高度なAIモデルを用いてこの脆弱性を発見し、攻撃実証を行ったと発表しました。",
+          "t": 535.57
+        },
+        {
+          "speaker": "Alex",
+          "en": "US and UK cybersecurity agencies are urging all organizations to update PHP servers immediately.",
+          "ja": "米英のサイバーセキュリティ機関は、すべての組織に対して直ちにPHPサーバーを更新するよう警告しています。",
+          "t": 544.98
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, an AI-discovered zero-day flaw in PHP triggered mass exploitation and forced dozens of government portals offline.",
+          "ja": "要するに、AIが発見したPHPのゼロデイ欠陥が大規模攻撃を引き起こし、多数の政府ポータルが停止に追い込まれたのです。",
+          "t": 551.71
+        }
+      ],
+      "lang": "en",
+      "t": 477.39
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Webサイトの約7割で使われるPHPに「PHP2Shell」と呼ばれる深刻度9.2の脆弱性が見つかり、世界中で悪用が始まっています。英政府は32のオンライン窓口を一時停止しました。この欠陥はOpenAIの最新モデルなどを用いて発見されましたが、パッチ公開の4日前に攻撃が始まっており、迅速な更新が求められています。",
+          "en": "",
+          "lang": "ja",
+          "t": 560.23
+        }
+      ],
+      "t": 560.23
+    },
+    {
+      "kind": "health",
+      "heading_en": "FDA Finalizes Guidance on Prescription Drug Software",
+      "heading_ja": "米FDA、処方箋連動デジタルアプリの最終指針を策定",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, turning to digital health news.",
+          "ja": "続いて、デジタルヘルスのニュースです。",
+          "t": 585.22
+        },
+        {
+          "speaker": "Alex",
+          "en": "The United States Food and Drug Administration finalized regulatory guidance for prescription drug-related software, giving clear rules for companion apps.",
+          "ja": "米食品医薬品局（FDA）は、処方薬と連動するソフトウェアに関する規制ガイドラインを決定し、コンパニオンアプリへの明確な基準を示しました。",
+          "t": 588.62
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specific software functions does this FDA guidance cover?",
+          "ja": "今回のFDA指針は具体的にどのようなソフトウェア機能を対象にしているのですか？",
+          "t": 598.64
+        },
+        {
+          "speaker": "Alex",
+          "en": "It applies to mobile companion apps and digital tools that help patients track dosing, monitor side effects, or follow prescription drug schedules.",
+          "ja": "患者の服薬管理や副作用のモニタリング、処方薬のスケジュール維持を支援するモバイルアプリやデジタルツールが対象です。",
+          "t": 603.48
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is the pharmaceutical industry celebrating this regulatory milestone?",
+          "ja": "なぜ製薬業界はこの規制の決定を歓迎しているのでしょうか？",
+          "t": 613.06
+        },
+        {
+          "speaker": "Alex",
+          "en": "Pharmaceutical companies gain clear legal certainty regarding when companion apps are evaluated as medical device software or promotional labeling, streamlining approval pipelines.",
+          "ja": "製薬会社は、アプリが医療機器プログラムとして審査されるか促進用ラベルとみなされるかの法的な線引きが明確になり、承認手続きの見通しが立つためです。",
+          "t": 618.52
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does this new guidance benefit patients and healthcare providers?",
+          "ja": "この新しい指針は患者や医療従事者にどのようなメリットをもたらしますか？",
+          "t": 629.93
+        },
+        {
+          "speaker": "Alex",
+          "en": "It ensures that health tools meet strict FDA standards for clinical safety, scientific evidence, and data protection before reaching app stores.",
+          "ja": "デジタルヘルスツールがストアで公開される前に、臨床的安全性の担保や科学的根拠、データ保護に関してFDAの厳格な基準を満たすことが保証されます。",
+          "t": 635.16
+        },
+        {
+          "speaker": "Alex",
+          "en": "Global regulatory authorities in Europe and Asia often study FDA frameworks when updating their own digital medicine policies.",
+          "ja": "欧州やアジアの規制当局も、独自のデジタル医療政策を改定する際にFDAのフレームワークをよく参考にします。",
+          "t": 644.57
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, the FDA finalized critical rules for prescription drug software, giving digital therapeutics a clear regulatory roadmap.",
+          "ja": "要するに、FDAが処方薬連動アプリの明確なルールを定めたことで、デジタル治療の規制ロードマップが整ったのです。",
+          "t": 652.98
+        }
+      ],
+      "lang": "en",
+      "t": 585.22
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米FDAが処方薬と連動するモバイルアプリに関する最終ガイダンスを公表しました。服薬管理や症状追跡アプリのうち、どのような機能が医療機器として事前審査を要するかが明確化され、製薬業界から歓迎されています。アプリの医療効果の科学的根拠を担保する動きとして、日本の医療DXや薬事政策にも影響を与えそうです。",
+          "en": "",
+          "lang": "ja",
+          "t": 662.28
+        }
+      ],
+      "t": 662.28
+    },
+    {
+      "kind": "world",
+      "heading_en": "Tanker Attacks in Strait of Hormuz Spike Oil Prices",
+      "heading_ja": "ホルムズ海峡でのタンカー被害で原油価格が急騰",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In world news, oil prices surged to a five-month high following attacks in the Middle East.",
+          "ja": "国際ニュースです。中東での攻撃を受け、原油価格が5か月ぶりの高値に急騰しました。",
+          "t": 687.96
+        },
+        {
+          "speaker": "Alex",
+          "en": "Iran Islamic Revolutionary Guard Corps stated seven oil tankers were hit in the Strait of Hormuz, claiming four caught fire and three struck naval mines.",
+          "ja": "イラン革命防衛隊はホルムズ海峡で7隻のタンカーに損害を与え、4隻が炎上、3隻が機雷に接触したと発表しました。",
+          "t": 694.88
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did global commodity markets and stock exchanges react?",
+          "ja": "世界の商品市場や株式市場はどのように反応しましたか？",
+          "t": 705.51
+        },
+        {
+          "speaker": "Alex",
+          "en": "Brent crude rose three percent to 112 dollars per barrel. Asian stock markets plunged, with Tokyo Nikkei falling 2.7 percent and South Korea Kospi dropping 3.5 percent.",
+          "ja": "ブレント原油は3パーセント上昇し1バレル112ドルとなりました。日経平均が2.7パーセント安、韓国KOSPIが3.5パーセント安となるなどアジア株が急落しました。",
+          "t": 710.53
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did United States military officials respond to Iran report?",
+          "ja": "米軍当局はイランの発表にどのように反論していますか？",
+          "t": 722.05
+        },
+        {
+          "speaker": "Alex",
+          "en": "US Central Command denied the mine reports, stating shipping lanes remain 95 percent clear and US naval escorts continue operating.",
+          "ja": "米中央軍は機雷の主張を否定し、航路の95パーセントは安全に保たれており護衛活動を続けていると説明しています。",
+          "t": 727.37
+        },
+        {
+          "speaker": "Alex",
+          "en": "Meanwhile, Houthi attacks in Saudi Arabia killed four people, prompting Saudi Aramco to evacuate its Dhahran headquarters.",
+          "ja": "一方、サウジアラビアではフーシ派の攻撃で4人が死亡し、サウジアラムコが本社から避難する事態となっています。",
+          "t": 736.68
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, tanker attacks in the Strait of Hormuz sent oil to a five-month high, raising global market and inflation concerns.",
+          "ja": "要するに、ホルムズ海峡での攻撃報告で原油が急騰し、世界市場でインフレ懸念が強まっているのです。",
+          "t": 745.46
+        }
+      ],
+      "lang": "en",
+      "t": 687.96
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "イラン革命防衛隊がホルムズ海峡でタンカー7隻に攻撃や機雷による被害を与えたと発表し、原油指標のブレント先物は1バレル112ドルと5か月ぶりの高値を付けました。米軍は海峡の95パーセントは安全だと反論していますが、燃料高への懸念から日韓の株式市場が急落するなど影響が広がっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 754.65
+        }
+      ],
+      "t": 754.65
+    },
+    {
+      "kind": "world",
+      "heading_en": "Russia Strikes Kyiv After Agreeing to Peace Talks",
+      "heading_ja": "ロシア、3者協議合意の直後にキーウへミサイル攻撃",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In Eastern Europe, Russia launched a massive missile strike against Kyiv hours after agreeing to resume peace talks.",
+          "ja": "東欧では、ロシアが和平協議の再開に合意したわずか数時間後に、キーウへ大規模なミサイル攻撃を行いました。",
+          "t": 778.72
+        },
+        {
+          "speaker": "Alex",
+          "en": "Russian President Vladimir Putin met with US envoy Steve Witkoff and agreed in principle to trilateral talks involving Russia, the US, and Ukraine after November 10.",
+          "ja": "プーチン大統領は米国のウィトコフ特使と会談し、11月10日以降に米・ウクライナとの3者協議を再開することに原則合意していました。",
+          "t": 787.14
+        },
+        {
+          "speaker": "Mika",
+          "en": "What targets were struck during the overnight bombardment in Kyiv?",
+          "ja": "キーウへの夜間爆撃ではどのような施設が被害を受けましたか？",
+          "t": 798.48
+        },
+        {
+          "speaker": "Alex",
+          "en": "Moscow fired 21 ballistic missiles, killing at least two people, wounding 22, and hitting energy infrastructure, bridges, clinics, and a historic monastery.",
+          "ja": "21発の弾道ミサイルが発射され、少なくとも2人が死亡、22人が負傷し、電力インフラや橋、診療所、修道院などが被災しました。",
+          "t": 803.91
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did Ukrainian leadership respond to the sudden attack?",
+          "ja": "ウクライナ指導部はこの突然の攻撃にどう反応しましたか？",
+          "t": 814.72
+        },
+        {
+          "speaker": "Alex",
+          "en": "President Volodymyr Zelenskyy warned that Russia intends to destroy Ukraine energy grid before winter, appealing urgently to Western partners for Patriot air defense interceptors.",
+          "ja": "ゼレンスキー大統領は、ロシアが冬を前に電力網の破壊を狙っていると警告し、西側諸国へパトリオット迎撃ミサイルの緊急供与を呼びかけました。",
+          "t": 819.68
+        },
+        {
+          "speaker": "Alex",
+          "en": "Reports also indicate US President Donald Trump asked Elon Musk to reverse a slowdown of the Starshield satellite network to assist Ukrainian defenses.",
+          "ja": "また、トランプ米大統領がイーロン・マスク氏に対し、防衛支援のため衛星網スターシールドの制限を解除するよう求めたとも報じられています。",
+          "t": 831.86
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, Russia pounded Kyiv with ballistic missiles shortly after agreeing to peace talks, targeting vital energy networks before winter.",
+          "ja": "要するに、ロシアは対話再開に合意した直後にキーウへミサイルを撃ち込み、冬を前に電力網を狙い撃ちしたのです。",
+          "t": 842.37
+        }
+      ],
+      "lang": "en",
+      "t": 778.72
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ロシアのプーチン大統領が米特使との会談で米・ウクライナとの3者協議再開に原則合意した直後、ロシア軍はキーウへ弾道ミサイル21発を撃ち込みました。少なくとも2人が死亡し電力設備などが被災しました。ウクライナ側は、ロシアが冬を前にエネルギー網破壊を狙っているとして防衛支援を訴えています。",
+          "en": "",
+          "lang": "ja",
+          "t": 852.85
+        }
+      ],
+      "t": 852.85
+    },
+    {
+      "kind": "world",
+      "heading_en": "France Reports First Fatal Human Case of Shamonda Virus",
+      "heading_ja": "フランスで家畜由来シャモンダウイルスの初の人体死亡例",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In public health news, France reported the first known human case and fatality from the livestock-borne Shamonda virus.",
+          "ja": "公衆衛生ニュースです。フランスで家畜由来のシャモンダウイルスによる初の人体感染および死亡例が報告されました。",
+          "t": 877.31
+        },
+        {
+          "speaker": "Alex",
+          "en": "The virus primarily infects cattle, sheep, goats, and horses, spreading through bites from small insects known as midges.",
+          "ja": "このウイルスは主に牛や羊、山羊、馬に感染し、ヌカカと呼ばれる微小な昆虫の刺咬を通じて広がります。",
+          "t": 885.93
+        },
+        {
+          "speaker": "Mika",
+          "en": "What do health agencies say about the risk to the general public?",
+          "ja": "衛生機関は一般市民へのリスクについてどのように述べていますか？",
+          "t": 894.68
+        },
+        {
+          "speaker": "Alex",
+          "en": "The World Health Organization and European CDC emphasize public risk remains very low because human infection is extremely rare and no human-to-human transmission exists.",
+          "ja": "WHOや欧州CDCは、ヒトへの感染は極めて稀でありヒトからヒトへの感染もないため、一般へのリスクは非常に低いと強調しています。",
+          "t": 900.07
+        },
+        {
+          "speaker": "Mika",
+          "en": "What details were released about the patient in France?",
+          "ja": "フランスでの患者についてどのような詳細が公表されましたか？",
+          "t": 911.75
+        },
+        {
+          "speaker": "Alex",
+          "en": "The patient in Lyon was severely immunocompromised before developing fatal neurological complications linked to the midge-borne virus.",
+          "ja": "リヨンの患者は重度の免疫不全を患っており、昆虫媒介ウイルスに関連する致死的な神経系合併症を発症しました。",
+          "t": 916.54
+        },
+        {
+          "speaker": "Alex",
+          "en": "While Shamonda virus has circulated in Africa and Asia for decades, its recent appearance in European livestock has prompted increased vector surveillance.",
+          "ja": "このウイルスはアフリカやアジアで長年流行していましたが、欧州の家畜での発生を受け、媒介昆虫の監視が強化されています。",
+          "t": 926.06
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, France reported the first human death linked to livestock-borne Shamonda virus, though health officials maintain public risk remains low.",
+          "ja": "要するに、フランスで家畜由来のシャモンダウイルスによる初の死亡例が報告されましたが、一般へのリスクは低いとされています。",
+          "t": 936.84
+        }
+      ],
+      "lang": "en",
+      "t": 877.31
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "フランスで、主に牛などに感染する「シャモンダウイルス」のヒトへの感染・死亡例が世界で初めて確認されました。患者は重い免疫不全を患っていたと発表されています。WHOと欧州疾病対策センターは、ヒトからヒトへの感染拡大の証拠はなく一般へのリスクは極めて低いとしつつ、昆虫媒介ウイルスの監視を続けています。",
+          "en": "",
+          "lang": "ja",
+          "t": 947.38
+        }
+      ],
+      "t": 947.38
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch",
+      "heading_ja": "CEO動向",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In CEO Watch, major tech executives shared notable updates this week.",
+          "ja": "CEO動向です。今週も主要テック企業の首脳陣から注目の発言がありました。",
+          "t": 972.98
+        },
+        {
+          "speaker": "Alex",
+          "en": "Microsoft AI chief Mustafa Suleyman announced their new diagnostic system outperformed general doctors on difficult cases in a Science study.",
+          "ja": "MicrosoftAI部門トップのムスタファ・スレイマン氏は、自社の新診断システムが難症例において一般医師を上回ったと発表しました。",
+          "t": 978.61
+        },
+        {
+          "speaker": "Mika",
+          "en": "In Berlin, Nvidia CEO Jensen Huang dismissed fears of an AI-pocalypse, rejecting claims of mass job losses or the end of human civilization.",
+          "ja": "ベルリンで講演したNvidiaのジェンスン・フアンCEOは、大規模な雇用喪失や文明の終わりといった「AI終末論」を退けました。",
+          "t": 988.55
+        },
+        {
+          "speaker": "Alex",
+          "en": "And IBM CEO Arvind Krishna stated that open-weight AI models now offer 90 percent of proprietary model performance at 10 percent of the cost in just two or three server racks.",
+          "ja": "さらにIBMのアービンド・クリシュナCEOは、オープンウェイト型AIが独自商用モデルの9割の性能を1割のコストで実現できると指摘しました。",
+          "t": 998.43
+        }
+      ],
+      "lang": "en",
+      "t": 972.98
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: Trade-off",
+      "heading_ja": "今日のフレーズ：Trade-off",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today phrase of the day is trade-off.",
+          "ja": "今日の「Phrase of the day」は「trade-off」です。",
+          "t": 1010.86
+        },
+        {
+          "speaker": "Mika",
+          "en": "A trade-off is a situation where you accept a disadvantage in order to gain a different advantage or benefit.",
+          "ja": "trade-offとは、別の利点を得るためにある程度の不都合を受け入れる状況、つまり「妥協点」や「何かを得るために何かを犠牲にすること」を指します。",
+          "t": 1014.02
+        },
+        {
+          "speaker": "Mika",
+          "en": "In our first story, Alex explained that replacing rare earth magnets in factory motors involves trade-offs in efficiency, size, and precision control.",
+          "ja": "最初のニュースで、アレックスはモーターの磁石を代替する技術には効率やサイズ、精密制御面でのトレードオフがあると説明しました。",
+          "t": 1020.84
+        },
+        {
+          "speaker": "Alex",
+          "en": "You can also say: Working from home saves travel time, but less in-person contact with colleagues is a trade-off.",
+          "ja": "「在宅勤務は通勤時間を節約できるが、同僚との対面接触が減るのがトレードオフだ」のようにも使えます。",
+          "t": 1029.75
+        },
+        {
+          "speaker": "Mika",
+          "en": "It is a very useful term when comparing technology solutions or daily choices.",
+          "ja": "技術の比較や日常の意思決定でとても役立つ表現ですね。",
+          "t": 1036.77
+        }
+      ],
+      "lang": "en",
+      "t": 1010.86
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Weekend Wrap-Up",
+      "heading_ja": "今週のまとめとご挨拶",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That brings us to the end of today briefing on technology supply chains, cybersecurity, and global affairs.",
+          "ja": "以上で、半導体サプライチェーンやサイバー安全保障、国際ニュースのブリーフィングを終わります。",
+          "t": 1042.02
+        },
+        {
+          "speaker": "Mika",
+          "en": "Thank you for listening to Commute News. Have a wonderful and restful weekend, and please join us again on Monday morning.",
+          "ja": "Commute Newsをお聴きいただきありがとうございました。良い週末をお過ごしの上、月曜朝にまたお会いしましょう。",
+          "t": 1048.74
+        },
+        {
+          "speaker": "Alex",
+          "en": "Stay safe, take care, and see you next week.",
+          "ja": "お気をつけてお過ごしください。それではまた来週。",
+          "t": 1056.22
+        }
+      ],
+      "lang": "en",
+      "t": 1042.02
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。良い週末をお過ごしください。いってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 1059.73
+        }
+      ],
+      "t": 1059.73
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "TSMC Demands Machinery Free of Chinese Rare Earths",
+      "title_ja": "TSMC、装置メーカーに中国産レアアース磁石の排除を要請",
+      "summary_ja": "TSMCは自社ファブで使用する半導体製造装置について、中国産レアアース磁石を使用しないモーターを搭載するよう装置サプライヤーへの要請を開始しました。中国が永久磁石の約95％を支配し輸出管理を強化する中、生産ラインの保全や設備拡張の中断リスクを排除する狙いがあります。",
+      "why_ja": "先端半導体の製造ラインが中国の重要鉱物輸出規制によって停止する地政学的リスクを避けるため、サプライチェーン全体の脱中国化が装置部品レベルまで急速に拡大しています。",
+      "section": "tech",
+      "topic_key": "tsmc-rare-earth-magnets-china",
+      "companies": [
+        "TSMC",
+        "Nvidia",
+        "Apple"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "TSMC is seeking chipmaking equipment that doesn't contain Chinese rare-earth magnets",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-is-seeking-chipmaking-equipment-that-doesnt-contain-chinese-rare-earth-magnets-asks-suppliers-to-provide-alternative-motors-as-export-controls-threaten-fab-operations"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "TSMC is seeking chipmaking equipment that doesn't contain Chinese rare-earth magnets — asks suppliers to provide alternative motors as export controls threaten fab operations",
+          "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNYW5LNHlJa2dVOWhza05uT2JKSjM5cjN1MHlVRkRPQ0x1VGpRaFhaWkk1TUZQLWoyTndOc0VjNGZqczY1cnNMajA0WFNfZlVVRDYxam9pM2QtMEVwZjcxQ1N3VG1UT2JsYjMtRVNQS3l1cXZLWWgwSjU0NlJCR0g2c2tDcm1nNDROTndvcWtRQXdCaDVUaTdiR3ZYU1dIeGE4N2pLeDBhVW5iTkxNNjkzMjVDOXByZERmMXA3NThTUU1mYkdlTTZLS08xdmw4S3pCTURKcThObWpUQTZEYU5HVEpvb2RYZ3E2N2dtenBVNFV4Q1dGWXNkZ3YxdEpzQTh4UHRGSmR0OWRwaGxXOUt5T3V0UzRROGZiXzBNNGktRndqMEhzRk9PVGtoTWlpMExWbWM0Uk5ZUFl0VG1PbnMzYkJKUGwxWnNYRncxYzBR?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Chinese AI Agents Breach 2,250 ConnectWise Cloud Tenants",
+      "title_ja": "ConnectWise侵入でAIエージェントが悪用、2250社に被害",
+      "summary_ja": "ConnectWiseのクラウドバックアップサービスが中国系ハッカーに侵害され、約2250の顧客組織環境に不正侵入されました。攻撃者はARTEX基盤に基づく自律型AIエージェントを投入し、毎分3000回近い高速認証試行によって数時間で特権アクセスを奪取しました。",
+      "why_ja": "国家支援のサイバー攻撃で自律型AIエージェントが実戦投入された事例であり、従来の検知・遮断サイクルを無力化する超高速な攻撃への新たな防御策が急務となっています。",
+      "section": "tech",
+      "topic_key": "connectwise-china-ai-agent-breach",
+      "companies": [
+        "Microsoft",
+        "ConnectWise"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+          "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/"
+        },
+        {
+          "publisher": "The Register",
+          "title": "Microsoft says ConnectWise breach let Chinese spies loose on 2,250 cloud tenants",
+          "url": "https://www.theregister.com/security/2026/10/22/microsoft-says-connectwise-breach-let-chinese-spies-loose-on-2250-cloud-tenants/5304687"
+        }
+      ]
+    },
+    {
+      "title_en": "Google Custom TPUs Deployed in Meta Data Centers",
+      "title_ja": "GoogleのカスタムAI半導体TPU、Metaの商用環境で稼働",
+      "summary_ja": "Metaが商用AIインフラとしてGoogleの独自カスタム半導体TPUを採用し、稼働を開始したことが明らかになりました。PyTorchをGoogleチップ上でネイティブに動作させるオープンソース基盤TorchTPUを共同開発し、Nvidia製品依存からの脱却を加速させています。",
+      "why_ja": "ハイパースケーラー同士がソフトウェア規格PyTorchで協調し、価格高騰と品薄が続くNvidiaのハードウェア寡占を切り崩す転換点となります。",
+      "section": "tech",
+      "topic_key": "google-tpu-meta-datacenters",
+      "companies": [
+        "Google",
+        "Meta",
+        "Nvidia",
+        "Amazon"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Google’s TPUs for AI workloads now run in Meta's data centers",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/googles-tpus-for-ai-workloads-now-run-in-at-metas-data-centers-tpus-sold-to-external-customers-for-the-first-time-threaten-nvidias-market-dominance"
+        }
+      ]
+    },
+    {
+      "title_en": "Micron Scraps 4F² DRAM Architecture",
+      "title_ja": "Micron、20年研究した4F²メモリ微細化を中止へ",
+      "summary_ja": "Micron Technologyは、20年間研究してきた次世代DRAM構造「4Fスクエア」の開発を中止すると表明しました。トランジスタ縮小に対しキャパシタの物理的配置制約が壁となり、実効密度向上と製造コストのバランスが取れないと判断したためです。",
+      "why_ja": "SamsungやSK hynixが追究を続ける中でMicronは平面微細化から撤退を宣言し、メモリ業界の主戦場が垂直3D積層技術へと移行している現実を浮き彫りにしました。",
+      "section": "tech",
+      "topic_key": "micron-dram-roadmap-shift",
+      "companies": [
+        "Micron Technology",
+        "Samsung",
+        "SK hynix"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Micron pulls the plug on future 4F² DRAM after two decades of research in dramatic shift",
+          "url": "https://www.tomshardware.com/pc-components/dram/micron-pulls-the-plug-on-future-4f2-dram-after-two-decades-of-research-in-dramatic-shift-company-says-architecture-offers-no-meaningful-density-advantages-increases-manufacturing-complexity-and-costs-and-has-fundamental-scaling-limitations"
+        },
+        {
+          "publisher": "The Motley Fool",
+          "title": "Why Micron Stock Is Falling Hard Today",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOVFrbkxfbkJvOVRhTjVrYWxqMnlUeGxqRVJnVXBENjh0akcyclNVLWxEU0J5a19FbUZ2eHkybEFRNmo4OGxMdFY1NEIwX2VucUVXNVQ4V1JfNFF1N3pyTlhaZVJrSDRHSE0tNkVrdFJrUkNmQVRGTldMVkQ2bjNaU1hYN0d6bk5T?oc=5"
+        },
+        {
+          "publisher": "MarketWatch",
+          "title": "Two big reasons Micron and other chip stocks are falling on Thursday",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOGZPNEpMdnlfTHU5OFFIbXZBM0VtWlJyWWhJTDNHWWRoUlBWLTdSR28zOXFrOU9GNG1Db2VhQ1VNVEZweFFJYlEtZTVnUTduQkR2bkRRdWJVQnhEZ3FzS3B5cTJ2c05tRTNLOExzY3BuVHV0MW9aRUlqMVhUTHExcDJHUkppaXloLVZta0hNMjhrSy1vOURaM3E3WUZaVENCRFRYamY5a1dYNHdNUTFYQw?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Critical PHP2Shell Zero-Day Exploited Globally",
+      "title_ja": "深刻なPHP2Shell脆弱性、世界のWebサービスを直撃",
+      "summary_ja": "世界のウェブサイトの約7割を支えるプログラミング言語PHPに、深刻度スコア9.2の遠隔コード実行脆弱性PHP2Shellが発覚しました。パッチ公開の4日前から悪用が始まっており、英国では市民向け行政サービス32件が停止に追い込まれました。",
+      "why_ja": "AIモデルによって過去10年間見過ごされてきた基底インフラの欠陥が暴かれ、防御側のパッチ配布前に悪用が広がるゼロデイ時代の脅威を提示しています。",
+      "section": "tech",
+      "topic_key": "php2shell-zero-day-vulnerability",
+      "companies": [
+        "Amazon",
+        "OpenAI",
+        "Google"
+      ],
+      "sources": [
+        {
+          "publisher": "The Register",
+          "title": "PHP2Shell puts dozens of UK government services out of service",
+          "url": "https://www.theregister.com/security/2026/10/22/php2shell-puts-dozens-of-uk-government-services-out-of-service/5304840"
+        },
+        {
+          "publisher": "Ars Technica",
+          "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
+          "url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/"
+        },
+        {
+          "publisher": "The Register",
+          "title": "Hackers pile on PHP2Shell as AWS reveals attacks began before disclosure",
+          "url": "https://www.theregister.com/cyber-crime/2026/10/22/hackers-pile-on-php2shell-as-aws-reveals-attacks-began-before-disclosure/5304749"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "OpenAI says ChatGPT Sol helped uncover critical PHP flaws that could affect 70% of websites",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/openai-says-gpt-5-6-sol-helped-uncover-critical-php-flaws-that-could-affect-70-percent-of-websites-ai-assisted-researchers-turned-two-year-old-bug-that-stumped-human-developers-into-working-exploits-in-two-weeks"
+        },
+        {
+          "publisher": "The Register",
+          "title": "PHP blames supply chain security biz Chainguard for putting huge chunks of the web at risk",
+          "url": "https://www.theregister.com/security/2026/10/22/php-blames-supply-chain-security-biz-chainguard-for-putting-huge-chunks-of-the-web-at-risk/5304611"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Race to update services' computer systems after cyber-security flaw found",
+          "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "FDA Issues Final Guidance on Prescription Drug-Related Software",
+      "title_ja": "米FDA、処方箋連動デジタルアプリの最終指針を策定",
+      "summary_ja": "米FDAは、処方薬と連動して患者の服薬や症状管理を支援するモバイルソフトウェアに関する最終ガイダンスを発表しました。どのようなコンパニオンアプリ機能が医薬品連動医療機器として事前承認審査を要するかの基準が法的に明確化されました。",
+      "why_ja": "製薬会社とデジタルヘルス企業の協業やアプリ開発の規制リスクが低減し、日本を含む各国のデジタルセラピューティクス（DTx）規制の基準モデルとなります。",
+      "section": "health",
+      "topic_key": "fda-prescription-drug-software-guidance",
+      "companies": [
+        "FDA"
+      ],
+      "sources": [
+        {
+          "publisher": "STAT News",
+          "title": "STAT+: FDA finalizes its guidance on apps related to drugs, pharma rejoices",
+          "url": "https://www.statnews.com/2026/10/22/fda-pdurs-guidance-dtx-telehealth-glp1-addiction-health-tech/?utm_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "Strait of Hormuz Tanker Attacks Drive Crude Prices to Five-Month High",
+      "title_ja": "ホルムズ海峡でのタンカー被害で原油価格が急騰",
+      "summary_ja": "イラン革命防衛隊がホルムズ海峡で石油タンカー7隻に損害を与えたと表明し、原油指標のブレント先物は1バレル112ドルまで急騰しました。米軍は海峡の航行は正常に維持されていると反論したものの、アジア市場を中心に株安とインフレ懸念が広がっています。",
+      "why_ja": "中東エネルギー輸送の要衝における緊張再燃は、原油輸入依存度の高い日本やアジア経済に直接的な物価上昇圧力を与えます。",
+      "section": "world",
+      "topic_key": "strait-of-hormuz-tanker-attacks-oil",
+      "companies": [
+        "Saudi Aramco",
+        "American Airlines"
+      ],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Iran says seven ships hit in Hormuz Strait, warns US of wider response",
+          "url": "https://www.aljazeera.com/news/2026/10/22/iran-says-seven-ships-hit-in-hormuz-strait-warns-us-of-wider-response?traffic_source=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Oil prices jump to five-month high as attacks threaten global supply",
+          "url": "https://www.theguardian.com/business/2026/oct/22/oil-prices-jump-five-month-high-threats-supply"
+        },
+        {
+          "publisher": "AP News",
+          "title": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOVo5NGVvb09wSzBSTFVOa21PVVRNWWlEYUd1ZEU2U0tjTm55R3hYQ2Ezd1lUWUYwbFNpVUhJVDBxNlZaamJKaDJvblV1dl83LVhSX21rMkZuUXQtWFZmZmpZbXRrMkwwRzloVnA0QUs0cjN5MXNiZDBKR2MwaW9Sa1BKUGlaRUlQeG5PYnNPcTQ3YXZFc3QybjE1ZmVCYVJmY0doag?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Russia Hits Kyiv with Missiles Hours After Agreeing to Talks",
+      "title_ja": "ロシア、3者協議合意の直後にキーウへミサイル攻撃",
+      "summary_ja": "ロシアのプーチン大統領が米国のウィトコフ特使と会談し米ロ・ウクライナの3者対話再開に原則合意した直後、ロシア軍はキーウに向けて弾道ミサイル21発を発射しました。エネルギーインフラなどが被災し、ウクライナ側は冬前の電力破壊工作であると非難しています。",
+      "why_ja": "外交対話の再開合意が軍事行動の緩和に直結しない厳しい情勢を示しており、冬を控えたウクライナの暖房・電力防衛と防空兵器供与の緊迫度が高まっています。",
+      "section": "world",
+      "topic_key": "russia-ukraine-us-peace-talks-witkoff",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "Russia bombards Kyiv with missiles hours after agreeing to resume talks with Ukraine",
+          "url": "https://www.theguardian.com/world/2026/oct/22/russia-missile-attack-kyiv-hours-after-agreeing-to-talks-ukraine"
+        },
+        {
+          "publisher": "AP News",
+          "title": "Russian missiles pound Kyiv as Moscow says over 800 Ukrainian drones downed",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeldMenNBb3pveGlrZmlGLXZkaWNZaEhBUHMwSWh4dm5ZQW1IRWxEVGRxbFVDeUdwTnh2WW1jSXJ3T2U1cmh4cTR5bC1DSXdOSzJZb3hFaGNBNlAtclluMU4zMVBEVWpua1A2S2dBbXdjeWo1SFNUWGNvZ1dRRXhKSk4xTjlYUXFXNVM4NFctSmdxVHRqcjZrOWF4allidw?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "France Reports First Known Fatal Human Case of Shamonda Virus",
+      "title_ja": "フランスで家畜由来シャモンダウイルスの初の人体死亡例",
+      "summary_ja": "フランス当局は、牛や羊などの家畜に感染するシャモンダウイルスのヒトへの初感染および死亡例を確認しました。患者は重度の免疫低下状態にあった高齢者で、WHOや欧州疾病予防管理センター（ECDC）は人から人への感染拡大リスクは依然として極めて低いと評価しています。",
+      "why_ja": "気候変動に伴う昆虫媒介ウイルスの生息域拡大が人獣共通感染症のリスクを高めており、公衆衛生当局によるベクター監視の重要性が再認識されています。",
+      "section": "world",
+      "topic_key": "shamonda-virus-first-human-case-france",
+      "companies": [
+        "WHO",
+        "ECDC"
+      ],
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "title": "France reports first human case of livestock virus Shamonda after patient dies",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQejBUXzcxOHI0Z0dYUTBSeHdDcWdKQTc5WDlnVk4xeml4UTJpTjViR19hc1JtWTJ4WjVfMXV6RDhxemYwOW94Z2xwdXJ3U19NR2NCV3NpMWYyanUzS0E0aVpXZ29pbTNleWk3Zkk4SmtacUJkM0g4enBRdGYydWVKS0QxUDNndG96WUduR1ltNHljZEotallkRXlYM1J2bmZscmRWVXh5NThHWUdlVmR6ZGlhMmRIUXMxd1E?oc=5"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Shamonda virus detected in human for first time in France",
+          "url": "https://www.theguardian.com/world/2026/oct/22/shamonda-virus-detected-in-human-first-time-france"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "First human case of Shamonda virus detected in France, officials say",
+          "url": "https://www.bbc.co.uk/news/articles/c6reyx1d9ge9o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "permanent magnet",
+      "meaning_ja": "永久磁石",
+      "note_ja": "外部から磁界を与えなくても永続的に強い磁気を保つ磁石。モーターに不可欠です。",
+      "example_en": "These motors rely on permanent magnets made from rare earth elements like neodymium and dysprosium."
+    },
+    {
+      "term": "trade-off",
+      "meaning_ja": "妥協点、一方を得るために他方を犠牲にすること",
+      "note_ja": "ある利点を得ると別の不都合が生じる状況を指す頻出ビジネス・技術用語です。",
+      "example_en": "Suppliers can use induction motors or ferrite magnets, but they face trade-offs in power and precision."
+    },
+    {
+      "term": "credential",
+      "meaning_ja": "認証情報（ID・パスワード・暗号鍵など）",
+      "note_ja": "ITやセキュリティ分野で、システムへの正当なアクセス権限を証明するデータを指します。",
+      "example_en": "The attackers stole application credentials that connect ConnectWise to corporate customer systems."
+    },
+    {
+      "term": "autonomous",
+      "meaning_ja": "自律型の、人間の介在なしで動く",
+      "note_ja": "自動（automatic）よりも高度に、状況を判断して単独で行動するシステムを指します。",
+      "example_en": "Next, Microsoft revealed a major cybersecurity incident involving autonomous artificial intelligence."
+    },
+    {
+      "term": "natively",
+      "meaning_ja": "ネイティブに、追加の変換やエミュレーションなしで直接",
+      "note_ja": "ソフトウェアが特定のプロセッサや環境向けに直接最適化されて動く様子を表します。",
+      "example_en": "It lets PyTorch models run natively on Google chips."
+    },
+    {
+      "term": "myth",
+      "meaning_ja": "見せかけ、根拠のない通説、神話",
+      "note_ja": "事実ではないと判明した広く信じられている思い込みを否定する際によく使われます。",
+      "example_en": "Micron chief technology officer Scott DeBoer said the benefits are a myth in practical manufacturing."
+    },
+    {
+      "term": "capacitor",
+      "meaning_ja": "コンデンサ、蓄電器",
+      "note_ja": "電子回路内で電気を一時的に蓄える受動素子。DRAMの1セル内に電荷を蓄えます。",
+      "example_en": "He explained that capacitor size, not transistor size, sets the true memory density limit."
+    },
+    {
+      "term": "exploit",
+      "meaning_ja": "悪用する、セキュリティの隙を突いて攻撃する",
+      "note_ja": "動詞では弱点を利用して攻撃すること、名詞では攻撃用コード（エクスプロイト）を指します。",
+      "example_en": "A critical vulnerability called PHP2Shell is being widely exploited across the internet."
+    },
+    {
+      "term": "companion app",
+      "meaning_ja": "コンパニオンアプリ（機器や薬と連携して動く付随アプリ）",
+      "note_ja": "主製品（医薬品やハードウェア）の機能を補助・拡張するためにペアリングして使うアプリです。",
+      "example_en": "It covers mobile companion apps and digital health tools that help patients track dosing, symptoms, or medication schedules."
+    },
+    {
+      "term": "crude",
+      "meaning_ja": "原油（精製前の石油）",
+      "note_ja": "原油（crude oil）の略称として市場ニュースで単体でよく使われます。",
+      "example_en": "Brent crude climbed three percent to 112 dollars per barrel, raising inflation fears worldwide."
+    },
+    {
+      "term": "in principle",
+      "meaning_ja": "原則として、大筋で",
+      "note_ja": "細部の条件は未確定ながらも大枠で合意したことを示す外交・契約表現です。",
+      "example_en": "Russian President Vladimir Putin met with United States envoy Steve Witkoff and agreed in principle to trilateral negotiations."
+    },
+    {
+      "term": "midge",
+      "meaning_ja": "ヌカカ（微小な吸血性・刺咬性の昆虫）",
+      "note_ja": "家畜の感染症ウイルスなどを媒介する微小な昆虫を指す生物・獣医用語です。",
+      "example_en": "The virus primarily infects cattle, sheep, and goats, spreading through bites from small insects called midges."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "trade-off",
+    "meaning_ja": "妥協点、両立の難しさ、一方を得るために他方を犠牲にすること",
+    "example_en": "Working from home saves travel time, but less in-person contact is a trade-off.",
+    "example_ja": "在宅勤務は通勤時間を節約できますが、対面でのコミュニケーションが減るのがトレードオフです。"
+  }
+}
