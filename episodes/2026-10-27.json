@@ -1,0 +1,1158 @@
+{
+  "date": "2026-10-27",
+  "published": "2026-10-27T05:59:17+09:00",
+  "title_en": "Commute News: Anthropic IPO, Meta AI Push, and World Updates",
+  "title_ja": "Commute News：AnthropicのIPO、MetaのAI投資、世界情勢",
+  "summary_ja": "本日はAnthropicのIPO申請やMetaの大型資金調達といったテック業界の動きに加え、ヘルスケアITの規制緩和ルール、さらにブラジルの大統領選や沖縄の事件など世界ニュースをお届けします。",
+  "duration": 801.2,
+  "audio": {
+    "file": "2026-10-27.mp3",
+    "bytes": 6409909,
+    "release_tag": "ep-2026-10-27"
+  },
+  "word_count": 1582,
+  "ja_chars": 646,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.8-flash",
+    "write": "gemini-3.5-flash-lite",
+    "revise": "gemini-3.5-flash-lite",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Good morning and welcome to Commute News",
+      "heading_ja": "おはようございます。Commute Newsへようこそ。",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, everyone, and welcome to another edition of Commute News on this Tuesday morning, October 27.",
+          "ja": "皆さんおはようございます。10月27日火曜日の今朝も、Commute Newsへようこそ。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, Alex. We have a very busy and interesting lineup of global stories to cover today.",
+          "ja": "おはようございます、アレックス。本日は世界中から非常に忙しく興味深いニュースの数々をお届けします。",
+          "t": 7.18
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is right, Mika. We start with major financial and structural shifts in technology, including Anthropic filing for its public debut.",
+          "ja": "その通りですね、ミカ。まずはAnthropicの上場申請をはじめとする、テック業界の主要な財務および組織再編の動きからお伝えします。",
+          "t": 13.76
+        },
+        {
+          "speaker": "Mika",
+          "en": "We will also cover Meta raising ninety-five billion dollars and Microsoft offering voluntary buyouts to tens of thousands of workers.",
+          "ja": "さらに、Metaによる950億ドルの資金調達や、Microsoftによる数万人の従業員を対象とした希望退職の募集についても取り上げます。",
+          "t": 22.51
+        },
+        {
+          "speaker": "Alex",
+          "en": "And later in the program, we look at digital health regulations, the presidential election in Brazil, and important world developments.",
+          "ja": "そして番組の後半では、デジタルヘルス分野の規制、ブラジル大統領選挙、そして重要な世界情勢の動きを見ていきます。",
+          "t": 31.1
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Anthropic Files for Public Debut",
+      "heading_ja": "Anthropicが株式公開を申請",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Let us start with tech news. Anthropic has officially filed for an initial public offering with the SEC, detailing rapid revenue growth.",
+          "ja": "まずはテックニュースから。AnthropicがSECに新規株式公開の申請書類を正式に提出し、急速な売上成長を明らかにしました。",
+          "t": 39.8
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, Alex, what is an SEC filing, and why does this particular IPO matter so much for the broader artificial intelligence industry?",
+          "ja": "アレックス、SECへの書類提出とは何ですか？また、なぜこの特定のIPOが広範な人工知能業界にとってそれほど重要なのでしょうか？",
+          "t": 48.56
+        },
+        {
+          "speaker": "Alex",
+          "en": "It is a comprehensive document that gives investors a look under the hood of a business. Anthropic is the first major pure-play AI model maker to go public.",
+          "ja": "それは投資家にビジネスの裏側を見せるための包括的な書類です。Anthropicは、純粋なAIモデルメーカーとして初めて上場する大企業になります。",
+          "t": 56.98
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did the filing reveal any specific details about their enterprise customer adoption and cross-selling strategy?",
+          "ja": "申請書類では、企業顧客の獲得やクロスセル戦略に関する具体的な詳細も明らかになったのですか？",
+          "t": 66.83
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. The filing highlights that more than half of customers spending over one hundred thousand dollars use both the Claude platform and a first-party app, driving strong enterprise retention.",
+          "ja": "はい。10万ドル以上を支払う顧客の半分以上がClaudeプラットフォームと公式アプリの両方を利用しており、強力な企業の顧客維持率を推進していることが強調されています。",
+          "t": 74.22
+        },
+        {
+          "speaker": "Mika",
+          "en": "And what about their massive spending on computer hardware, chips, and cloud infrastructure partnerships?",
+          "ja": "そして、コンピュータハードウェア、チップ、およびクラウドインフラのパートナーシップに対する巨額の支出についてはどうですか？",
+          "t": 85.97
+        },
+        {
+          "speaker": "Alex",
+          "en": "They have massive chip-financing commitments, including sixty-three billion dollars arranged through Broadcom, alongside billions more in cloud commitments with Amazon, Google, and Microsoft.",
+          "ja": "Broadcomを通じて手配された630億ドルのチップ資金調達をはじめ、Amazon、Google、Microsoftとのクラウド関連の数十億ドルにのぼる契約など、膨大な支出の約束が明記されています。",
+          "t": 93.03
+        },
+        {
+          "speaker": "Mika",
+          "en": "Are there any specific risk factors mentioned in the filing that investors should be aware of?",
+          "ja": "投資家が留意すべき、申請書類に記載されている具体的なリスク要因などはあるのですか？",
+          "t": 104.78
+        },
+        {
+          "speaker": "Alex",
+          "en": "The S-1 document warns of potential catastrophic harm from advanced AI systems, challenges regarding potential sentience, and the staggering scale of computing power costs.",
+          "ja": "S-1書類では、高度なAIシステムによる潜在的な壊滅的被害、潜在的な知性に関する課題、そして計算能力コストの圧倒的な規模について警告しています。",
+          "t": 111.25
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Anthropic is making history with its IPO filing while detailing massive financial commitments and emerging risks in artificial intelligence.",
+          "ja": "つまり、Anthropicは巨額の財務的コミットメントとAIにおける新たなリスクを詳述しながら、歴史的なIPO申請を行っているということですね。",
+          "t": 121.96
+        }
+      ],
+      "lang": "en",
+      "t": 39.8
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。AI開発企業のAnthropicがIPOの申請書類を提出しました。企業向けの強い顧客基盤を示す一方で、チップやクラウドインフラに多額の資金を投じています。",
+          "en": "",
+          "lang": "ja",
+          "t": 131.69
+        }
+      ],
+      "t": 131.69
+    },
+    {
+      "kind": "story",
+      "heading_en": "Meta Launches Ninety-Five Billion Dollar Equity Raise",
+      "heading_ja": "Metaが950億ドルの資金調達を実施",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Next, Meta is launching a record ninety-five billion dollar equity and convertible offering to fund its expanding AI operations.",
+          "ja": "次に、Metaが拡大するAI事業に資金を供給するため、過去最高となる950億ドルの株式および転換社債の発行による資金調達を発表しました。",
+          "t": 146.57
+        },
+        {
+          "speaker": "Mika",
+          "en": "Ninety-five billion dollars is an extraordinary amount of capital. What is Meta planning to do with all of that money?",
+          "ja": "950億ドルとは桁外れの資本ですね。Metaはそのすべての資金を何に使おうと計画しているのですか？",
+          "t": 155.13
+        },
+        {
+          "speaker": "Alex",
+          "en": "The company will use the funds to build out advanced artificial intelligence infrastructure and construct new datacenters.",
+          "ja": "同社は高度な人工知能インフラストラクチャの構築と、新しいデータセンターの建設にその資金を使用します。",
+          "t": 163.13
+        },
+        {
+          "speaker": "Mika",
+          "en": "Are other major technology or hardware companies directly involved in this historic share offering?",
+          "ja": "他の主要なテクノロジー企業やハードウェア企業が、この歴史的な株式募集に直接関わっているのですか？",
+          "t": 171.36
+        },
+        {
+          "speaker": "Alex",
+          "en": "Reports note that prominent chip makers such as Nvidia, AMD, and Broadcom could buy Meta shares as part of a thirty-five billion dollar stock offering.",
+          "ja": "報道によると、Nvidia、AMD、Broadcomといった著名な半導体企業が、350億ドル規模の株式購入の一部としてMetaの株式を取得する可能性があるとのことです。",
+          "t": 178.3
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is Meta pursuing such a massive financial strategy at this particular moment in time?",
+          "ja": "なぜMetaはこの特定の時期に、これほど大規模な財務戦略を追求しているのでしょうか？",
+          "t": 188.14
+        },
+        {
+          "speaker": "Alex",
+          "en": "The aggressive capital raise reflects the intense race among technology giants to secure the specialized hardware required for next-generation AI models.",
+          "ja": "この積極的な資金調達は、次世代AIモデルに必要な特殊ハードウェアを確保しようとするテック巨人間の激しい競争を反映しています。",
+          "t": 194.52
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Meta is raising up to ninety-five billion dollars through equity and convertible offerings to fund its aggressive AI infrastructure expansion.",
+          "ja": "つまり、Metaは積極的なAIインフラの拡張を資金面で支えるため、株式や転換社債の発行を通じて最大950億ドルを調達しているということです。",
+          "t": 204.48
+        }
+      ],
+      "lang": "en",
+      "t": 146.57
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "MetaはAIインフラの拡充とデータセンター建設を目的に、最大950億ドルという記録的な株式および転換社債による資金調達を計画しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 214.61
+        }
+      ],
+      "t": 214.61
+    },
+    {
+      "kind": "story",
+      "heading_en": "Microsoft Offers Voluntary Buyouts",
+      "heading_ja": "Microsoftが希望退職を実施",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In our third story, Microsoft is offering voluntary buyouts to sixty thousand employees worldwide as part of an efficiency push.",
+          "ja": "3番目のニュースです。Microsoftは効率化を推進する一環として、世界中の6万人の従業員を対象に希望退職の募集を開始しました。",
+          "t": 226.43
+        },
+        {
+          "speaker": "Mika",
+          "en": "Sixty thousand workers represents a very large portion of their workforce. Which countries and specific teams are affected?",
+          "ja": "6万人の従業員は全従業員の非常に大きな割合を占めます。どの国や特定のチームが対象となっているのですか？",
+          "t": 234.99
+        },
+        {
+          "speaker": "Alex",
+          "en": "The offer reaches workers in the United States, the United Kingdom, Canada, and India across several technical and business divisions.",
+          "ja": "このオファーは、アメリカ、イギリス、カナダ、インドの複数の技術およびビジネス部門の労働者に及んでいます。",
+          "t": 243.28
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is Microsoft implementing this voluntary buyout program right now?",
+          "ja": "なぜMicrosoftはこの時期に希望退職プログラムを実施しているのでしょうか？",
+          "t": 252.17
+        },
+        {
+          "speaker": "Alex",
+          "en": "The company wants to trim structural costs and free up operational capital to invest more heavily in artificial intelligence initiatives.",
+          "ja": "同社は構造的コストを削減し、人工知能の取り組みにさらに多額の投資を行うための運営資金を確保したいと考えています。",
+          "t": 257.49
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does this program target specific performance groups or employee tenure lengths?",
+          "ja": "このプログラムは特定のパフォーマンスグループや勤続年数を対象としているのですか？",
+          "t": 266.55
+        },
+        {
+          "speaker": "Alex",
+          "en": "Internal company memos state that the offer is not based on age, length of service, or individual performance ratings.",
+          "ja": "社内メモによれば、このオファーは年齢、勤続年数、個人の業績評価に基づくものではないとされています。",
+          "t": 272.43
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Microsoft is offering voluntary buyouts to sixty thousand workers to streamline costs and support its shift to artificial intelligence.",
+          "ja": "つまり、Microsoftはコストを合理化し、人工知能への移行を支えるために、6万人の労働者に希望退職を提供しているということですね。",
+          "t": 280.43
+        }
+      ],
+      "lang": "en",
+      "t": 226.43
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "MicrosoftはAI投資への資金確保とコスト削減のため、米英加印の4カ国で最大6万人の従業員を対象とした希望退職プログラムを発表しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 290.16
+        }
+      ],
+      "t": 290.16
+    },
+    {
+      "kind": "story",
+      "heading_en": "Apple Acknowledges Foldable Screen Issues",
+      "heading_ja": "Appleが折りたたみ画面の問題を認める",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, let us look at Apple. The company has acknowledged display cracking issues on its newly launched foldable phone, the iPhone Duo.",
+          "ja": "続いてAppleのニュースです。新しく発売された折りたたみスマートフォン「iPhone Duo」で、画面にひびが入る問題が起きているとAppleが認めました。",
+          "t": 302.74
+        },
+        {
+          "speaker": "Mika",
+          "en": "What are early users experiencing with this new device after purchasing it?",
+          "ja": "初期のユーザーはこの新しい端末を購入した後、どのような状況を経験しているのですか？",
+          "t": 310.93
+        },
+        {
+          "speaker": "Alex",
+          "en": "Some users report hearing a loud crunching noise, followed by cracks and bright lines appearing on the inner display after just days of use.",
+          "ja": "使用してわずか数日で、大きなきしむ音がした後に画面が割れ、内部ディスプレイに明るい線が現れるという報告が一部のユーザーから寄せられています。",
+          "t": 316.11
+        },
+        {
+          "speaker": "Mika",
+          "en": "How is Apple responding publicly to these widespread consumer complaints?",
+          "ja": "Appleはこの広範な消費者からの苦情に対して、どのように公式に対応しているのでしょうか？",
+          "t": 324.66
+        },
+        {
+          "speaker": "Alex",
+          "en": "Apple states that a small number of units are affected by an inner display issue, and advises customers to contact AppleCare for a replacement.",
+          "ja": "Appleは内部ディスプレイの問題の影響を受けているのはごく一部の端末であるとし、顧客にAppleCareへ連絡して交換を受けるよう案内しています。",
+          "t": 329.74
+        },
+        {
+          "speaker": "Mika",
+          "en": "What do hardware teardowns suggest might be causing these unexpected screen failures?",
+          "ja": "ハードウェアの分解調査では、こうした予期せぬ画面故障の原因は何ではないかと示唆されているのですか？",
+          "t": 338.45
+        },
+        {
+          "speaker": "Alex",
+          "en": "Teardowns by experts like iFixit suggest that the foldable screen might be pushing against a center bar within the precision-engineered hinge.",
+          "ja": "iFixitなどの専門家による分解調査では、精密に設計されたヒンジ内部の中央バーに折りたたみ画面が押し付けられている可能性があることが示唆されています。",
+          "t": 344.15
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Apple is offering device replacements for a small number of iPhone Duo units experiencing inner display cracking issues.",
+          "ja": "つまり、Appleは内部ディスプレイのひび割れ問題が発生している一部のiPhone Duo端末に対して、交換対応を行っているということですね。",
+          "t": 352.81
+        }
+      ],
+      "lang": "en",
+      "t": 302.74
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Appleは新発売の折りたたみスマホ「iPhone Duo」の画面割れに関する一部の報告を認め、AppleCareでの交換対応を案内しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 361.05
+        }
+      ],
+      "t": 361.05
+    },
+    {
+      "kind": "story",
+      "heading_en": "Intel Acquires Quantum Startup Classiq",
+      "heading_ja": "Intelが量子スタートアップのClassiqを買収",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our final tech story is about Intel. Intel has agreed to acquire Classiq, an Israeli quantum computing startup, for two point three billion dollars.",
+          "ja": "最後のテックニュースはIntelについてです。Intelは、イスラエルの量子コンピューティング・スタートアップであるClassiqを23億ドルで買収することで合意しました。",
+          "t": 372.42
+        },
+        {
+          "speaker": "Mika",
+          "en": "What does Classiq actually develop as a technology company in the quantum space?",
+          "ja": "Classiqは量子分野のテクノロジー企業として、実際には何を開発しているのですか？",
+          "t": 381.39
+        },
+        {
+          "speaker": "Alex",
+          "en": "Classiq builds software algorithms and compilers specifically designed for quantum computers.",
+          "ja": "Classiqは、量子コンピューター向けに特別に設計されたソフトウェアアルゴリズムやコンパイラを開発しています。",
+          "t": 386.83
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is Intel making this major multibillion-dollar acquisition at this stage?",
+          "ja": "なぜIntelはこの段階で、この数十億ドル規模の大型買収を行っているのでしょうか？",
+          "t": 392.94
+        },
+        {
+          "speaker": "Alex",
+          "en": "Intel wants to create a comprehensive full-stack quantum computing platform, expanding its technological architecture beyond traditional silicon chips.",
+          "ja": "Intelは、従来のシリコンチップの枠を超えて技術的アーキテクチャを拡張し、包括的なフルスタックの量子コンピューティングプラットフォームを構築したいと考えています。",
+          "t": 398.23
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does this strategic move fit into Intel's broader long-term hardware roadmap?",
+          "ja": "この戦略的な動きは、Intelのより広範な長期ハードウェアロードマップにどのように適合するのですか？",
+          "t": 407.35
+        },
+        {
+          "speaker": "Alex",
+          "en": "It positions the company to compete more effectively in the emerging landscape of next-generation quantum hardware and software solutions.",
+          "ja": "これにより、同社は次世代の量子ハードウェアおよびソフトウェアソリューションという新興の市場環境において、より効果的に競争できるようになります。",
+          "t": 412.85
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Intel is acquiring Classiq for two point three billion dollars to establish a full-stack quantum computing platform.",
+          "ja": "つまり、Intelはフルスタックの量子コンピューティングプラットフォームを確立するために、23億ドルでClassiqを買収するということですね。",
+          "t": 421.3
+        }
+      ],
+      "lang": "en",
+      "t": 372.42
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Intelは量子コンピューティングのプラットフォーム構築を目指し、イスラエルのスタートアップClassiqを23億ドルで買収することに合意しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 429.33
+        }
+      ],
+      "t": 429.33
+    },
+    {
+      "kind": "health",
+      "heading_en": "HHS and ONC Finalize Health IT Rule",
+      "heading_ja": "HHSとONCが医療IT規制緩和ルールを最終決定",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, our digital health story. The Department of Health and Human Services has finalized a new deregulatory rule for health information technology.",
+          "ja": "続いて、デジタルヘルスのニュースです。保健福祉省（HHS）は、医療情報技術に関する新しい規制緩和ルールを最終決定しました。",
+          "t": 441.43
+        },
+        {
+          "speaker": "Mika",
+          "en": "What does this new final rule change for healthcare software developers and hospitals?",
+          "ja": "この新しい最終規則は、医療ソフトウェアの開発者や病院にとって何を変えるのでしょうか？",
+          "t": 451.05
+        },
+        {
+          "speaker": "Alex",
+          "en": "It streamlines certification requirements and is projected to save more than one point five billion dollars in compliance costs.",
+          "ja": "認証要件を合理化し、コンプライアンス費用として15億ドル以上の削減が見込まれています。",
+          "t": 457.26
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why are federal health officials implementing these specific deregulatory measures now?",
+          "ja": "なぜ連邦保健当局は今、これらの具体的な規制緩和措置を講じているのですか？",
+          "t": 465.81
+        },
+        {
+          "speaker": "Alex",
+          "en": "HHS officials say the goal is to eliminate unnecessary paperwork so developers can focus on innovative tools that help doctors and patients.",
+          "ja": "HHSの当局者によれば、目的は不必要な書類仕事を排除し、開発者が医師や患者を支援する革新的なツールに集中できるようにすることです。",
+          "t": 472.07
+        },
+        {
+          "speaker": "Mika",
+          "en": "Were all proposed regulatory changes included in this final ruling, or were some items postponed?",
+          "ja": "提案された規制変更のすべてがこの最終規則に含まれたのですか、それとも一部の項目は延期されたのですか？",
+          "t": 481.3
+        },
+        {
+          "speaker": "Alex",
+          "en": "ONC left proposed changes regarding information blocking regulations undecided for a later rule while keeping the core certification updates.",
+          "ja": "ONCは、コアとなる認証のアップデートを維持しつつ、情報ブロック規制に関する提案された変更については、後の規則のために未決定のまま残しました。",
+          "t": 488.12
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, US health authorities finalized a rule to cut certification paperwork and save billions in compliance costs.",
+          "ja": "つまり、米国の保健当局は認証に関する書類手続きを削減し、コンプライアンス費用を節約するためのルールを最終決定したということですね。",
+          "t": 497.4
+        }
+      ],
+      "lang": "en",
+      "t": 441.43
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米保健福祉省は医療ITの認証要件を簡素化する規制緩和ルールを最終決定し、15億ドル以上のコスト削減を見込んでいます。",
+          "en": "",
+          "lang": "ja",
+          "t": 505.62
+        }
+      ],
+      "t": 505.62
+    },
+    {
+      "kind": "world",
+      "heading_en": "Lula Wins Historic Fourth Term in Brazil",
+      "heading_ja": "ブラジルのルラ大統領が歴史的な4選を果たす",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, a look at the world beyond tech. In Brazil, President Luiz Inacio Lula da Silva won a historic fourth term in a dramatic runoff election.",
+          "ja": "ここからはテック以外の世界ニュースです。ブラジルでは、ルラ大統領が決選投票で勝利し、歴史的な4選を果たしました。",
+          "t": 515.78
+        },
+        {
+          "speaker": "Mika",
+          "en": "How close was the final vote count against his right-wing challenger, Flavio Bolsonaro?",
+          "ja": "右派の対立候補であるフラビオ・ボルソナロ氏に対する最終的な得票差はどれくらいだったのですか？",
+          "t": 525.12
+        },
+        {
+          "speaker": "Alex",
+          "en": "Lula took fifty-one point seven nine percent of the vote, defeating his rival in a fiercely contested runoff.",
+          "ja": "ルラ氏は51.79パーセントの票を獲得し、激しい争いとなった決選投票でライバルを破りました。",
+          "t": 531.38
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did the financial markets react immediately to this unexpected election outcome?",
+          "ja": "この予期せぬ選挙結果に対して、金融市場はどのように即座に反応しましたか？",
+          "t": 538.87
+        },
+        {
+          "speaker": "Alex",
+          "en": "Financial markets reacted negatively. The Brazilian real dropped sharply, and stock index futures fell amid concerns over increased public spending.",
+          "ja": "金融市場は否定的な反応を示しました。公共支出の増加に対する懸念から、ブラジルレアルが急落し、株価先物も下落しました。",
+          "t": 544.97
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did the defeated candidate accept the election results without any objections?",
+          "ja": "敗北した候補者は何の異議も唱えずに選挙結果を受け入れたのですか？",
+          "t": 554.64
+        },
+        {
+          "speaker": "Alex",
+          "en": "Flavio Bolsonaro has refused to recognize the result and called for it to be annulled, though observers consider a successful challenge unlikely.",
+          "ja": "フラビオ・ボルソナロ氏は結果の承認を拒否し、無効化を求めていますが、オブザーバーは異議申し立てが成功する可能性は低いとみています。",
+          "t": 560.4
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Lula secured a historic fourth term in Brazil, while financial markets fell due to fiscal spending concerns.",
+          "ja": "つまり、ブラジルではルラ氏が歴史的な4選を果たす一方、財政支出への懸念から金融市場は下落したということですね。",
+          "t": 569.91
+        }
+      ],
+      "lang": "en",
+      "t": 515.78
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ブラジルの大統領選決選投票でルラ氏が歴史的な4選を果たしましたが、財政悪化への懸念から市場では通貨安や株安の反応が見られました。",
+          "en": "",
+          "lang": "ja",
+          "t": 578.13
+        }
+      ],
+      "t": 578.13
+    },
+    {
+      "kind": "world",
+      "heading_en": "US Marine Indicted in Okinawa",
+      "heading_ja": "沖縄で米海兵隊員が起訴される",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In our next world story, Japanese prosecutors have indicted a United States Marine for murder and robbery in Okinawa.",
+          "ja": "次の世界ニュースです。日本の検察当局が、沖縄県内で発生した殺人および強盗の容疑で、米海兵隊員を起訴しました。",
+          "t": 589.64
+        },
+        {
+          "speaker": "Mika",
+          "en": "What are the specific details regarding this serious indictment?",
+          "ja": "この重大な起訴に関する具体的な詳細はどうなっているのですか？",
+          "t": 597.67
+        },
+        {
+          "speaker": "Alex",
+          "en": "Twenty-year-old Marine Devin Jacob Ballard was indicted for allegedly killing Anna Yagi at a hotel in Naha earlier this month.",
+          "ja": "20歳の海兵隊員デビン・ジェイコブ・バラード容疑者が、今月初めに那覇市のホテルでアンナ・ヤギさんを殺害したなどとして起訴されました。",
+          "t": 602.7
+        },
+        {
+          "speaker": "Mika",
+          "en": "How has the local community and Japanese leadership responded to this tragic case?",
+          "ja": "この悲劇的な事件に対して、地元のコミュニティや日本の指導者層はどのように反応していますか？",
+          "t": 611.23
+        },
+        {
+          "speaker": "Alex",
+          "en": "The crime has caused widespread outrage in Japan. Prime Minister Sanae Takaichi called the crime brutal and heinous, registering a strong protest with the US.",
+          "ja": "この事件は日本国内で大きな怒りを引き起こしています。高市早苗首相はこの事件を残酷で極悪非道と非難し、米国に対して強い抗議を申し入れました。",
+          "t": 617.28
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does this incident connect to broader historical concerns about US military personnel in the region?",
+          "ja": "この出来事は、この地域における米軍人に関するより広範な歴史的懸念とつながっているのですか？",
+          "t": 627.62
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, Okinawa hosts the highest concentration of US troops in Japan, and past criminal cases have repeatedly strained bilateral relations.",
+          "ja": "はい、沖縄には日本国内の米軍の大部分が駐留しており、過去の刑事事件が二国間関係を繰り返し緊張させてきました。",
+          "t": 634.69
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, a US Marine was indicted in Okinawa for murder and robbery, triggering strong protests and official diplomatic concern.",
+          "ja": "つまり、沖縄で米海兵隊員が殺人および強盗容疑で起訴され、強い抗議や公式な外交的懸念を引き起こしているということですね。",
+          "t": 643.85
+        }
+      ],
+      "lang": "en",
+      "t": 589.64
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "沖縄で女性が殺害された事件で、日本の検察が米海兵隊員を起訴しました。この事件を受け、首相が米国に強く抗議するなど波紋が広がっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 652.78
+        }
+      ],
+      "t": 652.78
+    },
+    {
+      "kind": "world",
+      "heading_en": "China CCP Opens Fifth Plenum",
+      "heading_ja": "中国共産党が第5回全体会議を開催",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In our final world story, the Chinese Communist Party has opened its fifth plenum in Beijing.",
+          "ja": "最後の世界ニュースです。中国共産党が北京で第5回全体会議を開催しました。",
+          "t": 664.42
+        },
+        {
+          "speaker": "Mika",
+          "en": "What is the primary focus of this closed-door political gathering?",
+          "ja": "この非公開の政治的集まりの主な焦点は何ですか？",
+          "t": 671.09
+        },
+        {
+          "speaker": "Alex",
+          "en": "The meeting focuses heavily on party discipline, political loyalty, and anti-corruption campaigns as Xi Jinping prepares for a fourth term.",
+          "ja": "習近平指導部の4期目を見据え、党の規律、政治的忠誠心、そして反腐敗キャンペーンに深く焦点を当てています。",
+          "t": 676.23
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why are political analysts watching this specific plenum so closely?",
+          "ja": "なぜ政治アナリストたちはこの特定の全体会議をこれほど注視しているのですか？",
+          "t": 685.5
+        },
+        {
+          "speaker": "Alex",
+          "en": "Analysts note that the gathering sets national policy priorities and shapes political control ahead of next year's important party congress.",
+          "ja": "アナリストによると、この会議は来年の重要な党大会を前に、国家の政策優先事項を定め、政治的統制の形を整える役割を果たしています。",
+          "t": 690.76
+        },
+        {
+          "speaker": "Mika",
+          "en": "How do experts interpret the ongoing emphasis on anti-corruption within the party structure?",
+          "ja": "専門家たちは、党構造内における反腐敗への継続的な強調をどのように解釈しているのですか？",
+          "t": 700.08
+        },
+        {
+          "speaker": "Alex",
+          "en": "Experts explain that anti-corruption serves as a permanent method of governing to reinforce authority and ensure absolute institutional loyalty.",
+          "ja": "専門家たちは、反腐敗が権威を強化し絶対的な制度的忠誠を確保するための永続的な統治手法として機能していると説明しています。",
+          "t": 706.7
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, China's Communist Party opened its fifth plenum to reinforce discipline and political control ahead of major leadership changes.",
+          "ja": "つまり、中国共産党は主要な指導部の交代を前に、規律と政治的統制を強化するため第5回全体会議を開いたということですね。",
+          "t": 716.25
+        }
+      ],
+      "lang": "en",
+      "t": 664.42
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "中国共産党は北京で第5回全体会議を開催し、党の規律強化や反腐敗キャンペーンを通じて政治的統制を強めています。",
+          "en": "",
+          "lang": "ja",
+          "t": 725.69
+        }
+      ],
+      "t": 725.69
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch",
+      "heading_ja": "CEOウォッチ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now for CEO Watch. Nvidia CEO Jensen Huang stated that open models can successfully beat frontier closed models in the artificial intelligence landscape.",
+          "ja": "続いてCEOウォッチです。NvidiaのCEOであるジェンスン・フアン氏は、人工知能の分野において、オープンモデルが最先端のクローズドモデルに十分に勝つことができると述べました。",
+          "t": 735.34
+        },
+        {
+          "speaker": "Mika",
+          "en": "And in other leadership news, Elon Musk accused Ukraine of violating Starlink terms with drone strikes, while officials denied any misuse.",
+          "ja": "また別のリーダーシップニュースでは、イーロン・マスク氏がウクライナによるドローン攻撃がStarlinkの規約に違反していると非難し、当局側は不正利用を否定しました。",
+          "t": 745.4
+        },
+        {
+          "speaker": "Alex",
+          "en": "These executive statements highlight the ongoing tensions between corporate platform policies and geopolitical or technological applications.",
+          "ja": "これらの経営者による発言は、企業のプラットフォーム方針と地政学的あるいは技術的な応用との間で続く緊張関係を浮き彫りにしています。",
+          "t": 754.62
+        }
+      ],
+      "lang": "en",
+      "t": 735.34
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day",
+      "heading_ja": "本日のフレーズ",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Our phrase of the day is \"under the hood.\" It means looking inside something to see how it works.",
+          "ja": "本日のフレーズは「under the hood」です。何かの内部や仕組みを詳しく調べるという意味です。",
+          "t": 764.45
+        },
+        {
+          "speaker": "Alex",
+          "en": "For example, you can say, \"The SEC document gives investors a look under the hood of the business.\"",
+          "ja": "例えば、「SECの書類により、投資家はビジネスの内部を詳しく見ることができる」のように使います。",
+          "t": 770.16
+        },
+        {
+          "speaker": "Mika",
+          "en": "It is a great idiom to use when talking about financial filings, technical software code, or machinery.",
+          "ja": "財務書類、技術的なソフトウェアコード、あるいは機械について話すときに使うのに最適なイディオムです。",
+          "t": 775.97
+        }
+      ],
+      "lang": "en",
+      "t": 764.45
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Closing and Sign-off",
+      "heading_ja": "エンディング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That is all for today's comprehensive news about technology, health innovations, and important world events.",
+          "ja": "テクノロジー、ヘルスケアのイノベーション、そして重要な世界情勢に関する本日の包括的なニュースは以上です。",
+          "t": 781.96
+        },
+        {
+          "speaker": "Mika",
+          "en": "Thank you for listening, and we look forward to having you join us on tomorrow's commute.",
+          "ja": "お聴きいただきありがとうございました。また明日の通勤時間にお会いしましょう。",
+          "t": 788.18
+        },
+        {
+          "speaker": "Alex",
+          "en": "Have a wonderful day ahead, everyone.",
+          "ja": "皆さん、素晴らしい一日をお過ごしください。",
+          "t": 793.52
+        }
+      ],
+      "lang": "en",
+      "t": 781.96
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。いってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 796.42
+        }
+      ],
+      "t": 796.42
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Anthropic Files for Public Debut with S-1 Prospectus",
+      "title_ja": "AnthropicがS-1目論見書を提出し新規株式公開へ",
+      "summary_ja": "AI開発企業のAnthropicがSECにIPOの申請書類を提出しました。急速な売上成長や企業向けサービスの好調を示す一方、チップ調達やインフラ整備に向けた巨額の支出も明らかになりました。",
+      "why_ja": "純粋なAIモデルメーカーとして初の上場となり、今後のAI業界全体の資金調達や市場動向を占う試金石となるため。",
+      "section": "tech",
+      "topic_key": "anthropic-ipo-filing",
+      "sources": [
+        {
+          "publisher": "The Verge",
+          "title": "Five weird details from Anthropic’s IPO filing",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+          "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/"
+        },
+        {
+          "publisher": "Bloomberg.com",
+          "title": "Broadcom Arranges $63 Billion Deal to Finance Anthropic’s Chips",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVXpndWd4bS1VV1JIRTlnRll6aGd3WDFVSkZBWU0wT1VZQzd0ZTNCc2RZeXZaUV9TdWZxak1BRlB1NURvcU5wb0RTUE5Ec1d4NkVSRXJWc0o3RTcwUEplV1FHRHBRcG5aOEFoWHNGdEJ3V2RtcFVZUllZaE42TU9paGtIOEIyajVNb19mT1lSTGcxSEdhTVdDemVlTGptT3ZfZ3VpTmo0WTlJYzV0Tms1RUlFcw?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Wall Street banks, Blackstone line up $63 billion to finance Broadcom chips for Anthropic",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZU9zQUUycTh6SXBkQ25GQUJKTWJabmR3Q1gtYXlZWDJSUWk2cmxGWWRsUlZlSTdVNEtsdDY5d0hVakZ1ZkVDMDFiV2NrdjFaQnNVZUxRMjNESzluZFVBc0s3YU9pZjNZMVR1WEdIOVFrc2phbnRZYWpuYnRXY29Rd0FiVnItWTR1akVvNXhfWDAyNHJId040M2R0Q29HZTAwVzYxUl9OVy0wNWFrV2M3ME1Td25NUGI5cnhOY2JyQUVFS3ZOUGdEZVh1X2pQZWp4NGc?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Meta Launches Record Ninety-Five Billion Dollar Equity Raise",
+      "title_ja": "Metaが950億ドルの記録的な資金調達を実施",
+      "summary_ja": "MetaはAIインフラの拡充とデータセンターの建設資金を確保するため、最大950億ドル規模の株式および転換社債の発行による資金調達を発表しました。大手半導体企業も株式の購入に関与する見込みです。",
+      "why_ja": "AI開発競争が激化する中、テック巨人がインフラ投資のために行うかつてない規模の資金調達であり、半導体業界にも大きな影響を与えるため。",
+      "section": "tech",
+      "topic_key": "meta-95b-ai-equity-raise",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "title": "Meta eyes record $95 billion equity raise to fund AI expansion",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPclhjOFJvYkM0S0hLUmxaY0l2X3hCdWI0N1prZlo2QXhXdmt5T0pNQVpFODVpYzgycWdZcHM2NkZ2LTdaMEVUVlpTXzVFUzc2ZEdVdlpTeThUVkZtc3V4cEFTelk5bDd2Z0dfRDFsb0dGQ0MxRXhYMExFZTlXVkNjRXF6TDBLalZ5ZTFBbFMyX24wMVBTQW1GQkJNRjNYWTRiVGJJWWdialBfV1oyQUZNN3I4RQ?oc=5"
+        },
+        {
+          "publisher": "MarketWatch",
+          "title": "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdDYyd2VndnhVdFI0ckxsUnVKbVRRaGxOMEoxOUpZTFcxeWJIdW5MbzlIWElaUW05RDdfNlM1b01jM3lFTkNCN184YzZwaU9PMWxOOVBKZkNrY2tGZldMc3U3THdNU0FST1ZKcmgtTF95ZlIwV3ZiYlBaVU12RXNoUjdIcVNBRGdnMldGUXllTXRxazY2SWNfZjZ0cks5T3p4LWppMUZqb1E3MWdpdThjVEU1OGNKdng4SUZHQndKalFVOTA?oc=5"
+        },
+        {
+          "publisher": "Bloomberg.com",
+          "title": "Meta Seeks Up to $95 Billion in Equity to Fund AI Spending",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZHl6X0k4eXZDNWpjUnRsTnFqV0JpNjZ0UEpqLVhrbDhvVWpXX3oxNnlmRHJXUFRTbkwwZEczb2hVemlLekxxRWZ5dDEtM3Frb2VwdHA4Vll0VGdIUUdSalIzTjAwS3FzRWJCdm9nNHRFcmNTZWtLemFKbnZlb1BtbDBRMmVkZXFXVUdYUUNxZk9zeHUzVnFIMVhIcGNwcmRiQ0RvNmZuZ09DZGRU?oc=5"
+        },
+        {
+          "publisher": "CNBC",
+          "title": "Meta announces $95 billion stock offering to fund AI expansion",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9DMHRxU0FJYU1FQ2Q5NFlWX0ZLa3dZQlhnWnlRcU9UZ2N1V0tmRklSTGFoN2h4cmRTNTVzN3BDR0MwS0tBNVg3M0k5eUpoMFp1X1FKd2xPdWE3MTM4YjBONFVXX3JpQTBmTXlV0gFwQVVfeXFMTmZORnFJWGJWQ296RnRpdXY1aFRXRElQZWw2Y3dpNWFtekxSZlc4eTc5NEJuVWFSLUFLWDNfOWV4aGxBTENheXpVMXo0Z0ZmQVRjSVo2bGo2MnFqdGVlSVNrNnJIbEdWZTIzQklXQmEwNQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Microsoft Offers Voluntary Buyouts to Sixty Thousand Employees",
+      "title_ja": "Microsoftが6万人の従業員を対象に希望退職を実施",
+      "summary_ja": "Microsoftはコストを削減しAIへの投資資金を確保するため、米英加印の4カ国で最大6万人の従業員を対象とした希望退職プログラムの提供を開始しました。",
+      "why_ja": "AI時代における効率化と人員再編の動きを象徴するものであり、大手テック企業の組織戦略の変化を示すため。",
+      "section": "tech",
+      "topic_key": "microsoft-workforce-buyouts-60k",
+      "sources": [
+        {
+          "publisher": "The Verge",
+          "title": "Microsoft offers buyouts to 60,000 employees",
+          "url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible"
+        },
+        {
+          "publisher": "Bloomberg.com",
+          "title": "Microsoft to Offer Buyouts to 60,000 Workers in New Cost Cut",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTEtWZHk3MHVmT1VtM1ZlaUUwZnRxSHhLd25MMUdINTc4RnV4eVVGdUt1bHhRMGpXYU1Uc0J1Tjd4c2lwd0xERFdkSnllb2Zqa1ZxMVJFX05KcnRDTlBUa3lnNWxZeUhWc3Ixa1ZNQnpUQWkySnp6bXFHOHBwWjFVWEh3b0JOZW0ya0lmdjIxbGFFQ0hfY1FRZElXR0E3cXRRNThDVHpZd1FGQl9YMzZOMW9qZG4?oc=5"
+        },
+        {
+          "publisher": "CNBC",
+          "title": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9nNklNQlZSV0JkMk95ODdwQ3Fac1ZNbHJWMUFsMjIwbFB1UndnS29RNFNNcXN6X3FGVEx4dEFYWWtnQkhwMU5SQ1NHa2ZmVDZlMmZfT0F4VHRfelNCOWFvYnBwMV9SWkVMZ1pRTTNwNTh2NzNTWXlwVdIBfkFVX3lxTE5LZTNUMTJWT0hXQ2xBU2otcjZSWUQ5YkVrY1NJSkQxZ01BNHBrMnlSOEpIQ0tuVTZmb0dJZFA4MUluS3BHeUR3cVQxS3Q5VVVXN3hpWnVZMExOUDBiUHZra2tWM3VhWVBJVXBudEVXdDRCcC1iMk9hY2ZaM0FBZw?oc=5"
+        },
+        {
+          "publisher": "CBS News",
+          "title": "Microsoft offers buyouts to 60,000 workers as it pours money into AI",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMXJHaTJ5V1ZSN0VTUnlTaWg2a01sU21ybHExWjdCVDdEcU1QSUF0ZlVDRnd4NjRHOU1fdFl4SlNMc1hhQnN4ZDNiNi1JV2JJZmZ4S0N0SmdRVklSbjFQMnJqMnZjTy1WVTV4SGFZWnVDai1SaGw3RWJxbXR4NDZ6bTFtVUk4YjVvcFJIaHMwend2R1VoQ0JZeQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Apple Acknowledges Display Cracking Issues on iPhone Duo",
+      "title_ja": "Appleが折りたたみスマホの画面割れ問題を認める",
+      "summary_ja": "Appleの新製品である折りたたみスマートフォン「iPhone Duo」で画面が割れる不具合が報告され、Appleが一部の端末で問題が発生していることを認めました。",
+      "why_ja": "初の折りたたみ端末における初期のハードウェアの信頼性や、サプライチェーンへの影響を確認するうえで重要であるため。",
+      "section": "tech",
+      "topic_key": "apple-iphone-duo-screen-cracking",
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "Uh oh, it sounds like the iPhone Duo keeps cracking and users aren’t happy about it",
+          "url": "https://techcrunch.com/2026/10/26/uh-oh-it-sounds-like-the-iphone-duo-keeps-cracking-and-users-arent-happy-about-it/"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "Apple acknowledges iPhone Duo display ‘issue’ after reports of cracked screens",
+          "url": "https://www.theverge.com/tech/1018760/iphone-duo-crackgate-inside-screen-hinge-crack"
+        },
+        {
+          "publisher": "Bloomberg.com",
+          "title": "Apple’s Foldable iPhone Duo Draws Early Complaints of the Screen Cracking",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMVd4NDgxLVNSdXl3aWluTklSOFdYVW1nRzVkTEViZGNhc1hSVHJVbm8tbi01QXVDc2UtNjFWY1FOSXRDM09kV2NyUmRNQk15dGNMY1BuMGFwQkZBN1d0OVdySlZ4d183cXFvSlJzdDhTajRETGVObWlvUWZoU0JNa3JGc3FreDBlaUcwM2k5QmgwNmNZcEFEb2VzcmJiWTBRbHhmckxsUm91cUZ5bEF0T3lSYlFUMmhFcDhBT2lMZzFOQQ?oc=5"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "iPhone Duo owners report cracks in Apple’s first foldable handset",
+          "url": "https://www.theguardian.com/technology/2026/oct/26/iphone-duo-owners-cracks-apple-first-foldable-handset"
+        }
+      ]
+    },
+    {
+      "title_en": "Intel Agrees to Acquire Israeli Quantum Startup Classiq",
+      "title_ja": "Intelがイスラエルの量子スタートアップClassiqを買収",
+      "summary_ja": "Intelは量子コンピューティングのフルスタックプラットフォームを構築するため、イスラエルのアルゴリズム・コンパイラ開発企業Classiqを23億ドルで買収することで合意しました。",
+      "why_ja": "従来のシリコンチップを超えた次世代のコンピューティング技術や量子分野への戦略的投資を示すため。",
+      "section": "tech",
+      "topic_key": "intel-classiq-quantum-acquisition",
+      "sources": [
+        {
+          "publisher": "The Quantum Insider",
+          "title": "Intel to Acquire Classiq to Create a Full-stack Quantum Computing Platform",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQlY4RGVxbU9JMU5XbVA5ZGVsNEE5ZzVod0tsXzVYU0lLcHBZZ1E0NHJVMURUNEFUUmpINlpzeG9nQlFWZnVyZ3lDbzFZWmg2NFg2b1Vaa2lUVDdRMi1vZTVmY2d0WHpyUVNBZmpEaGhfXzJmRjdMb182d1BLUnNXaTB2SUxReGNiVE9GelJfNl9ZUGxHZklEbHFOQlhWRmppaDVJdTRKR21oTzk5ZUZXUGVHLTBwWTA?oc=5"
+        },
+        {
+          "publisher": "CTech",
+          "title": "Intel to acquire Israeli quantum startup Classiq for $2.3 billion",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UcXJnaVYwVC1DNUFCVE1DNU8tMUh4WUpfemdQZnJwRDBhYnpQeG14cklZMjRMUGRpbkMzQlhBbU55U091Y2Uzc0lxLU5xOVZ3MXN6R2NzSnRfUUJwTzdzQkY4YzJUWmdi?oc=5"
+        },
+        {
+          "publisher": "Bloomberg.com",
+          "title": "Intel to Buy Israeli Startup Classiq in Quantum Computing Push",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNnJjaGVYODVacVE0QlNxazBqMEZRMVhScmV5ME9yLVJRYkZ1dDhBRDhjNm85NU0xeGpFYlVJTm1ybFNTMmxMNEVRZkpyellvMGpEN3VaNzRxWkowT2ZfS19NNlp5WU0tYjhqbmpXZWZjdDRhQWE2blp4VVpQUkUtZ0FJMTBSUVlSVkZ6cHZWTmwyV1B2cjNFQU54YXRDdEthb0NwVV9jNUZMUURZejh5VkpzMA?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "HHS and ONC Finalize Streamlined Health IT Certification Rule",
+      "title_ja": "HHSとONCが医療IT認証ルールの規制緩和を最終決定",
+      "summary_ja": "米保健福祉省は医療情報技術の認証要件を簡素化する最終規則を公布し、15億ドル以上のコンプライアンス費用削減とイノベーションの促進を図っています。",
+      "why_ja": "医療機関の負担軽減や医療データの相互運用性に直接影響を与える重要な規制動向であるため。",
+      "section": "health",
+      "topic_key": "hhs-onc-health-it-certification-deregulation",
+      "sources": [
+        {
+          "publisher": "Fierce Healthcare",
+          "title": "HHS finalizes rule to ease health IT certification requirements but punts info blocking proposals",
+          "url": "https://www.fiercehealthcare.com/regulatory/hhs-finalizes-hti-5-rule-streamline-onc-health-it-certification-and-cut-compliance-costs"
+        },
+        {
+          "publisher": "American Hospital Association",
+          "title": "ONC finalizes certain deregulatory actions related to health data, technology, interoperability",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMEpxWGJzX1FwZ0hJV3Q4aEJpT085R1RqUjNPano5RDgtd2JJSVFvV2d3a3ZSZFJVQk40dE1UNndGenlnWkNUVC1rRDRZUGxvOFFzRkN0Ykd0MU53ZU11YjdCRTR4MVQxWGVlYmZvcFJLM0FycFZqeXRiN3VxLWRwa0tDSFpRRXlQajUtVk9YeDFQMkdoS2JQWEFqQWNwWTgyc2xNRS1CaUZxRUhacjFHZGUzZU1YdWdXUVhDVUplT0JmRnFNeWcwQWtGSjlEbFVT?oc=5"
+        },
+        {
+          "publisher": "Modern Healthcare News",
+          "title": "HHS finalizes health IT rule cutting certification criteria",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNG45TFpxVnNPMUxVQVdud25UR3lCN0ZkRnpGZmpDcG1XVXFldTJmeG81SC1CTGlBdm5zZWtmN0tnTUpNa1dPR2prMG95MUdiYzJnRUk1d21GTnFqeUVOQzRIejdQVTZQRXlXX1ZGdC1TSFZac0FWVkNoNVpTb0xvaUtSTjJzSmg4Mjhz?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Lula Clinches Historic Fourth Term in Brazil Election",
+      "title_ja": "ブラジル大統領選でルラ氏が歴史的な4選を果たす",
+      "summary_ja": "ブラジルの大統領選決選投票でルラ氏が勝利し4選を果たしましたが、財政政策への懸念からブラジルレアルや株価先物が急落するなどの市場の動揺が見られました。",
+      "why_ja": "中南米最大の経済大国における政治の安定性や、グローバルな経済・気候政策への影響が大きいため。",
+      "section": "world",
+      "topic_key": "brazil-presidential-election-runoff-2026",
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Lula wins fourth term in dramatic Brazil election comeback",
+          "url": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Brazil’s real sinks after Lula’s re-election victory",
+          "url": "https://www.aljazeera.com/economy/2026/10/26/brazils-real-sinks-after-lulas-re-election-victory?traffic_source=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "How Lula beat far-right Bolsonaro in Brazil – The Latest",
+          "url": "https://www.theguardian.com/news/audio/2026/oct/26/how-lula-beat-far-right-bolsonaro-in-brazil-the-latest"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Brazil's left-wing President Lula elected for fourth term",
+          "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election"
+        }
+      ]
+    },
+    {
+      "title_en": "Japanese Prosecutors Indict US Marine for Murder and Robbery in Okinawa",
+      "title_ja": "沖縄で発生した事件をめぐり日本の検察が米海兵隊員を起訴",
+      "summary_ja": "沖縄県内で起きた女性殺害・強盗事件で、日本の検察当局が米海兵隊員を起訴しました。この事件は現地で強い怒りを呼び起こし、日米間の外交問題にも発展しています。",
+      "why_ja": "日米地位協定の運用や基地を抱える自治体の安全保障・地域社会への影響が極めて大きいため。",
+      "section": "world",
+      "topic_key": "okinawa-us-marine-indictment-murder",
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "US Marine indicted for murder and robbery of woman in Japan",
+          "url": "https://www.bbc.co.uk/news/articles/c3vgxjex1z9wo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Japanese prosecutors charge US marine suspected of robbing and killing woman",
+          "url": "https://www.theguardian.com/world/2026/oct/26/japanese-prosecuters-charge-marine-killing"
+        }
+      ]
+    },
+    {
+      "title_en": "CCP Opens Fifth Plenum as Xi Jinping Focuses on Discipline",
+      "title_ja": "中国共産党が第5回全体会議を開催し規律強化に注力",
+      "summary_ja": "中国共産党は北京で第5回全体会議を開催し、来年の党大会を前に党内の規律や反腐敗キャンペーンを通じた政治的統制の強化に焦点を当てています。",
+      "why_ja": "世界第2位の経済大国における今後の政治動向や権力基盤の行方を占う重要な会議であるため。",
+      "section": "world",
+      "topic_key": "china-ccp-fifth-plenum-discipline",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "title": "What to know about China's plenum as Xi seeks stronger party discipline",
+          "url": "https://www.npr.org/2026/10/26/g-s1-149918/what-to-know-about-chinas-plenum-as-xi-seeks-stronger-party-discipline"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Xi Jinping’s corruption crackdown in the spotlight as China prepares for meeting of top leaders",
+          "url": "https://www.theguardian.com/world/2026/oct/26/xi-jinping-corruption-crackdown-china-fifth-plenum"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "initial public offering",
+      "meaning_ja": "新規株式公開",
+      "note_ja": "未公開企業が初めて株式を一般に公開して売り出すこと（IPO）。",
+      "example_en": "Anthropic has officially filed for an initial public offering with the SEC."
+    },
+    {
+      "term": "pure-play",
+      "meaning_ja": "専業の、単一事業に特化した",
+      "note_ja": "特定の事業や商品のみに集中している企業やビジネスモデルを指します。",
+      "example_en": "Anthropic is the first major pure-play AI model maker to go public."
+    },
+    {
+      "term": "convertible offering",
+      "meaning_ja": "転換社債の発行",
+      "note_ja": "株式に転換できる権利が付いた社債による資金調達のこと。",
+      "example_en": "Next, Meta is launching a record ninety-five billion dollar equity and convertible offering."
+    },
+    {
+      "term": "voluntary buyout",
+      "meaning_ja": "希望退職、早期退職優遇制度",
+      "note_ja": "企業が従業員に対して自主的な退職を促し、金銭的支援などを提供するプログラム。",
+      "example_en": "Microsoft is offering voluntary buyouts to sixty thousand employees worldwide."
+    },
+    {
+      "term": "form factor",
+      "meaning_ja": "フォームファクタ、形状やサイズ",
+      "note_ja": "ハードウェアの物理的な形状やデザインの規格のこと。",
+      "example_en": "The phone was announced at this year's Surprise and Shine event, with Apple promising that it had finally gotten a notoriously tricky form factor right."
+    },
+    {
+      "term": "quantum computing",
+      "meaning_ja": "量子コンピューティング",
+      "note_ja": "量子力学の原理を利用して超高速な計算を行う次世代のコンピューター技術。",
+      "example_en": "Intel has agreed to acquire Classiq, an Israeli quantum computing startup, for two point three billion dollars."
+    },
+    {
+      "term": "deregulatory",
+      "meaning_ja": "規制緩和の",
+      "note_ja": "既存の規制やルールを撤廃・緩和する性質を持つこと。",
+      "example_en": "The Department of Health and Human Services has finalized a new deregulatory rule for health information technology."
+    },
+    {
+      "term": "interoperability",
+      "meaning_ja": "相互運用性",
+      "note_ja": "異なるシステムや機器の間でデータや機能を互いにやり取りして利用できる能力。",
+      "example_en": "Instead of spending that time and money complying with requirements that are no longer necessary, developers can focus on innovative solutions that advance interoperability, automation, and ultimately better experiences for patients and clinicians."
+    },
+    {
+      "term": "runoff election",
+      "meaning_ja": "決選投票",
+      "note_ja": "過半数を獲得する候補者がいない場合などに、上位の候補者間で行われる再投票のこと。",
+      "example_en": "In Brazil, President Luiz Inacio Lula da Silva won a historic fourth term in a dramatic runoff election."
+    },
+    {
+      "term": "indict",
+      "meaning_ja": "起訴する",
+      "note_ja": "犯罪の容疑で正式に裁判所に訴えを起こすこと。",
+      "example_en": "Japanese prosecutors have indicted a United States Marine for murder and robbery in Okinawa."
+    },
+    {
+      "term": "plenum",
+      "meaning_ja": "全体会議",
+      "note_ja": "政党や組織の全構成員が参加する会議のこと。",
+      "example_en": "The Chinese Communist Party has opened its fifth plenum in Beijing."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "under the hood",
+    "meaning_ja": "内部の仕組み、裏側の詳細",
+    "example_en": "The SEC document gives investors a look under the hood of the business.",
+    "example_ja": "SECの書類によって、投資家はビジネスの内部を詳しく見ることができます。"
+  }
+}
