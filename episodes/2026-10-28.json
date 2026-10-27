@@ -1,0 +1,1344 @@
+{
+  "date": "2026-10-28",
+  "published": "2026-10-28T05:36:15+09:00",
+  "title_en": "TSMC Packaging Hike, Apple M6 Launch, and Global News",
+  "title_ja": "TSMCのパッケージング値上げ検討、Apple M6発表、世界の主要ニュース",
+  "summary_ja": "半導体大手TSMCがAI需要によるパッケージング値上げを検討する一方、Appleは新M6チップ搭載モデルを発表しました。ヘルスケア分野ではUnitedHealthcareがAI助手Averyを2100万人に拡大しています。世界ニュースではイスラエル総選挙の出口調査、コンゴでのエボラ出血熱拡大、ウクライナの局地停戦と北欧首脳の会談を取り上げます。",
+  "duration": 1171.1,
+  "audio": {
+    "file": "2026-10-28.mp3",
+    "bytes": 9369255,
+    "release_tag": "ep-2026-10-28"
+  },
+  "word_count": 2149,
+  "ja_chars": 1277,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.8-flash",
+    "write": "gemini-3.6-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Morning Briefing",
+      "heading_ja": "オープニング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it is Wednesday, October 28. This is Commute News.",
+          "ja": "おはようございます。10月28日水曜日、Commute Newsです。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning. Today, chip maker TSMC may raise advanced packaging prices by up to 20 percent.",
+          "ja": "おはようございます。本日、半導体製造大手のTSMCが高度パッケージングの価格を最大20%引き上げる可能性があります。",
+          "t": 5.2
+        },
+        {
+          "speaker": "Alex",
+          "en": "In digital health, insurer UnitedHealthcare expands its AI care assistant Avery to 21 million members.",
+          "ja": "デジタルヘルス分野では、医療保険大手のUnitedHealthcareがAIケア助手Averyを2100万人の加入者に拡大します。",
+          "t": 12.1
+        },
+        {
+          "speaker": "Mika",
+          "en": "And in world news, exit polls in Israel show no clear winner after a high voter turnout.",
+          "ja": "そして世界ニュースでは、高い投票率となったイスラエル総選挙の出口調査で明確な勝者が示されていません。",
+          "t": 19.52
+        },
+        {
+          "speaker": "Alex",
+          "en": "We also cover Apple M6 chips, Google Genie 4, Amazon satellite plans, and defense laptops.",
+          "ja": "さらにAppleのM6チップ、Google Genie 4、Amazonの衛星計画、防衛用ノートPCについても取り上げます。",
+          "t": 26.12
+        },
+        {
+          "speaker": "Mika",
+          "en": "Let us jump right into our main technology stories for this morning.",
+          "ja": "それでは、今朝の主要なテクノロジーニュースに入りましょう。",
+          "t": 32.84
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "TSMC Weighs Price Hike",
+      "heading_ja": "TSMCがパッケージング値上げを検討",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Semiconductor giant TSMC is considering a price increase of up to 20 percent for its CoWoS advanced packaging technology, according to industry reports.",
+          "ja": "業界報道によると、半導体巨頭のTSMCはCoWoS高度パッケージング技術の価格を最大20%引き上げることを検討しています。",
+          "t": 38.27
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is TSMC considering such a large price increase right now?",
+          "ja": "なぜTSMCは今、これほど大幅な値上げを検討しているのですか。",
+          "t": 48.61
+        },
+        {
+          "speaker": "Alex",
+          "en": "Heavy demand for artificial intelligence chips from Nvidia, like Blackwell and the upcoming Rubin, is straining factory capacity. Advanced packaging combines logic chips with fast memory in a single package.",
+          "ja": "Blackwellや次世代のRubinといったNvidiaのAIチップに対する非常に強い需要が、工場の生産能力を圧迫しているためです。高度パッケージングは論理チップと高速メモリを1つのパッケージに結合します。",
+          "t": 53.7
+        },
+        {
+          "speaker": "Mika",
+          "en": "Is equipment delivery keeping up with this massive demand from tech clients?",
+          "ja": "テック企業からの巨大な需要に、製造装置の納入は追いついているのですか。",
+          "t": 67.25
+        },
+        {
+          "speaker": "Alex",
+          "en": "No. Equipment lead times have stretched from three months to eight months. TSMC is ordering machines at full price without asking for normal discounts just to secure delivery.",
+          "ja": "いいえ。装置の調達期間は3ヶ月から8ヶ月に伸びています。TSMCは納期を確保するため、通常の割引を求めずに定価で装置を発注しています。",
+          "t": 73.15
+        },
+        {
+          "speaker": "Mika",
+          "en": "Are testing bottlenecks also slowing down chip output?",
+          "ja": "検査工程の滞りもチップの出荷を遅らせているのですか。",
+          "t": 84.84
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Testing Blackwell chips takes three to four times longer than older chips. TSMC deputy co-COO Cliff Hou stated equipment needs reached 1.9 times original estimates.",
+          "ja": "はい。Blackwellチップの検査には旧型チップの3〜4倍の時間がかかります。TSMCのCliff Hou副副COOは、必要とされる装置量が当初予想の1.9倍に達したと述べました。",
+          "t": 89.46
+        },
+        {
+          "speaker": "Mika",
+          "en": "Is TSMC working with other partners to expand packaging production outside Taiwan?",
+          "ja": "TSMCは台湾外でのパッケージング生産拡大に向けて他社と提携していますか。",
+          "t": 100.79
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. TSMC signed a five-year, 2 billion dollar contract with GlobalFoundries to make silicon interposers in the United States starting in 2028.",
+          "ja": "はい。TSMCはGlobalFoundriesと5年で20億ドルの契約を結び、2028年からアメリカでシリコンインターポーザを製造する予定です。",
+          "t": 107.04
+        },
+        {
+          "speaker": "Mika",
+          "en": "Will customers see higher overall costs in the coming years?",
+          "ja": "顧客企業は今後、全体的なコストの上昇に直面するのでしょうか。",
+          "t": 116.86
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. TSMC may also raise wafer prices by 5 percent to 10 percent in 2027, leading to total cost increases of up to 25 percent.",
+          "ja": "はい。TSMCは2027年にウエハ価格も5%から10%引き上げる可能性があり、合計で最大25%のコスト増になる可能性があります。",
+          "t": 121.83
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, high AI demand and packaging shortages are driving up total costs for tech hardware?",
+          "ja": "つまり要するに、高いAI需要とパッケージング不足が、テックハードウェア全体のコストを押し上げているということですね。",
+          "t": 130.65
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. In short, advanced packaging is the main bottleneck for AI chips today.",
+          "ja": "その通りです。要するに、高度パッケージングが現在のAIチップにおける最大のボトルネックになっています。",
+          "t": 137.84
+        }
+      ],
+      "lang": "en",
+      "t": 38.27
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。半導体大手TSMCが、AI向け高度パッケージング技術の価格を最大20%引き上げることを検討しています。Nvidiaの最新AIチップ需要が急増し、工場設備や検査に時間がかかっているためです。AI市場拡大に伴い、ハードウェア全体のコスト上昇が懸念されています。",
+          "en": "",
+          "lang": "ja",
+          "t": 143.97
+        }
+      ],
+      "t": 143.97
+    },
+    {
+      "kind": "story",
+      "heading_en": "Apple Launches M6 Chips",
+      "heading_ja": "AppleがM6チップ搭載Macを発表",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Apple has launched a new 14-inch MacBook Pro and a new iMac powered by its new M6 silicon chip.",
+          "ja": "Appleは新しいM6シリコンチップを搭載した14インチMacBook Proと新しいiMacを発表しました。",
+          "t": 167.97
+        },
+        {
+          "speaker": "Mika",
+          "en": "What are the main performance improvements in the new M6 processor?",
+          "ja": "新しいM6プロセッサの主な性能向上は何ですか。",
+          "t": 175.28
+        },
+        {
+          "speaker": "Alex",
+          "en": "The M6 chip features a 12-core CPU and a 12-core GPU. Each GPU core now includes built-in Neural Accelerators, along with a Dual 16-core Neural Engine.",
+          "ja": "M6チップは12コアCPUと12コアGPUを搭載しています。各GPUコアには内蔵のNeural Acceleratorが追加され、Dual 16コアNeural Engineも搭載されています。",
+          "t": 180.89
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does that boost artificial intelligence tasks on the device itself?",
+          "ja": "それにより、端末上での人工知能処理はどのように高速化されるのですか。",
+          "t": 191.62
+        },
+        {
+          "speaker": "Alex",
+          "en": "Graphics performance is up to 30 percent faster, and AI workloads are up to 25 percent faster compared to the M5 chip. For users upgrading from older M1 Macs, graphics are up to 11 times faster and AI is 13 times faster.",
+          "ja": "グラフィックス性能はM5チップと比べて最大30%高速化し、AI処理は最大25%高速化しています。古いM1搭載Macからの乗り換えユーザーにとっては、グラフィックスが最大11倍、AI性能が13倍向上します。",
+          "t": 197.47
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is a huge jump for older Mac users. What about battery life and connectivity?",
+          "ja": "古いMacユーザーには非常に大きな跳躍ですね。バッテリー駆動時間や接続性はどうですか。",
+          "t": 212.41
+        },
+        {
+          "speaker": "Alex",
+          "en": "The new MacBook Pro offers up to 24 hours of battery life and supports Wi-Fi 7 and Bluetooth 6. Pre-orders start on October 28, with store availability beginning Friday, November 6.",
+          "ja": "新しいMacBook Proは最大24時間のバッテリー駆動時間を実現し、Wi-Fi 7とBluetooth 6に対応しています。予約受付は10月28日に始まり、11月6日金曜日から店舗で販売されます。",
+          "t": 218.93
+        },
+        {
+          "speaker": "Mika",
+          "en": "Is Apple using this release to push local AI processing without cloud servers?",
+          "ja": "Appleはこの発表によって、クラウドサーバーを使わないローカルAI処理を推進しているのですか。",
+          "t": 231.49
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Shelly Goldberg, Apple vice president of Hardware Engineering, said the M6 boosts on-device AI for tools like Siri AI while keeping user data private.",
+          "ja": "はい。Appleのハードウェアエンジニアリング担当副社長Shelly Goldberg氏は、M6がユーザーデータのプライバシーを守りながらSiri AIなどの端末上AI処理を強化すると述べました。",
+          "t": 237.76
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Apple is using the M6 chip to drive a new PC upgrade cycle centered on private on-device AI?",
+          "ja": "つまり要するに、AppleはM6チップを使って、プライバシーに配慮したオンデバイスAIを中心とする新しいPC買い替えサイクルを推進しているのですね。",
+          "t": 248.74
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. In short, Apple is putting dedicated AI hardware into every chip core to make local AI faster and safer.",
+          "ja": "その通りです。要するに、Appleはすべてのチップコアに専用のAIハードウェアを組み込むことで、ローカルAIをより高速かつ安全にしています。",
+          "t": 256.72
+        }
+      ],
+      "lang": "en",
+      "t": 167.97
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Appleが最新のM6チップを搭載したMacBook ProとiMacを発表しました。新しいM6は、各GPUコアにNeural Acceleratorを備え、端末上でのAI処理性能を大幅に向上させています。プライバシーを守りながら高速なAI機能を提供し、旧モデルからの買い替えを促す狙いです。",
+          "en": "",
+          "lang": "ja",
+          "t": 265.13
+        }
+      ],
+      "t": 265.13
+    },
+    {
+      "kind": "story",
+      "heading_en": "Google DeepMind Genie 4",
+      "heading_ja": "Google DeepMindがGenie 4を発表",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Google DeepMind has announced Genie 4, a new world model designed for real-time interactive simulation.",
+          "ja": "Google DeepMindは、リアルタイムな対話型シミュレーション向けの新ワールドモデル「Genie 4」を発表しました。",
+          "t": 290.69
+        },
+        {
+          "speaker": "Mika",
+          "en": "What key features does Genie 4 introduce to AI world modeling?",
+          "ja": "Genie 4はAIワールドモデルにどのような主要機能を導入していますか。",
+          "t": 298.49
+        },
+        {
+          "speaker": "Alex",
+          "en": "Genie 4 generates photorealistic environments along with native real-time audio, including ambient noise, music, and dialogue. Users can type natural language prompts during a simulation to change weather, adjust camera angles, or add characters.",
+          "ja": "Genie 4は実写のような環境と、環境音、音楽、対話を含むネイティブなリアルタイム音声を生成します。ユーザーはシミュレーション中に自然言語のプロンプトを入力して、天候の変更、カメラアングルの調整、登場人物の追加を行えます。",
+          "t": 303.79
+        },
+        {
+          "speaker": "Mika",
+          "en": "How long can Genie 4 maintain scene stability compared to older models?",
+          "ja": "従来のモデルと比較して、Genie 4はどのくらいの時間、場面の安定性を維持できますか。",
+          "t": 320.31
+        },
+        {
+          "speaker": "Alex",
+          "en": "It maintains scene consistency for up to two minutes, which is double the limit of Genie 3. It also features better physical simulation and more realistic human characters.",
+          "ja": "Genie 3の制限の2倍にあたる、最大2分間にわたり一貫した場面を維持できます。また、より優れ物理シミュレーションと現実的な人物描写を備えています。",
+          "t": 326.16
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does Genie 4 connect with Google's Gemini models?",
+          "ja": "Genie 4はGoogleのGeminiモデルとどのように連携しているのですか。",
+          "t": 338.17
+        },
+        {
+          "speaker": "Alex",
+          "en": "Gemini acts as a director that plans tasks and checks frames. In robotics tests, Gemini Argon breaks tasks into steps while Genie 4 simulates them in real time.",
+          "ja": "Geminiはタスクの計画やフレームの確認を行う監督として機能します。ロボティクスの実験では、Gemini Argonがタスクを手順に分解し、Genie 4がそれをリアルタイムでシミュレートします。",
+          "t": 342.93
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is Google pushing so hard into world models right now?",
+          "ja": "なぜGoogleは今、これほどワールドモデルに注力しているのですか。",
+          "t": 354.2
+        },
+        {
+          "speaker": "Alex",
+          "en": "The world model market is growing fast. Competitors like Runway released GWM Worlds 2, and AMD is acquiring World Labs. Google DeepMind engineer Diego Rivas noted that filmmakers are already using Genie 4 for rapid storyboarding.",
+          "ja": "ワールドモデル市場が急速に成長しているためです。競合のRunwayがGWM Worlds 2を公開し、AMDはWorld Labsの買収を進めています。Google DeepMindのエンジニアDiego Rivas氏は、映画制作者がすでに迅速な絵コンテ作成にGenie 4を活用していると指摘しました。",
+          "t": 359.26
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Genie 4 brings real-time controls and native audio to interactive AI simulations?",
+          "ja": "つまり要するに、Genie 4は対話型AIシミュレーションにリアルタイムな操作感とネイティブな音声をもたらしたということですね。",
+          "t": 374.74
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. In short, Genie 4 combines interactive video, audio, and language prompts into a single real-time tool.",
+          "ja": "その通りです。要するに、Genie 4は対話型映像、音声、プロンプト操作を1つのリアルタイムツールに統合しています。",
+          "t": 382.06
+        }
+      ],
+      "lang": "en",
+      "t": 290.69
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Google DeepMindが、リアルタイムでインタラクティブな仮想空間を生成する「Genie 4」を発表しました。映像だけでなく効果音や会話音声も同時に生成し、言葉の指示で天候やカメラアングルを即座に変更できます。映画のコンテ作成やロボットの学習環境としての活用が期待されています。",
+          "en": "",
+          "lang": "ja",
+          "t": 390.86
+        }
+      ],
+      "t": 390.86
+    },
+    {
+      "kind": "story",
+      "heading_en": "Amazon Globalstar Deal",
+      "heading_ja": "AmazonがGlobalstar買収の承認を取得",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "United States regulators have approved Amazon's 11.5 billion dollar acquisition of satellite company Globalstar.",
+          "ja": "米国の規制当局は、Amazonによる衛星通信会社Globalstarの115億ドルでの買収を承認しました。",
+          "t": 414.1
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is Amazon spending 11.5 billion dollars to buy Globalstar?",
+          "ja": "なぜAmazonはGlobalstarの買収に115億ドルも費やすのですか。",
+          "t": 421.84
+        },
+        {
+          "speaker": "Alex",
+          "en": "Amazon wants to expand its Amazon Leo satellite constellation. Acquiring Globalstar provides Amazon with valuable wireless spectrum and existing satellite infrastructure in low Earth orbit.",
+          "ja": "Amazonは自社の低軌道衛星網「Amazon Leo」を拡張したいと考えています。Globalstarを買収することで、貴重な無線周波数帯と低軌道における既存の衛星インフラを獲得できます。",
+          "t": 426.76
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does this deal help Amazon compete against satellite market leaders like SpaceX?",
+          "ja": "この買収は、SpaceXのような衛星市場のリーダーに対抗するうえでどのように役立つのですか。",
+          "t": 438.85
+        },
+        {
+          "speaker": "Alex",
+          "en": "SpaceX currently dominates orbital internet with its Starlink network. By buying Globalstar, Amazon strengthens its own global broadband service to reach enterprise and consumer markets worldwide.",
+          "ja": "SpaceXは現在、Starlinkネットワークで衛星インターネットを主導しています。Globalstarを買収することで、Amazonは世界中の企業や個人向けに独自のブロードバンドサービスを強化できます。",
+          "t": 445.01
+        },
+        {
+          "speaker": "Mika",
+          "en": "Will this acquisition help Amazon offer direct-to-device connectivity on mobile phones?",
+          "ja": "この買収により、Amazonはスマートフォンへの直接通信機能を提供できるようになりますか。",
+          "t": 457.51
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Globalstar already has partnerships and radio spectrum for mobile satellite connections. Amazon can now integrate these assets directly into its satellite network to deliver emergency text and data services.",
+          "ja": "はい。Globalstarはすでにモバイル衛星接続用の提携関係と周波数帯を所有しています。Amazonはこれらの資産を衛星網に直接統合し、緊急メールやデータサービスを提供できます。",
+          "t": 463.84
+        },
+        {
+          "speaker": "Mika",
+          "en": "What regulatory hurdles did Amazon have to clear before completing this deal?",
+          "ja": "Amazonはこの取引を完了するためにどのような規制上のハードルをクリアする必要がありましたか。",
+          "t": 477.23
+        },
+        {
+          "speaker": "Alex",
+          "en": "United States communications regulators reviewed the deal to ensure fair market competition. Approval allows Amazon to speed up satellite launches and ground station deployment over the next few years.",
+          "ja": "米国の通信規制当局が公正な市場競争を確保するために取引を審査しました。承認されたことで、Amazonは今後数年間の衛星打ち上げと地上局の設置を加速できます。",
+          "t": 483.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Amazon is spending 11.5 billion dollars on Globalstar to build a strong rival to SpaceX Starlink?",
+          "ja": "つまり要するに、AmazonはSpaceXのStarlinkに対抗する強力なライバルを築くためにGlobalstarに115億ドルを投じたということですね。",
+          "t": 495.77
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. In short, Amazon is buying Globalstar to accelerate its global satellite internet deployment.",
+          "ja": "その通りです。要するに、Amazonは世界的な衛星インターネット展開を加速するためにGlobalstarを買収します。",
+          "t": 503.46
+        }
+      ],
+      "lang": "en",
+      "t": 414.1
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米規制当局は、Amazonによる衛星通信会社Globalstarの115億ドルでの買収を承認しました。Amazonは自社の低軌道衛星網Amazon Leoを強化し、SpaceXのStarlinkに対抗する狙いです。直接スマートフォンとつながる通信サービスや非常用データの提供拡大が見込まれます。",
+          "en": "",
+          "lang": "ja",
+          "t": 510.64
+        }
+      ],
+      "t": 510.64
+    },
+    {
+      "kind": "story",
+      "heading_en": "Anduril and Qualcomm BlueChip",
+      "heading_ja": "AndurilとQualcommが米国製PCを展開",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Defense technology company Anduril has partnered with Qualcomm on a new project called BlueChip to build military laptops in the United States.",
+          "ja": "防衛テクノロジー企業のAndurilはQualcommと提携し、米国で軍用ノートPCを製造する「BlueChip」と呼ばれる新プロジェクトを開始しました。",
+          "t": 534.48
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why are Anduril and Qualcomm building laptops on American soil instead of importing them?",
+          "ja": "なぜAndurilとQualcommは輸入するのではなく、アメリカ国内でノートPCを製造するのですか。",
+          "t": 543.98
+        },
+        {
+          "speaker": "Alex",
+          "en": "They want to create a secure, domestic supply chain for government and defense agencies. Today, many laptop parts, like displays and circuit boards, are produced almost entirely in Asia.",
+          "ja": "政府機関や国防機関向けに、安全な国内サプライチェーンを構築したいと考えているからです。現在、ディスプレイや電子回路基板など多くの部品はほぼアジアで製造されています。",
+          "t": 550.42
+        },
+        {
+          "speaker": "Mika",
+          "en": "How much of the BlueChip laptop is actually made in the United States or allied countries right now?",
+          "ja": "現在、BlueChipノートPCの部品は実際にどれくらいアメリカや同盟国で製造されているのですか。",
+          "t": 562.35
+        },
+        {
+          "speaker": "Alex",
+          "en": "Anduril founder Palmer Luckey says current prototypes source 90 percent of their component costs from the United States and allied nations. The CPU is Qualcomm's Snapdragon X Series, produced at TSMC's new factory in Arizona.",
+          "ja": "Anduril創業者のPalmer Luckey氏によると、現在の試作品は部品調達コストの90%を米国および同盟国から調達しています。CPUにはQualcommのSnapdragon Xシリーズが採用され、アリゾナ州にあるTSMCの新工場で製造されます。",
+          "t": 569.41
+        },
+        {
+          "speaker": "Mika",
+          "en": "Will average consumers be able to buy these laptops, or are they only for government agencies?",
+          "ja": "一般の消費者もこれらのノートPCを購入できますか、それとも政府機関専用ですか。",
+          "t": 583.54
+        },
+        {
+          "speaker": "Alex",
+          "en": "While consumers can join a waiting list, Luckey notes that the rugged design and 20 percent price premium make it ideal for security agencies. Pre-orders will open in 2027.",
+          "ja": "一般ユーザーもウエイティングリストに登録できますが、頑丈な設計と20%高めの価格設定のため、セキュリティ機関に最適だとLuckey氏は述べています。予約受付は2027年に始まります。",
+          "t": 590.27
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does the United States have all the manufacturing facilities needed for a 100 percent domestic laptop yet?",
+          "ja": "米国には、100%国産のノートPCを作るために必要な製造設備がすでにすべて揃っているのですか。",
+          "t": 601.4
+        },
+        {
+          "speaker": "Alex",
+          "en": "Not yet. Luckey pointed out that display glass and circuit boards still require investments in domestic manufacturing before achieving complete independence.",
+          "ja": "まだ揃っていません。完全な自給自足を実現するには、ディスプレイガラスや回路基板の国内製造への投資がまだ必要だとLuckey氏は指摘しました。",
+          "t": 608.81
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Anduril and Qualcomm are building American-made laptops to secure national defense hardware?",
+          "ja": "つまり要するに、AndurilとQualcommは国防用ハードウェアの安全を守るために米国製ノートPCを製造しているのですね。",
+          "t": 619.1
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. In short, BlueChip aims to build fully domestic laptops for high-security users.",
+          "ja": "はい。要するに、BlueChipは高セキュリティを求めるユーザー向けに完全国産のノートPCを製造することを目指しています。",
+          "t": 626.95
+        }
+      ],
+      "lang": "en",
+      "t": 534.48
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "防衛企業AndurilとQualcommが、アメリカ国内で軍用ノートPCを製造するプロジェクト「BlueChip」を発表しました。部品コストの90%を自国および同盟国から調達し、将来的な完全国産化を目指します。高いセキュリティを求める政府や国防機関向けに2027年から受注を開始します。",
+          "en": "",
+          "lang": "ja",
+          "t": 633.29
+        }
+      ],
+      "t": 633.29
+    },
+    {
+      "kind": "health",
+      "heading_en": "UnitedHealthcare AI Companion",
+      "heading_ja": "UnitedHealthcareがAIケア助手を拡大",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, our digital health story. Insurer UnitedHealthcare is expanding its generative AI care companion, named Avery, to 21 million members.",
+          "ja": "それでは、デジタルヘルスニュースです。医療保険大手のUnitedHealthcareは、「Avery」と呼ばれる生成AIケア助手の対象を2100万人の加入者に拡大しています。",
+          "t": 656.96
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is a massive expansion. How many members had access to Avery before this announcement?",
+          "ja": "非常に大きな拡大ですね。この発表の前、どれくらいの加入者がAveryを利用できましたか。",
+          "t": 666.35
+        },
+        {
+          "speaker": "Alex",
+          "en": "Earlier this year, Avery was available to 6.5 million members in employer plans and 160,000 enrolled in Medicare Advantage. Rapid member adoption pushed UnitedHealthcare to expand the service faster than expected.",
+          "ja": "今年前半、Averyは企業向けプランの650万人とMedicare Advantage加入者16万人に提供されていました。加入者の利用が急速に進んだため、当初の予想よりも早くサービスを拡大することになりました。",
+          "t": 673.03
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specific healthcare tasks can Avery handle for insurance members?",
+          "ja": "Averyは保険加入者向けに具体的にどのような医療手続きをこなすことができますか。",
+          "t": 686.74
+        },
+        {
+          "speaker": "Alex",
+          "en": "Avery answers questions about deductibles, out-of-pocket spending limits, doctor networks, and insurance claims. UnitedHealthcare chief data officer Craig Kurtzweil noted Avery resolves 90 percent of member questions directly.",
+          "ja": "Averyは自己負担金、自己負担限度額、提携医師ネットワーク、保険請求に関する質問に答えます。UnitedHealthcareの最高データ責任者Craig Kurtzweil氏は、Averyが問い合わせの90%を直接解決すると述べました。",
+          "t": 692.21
+        },
+        {
+          "speaker": "Mika",
+          "en": "What happens when Avery cannot resolve a member's issue on its own?",
+          "ja": "Averyが単独で加入者の問題を解決できない場合はどうなりますか。",
+          "t": 706.67
+        },
+        {
+          "speaker": "Alex",
+          "en": "In the remaining 10 percent of cases, Avery transfers the member to a human advocate. UnitedHealthcare is also testing features that allow Avery to call doctor offices and schedule appointments.",
+          "ja": "残りの10%のケースでは、Averyは加入者を人間の担当者につなぎます。UnitedHealthcareはまた、Averyが病院に電話して予約を取る機能もテストしています。",
+          "t": 711.97
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does this focus on accurate insurance data help patients navigate complex medical coverage?",
+          "ja": "正確な保険データに重点を置くことは、患者が複雑な医療保障を理解するうえでどのように役立ちますか。",
+          "t": 724.58
+        },
+        {
+          "speaker": "Alex",
+          "en": "Accurate data builds trust with patients. By simplifying insurance rules, Avery helps members choose the right doctors and avoid unexpected medical bills.",
+          "ja": "正確なデータは患者との信頼を築きます。保険の仕組みをわかりやすくすることで、Averyは加入者が最適な医師を選び、予期せぬ医療費請求を避けるのに役立ちます。",
+          "t": 731.49
+        },
+        {
+          "speaker": "Mika",
+          "en": "Is this wide rollout setting a new standard for public health management and digital care tools?",
+          "ja": "この大規模な展開は、公衆衛生管理やデジタルケアツールの新たな標準となるでしょうか。",
+          "t": 741.8
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Large health systems in Asia and Europe are watching closely to see if AI assistants can reduce administrative burdens for patients and doctors alike.",
+          "ja": "はい。アジアやヨーロッパの大型医療機関も、AI助手が患者と医師の双方の事務負担を軽減できるかどうか注視しています。",
+          "t": 748.77
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, UnitedHealthcare is bringing AI care coordination to 21 million people to reduce healthcare friction?",
+          "ja": "つまり要するに、UnitedHealthcareは医療におけるストレスを減らすため、2100万人にAIケア調整機能を提供しているということですね。",
+          "t": 759.14
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. In short, Avery simplifies insurance information and helps patients schedule medical care.",
+          "ja": "その通りです。要するに、Averyは保険情報をわかりやすくし、患者の医療予約をサポートします。",
+          "t": 767.21
+        }
+      ],
+      "lang": "en",
+      "t": 656.96
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米保険大手UnitedHealthcareは、生成AIを活用したケア助手「Avery」の対象者を2100万人に拡大すると発表しました。自己負担額や保険請求に関する質問の90%を自動で解決し、残りは人間の担当者につなぎます。医療保険の手続きを簡素化し、患者の利便性を高める取り組みです。",
+          "en": "",
+          "lang": "ja",
+          "t": 774.35
+        }
+      ],
+      "t": 774.35
+    },
+    {
+      "kind": "world",
+      "heading_en": "Deadlock in Israel Election",
+      "heading_ja": "イスラエル総選挙で接戦",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, a look at the world beyond tech. Exit polls in Israel show no clear winner after voters turned out in record numbers for a pivotal general election.",
+          "ja": "それでは、テクノロジー以外の世界のニュースです。イスラエルの重要な総選挙において、有権者が記録的な数で投票したものの、出口調査では明確な勝者が示されていません。",
+          "t": 798.32
+        },
+        {
+          "speaker": "Mika",
+          "en": "Who is leading between Prime Minister Benjamin Netanyahu and opposition candidate Gadi Eisenkot?",
+          "ja": "ネタニヤフ首相と野党候補のGadi Eisenkot氏のどちらがリードしていますか。",
+          "t": 808.44
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exit polls show the opposition bloc led by former army chief Gadi Eisenkot edges Netanyahu's coalition by 52 seats to 50. However, Netanyahu's Likud party remains the largest single party with 24 seats in the 120-seat Knesset.",
+          "ja": "出口調査によると、元軍トップのGadi Eisenkot氏が率いる野党勢力が52議席対50議席でネタニヤフ連立与党をわずかに上回っています。しかし、ネタニヤフ氏のLikud党は定数120の国会で24議席を獲得し、単独最大党の座を維持しています。",
+          "t": 815.32
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does either main bloc have enough votes to form a majority government?",
+          "ja": "どちらかの主要陣営は過半数与党を形成するのに十分な議席を得ていますか。",
+          "t": 829.59
+        },
+        {
+          "speaker": "Alex",
+          "en": "No. Neither bloc has reached the 61 seats needed for a majority. Palestinian-led parties hold 18 seats, making coalition building very complicated. Voter turnout reached 74.3 percent, the highest in decades.",
+          "ja": "いいえ。どちらの陣営も過半数に必要な61議席に達していません。パレスチナ系政党が18議席を占めており、連立工作は非常に複雑になっています。投票率は74.3%に達し、ここ数十年で最高となりました。",
+          "t": 834.99
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is this election so significant for the future of the region?",
+          "ja": "なぜこの選挙は地域の将来にとってこれほど重要なんですか。",
+          "t": 848.18
+        },
+        {
+          "speaker": "Alex",
+          "en": "This is the first election since the war in Gaza began, making it a direct test of public support for Netanyahu's government. Gadi Eisenkot called the results a vote of no confidence in Netanyahu and promised to build a new government quickly. Official results will arrive on November 4.",
+          "ja": "ガザでの戦争が始まってから初の選挙であり、ネタニヤフ政権に対する国民の支持を直接問うものだからです。Gadi Eisenkot氏は結果をネタニヤフ氏への不信任と呼び、迅速に新政府を組織すると誓いました。公式結果は11月4日に公表されます。",
+          "t": 853.29
+        }
+      ],
+      "lang": "en",
+      "t": 798.32
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "イスラエル総選挙の出口調査によると、ネタニヤフ首相の与党Likudが単独最多の24議席を得たものの、Eisenkot氏率いる野党勢力が52議席とややリードしています。ただし、どちらの陣営も過半数の61議席には届いておらず、政権樹立に向けた難航が予想されています。",
+          "en": "",
+          "lang": "ja",
+          "t": 871.03
+        }
+      ],
+      "t": 871.03
+    },
+    {
+      "kind": "world",
+      "heading_en": "DRC Ebola Crisis",
+      "heading_ja": "コンゴでエボラ出血熱が拡大",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In public health news, a major Ebola outbreak centered in the Democratic Republic of Congo has surpassed 10,000 cases.",
+          "ja": "公衆衛生ニュースです。コンゴ民主共和国を中心とする深刻なエボラ出血熱の感染拡大において、症例数が1万人を超えました。",
+          "t": 892.56
+        },
+        {
+          "speaker": "Mika",
+          "en": "How rapidly is this Ebola outbreak spreading across the region?",
+          "ja": "このエボラ出血熱は地域全体にどれほどの速さで広まっていますか。",
+          "t": 900.69
+        },
+        {
+          "speaker": "Alex",
+          "en": "Health officials report that the virus is spreading faster than previous outbreaks. Over 10,000 patients have been diagnosed as emergency health workers struggle to contain transmission.",
+          "ja": "保健当局はウイルスが過去の流行よりも速いペースで広がっていると報告しています。医療支援員が感染抑え込みに苦慮する中、1万人以上の患者が診断されています。",
+          "t": 905.69
+        },
+        {
+          "speaker": "Mika",
+          "en": "What challenges are doctors and aid workers facing on the ground?",
+          "ja": "現場の医師や支援員はどのような課題に直面していますか。",
+          "t": 917.69
+        },
+        {
+          "speaker": "Alex",
+          "en": "Remote locations, limited medical supplies, and local conflict are making contact tracing and vaccine distribution difficult. Border screenings have been heightened in neighboring countries to stop further cross-border movement.",
+          "ja": "偏遠の地であること、医療資材の不足、地域紛争などが接触者追跡やワクチン配布を難しくしています。国境を越えたさらなる移動を防ぐため、隣国では水際対策が強化されています。",
+          "t": 922.8
+        },
+        {
+          "speaker": "Mika",
+          "en": "Are public health authorities recommending wider vaccination campaigns near the borders?",
+          "ja": "公衆衛生当局は国境付近でのより広範なワクチン接種キャンペーンを推奨していますか。",
+          "t": 937.19
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Health agencies are prioritizing vaccine delivery to high-risk communities and healthcare workers near regional transit hubs. International aid groups are sending emergency medical teams to help stop a wider humanitarian disaster.",
+          "ja": "はい。保健機関は地域の交通要衝付近にあるハイリスクな地域社会や医療従事者へのワクチン配送を優先しています。国際支援団体はより深刻な人道危機を防ぐため緊急医療チームを派遣しています。",
+          "t": 943.61
+        },
+        {
+          "speaker": "Mika",
+          "en": "How serious is this milestone for global public health security?",
+          "ja": "この1万人突破という節目は、世界の公衆衛生上の安全にとってどれほど深刻ですか。",
+          "t": 958.39
+        },
+        {
+          "speaker": "Alex",
+          "en": "Passing 10,000 cases marks a critical point that requires stronger global cooperation.",
+          "ja": "1万件の症例突破は、より強固な国際協力が必要とされる危機的な局面を意味しています。",
+          "t": 963.45
+        }
+      ],
+      "lang": "en",
+      "t": 892.56
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "コンゴ民主共和国を中心とするエボラ出血熱の感染拡大で、症例数が1万人を超えました。従来よりも感染スピードが速く、医療物資の不足や地域の紛争が対策を難しくしています。感染拡大を防ぐため、隣国での水際対策や国際社会による緊急の医療支援が急務となっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 970.21
+        }
+      ],
+      "t": 970.21
+    },
+    {
+      "kind": "world",
+      "heading_en": "Kherson Ceasefire Extended",
+      "heading_ja": "ヘルソンでの停戦が拡大・延長",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "A localized ceasefire in Ukraine's southern Kherson region has been extended to allow humanitarian aid into trapped cities like Oleshky.",
+          "ja": "ウクライナ南部ヘルソン州での局地的な停戦が延長され、オレシュキなどの孤立した都市への人道支援物質の搬入が可能となりました。",
+          "t": 992.01
+        },
+        {
+          "speaker": "Mika",
+          "en": "Who helped broker this humanitarian ceasefire for trapped civilians?",
+          "ja": "取り残された市民のためのこの人道停戦は、誰が仲介を手助けしたのですか。",
+          "t": 1001.62
+        },
+        {
+          "speaker": "Alex",
+          "en": "United States First Lady Melania Trump and Pope Leo XIV helped negotiate the truce to assist thousands of stranded residents in Oleshky.",
+          "ja": "米国のメラニア・トランプ大統領夫人とローマ教皇レオ14世が、オレシュキに取り残された数千人の住民を支援するための停戦交渉を助けました。",
+          "t": 1007.18
+        },
+        {
+          "speaker": "Mika",
+          "en": "Is this local truce holding, and will it lead to evacuations?",
+          "ja": "この局地的な停戦は維持されており、避難につながるでしょうか。",
+          "t": 1016.79
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Both sides report no breaches. The truce enables aid deliveries before civilian evacuations on Friday. Ukrainian officials hope it helps peace efforts.",
+          "ja": "はい。双方とも違反は報告していません。この停戦により、金曜日に予定されている市民の避難の前に支援物資を届けることが可能になります。ウクライナ高官はこれが和平への取り組みに役立つことを期待しています。",
+          "t": 1021.92
+        },
+        {
+          "speaker": "Mika",
+          "en": "Meanwhile, Nordic leaders held a rare phone call with Russian President Vladimir Putin.",
+          "ja": "一方で、北欧の首脳陣がロシアのプーチン大統領と異例の電話会談を行いましたね。",
+          "t": 1032.73
+        },
+        {
+          "speaker": "Alex",
+          "en": "Finnish President Alexander Stubb and Norwegian Prime Minister Jonas Gahr Støre held a 90-minute call with Putin to push for peace negotiations.",
+          "ja": "フィンランドのアレクサンダー・ストゥブ大統領とノルウェーのヨーナス・ガーラ・ストア首相が、プーチン氏と90分間の電話会談を行い、和平交渉を働きかけました。",
+          "t": 1039.41
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did they reach any new agreement during that conversation?",
+          "ja": "その会話の中で何か新しい合意に達しましたか。",
+          "t": 1049.5
+        },
+        {
+          "speaker": "Alex",
+          "en": "No breakthrough occurred, but President Stubb emphasized that peace cannot be achieved through silence. The call was coordinated with Ukraine and the United States.",
+          "ja": "画期的な進展はありませんでしたが、ストゥブ大統領は沈黙によって平和を達成することはできないと強調しました。この会談はウクライナおよび米国と事前調整の上で行われました。",
+          "t": 1054.46
+        }
+      ],
+      "lang": "en",
+      "t": 992.01
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ウクライナ南部ヘルソン州で、食料や薬品を届けるための局地的な停戦が拡大・延長されました。一方、フィンランドとノルウェーの首脳がロシアのプーチン大統領と電話会談を行い、和平交渉に向けた直接対話を実施しました。直ちに大きな進展はないものの、外交的模索が続いています。",
+          "en": "",
+          "lang": "ja",
+          "t": 1065.74
+        }
+      ],
+      "t": 1065.74
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch",
+      "heading_ja": "CEOウォッチ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In CEO Watch, tech executives made notable statements this week. Elon Musk claimed Ukraine violated Starlink terms of service by using the satellite system for offensive drone strikes. Ukrainian officials denied the charge.",
+          "ja": "CEOウォッチでは、今週テック企業の経営陣から注目すべき発言がありました。Elon Musk氏は、ウクライナが攻撃用ドローン攻撃にStarlinkを使用したことで利用規約に違反したと主張しました。ウクライナ当局はこの主張を否定しています。",
+          "t": 1088.35
+        },
+        {
+          "speaker": "Mika",
+          "en": "Meanwhile, Qualcomm CEO Cristiano Amon told staff that company performance has consistently fallen short of expectations as job cuts proceed.",
+          "ja": "一方、QualcommのCEOであるCristiano Amon氏は、人員削減が進む中で会社業績が「一貫して期待を下回っている」と従業員に語りました。",
+          "t": 1103.15
+        },
+        {
+          "speaker": "Alex",
+          "en": "Finally, Anduril founder Palmer Luckey stated he will stay in California despite the proposed state wealth tax, saying he plans to stay and fight it.",
+          "ja": "最後に、Anduril創業者のPalmer Luckey氏は、提案されている州富裕税にもかかわらずカリフォルニア州にとどまり、戦い続けるつもりだと述べました。",
+          "t": 1113.06
+        }
+      ],
+      "lang": "en",
+      "t": 1088.35
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day",
+      "heading_ja": "今日のフレーズ",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's phrase of the day is \"across the board.\" It means applying to all groups, items, or categories equally.",
+          "ja": "今日のフレーズは「across the board」です。すべてのグループ、項目、または区分に平等に適用されることを意味します。",
+          "t": 1123.9
+        },
+        {
+          "speaker": "Alex",
+          "en": "In our first tech story, chip customers faced price increases across the board due to high demand and packaging shortages.",
+          "ja": "最初のテックニュースでは、高い需要とパッケージング不足により、半導体顧客が全面的に値上げに直面しました。",
+          "t": 1130.97
+        },
+        {
+          "speaker": "Mika",
+          "en": "Right. For example, you can say: \"The management team announced salary increases across the board for every single department.\" It is a very useful phrase for business updates.",
+          "ja": "その通りです。例えば、「経営陣はすべての部署に対して一律の給与引き上げを発表しました」と言うことができます。ビジネスの更新情報でとても役に立つ表現です。",
+          "t": 1138.62
+        }
+      ],
+      "lang": "en",
+      "t": 1123.9
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Sign-off",
+      "heading_ja": "エンディング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That is all for today's Commute News. From AI chip pricing to satellite internet and global diplomacy, staying informed helps you navigate the changing world.",
+          "ja": "今日のCommute Newsは以上です。AIチップの価格設定から衛星インターネット、国際外交まで、最新情報を把握することが変化する世界を進む助けになります。",
+          "t": 1149.08
+        },
+        {
+          "speaker": "Mika",
+          "en": "Thank you for listening to us today. Have a safe journey and a wonderful day ahead. See you on tomorrow's commute.",
+          "ja": "本日もお聞きいただきありがとうございました。安全な道中を、そして素晴らしい一日をお過ごしください。明日の通勤時間にお会いしましょう。",
+          "t": 1158.6
+        }
+      ],
+      "lang": "en",
+      "t": 1149.08
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。いってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 1165.83
+        }
+      ],
+      "t": 1165.83
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "TSMC Considers 20% Price Hike for CoWoS Advanced Packaging",
+      "title_ja": "TSMCがCoWoS高度パッケージングの20%値上げを検討",
+      "summary_ja": "TSMCはNvidiaの最新AIチップ需要急増に伴い、CoWoS高度パッケージングの価格を最大20%引き上げることを検討しています。装置の納期は最長8ヶ月に伸びており、検査工程の長期化も生産能力を圧迫しています。2027年にはウエハ価格の引き上げも予定されており、顧客企業の総コスト増が見込まれます。",
+      "why_ja": "半導体のパッケージング不足はAIインフラ整備の最大の bottleneck となっており、TSMCの強力な価格決定権が業界全体のコスト増に直結するため。",
+      "section": "tech",
+      "topic_key": "tsmc-cowos-packaging-price-hike",
+      "companies": [
+        "TSMC",
+        "Nvidia",
+        "GlobalFoundries"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "TSMC reportedly weighs 20% CoWoS price increase as Nvidia Blackwell and Rubin chips put pressure on packaging capacity",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-reportedly-weighs-20-percent-cowos-price-increase-as-nvidia-blackwell-and-rubin-chips-put-pressure-on-packaging-capacity-equipment-lead-times-stretch-to-eight-months"
+        },
+        {
+          "publisher": "TradingView",
+          "title": "TSMC Gets Fresh Pricing Power From AI Chip Boom",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRFVhLW5QQTNJS1k1bEk3OVNrY29sVVZfZkFoWGlQMDJ4aXVVc1hwa0tQVG9Cc3hvUGN0SVlLSUtVWTJwNmh0d3BnSXhhWlQzQ2NfYWdOQkY1ekZFRm4yTjVIS0o0ZkpmQ0VGb1M4dzNDa0N4M0R5a1dOZEtRbHVnaGUzX1V1SFNlckxNTEQtZWpkc0dqZDV4aTgyQTJYRUhhXzZ1RWJWQnItRGc?oc=5"
+        },
+        {
+          "publisher": "Yahoo Finance",
+          "title": "TSMC Reportedly Plans Up to 20% Increase in Advanced Chip Packaging Prices Amid AI Demand",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUW95WjZwanFramQzNVFhb1JIV0R4WjQ2cGxxLW1vYUtNOFBWMVZ6OW9Hdm5IMHgzT2NvckNyVHBkbzhYM1g4ZHZaa0JyMVluaHJfM1lYYXJXUzBManFxb04wbS1pQW8xblRXNWM3NUxtWDVEUV9IX0Z0dExaSTJ6SHVBejBqYXlYdnVzWDhkS3AycGxqUEo2czU2OWFudw?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Apple Unveils New MacBook Pro and iMac Powered by M6 Chip",
+      "title_ja": "AppleがM6チップ搭載のMacBook ProとiMacを発表",
+      "summary_ja": "Appleは次世代シリコンM6を搭載した14インチMacBook ProとiMacを発表しました。M6は各GPUコアにNeural Acceleratorを組み込み、Dual 16コアNeural Engineを搭載して端末上でのAI処理能力を強化しています。旧世代からの乗り換えユーザーに対して大幅な性能向上を提示し、買い替え需要を刺激する狙いです。",
+      "why_ja": "クラウドに頼らないオンデバイスAI処理性能を高めることで、QualcommやIntelとの競争において優位に立ち、PCの更新需要を喚起するため。",
+      "section": "tech",
+      "topic_key": "apple-m6-macbook-pro-imac-launch",
+      "companies": [
+        "Apple",
+        "Qualcomm",
+        "Intel"
+      ],
+      "sources": [
+        {
+          "publisher": "Apple Newsroom",
+          "title": "Apple introduces the new 14-inch MacBook Pro with M6",
+          "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/"
+        },
+        {
+          "publisher": "Apple Newsroom",
+          "title": "Apple unveils new iMac with M6",
+          "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Apple adds M6 to 14-inch MacBook Pro and iMac",
+          "url": "https://www.tomshardware.com/laptops/macbooks/apple-adds-m6-to-14-inch-macbook-pro-and-imac-starts-at-usd1-999"
+        },
+        {
+          "publisher": "Yahoo Finance",
+          "title": "Apple launches new MacBook Pro, iMac as it continues to refresh product lines",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZE4xZ3FadnpwM0JuSnAtY1NwZ1R6bVFmN0Z0QmFwNUFfYlllUGpTbXU4MzdRTG9rN1h0eWliT0FkZ1VDb1JFSWhwcjZXWktTNmZEX3pCUVk3eWJfZTlEWTljeGsycWNFX3VMN0V2SjBXZU5jdXlROTFCQ19XTUtNOXR1OURzZW1md2tIc2lvcGRwOWJHMnhvVC1xUXVrUDBZS0xQRl9WMHJJXy1DUmdNT3BKajJPX01lNmlvWEEyYmk4ODRUQjlPX29FYlBTcVZPWGc?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Google DeepMind Announces Genie 4 Interactive World Model",
+      "title_ja": "Google DeepMindが対話型ワールドモデル「Genie 4」を発表",
+      "summary_ja": "Google DeepMindは、リアルタイムでインタラクティブな仮想空間と背景音声を同時に生成できる「Genie 4」を発表しました。ユーザーは自然言語の指示で天候やカメラアングルを即座に変更可能で、最長2分間の場面一貫性を保持できます。 Geminiモデルとの連携により、ロボティクスの訓練や映画の絵コンテ作成などへの応用が進められています。",
+      "why_ja": "リアルタイムな物理・音声シミュレーション技術の進展により、ロボットの学習環境やゲーム・映像制作プロセスが根本から変わる可能性があるため。",
+      "section": "tech",
+      "topic_key": "google-deepmind-genie-4",
+      "companies": [
+        "Google",
+        "Google DeepMind",
+        "Runway",
+        "AMD",
+        "Amazon",
+        "Decart",
+        "Rivian",
+        "Third Dimension",
+        "World Labs"
+      ],
+      "sources": [
+        {
+          "publisher": "Google Blog",
+          "title": "We’re announcing Genie 4, our new world model for real-time interactive simulation.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+          "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/"
+        },
+        {
+          "publisher": "Ars Technica",
+          "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
+          "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "Google’s next Genie AI model generates more realistic experiences",
+          "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model"
+        },
+        {
+          "publisher": "Google DeepMind",
+          "title": "Genie 4: A new generation of world simulation",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OSHE1Q2pvLWgzQk5SaDNUVjcwWnpNLUoteDhJZVRLU3RPZjFhX2dtSGdSRW9OVGdLbUZRQ2dyd3pMeWRqNEtUM080azFBX2l6RGZCd2diZkxYU19LSE9HNUNoTUFHa3NLMUN4SjhwMmRXdFFHVW1hVEpsZkxnWTA?oc=5"
+        },
+        {
+          "publisher": "Bloomberg.com",
+          "title": "Google Upgrades AI World Model That Rattled Video Game Stocks",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbUx6Z0xYcXpVWEdaSGswN0tVc3hOdmFXZmNpLWxreG5sallSc0RnbHlQcVpXWGZwRzZfZW5JM19nTkYzRVlyLWVGRktZbG4waVlPajJnVEp1aXJ2TEVMM29sbEJYTFlvY2Q4M2Nna3VLeHNTOEhiN1ZYalplUWRWN0xfbE16RlpfMjdSaFd4Ym1qU1kxWmFKNWl0djluT3VOM3JMN1lycDhPQ1N3UHFaRnln?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "US Regulators Approve Amazon's $11.5 Billion Acquisition of Globalstar",
+      "title_ja": "米当局がAmazonによるGlobalstarの115億ドル買収を承認",
+      "summary_ja": "米規制当局は、Amazonによる衛星通信会社Globalstarの115億ドルでの買収提案を承認しました。Amazonはこの買収により、低軌道衛星網「Amazon Leo」に必要な無線周波数帯と衛星基盤を獲得します。これにより、SpaceXのStarlinkサービスに対する直接的な対抗姿勢を強めることになります。",
+      "why_ja": "低軌道衛星通信における垂直統合が進むことで、SpaceXとの世界的なブロードバンドおよび直接端末通信での競争が激化するため。",
+      "section": "tech",
+      "topic_key": "amazon-leo-globalstar-acquisition-approval",
+      "companies": [
+        "Amazon",
+        "Globalstar",
+        "SpaceX"
+      ],
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "title": "US agency approves Amazon Leo’s $11.5 billion acquisition of Globalstar",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU2pZY3J4T2Fvd0hub09FM2RkaHJQc21pOWRWal80cHpZMXN2RS1La2M2WmpVY1hnbzlnUHNBZG5rQ3hWTFZPdmh0cmFPMHVHV0ttRlhzXzZ2SVdFOTd5ZU42YWFTblZtQnRPQUZNcENPSWJUeEF2TE5JRFFXaUdCRlZmLUFCT1JhT0wxWGpKNlZXYnowUG52dlBqc1JYS2EwcE1PS3gwVzhhYWZ4RkJURTh0LWl6SWxEOVIzT3RXbG1EZw?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Anduril and Qualcomm Team Up for US-Made Defense Laptops",
+      "title_ja": "AndurilとQualcommが米国製防衛用ノートPCで提携",
+      "summary_ja": "防衛テクノロジー企業のAndurilとQualcommは、米国国内で軍用ノートPCを製造するプロジェクト「BlueChip」を発表しました。試作品では調達コストの90%を米国および同盟国から確保しており、将来的な完全国産サプライチェーンの構築を目指しています。政府機関や国防分野を主な顧客とし、2027年から受注を開始する予定です。",
+      "why_ja": "安全保障上の懸念からハードウェア全体の国内調達が求められており、アジアへのサプライチェーン依存を減らす重要事例となるため。",
+      "section": "tech",
+      "topic_key": "anduril-qualcomm-bluechip-us-laptop",
+      "companies": [
+        "Anduril",
+        "Qualcomm",
+        "TSMC",
+        "Samsung",
+        "Microsoft",
+        "Dell"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Military drone outfit Anduril partners with Qualcomm to build laptops on US soil with new BlueChip venture",
+          "url": "https://www.tomshardware.com/laptops/military-drone-outfit-anduril-partners-with-qualcomm-to-build-laptops-on-us-soil-with-new-bluechip-venture-defense-contractor-targets-a-100-percent-domestic-supply-chain-in-the-future"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Anduril, Qualcomm launch BlueChip, a new kind of US-made laptop",
+          "url": "https://techcrunch.com/2026/10/27/anduril-qualcomm-launch-bluechip-a-new-kind-of-us-made-laptop/"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Anduril, Qualcomm partner on new line of US-made laptops",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNajY3REVkVWNuQ0FsZmlDYnh3aVVMYTBHRlp0NVhXTEJqa0cwYktaelNHeG1lLWppTjdaV0g4eHhfV3dxNHFqOEJ1UEI3RXl5VWMxMEtnUXM2eGxfdi1fQ0RVdUR5TzhUeW5pZEJqbTZiVEtqbjBGQWxjRjltbkNEb0pXdTltZFVoVDA1dHpMTWFTcGJPaUlRWFNGckd0TnRTZ1hGTnZqMkJTdU9pQWtNcFhn?oc=5"
+        },
+        {
+          "publisher": "Bloomberg.com",
+          "title": "Anduril and Qualcomm Plan to Build Laptop With US Supply Chain",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMVUzaDFhNEF3eklOdGxCUWJaXzQweU0za1RsUWFvMkhIMUQ2akRCMldjM2xXdURyMWhfaHB6emFLdWhreDI3Ym1sNE5Zdk1LQS1CbXp5UWtrbENuQUI3amtIZXk3d1BWbWF4cUJBUVdNOS1LVlZrTzhpaDJmMlhDUWJLX3hsSTc3dmhNRzdscTRoQS1qbmtOVFFRTmJJamh2SE91SDlkVHd1d1RDdjNTVTBVWQ?oc=5"
+        },
+        {
+          "publisher": "DefenseScoop",
+          "title": "Anduril expanding into laptop manufacturing in partnership with Qualcomm",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOTlaNGlRWjZFeHVXVUlWR1BBcmRFV3hPRGc0M21pM2RxeXR0ZEd6bzBkQWVfdFJlRDFiaEhneF9lMjRPWGhXRTRFcXVoOWZYdzZGMm5ZeUFnMXVYSzJCTTBBZmVEREllLVUwLWZSenk3cWZIQy1hQUFXbFY5TzBmdFZuZEZyWWNPQ19nT0FOOA?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "UnitedHealthcare Expands AI Care Assistant Avery to 21 Million Members",
+      "title_ja": "UnitedHealthcareがAIケア助手Averyを2100万人に拡大",
+      "summary_ja": "米保険大手UnitedHealthcareは、生成AIを活用したケアコーディネーション助手「Avery」の対象者を2100万人に拡大しました。Averyは自己負担金や保険請求に関する問い合わせの90%を自動解決し、残りは人間へ引き継ぎます。今後は医療機関への予約電話代行など機能の追加も計画されています。",
+      "why_ja": "大手民間保険会社による過去最大規模のAI導入であり、医療手続きの自動化と患者の負担軽減に向けた公衆衛生政策上の大きな試みであるため。",
+      "section": "health",
+      "topic_key": "unitedhealthcare-avery-ai-companion-expansion",
+      "companies": [
+        "UnitedHealthcare"
+      ],
+      "sources": [
+        {
+          "publisher": "Fierce Healthcare",
+          "title": "UnitedHealthcare expands AI companion Avery to 21M members",
+          "url": "https://www.fiercehealthcare.com/payers/unitedhealthcare-expands-ai-companion-avery-21m-members"
+        }
+      ]
+    },
+    {
+      "title_en": "Exit Polls Signal Deadlock in Consequential Israeli General Election",
+      "title_ja": "イスラエル総選挙の出口調査で大接戦の相様",
+      "summary_ja": "イスラエル総選挙の出口調査では、ネタニヤフ首相率いるLikudが24議席で単独最大党となる一方、Eisenkot氏率いる野党勢力が52議席とやや優勢を示しています。投票率は74.3%と記録的な高さとなりましたが、どちらの陣営も過半数の61議席には届いていません。正式な結果は11月4日に公表される予定です。",
+      "why_ja": "2023年10月のガザ攻撃開始以来初となる総選挙であり、中東の安全保障や地域情勢の行方を左右する極めて重要な政局となるため。",
+      "section": "world",
+      "topic_key": "israel-general-election-exit-polls",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "Israel election live: exit polls project no clear winner, as anti-Netanyahu bloc leads but Likud remains biggest party",
+          "url": "https://www.theguardian.com/world/live/2026/oct/27/israel-elections-knesset-netanyahu-likud-eisenkot-gaza-latest-updates"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Exit polls following Israeli elections indicate no clear winner",
+          "url": "https://www.aljazeera.com/news/2026/10/27/exit-polls-following-israeli-elections-indicate-no-clear-winner?traffic_source=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Legacy of 7 October looms large as a divided Israel goes to the polls in record numbers",
+          "url": "https://www.theguardian.com/world/2026/oct/27/legacy-of-7-october-looms-large-as-a-divided-israel-goes-to-the-polls-in-record-numbers"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Israel election results live: Eisenkot bloc ‘ahead’ of Netanyahu camp",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/israel-election-results-live-exit-polls-soon-as-netanyahu-faces-tight-race?traffic_source=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Jerusalem Daily: Israeli elections underway",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/jerusalem-daily-israeli-elections-underway?traffic_source=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Israel election turnout highest in 50 years as voting continues",
+          "url": "https://www.aljazeera.com/news/2026/10/27/israel-election-turnout-highest-in-50-years-as-voting-continues?traffic_source=rss"
+        },
+        {
+          "publisher": "The New York Times",
+          "title": "Israel Election Live Updates: Polls Close as Netanyahu Faces Challenge Led by Eisenkot",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1MUTJ0MEpwV0JKTERtX2pIX0ktV2FvM3owbDV0TktEcVdwRThUQzRjbnZNRWR6aGNKRlhxdTNSdG1BRHlTR2VSTWpqLU5kcEZiaDBXcTE1NU80MnNGb044NngzQzRiSFYyc183bTdPdw?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "DRC-Centered Ebola Outbreak Surpasses 10,000 Cases",
+      "title_ja": "コンゴ民主共和国を中心とするエボラ出血熱が1万人を突破",
+      "summary_ja": "コンゴ民主共和国から始まったエボラ出血熱の感染拡大で、累積症例数が1万人を超える深刻な事態となっています。感染速度は過去の流行を上回っており、紛争や医療物資の不足が封じ込めを阻んでいます。周辺国では水際対策が強化され、国際社会による緊急支援が呼びかけられています。",
+      "why_ja": "症例数1万人突破は感染封じ込めの失敗を示しており、広域な感染拡大を防ぐための地球規模の公衆衛生介入が急務となっているため。",
+      "section": "world",
+      "topic_key": "ebola-outbreak-drc-10000-cases",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "NPR",
+          "title": "The Ebola outbreak is breaking records -- and just marked a grim milestone",
+          "url": "https://www.npr.org/2026/10/27/g-s1-150136/ebola-outbreak-milestone-democratic-republic-congo-vaccine"
+        }
+      ]
+    },
+    {
+      "title_en": "Kherson Ceasefire Extended as Nordic Leaders Speak directly with Putin",
+      "title_ja": "ヘルソンでの停戦延長と北欧首脳によるプーチン氏との電話会談",
+      "summary_ja": "ウクライナ南部ヘルソンの孤立都市オレシュキでの食料・薬品搬入のための停戦が州全体に拡大・延長されました。一方でフィンランドのストゥブ大統領とノルウェーのストア首相がロシアのプーチン大統領と直接電話会談を行いました。双方の主張には大きな隔たりがあるものの、外交交渉に向けた模索が続いています。",
+      "why_ja": "人道目的の局地停戦の維持と、北欧首脳によるロシアとの直接対話の再開は、停滞するウクライナ情勢における貴重な外交的動きであるため。",
+      "section": "world",
+      "topic_key": "ukraine-russia-kherson-humanitarian-ceasefire",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Ceasefire extended across Ukraine's Kherson region, officials say",
+          "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Norway and Finland leaders hold rare call with Putin",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Oleshky truce appears to hold as two European leaders have ‘frank’ call with Putin",
+          "url": "https://www.theguardian.com/world/2026/oct/27/oleshky-truce-ukraine-russia-putin"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Kyiv hopes for ‘new momentum’ in peace talks after Finnish and Norwegian leaders’ call with Putin – as it happened",
+          "url": "https://www.theguardian.com/world/live/2026/oct/27/russia-ukraine-oleshky-serbia-france-europe-latest-news-updates"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Local ceasefire brokered by Melania Trump starts in southern Ukraine",
+          "url": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "packaging",
+      "meaning_ja": "半導体パッケージング",
+      "note_ja": "複数のチップやメモリを1つの枠の中に結合して基板に収める技術。",
+      "example_en": "Semiconductor giant TSMC is considering a price increase of up to 20 percent for its CoWoS advanced packaging technology, according to industry reports."
+    },
+    {
+      "term": "bottleneck",
+      "meaning_ja": "瓶の首、制約要因、ボトルネック",
+      "note_ja": "全体の進行を遅らせる最大の原因や停滞箇所を指す。",
+      "example_en": "In short, advanced packaging is the main bottleneck for AI chips today."
+    },
+    {
+      "term": "silicon",
+      "meaning_ja": "シリコン、半導体",
+      "note_ja": "ここでは「プロセッサ」や「自社開発チップ」の意味で用いられる。",
+      "example_en": "Apple has launched a new 14-inch MacBook Pro and a new iMac powered by its new M6 silicon chip."
+    },
+    {
+      "term": "neural",
+      "meaning_ja": "神経系の、ニューラルの",
+      "note_ja": "AIの深層学習処理を専門に行う回路（Neural Engineなど）に使われる。",
+      "example_en": "Each GPU core now includes built-in Neural Accelerators, along with a Dual 16-core Neural Engine."
+    },
+    {
+      "term": "simulation",
+      "meaning_ja": "シミュレーション、模擬実験",
+      "note_ja": "仮想環境で現実の動きや物理現象を再現すること。",
+      "example_en": "Google DeepMind has announced Genie 4, a new world model designed for real-time interactive simulation."
+    },
+    {
+      "term": "interactive",
+      "meaning_ja": "対話型の、双方向の",
+      "note_ja": "ユーザーの操作に対してリアルタイムで反応が返ってくる様子。",
+      "example_en": "So, in short, Genie 4 brings real-time controls and native audio to interactive AI simulations?"
+    },
+    {
+      "term": "constellation",
+      "meaning_ja": "衛星コンステレーション、星座",
+      "note_ja": "多数の人工衛星を協調して運用する宇宙通信システムのこと。",
+      "example_en": "Amazon wants to expand its Amazon Leo satellite constellation."
+    },
+    {
+      "term": "supply chain",
+      "meaning_ja": "サプライチェーン、供給網",
+      "note_ja": "原材料の調達から製造、販売に至る一連の供給ネットワーク。",
+      "example_en": "They want to create a secure, domestic supply chain for government and defense agencies."
+    },
+    {
+      "term": "advocate",
+      "meaning_ja": "担当者、支援者、弁護人",
+      "note_ja": "医療分野では患者の手続きをサポートする相談員を指す。",
+      "example_en": "In the remaining 10 percent of cases, Avery transfers the member to a human advocate."
+    },
+    {
+      "term": "exit poll",
+      "meaning_ja": "出口調査",
+      "note_ja": "投票を終えた有権者に対して投票直後に行う意識調査。",
+      "example_en": "Exit polls in Israel show no clear winner after voters turned out in record numbers for a pivotal general election."
+    },
+    {
+      "term": "ceasefire",
+      "meaning_ja": "停戦",
+      "note_ja": "戦闘行為を一時的に停止する合意や決定のこと。",
+      "example_en": "A localized ceasefire in Ukraine's southern Kherson region has been extended to allow humanitarian aid into trapped cities like Oleshky."
+    },
+    {
+      "term": "across the board",
+      "meaning_ja": "全面的に、一律に",
+      "note_ja": "特定の範囲全体、あるいはすべての対象に等しく及ぶ様子。",
+      "example_en": "In our first tech story, chip customers faced price increases across the board due to high demand and packaging shortages."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "across the board",
+    "meaning_ja": "全面的に、すべての対象に一律で",
+    "example_en": "The management team announced salary increases across the board for every single department.",
+    "example_ja": "経営陣はすべての部署に対して一律の給与引き上げを発表しました。"
+  }
+}
