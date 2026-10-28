@@ -1,0 +1,1364 @@
+{
+  "date": "2026-10-29",
+  "published": "2026-10-29T07:58:15+09:00",
+  "title_en": "Microsoft and Alphabet Earnings, Memory Shortages, and Epic Systems Data Monopoly",
+  "title_ja": "Microsoftとアルファベット決算、半導体不足長期化、エピックの医療データ独占",
+  "summary_ja": "10月29日放送のCommute Newsでは、MicrosoftとAlphabetの最新決算から巨大IT企業のクラウドとAI事業の明暗をお伝えします。また、2030年まで続くと予想される半導体メモリ不足やAmazonのAI利用指針の見直し、Epic Systemsによる医療データ独占の問題を取り上げます。世界ニュースではスペインの列車追突事故や米FRBの金利据え置き発表を速報します。",
+  "duration": 1101.5,
+  "audio": {
+    "file": "2026-10-29.mp3",
+    "bytes": 8812798,
+    "release_tag": "ep-2026-10-29"
+  },
+  "word_count": 1926,
+  "ja_chars": 1540,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.6-flash",
+    "write": "gemini-3.5-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Welcome to Commute News",
+      "heading_ja": "Commute Newsへようこそ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning. It is Thursday, October 29, 2026. This is Commute News. I am Alex.",
+          "ja": "おはようございます。2026年10月29日木曜日です。Commute Newsへようこそ。アレックスです。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning. I am Mika. Today we bring you big financial results from tech giants Microsoft and Alphabet.",
+          "ja": "おはようございます。ミカです。本日はIT巨頭のMicrosoftとAlphabetの最新決算をお伝えします。",
+          "t": 6.21
+        },
+        {
+          "speaker": "Alex",
+          "en": "We also look at memory chip shortages that could continue until 2030.",
+          "ja": "また、2030年まで続くと予想されるメモリチップの不足問題も取り上げます。",
+          "t": 13.95
+        },
+        {
+          "speaker": "Mika",
+          "en": "In health news, we examine how one large health software firm holds back new medical tools.",
+          "ja": "ヘルスケアニュースでは、大手医療ソフトウェア企業が新しい医療ツールの普及を阻んでいる問題を検証します。",
+          "t": 19.51
+        },
+        {
+          "speaker": "Alex",
+          "en": "In world news, we cover a tragic train crash in Spain and the Federal Reserve interest rate choice.",
+          "ja": "国際ニュースでは、スペインでの惨事となった列車追突事故と米連邦準備理事会の金利判断をお伝えします。",
+          "t": 26.37
+        },
+        {
+          "speaker": "Mika",
+          "en": "Let us begin with our first tech story.",
+          "ja": "それでは、最初のテックニュースから始めましょう。",
+          "t": 33.7
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Microsoft Discloses $33.2B Azure Revenue as Sales Hit $92.3B",
+      "heading_ja": "Microsoftが売上高923億ドルを記録、Azureの収入332億ドルを初開示",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Microsoft reported record quarterly revenue of 92.3 billion dollars for the July to September period. Net income also jumped 32 percent to 33.6 billion dollars.",
+          "ja": "Microsoftは7月から9月期の四半期売上高が過去最高の923億ドルになったと発表しました。純利益も32%増の336億ドルへ急増しました。",
+          "t": 37.49
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is a huge set of numbers. What is driving all this new income?",
+          "ja": "非常に大きな数字ですね。この増収を牽引している主な要因は何ですか？",
+          "t": 48.42
+        },
+        {
+          "speaker": "Alex",
+          "en": "Cloud computing is the main driver. For the first time ever, Microsoft disclosed Azure's revenue in dollars instead of just percentages. Azure brought in 33.2 billion dollars, up 48 percent from last year.",
+          "ja": "クラウドコンピューティングが主因です。Microsoftは今回初めて、Azureの売上高をパーセンテージだけでなく具体的なドル額で公開しました。Azureは前年比48%増の332億ドルを売り上げました。",
+          "t": 53.86
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why did Microsoft decide to share the exact dollar figure now?",
+          "ja": "なぜMicrosoftは今、具体的なドル額を公表することにしたのでしょうか？",
+          "t": 67.46
+        },
+        {
+          "speaker": "Alex",
+          "en": "Investors wanted to compare Azure directly against Amazon Web Services and Google Cloud. Google Cloud reported 30.7 billion dollars in the same period, so Azure is slightly ahead of Google.",
+          "ja": "投資家がAzureの業績をAmazon Web ServicesやGoogle Cloudと直接比較することを望んでいたからです。同期間のGoogle Cloudの売上高は307億ドルだったため、Azureがわずかに上回りました。",
+          "t": 72.61
+        },
+        {
+          "speaker": "Mika",
+          "en": "What about OpenAI? How much revenue comes from their partnership?",
+          "ja": "OpenAIとの提携からはどれくらいの収入が得られているのですか？",
+          "t": 85.26
+        },
+        {
+          "speaker": "Alex",
+          "en": "Microsoft recorded 10 billion dollars in revenue from commercial arrangements with OpenAI this quarter. That is nearly 11 percent of Microsoft's total revenue.",
+          "ja": "Microsoftは今四半期、OpenAIとの商用契約から100億ドルの収入を計上しました。これはMicrosoftの全売上高の11%近くを占めています。",
+          "t": 90.58
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does OpenAI still owe money to Microsoft for cloud computing services?",
+          "ja": "OpenAIはクラウドサービスに関して、まだMicrosoftに未払いの費用があるのですか？",
+          "t": 101.46
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Microsoft reported 7.2 billion dollars in outstanding bills from OpenAI at the end of September. That is up from 6 billion dollars in June.",
+          "ja": "はい。Microsoftは9月末時点でOpenAIに対する未収金が72億ドルあると報告しました。6月末の60億ドルから増加しています。",
+          "t": 107.08
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Microsoft's cloud and AI business is growing faster than expected?",
+          "ja": "要するに、MicrosoftのクラウドとAI事業は予想以上に速く成長しているということですか？",
+          "t": 117.07
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is right. Azure is now Microsoft's biggest and fastest growing product line.",
+          "ja": "その通りです。Azureは今やMicrosoftで最大かつ最も急成長している製品ラインです。",
+          "t": 123.28
+        }
+      ],
+      "lang": "en",
+      "t": 37.49
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。Microsoftが7月〜9月期の決算を発表し、四半期売上高は前年同期比19%増の923億ドルとなりました。また、クラウド事業のAzureの売上高を初めて金額で公開し、前年比48%増の332億ドルに達したことを明らかにしました。さらにOpenAI関連の取引から四半期で100億ドルの収入を得ており、AI分野の強い成長が示されています。",
+          "en": "",
+          "lang": "ja",
+          "t": 129.55
+        }
+      ],
+      "t": 129.55
+    },
+    {
+      "kind": "story",
+      "heading_en": "Alphabet Q3 Revenue Reaches $127.6B but Shares Fall on Search Slowdown",
+      "heading_ja": "Alphabetの売上高は1276億ドルに達するも、検索成長の減速で株価下落",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Google parent company Alphabet reported quarterly revenue of 127.6 billion dollars. That is a 25 percent increase from last year.",
+          "ja": "Googleの親会社Alphabetは、第3四半期の売上高が前年比25%増の1276億ドルになったと発表しました。",
+          "t": 160.05
+        },
+        {
+          "speaker": "Mika",
+          "en": "That sounds like strong growth. Why did Alphabet shares drop by 8 percent after the news?",
+          "ja": "好調な成長に見えますね。なぜニュース発表後にAlphabetの株価が8%下落したのですか？",
+          "t": 169.03
+        },
+        {
+          "speaker": "Alex",
+          "en": "Growth in Google's main search advertising business slowed down. Search ad revenue grew 12 percent, down from 17 percent in the previous quarter.",
+          "ja": "主力のGoogle検索広告事業の成長が減速したためです。検索広告の伸び率は前四半期の17%から12%へ低下しました。",
+          "t": 175.69
+        },
+        {
+          "speaker": "Mika",
+          "en": "Is Google losing money on its search product because of AI features?",
+          "ja": "AI機能の導入によってGoogleは検索事業の収益を失っているのですか？",
+          "t": 185.6
+        },
+        {
+          "speaker": "Alex",
+          "en": "No. CEO Sundar Pichai said AI investments are driving more overall search queries. In fact, query growth was the highest in five years.",
+          "ja": "いいえ。サンダー・ピチャイCEOは、AIへの投資が全体の検索クエリ増加を牽引しており、過去5年で最も高い伸びを示したと語りました。",
+          "t": 191.03
+        },
+        {
+          "speaker": "Mika",
+          "en": "What about Google Cloud? Did cloud sales grow during the quarter?",
+          "ja": "Google Cloudについてはどうですか？今四半期に売上は伸びましたか？",
+          "t": 200.37
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Google Cloud revenue doubled to 30.7 billion dollars, up 103 percent year over year. Heavy demand for AI chips and cloud tools powered that growth.",
+          "ja": "はい。Google Cloudの売上高は前年同期比103%増の307億ドルと倍増しました。AIチップやクラウドツールへの強い需要が成長を後押ししました。",
+          "t": 205.62
+        },
+        {
+          "speaker": "Mika",
+          "en": "How are developers using Google's new AI models right now?",
+          "ja": "開発者たちは現在、Googleの新しいAIモデルをどのように利用していますか？",
+          "t": 215.94
+        },
+        {
+          "speaker": "Alex",
+          "en": "Developers are using the new Gemini 4 Argon model very heavily. Google also announced a stronger model called Carbon for complex coding and cybersecurity.",
+          "ja": "開発者は新しいGemini 4 Argonモデルを熱心に活用しています。Googleはまた、複雑なコーディングやサイバーセキュリティ向けのより強力なCarbonモデルを発表しました。",
+          "t": 220.79
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, cloud growth is strong, but investors worry about slower search ad growth?",
+          "ja": "要するに、クラウドの成長は強いものの、投資家は検索広告の伸び悩みを懸念しているということですか？",
+          "t": 231.23
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. Heavy spending on AI chips creates pressure while ad growth cools down.",
+          "ja": "まさにその通りです。広告成長が落ち着く中で、AIチップへの巨額投資が収益性への圧力となっています。",
+          "t": 237.82
+        }
+      ],
+      "lang": "en",
+      "t": 160.05
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Alphabetの7月〜9月期決算は、売上高が前年同期比25%増の1276億ドルとなりました。Google Cloudの売上は前年比で倍増し307億ドルに達しましたが、主力の検索広告の伸び率が12%に減速したことで株価は8%下落しました。AI投資による検索利用の増加は見られるものの、コスト負担と広告成長の減速に投資家の懸念が集まっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 243.95
+        }
+      ],
+      "t": 243.95
+    },
+    {
+      "kind": "story",
+      "heading_en": "Solidigm Eyes $45B US Plant while Memory Shortages Expected Until 2030",
+      "heading_ja": "Solidigmが450億ドルの全米工場構想、メモリ不足は2030年まで継続へ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "SK Hynix subsidiary Solidigm is discussing plans to build a 45 billion dollar flash memory factory in the United States.",
+          "ja": "SK Hynixの子会社であるSolidigmが、米国に450億ドル規模のフラッシュメモリ工場を建設する計画を協議しています。",
+          "t": 272.34
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is a massive investment in American chip manufacturing. Is there any condition attached to this plan?",
+          "ja": "米国での半導体製造に対する非常に大きな投資ですね。この計画に何か条件は付けられていますか？",
+          "t": 280.8
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Solidigm wants approval from the US Commerce Department to export equipment to upgrade its existing factory in Dalian, China.",
+          "ja": "はい。Solidigmは中国の大連にある既存工場をアップグレードするため、製造装置を輸出する許可を米商務省に求めています。",
+          "t": 288.45
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why does Solidigm want to upgrade its Chinese factory right now?",
+          "ja": "なぜSolidigmは今、中国工場のアップグレードを望んでいるのですか？",
+          "t": 297.49
+        },
+        {
+          "speaker": "Alex",
+          "en": "Solidigm says profits from the Chinese factory would help pay for the new factory in the United States. However, US export rules strictly limit high-tech equipment sales to China.",
+          "ja": "中国工場からの利益が米国での新工場建設資金に充てられると説明しています。しかし、米国の輸出規制は中国へのハイテク機器販売を厳しく制限しています。",
+          "t": 302.68
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does this deal relate to the global shortage of memory chips?",
+          "ja": "この動きは世界的なメモリチップの不足問題と関係しているのですか？",
+          "t": 314.59
+        },
+        {
+          "speaker": "Alex",
+          "en": "Absolutely. SK Hynix recently warned that memory chip shortages will persist through 2030. AI data centers are buying massive amounts of memory components.",
+          "ja": "その通りです。SK Hynixは最近、メモリチップの不足が2030年まで続くと警告しました。AIデータセンターが大量のメモリ部品を買い占めているためです。",
+          "t": 319.6
+        },
+        {
+          "speaker": "Mika",
+          "en": "Are chip makers shifting production away from consumer devices like personal computers?",
+          "ja": "半導体メーカーはパソコンなどの消費者向け製品から生産を切り替えているのですか？",
+          "t": 330.1
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Manufacturers are producing data center memory instead of consumer memory. This shift has pushed memory prices higher for everyday products.",
+          "ja": "はい。メーカーは消費者向けではなくデータセンター向けメモリを優先して製造しています。このシフトにより一般向け製品のメモリ価格が上昇しています。",
+          "t": 336.64
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, chip makers need US permission to fund new plants while memory shortages continue?",
+          "ja": "要するに、メモリ不足が続く中で半導体メーカーは新工場の資金調達のために米政府の許可を必要としているのですね？",
+          "t": 346.56
+        },
+        {
+          "speaker": "Alex",
+          "en": "Precisely. Solidigm hopes to balance US expansion with its existing operations in China.",
+          "ja": "まさにその通りです。Solidigmは米国での拡大と中国での既存操業のバランスを取ることを目指しています。",
+          "t": 353.62
+        }
+      ],
+      "lang": "en",
+      "t": 272.34
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "SK Hynix傘下のSolidigmが、米国に450億ドル規模の半導体工場を建設する計画をめぐり米政府と協議しています。見返りとして中国の大連工場への設備輸出許可を求めていますが、厳しい貿易規制が壁となっています。SK Hynixはデータセンター向けメモリの需給ひっ迫により、半導体不足が2030年まで続くと警告しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 360.66
+        }
+      ],
+      "t": 360.66
+    },
+    {
+      "kind": "story",
+      "heading_en": "US DOJ Begins Antitrust Investigation Into Nvidia's $12.9B Hugging Face Deal",
+      "heading_ja": "米司法省、Nvidiaによる129億ドルのHugging Face買収に対し独禁法調査を開始",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "The United States Department of Justice has launched an inquiry into Nvidia's 12.9 billion dollar purchase of Hugging Face.",
+          "ja": "米司法省は、Nvidiaによる129億ドルでのHugging Face買収に対する調査を開始しました。",
+          "t": 387.23
+        },
+        {
+          "speaker": "Mika",
+          "en": "Hugging Face is a famous platform for sharing open source AI models, right?",
+          "ja": "Hugging FaceはオープンソースのAIモデルを共有する有名なプラットフォームですよね？",
+          "t": 395.68
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. It is used by millions of software developers to host and test AI models. Nvidia agreed to acquire it for 12.9 billion dollars.",
+          "ja": "はい。何百万人ものソフトウェア開発者がAIモデルの保管やテストに利用しています。Nvidiaはこれを129億ドルで買収することに合意しました。",
+          "t": 401.39
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why are government antitrust regulators looking into this transaction?",
+          "ja": "なぜ政府の反トラスト規制当局がこの取引を調査しているのですか？",
+          "t": 410.36
+        },
+        {
+          "speaker": "Alex",
+          "en": "Regulators worry that Nvidia already controls most of the hardware market for AI chips. Buying Hugging Face gives Nvidia control over popular software tools as well.",
+          "ja": "当局は、NvidiaがすでにAIチップのハードウェア市場の大半を支配していることを警戒しています。Hugging Faceの買収により、人気の高いソフトウェア基盤まで握ることになります。",
+          "t": 415.78
+        },
+        {
+          "speaker": "Mika",
+          "en": "Could Nvidia restrict access for rival chip makers if it owns Hugging Face?",
+          "ja": "Hugging Faceを所有することで、Nvidiaが競合するチップメーカーのアクセスを制限する恐れはありますか？",
+          "t": 426.64
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is the main concern. Industry experts worry Nvidia might optimize Hugging Face tools exclusively for its own GPUs, hurting competitors like AMD.",
+          "ja": "それが懸念の核心です。Nvidiaが自社製GPUに有利なようにプラットフォームを最適化し、AMDなどの競合企業を阻害するのではないかと懸念されています。",
+          "t": 432.35
+        },
+        {
+          "speaker": "Mika",
+          "en": "Has the Department of Justice filed a lawsuit to block the deal yet?",
+          "ja": "司法省は買収を差し止めるための訴訟をすでに起こしているのですか？",
+          "t": 442.29
+        },
+        {
+          "speaker": "Alex",
+          "en": "Not yet. Officials are currently interviewing rival tech companies and industry experts according to sources reported by Reuters.",
+          "ja": "まだ起こしていません。ロイターの報道によると、当局者は現在、競合他社や業界の専門家から聞き取り調査を行っている段階です。",
+          "t": 447.6
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, regulators are carefully checking whether Nvidia is becoming too powerful in AI?",
+          "ja": "要するに、規制当局はNvidiaがAI分野で強力になり過ぎていないかを厳しくチェックしているのですね？",
+          "t": 456.39
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is right. Governments want to prevent single tech giants from controlling both AI hardware and software platforms.",
+          "ja": "その通りです。政府は特定のIT巨頭がAIのハードウェアとソフトウェア基盤の両方を支配することを防ぎたいと考えています。",
+          "t": 463.19
+        }
+      ],
+      "lang": "en",
+      "t": 387.23
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米司法省（DOJ）は、Nvidiaによる129億ドルでのHugging Face買収に対して反トラスト法に基づく調査を開始しました。Hugging Faceは多くのエンジニアが利用するオープンソースAIの開発基盤です。当局は、AI用チップ市場を独占するNvidiaが主要なソフトウェア基盤も傘下に収めることで、公正な競争が阻害されないかを警戒しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 471.42
+        }
+      ],
+      "t": 471.42
+    },
+    {
+      "kind": "story",
+      "heading_en": "Amazon Warns Developers Against AI Tokenmaxxing to Fake Productivity",
+      "heading_ja": "Amazon、生産性を偽装するAIの「トークンマクシング」を自粛するよう開発者に要請",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Amazon has published new engineering guidelines telling developers and managers to stop artificially inflating AI usage metrics, a practice known internally as tokenmaxxing.",
+          "ja": "Amazonは新たな開発指針を公開し、社内で「トークンマクシング」と呼ばれるAI利用実績の不自然な水増しをやめるよう指示しました。",
+          "t": 500.59
+        },
+        {
+          "speaker": "Mika",
+          "en": "What exactly is tokenmaxxing, and why were software engineers doing it?",
+          "ja": "トークンマクシングとは具体的に何で、なぜエンジニアはそれを行っていたのですか？",
+          "t": 511.82
+        },
+        {
+          "speaker": "Alex",
+          "en": "Tokens are basic units of text processed by AI systems. Some employees used AI tools for simple tasks just to boost their activity scores on company dashboards.",
+          "ja": "トークンとはAIが処理するテキストの基本単位です。社内ダッシュボードでの評価数値を上げるためだけに、不要な作業でAIを使う社員がいました。",
+          "t": 517.26
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why did employees feel forced to use AI tools even when not needed?",
+          "ja": "必要もないのにAIツールを使わざるを得ないと従業員が感じたのはなぜですか？",
+          "t": 527.75
+        },
+        {
+          "speaker": "Alex",
+          "en": "Managers heavily encouraged AI adoption. Workers feared that low token numbers would make them appear less productive during official internal reviews.",
+          "ja": "管理職がAIの活用を強く後押ししたためです。トークン利用数が少ないと、人事評価で生産性が低いとみなされることを恐れました。",
+          "t": 532.97
+        },
+        {
+          "speaker": "Mika",
+          "en": "How is Amazon changing its official performance rules for staff now?",
+          "ja": "Amazonは従業員の公式な評価ルールを現在どのように見直していますか？",
+          "t": 542.95
+        },
+        {
+          "speaker": "Alex",
+          "en": "Amazon stated clearly that consuming more tokens is not the same as delivering more value. High token usage raises electricity bills and creates complex code.",
+          "ja": "Amazonは、より多くのトークンを使うことが優れた成果につながるわけではないと明記しました。過度な利用は計算コストを増やしコードを複雑にします。",
+          "t": 548.22
+        },
+        {
+          "speaker": "Mika",
+          "en": "What metric does Amazon want software teams to focus on instead?",
+          "ja": "Amazonはソフトウェア開発チームにどのような指標に注力することを求めていますか？",
+          "t": 558.6
+        },
+        {
+          "speaker": "Alex",
+          "en": "Amazon says workers should be evaluated on long-term results and solid software delivery. The company emphasized that frugality and simplicity remain top priorities.",
+          "ja": "長期的な成果と確実に機能するソフトウェアの納品で評価されるべきだとしています。節約とシンプルさが引き続き最優先項目であると強調しました。",
+          "t": 563.64
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Amazon wants real work results instead of inflated AI usage statistics?",
+          "ja": "要するに、Amazonは表面上のAI使用データではなく、実際の業務成果を求めているのですね？",
+          "t": 574.42
+        },
+        {
+          "speaker": "Alex",
+          "en": "Precisely. Amazon wants AI to help engineers, but raw token counts do not equal real productivity.",
+          "ja": "まさにその通りです。AmazonはAIの活用を支持していますが、単なるトークン消費数は本当の生産性を意味しないと考えています。",
+          "t": 580.65
+        }
+      ],
+      "lang": "en",
+      "t": 500.59
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Amazonが社内エンジニアに対し、AIの利用実績を誇張して見せる『トークンマクシング』をやめるようガイドラインを出しました。これまで社内ツールでのトークン消費量などが評価指標とされていましたが、同社はこれが不必要なAI利用やコスト増を招いていると指摘しました。今後は数値上の利用量ではなく、長期的な業務成果で評価する方針です。",
+          "en": "",
+          "lang": "ja",
+          "t": 587.63
+        }
+      ],
+      "t": 587.63
+    },
+    {
+      "kind": "health",
+      "heading_en": "STAT Investigation Shows Epic Systems Restricts Patient Data Access",
+      "heading_ja": "STAT誌の調査報道：Epic Systemsが患者データアクセスを制限し新技術を排除",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, our digital health story. An investigation by STAT News revealed that Epic Systems selectively restricts access to patient health data.",
+          "ja": "続いて、デジタルヘルスニュースです。STAT誌の調査により、Epic Systemsが患者の健康データへのアクセスを不当に制限していることが判明しました。",
+          "t": 614.15
+        },
+        {
+          "speaker": "Mika",
+          "en": "Epic Systems is the largest provider of electronic health record software in the United States, right?",
+          "ja": "Epic Systemsは全米で最大の電子カルテソフトウェア提供企業ですよね？",
+          "t": 623.51
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Epic collects over 6.5 billion dollars in annual revenue and holds medical records for eight out of ten Americans across major hospital systems.",
+          "ja": "はい。Epicは年間65億ドル以上の売上を誇り、全米の主要病院を通じてアメリカ人の10人中8人の診療記録を保持しています。",
+          "t": 630.71
+        },
+        {
+          "speaker": "Mika",
+          "en": "How is Epic using its dominant market power against competing software creators?",
+          "ja": "Epicはその強力な市場支配力を使い、競合する開発企業に対してどのような対応を取っているのですか？",
+          "t": 640.58
+        },
+        {
+          "speaker": "Alex",
+          "en": "STAT found that Epic denies crucial data connections and technical specifications to rival software developers, making it hard for outside tools to work.",
+          "ja": "STATによると、Epicは競合ソフトウェア開発者に対してデータ連携や技術仕様の提供を拒否し、外部ツールの動かない環境を作っているとのことです。",
+          "t": 646.53
+        },
+        {
+          "speaker": "Mika",
+          "en": "What impact does this restricted access have on medical doctors and hospital systems?",
+          "ja": "このデータアクセスの制限は、医師や病院のシステムにどのような影響を与えていますか？",
+          "t": 656.62
+        },
+        {
+          "speaker": "Alex",
+          "en": "Hospital executives and app developers say Epic's control stops hospitals from using helpful new AI tools. Epic pushes its own products while blocking rivals.",
+          "ja": "病院幹部や開発者は、Epicの独占により最新の有用なAIツールが採用できないと訴えています。Epicは競合を排除し自社製品を売り込んでいます。",
+          "t": 662.86
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does Epic claim that it follows existing US federal data sharing laws?",
+          "ja": "Epicは自社が米国のデータ共有に関する連邦法を遵守していると主張しているのですか？",
+          "t": 673.24
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Epic says it offers more data connections than federal law requires. However, twelve app companies reported high fees and blocked data access.",
+          "ja": "はい。Epicは法律の要求以上の接続を提供していると反論しています。しかし12社のアプリ企業が高額な手数料やアクセス拒否を報告しています。",
+          "t": 678.62
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, one giant firm controls patient data access and limits new health software?",
+          "ja": "要するに、一社の巨大企業が患者データへのアクセスを制御し、新たな医療ソフトの登場を制限しているのですね？",
+          "t": 688.38
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. Health researchers worry this monopoly slows down digital health innovation across the entire medical sector.",
+          "ja": "その通りです。医療政策の研究者は、この独占がヘルスケア分野全体のデジタルイノベーションを遅らせていると危惧しています。",
+          "t": 694.84
+        }
+      ],
+      "lang": "en",
+      "t": 614.15
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "STATの調査報道によると、電子カルテ最大手のEpic Systemsが患者データへのアクセスを不当に制限し、競合する医療IT企業やAI開発の参入を阻んでいることが明らかになりました。Epicは全米の主要病院を抑え年65億ドル以上を売り上げていますが、データ連携の拒否や高額な手数料により、新たなデジタルヘルス技術の導入が滞っていると批判されています。",
+          "en": "",
+          "lang": "ja",
+          "t": 703.4
+        }
+      ],
+      "t": 703.4
+    },
+    {
+      "kind": "world",
+      "heading_en": "Deadly High-Speed Train Collision in Spain Kills at Least 68 People",
+      "heading_ja": "スペインで高速列車同士の追突事故、少なくとも68人が死亡",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, a look at the world beyond tech. At least 68 people died in central Spain after two high-speed trains collided in Toledo province.",
+          "ja": "続いて、テクノロジー以外の世界ニュースをお伝えします。スペイン中部のトレド県で高速列車同士が追突し、少なくとも68人が死亡しました。",
+          "t": 731.23
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is a terrible disaster. How did the two high-speed trains collide with each other?",
+          "ja": "痛ましい大惨事ですね。どのようにして高速列車同士が衝突したのでしょうか？",
+          "t": 740.14
+        },
+        {
+          "speaker": "Alex",
+          "en": "A train carrying 147 passengers stopped on the tracks due to a computer signaling failure. A second train carrying 397 passengers struck it from behind.",
+          "ja": "乗客147人を乗せた列車が信号システムの障害で線路上に停止していました。そこに397人が乗った2本目の列車が後方から追突しました。",
+          "t": 746.37
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why did the second train enter the track where the first train was stopped?",
+          "ja": "なぜ2本目の列車は先行列車が停止している線路に進入してしまったのですか？",
+          "t": 756.22
+        },
+        {
+          "speaker": "Alex",
+          "en": "Spain's Transport Minister Oscar Puente said a control center made an inexplicable decision to order trains to move without speed limits after the system failure.",
+          "ja": "スペインのプエンテ運輸相によると、システム障害後、指令センターが速度制限を行わずに運転を許可するという不可解な指示を出したとのことです。",
+          "t": 761.78
+        },
+        {
+          "speaker": "Mika",
+          "en": "What is the Spanish government doing in response to this fatal railway accident?",
+          "ja": "この死亡事故に対してスペイン政府はどのような対応を取っていますか？",
+          "t": 772.19
+        },
+        {
+          "speaker": "Alex",
+          "en": "Prime Minister Pedro Sanchez declared three days of national mourning and promised a strict investigation into safety controls.",
+          "ja": "ペドロ・サンチェス首相は3日間の国家服喪を宣言し、安全管理体制に関する厳密な調査を約束しました。",
+          "t": 778.03
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, a combination of computer failure and human error caused a fatal crash?",
+          "ja": "要するに、システムの誤作動と人的ミスが重なって死者多数の事故につながったということですね？",
+          "t": 786.49
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. It is one of the worst high-speed rail disasters in Europe's modern history.",
+          "ja": "はい。ヨーロッパの近代史上でも最悪級の高速鉄道事故となりました。",
+          "t": 792.61
+        }
+      ],
+      "lang": "en",
+      "t": 731.23
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "スペイン中部のトレド県で、時速200キロを超える高速列車同士が追突し、少なくとも68人が死亡する大惨事が発生しました。信号システムの故障で停止していた列車に対し、運行管理センターが速度制限を行わずに運転再開を指示したという人身的なミスが原因と見られています。ペドロ・サンチェス首相は3日間の国家服喪を宣言しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 798.51
+        }
+      ],
+      "t": 798.51
+    },
+    {
+      "kind": "world",
+      "heading_en": "US Federal Reserve Holds Benchmark Interest Rates Steady at 3.75-4.0%",
+      "heading_ja": "米FRB、政策金利を3.75〜4.0%に据え置き決定",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "The United States Federal Reserve voted 10 to 2 to hold benchmark interest rates steady at 3.75 to 4.0 percent.",
+          "ja": "米連邦準備理事会（FRB）は賛成10、反対2の採決により、政策金利を3.75%から4.0%に据え置くことを決定しました。",
+          "t": 823.49
+        },
+        {
+          "speaker": "Mika",
+          "en": "Was this decision expected by financial markets and economic analysts?",
+          "ja": "この決定は金融市場や経済アナリストにとって想定内でしたか？",
+          "t": 831.06
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Most analysts expected rates to remain unchanged because annual inflation rose to 3.7 percent in September, driven by higher energy prices.",
+          "ja": "はい。エネルギー価格の上昇により9月のインフレ率が3.7%に達していたため、多くの専門家が据え置きを予想していました。",
+          "t": 836.35
+        },
+        {
+          "speaker": "Mika",
+          "en": "What did the Federal Reserve say about the current strength of the US economy?",
+          "ja": "FRBは現在の米国経済の強さについてどのように言及していますか？",
+          "t": 845.75
+        },
+        {
+          "speaker": "Alex",
+          "en": "Central bank officials said economic activity is expanding at a strong pace with solid consumer spending, even though inflation remains above their 2 percent target.",
+          "ja": "インフレ率は目標の2%を上回っているものの、個人消費は堅調で経済活動は強いペースで拡大していると指摘しました。",
+          "t": 851.48
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did political leaders in Washington support this decision by the central bank?",
+          "ja": "ワシントンの政治指導者たちは中央銀行のこの決定を支持していますか？",
+          "t": 862.05
+        },
+        {
+          "speaker": "Alex",
+          "en": "US President Donald Trump criticized the central bank again, repeating his view that interest rates in the United States should be 1 percent or lower.",
+          "ja": "トランプ米大統領はFRBを再び批判し、米国の金利は1%以下に引き下げられるべきだという主張を繰り返しました。",
+          "t": 867.79
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, the Federal Reserve is keeping rates stable until inflation decreases further?",
+          "ja": "要するに、FRBはインフレ率がさらに下がるまで金利を現行水準で維持する構えですね？",
+          "t": 877.52
+        },
+        {
+          "speaker": "Alex",
+          "en": "Correct. The central bank will meet again in December to decide its final policy move of the year.",
+          "ja": "その通りです。中央銀行は12月に今年最後の会合を開き、年内の金融政策を確定します。",
+          "t": 884.04
+        }
+      ],
+      "lang": "en",
+      "t": 823.49
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米連邦準備制度理事会（FRB）は、政策金利を3.75%から4.0%の範囲で据え置くことを決定しました。9月のインフレ率が3.7%に上昇するなか、インフレ抑制を見極める姿勢を維持しています。トランプ大統領からは金利を引き下げるよう批判が続いていますが、FRBは強い経済成長と雇用を背景に慎重な金融政策を続ける構えです。",
+          "en": "",
+          "lang": "ja",
+          "t": 891.33
+        }
+      ],
+      "t": 891.33
+    },
+    {
+      "kind": "world",
+      "heading_en": "Defeated Brazilian Candidate Flávio Bolsonaro Flees to Miami",
+      "heading_ja": "ブラジル大統領選で敗北したボルソナロ氏がマイアミへ出国",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Defeated Brazilian presidential candidate Flávio Bolsonaro has fled Brazil and landed in Miami, Florida, after losing last Sunday's election runoff.",
+          "ja": "先週日曜日の決選投票で敗北したブラジルの大統領候補フラビオ・ボルソナロ氏が国外へ脱出し、フロリダ州マイアミに到着しました。",
+          "t": 918.15
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did he leave the country, and why did he go to the United States?",
+          "ja": "彼はどのようにして出国し、なぜ米国へ向かったのですか？",
+          "t": 928.43
+        },
+        {
+          "speaker": "Alex",
+          "en": "Bolsonaro crossed into Argentina by land, flew through Ecuador on a private jet, and arrived in Miami. He claimed he faced political persecution in Brazil.",
+          "ja": "ボルソナロ氏は陸路でアルゼンチンに入国後、プライベートジェットでエクアドルを経由してマイアミへ入りました。国内で政治的迫害を受けていると主張しています。",
+          "t": 934.01
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did US President Donald Trump comment on Bolsonaro's arrival in Florida?",
+          "ja": "トランプ米大統領はボルソナロ氏のフロリダ到着についてコメントを出しましたか？",
+          "t": 944.71
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. President Trump confirmed that US officials granted entry passes and humanitarian visas to Bolsonaro and his family.",
+          "ja": "はい。トランプ大統領は、米当局がボルソナロ氏とその家族に渡航許可と人道ビザを供与したことを認めました。",
+          "t": 950.47
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did Brazil's newly elected president react to Bolsonaro leaving the country?",
+          "ja": "ブラジルの新大統領はボルソナロ氏の出国に対してどのように反応しましたか？",
+          "t": 959.14
+        },
+        {
+          "speaker": "Alex",
+          "en": "President Luiz Inácio Lula da Silva said that people with nothing to hide have nothing to fear. Brazilian authorities had ordered police border checks.",
+          "ja": "ルーラ大統領は「後ろ暗いところがない者なら恐れる必要はない」とコメントしました。ブラジル当局は事前に国境検問を指示していました。",
+          "t": 965.38
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Bolsonaro fled Brazil claiming fraud while international observers validated the vote?",
+          "ja": "要するに、国際観察団が選挙の正当性を確認する中、ボルソナロ氏は不正を主張して出国したのですね？",
+          "t": 975.83
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. Brazilian electoral courts and his own political party recognized Lula's victory.",
+          "ja": "まさにその通りです。ブラジルの選挙高等裁判所も彼の与党自体も、ルーラ氏の勝利を正式に認めています。",
+          "t": 983.26
+        }
+      ],
+      "lang": "en",
+      "t": 918.15
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ブラジルの大統領選で敗北した右派のフラビオ・ボルソナロ上院議員が、アルゼンチンとエクアドルを経由して米マイアミへ出国しました。ボルソナロ氏は自身が政治的迫害の被害者であり選挙に不正があったと主張していますが、ブラジル選挙管理当局や自身の政党も相手方の勝利を認めています。トランプ米大統領は彼ら家族に渡航ビザを供与したことを認めました。",
+          "en": "",
+          "lang": "ja",
+          "t": 990.09
+        }
+      ],
+      "t": 990.09
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch: Sundar Pichai on AI Search Momentum",
+      "heading_ja": "CEOウォッチ：サンダー・ピチャイ氏がAI検索のモメンタムを強調",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Today in CEO Watch, Alphabet chief executive Sundar Pichai discussed AI growth during the company's third-quarter earnings call.",
+          "ja": "本日のCEOウォッチでは、Alphabetのサンダー・ピチャイ最高経営責任者が第3四半期の決算説明会でAIの成長について語りました。",
+          "t": 1018.36
+        },
+        {
+          "speaker": "Mika",
+          "en": "What did he say about search activity on Google?",
+          "ja": "Googleでの検索アクティビティについて、彼は何と述べたのですか？",
+          "t": 1027.44
+        },
+        {
+          "speaker": "Alex",
+          "en": "Pichai stated, \"Our AI investments are driving overall Search query growth, including commercial queries. In fact, our year-over-year query growth rate is the highest it’s been in the last five years.\"",
+          "ja": "ピチャイ氏は「当社のAI投資は、商業目的の検索を含め全体の検索クエリの伸びを牽引しています。実際、前年比のクエリ成長率は過去5年で最高水準です」と述べました。",
+          "t": 1031.78
+        },
+        {
+          "speaker": "Mika",
+          "en": "That shows AI features are encouraging people to search more often.",
+          "ja": "AI機能の導入によってユーザーがより頻繁に検索するようになっていることが分かりますね。",
+          "t": 1045.2
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Pichai noted that user queries are becoming longer and more complex.",
+          "ja": "はい。ピチャイ氏はユーザーの検索クエリがより長く、複雑になっているとも指摘しています。",
+          "t": 1050.67
+        }
+      ],
+      "lang": "en",
+      "t": 1018.36
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: Hold Steady",
+      "heading_ja": "本日のフレーズ：Hold Steady（据え置く）",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's phrase of the day is \"hold steady\". Alex mentioned that the Federal Reserve decided to hold interest rates steady.",
+          "ja": "本日のフレーズは「hold steady」です。アレックスがニュースで、米連邦準備理事会が金利を据え置いた（hold steady）と話していましたね。",
+          "t": 1056.94
+        },
+        {
+          "speaker": "Alex",
+          "en": "That means to keep something at the same level without making changes.",
+          "ja": "これは、何かの数値や状態を変更せずにそのまま維持することを意味します。",
+          "t": 1064.07
+        },
+        {
+          "speaker": "Mika",
+          "en": "Exactly. For example, \"The company decided to hold prices steady despite rising costs.\" It is a very common business expression.",
+          "ja": "その通りです。例えば「コストが上がったにもかかわらず、企業は価格を据え置く（hold steady）ことにした」のように使えます。ビジネスでよく出る表現です。",
+          "t": 1068.68
+        },
+        {
+          "speaker": "Alex",
+          "en": "A simple and very useful phrase for economic news.",
+          "ja": "経済ニュースを聴く際にとてもシンプルで役に立つ表現ですね。",
+          "t": 1076.1
+        }
+      ],
+      "lang": "en",
+      "t": 1056.94
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Closing Remarks",
+      "heading_ja": "エンディング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That is all for today's episode of Commute News. Tech giants continue heavy AI investments despite market friction and strict regulatory scrutiny.",
+          "ja": "本日のCommute Newsは以上です。IT大手は市場の摩擦や厳しい規制当局の監視に直面しながらも、AIへの積極投資を続けています。",
+          "t": 1079.74
+        },
+        {
+          "speaker": "Mika",
+          "en": "Thank you for listening. Keep practicing your English listening every morning on your train ride.",
+          "ja": "ご清聴ありがとうございました。毎朝の通勤電車の中で、引き続き英語のリスニング練習を続けましょう。",
+          "t": 1088.03
+        },
+        {
+          "speaker": "Alex",
+          "en": "See you on tomorrow's commute.",
+          "ja": "明日の通勤時間にお会いしましょう。",
+          "t": 1093.95
+        }
+      ],
+      "lang": "en",
+      "t": 1079.74
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。いってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 1096.62
+        }
+      ],
+      "t": 1096.62
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Microsoft Reports $92.3B Q1 Revenue and Discloses Azure Dollar Revenue for First Time",
+      "title_ja": "Microsoftが第1四半期に923億ドルの売上を記録、Azureのドル売上高を初公開",
+      "summary_ja": "Microsoftは7〜9月期の売上高が前年比19%増の923億ドルに達し、Azureの四半期売上高が332億ドルであったことを初めて公表しました。OpenAIとの提携から得られた売上も100億ドルにのぼり、クラウドとAI事業の強い牽引力が実証されています。",
+      "why_ja": "これまで非開示だったAzureの売上額が公表されたことで、AWSやGoogle Cloudとの競合関係が可視化され、企業向けAIクラウド投資の規模感が明確になりました。",
+      "section": "tech",
+      "topic_key": "microsoft-q1-2027-earnings-azure-openai",
+      "companies": [
+        "Microsoft",
+        "OpenAI",
+        "Google",
+        "Amazon"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+          "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+          "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Microsoft hits 10 quarters of record-breaking revenue in a row",
+          "url": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "Microsoft reveals strong cloud growth amid financial reporting overhaul",
+          "url": "https://www.theverge.com/tech/1020785/microsoft-earnings-revenue-q1-2027"
+        },
+        {
+          "publisher": "WSJ",
+          "title": "Microsoft Quarterly Profit Soars as Cloud Growth Accelerates",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObG1JUFZyWEVVeTdxNHJ3djFId2dCZDY3Vkc3Qnc4Vzh1NVFKTXN2cVFEcWdrbEtSdlE5Y1VfQUV6aDE3M1BscVgzVFJXVWZ5R01XQnpjb0FGb2dmTVFEWFhlWGFBUm52dlZzTXhhZ081RzF2dWNWT3U0RU1tejhYZXdSQjA?oc=5"
+        },
+        {
+          "publisher": "Yahoo Finance",
+          "title": "Microsoft earnings live: Microsoft beats Q1 expectations on top and bottom line on AI growth",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPaHp2SlA2VGtZamtqaWlqaXlCd1prZ1htWV82SlNmNXZOSnRZbDYxQkpXQU8zU2dtMFB3RHBmc3dYYmVoRExoQUV4RFBGTjhuVUVIcVY1MVVPQ0tTb0puTnZsZWFjS1BfZVgyVXlwbE41ck12aUZUcVRWY0hjb0lUalB5T1VKUXQzZ0hYN2JIYVVtNGhfX3J5OGx4ZUFNaGRCalRveWNDM2lYenRWNkZBT0dUal9XWWJVM0toVE5xSDR4Q21rdVk1TUpFQ1JqLWM4NFl2RVNBZVExc2dHbEF5bnNFOVpFSlE?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Alphabet Q3 Revenue Reaches $127.6B but Shares Drop Over Slower Core Search Growth",
+      "title_ja": "Alphabetの第3四半期売上高は1276億ドルに達するも、検索広告の減速で株価下落",
+      "summary_ja": "Alphabetの第3四半期決算は売上高が25%増の1276億ドルとなり、Google Cloudも103%増の307億ドルと急成長しました。しかし、主力の検索広告の伸びが前四半期の17%から12%へ減速したため、株価は8%下落しました。",
+      "why_ja": "AIインフラへの巨額投資が継続する中で、最大の収益源である検索広告の成長が鈍化することで、大手IT企業の収益構造とAI投資効率への市場の懸念が高まっています。",
+      "section": "tech",
+      "topic_key": "alphabet-q3-2026-earnings",
+      "companies": [
+        "Alphabet",
+        "Google"
+      ],
+      "sources": [
+        {
+          "publisher": "Google Blog",
+          "title": "Q3 2026 earnings call: Remarks from our CEO",
+          "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q3-2026/"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Google expands AI Search ads globally as core ad growth slows",
+          "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "Google says its investments in AI are driving more searches",
+          "url": "https://www.theverge.com/tech/1020811/alphabet-google-earnings-q3-2026"
+        },
+        {
+          "publisher": "WSJ",
+          "title": "Google Shares Fall 10% as Growth in Search Revenue Slows",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONmNkSG5GRS1SMkpKWG5nQjc2YV9BOEU0X1dEZHB3V1VvRGtXdDgzTVdMdnNEcGVzclJqWU9NVzdjYWZybm95dGZhR2NjdEotaGFvVERZM21LNFBpNUhIV1B3eFNMaFNJbmgyWnhFaVdZTmNTXzFzU3ZIU2R0emgxdDNCSVBMN2d2?oc=5"
+        },
+        {
+          "publisher": "Fortune",
+          "title": "Alphabet’s Google Cloud revenue doubles to $31 billion as cash flow stays deep red",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb0Q0YVlPZW5LQlJKcXFTOEFremJocUtxWVVTM0RzWlBETjlCdk9IRTZwdkVFeUY5eHE3OUJTNWVEc2k2Mkt0UGRhbVd3cmRtdUtsX0ZEQnFDOFBzWXR0ZTVlei0xbEhZcGJUb0RRNFRGYjJVcG1oaGNlV1BOU2stMGdzUkFTQ0FVN2MydDZoVEYzZ1ZZQk1pZGtuZzFTaUJKMXM0bXRnUzA?oc=5"
+        },
+        {
+          "publisher": "CNBC",
+          "title": "Alphabet misses Wall Street expectation on earnings, stock continues to slide in extended trading",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNURmRi01T1pRa2lMMWNSUFVGUUFfaU9jRGJGSkVVc0FDTjZWSWU4aUVDNjBhSkhVYjFqSHRjZkdiT05UQk1VcVpoREdRT3pXWFV4enk2d3ZQUGRLdWpvZUNWNzJZQWhTXzNlaWJWRUlEQWVub3hOc1FyWjBGclpoZ2dRNndLazBRSThsOERYSkJzOFJXVEw1RTRSUkQxRzBfWC1jMXdwNmFzT0ZmMlFuN1VCNG11eGZlcjhVWThXZEtyWDlxLUVCNnZiWVVjNXBhdjYyNXFn?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Alphabet shares fall after revenue miss, cash burn worsens",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNajBhM1htcElGckpqVEh4RzlEdTM3emlCNXFUUHhWd2JBSTROUEYzOUNrSkxSWm1wVHZNbEl0TDVCbEZ5WnBSMVRkY3ZQZTJOQTgxYXJXa1daRDZMRmUwc1c0bWExV29zcGhJM1Q3eWc0M2RCblVoTUxzX19qUG0wVUNlT1N3QU5uNE02aDhjNW13LVlaY0dib203U3J2Um9PUWsySlEzTFlLbkFRc25jbHA5TkFpbzlBX3pJUmhGX0E?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "SK Hynix Subsidiary Solidigm Eyes $45B US Fab as Memory Shortages Are Projected to Last Until 2030",
+      "title_ja": "Solidigmが450億ドル規模の米工場構想、半導体メモリ不足は2030年まで継続の見通し",
+      "summary_ja": "SK Hynix傘下のSolidigmは、米国への450億ドルの半導体工場建設を条件に中国・大連工場への設備輸出許可を米商務省に求めています。SK Hynixはデータセンター需要の集中により、世界的なメモリ不足が2030年まで続くと警告しています。",
+      "why_ja": "AIデータセンター需要によるメモリひっ迫が長期化しており、米中間の地政学的な規制とサプライチェーン構築の調整が半導体産業全体の課題となっています。",
+      "section": "tech",
+      "topic_key": "sk-hynix-solidigm-us-fab-memory-shortage-2030",
+      "companies": [
+        "SK Hynix",
+        "Solidigm",
+        "Samsung"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "SK hynix-owned Solidigm is plotting a new $45 billion flash memory factory for the US, report claims",
+          "url": "https://www.tomshardware.com/tech-industry/manufacturing/sk-hynix-owned-solidigm-is-plotting-a-new-usd45-billion-flash-memory-factory-for-the-us-report-claims-wants-go-ahead-to-export-equipment-for-china-upgrades-in-return"
+        },
+        {
+          "publisher": "The Register",
+          "title": "SK Hynix says memory shortages to persist until 2030",
+          "url": "https://www.theregister.com/systems/2026/10/28/sk-hynix-says-memory-shortages-to-persist-until-2030/5305887"
+        },
+        {
+          "publisher": "Investor's Business Daily",
+          "title": "SK Hynix Stock Jumps On Q3 Earnings Beat",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWEJiVDVuWVJnMVVCS0luMkxkNnBocjhpSWVvRHNqSTRNc19HN1VwcEtfRzZNazBKTWJTMnUtSGRTcXU4akFvTHpFTlVyV3d5SVpQVU1jTXdDdUgxcXZSMFBEei1XVjhscHg2Z3hmWUhJREJBalYwR0FrdEpzd3RWSzRzLS1BR0l5bEVsWTJB?oc=5"
+        },
+        {
+          "publisher": "Barron's",
+          "title": "Micron Stock Rises as Rival SK Hynix Fuels AI Frenzy With Two Bombshells",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTkNmdXk2V0dhR3E3djFiYl9CWlh3dkhQelUwdVRBdExwbC1vbGxoZmN1WnJLc0lRdUVSUDR1TmxHN0ljSV9ub2hjaTgxSU1mYnhsVDZWdzd0dVZHUTgwOVd4ZVd5NE9fdDVRTU5SV0c1MmZLdHdKR25UWHdlS0VqX29Ccmk?oc=5"
+        },
+        {
+          "publisher": "24/7 Wall St.",
+          "title": "Chip Equipment Stocks Rally as SK Hynix Signals Memory Shortage Into 2030: Lam Research Jumps 5%, Applied Materials Climbs 4%, KLA Gains 3%",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPR0JCLWVDVDRUaGgtMkhKZEw0a3JTZEZ4QkhsazNkUVU2c3FOME90YzVwNnBrUHp3VEVpUnFyTnVQOFRtc3RmZDYxcW5lWUdXdXc4a3dRaEtPQ0JZd01GSmNzN0pYSmYyMkQ2NjNKaG9UUTZHRlB0ZUhjQUpOTi02Umpsa2dwTVpYeEJZRF9VdEZoa3FyS0ZfbE0tTkt2TWozQWIyT1lOQlJpQjYxYVNvUFhiTnZxb0piREw0cHYzNUxlb1ZiWHFlR3BpbDE0Vk1iZ3FWc1IwM0o0eS1Pdkx5Ni1JUlNNb1JmcndPNFUtOGJJNWhURG80Z04xU1VCdkZuRGJUazU0b28?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "US Department of Justice Launches Antitrust Inquiry Into Nvidia's $12.9B Hugging Face Acquisition",
+      "title_ja": "米司法省、Nvidiaによる129億ドルのHugging Face買収に対し反トラスト法調査を開始",
+      "summary_ja": "米司法省（DOJ）は、NvidiaがオープンソースAIモデル共有プラットフォームのHugging Faceを129億ドルで買収する計画に対し調査を開始しました。規制当局は、ハードウェアで市場を支配するNvidiaがソフトウェア基盤も傘下に収めることを警戒しています。",
+      "why_ja": "AIチップ市場で圧勝するNvidiaの垂直統合に対する規制監視が強化されており、オープンソース開発基盤の独立性やAI産業における競争環境の維持が焦点となっています。",
+      "section": "tech",
+      "topic_key": "us-doj-nvidia-hugging-face-investigation",
+      "companies": [
+        "Nvidia",
+        "Hugging Face"
+      ],
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "title": "EXCLUSIVE: US DOJ is inquiring about Nvidia's purchase of Hugging Face, sources say",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQi1pQlpXMFg0djlmZFhkcGFlc3hJWmxKNXIzeFlTOWRxSXd5YWtCX1FRdUdlWWM1NEZxQVpOWktKbVkyWWR1aFRhbFd3SnRRcW5SZTJ0YXRvQTZ6MjlmVmFMVThhSldFTUpseWRtblVrel8tM0VISmVOVmdVend5UTFOTHhKazBXalpIOHVUdkVmcm5YdTI4UWk3MUJObk9GMzRYOEpkeEFXVnhwZXc?oc=5"
+        },
+        {
+          "publisher": "CNBC",
+          "title": "Nvidia's $12.9 billion Hugging Face deal draws DOJ scrutiny",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMUMwY0xlTmlOWWZEMEZ1MjQ0YnY3eG1WV1k5T1pqOWkwTXFZTmk0c21wTVFibmpXaFdWRElJNVVOX1lyeGxITWpHQ2hBbVpvS1NQRmUxZlZaRVNiZWNfb25TWXAyWXl5Zm1zV3VuemEwNGppdlE5UURRVTA1ZDZmcWY3cFAxUWtMMWtlejRSZTB3QW9wWXRpNNIBngFBVV95cUxQUUg3OVpUN1J0S0pUY05lVXRETERQeFJua0pFSjlHd0Y0V3JkVWNOTTVlc2pIZHRIcUxFbDZYOVhIamNhaGtjbkpTUXo0MXlFVjl5Z0tzRFQyNVdDZjhPZEpySW5aaWh2OXJza1lIQldNM0poSlF6SzBnU2MwUWlVaG0wZ0dsV1F1NVpXRC05N2gxZG5RRGF5MkVwem1mQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Amazon Issues Developer Guidelines Warning Engineers Against AI 'Tokenmaxxing'",
+      "title_ja": "Amazon、生産性を装うAIの不必要な利用「トークンマクシング」を警戒する開発指針を発表",
+      "summary_ja": "Amazonはエンジニアに対し、評価数値を高めるために不必要にAIを使う「トークンマクシング」を自粛するよう指針を出しました。単なるトークン消費量は生産性の指標として不適切であり、電気代の上昇や不要なコードの複雑化を招くと指摘しています。",
+      "why_ja": "企業におけるAI導入が「利用量競い」から「実質的なコスト対効果と成果」へとシフトしており、組織の生産性評価のあり方に変化が起きています。",
+      "section": "tech",
+      "topic_key": "amazon-developer-ai-tokenmaxxing-guidelines",
+      "companies": [
+        "Amazon"
+      ],
+      "sources": [
+        {
+          "publisher": "The Register",
+          "title": "Amazon tells tokenmaxxing devs to slow their AI roll",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/28/amazon-tells-tokenmaxxing-devs-to-slow-their-ai-roll/5306090"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Amazon tells engineers to stop ‘tokenmaxxing’ to look productive",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-tells-engineers-to-stop-tokenmaxxing-to-look-productive-says-ai-will-be-central-to-software-development-but-usage-is-not-the-goal-new-guidelines-claim"
+        },
+        {
+          "publisher": "Fortune",
+          "title": "Amazon warns against tokenmaxxing and tells engineers to use their judgment when using AI",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxRFhnREdxeTFrWmpfeWd6RG9LRGNUdnpCZGJ4QXdCMGtKdTg1WmhVV0hKWlUtS29lSUM2VmFtQWttNloxR0JLZzJyOGZxemEtanYtZUFuSmlCV0hUZEdOV2xJT0VSVTdvQUhZUg?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "STAT Investigation Reveals Epic Systems Withholds Patient Data Access, Stifling Health-Tech AI Competition",
+      "title_ja": "STAT誌の調査：電子カルテ大手Epicが患者データを独占し新技術イノベーションを抑制",
+      "summary_ja": "電子カルテ市場で全米8割のデータを持つEpic Systemsが、競合他社への技術仕様公開やデータ連携を制限していることがSTATの調査で判明しました。病院や開発者は、この市場支配力によって有用な医療AIソフトの導入が阻害されていると批判しています。",
+      "why_ja": "医療データの相互運用性と独占規制は、日本の自治体や政策立案者にとってもデジタルヘルス導入・データ活用基盤の整備における重要な先進事例となります。",
+      "section": "health",
+      "topic_key": "epic-systems-health-data-monopoly-investigation",
+      "companies": [
+        "Epic Systems"
+      ],
+      "sources": [
+        {
+          "publisher": "STAT News",
+          "title": "STAT+: Why every health care AI company must face Epic",
+          "url": "https://www.statnews.com/2026/10/28/health-care-ai-innovation-challenge-epic-ai-prognosis/?utm_campaign=rss"
+        },
+        {
+          "publisher": "STAT News",
+          "title": "STAT+: As Epic’s dominance grows, its iron grip is choking innovation in health technology",
+          "url": "https://www.statnews.com/2026/10/28/epic-systems-ehr-dominance-health-tech-antitrust-scrutiny/?utm_campaign=rss"
+        },
+        {
+          "publisher": "STAT News",
+          "title": "Have you been impacted by Epic’s actions?",
+          "url": "https://www.statnews.com/2026/10/28/epic-systems-electronic-health-records-reader-callout/?utm_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "Deadly High-Speed Train Collision in Spain Kills at Least 68 People in Toledo Province",
+      "title_ja": "スペインのトレド県で高速列車同士が追突し、少なくとも68人が死亡",
+      "summary_ja": "スペイン中部トレド県で、システム障害で停止していた高速列車に別の列車が追突し、少なくとも68人が死亡しました。指令センターによる制限のない移動指示という人的エラーが原因とみられ、政府は3日間の服喪を宣言しました。",
+      "why_ja": "欧州有数の高速鉄道網を持つスペインで起きた大規模事故であり、安全管理システムと手動運用のバックアップ体制に重大な検証課題を突きつけています。",
+      "section": "world",
+      "topic_key": "spain-toledo-high-speed-train-crash",
+      "companies": [
+        "Iryo",
+        "Renfe"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "High-speed train crash kills at least 68 people in Spain",
+          "url": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Death toll rises to 68 with dozens injured after high-speed train collision in Spain – as it happened",
+          "url": "https://www.theguardian.com/world/live/2026/oct/28/spain-train-crash-toledo-europe-latest-news-updates"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Spain demands answers after deadliest train disaster in over a decade",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/spain-demands-answers-after-deadliest-train-disaster-in-over-a-decade?traffic_source=rss"
+        },
+        {
+          "publisher": "CNN",
+          "title": "Spain train crash kills at least 68 as witnesses describe devastating scenes",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNWtOSHNOSFBibkl5WkRpN0IyaGZWbnhhRmtwenJfa2M3cXVucE9qQnhreUhDZmFvMTYwcGR5T3p0YjhZTjh3NV9mWHBqUUpjYmVaWHFGS2NEay1QVnZocWRiZ3A4Q1pCVXJyWlY0RTFEdnV5SVljTkZUNlhtQ1IyN2NPdXpCUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "US Federal Reserve Holds Interest Rates Steady at 3.75–4.0% Amid Persistent Inflation",
+      "title_ja": "米FRB、インフレの高止まりを受けて政策金利を3.75〜4.0%に据え置き",
+      "summary_ja": "米FRBはFOMCで政策金利を3.75〜4.0%の範囲に維持することを10対2の採決で決定しました。9月のインフレ率が3.7%へ上昇したことを受け、経済成長と強固な雇用を確認しつつ、インフレ抑制の動向を見極める方針です。",
+      "why_ja": "米国の金利据え置き判断は、日米金利差や為替レート（円安・ドル高傾向）、さらにはグローバルな資本流動に直接的な影響を与えます。",
+      "section": "world",
+      "topic_key": "us-fed-interest-rate-hold-october-2026",
+      "companies": [
+        "Federal Reserve"
+      ],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Fed leaves interest rates unchanged despite inflation in the US",
+          "url": "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us?traffic_source=rss"
+        },
+        {
+          "publisher": "The New York Times",
+          "title": "Fed Meeting Live Updates: Interest Rates Hold Steady Despite 'Elevated' Inflation",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTE1BdGtmWVdsaDdsWktpYlk1d2lzWGN2OGdvc3VSNFZxcC1EZ0lWVHhuT1ZpOWphTHoxMzlVY2U2cWxKZDNIZVBhTkR4OXNzbW5fVG41SFZ1b0U1cHFtempLQzVQQmRuQmhpWVJXdy1mV2NxSERSZjZqVnJRZkRJR1diMFY1dkxT?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Defeated Brazilian Candidate Flávio Bolsonaro Flees to Miami Claiming Electoral Fraud",
+      "title_ja": "ブラジル大統領選で敗北したボルソナロ候補が不正を主張してマイアミへ出国",
+      "summary_ja": "ブラジル大統領選の決選投票で敗れた右派のフラビオ・ボルソナロ上院議員が、アルゼンチン・エクアドルを経由して米マイアミへ出国しました。ボルソナロ氏は政治的迫害を訴えていますが、トランプ米大統領は渡航ビザの認可を認めました。",
+      "why_ja": "中南米の大国ブラジルにおける政情不安と大統領選後の対立は、米国の外交姿勢や南米地域全体の安全保障と経済の安定に影響を及ぼします。",
+      "section": "world",
+      "topic_key": "flavio-bolsonaro-flee-miami",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+          "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Flávio Bolsonaro calls himself the ‘leader of Brazil’ after fleeing to Miami",
+          "url": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "What’s next for Brazil’s Flavio Bolsonaro after election defeat?",
+          "url": "https://www.aljazeera.com/news/2026/10/28/whats-next-for-brazils-flavio-bolsonaro-after-election-defeat?traffic_source=rss"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Flávio Bolsonaro arrives in Florida after fleeing Brazil",
+          "url": "https://www.npr.org/2026/10/27/nx-s1-6019678/u-s-to-issue-visas-to-flavio-bolsonaro-as-his-whereabouts-remain-unclear"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "disclose",
+      "meaning_ja": "開示する、公表する",
+      "note_ja": "決算発表などでこれまで未公開だった情報を公表する際によく使われます。",
+      "example_en": "For the first time, Microsoft disclosed exact dollar revenue for Azure."
+    },
+    {
+      "term": "commercial arrangement",
+      "meaning_ja": "商用契約、商業的取り決め",
+      "note_ja": "企業間で収益配分やサービス提供を定める契約を指します。",
+      "example_en": "Microsoft recorded 10 billion dollars in revenue from commercial arrangements with OpenAI this quarter."
+    },
+    {
+      "term": "decelerate",
+      "meaning_ja": "（成長や速度が）減速する",
+      "note_ja": "売上高や利用者の増加ペースが落ちる場面で用いられます。",
+      "example_en": "Growth in Google's main search advertising business slowed down."
+    },
+    {
+      "term": "subsidiary",
+      "meaning_ja": "子会社",
+      "note_ja": "親会社が株式の大半を保有して管理する会社を指します。",
+      "example_en": "SK Hynix subsidiary Solidigm is discussing plans to build a 45 billion dollar flash memory factory in the United States."
+    },
+    {
+      "term": "persist",
+      "meaning_ja": "（問題や状態が）持続する、継続する",
+      "note_ja": "半導体不足やインフレなど、好ましくない状態が長引く際によく使われます。",
+      "example_en": "SK Hynix recently warned that memory chip shortages will persist through 2030."
+    },
+    {
+      "term": "inquiry",
+      "meaning_ja": "調査、照会",
+      "note_ja": "政府機関や当局が法令違反がないか調べる初期段階によく使われます。",
+      "example_en": "The United States Department of Justice has launched an inquiry into Nvidia's 12.9 billion dollar purchase of Hugging Face."
+    },
+    {
+      "term": "antitrust",
+      "meaning_ja": "独占禁止の、反トラストの",
+      "note_ja": "市場での公正な競争を守るための法律や規制に関連する用語です。",
+      "example_en": "Why are government antitrust regulators looking into this transaction?"
+    },
+    {
+      "term": "frugality",
+      "meaning_ja": "節約、倹約",
+      "note_ja": "無駄な支出を削り簡素に保つ企業文化や行動を意味します。",
+      "example_en": "The company emphasized that frugality and simplicity remain top priorities."
+    },
+    {
+      "term": "restrict",
+      "meaning_ja": "制限する、制限を加える",
+      "note_ja": "データへのアクセスや権利の範囲を狭める行為に使われます。",
+      "example_en": "An investigation by STAT News revealed that Epic Systems selectively restricts access to patient health data."
+    },
+    {
+      "term": "monopoly",
+      "meaning_ja": "独占、独占企業",
+      "note_ja": "特定企業が市場の供給を単独で支配している状態を指します。",
+      "example_en": "Health researchers worry this monopoly slows down digital health innovation across the entire medical sector."
+    },
+    {
+      "term": "hold steady",
+      "meaning_ja": "据え置く、一定に維持する",
+      "note_ja": "金利や価格などを変更せずそのままに保つことを示します。",
+      "example_en": "The United States Federal Reserve voted 10 to 2 to hold benchmark interest rates steady at 3.75 to 4.0 percent."
+    },
+    {
+      "term": "persecution",
+      "meaning_ja": "迫害、不当な弾圧",
+      "note_ja": "政治的・宗教的な理由で攻撃や不当な扱いを受けることを表します。",
+      "example_en": "He claimed he faced political persecution in Brazil."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "hold steady",
+    "meaning_ja": "（水準や数値を）据え置く、変動させずに維持する",
+    "example_en": "The company decided to hold prices steady despite rising costs.",
+    "example_ja": "コストが上昇しているにもかかわらず、会社は価格を据え置くことに決めました。"
+  }
+}
