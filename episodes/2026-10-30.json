@@ -1,0 +1,1283 @@
+{
+  "date": "2026-10-30",
+  "published": "2026-10-30T06:00:42+09:00",
+  "title_en": "Intel & Amazon Drop, Nvidia Spy Probe, NYU Clinical AI & ECB Exit",
+  "title_ja": "IntelとAmazonの株価下落、NVIDIAを巡る諜報疑惑、NYUの診療AI導入、ECBラガルド総裁の早期辞任",
+  "summary_ja": "IntelとAmazonの決算発表を受け株価が急落したほか、NVIDIAのCEOを標的にした諜報活動の疑惑やDoorDashによるInstacart買収などハイテク業界の揺らぎが相次ぎました。デジタルヘルス分野ではNYU Langoneが電子カルテにAIを統合し、国際ニュースでは日米のミサイル共同生産合意やECBラガルド総裁の早期辞任、イスラエル総選挙の開票結果を伝えます。",
+  "duration": 1136.9,
+  "audio": {
+    "file": "2026-10-30.mp3",
+    "bytes": 9095724,
+    "release_tag": "ep-2026-10-30"
+  },
+  "word_count": 2028,
+  "ja_chars": 1349,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.8-flash",
+    "write": "gemini-3.5-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Good morning and today's headlines",
+      "heading_ja": "オープニングと本日のニュース",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it's Friday, October 30. This is Commute News. I am Alex, and with me is Mika in Kyoto.",
+          "ja": "おはようございます。10月30日金曜日のCommute Newsです。アレックスです。京都のミカさんと共にお届けします。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, Alex! Today we look at big falls in tech stocks like Intel and Amazon, and a US probe into a spy plot targeting Nvidia's CEO.",
+          "ja": "アレックスさん、おはようございます！今日はIntelやAmazonなどのハイテク株急落と、NVIDIAのCEOを標的にした諜報疑惑の米当局による調査を取り上げます。",
+          "t": 7.32
+        },
+        {
+          "speaker": "Alex",
+          "en": "Plus, DoorDash buys Instacart for 17 billion dollars, and Trump threatens new tariffs on imported factory robots.",
+          "ja": "さらに、DoorDashによる170億ドルでのInstacart買収や、トランプ大統領による輸入産業用ロボットへの新関税警告もお伝えします。",
+          "t": 16.86
+        },
+        {
+          "speaker": "Mika",
+          "en": "In digital health, NYU Langone adopts AI inside patient records. In world news, the US and Japan team up on missile production, and ECB President Christine Lagarde steps down early. Let's get started!",
+          "ja": "デジタルヘルスではNYU Langoneが患者記録にAIを導入した話題、国際ニュースでは日米によるミサイル共同生産合意とECBラガルド総裁の早期辞任を取り上げます。それでは始めましょう！",
+          "t": 24.88
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Intel stock falls on weak forecast and factory blast",
+      "heading_ja": "Intel株が弱気見通しと工場爆発で急落",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Intel stock plummeted up to 22 percent on Thursday. The legacy chipmaker posted strong earnings for the third quarter, but gave a very weak sales forecast for the fourth quarter.",
+          "ja": "Intelの株価は木曜日に最大22パーセント急落しました。この老舗半導体メーカーは第3四半期の決算こそ堅調でしたが、第4四半期の売上見通しを非常に弱く発表しました。",
+          "t": 37.95
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why did Intel lower its future sales forecast so sharply?",
+          "ja": "なぜIntelは今後の売上見通しをこれほど大幅に引き下げたのですか？",
+          "t": 49.75
+        },
+        {
+          "speaker": "Alex",
+          "en": "Intel blamed weak global demand for personal computer chips. It also suffered an explosion at a factory in Israel, which hurt its chip production capacity.",
+          "ja": "Intelはパソコン用半導体の世界的な需要低迷を理由に挙げました。また、イスラエルの工場で爆発事故が発生し、半導体の生産能力に悪影響が出たことも要因です。",
+          "t": 54.52
+        },
+        {
+          "speaker": "Mika",
+          "en": "Intel has been trying to rebuild its business for a long time, right?",
+          "ja": "Intelは長い間、事業の再建に取り組んでいますよね？",
+          "t": 64.98
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Intel is struggling to catch up in artificial intelligence chips and contract manufacturing. Contract manufacturing means making chips designed by other companies. When personal computer sales slow down, Intel loses its main source of cash flow. Cash flow is the money coming into a business.",
+          "ja": "はい。Intelは人工知能向け半導体や受託製造での遅れを取り戻すのに苦戦しています。受託製造とは他社が設計した半導体を製造することです。パソコンの売上が減速すると、主要な現金収入源が失われます。現金収入とは事業に入ってくるお金のことです。",
+          "t": 70.45
+        },
+        {
+          "speaker": "Mika",
+          "en": "So this sales slowdown directly hurts their plans to invest in new chip technology?",
+          "ja": "では、この売上減速は新しい半導体技術へ投資する計画を直接圧迫するわけですね？",
+          "t": 89.16
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. Intel needs huge amounts of money to build modern chip factories. Without strong chip sales from personal computers, investors worry that Intel cannot fund its big turnaround plan.",
+          "ja": "その通りです。Intelが最新の半導体工場を建設するには巨額の資金が必要です。パソコン用半導体の売上が力強さを欠けば、投資家は再建計画の資金調達を心配することになります。",
+          "t": 95.44
+        },
+        {
+          "speaker": "Mika",
+          "en": "That sounds like a tough challenge for the company and the global semiconductor market.",
+          "ja": "同社にとっても、世界の半導体市場にとっても厳しい試練に思えます。",
+          "t": 107.88
+        },
+        {
+          "speaker": "Alex",
+          "en": "Indeed. So, in short, Intel stock fell sharply because weak personal computer demand and a factory blast hurt its fourth quarter sales forecast.",
+          "ja": "まさにその通りです。要するに、パソコン需要の低迷と工場の爆発事故が第4四半期の売上見通しを圧迫し、Intel株は急落しました。",
+          "t": 114.39
+        }
+      ],
+      "lang": "en",
+      "t": 37.95
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。Intelの株価が急落しました。第3四半期の業績は好調でしたが、パソコン向け半導体の需要低迷やイスラエル工場の爆発事故の影響で、第4四半期の売上見通しを引き下げたことが要因です。主力のパソコン事業の減速により、AI半導体や受託製造への投資資金の確保に対する懸念が強まっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 124.21
+        }
+      ],
+      "t": 124.21
+    },
+    {
+      "kind": "story",
+      "heading_en": "US investigates Chinese spy plot targeting Nvidia CEO",
+      "heading_ja": "米当局、NVIDIAのCEOを標的にした中国の諜報疑惑を調査",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "United States intelligence agencies investigated an alleged Chinese spy plot targeting Nvidia Chief Executive Officer Jensen Huang.",
+          "ja": "米国の情報機関が、NVIDIAの最高経営責任者であるジェンスン・フアン氏を標的にした中国の諜報疑惑について調査を行いました。",
+          "t": 149.81
+        },
+        {
+          "speaker": "Mika",
+          "en": "That sounds like a movie plot! Who was suspected of spying on him?",
+          "ja": "映画のような話ですね！誰が彼をスパイしていたと疑われているのですか？",
+          "t": 158.45
+        },
+        {
+          "speaker": "Alex",
+          "en": "According to the New York Times, intelligence officials surveilled Alice Huang, a top executive at a Singapore cloud firm called Megaspeed. Megaspeed is accused of illegally smuggling two billion dollars worth of Nvidia chips to China.",
+          "ja": "ニューヨーク・タイムズによると、情報当局はシンガポールのクラウド企業Megaspeedの幹部であるアリス・フアン氏を監視していました。Megaspeedは20億ドル相当のNVIDIA製半導体を中国へ不正転売した疑いがもたれています。",
+          "t": 163.49
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did she have a close personal or business relationship with Jensen Huang?",
+          "ja": "彼女はジェンスン・フアン氏と親しい個人的・ビジネス上の関係があったのですか？",
+          "t": 177.89
+        },
+        {
+          "speaker": "Alex",
+          "en": "She was photographed with him at several business dinners. Officials feared she might gather information about Nvidia's future plans and export policy efforts.",
+          "ja": "彼女は複数のビジネス夕食会で彼と一緒に写真に写っていました。当局は、彼女がNVIDIAの将来の計画や輸出政策に関する情報を収集しているのではないかと懸念しました。",
+          "t": 183.32
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did Nvidia respond to these serious reports?",
+          "ja": "NVIDIAはこの深刻な報道に対してどのように回答したのですか？",
+          "t": 193.51
+        },
+        {
+          "speaker": "Alex",
+          "en": "Nvidia said Jensen Huang meets thousands of customer executives every year. The company said their interaction was normal business and denied any secret trade secrets or national security information were shared.",
+          "ja": "NVIDIAは、ジェンスン・フアンCEOは毎年何千人もの顧客幹部と面会していると説明しました。同社とのやり取りは通常の業務であり、企業の営業秘密や国家安全保障に関わる情報は一切共有されていないと否定しました。",
+          "t": 197.56
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why does this story matter so much right now?",
+          "ja": "なぜこのニュースが今それほど重要なのですか？",
+          "t": 210.69
+        },
+        {
+          "speaker": "Alex",
+          "en": "Nvidia makes the most advanced artificial intelligence chips in the world. China wants those chips, but the United States government limits sales to protect national security. This case shows how geopolitical tension is reaching top tech leaders.",
+          "ja": "NVIDIAは世界で最も高度な人工知能半導体を製造しています。中国はそのチップを求めていますが、米国政府は安全保障を守るために販売を規制しています。この件は、地政学的な緊張がトップ経営者にまで及んでいることを示しています。",
+          "t": 214.56
+        },
+        {
+          "speaker": "Mika",
+          "en": "It shows how critical artificial intelligence hardware has become for global security.",
+          "ja": "人工知能のハードウェアが世界の安全保障にとっていかに重要になっているかが分かりますね。",
+          "t": 229.57
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. So, in short, American officials investigated an executive close to Nvidia's Chief Executive Officer over alleged spying for China.",
+          "ja": "その通りです。要するに、米当局は中国への諜報行為の疑いで、NVIDIAのCEOに近い企業幹部を調査しました。",
+          "t": 235.72
+        }
+      ],
+      "lang": "en",
+      "t": 149.81
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米国当局が、NVIDIAのジェンスン・フアンCEOを標的にした中国の諜報活動の疑いを調査していたことが報じられました。規制対象のAI半導体を中国へ不正転売した疑いのあるシンガポール企業Megaspeedの幹部が、中国の不審人物として監視されていました。NVIDIA側は、通常の顧客対応に過ぎず機密漏洩はないとコメントしています。",
+          "en": "",
+          "lang": "ja",
+          "t": 244.86
+        }
+      ],
+      "t": 244.86
+    },
+    {
+      "kind": "story",
+      "heading_en": "Amazon stock drops on earnings miss and slower ad growth",
+      "heading_ja": "Amazon株が決算未達と広告成長の鈍化で下落",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Amazon stock fell on Thursday after the e-commerce giant missed third-quarter earnings estimates and reported slowing growth in its profitable advertising division.",
+          "ja": "電子商取引大手Amazonの株価は木曜日に下落しました。第3四半期の利益が市場予想に届かず、収益性の高い広告部門の成長が鈍化したためです。",
+          "t": 270.78
+        },
+        {
+          "speaker": "Mika",
+          "en": "Amazon missed profit targets? What main factors caused this financial shortfall for the company?",
+          "ja": "Amazonが利益目標に届かなかったのですか？この業績未達の主な要因は何だったのでしょうか？",
+          "t": 281.24
+        },
+        {
+          "speaker": "Alex",
+          "en": "Advertising revenue growth slowed down in the third quarter. At the same time, Amazon kept spending very large amounts of money on artificial intelligence infrastructure. That steady spending concerned many stock market investors.",
+          "ja": "第3四半期は広告収入の伸びが減速しました。それと同時に、Amazonは人工知能インフラへ非常に大きな投資を続けました。その高水準の支出が株式市場の投資家を不安にさせました。",
+          "t": 287.95
+        },
+        {
+          "speaker": "Mika",
+          "en": "Capital expenditure means spending on big physical items like data centers, right?",
+          "ja": "設備投資とは、データセンターのような大型の物理的資産への支出のことですよね？",
+          "t": 302.07
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. Capital expenditure, or capex, is the money a company spends to buy building facilities and high-tech computer servers. Big technology companies are spending tens of billions of dollars every quarter on artificial intelligence infrastructure.",
+          "ja": "その通りです。設備投資、いわゆるcapexとは、企業が建物や高性能サーバーを購入するために費やす資金です。大手ハイテク企業は毎四半期、数十億ドル規模の資金を人工知能インフラに投じています。",
+          "t": 308.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Are investors starting to worry about these massive artificial intelligence investments?",
+          "ja": "投資家たちは、これらの巨大な人工知能投資について心配し始めているのですか？",
+          "t": 323.29
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Investors want to see quick profit returns from artificial intelligence investments. When advertising revenue slows down, heavy spending cuts directly into profit margins. A profit margin is the percentage of revenue that turns into profit.",
+          "ja": "はい。投資家はAI投資からの迅速な収益還元を望んでいます。広告収入が鈍化すると、巨額の支出が利益率を直接圧迫します。利益率とは売上高のうち利益となる割合のことです。",
+          "t": 329.55
+        },
+        {
+          "speaker": "Mika",
+          "en": "So investors are becoming much more cautious about tech spending.",
+          "ja": "投資家はハイテク分野への支出に対してかなり慎重になっているのですね。",
+          "t": 344.5
+        },
+        {
+          "speaker": "Alex",
+          "en": "Indeed. So, in short, Amazon stock dropped after slowing advertising growth and heavy artificial intelligence spending caused a third quarter earnings miss that disappointed Wall Street investors.",
+          "ja": "まさにその通りです。要するに、広告成長の鈍化と巨額のAI投資が第3四半期の決算未達を引き起こし、ウォール街の期待を裏切ったためAmazon株は下落しました。",
+          "t": 349.49
+        }
+      ],
+      "lang": "en",
+      "t": 270.78
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Amazonの株価が下落しました。第3四半期決算で利益が市場予想を下回り、高収益な広告事業の成長減速が嫌気されました。同社はAIインフラに四半期で数百億ドル規模の巨額投資を続けており、売上成長の鈍化に伴って利益率が圧迫されるとの懸念から、投資家の間で慎重な姿勢が強まっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 362.18
+        }
+      ],
+      "t": 362.18
+    },
+    {
+      "kind": "story",
+      "heading_en": "Trump declares foreign robot imports a national security threat",
+      "heading_ja": "トランプ大統領、外国製ロボット輸入を安全保障上の脅威と宣言",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "President Donald Trump declared foreign industrial robot imports a national security threat in an official presidential proclamation issued on October 28.",
+          "ja": "ドナルド・トランプ大統領は10月28日に出された大統領布告で、外国製産業用ロボットの輸入を国家安全保障上の脅威と宣言しました。",
+          "t": 385.79
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why does the United States view foreign factory robots as a national security threat?",
+          "ja": "なぜ米国は外国の工場用ロボットを安全保障上の脅威とみなしているのですか？",
+          "t": 396.35
+        },
+        {
+          "speaker": "Alex",
+          "en": "Commerce Secretary Howard Lutnick conducted an investigation. The report found that reliance on foreign factory robots risks harming the American industrial base and creates potential cybersecurity vulnerabilities.",
+          "ja": "ハワード・ラトニック商務長官が調査を実施しました。報告書によると、外国製工場ロボットへの依存は米国の製造業基盤を損なう危険があり、サイバーセキュリティ上の脆弱性を生むと指摘されています。",
+          "t": 402.83
+        },
+        {
+          "speaker": "Mika",
+          "en": "Which American industries rely most on these foreign-made industrial robots?",
+          "ja": "どのような米国の産業が、こうした外国製の産業用ロボットに最も依存しているのですか？",
+          "t": 416.93
+        },
+        {
+          "speaker": "Alex",
+          "en": "Major companies like automakers General Motors, Ford, and Tesla rely heavily on automated robot arms. Aerospace giants like Boeing and Lockheed Martin also use them to build aircraft and military weapon systems.",
+          "ja": "ゼネラル・モーターズやフォード、Teslaなどの主要自動車メーカーは自動化ロボットアームに大きく依存しています。ボーイングやロッキード・マーティンといった航空宇宙大手も、航空機や兵器システムの製造にこれらを使用しています。",
+          "t": 422.89
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specific action is the President taking right now?",
+          "ja": "大統領は現在、具体的にどのような行動をとっているのですか？",
+          "t": 436.81
+        },
+        {
+          "speaker": "Alex",
+          "en": "Trump ordered trade talks with foreign partners to adjust robotics imports within 180 days. If no agreement is reached, he threatened to impose new tariffs and fees on foreign industrial machinery. Tariffs are taxes placed on imported goods.",
+          "ja": "トランプ氏は180日以内にロボット輸入を調整するため貿易相手国との交渉を命じました。合意に至らない場合、外国製産業機械に新たな関税や手数料を課すと警告しました。関税とは輸入品にかかる税金のことです。",
+          "t": 441.53
+        },
+        {
+          "speaker": "Mika",
+          "en": "How could this affect global manufacturing partners like Japan?",
+          "ja": "日本のような世界の製造業パートナーにはどのような影響が考えられますか？",
+          "t": 457.21
+        },
+        {
+          "speaker": "Alex",
+          "en": "Japan and Europe export many advanced industrial robots to the United States. New tariffs could increase supply chain costs for American factories and complicate international trade.",
+          "ja": "日本や欧州は多くの高度な産業用ロボットを米国へ輸出しています。新たな関税は米国工場のサプライチェーンコストを引き上げ、国際貿易を複雑にする可能性があります。",
+          "t": 462.4
+        },
+        {
+          "speaker": "Mika",
+          "en": "So this policy could reshape international factory supply chains.",
+          "ja": "この政策は世界の工場サプライチェーンを再編する可能性がありますね。",
+          "t": 474.61
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. So, in short, Trump declared foreign factory robot imports a national security threat and threatened tariffs if trade partners do not negotiate new rules.",
+          "ja": "はい。要するに、トランプ氏は外国製ロボット輸入を安全保障上の脅威と宣言し、貿易相手国が新ルールに合意しない場合は関税を課すと警告しました。",
+          "t": 479.92
+        }
+      ],
+      "lang": "en",
+      "t": 385.79
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "トランプ大統領は、外国製産業用ロボットの輸入が米国の安全保障上の脅威であると宣言しました。商業省の調査で、製造業基盤への影響やサイバーセキュリティ上の脆弱性が指摘されたためです。米国政府は180日以内に貿易相手国と協議を行い、合意に至らない場合は新たな関税の課税を検討するとしています。",
+          "en": "",
+          "lang": "ja",
+          "t": 490.77
+        }
+      ],
+      "t": 490.77
+    },
+    {
+      "kind": "story",
+      "heading_en": "DoorDash agrees to buy Instacart for 17 billion dollars",
+      "heading_ja": "DoorDashがInstacartを170億ドルで買収合意",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "DoorDash agreed to acquire rival delivery service Instacart for 17 billion dollars in a massive online delivery mega-merger announced on Thursday.",
+          "ja": "DoorDashは木曜日、ライバルの配達サービスInstacartを170億ドルで買収することに合意したと発表しました。オンライン配送における超大型の企業統合です。",
+          "t": 515.47
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is a huge business deal! What does each company bring to this combination?",
+          "ja": "非常に大きな取引ですね！それぞれの会社はこの統合に何をもたらすのですか？",
+          "t": 525.32
+        },
+        {
+          "speaker": "Alex",
+          "en": "DoorDash leads the market in restaurant takeout delivery, while Instacart is the leader in online grocery delivery. DoorDash is buying Instacart for 65 dollars per share in cash and stock.",
+          "ja": "DoorDashは飲食店からのテイクアウト配達市場をリードし、Instacartはネットスーパー配達で首位です。DoorDashはInstacartを1株65ドルで現金と株式を組み合わせ買収します。",
+          "t": 531.31
+        },
+        {
+          "speaker": "Mika",
+          "en": "Will the Instacart brand name and mobile app disappear after this purchase?",
+          "ja": "この買収後、Instacartのブランド名やスマホアプリは消えてしまうのでしょうか？",
+          "t": 543.58
+        },
+        {
+          "speaker": "Alex",
+          "en": "No. DoorDash Chief Executive Officer Tony Xu said Instacart will keep its own brand, app, and business software platform. Both companies will operate separately until the deal closes in late 2027 or early 2028.",
+          "ja": "いいえ。DoorDashのトニー・シュー最高経営責任者は、Instacartが独自のブランド、アプリ、法人向けソフトを維持すると述べました。取引が完了する2027年後半か2028年初頭まで両社は独立して運営されます。",
+          "t": 549.34
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why are these two delivery giants deciding to join forces right now?",
+          "ja": "なぜこの2大配送企業は今、手を組む決定をしたのですか？",
+          "t": 562.87
+        },
+        {
+          "speaker": "Alex",
+          "en": "Delivering groceries online is complex because pickers must choose fresh items and deliver frozen food before it melts. Instacart built strong store partnerships, while DoorDash has a massive driver logistics network. Joining forces helps both companies cut costs and expand services.",
+          "ja": "生鮮食品のオンライン配送は、適切な品選びやアイスが溶ける前の配達など複雑です。Instacartは強固な店舗提携を築き、DoorDashは大規模な配達員ネットワークを持っています。提携によりコスト削減とサービス拡大が可能になります。",
+          "t": 568.23
+        },
+        {
+          "speaker": "Mika",
+          "en": "So local grocery stores can get better digital delivery tools to reach customers.",
+          "ja": "地域のスーパーマーケットも、顧客に届けるための優れたデジタル配送ツールを得られるわけですね。",
+          "t": 586.03
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. So, in short, DoorDash is acquiring Instacart for 17 billion dollars to combine restaurant takeout dominance with grocery logistics under one company.",
+          "ja": "その通りです。要するに、DoorDashは飲食店配送の強みと生鮮食品物流を統合するため、170億ドルでInstacartを買収します。",
+          "t": 592.13
+        }
+      ],
+      "lang": "en",
+      "t": 515.47
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "DoorDashが同業のInstacartを170億ドルで買収することに合意しました。外食配達で首位のDoorDashと、生鮮食品配送で強みを持つInstacartが統合することで、配達ネットワークと店舗連携を強化します。Instacartのブランドやアプリは維持され、2027年後半以降に取引が完了する予定です。",
+          "en": "",
+          "lang": "ja",
+          "t": 602.73
+        }
+      ],
+      "t": 602.73
+    },
+    {
+      "kind": "health",
+      "heading_en": "NYU Langone embeds OpenEvidence AI inside health records",
+      "heading_ja": "NYU Langone、電子カルテにOpenEvidence AIを導入",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, our digital health story. NYU Langone Health is embedding OpenEvidence's clinical artificial intelligence platform across its entire hospital electronic health record system.",
+          "ja": "続いて、デジタルヘルスのニュースです。NYU Langone Healthは、病院の電子カルテシステム全体にOpenEvidenceの臨床人工知能プラットフォームを組み込んでいます。",
+          "t": 628.59
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does this artificial intelligence tool help doctors during patient visits?",
+          "ja": "この人工知能ツールは、診察中にどのように医師をサポートするのですか？",
+          "t": 640.34
+        },
+        {
+          "speaker": "Alex",
+          "en": "OpenEvidence is a specialized medical search engine and AI chatbot designed specifically for doctors. It reads latest peer-reviewed medical research and compares it directly with the patient's record inside the hospital system.",
+          "ja": "OpenEvidenceは医師向けに特化された医療検索エンジン兼AIチャットボットです。最新の査読付き医学研究を読み込み、病院システム内の患者データと直接照らし合わせます。",
+          "t": 646.27
+        },
+        {
+          "speaker": "Mika",
+          "en": "Doctors can ask questions in natural everyday language right at the workstation?",
+          "ja": "医師は端末の前で、普通の日常言葉を使って質問を投げかけられるのですか？",
+          "t": 660.78
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. NYU Langone clinician staff handle 12 million outpatient visits every year. Clinicians can ask complex questions and receive quick, evidence-based answers without leaving the Epic electronic record software.",
+          "ja": "はい。NYU Langoneの医療陣は年間1,200万件の外来診察をこなしています。臨床医はEpic電子カルテソフトから離れることなく、複雑な質問をして根拠に基づいた回答を素早く得られます。",
+          "t": 666.83
+        },
+        {
+          "speaker": "Mika",
+          "en": "That sounds like it could save doctors valuable time during busy shifts.",
+          "ja": "多忙な勤務時間中、医師たちの貴重な時間を節約できそうですね。",
+          "t": 680.48
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. Executive Vice President Nader Mherabi said the health system wants safe, practical technology at scale. OpenEvidence Chief Executive Officer Daniel Nadler noted that roughly two-thirds of United States doctors already use their clinical AI platform.",
+          "ja": "その通りです。ナダー・ムヘラビ副総裁は、実用的で安全な技術の大規模な展開を目指していると述べました。OpenEvidenceのダニエル・ナドラーCEOによると、全米の医師の約3分の2がすでに彼らの臨床AIを使用しています。",
+          "t": 686.07
+        },
+        {
+          "speaker": "Mika",
+          "en": "Is medical record integration becoming standard in modern hospital operations?",
+          "ja": "現代の病院経営において、電子カルテへの統合は標準になりつつあるのでしょうか？",
+          "t": 702.43
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Embedding artificial intelligence directly into patient records allows doctors to access up-to-date medical knowledge instantly during patient consultations.",
+          "ja": "はい。人工知能を患者の電子カルテに直接統合することで、医師は診察中に最新の医学知識へ即座にアクセスできるようになります。",
+          "t": 708.36
+        },
+        {
+          "speaker": "Mika",
+          "en": "So doctors make faster decisions grounded in verified medical literature.",
+          "ja": "医師たちは検証された医学文献に基づいて、より迅速な判断を下せるわけですね。",
+          "t": 719.13
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. So, in short, NYU Langone integrated OpenEvidence AI into patient records so thousands of doctors can access medical research during millions of patient visits.",
+          "ja": "まさにその通りです。要するに、NYU LangoneはカルテにOpenEvidence AIを組み込み、年間数百万件の診察で数千人の医師が医学研究にアクセスできるようにしました。",
+          "t": 724.78
+        }
+      ],
+      "lang": "en",
+      "t": 628.59
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "NYU Langone Healthが、医療用AIプラットフォームOpenEvidenceを電子電子カルテシステムに全社統合しました。医師はEpicシステム上で、最新の査読付き論文に基づいた回答を患者データと照らし合わせて取得できます。年間1200万件の診療において、迅速で根拠に基づいた意思決定を支援します。",
+          "en": "",
+          "lang": "ja",
+          "t": 736.4
+        }
+      ],
+      "t": 736.4
+    },
+    {
+      "kind": "world",
+      "heading_en": "US and Japan agree on joint missile factory",
+      "heading_ja": "日米、ミサイル共同生産拠点の設立に合意",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, a look at the world beyond tech. The United States and Japan agreed on Wednesday to establish a new joint missile production facility located inside Japan.",
+          "ja": "ここからはテクノロジー以外の国際ニュースです。米国と日本は水曜日、日本国内に新たなミサイル共同生産拠点を設立することに合意しました。",
+          "t": 761.11
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why are the two long-time partner nations expanding missile manufacturing cooperation in Japan right now?",
+          "ja": "なぜ長年のパートナーである両国は今、日本でのミサイル製造協力を拡大しているのですか？",
+          "t": 771.41
+        },
+        {
+          "speaker": "Alex",
+          "en": "Both allies face growing security concerns across Asia, especially regarding China's military activity. Building advanced missiles together in Japan strengthens regional defense capabilities and builds up allied defense equipment stockpiles.",
+          "ja": "両同盟国はアジア全域、特に中国の軍事活動に対する安全保障上の懸念に直面しています。日本で高度なミサイルを共同生産することで、地域の防衛能力を強化し、防衛装備の備蓄を増やす狙いがあります。",
+          "t": 778.66
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does this joint defense pact help both countries strategically in the region?",
+          "ja": "この防衛協定は、地域の戦略面において両国にどのような利点をもたらしますか？",
+          "t": 793.48
+        },
+        {
+          "speaker": "Alex",
+          "en": "It allows the United States to produce critical weapon systems faster by using Japanese high-precision manufacturing. For Japan, it deepens the security alliance with Washington and expands local high-tech defense production.",
+          "ja": "米国は日本の精密製造技術を活用して重要な兵器システムをより早く生産できます。日本にとっては米国との同盟関係を深め、国内のハイテク防衛生産を拡大できます。",
+          "t": 799.38
+        },
+        {
+          "speaker": "Mika",
+          "en": "This alliance seems like a major strategic step for bilateral military ties.",
+          "ja": "この協定は、二国間の軍事関係にとって戦略的に大きな一歩のように見えますね。",
+          "t": 813.31
+        },
+        {
+          "speaker": "Alex",
+          "en": "Indeed. So, in short, the United States and Japan agreed to build a joint missile factory in Japan to boost regional military readiness.",
+          "ja": "その通りです。要するに、日米両国は地域の軍事的即応性を高めるため、日本国内にミサイル共同工場を建設することに合意しました。",
+          "t": 818.94
+        }
+      ],
+      "lang": "en",
+      "t": 761.11
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米国と日本は、日本国内にミサイルの共同生産拠点を設立することで合意しました。アジアにおける中国の軍事的影響力の拡大を踏まえ、両国の防衛生産能力と抑止力を高める狙いです。日本の精密な製造技術を活用することで、米国は不足する兵器の供給速度を向上させ、日米同盟を深めます。",
+          "en": "",
+          "lang": "ja",
+          "t": 827.9
+        }
+      ],
+      "t": 827.9
+    },
+    {
+      "kind": "world",
+      "heading_en": "ECB President Christine Lagarde to step down early",
+      "heading_ja": "ECBラガルド総裁、来年2月に早期辞任へ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "European Central Bank President Christine Lagarde announced she will step down on February 7, nine months before her term ends.",
+          "ja": "欧州中央銀行のクリスティーヌ・ラガルド総裁は、任期を9か月残して2月7日に退任すると発表しました。",
+          "t": 849.3
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is Christine Lagarde resigning early from the European Central Bank?",
+          "ja": "なぜラガルド氏は欧州中央銀行を早期に辞任するのですか？",
+          "t": 857.77
+        },
+        {
+          "speaker": "Alex",
+          "en": "She said central bank neutrality rules limited her ability to comment on world affairs. She wants freedom of speech to engage publicly on global economic issues.",
+          "ja": "彼女は、中央銀行の中立性規則により世界情勢への発言が制限されていたと述べました。世界の経済問題について公に発言するため表現の自由を求めているとしています。",
+          "t": 863.18
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does her early exit affect European political leaders?",
+          "ja": "彼女の早期辞任は、欧州の政治指導者にどのような影響を与えますか？",
+          "t": 873.54
+        },
+        {
+          "speaker": "Alex",
+          "en": "Leaving early gives European Union leaders like French President Emmanuel Macron time to appoint her successor before France's April presidential election. That prevents potential far-right election winners from influencing the choice.",
+          "ja": "早期辞任により、フランスのマクロン大統領らEU首脳は4月の仏大統領選の前に後任を任命する時間を確保できます。極右勢力が勝利した場合の影響を防ぐ狙いもあります。",
+          "t": 878.16
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did the European Central Bank change interest rates at its latest meeting?",
+          "ja": "欧州中央銀行は直近の会合で金利を変更しましたか？",
+          "t": 892.65
+        },
+        {
+          "speaker": "Alex",
+          "en": "No. The bank held its key interest rate at 2.5 percent, even as European inflation rose to 3.8 percent last month.",
+          "ja": "いいえ。欧州のインフレ率が先月3.8パーセントに上昇したものの、主要政策金利は2.5パーセントに据え置かれました。",
+          "t": 898.16
+        },
+        {
+          "speaker": "Mika",
+          "en": "Central bank stability is very important for financial markets.",
+          "ja": "中央銀行の安定は金融市場にとって極めて重要ですね。",
+          "t": 905.91
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. So, in short, Christine Lagarde is stepping down early as European Central Bank president to speak freely on global policy affairs.",
+          "ja": "その通りです。要するに、ラガルド総裁は世界政策について自由に発言するため、欧州中央銀行の総裁を早期辞任します。",
+          "t": 910.81
+        }
+      ],
+      "lang": "en",
+      "t": 849.3
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "欧州中央銀行のラガルド総裁が、任期を9か月残して来年2月に早期辞任することを発表しました。中立義務に縛られず、世界情勢について自由に発言したい意向を示しています。フランスの大統領選前に後任人事を進める狙いもあります。なおECBは政策金利を2.5%で据え置きました。",
+          "en": "",
+          "lang": "ja",
+          "t": 920.45
+        }
+      ],
+      "t": 920.45
+    },
+    {
+      "kind": "world",
+      "heading_en": "Netanyahu coalition falls short of majority in Israel election",
+      "heading_ja": "イスラエル総選挙、ネタニヤフ与党連合が過半数割れ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Official vote counting ended in Israel's election, and Prime Minister Benjamin Netanyahu's right-wing coalition fell short of a parliamentary majority.",
+          "ja": "イスラエル総選挙の公式開票が終了し、ネタニヤフ首相率いる右派与党連合は議会の過半数に届きませんでした。",
+          "t": 943.37
+        },
+        {
+          "speaker": "Mika",
+          "en": "How many seats did Netanyahu's coalition win in the 120-member parliament?",
+          "ja": "定数120の議会で、ネタニヤフ氏の与党連合は何議席を獲得したのですか？",
+          "t": 953.94
+        },
+        {
+          "speaker": "Alex",
+          "en": "Netanyahu's coalition won 53 seats, short of the 61 seats needed for a majority. The main opposition bloc led by Gadi Eisenkot won 48 seats, and Arab-led parties won 19 seats.",
+          "ja": "与党連合は53議席にとどまり、過半数に必要な61議席に届きませんでした。アイゼンコット氏率いる野党連合が48議席、アラブ系政党が19議席を獲得しました。",
+          "t": 959.89
+        },
+        {
+          "speaker": "Mika",
+          "en": "Are opposition leaders attempting to build a government coalition now?",
+          "ja": "野党指導者たちは現在、連立政権の樹立を試みているのですか？",
+          "t": 971.91
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Opposition leader Gadi Eisenkot is holding talks with other party leaders to explore forming a majority government. However, building a coalition without Arab parties remains very difficult.",
+          "ja": "はい。野党指導者のアイゼンコット氏は他党と協議を行い政権樹立を模索しています。しかし、アラブ系政党を含めずに過半数を形成するのは困難を極めます。",
+          "t": 977.61
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did Prime Minister Netanyahu react to these official vote counts?",
+          "ja": "ネタニヤフ首相はこの公式開票結果に対してどう反応しましたか？",
+          "t": 990.83
+        },
+        {
+          "speaker": "Alex",
+          "en": "Netanyahu claimed without evidence that Arab parties stole the election with foreign help, but opposition leaders and election officials dismissed those claims.",
+          "ja": "ネタニヤフ氏は根拠なく、アラブ系政党が外国の支援を受けて選挙を盗んだと主張しましたが、野党側や選管当局はその主張を退けました。",
+          "t": 996.48
+        },
+        {
+          "speaker": "Mika",
+          "en": "Israel faces a complex political deadlock ahead.",
+          "ja": "イスラエルは今後、複雑な政治的混迷に直面することになりますね。",
+          "t": 1007.6
+        },
+        {
+          "speaker": "Alex",
+          "en": "Indeed. So, in short, Netanyahu's bloc lost its majority, sparking intense coalition negotiations among opposition parties to form a new government.",
+          "ja": "まさにその通りです。要するに、ネタニヤフ陣営が過半数を失い、新政権の組閣に向け野党間で熾烈な連立交渉が始まっています。",
+          "t": 1011.98
+        }
+      ],
+      "lang": "en",
+      "t": 943.37
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "イスラエル総選挙の開票が終了し、ネタニヤフ首相率いる右派与党連合は53議席にとどまり、過半数の61議席を逃しました。アイゼンコット元軍参謀総長率いる野党連合が政権樹立に向けた協議を進めていますが、組閣にはアラブ系政党との協力が必要となり、政治的な混迷が続いています。",
+          "en": "",
+          "lang": "ja",
+          "t": 1022.38
+        }
+      ],
+      "t": 1022.38
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch: Jensen Huang and Satya Nadella",
+      "heading_ja": "CEOウォッチ：ジェンスン・フアンとサティア・ナデラ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Time for CEO Watch. Nvidia Chief Executive Officer Jensen Huang defended his meetings with cloud executive Alice Huang, stating dealings with her firm were normal customer interactions.",
+          "ja": "CEOウォッチの時間です。NVIDIAのジェンスン・フアンCEOはクラウド企業幹部アリス・フアン氏との面会を擁護し、同社との取引は通常の顧客対応であったと述べました。",
+          "t": 1045.45
+        },
+        {
+          "speaker": "Mika",
+          "en": "Meanwhile, Microsoft Chief Executive Officer Satya Nadella posted that Microsoft Cloud revenue surpassed 63 billion dollars, with growth accelerating to 30 percent year over year.",
+          "ja": "一方、Microsoftのサティア・ナデラCEOは、Microsoft Cloudの売上高が630億ドルを超え、前年比の成長率が30パーセントに加速したと投稿しました。",
+          "t": 1058.07
+        },
+        {
+          "speaker": "Alex",
+          "en": "Nadella noted Microsoft is rapidly building the technology stack for the new agentic artificial intelligence wave.",
+          "ja": "ナデラ氏は、Microsoftが新たな自律型AI（エージェンティックAI）の波に向けた技術基盤を急速に構築していると付け加えました。",
+          "t": 1070.33
+        },
+        {
+          "speaker": "Mika",
+          "en": "Tech executives remain focused on cloud growth and artificial intelligence tools.",
+          "ja": "ハイテク企業のトップたちは引き続き、クラウドの成長とAIツールに注力していますね。",
+          "t": 1078.68
+        }
+      ],
+      "lang": "en",
+      "t": 1045.45
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: fall short of",
+      "heading_ja": "今日のフレーズ：fall short of",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's phrase of the day is \"fall short of\". Alex used it when talking about Intel's outlook and Israel's election results.",
+          "ja": "今日のフレーズは「fall short of」です。アレックスさんがIntelの業績見通しやイスラエル選挙の結果を話すときに使っていました。",
+          "t": 1085.5
+        },
+        {
+          "speaker": "Alex",
+          "en": "\"Fall short of\" means to fail to reach a target, goal, or expectation.",
+          "ja": "「fall short of」は、目標、ゴール、または期待に届かない、達しないという意味です。",
+          "t": 1092.62
+        },
+        {
+          "speaker": "Mika",
+          "en": "Exactly! For example, you can say, \"The company's quarterly sales fell short of expectations.\"",
+          "ja": "その通りです！例えば、「その会社の四半期売上高は予想に届きませんでした」と言うことができます。",
+          "t": 1097.16
+        },
+        {
+          "speaker": "Alex",
+          "en": "It is a very common phrase in business news whenever results do not meet forecasts.",
+          "ja": "業績が予測に届かないとき、ビジネスニュースで頻繁に使われる表現です。",
+          "t": 1102.85
+        },
+        {
+          "speaker": "Mika",
+          "en": "Try using \"fall short of\" in your work communications today!",
+          "ja": "ぜひ今日の仕事のコミュニケーションで「fall short of」を使ってみてください！",
+          "t": 1108.02
+        }
+      ],
+      "lang": "en",
+      "t": 1085.5
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Wrap-up and weekend sign-off",
+      "heading_ja": "エンディングと週末のご挨拶",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That is all for today's Commute News. Remember that listening to global news in simple English helps build your professional vocabulary every day.",
+          "ja": "今日のCommute Newsは以上です。シンプルな英語で世界ニュースを聴くことが、毎日のビジネス語彙力向上につながります。",
+          "t": 1112.08
+        },
+        {
+          "speaker": "Mika",
+          "en": "Have a wonderful weekend, everyone! We will see you on Monday's commute.",
+          "ja": "みなさん、良い週末をお過ごしください！月曜日の通勤時間にまたお会いしましょう。",
+          "t": 1120.25
+        },
+        {
+          "speaker": "Alex",
+          "en": "Thank you for listening, and have a productive Friday!",
+          "ja": "ご視聴ありがとうございました。実りある金曜日をお過ごしください！",
+          "t": 1124.89
+        },
+        {
+          "speaker": "Mika",
+          "en": "Goodbye!",
+          "ja": "さようなら！",
+          "t": 1128.67
+        }
+      ],
+      "lang": "en",
+      "t": 1112.08
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。良い週末をお過ごしください。いってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 1130.24
+        }
+      ],
+      "t": 1130.24
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Intel Stock Plunges on Weak Forecast and Factory Blast",
+      "title_ja": "Intel株が弱気見通しと工場爆発で大幅下落",
+      "summary_ja": "Intelの株価が第4四半期の弱気な売上予想とイスラエル工場の爆発により最大22%下落しました。パソコン市場の需要低迷が響き、AI半導体分野での巻き返しや受託製造への巨額投資に対する懸念が高まっています。",
+      "why_ja": "主力のPC向け半導体事業の失速は、Intelが進める再建計画や最先端ファウンドリ構想の資金繰りに直接影響するため、世界的な半導体産業の構図に関わります。",
+      "section": "tech",
+      "topic_key": "intel-q3-2026-guidance-drop",
+      "companies": [
+        "Intel"
+      ],
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "title": "Intel shares drop 18% on Israel factory blast, PC weakness",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbEgxampOc0U5RENJWVd0a09uQjlFSkxueGxGVzVPX2NwdElzNDN3WXdjVFpvelNULXVObnMzTTJzb0ZfeFBtN1ZOQ0FVNXRuN0ZINkF0dWZkZlR6ZlkzUE5wQWpPTWg3dGtDLURwRl9OU0ZEb1UtejNBbC1KMnVWbmJ5OHQxWTBoU1I3cFduaXAyOHFBVkFIYjhCNXR1c0EyM2xlZFZNWFM?oc=5"
+        },
+        {
+          "publisher": "Quartz",
+          "title": "Intel stock falls more than 22% after revenue forecast misses on PC weakness",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01b0RueW1jSWVaTFc3dTEyMDREeHJwOG40bjNzNFEwSzdRQW05TVd3a1NETHFoVFZlMzFQa1NCVGVyNnl3UHozZVZ5RmZBakdGejBhQWc1anYxQmViTUxmdTlsZ1FqX2tiVUE3dkdRWUhlcngz?oc=5"
+        },
+        {
+          "publisher": "CNBC",
+          "title": "Intel stock plunges 20% as chipmaker blames PC slowdown for weak guidance",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBlczFWcC1WVTdsdENmNVdsNnJpczI0SzZqRkZuel9NLTdsUG85UlJDVEV4NllwUmRUXy1QZGV6ci1BamdFQTVtQ2hlelhiR21LNzJsQ2dCSzdTc1JCQUdDVU90bGY2a3hIeldPa043TnYtelgtZFh2b04xblrSAYIBQVVfeXFMT0lPRHpDdlR4ZlpnZWc1SS1mTHNjZGE3VVItSnA5bndoU3ByQVFPa2Rzakx2QlFoWW52ZVM1dF9aWjdlczFEby05eHhwaEQ5YllseUJlbjkwRzNva0VWdkM0Tkp3a2tZcTZydktHUXdmZEZwamdwMTBuUUNwY3hDZHRDZw?oc=5"
+        },
+        {
+          "publisher": "Bloomberg.com",
+          "title": "Intel Outlook Hurt by Weak Market for Personal Computer Chips",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaURpSDFJSVlDdjY1d0wtcmQxOVpjYmowVTBSaEZCelVCWGNoVGI2VVR2UWNVcVZDVHVyUjFIMWdvQ0FfQ1dDdkpXWmdKUXRuNG9wVnlJRjNPTzFvcTB1TFV0QjdIVHhUZEZhOHFrdGJfSGNHbF9La09hYVhrempMWm5mTHZWMlJKUElqXzNYbjJKa3ZpZ0dZTE5Kb3JHb212eEtyNUQzNkltOUhnTlVNNWlR?oc=5"
+        },
+        {
+          "publisher": "Financial Times",
+          "title": "Intel stock falls 17% as it forecasts weaker chip sales",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVGRfMnBXX1pCRzhXbHgyb2lDeXU4bUlqaEQzUElMTVgwUG05SGx0a1JoaDBBT0FUUWo0U1pRUFhGQWgtWlRZYVJqNTNSYW45OTRrY1FLTzR6UGtPckFxZlZoemVic0g0V1lHVklwNzItTGV3WXBmUllkYUZ6c0w0OWtDRGo?oc=5"
+        },
+        {
+          "publisher": "Yahoo Finance",
+          "title": "Intel tops Q3 earnings expectations, but falls short of Q4 outlook on sluggish PC sales",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQVkpSSi1OVU10ZS1xeG5obGxXcWVnWEM2OXlBOG85UFV3MWpyUk9hWUJJZXlvdWY4blFWeE40MzAyM3l1WG8tOF9xQ0J6SzFmYkxNZkpjQWdvUjdBTk9BSm52WVk3V2paWmVHTlZQTnFSWlMzY2JhcnB1SDhxUUVJc2tlc2tiWjNDY1ZkXzdudFVOd00wUHF6MjRnS2RqazN5S3Mzd2hOQ0NXb3UtaHdyRi1hekw3Zl9odzdsQlZFUVdPMVRpSUxPRzEtaExncm5Jd0p6cWR5TmgtYlVVZHlV?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "US Probes Alleged Chinese Spy Plot Targeting Nvidia CEO",
+      "title_ja": "米情報機関、NVIDIAのCEOを標的にした諜報活動疑惑を調査",
+      "summary_ja": "米情報機関が、NVIDIAのジェンスン・フアンCEOを標的にした中国の諜報活動疑惑を調査していると報じられました。不審人物とされるシンガポール企業の幹部は、制限対象のAIチップ不正輸出に関与した疑いがもたれています。",
+      "why_ja": "米中対立の激化に伴い、AIハードウェア分野の技術覇権と国家安全保障が、トップ企業の経営者個人やサプライチェーンパートナーの周辺にまで波及している現状を示しています。",
+      "section": "tech",
+      "topic_key": "nvidia-jensen-huang-china-spy-investigation",
+      "companies": [
+        "NVIDIA",
+        "Megaspeed"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+          "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Nvidia CEO Jensen Huang may have been the target of a spy plot through 'Chinese intelligence asset,' report claims",
+          "url": "https://www.tomshardware.com/tech-industry/policy/nvidia-ceo-jensen-huang-may-have-been-the-target-of-a-spy-plot-through-chinese-intelligence-asset-report-claims-exec-from-firm-under-investigation-for-smuggling-banned-ai-chips-to-china-accused-of-being-a-spy-was-also-feeding-information-to-beijing"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Nvidia's Huang says dealings with firm in US spy probe were 'normal', Bloomberg News reports",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaXJwa3VEMVZBTzlycmloVGNCSVdBTjU3d1RlNlA1OFFDdkpBVXZBNi13S1JOV3MwRDFtUkk2M0t2UzQ5aFUweGl3RGFQQ1I3blJpMHlEV2lhUEEtNkJYdEhXeU5mVGxNWjlXUmpWd2NLejFiUkJyYUxOR0dZWlB6RUtUejhwQWV2ek41cm14V0dfM1I4cVNHQTBVeWpyRzRwQzNjMlNkcjVlZkdrbWd0aGhrbE1EUzlEQXpIWGhERkxmcjA?oc=5"
+        },
+        {
+          "publisher": "The New York Times",
+          "title": "Nvidia Chief, Jensen Huang, Is Seen as Target of Chinese Spy Plot",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2JibzE0S1NHWjdlS2lSWUJKTXVTNWYxRnVfS0ZDODhGcHdhRFBiamplX2lWSUlMRGZtdU12XzYxaUlRUGRzdmR4SU5saFJJZ3BrNUltdERoRWdoWlZuME9RMndwUi1jRmdRbzROenB0bG4wU0MtU1EtcnNyaU5lRDdz?oc=5"
+        },
+        {
+          "publisher": "Yahoo Finance",
+          "title": "Nvidia's relationship with China just got even more complicated as report says Jensen Huang was target of spy plot",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZEtab0tTUzA0MEtoX2xaenB3THdSLUFwNF94eUUtLWtZbG9BUm5TajVNZTBURlNfb0wxWExIcmFQSFJGV3h1YktYNXlCVjJpOWVzT3EzRjdSVV9jakZETlNQU1hyS1p3SERyVU93QzJZZmE5TXRGSlFoU1E1cFFSeW9RbFBIR0FlVXhwZW1lWTgwTU1JX3NTQm4tanVVdEEtd0VOSjJmZ3dVaXk5T2dvUC1tWDlGZGpWT1A5YVp3blczSEJIOHlGblFfOS1ubEdUbFpxejZwYVJaMld2XzVTM3J2NTBMc2N3ZHVNeHc0RURmdGpPTVZQZE10bXZSZUtUcFpN?oc=5"
+        },
+        {
+          "publisher": "New York Post",
+          "title": "Alleged Chinese spy had ‘close relationship’ with Nvidia boss Jensen Huang: report",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWHhuY0p4RWF5MnhWYXRRdE9MX0VZSnB5TE9SZlVmZ0NnZlVOeXJCdnM0WEhWT0t3VjVXN2dEa3hLQVN0UVNUSUI4dEp2Y1NJUEVoZ2Y0ME1uTFNTcVEwNi1TMmU2bVpvcUVZYTY4UU9XTzFuNklWYlZUZlYzcmFZdEliMzZ2dE9pTkQ3aF9aNXRJMThKQkd3Q25Rdm9xWFNOVXRERkcyNEJnNUJnWDYtWnpQZVNVeUtPeUVv?oc=5"
+        },
+        {
+          "publisher": "CNBC",
+          "title": "Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNME1xdllUQU5RU1ZEcFl4VWVLaDFkOHNlSVJCSXdGZzA5OGxRQkhaV1BxbDJKRGNJamUtN1BUcUlWQ3BzMERHS3c4U3dPT2VWMkNPa1hXbTJkbzZsdjZfNnZ1RWdPYVI0Y2YtMXhlWVpHMWk1RThOcThqSTFnaDdoUlhEbnNOOFhlUGtR0gGQAUFVX3lxTE5MRldGbGNiMWhlMVlwOVBEWGwxMHVsTmlDOWFUZ1BfeGRuMTRmRGtLLWMzeTRfTVE1THV2SzYxRjE3STJMUHZsaUlHcU1DeEVveHhfWkhhUDhHZjNvbERJYzlnRnJ3N3FCX3htdlAxMGZ3ZXA4RVdNUWNsdUNSNUZueU1xcHNEdTdrbXdzSHF2MQ?oc=5"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Nvidia CEO reportedly targeted by an alleged Chinese spy",
+          "url": "https://www.theguardian.com/technology/2026/oct/29/nvidia-ceo-targeted-chinese-spy"
+        }
+      ]
+    },
+    {
+      "title_en": "Amazon Stock Falls After Earnings Miss and Ad Growth Slows",
+      "title_ja": "Amazon株が決算未達と広告伸び悩みで下落",
+      "summary_ja": "Amazonの株価が第3四半期の利益下振れと広告事業の伸び悩みにより下落しました。巨額のAIインフラ投資を維持するなか、売上増の減速が利益率を圧迫する懸念から市場の慎重姿勢が強まっています。",
+      "why_ja": "Big Tech各社による数兆円規模のAI投資に対して、株式市場が投資回収のスピードや利益率への影響をより厳しく審査する局面に移行したことを反映しています。",
+      "section": "tech",
+      "topic_key": "amazon-q3-2026-earnings-miss",
+      "companies": [
+        "Amazon"
+      ],
+      "sources": [
+        {
+          "publisher": "Variety",
+          "title": "Amazon Ad Revenue Growth Slows in Q3, Ecommerce Giant Undershoots Earnings Estimates",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1iS0htSzFYMzkyZ1FuRlNQNFBGZGdqcE1lY2RXeU5Bc3VWYl9pMG91c280YW0wZEc0UzluV2pWR1JyOHdYTURRWmI0N2w1WjVRak81a1E5Z3JVdUFicFc5eEdSNVlCc0gtMnNkbmR6MlF3WGN4YTJ3cg?oc=5"
+        },
+        {
+          "publisher": "Barron's",
+          "title": "Amazon Stock Tanks After Earnings Miss",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96R2RxbG5rWHFDbXBTWWIxck52WUluUHBJeWZvUEhvRHJyVzNWTkhwckYwRmxIT2doaGt3ZFpwLXRHSzdKT0pNd3Nub1pYendOYllfbXA5R3FzdmtNeEJYdW1OWHpOQV94d2JYQW1PY0dBbjZlUDJEeg?oc=5"
+        },
+        {
+          "publisher": "CNBC",
+          "title": "Amazon misses on earnings and holds capex steady, adding to AI spending jitters",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE05d010MmVjcktGQS1WWE95VkxiNXJEQkN3czR3Rk1jejlmNHRPaHFUZTVQZ1BoUDRublhBWHlaNUlfZlJKMkFoTFRadXJYYUpNbGNhRTNEWVVEaTFUSzhPTGI1R0R5SHRvVXdBTGRLdVhkYXlrUU4wMmo0Qk3SAYIBQVVfeXFMTU1ac2pLUU1YMy1aNHNUUFdCU3Q3WEVacW9kcEc4RjRuanZfRDdVZlFwNzBXTUwyZi1fSFBSbVBSQVNUZVhyYnNRdWNQODd1NV95SDVyQ3ZEUUl1QmRDbkF2OVlfblF6dTVsX3o1cU5VOHBDRHFQMDgtNE5PWEhaUmpCQQ?oc=5"
+        },
+        {
+          "publisher": "Yahoo Finance",
+          "title": "Amazon earnings live: Q3 earnings miss sends stock lower",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQS25wajNyNlducS0xMWQ0VnVtTGRnLUNFRHhkMGRwVS1ObV9MNWc1VzVsSlUtUmk1Q3JkeEJoaHRYSHZQTnR3a1ByZkkzOWhXYTVfZ0tHblhVdWpXdTM0cDNFLTFlN1BWVm5DUTlqY1BWNVI0NVc5OGNjeEhmTzVUelhDMnFkbWh0S3Y3ZTdfZ2VyS0x3MHV4Y1ZkVTBmd2hCZFBMYzlxemxVWHY2Ti1DRUN5QW5FVzA?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Trump Declares Foreign Robot Imports a National Security Threat",
+      "title_ja": "トランプ大統領、外国製ロボット輸入を安全保障上の脅威に指定",
+      "summary_ja": "トランプ大統領は外国製産業用ロボットの輸入を安全保障上の脅威と指定し、180日以内の協議を命じました。合意に至らない場合、関税などの規制措置を課す方針を示しています。",
+      "why_ja": "自動車や航空宇宙などの米国製造業自動化ラインに影響を及ぼし、ロボット技術で強みを持つ日欧の製造業サプライチェーンや対米貿易交渉に大きな波及効果を持ちます。",
+      "section": "tech",
+      "topic_key": "trump-robot-import-tariffs-security",
+      "companies": [
+        "General Motors",
+        "Ford",
+        "Tesla",
+        "Boeing",
+        "Lockheed Martin"
+      ],
+      "sources": [
+        {
+          "publisher": "Ars Technica",
+          "title": "Trump declares robot imports a national security threat",
+          "url": "https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/"
+        }
+      ]
+    },
+    {
+      "title_en": "DoorDash Agrees to Acquire Instacart for $17 Billion",
+      "title_ja": "DoorDashが170億ドルでInstacartを買収合意",
+      "summary_ja": "DoorDashが競合のInstacartを170億ドルで買収することに合意しました。外食デリバリーと食品スーパー配送の首位同士が統合し、物流基盤と店舗向けデジタルツールを融合します。",
+      "why_ja": "オンライン配達市場の巨大再編であり、ラストワンマイル物流の効率化や小売店舗のデジタル化支援を巡る競合プラットフォームとの対向軸が形成されます。",
+      "section": "tech",
+      "topic_key": "doordash-instacart-acquisition",
+      "companies": [
+        "DoorDash",
+        "Instacart"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "DoorDash to acquire Instacart for $17B",
+          "url": "https://techcrunch.com/2026/10/29/doordash-to-acquire-instacart-for-17b/"
+        }
+      ]
+    },
+    {
+      "title_en": "NYU Langone Integrates OpenEvidence AI Across EHR",
+      "title_ja": "NYU Langone、全院の電子カルテにOpenEvidence AIを導入",
+      "summary_ja": "NYU Langone Healthが臨床用AIのOpenEvidenceを電子カルテシステムに全院統合しました。医師はEpicカルテ画面から離れることなく、患者データに基づいた最新の査読済み論文調査を行えます。",
+      "why_ja": "臨床現場の電子カルテワークフローに生成AIと検索技術を直接組み込む先進事例であり、医療現場での事務負担軽減とエビデンスに基づく医療の普及を加速させます。",
+      "section": "health",
+      "topic_key": "nyu-langone-openevidence-ehr-integration",
+      "companies": [
+        "NYU Langone Health",
+        "OpenEvidence",
+        "Epic"
+      ],
+      "sources": [
+        {
+          "publisher": "Fierce Healthcare",
+          "title": "NYU Langone brings OpenEvidence’s clinical AI into the EHR systemwide",
+          "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/nyu-langone-brings-openevidences-clinical-ai-ehr-systemwide"
+        }
+      ]
+    },
+    {
+      "title_en": "US and Japan Agree on Joint Missile Production in Japan",
+      "title_ja": "日米、日本国内でのミサイル共同生産に合意",
+      "summary_ja": "日米両政府は日本国内に新たなミサイル共同生産拠点を設置することに合意しました。アジアでの軍事展開を深める中国を念頭に、防衛装備の生産能力と備蓄を拡充します。",
+      "why_ja": "日米安全保障同盟の防衛産業基盤を直接連携させる重要な一歩であり、日本の技術力を活かした装備供給能力の向上と地域の抑止力強化につながります。",
+      "section": "world",
+      "topic_key": "us-japan-joint-missile-production",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "NPR",
+          "title": "US and Japan agree to establish a Japanese facility for joint missile production",
+          "url": "https://www.npr.org/2026/10/29/g-s1-150666/us-and-japan-agree-to-establish-a-japanese-facility-for-joint-missile-production"
+        }
+      ]
+    },
+    {
+      "title_en": "ECB President Christine Lagarde to Step Down Early",
+      "title_ja": "ECBラガルド総裁が来年2月に早期退任へ",
+      "summary_ja": "欧州中央銀行のラガルド総裁が、任期を9か月残して2027年2月に退任することを表明しました。中央銀行の中立義務を離れ、国際情勢において発言の自由を得たい旨を説明しています。",
+      "why_ja": "フランス大統領選を見据えた政治的タイミングでの最高幹部交代となり、インフレ圧力が残るユーロ圏の金融政策および指導体制の激変を意味します。",
+      "section": "world",
+      "topic_key": "ecb-christine-lagarde-early-resignation",
+      "companies": [
+        "European Central Bank"
+      ],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "European Central Bank President Lagarde to step down early",
+          "url": "https://www.aljazeera.com/news/2026/10/29/european-central-bank-president-lagarde-to-step-down-early?traffic_source=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Europe’s central bank chief, Christine Lagarde, steps down for ‘freedom of speech’",
+          "url": "https://www.theguardian.com/world/2026/oct/29/european-central-bank-chief-christine-lagarde-to-step-down-nine-months-early"
+        }
+      ]
+    },
+    {
+      "title_en": "Netanyahu Coalition Falls Short of Majority in Final Israel Election Results",
+      "title_ja": "イスラエル総選挙、ネタニヤフ与党連合が過半数を割り込む",
+      "summary_ja": "イスラエル総選挙の公式開票が終了し、ネタニヤフ首相の右派連合は53議席にとどまり過半数の61議席を逃しました。アイゼンコット氏率いる野党連合が政権樹立に向け連立協議を進めています。",
+      "why_ja": "ネタニヤフ政権の継続可否と中東外交・安全保障政策の不透明感が高まり、アラブ系政党を含めた非常に複雑な政権交代交渉が始まっています。",
+      "section": "world",
+      "topic_key": "israel-general-election-final-results",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Israel election result shows no overall majority as vote count complete",
+          "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete?traffic_source=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Netanyahu attacks Palestinian-Israeli parties as he falls short of majority",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/netanyahu-attacks-palestinian-israeli-parties-as-he-falls-short-of-majority?traffic_source=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Israel election results: Qatar says accusations of election interference in Israel ‘ridiculous and dangerous’ – as it happened",
+          "url": "https://www.theguardian.com/world/live/2026/oct/29/israel-election-results-live-updates-poll-netanyahu-eisenkot-bloc-coalition-latest-news"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Israeli leader Netanyahu accused of using ‘ugly’ smear tactics to cling to power",
+          "url": "https://www.theguardian.com/world/2026/oct/29/israeli-leader-netanyahu-accused-of-using-ugly-smear-tactics-to-cling-to-power"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+          "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "NPR",
+          "title": "GDP report to give insight before Election Day. And, Israel's election is deadlocked",
+          "url": "https://www.npr.org/2026/10/29/g-s1-150614/up-first-newsletter-midterm-elections-gdp-inflation-israel-department-of-education-lawsuit"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Netanyahu bloc loses majority as most ballots counted – as it happened",
+          "url": "https://www.theguardian.com/world/live/2026/oct/28/israel-election-results-live-updates-exit-polls-netanyahu-likud-eisenkot-latest-news"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "plummet",
+      "meaning_ja": "急落する",
+      "note_ja": "株価や数値が激しく急速に落ち込む様子を表します。",
+      "example_en": "Intel stock plummeted up to 22 percent on Thursday."
+    },
+    {
+      "term": "sales forecast",
+      "meaning_ja": "売上見通し、業績予想",
+      "note_ja": "企業が将来の売上高を見込んでいる数値のことです。",
+      "example_en": "The legacy chipmaker posted strong earnings for the third quarter, but gave a very weak sales forecast for the fourth quarter."
+    },
+    {
+      "term": "contract manufacturing",
+      "meaning_ja": "受託製造（ファウンドリ）",
+      "note_ja": "他社が設計した製品の製造工程を引き受けるビジネス形態です。",
+      "example_en": "Contract manufacturing means making chips designed by other companies."
+    },
+    {
+      "term": "capital expenditure",
+      "meaning_ja": "設備投資（capex）",
+      "note_ja": "建物やデータセンター、工場などの固定資産に対する支出です。",
+      "example_en": "Capital expenditure, or capex, is the money a company spends to buy building facilities and high-tech computer servers."
+    },
+    {
+      "term": "profit margin",
+      "meaning_ja": "利益率",
+      "note_ja": "売上高に占める利益の割合を示す指標です。",
+      "example_en": "When advertising revenue slows down, heavy spending cuts directly into profit margins."
+    },
+    {
+      "term": "vulnerability",
+      "meaning_ja": "脆弱性、弱点",
+      "note_ja": "セキュリティやシステム上の欠陥を指す言葉です。",
+      "example_en": "The report found that reliance on foreign factory robots risks harming the American industrial base and creates potential cybersecurity vulnerabilities."
+    },
+    {
+      "term": "tariff",
+      "meaning_ja": "関税",
+      "note_ja": "国が輸入製品に課す税金のことです。",
+      "example_en": "Tariffs are taxes placed on imported goods."
+    },
+    {
+      "term": "mega-merger",
+      "meaning_ja": "超大型の企業合併",
+      "note_ja": "業界の大手同士が統合する超大型取引に使われます。",
+      "example_en": "DoorDash agreed to acquire rival delivery service Instacart for 17 billion dollars in a massive online delivery mega-merger announced on Thursday."
+    },
+    {
+      "term": "join forces",
+      "meaning_ja": "力を合わせる、提携する",
+      "note_ja": "複数の企業や組織が共通の目的のために協力することです。",
+      "example_en": "Why are these two delivery giants deciding to join forces right now?"
+    },
+    {
+      "term": "peer-reviewed",
+      "meaning_ja": "査読済みの",
+      "note_ja": "専門家による検証と審査を通った学術論文・研究です。",
+      "example_en": "It reads latest peer-reviewed medical research and compares it directly with the patient's record inside the hospital system."
+    },
+    {
+      "term": "fall short of",
+      "meaning_ja": "〜に届かない、〜に満たない",
+      "note_ja": "目標や必要とされる数に達しない状況で使われます。",
+      "example_en": "Prime Minister Benjamin Netanyahu's right-wing coalition fell short of a parliamentary majority."
+    },
+    {
+      "term": "step down",
+      "meaning_ja": "辞任する、退任する",
+      "note_ja": "重要職や役職から自ら身を引くことを指します。",
+      "example_en": "European Central Bank President Christine Lagarde announced she will step down on February 7, nine months before her term ends."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "fall short of",
+    "meaning_ja": "〜に届かない、〜に及ばない",
+    "example_en": "The company's quarterly sales fell short of expectations.",
+    "example_ja": "その会社の四半期売上高は予想に届きませんでした。"
+  }
+}
