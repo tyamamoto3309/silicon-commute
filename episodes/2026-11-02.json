@@ -1,0 +1,1159 @@
+{
+  "date": "2026-11-02",
+  "published": "2026-11-02T05:27:27+09:00",
+  "title_en": "Apple CEO Transition, Record Binance Breach, and Clinical AI Rules",
+  "title_ja": "Apple新CEO就任、Binance巨額不正流出、臨床AI規制の行方",
+  "summary_ja": "AppleでTim Cook氏が退任しハードウェア責任者のJohn Ternus氏が新CEOに就任したほか、Binanceが北朝鮮によるとされる63億ドルの不正流出から出金を再開しました。デジタルヘルス分野では、米連邦当局が臨床AIをめぐる州との規制摩擦の回避に向けて水面下で調整を加速させています。世界情勢ではホルムズ海峡再開に向けた米イラン協議や欧州の物価高抗議デモ、インドの選挙名簿削除をめぐる大規模抗議を報じます。",
+  "duration": 1118.9,
+  "audio": {
+    "file": "2026-11-02.mp3",
+    "bytes": 8951736,
+    "release_tag": "ep-2026-11-02"
+  },
+  "word_count": 2074,
+  "ja_chars": 1428,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.8-flash",
+    "write": "gemini-3.8-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Monday Morning Briefing",
+      "heading_ja": "月曜朝のニュースブリーフィング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it is Monday, November 2. This is Commute News. I am Alex in Tokyo.",
+          "ja": "おはようございます。11月2日月曜日、Commute Newsです。東京のAlexがお届けします。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "And I am Mika in Kyoto. Today, Apple names John Ternus as its new leader.",
+          "ja": "そして京都のMikaです。本日は、Appleが新リーダーにJohn Ternus氏を指名した話題です。",
+          "t": 6.06
+        },
+        {
+          "speaker": "Alex",
+          "en": "We also look at a record cryptocurrency hack linked to North Korea, and a big French internet tax.",
+          "ja": "さらに、北朝鮮に関連した過去最大規模の暗号資産ハッキングや、フランスの大規模なインターネット課税法案を取り上げます。",
+          "t": 11.67
+        },
+        {
+          "speaker": "Mika",
+          "en": "In digital health, United States regulators try to fix rules for clinical artificial intelligence. And in world news, diplomats talk in Qatar to reopen a key waterway.",
+          "ja": "デジタルヘルスでは、米規制当局が臨床AIの統一ルール整備を急ぐ動きを、国際ニュースでは要衝の海峡再開に向けたカタールでの外交協議をお伝えします。",
+          "t": 18.7
+        },
+        {
+          "speaker": "Alex",
+          "en": "Let us get started with today's top stories.",
+          "ja": "それでは、本日のトップニュースから見ていきましょう。",
+          "t": 29.68
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Tim Cook Steps Down as Apple CEO, Succeeded by John Ternus",
+      "heading_ja": "AppleのTim Cook氏がCEO退任、後任はJohn Ternus氏",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Apple has announced a major leadership change. Longtime chief executive Tim Cook is stepping down from his post. John Ternus, who led hardware engineering, officially took over as the new chief executive.",
+          "ja": "Appleが大規模な経営体制の刷新を発表しました。長年CEOを務めてきたTim Cook氏が退任し、ハードウェア部門を率いてきたJohn Ternus氏が正式に新CEOへ就任しました。",
+          "t": 33.63
+        },
+        {
+          "speaker": "Mika",
+          "en": "Tim Cook led Apple for fifteen years. Why did the board pick John Ternus as leader?",
+          "ja": "Tim Cook氏は15年間Appleを牽引してきましたね。取締役会はなぜ今、John Ternus氏を選んだのでしょうか？",
+          "t": 46.73
+        },
+        {
+          "speaker": "Alex",
+          "en": "Ternus has worked at Apple for over two decades. He oversaw the engineering of major devices, including the iPhone, iPad, and Mac computers. The company wants a steady hardware leader as it builds more artificial intelligence into its devices.",
+          "ja": "Ternus氏は20年以上Appleに在籍しています。iPhoneやiPad、Macなどの主力端末の開発を統括してきました。同社は端末へのAI統合を進めるにあたり、信頼できるハードウェアのリーダーを求めています。",
+          "t": 52.9
+        },
+        {
+          "speaker": "Mika",
+          "en": "Is Apple changing its direction on artificial intelligence under this new leadership?",
+          "ja": "新体制のもとで、AppleのAI戦略の方向性は変わるのでしょうか？",
+          "t": 68.23
+        },
+        {
+          "speaker": "Alex",
+          "en": "Ternus recently explained his vision in an interview with Wired. He stated that Apple will not ship artificial intelligence just for the sake of it. He wants technology to feel natural. For example, Apple launched its updated Siri assistant this summer after careful testing. Ternus believes customers care about great products, not buzzwords.",
+          "ja": "Ternus氏は最近、Wired誌のインタビューで方針を語りました。単に話題作りのためだけにAIを搭載することはないと述べています。技術が自然に溶け込むことを重視しており、今夏に導入した刷新版Siriのように、流行語ではなく愛される製品作りを追求する姿勢です。",
+          "t": 74.52
+        },
+        {
+          "speaker": "Mika",
+          "en": "What does this mean for the global technology market?",
+          "ja": "これが世界のテクノロジー市場にどのような意味を持つのでしょうか？",
+          "t": 95.57
+        },
+        {
+          "speaker": "Alex",
+          "en": "Competitors like Google and Microsoft move very fast with artificial intelligence. However, Apple is focusing on its strong hardware base and user loyalty. He also said making great products remains a deeply human craft that Apple loves.",
+          "ja": "GoogleやMicrosoftなどの競合はAI開発を急速に進めています。しかしAppleは強固なハードウェア基盤と顧客の信頼を重視しています。優れた製品を作ることは人間的な営みであり、それこそが自社の強みだと説明しています。",
+          "t": 100.03
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Apple chose a trusted hardware expert to guide its practical artificial intelligence strategy.",
+          "ja": "つまり要するに、Appleは実績あるハードウェア責任者を選び、実用的なAI戦略を進めようとしているのですね。",
+          "t": 115.01
+        }
+      ],
+      "lang": "en",
+      "t": 33.63
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。Appleの最高経営責任者であるTim Cook氏が退任し、ハードウェア責任者のJohn Ternus氏が新CEOに就任しました。Ternus氏は見せかけのAIではなく利用者に愛される実用的な製品作りを優先すると強調しており、ハードウェアを基盤とした今後のAI戦略が注目されます。",
+          "en": "",
+          "lang": "ja",
+          "t": 122.62
+        }
+      ],
+      "t": 122.62
+    },
+    {
+      "kind": "story",
+      "heading_en": "Binance Restores Withdrawals After $6.3B Breach Attributed to North Korea",
+      "heading_ja": "Binance、北朝鮮関与の63億ドル流出を経て出金を段階再開",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Cryptocurrency exchange Binance has started reopening customer withdrawals after a record cyber theft. Hackers stole 6.3 billion dollars worth of digital tokens on October 29.",
+          "ja": "暗号資産交換所のBinanceが、過去最大級のサイバー攻撃を経て顧客の出金手続きを段階的に再開しました。10月29日にハッカーによって63億ドル相当のトークンが不正流出していました。",
+          "t": 147.97
+        },
+        {
+          "speaker": "Mika",
+          "en": "Six point three billion dollars is a massive amount. Who carried out this attack?",
+          "ja": "63億ドルとは途方もない金額ですね。誰がこの攻撃を実行したのでしょうか？",
+          "t": 159.4
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Federal Bureau of Investigation named a North Korean hacking group called TraderTraitor. Investigators found that the hackers quickly changed stolen tokens into Ethereum. They are now trying to hide the money through digital payment channels.",
+          "ja": "米連邦捜査局（FBI）は、TraderTraitorと呼ばれる北朝鮮のハッカー集団を名指ししました。捜査当局によると、攻撃者は盗んだトークンを速やかにEthereumに交換し、追跡を逃れるため資金洗浄を図っています。",
+          "t": 165.45
+        },
+        {
+          "speaker": "Mika",
+          "en": "How is Binance protecting users who lost their funds in this incident?",
+          "ja": "Binanceは被害に遭った利用者をどのように保護しているのですか？",
+          "t": 180.94
+        },
+        {
+          "speaker": "Alex",
+          "en": "Binance froze all deposits and withdrawals right after the hack to stop further damage. The company announced that it has already replaced 95 percent of the stolen assets. Binance promised that users will not lose any money. The exchange is paying for the losses from its own funds.",
+          "ja": "Binanceは被害拡大を防ぐため直後に入出金を全面停止しました。すでに流出資産の95%を補填したと発表しており、顧客に損失を負わせないと約束しています。取引所自身の資金で損失を全額穴埋めする方針です。",
+          "t": 186.37
+        },
+        {
+          "speaker": "Mika",
+          "en": "Are all services back to normal for Binance customers today?",
+          "ja": "本日時点で、利用者のサービスはすべて通常通りに戻ったのでしょうか？",
+          "t": 203.91
+        },
+        {
+          "speaker": "Alex",
+          "en": "Withdrawals are resuming in phases, depending on the network. Bitcoin and Ethereum withdrawals still face partial delays. Binance warned users that processing times might be slow because many people are moving funds at once. Binance said its teams are still working hard to buy back the remaining five percent of less common tokens.",
+          "ja": "出金はネットワークごとに段階的に再開されています。BitcoinやEthereumの出金は依然として一部遅延しています。アクセス集中のため処理に時間がかかる可能性があるほか、市場流通量の少ない残り5%のトークンの調達を急いでいます。",
+          "t": 208.77
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Binance is covering a record 6.3 billion dollar hack linked to North Korea as withdrawals slowly resume.",
+          "ja": "つまり要するに、Binanceは北朝鮮が関与した過去最大の63億ドル被害を全額負担しつつ、慎重に出金を再開しているのですね。",
+          "t": 229.17
+        }
+      ],
+      "lang": "en",
+      "t": 147.97
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "暗号資産交換業大手のBinanceは、北朝鮮のハッカー集団TraderTraitorによるとされる63億ドルの不正流出を受け停止していた出金を段階的に再開しました。同社は流出資産の95%をすでに補填し、顧客に損失を負わせない方針を示していますが、巨額の被害は暗号資産の安全管理に大きな課題を突きつけています。",
+          "en": "",
+          "lang": "ja",
+          "t": 237.34
+        }
+      ],
+      "t": 237.34
+    },
+    {
+      "kind": "story",
+      "heading_en": "French Lawmakers Approve €10 Billion Bandwidth Tax Targeting Big Tech",
+      "heading_ja": "仏下院、巨大IT企業を狙う100億ユーロの通信量課税案を可決",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "French lawmakers have voted to add a new tax on internet traffic to the national budget. The measure targets companies that send large amounts of data to French users. It could raise about 10 billion euros, or roughly 11.2 billion dollars, every year.",
+          "ja": "フランスの議員団が、インターネット通信量に応じた新税を国家予算案に盛り込むことを可決しました。国内利用者に大量のデータを配信する企業が対象で、年間約100億ユーロ（約112億ドル）の税収を見込んでいます。",
+          "t": 262.52
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does this proposed tax actually work?",
+          "ja": "この提案されている新税は、具体的にどのような仕組みなのですか？",
+          "t": 278.29
+        },
+        {
+          "speaker": "Alex",
+          "en": "The plan charges content providers 0.055 euros, or about six cents, for every gigabyte of data delivered. Lawmakers designed the tax to cover heavy traffic from video streaming and social networks. Major tech firms like Google, Netflix, Meta, Amazon, and TikTok are the main targets.",
+          "ja": "配信事業者に対し、データ1ギガバイトあたり0.055ユーロ（約6セント）を課税する計画です。動画配信やSNSによる膨大なトラフィックを想定しており、GoogleやNetflix、Meta、Amazon、TikTokなどの巨大IT企業が主な対象です。",
+          "t": 282.07
+        },
+        {
+          "speaker": "Mika",
+          "en": "Will this tax mean higher monthly bills for regular consumers?",
+          "ja": "この課税によって、一般の消費者の月々の利用料金が高くなるのでしょうか？",
+          "t": 299.66
+        },
+        {
+          "speaker": "Alex",
+          "en": "Supporters say the tax will be paid entirely by tech platforms, not consumers. They point out that services like Instagram and TikTok are free. But French government officials and business critics worry companies will pass these costs along. The rule caps the tax at fifteen percent of French revenue or two percent of global revenue.",
+          "ja": "賛成派は、費用はIT企業が負担し消費者に転嫁されないと主張し、無料サービスを例に挙げています。しかし政府高官や業界は最終的な負担転嫁を懸念しています。なお、税額には仏国内売上の15%または世界売上の2%という上限が設けられています。",
+          "t": 304.64
+        },
+        {
+          "speaker": "Mika",
+          "en": "Has the measure become official French law yet?",
+          "ja": "この法案は、すでにフランスの正式な法律として成立したのですか？",
+          "t": 325.15
+        },
+        {
+          "speaker": "Alex",
+          "en": "Not yet. The bill passed the National Assembly by a narrow vote of eleven to ten. It still must pass the French Senate before becoming law. Telecom providers would measure data traffic each quarter to calculate the fees.",
+          "ja": "まだです。下院の委員会では11対10の僅差で可決された段階で、成立には上院の承認が必要です。導入された場合、通信事業者が四半期ごとにデータ量を測定して税額を算出することになります。",
+          "t": 329.26
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, France is considering a 10 billion euro data tax on major streaming and internet platforms.",
+          "ja": "つまり要するに、フランスは大手動画配信やネット企業を対象に100億ユーロ規模のデータ通信税を検討しているのですね。",
+          "t": 343.26
+        }
+      ],
+      "lang": "en",
+      "t": 262.52
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "フランス国民議会は、GoogleやNetflixなどの大手コンテンツ事業者に対し、1ギガバイトあたり約0.055ユーロを課税し年間約100億ユーロを徴収する法案を予算案に追加しました。通信網の費用負担を巨大IT企業に求める動きですが、法案成立には上院の承認が必要で、消費者への転嫁をめぐる議論も続いています。",
+          "en": "",
+          "lang": "ja",
+          "t": 351.14
+        }
+      ],
+      "t": 351.14
+    },
+    {
+      "kind": "story",
+      "heading_en": "Fujifilm to Boost Magnetic Tape Production Fivefold for AI Archiving",
+      "heading_ja": "Fujifilm、AIデータ保管需要で磁気テープ生産を5倍に増強",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Japan-based Fujifilm announced plans to boost its production capacity for magnetic data tape fivefold. The company will invest about 10 billion yen, or roughly 63 million dollars, into its factory in Kanagawa Prefecture.",
+          "ja": "日本のFujifilmが、データ保存用磁気テープの生産能力を5倍に引き上げる計画を発表しました。同社は神奈川県の拠点におよそ100億円（約6300万ドル）を投資します。",
+          "t": 377.47
+        },
+        {
+          "speaker": "Mika",
+          "en": "Magnetic tape sounds like old technology. Why is demand growing so fast today?",
+          "ja": "磁気テープというと昔の技術のように聞こえますが、なぜ今これほど需要が急増しているのですか？",
+          "t": 392.1
+        },
+        {
+          "speaker": "Alex",
+          "en": "Generative artificial intelligence requires massive amounts of training data. Cloud providers and large data centers must store vast amounts of information for decades. Magnetic tape is much cheaper to operate than hard drives, and it uses far less electricity.",
+          "ja": "生成AIには膨大な学習データが必要です。クラウド事業者やデータセンターは何十年分もの情報を保存しなければなりません。磁気テープはハードディスクよりも運用コストが大幅に安く、電力消費も極めて少なくて済みます。",
+          "t": 398.25
+        },
+        {
+          "speaker": "Mika",
+          "en": "Is there also a cybersecurity benefit to using physical tape?",
+          "ja": "物理的なテープを使うことで、サイバーセキュリティ上の利点もあるのでしょうか？",
+          "t": 415.33
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, absolutely. Data on tape can be stored offline, completely disconnected from the internet. Security experts call this an air gap. If hackers attack a cloud network with ransomware, the offline tape backup remains completely safe and untouched.",
+          "ja": "まさにその通りです。テープ上のデータはネットから完全に切り離されたオフラインで保管できます。専門家はこれをエアギャップと呼びます。クラウドがランサムウェア攻撃を受けても、オフラインのテープ保管データは安全に保護されます。",
+          "t": 420.47
+        },
+        {
+          "speaker": "Mika",
+          "en": "What will Fujifilm produce with this new investment?",
+          "ja": "今回の新たな設備投資で、Fujifilmは何を製造する予定ですか？",
+          "t": 436.77
+        },
+        {
+          "speaker": "Alex",
+          "en": "The company is expanding production of its latest product, called LTO Ultrium 10 tape. This generation uses advanced magnetic particles to pack huge amounts of data onto a single cartridge. The expansion will run from fiscal year 2026 through 2028.",
+          "ja": "最新製品であるLTO Ultrium 10テープの増産を進めます。最新の磁性体材料を活用し、1巻のカセットに超大容量データを記録できます。増産計画は2026年度から2028年度にかけて行われます。",
+          "t": 441.37
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Fujifilm is expanding magnetic tape production fivefold to meet rising global artificial intelligence storage needs.",
+          "ja": "つまり要するに、Fujifilmは世界的なAIデータ保管の急増に対応するため、磁気テープ生産を5倍に拡大するのですね。",
+          "t": 457.68
+        }
+      ],
+      "lang": "en",
+      "t": 377.47
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "FujifilmはAI普及によるデータ保管需要の急増を受け、神奈川県の工場に約100億円を投じて磁気テープの生産能力を5倍に引き上げます。磁気テープは低コストで消費電力が少なく、ネットから遮断して保管できるため、ランサムウェア対策やAIの長期データ保存手段として世界の大手クラウド事業者から再評価されています。",
+          "en": "",
+          "lang": "ja",
+          "t": 466.93
+        }
+      ],
+      "t": 466.93
+    },
+    {
+      "kind": "story",
+      "heading_en": "General Motors Reaches $220M Settlement Over Driver Data Tracking",
+      "heading_ja": "GM、運転データの無断収集・保険会社提供で2億2000万ドル和解",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "General Motors has agreed to pay 220 million dollars to settle claims about customer data tracking. The automaker reached the agreement with thirty-five United States states and Washington, D.C.",
+          "ja": "General Motors（GM）が、利用者の運転データ収集に関する訴訟で2億2000万ドルを支払う和解に合意しました。米国の35州およびワシントンDCと合意に達しました。",
+          "t": 493.87
+        },
+        {
+          "speaker": "Mika",
+          "en": "What did General Motors do with driver information to cause this lawsuit?",
+          "ja": "GMは運転者のデータをどのように扱い、今回の提訴に発展したのでしょうか？",
+          "t": 505.91
+        },
+        {
+          "speaker": "Alex",
+          "en": "GM collected driving habits through a feature called Smart Driver. It tracked how fast people drove, hard braking, and late-night driving. GM then shared this information with data brokers, who sold it to car insurance companies.",
+          "ja": "GMはSmart Driver機能を通じて運転習慣のデータを収集していました。速度や急ブレーキ、深夜走行を記録し、そのデータを仲介業者経由で自動車保険会社に売却していました。",
+          "t": 511.3
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did car owners know that their personal driving records were being sold?",
+          "ja": "車のオーナーたちは、自分の運転データが保険会社に売られていると知っていたのですか？",
+          "t": 525.27
+        },
+        {
+          "speaker": "Alex",
+          "en": "Many drivers said they never agreed to share their habits with insurers. Some drivers saw their car insurance rates jump suddenly without explanation. Earlier this year, GM settled with federal regulators. It agreed to stop sharing driver location and behavior data for five years.",
+          "ja": "多くのドライバーは情報提供に同意した覚えがないと主張し、身に覚えのない保険料の値上げに見舞われました。今年初め、GMは米連邦当局とも和解し、位置情報や運転データの第三者提供を5年間停止することに同意していました。",
+          "t": 530.61
+        },
+        {
+          "speaker": "Mika",
+          "en": "How will this new settlement change how the company operates?",
+          "ja": "今回の新たな州との和解によって、GMの事業運用はどう変わるのでしょうか？",
+          "t": 547.44
+        },
+        {
+          "speaker": "Alex",
+          "en": "GM will shut down Smart Driver across all its vehicles. An independent third party will monitor GM to make sure it follows strict privacy rules. GM stated it is dedicated to protecting customer choices and being clear about data usage.",
+          "ja": "GMは全車種でSmart Driverの提供を終了します。また、独立した第三者機関が同社のプライバシー遵守状況を監査します。GMは顧客の選択権を尊重し、透明性を確保するとコメントしています。",
+          "t": 552.16
+        },
+        {
+          "speaker": "Alex",
+          "en": "This case sets a strong warning for all car companies that collect data from connected vehicles.",
+          "ja": "この事例は、コネクテッドカーから走行データを集めるすべての自動車メーカーへの強い警告となります。",
+          "t": 566.46
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, General Motors agreed to a 220 million dollar settlement for selling customer driving data to insurance firms.",
+          "ja": "つまり要するに、GMは顧客の運転データを保険会社に販売していた問題で2億2000万ドルの和解に応じたのですね。",
+          "t": 573.12
+        }
+      ],
+      "lang": "en",
+      "t": 493.87
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "General Motorsは、車載機能Smart Driverを通じて運転データを無断で収集し保険会社に販売していた問題で、全米35州などと2億2000万ドルの和解に合意しました。この機能はすでに廃止され、外部機関による監視を受けます。コネクテッドカーにおける利用者のプライバシー保護の重要性を強く示す事例となりました。",
+          "en": "",
+          "lang": "ja",
+          "t": 581.31
+        }
+      ],
+      "t": 581.31
+    },
+    {
+      "kind": "health",
+      "heading_en": "FDA and CMS Coordinate to Prevent Impasse Over Clinical AI Pilots",
+      "heading_ja": "米FDAとCMS、州レベルの臨床AI実証めぐり規制調整へ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, our digital health story. Federal health regulators in the United States are working behind the scenes. They want to avoid a conflict with individual states over clinical artificial intelligence.",
+          "ja": "さて、デジタルヘルスのお時間です。米国の連邦保健当局は水面下で調整を進めています。臨床現場での人工知能利用をめぐり、各州との規制の対立を防ぐことが狙いです。",
+          "t": 606.59
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is there tension between state governments and federal agencies?",
+          "ja": "州政府と連邦機関の間で、なぜ摩擦が起きているのでしょうか？",
+          "t": 618.97
+        },
+        {
+          "speaker": "Alex",
+          "en": "In the United States, individual states regulate medical practice and issue licenses to doctors. Meanwhile, the Food and Drug Administration regulates medical devices and software. If an artificial intelligence tool acts like a doctor, both levels of government want oversight.",
+          "ja": "米国では、各州が医療行為を管理し医師の免許を交付します。一方でFDA（食品医薬品局）は医療機器やソフトウェアを審査します。AIが医師のように自律的に機能する場合、双方が監督権を主張することになります。",
+          "t": 624.08
+        },
+        {
+          "speaker": "Mika",
+          "en": "What kinds of clinical tasks are these artificial intelligence tools handling?",
+          "ja": "これらの臨床AIツールは、具体的にどのような医療行為を行っているのですか？",
+          "t": 640.69
+        },
+        {
+          "speaker": "Alex",
+          "en": "Some new programs write medical prescriptions or diagnose conditions without direct human supervision. When software operates on its own, federal officials argue it must pass rigorous reviews to protect patient safety.",
+          "ja": "一部の最新プログラムは、人間の直接の監督なしに処方箋を作成したり診断を下したりしています。ソフトウェアが自律動作する場合、患者の安全を守るため厳格な審査が必要だと連邦当局は主張しています。",
+          "t": 646.36
+        },
+        {
+          "speaker": "Mika",
+          "en": "What are federal leaders doing to solve this jurisdictional overlap?",
+          "ja": "連邦当局はこの管轄権の重複を解消するために何をしているのでしょうか？",
+          "t": 659.72
+        },
+        {
+          "speaker": "Alex",
+          "en": "Officials from the Food and Drug Administration and Medicare are meeting quietly with state leaders. They want clear national guidelines so healthcare startups do not face fifty different sets of state rules. They are also building payment models to support safe clinic trials.",
+          "ja": "FDAやメディケア担当幹部が州の代表と協議を重ねています。医療系新興企業が全米50州で異なるルールに直面するのを防ぐ共通指針の作成や、安全な臨床実証のための診療報酬モデルの構築を目指しています。",
+          "t": 664.83
+        },
+        {
+          "speaker": "Mika",
+          "en": "This balance between safety and rapid innovation is a major topic for health ministries everywhere, including Japan.",
+          "ja": "安全性と迅速な技術革新のバランスは、日本の厚生労働行政を含め世界共通の重要課題ですね。",
+          "t": 681.44
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is true. Clear regulatory rules help doctors trust new digital tools while protecting everyday patient care.",
+          "ja": "その通りです。明確な規制基準があることで、日々の患者の安全を守りつつ、医師も新しいデジタルツールを信頼して活用できます。",
+          "t": 689.2
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, federal health agencies are rushing to align rules with states for clinical artificial intelligence.",
+          "ja": "つまり要するに、米連邦当局は臨床AIのスムーズな普及に向け、州との統一ルール作りを急いでいるのですね。",
+          "t": 696.79
+        }
+      ],
+      "lang": "en",
+      "t": 606.59
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米国のFDAとCMSは、AIが処方や診断を行う臨床現場での利用をめぐり、州政府との管轄権の衝突を防ぐため水面下で調整を進めています。医療行為を監督する州と医療機器を規制する連邦機関の間で統一ルールを早期に整え、患者の安全を保ちながら医療AIの円滑な導入を後押しする狙いがあり、日本の制度設計にも参考になります。",
+          "en": "",
+          "lang": "ja",
+          "t": 704.88
+        }
+      ],
+      "t": 704.88
+    },
+    {
+      "kind": "world",
+      "heading_en": "Diplomats Hold Talks in Qatar to Reopen Strait of Hormuz",
+      "heading_ja": "米イラン、ホルムズ海峡再開へカタールで間接協議",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, a look at the world beyond tech. Diplomats from the United States and Iran are holding indirect talks in Qatar. The goal is to reopen the Strait of Hormuz, one of the world's most critical oil shipping channels.",
+          "ja": "ここからは国際情勢をお伝えします。米国とイランの外交官がカタールで間接協議を行っています。目的は、世界の原油輸送における最重要チョークポイントであるホルムズ海峡の通航再開です。",
+          "t": 731.67
+        },
+        {
+          "speaker": "Mika",
+          "en": "What is blocking the waterway, and what are both sides asking for?",
+          "ja": "航路はなぜ封鎖されており、双方は何を求めているのでしょうか？",
+          "t": 746.22
+        },
+        {
+          "speaker": "Alex",
+          "en": "Iran closed the strait following military conflict with the United States and Israel earlier this year. In Doha, Qatari negotiators are working to release over six billion dollars in frozen Iranian funds. In return, Iran offered to reopen the waterway within two days.",
+          "ja": "今年初頭の米イスラエルとの軍事衝突を受け、イランが海峡を封鎖しました。仲介するカタールは60億ドル以上の凍結資産解除を模索しており、イラン側は見返りとして2日以内の海峡再開を提案しています。",
+          "t": 751.72
+        },
+        {
+          "speaker": "Mika",
+          "en": "Is an agreement close, or do serious risks remain?",
+          "ja": "合意は近いのでしょうか、それとも依然としてリスクが高いのでしょうか？",
+          "t": 769.41
+        },
+        {
+          "speaker": "Alex",
+          "en": "Tensions remain extremely high. On Friday, missiles struck a Qatari natural gas tanker near the strait, despite Tehran granting safe passage. United States officials say they are open to diplomacy, but regional leaders warn that progress is fragile.",
+          "ja": "緊張は依然極めて高い状態です。金曜日にはイラン側が安全通航を許可していたカタールのLNGタンカーがミサイル攻撃を受けました。米国は対話に前向きな姿勢を示すものの、地域の首脳らは協議が非常に脆いと警告しています。",
+          "t": 773.94
+        },
+        {
+          "speaker": "Mika",
+          "en": "For Asian nations like Japan that import Middle Eastern energy, safe passage through the strait is vital.",
+          "ja": "中東エネルギーの輸入に頼る日本などアジア諸国にとって、この海峡の安全確保は死活問題ですね。",
+          "t": 790.49
+        }
+      ],
+      "lang": "en",
+      "t": 731.67
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米国とイランは、要衝ホルムズ海峡の再開に向け、カタールを仲介として間接協議を行っています。イランは60億ドル以上の凍結資産解除などを条件に2日以内の海峡再開を提案していますが、周辺でのタンカー攻撃もあり予断を許しません。中東エネルギーに依存する日本にとっても、海上輸送路の安定確保は極めて重要です。",
+          "en": "",
+          "lang": "ja",
+          "t": 798.34
+        }
+      ],
+      "t": 798.34
+    },
+    {
+      "kind": "world",
+      "heading_en": "Cost-of-Living Protests Spark Violent Clashes Across Germany and France",
+      "heading_ja": "独仏で物価高抗議デモが激化、警官隊との衝突や略奪に発展",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Protests over the rising cost of living turned violent across several European cities over the weekend. Major unrest broke out in Germany and France as tens of thousands marched against high prices and poor public services.",
+          "ja": "週末、欧州の複数の都市で生活費高騰に対する抗議行動が暴徒化しました。ドイツやフランスで物価高や公共サービスの悪化を訴える数万人規模のデモが行われ、各地で衝突が発生しました。",
+          "t": 824.15
+        },
+        {
+          "speaker": "Mika",
+          "en": "Where did the worst damage and clashes take place?",
+          "ja": "最も激しい被害や衝突はどこで発生したのですか？",
+          "t": 839.13
+        },
+        {
+          "speaker": "Alex",
+          "en": "In Frankfurt, Germany, rioters damaged shops and injured more than one hundred police officers. Police arrested fifty-four people. In France, about 320,000 demonstrators took to the streets on Saturday night. Violence flared in Paris, where rioters threw petrol bombs at police.",
+          "ja": "ドイツのフランクフルトでは暴徒が店舗を荒らし、100人以上の警察官が負傷、54人が逮捕されました。フランスでは土曜夜に約32万人がデモに参加し、パリで警察に向けて火炎瓶が投げられるなど衝突が起きました。",
+          "t": 843.66
+        },
+        {
+          "speaker": "Mika",
+          "en": "Who organized these protests, and what were their demands?",
+          "ja": "これらのデモは誰が呼びかけ、何を求めていたのでしょうか？",
+          "t": 861.96
+        },
+        {
+          "speaker": "Alex",
+          "en": "A youth campaign called Gen Z regelt organized the rallies across Germany, demanding cheaper housing and better education. The group quickly distanced itself from the violence. French and German officials strongly condemned the riots, promising tough penalties for those responsible for looting and assaults.",
+          "ja": "ドイツでは若者団体Gen Z regeltが住宅難の解消や教育改善を訴えてデモを主導しましたが、暴力行為とは即座に距離を置きました。独仏の当局は暴徒化を強く非難し、略奪や暴力に対して厳罰で臨む方針です。",
+          "t": 866.97
+        },
+        {
+          "speaker": "Alex",
+          "en": "Similar street rallies also occurred in Portugal and Switzerland as economic pressure spreads across Europe.",
+          "ja": "同様の抗議活動はポルトガルやスイスでも発生しており、欧州全体で生活への経済的圧力が広がっています。",
+          "t": 887.08
+        },
+        {
+          "speaker": "Mika",
+          "en": "Rising living costs continue to create severe social tension across major European economies.",
+          "ja": "物価の上昇が、欧州主要国の社会に深刻な分断と緊張をもたらし続けていますね。",
+          "t": 895.11
+        }
+      ],
+      "lang": "en",
+      "t": 824.15
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ドイツやフランスなど欧州各地で、物価高や公共サービスの悪化に抗議する若者主導のデモが一部暴徒化し、警察への放火や店舗の略奪に発展しました。フランクフルトでは100人以上の警察官が負傷し、パリでも多数の逮捕者が出ています。生活困窮に対する市民の不満が深刻化しており、各国の治安や社会の安定が揺らいでいます。",
+          "en": "",
+          "lang": "ja",
+          "t": 902.69
+        }
+      ],
+      "t": 902.69
+    },
+    {
+      "kind": "world",
+      "heading_en": "India Opposition Rallies Over Alleged Voter Roll Removals",
+      "heading_ja": "インド野党、1.3億人の有権者名簿削除疑惑で大規模抗議",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In India, opposition parties held a massive protest demonstration in New Delhi on Sunday. Thousands of demonstrators marched through the heart of the capital. They demanded the immediate resignation of the country's chief election commissioner, Gyanesh Kumar.",
+          "ja": "インドのニューデリーで日曜、野党各党による大規模な抗議デモが行われました。数千人の参加者が首都中心部を行進し、選挙管理委員会の最高責任者であるGyanesh Kumar氏の即時辞任を要求しました。",
+          "t": 928.82
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why are opposition groups so angry with the Election Commission?",
+          "ja": "野党勢力はなぜ選挙管理委員会にこれほど激しく怒っているのですか？",
+          "t": 945.87
+        },
+        {
+          "speaker": "Alex",
+          "en": "Opposition leader Rahul Gandhi accused the commission of unfairly deleting more than 130 million names from national voter rolls. Critics say these deletions target minority groups who often vote against the ruling party. In a dramatic display, demonstrators carried a one-kilometer long banner showing removed names.",
+          "ja": "野党指導者のRahul Gandhi氏は、名簿から1億3000万人分以上の名前が不当に削除されたと主張しています。与党に批判的な少数派コミュニティを標的にしているとの批判があり、抗議者は削除された名簿を記した1キロの横断幕を掲げて行進しました。",
+          "t": 951.21
+        },
+        {
+          "speaker": "Mika",
+          "en": "How have the government and election officials responded to the march?",
+          "ja": "政府や選挙管理当局はこのデモにどう反論しているのでしょうか？",
+          "t": 971.74
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Election Commission denied any political bias. It stated that anyone wrongly removed can submit an application to re-register. Meanwhile, the ruling party accused opposition leaders of undermining public faith in democracy. India's next general election will take place in 2029.",
+          "ja": "選挙管理委員会は政治的偏りを否定し、誤って削除された人は再登録できると説明しました。与党側は野党が民主主義への信頼を損ねていると反論しています。次回のインド総選挙は2029年に予定されています。",
+          "t": 977.44
+        },
+        {
+          "speaker": "Mika",
+          "en": "Trust in fair voting lists remains critical for democratic stability in the world's most populous nation.",
+          "ja": "世界最多の人口を抱えるインドにおいて、公平な選挙人名簿への信頼は民主主義の安定に欠かせませんね。",
+          "t": 995.87
+        }
+      ],
+      "lang": "en",
+      "t": 928.82
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "インドのニューデリーで、選挙管理委員会が有権者名簿から約1億3000万人分を不当に削除したとして、野党指導者のRahul Gandhi氏らが主導する大規模デモが行われ、選挙管理トップの辞任を要求しました。野党側は少数派を排除していると主張する一方、当局は中立性を強調しており、民主主義の根幹をめぐる対立が激化しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 1003.67
+        }
+      ],
+      "t": 1003.67
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch: Apple, Amazon, and Neuralink",
+      "heading_ja": "CEO動向：Apple、Amazon、Neuralink",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In our CEO watch, Apple's new chief executive John Ternus spoke with Wired magazine. He said Apple will not ship artificial intelligence just for the sake of it. He emphasized that great products must be deeply loved by users.",
+          "ja": "CEO動向です。Appleの新CEOに就任したJohn Ternus氏はWired誌に対し、単に話題作りのためにAIを出すことはないと語り、利用者から真に愛される製品作りの重要性を強調しました。",
+          "t": 1031.1
+        },
+        {
+          "speaker": "Mika",
+          "en": "At Amazon, chief executive Andy Jassy said robots will soon replace many repetitive warehouse jobs. He noted that Amazon already operates over one million machines.",
+          "ja": "AmazonのAndy Jassy CEOは、すでに稼働している100万台以上のロボットが、物流倉庫での単純作業の多くを近く代替するだろうと述べました。",
+          "t": 1046.16
+        },
+        {
+          "speaker": "Alex",
+          "en": "Meanwhile, Elon Musk announced that Neuralink's Blindsight device is ready to restore vision for blind patients, pending final regulatory clearance.",
+          "ja": "一方、Elon Musk氏はNeuralinkの視覚回復デバイスBlindsightについて、規制当局の最終承認を待つ段階にあると発表しました。",
+          "t": 1057.51
+        }
+      ],
+      "lang": "en",
+      "t": 1031.1
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: Behind the Scenes",
+      "heading_ja": "本日の表現：Behind the scenes",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, our Phrase of the Day. Mika, what expression caught your attention?",
+          "ja": "ここからは本日のフレーズです。Mikaさん、気になった表現はありましたか？",
+          "t": 1068.34
+        },
+        {
+          "speaker": "Mika",
+          "en": "Today's phrase is \"behind the scenes.\" We heard that federal health regulators are working behind the scenes with state leaders. It means working quietly out of public view, without making a big announcement.",
+          "ja": "今日のフレーズは「behind the scenes」です。医療AIのニュースで、米連邦当局が州と水面下で調整しているという文脈で登場しました。大々的な発表をせず、表に出ないところで静かに作業を進めるという意味です。",
+          "t": 1073.09
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is a very useful expression. How can our listeners use it at work?",
+          "ja": "ビジネスでも非常によく使われる表現ですね。職場でどう使えますか？",
+          "t": 1084.49
+        },
+        {
+          "speaker": "Mika",
+          "en": "For example, you can say: \"Our team worked behind the scenes to prepare the new hospital guidelines.\"",
+          "ja": "例えば、「私たちのチームは新しい病院指針の策定に向けて、水面下で準備を進めました」のように使えます。",
+          "t": 1089.19
+        }
+      ],
+      "lang": "en",
+      "t": 1068.34
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Monday Wrap-Up",
+      "heading_ja": "月曜日のまとめと挨拶",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Today's takeaway: as artificial intelligence reshapes technology and medicine, leaders are focusing on practical results, user trust, and clear rules.",
+          "ja": "本日のまとめです。AIが技術と医療を変革する中、指導者たちは実用的な成果と信頼、そして明確なルール作りに注力しています。",
+          "t": 1095.36
+        },
+        {
+          "speaker": "Mika",
+          "en": "Thank you for listening to Commute News on your Monday morning commute. Have a safe and productive day.",
+          "ja": "月曜朝の通勤時間にCommute Newsをお聴きいただき、ありがとうございました。安全で実りある一日をお過ごしください。",
+          "t": 1103.92
+        },
+        {
+          "speaker": "Alex",
+          "en": "See you on tomorrow's commute.",
+          "ja": "それでは、明日の通勤時間にお会いしましょう。",
+          "t": 1110.19
+        }
+      ],
+      "lang": "en",
+      "t": 1095.36
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。今週も気をつけていってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 1112.88
+        }
+      ],
+      "t": 1112.88
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Tim Cook Steps Down as Apple CEO, Succeeded by John Ternus",
+      "title_ja": "AppleのTim Cook氏がCEO退任、ハードウェア責任者John Ternus氏が昇格",
+      "summary_ja": "AppleのTim Cook氏がCEOを退任し、長年ハードウェア工学部門を率いてきたJohn Ternus氏が後任に就任しました。Ternus氏はインタビューで、話題先行のAI開発を否定し、利用者が愛着を持てる実用的な製品作りを継続する方針を示しました。ハードウェアの強みを活かしながら着実なAI統合を図る体制へと移行します。",
+      "why_ja": "コンシューマーIT最大の巨人が慎重なAI統合路線を選んだことは、日本の電機・精密機器産業や電子部品サプライヤーの開発・供給計画にも直接的な影響を与えます。",
+      "section": "tech",
+      "topic_key": "apple-ceo-tim-cook-steps-down-ternus",
+      "companies": [
+        "Apple"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+          "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/"
+        },
+        {
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "title": "Apple CEO Tim Cook is stepping down, John Ternus set to replace him",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTXg5VFBDbk1xMmlfZEdLVW1sOW5pOUd5ZWY5NWtFbzFwQmpDMzQ3c1lrVjhyVEVpZmhuZmh5X0VHeVVNV1d5d3VWTi1jazI5QjRoRkFrMTd1TnJER0lkS05hTGR4WTQyNUFNeDBOMkRBRFhPNlFkQ2tNbDdJUGdJc0lVTWVQbWo3OW56OFdn0gGTAUFVX3lxTE9Zbjg0dnVYX2NodkpINTY0UXJaNGdlYUp5MXNFcTJ2c3ZRQW5lVE5rX1Z6dEtYUVJBdjdJRmVsMjJtN21MVWhlZFBveE9SYmJMeDM5VTRfQWUyejNTYnY3RlBBdjd0OWgwOXRwaWtEN0x1Y0czWXhuRlJSWVlQUy11LXE1TDNrUTAzZlFRWGw0OG5zaw?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Binance Restores Withdrawals After $6.3B Breach Attributed to North Korea",
+      "title_ja": "Binance、北朝鮮関与の63億ドル不正流出を経て出金を段階再開",
+      "summary_ja": "世界最大の暗号資産交換所Binanceで63億ドル相当の資産が流出する史上最大の不正アクセスが発生し、FBIは北朝鮮のサイバー部隊TraderTraitorの犯行と断定しました。同社は盗難資産の95%を自社資金で補填したと発表し、ネットワークごとに出金手続きを順次再開しています。顧客への損失転嫁は行わない方針です。",
+      "why_ja": "デジタル資産インフラの致命的な脆弱性と国家主導のサイバー攻撃脅威を浮き彫りにしており、暗号資産を扱う金融規制当局や金融機関にとって重大な教訓となります。",
+      "section": "tech",
+      "topic_key": "binance-6-billion-heist-north-korea",
+      "companies": [
+        "Binance"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "Binance resumes withdrawals following $6.3 billion breach",
+          "url": "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "North Korea linked to massive Binance crypto heist",
+          "url": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "Binance CEO says 90 percent of stolen assets have been ‘replenished’",
+          "url": "https://www.theverge.com/tech/1024091/binance-ceo-90-percent-stolen-crypto"
+        },
+        {
+          "publisher": "Ars Technica",
+          "title": "Hackers steal $6.3 billion from Binance in record crypto heist",
+          "url": "https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist/"
+        },
+        {
+          "publisher": "The Register",
+          "title": "In the year AI re-wrote the infosec rulebook, it’s comforting to know crypto exchanges still have bad security",
+          "url": "https://www.theregister.com/security/2026/10/30/in-the-year-ai-re-wrote-the-infosec-rulebook-its-comforting-to-know-crypto-exchanges-still-have-bad-security/5306539"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+          "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Binance resumes customer withdrawals after record $6.3bn hack",
+          "url": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
+          "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance"
+        },
+        {
+          "publisher": "CNN",
+          "title": "Binance withdrawals resume following $6 billion hack",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5lWHJoMDVuMklnaGFNNUhaa0lYX2pSTHVCVS00ZUZxUlNjSFRYWjdTOWtFYzB6NzFsTm1KbXBrN1A0b0o5WUU5NmpJenpuLTNiV0pPek50LWxJajF3Q2V6aU5nbWU0MlF2YTA1VGFjOVZHT0pVRTlWcjE3SVo?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "French Lawmakers Approve €10 Billion Bandwidth Tax Targeting Big Tech",
+      "title_ja": "仏下院、大手ITの通信量に応じた100億ユーロ規模の課税案を可決",
+      "summary_ja": "フランス国民議会の委員会は、1ギガバイトあたり約0.055ユーロを課すデータ通信量課税案を国家予算案に追加することを可決しました。GoogleやNetflixなど膨大なトラフィックを占める大手プラットフォームから年間約100億ユーロを徴収する狙いです。法律成立には上院の承認が必要であり、消費者への費用転嫁への懸念も出ています。",
+      "why_ja": "通信網整備の費用分担（フェアシェア）をめぐる欧州の強硬な規制姿勢を示しており、日本を含む各国のデジタルプラットフォーム課税議論に影響を及ぼす可能性があります。",
+      "section": "tech",
+      "topic_key": "france-internet-traffic-tax",
+      "companies": [
+        "Google",
+        "Meta",
+        "Netflix",
+        "Amazon",
+        "TikTok",
+        "Akamai"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "French lawmakers add $11.2 billion internet tax based on traffic usage to budget, costs $0.06 per gigabyte of content accessed",
+          "url": "https://www.tomshardware.com/software/social-media/french-lawmakers-approve-usd11-2-billion-internet-tax-based-on-traffic-usage-costs-usd0-65-per-gigabyte-of-content-accessed-us-tech-giants-like-google-and-meta-face-new-levies-on-content-delivered-to-french-subscribers"
+        }
+      ]
+    },
+    {
+      "title_en": "Fujifilm to Boost Magnetic Tape Production Fivefold for AI Archiving",
+      "title_ja": "Fujifilm、生成AIの保管需要を受け磁気テープ生産能力を5倍に増強",
+      "summary_ja": "Fujifilmは神奈川県の工場におよそ100億円を投じ、データ保管用磁気テープの生産能力を2025年度比で5倍に増強すると発表しました。生成AIの普及に伴う膨大な学習データの長期保管需要に対応します。磁気テープは低消費電力かつ低コストであり、ネットワークから切り離して保管できるためランサムウェア耐性にも優れています。",
+      "why_ja": "AI普及に伴うデータセンターの電力消費とセキュリティ課題に対し、日本の部材・記録メディア製造技術が重要なインフラとして再評価されていることを示しています。",
+      "section": "tech",
+      "topic_key": "fujifilm-magnetic-tape-production-ai-demand",
+      "companies": [
+        "Fujifilm"
+      ],
+      "sources": [
+        {
+          "publisher": "Ars Technica",
+          "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+          "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/"
+        }
+      ]
+    },
+    {
+      "title_en": "General Motors Reaches $220M Settlement Over Driver Data Tracking",
+      "title_ja": "GM、運転データの無断収集・保険会社提供で全米各州と2億2000万ドル和解",
+      "summary_ja": "General Motors（GM）は車載機能Smart Driverを通じて急ブレーキや速度などの走行データを収集し、仲介業者経由で保険会社へ提供していた問題で、全米35州などと2億2000万ドルの和解で合意しました。同社は該当サービスを全廃し、第三者機関によるプライバシー遵守状況の監査を受け入れます。",
+      "why_ja": "コネクテッドカーや自動運転が普及する中、車載センサーが取得する個人情報の商用利用に対する規制当局の厳しい姿勢を示しており、国内自動車メーカーのデータ運用にも直結します。",
+      "section": "tech",
+      "topic_key": "gm-driver-data-privacy-settlement",
+      "companies": [
+        "General Motors"
+      ],
+      "sources": [
+        {
+          "publisher": "The Register",
+          "title": "GM cracks the petty cash box for multistate driver tracking settlement",
+          "url": "https://www.theregister.com/security/2026/10/30/gm-cracks-the-petty-cash-box-for-multistate-driver-tracking-settlement/5306721"
+        },
+        {
+          "publisher": "Ars Technica",
+          "title": "GM to pay $220 million after selling customer Smart Driver data",
+          "url": "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data/"
+        }
+      ]
+    },
+    {
+      "title_en": "FDA and CMS Coordinate to Prevent Impasse Over Clinical AI Pilots",
+      "title_ja": "米連邦保健当局、臨床現場でのAI利用をめぐり州との規制調整を加速",
+      "summary_ja": "米国のFDAとCMSは、AIが処方や診断を自律的に行う臨床ツールの普及をめぐり、州政府との管轄権衝突を回避するため水面下で協議を行っています。医療行為の免許を管理する州と医療機器・プログラムを審査する連邦当局の重複を解消し、統一的な全国指針と診療報酬枠組みの整備を急いでいます。",
+      "why_ja": "自律型医療AIの導入に伴う医師法・薬機法的な管轄の整理は、日本の医療DXや公衆衛生政策の制度設計においても極めて重要な先例となります。",
+      "section": "health",
+      "topic_key": "fda-cms-clinical-ai-state-regulation",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "STAT News",
+          "title": "STAT+: FDA, CMS scramble to avoid regulatory logjam as more states look to test AI in clinical settings",
+          "url": "https://www.statnews.com/2026/10/30/fda-cms-health-ai-regulation-state-sandboxes-run-into-federal-rules/?utm_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "Diplomats Hold Talks in Qatar to Reopen Strait of Hormuz",
+      "title_ja": "米イラン、ホルムズ海峡再開に向けカタールで間接協議を継続",
+      "summary_ja": "カタールの仲介により、米国とイランがホルムズ海峡の封鎖解除に向けた間接協議を行っています。イラン側は60億ドル以上の凍結資産解除などを条件に2日以内の再開を提示していますが、周辺でLNGタンカーへの攻撃が発生するなど情勢は流動的です。",
+      "why_ja": "ホルムズ海峡は世界の原油・LNG輸送の要衝であり、中東エネルギーへの依存度が高い日本経済やエネルギー安全保障に直接影響します。",
+      "section": "world",
+      "topic_key": "strait-of-hormuz-us-iran-negotiations",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "Negotiators ‘braced for worst’ over US-Iran talks to reopen strait of Hormuz",
+          "url": "https://www.theguardian.com/world/2026/nov/01/negotiators-braced-for-worst-over-us-iran-talks-to-reopen-strait-of-hormuz"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Gulf states must rethink trillion-dollar defence in light of US-Iran war, says report",
+          "url": "https://www.theguardian.com/world/2026/oct/30/gulf-states-rethink-trillion-dollar-defence-us-iran-war-iiss-report"
+        },
+        {
+          "publisher": "Financial Times",
+          "title": "Gulf braced for escalation of war between US-Israel alliance and Iran",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYlZjTzdFYjAzeVItVzFIMWE4QXVhblR1SlVvMnFjLWxBczktR3o3V0kyMGRvMXFibUhmOUNoRGlQZ0dTanNhaUktM1dOeXBIcU9PS3Nyc01GbEhtX0t2VDZDckdQMGg5NGluZ3ZzOE11a3BYVGp4RHNEY243U0VUbGU5dk0?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Cost-of-Living Protests Spark Violent Clashes Across Germany and France",
+      "title_ja": "独仏で物価高に抗議する若者主導デモが一部暴徒化、略奪や警官負傷",
+      "summary_ja": "ドイツやフランスなど欧州の複数都市で、生活費の高騰や公共サービス悪化に抗議する大規模デモが行われ、一部が暴徒化して店舗略奪や放火に発展しました。フランクフルトでは100人以上の警官が負傷し、パリでも火炎瓶が投げられるなど治安上の懸念が強まっています。",
+      "why_ja": "インフレと生活苦に伴う若年層の不満が治安悪化と政治的不安定につながっており、欧州経済の回復や社会統合における重大なリスクとなっています。",
+      "section": "world",
+      "topic_key": "europe-cost-of-living-protests-violence",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Peaceful protests in Germany spiral into violence and looting",
+          "url": "https://www.bbc.co.uk/news/videos/cqgm0der7zkmo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Attempted murder probe after petrol bomb thrown at French riot police",
+          "url": "https://www.theguardian.com/world/2026/nov/01/petrol-bomb-thrown-at-french-riot-police"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Shops looted as German cost-of-living protests turn violent",
+          "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Thousands demonstrate in Paris as protests spread across Europe",
+          "url": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "NPR",
+          "title": "France seethes again as youth-led protests sweep Europe",
+          "url": "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "German ministers vow tough response to Frankfurt riots and looting",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX2l3Y3cxckRlRlpIRFQzT2FWa0YzZHcxYTdSV3dDY29iN0FNUHdqa1hKWkxFdU40NFI5MG8tWEV2SU54cng3NXpoV3JhdzdjVVRKZHJPYmlPNVBYTG95Y1lQYW1PbzVscnpHZ0plMGhET096ZDNjdEg0dTlzd2dPNVNlOXV3N2NiOW5rXzRsN3VZc2pSQWk0TUxkLXl4ZTRrcV9mMW9UWnUtSzlPajJaLS16Qm8?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "India Opposition Rallies Over Alleged Voter Roll Removals",
+      "title_ja": "インド野党、1.3億人の有権者名簿削除を受け選管トップの辞任を要求",
+      "summary_ja": "インドのニューデリーで、選挙管理委員会が有権者名簿から約1億3000万人分を不当に削除したと主張する野党勢力が大規模な抗議集会を開催しました。野党側は少数派を不利にする偏向があったとして選管トップの辞任を迫る一方、当局は中立性を主張しています。",
+      "why_ja": "世界最大の民主主義国における選挙プロセスの正当性と制度的信頼性が問われており、2029年の次回総選挙に向けた政治的火種となっています。",
+      "section": "world",
+      "topic_key": "india-election-commission-voter-roll-protests",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "India protesters march with 1km banner of deleted voters’ names",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/india-protesters-march-with-1km-banner-of-deleted-voters-names?traffic_source=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Photos: Thousands join India’s opposition rally against election chief",
+          "url": "https://www.aljazeera.com/gallery/2026/11/1/photos-indian-opposition-rallies-against-elections-chief?traffic_source=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "India's opposition holds mega rally seeking election chief's resignation",
+          "url": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "step down",
+      "meaning_ja": "辞任する、退任する",
+      "note_ja": "重要な役職や地位から自発的または合意の上で退く際に頻繁に使われる表現です。",
+      "example_en": "Longtime chief executive Tim Cook is stepping down from his post."
+    },
+    {
+      "term": "for the sake of",
+      "meaning_ja": "〜のために、〜の目的で",
+      "note_ja": "\"just for the sake of it\" で「単にそれだけのために（実利なく話題性だけで）」という定型句になります。",
+      "example_en": "He stated that Apple will not ship artificial intelligence just for the sake of it."
+    },
+    {
+      "term": "in phases",
+      "meaning_ja": "段階的に、フェーズを分けて",
+      "note_ja": "システム復旧や業務再開などを一気にではなく順を追って行う様子を表します。",
+      "example_en": "Withdrawals are resuming in phases, depending on the network."
+    },
+    {
+      "term": "pass along",
+      "meaning_ja": "（費用や負担などを）転嫁する、伝える",
+      "note_ja": "企業が課税や仕入れ値の上昇分を消費者の価格に上乗せする文脈でよく使われます。",
+      "example_en": "French government officials and business critics worry companies will pass these costs along."
+    },
+    {
+      "term": "air gap",
+      "meaning_ja": "エアギャップ（物理的な隔離）",
+      "note_ja": "外部ネットワークと物理的に接続されていない状態を作り、サイバー攻撃から保護する手法です。",
+      "example_en": "Security experts call this an air gap."
+    },
+    {
+      "term": "settle",
+      "meaning_ja": "和解する、決着をつける",
+      "note_ja": "法律問題や金銭トラブルなどを裁判外や和解金支払いで合意解決する動詞です。",
+      "example_en": "General Motors has agreed to pay 220 million dollars to settle claims about customer data tracking."
+    },
+    {
+      "term": "behind the scenes",
+      "meaning_ja": "水面下で、舞台裏で、非公開で",
+      "note_ja": "公式発表や公の目の届かないところで実務的な交渉や準備を進めることを指します。",
+      "example_en": "Federal health regulators in the United States are working behind the scenes."
+    },
+    {
+      "term": "oversight",
+      "meaning_ja": "監督、監視、管理",
+      "note_ja": "規制当局や政府機関が法令遵守や安全性をチェックする役割を指します。",
+      "example_en": "If an artificial intelligence tool acts like a doctor, both levels of government want oversight."
+    },
+    {
+      "term": "waterway",
+      "meaning_ja": "水路、航路、海峡",
+      "note_ja": "船舶が通行する海峡や運河などの通路を指す名詞です。",
+      "example_en": "The goal is to reopen the Strait of Hormuz, one of the world's most critical oil shipping channels."
+    },
+    {
+      "term": "distance oneself from",
+      "meaning_ja": "〜と距離を置く、関係を否定する",
+      "note_ja": "発生した暴力行為や過激な行動に対して、自分たちは関与していないと表明する際に使います。",
+      "example_en": "The group quickly distanced itself from the violence."
+    },
+    {
+      "term": "undermine",
+      "meaning_ja": "損なう、弱体化させる",
+      "note_ja": "信頼や民主主義などの基盤を土台から崩すというニュアンスを持つ重要動詞です。",
+      "example_en": "Meanwhile, the ruling party accused opposition leaders of undermining public faith in democracy."
+    },
+    {
+      "term": "pending",
+      "meaning_ja": "〜を待って、保留中で",
+      "note_ja": "承認や決定などを待っている状態を示す前置詞・形容詞的な用法です。",
+      "example_en": "Meanwhile, Elon Musk announced that Neuralink's Blindsight device is ready to restore vision for blind patients, pending final regulatory clearance."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "behind the scenes",
+    "meaning_ja": "水面下で、舞台裏で、公に知られないところで",
+    "example_en": "Our team worked behind the scenes to prepare the new hospital guidelines.",
+    "example_ja": "私たちのチームは、新しい病院の指針を策定するために水面下で取り組みました。"
+  }
+}
