@@ -1,0 +1,1149 @@
+{
+  "date": "2026-11-03",
+  "published": "2026-11-03T08:26:02+09:00",
+  "title_en": "Apple Q4 Earnings, Marvell's 115B Deal, and European Fridge Hacks",
+  "title_ja": "アップル四半期決算、マヴェルの1,150億ドル買収、欧州の冷蔵庫ハック",
+  "summary_ja": "アップルが過去最高の四半期売上高を記録する一方でiPhone Duoの供給制約とメモリ高騰に直面しています。マヴェルスはNVIDIAの支援を受け1,150億ドルでルメンタムを買収しました。また、欧州7カ国ではスーパーの冷蔵庫がサイバー攻撃を受けました。",
+  "duration": 744.4,
+  "audio": {
+    "file": "2026-11-03.mp3",
+    "bytes": 5956012,
+    "release_tag": "ep-2026-11-03"
+  },
+  "word_count": 1379,
+  "ja_chars": 850,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.5-flash-lite",
+    "write": "gemini-3.5-flash-lite",
+    "revise": "gemini-3.5-flash-lite",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Today's Headlines",
+      "heading_ja": "本日のヘッドライン",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it is Tuesday, November 3. Welcome to today's edition of Commute News, where we bring you the most important updates from technology, digital health, and global current events.",
+          "ja": "おはようございます。11月3日火曜日、テクノロジー、デジタルヘルス、そして世界の最新ニュースをお届けするCommute Newsの時間です。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning. Today, we cover Apple's record sales, a massive optical chip acquisition by Marvell, supermarket fridge hacks across Europe, and much more.",
+          "ja": "おはようございます。本日は、アップルの過去最高売上、マヴェルスによる巨大な光チップ買収、欧州でのスーパー冷蔵庫ハックなどについて詳しくお伝えします。",
+          "t": 12.0
+        },
+        {
+          "speaker": "Alex",
+          "en": "Let us dive right into our top stories to start your day informed.",
+          "ja": "それでは、皆様の通勤をサポートするため、早速本日の主要ニュースを見ていきましょう。",
+          "t": 21.93
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Apple Reports Q4 Earnings",
+      "heading_ja": "アップルが第4四半期決算を発表",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Apple has officially announced its financial results for the fourth quarter of fiscal 2026, highlighting significant milestones.",
+          "ja": "アップルは2026会計年度第4四半期の決算を正式に発表し、重要な節目となる業績を明らかにしました。",
+          "t": 27.01
+        },
+        {
+          "speaker": "Alex",
+          "en": "Total quarterly revenue reached 114.5 billion dollars, representing a solid 12 percent increase from the same period last year.",
+          "ja": "四半期の総売上高は1145億ドルに達し、前年同期比で12パーセントの確実な増加を記録しました。",
+          "t": 35.55
+        },
+        {
+          "speaker": "Alex",
+          "en": "Additionally, iPhone revenue hit 57.58 billion dollars, marking a 17 percent jump even without a standard model release.",
+          "ja": "さらに、iPhoneの売上は575億8000万ドルに達し、標準モデルのリリースがないにもかかわらず17パーセントの急増となりました。",
+          "t": 44.04
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is a remarkable revenue figure for the quarter. Did other areas perform well too?",
+          "ja": "今四半期としては非常に優れた売上数字ですね。他の部門も好調だったのですか。",
+          "t": 52.13
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, services revenue reached a new all-time high, capping off what CEO John Ternus described as their best fiscal year ever.",
+          "ja": "はい、サービス部門の売上高も過去最高を更新し、ジョン・ターナスCEOが過去最高の会計年度であったと表現する締めくくりとなりました。",
+          "t": 58.32
+        },
+        {
+          "speaker": "Mika",
+          "en": "Despite those record highs, it sounds like there are some serious challenges on the horizon.",
+          "ja": "そうした過去最高の記録の一方で、今後の懸念材料もいくつかあるようですね。",
+          "t": 66.69
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is correct. Chief Operating Officer Sabih Khan noted that memory chip costs driven by AI demand are climbing, and iPhone Duo supply is heavily constrained with shipping delays stretching into next year.",
+          "ja": "その通りです。サビハ・カーン最高執行責任者は、AI需要に牽引されたメモリチップのコストが上昇しており、iPhone Duoの供給が大幅に制限されて出荷遅延が来年まで続く見通しであると述べました。",
+          "t": 73.22
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Apple achieved record revenue, but surging component costs and supply delays are raising concerns?",
+          "ja": "つまり、アップルは記録的な売上を上げたものの、部品コストの高騰や供給の遅れが懸念材料になっているということですね。",
+          "t": 86.17
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly, and management stated it is hard to predict when supply and demand will finally balance.",
+          "ja": "その通りで、経営陣は需給のバランスがいつ最終的に回復するか予測するのは難しいと述べています。",
+          "t": 93.82
+        }
+      ],
+      "lang": "en",
+      "t": 27.01
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。アップルの第4四半期売上高は1,145億ドルと過去最高を記録しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 100.63
+        },
+        {
+          "speaker": "Mika",
+          "ja": "しかし、メモリ価格の高騰やiPhone Duoの深刻な供給遅延が今後の懸念材料となっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 109.11
+        }
+      ],
+      "t": 100.63
+    },
+    {
+      "kind": "story",
+      "heading_en": "Marvell Acquires Lumentum",
+      "heading_ja": "マヴェルスがルメンタムを買収",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In a massive technology deal, custom chip designer Marvell has agreed to acquire optical chip and networking maker Lumentum.",
+          "ja": "テック業界の巨額取引として、カスタムチップ設計のマヴェルスが、光チップおよびネットワーク機器メーカーのルメンタムを買収することに合意しました。",
+          "t": 117.58
+        },
+        {
+          "speaker": "Alex",
+          "en": "The transaction carries an enterprise value of 115 billion dollars, making it one of the largest acquisitions in tech history.",
+          "ja": "この買収の企業価値は1150億ドルに上り、テック史上最大の買収の一つとなっています。",
+          "t": 125.9
+        },
+        {
+          "speaker": "Alex",
+          "en": "Lumentum specializes in advanced optical components that support high-speed communications required by modern AI systems.",
+          "ja": "ルメンタムは、現代のAIシステムに必要な高速通信をサポートする高度な光学コンポーネントを専門としています。",
+          "t": 134.33
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is an astonishing valuation. Is there any major strategic investor involved in this transaction?",
+          "ja": "それは驚異的な評価額ですね。この取引には何か主要な戦略的投資家が関与しているのですか。",
+          "t": 142.48
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, NVIDIA is a major shareholder in both companies, having invested 2 billion dollars in each earlier this year to support R&D and expansion.",
+          "ja": "はい、NVIDIAが両社の主要株主であり、今年初めに研究開発と事業拡大を支援するためそれぞれに20億ドルを投資しています。",
+          "t": 149.51
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Marvell is buying Lumentum to become a leader in AI connectivity backed by NVIDIA?",
+          "ja": "つまり、マヴェルスはNVIDIAの支援を受けてAI接続のリーダーになるためにルメンタムを買収するわけですね。",
+          "t": 158.88
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is correct. The deal is expected to close in the first half of calendar year 2028, pending regulatory and shareholder approval.",
+          "ja": "その通りです。この取引は、規制当局および株主の承認を前提として、2028年暦年の前半に完了する見込みです。",
+          "t": 165.64
+        }
+      ],
+      "lang": "en",
+      "t": 117.58
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "マヴェルスが光チップメーカーのルメンタムを1,150億ドルで買収します。",
+          "en": "",
+          "lang": "ja",
+          "t": 174.85
+        },
+        {
+          "speaker": "Mika",
+          "ja": "NVIDIAの支援を受けたこの巨額買収は、AIデータセンター向けの光ネットワーク基盤を強化する狙いがあります。",
+          "en": "",
+          "lang": "ja",
+          "t": 181.49
+        }
+      ],
+      "t": 174.85
+    },
+    {
+      "kind": "story",
+      "heading_en": "OpenAI Grid Protectors Program",
+      "heading_ja": "OpenAIのグリッドプロテクター計画",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "OpenAI is planning to rebrand its data centers as AI compute campuses as public backlash over energy consumption intensifies.",
+          "ja": "OpenAIは、エネルギー消費に対する世間の反発が強まる中、データセンターを「AIコンピュート・キャンパス」に改称する計画を進めています。",
+          "t": 190.92
+        },
+        {
+          "speaker": "Alex",
+          "en": "The company also announced the Grid Protectors Program, starting with an upcoming data center in Effingham County, Georgia.",
+          "ja": "同社はまた、ジョージア州エフィンガム郡の今後のデータセンターを皮切りに、「グリッド・プロテクターズ・プログラム」を発表しました。",
+          "t": 199.06
+        },
+        {
+          "speaker": "Alex",
+          "en": "Under this initiative, the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies.",
+          "ja": "この取り組みの下、同社は異常気象や緊急時に最大1000メガワットの電力を解放すると約束しています。",
+          "t": 207.11
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is OpenAI making these changes to its terminology and infrastructure approach?",
+          "ja": "なぜOpenAIは用語やインフラのアプローチにこうした変更を加えているのですか。",
+          "t": 215.04
+        },
+        {
+          "speaker": "Alex",
+          "en": "Large data centers require enormous amounts of electricity and water, leading to rising utility bills and community opposition across the United States.",
+          "ja": "大規模なデータセンターは膨大な電力と水を必要とするため、全米で光熱費の高騰や地域社会からの反対を引き起こしています。",
+          "t": 220.85
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, OpenAI hopes to address public concerns by branding data centers as campuses and offering emergency power?",
+          "ja": "つまり、OpenAIはデータセンターをキャンパスと呼ぶことで、また非常用電力を提供することで、世間の懸念に対処したいのですね。",
+          "t": 230.47
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, they aim to show that steady energy demand can help utilities while providing flexibility when the grid is under strain.",
+          "ja": "はい、安定したエネルギー需要が電力会社を支援すると同時に、電力網がひっ迫した際に柔軟性を提供できることを示す狙いがあります。",
+          "t": 238.34
+        }
+      ],
+      "lang": "en",
+      "t": 190.92
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "OpenAIはデータセンターの反発を和らげるため、名称を「AIコンピュート・キャンパス」に変更します。",
+          "en": "",
+          "lang": "ja",
+          "t": 246.49
+        },
+        {
+          "speaker": "Mika",
+          "ja": "電力網を保護するプログラムも発表し、緊急時に地域の電力を解放する方針です。",
+          "en": "",
+          "lang": "ja",
+          "t": 255.33
+        }
+      ],
+      "t": 246.49
+    },
+    {
+      "kind": "story",
+      "heading_en": "Android TV Botnet Dismantled",
+      "heading_ja": "アンドロイドTVのボットネット摘発",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Google has announced that law enforcement and its internal security teams successfully dismantled a massive 1.3 million device botnet.",
+          "ja": "Googleは、法執行機関と社内セキュリティチームが、130万台のデバイスによる大規模なボットネットの解体に成功したと発表しました。",
+          "t": 262.12
+        },
+        {
+          "speaker": "Alex",
+          "en": "The compromised hardware consisted mainly of Android TV set-top boxes manufactured by Videostrong Technology in Shenzhen, China.",
+          "ja": "侵害されたハードウェアは主に、中国・深センのVideostrong Technologyが製造したAndroid TVのセットトップボックスでした。",
+          "t": 270.76
+        },
+        {
+          "speaker": "Alex",
+          "en": "According to Google, the manufacturer intentionally built a backdoor into the devices for financial gain through ad fraud and proxy networks.",
+          "ja": "Googleによれば、メーカーは広告詐欺やプロキシネットワークを通じて金銭的利益を得るために、デバイスに意図的にバックドアを構築していました。",
+          "t": 279.07
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is a serious supply chain security breach. What actions has Google taken against the manufacturer?",
+          "ja": "それは深刻なサプライチェーンのセキュリティ侵害ですね。Googleはそのメーカーに対してどのような措置を取ったのですか。",
+          "t": 288.09
+        },
+        {
+          "speaker": "Alex",
+          "en": "Google cut ties with Videostrong, banned them from building certified Android devices, and disrupted their command and control domains.",
+          "ja": "GoogleはVideostrongとの関係を断ち、認定Androidデバイスの製造を禁止し、そのコマンド＆コントロール・ドメインを無効化しました。",
+          "t": 295.04
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, a hardware partner secretly weaponized millions of smart TVs, prompting Google to ban them?",
+          "ja": "つまり、ハードウェアパートナーが何百万台ものスマートテレビを密かに兵器化し、Googleがそれを排除したということですね。",
+          "t": 303.74
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, and Google has also updated its review processes for device manufacturers to prevent future incidents.",
+          "ja": "はい、さらにGoogleは将来のインシデントを防ぐため、デバイスメーカーに対する審査プロセスも更新しました。",
+          "t": 310.8
+        }
+      ],
+      "lang": "en",
+      "t": 262.12
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "中国のメーカーが製造した130万台のAndroid TVなどのボットネットが解体されました。",
+          "en": "",
+          "lang": "ja",
+          "t": 318.42
+        },
+        {
+          "speaker": "Mika",
+          "ja": "メーカーが広告詐欺などのために意図的にバックドアを仕込んでおり、Googleは取引を停止しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 326.21
+        }
+      ],
+      "t": 318.42
+    },
+    {
+      "kind": "story",
+      "heading_en": "Anthropic Restricts Claude Code",
+      "heading_ja": "AnthropicがClaude Codeを制限",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games.",
+          "ja": "Anthropicは、AIツールが既存のビデオゲームを再作成するのに使用されないようにするため、Claude Codeのシステムプロンプトを更新しました。",
+          "t": 334.43
+        },
+        {
+          "speaker": "Alex",
+          "en": "Retro gaming communities have recently been flooded with AI-generated decompilations, recompilations, and direct ports.",
+          "ja": "レトロゲームコミュニティには最近、AI生成による逆コンパイル、再コンパイル、および直接移植版が殺到していました。",
+          "t": 342.16
+        },
+        {
+          "speaker": "Alex",
+          "en": "Company representatives confirmed that while original games and genre games are fully permitted, specific game clones violate usage policies.",
+          "ja": "会社の担当者は、オリジナルゲームやジャンルゲームは完全に許可されているものの、特定のゲームのクローン作成は利用規約に違反すると確認しました。",
+          "t": 349.69
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why did Anthropic implement this specific restriction on Claude Code?",
+          "ja": "なぜAnthropicはClaude Codeに対してこの特定の制限を導入したのですか。",
+          "t": 358.36
+        },
+        {
+          "speaker": "Alex",
+          "en": "Using AI to infringe intellectual property creates legal liabilities, so the company is trying to strike the right balance.",
+          "ja": "AIを使って知的財産を侵害することは法的責任を生じさせるため、同社は適切なバランスを取ろうとしています。",
+          "t": 363.27
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Anthropic is blocking the recreation of specific copyrighted game IP while still allowing original development?",
+          "ja": "つまり、Anthropicは元の開発を許可しつつ、著作権のある特定のゲームIPの再作成をブロックしているのですね。",
+          "t": 371.0
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is correct. Developers can still use Claude for their own designs and assets, but direct copying is now blocked.",
+          "ja": "その通りです。開発者は自身のデザインや素材のために引き続きClaudeを使用できますが、直接のコピーは現在ブロックされています。",
+          "t": 378.84
+        }
+      ],
+      "lang": "en",
+      "t": 334.43
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Anthropicは、既存ゲームのクローン作成を防ぐためにClaude Codeのシステムプロンプトを更新しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 386.26
+        },
+        {
+          "speaker": "Mika",
+          "ja": "オリジナルゲームの作成は可能ですが、著作権侵害を防ぐ狙いがあります。",
+          "en": "",
+          "lang": "ja",
+          "t": 395.75
+        }
+      ],
+      "t": 386.26
+    },
+    {
+      "kind": "health",
+      "heading_en": "Athenahealth Integrates With Claude",
+      "heading_ja": "athenahealthがClaudeと連携",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In digital health news, electronic health record company athenahealth is opening up patient records to outside AI assistants.",
+          "ja": "デジタルヘルスの話題です。電子カルテ企業であるathenahealthが、患者のカルテ情報を外部のAIアシスタントに解放します。",
+          "t": 401.85
+        },
+        {
+          "speaker": "Alex",
+          "en": "The new tool, called athenaPatient MCP, connects Claude directly to the athenaOne platform using the Model Context Protocol.",
+          "ja": "「athenaPatient MCP」と呼ばれる新しいツールは、モデルコンテキストプロトコルを使用して、ClaudeをathenaOneプラットフォームに直接接続します。",
+          "t": 409.68
+        },
+        {
+          "speaker": "Alex",
+          "en": "Patients authenticate using their portal credentials and choose what clinical data Claude can access.",
+          "ja": "患者はポータルの資格情報を使用して認証を行い、Claudeがアクセスできる臨床データを自分で選択します。",
+          "t": 417.47
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does athenahealth protect patient privacy during this AI integration process?",
+          "ja": "athenahealthはこのAI統合プロセスにおいて、どのように患者のプライバシーを保護するのですか。",
+          "t": 424.05
+        },
+        {
+          "speaker": "Alex",
+          "en": "Data is encrypted in transit, patients can revoke access at any time, and partner AI tools are strictly barred from using patient records to train models.",
+          "ja": "データは転送中に暗号化され、患者はいつでもアクセスを取り消すことができ、提携するAIツールがモデルのトレーニングに患者のカルテを使用することは厳しく禁止されています。",
+          "t": 429.59
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, patients can get personalized answers about lab results and medications while maintaining data ownership?",
+          "ja": "つまり、患者はデータの所有権を維持しながら、検査結果や薬剤について個別化された回答を得ることができるのですね。",
+          "t": 438.94
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, it aims to help patients understand their health data safely between doctor visits.",
+          "ja": "はい、医師の診察の合間に患者が自分の健康データを安全に理解できるようにすることを目的としています。",
+          "t": 446.46
+        }
+      ],
+      "lang": "en",
+      "t": 401.85
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "電子カルテ大手のathenahealthが、患者の臨床データをAnthropicのClaudeで活用できるツールを発表しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 452.37
+        },
+        {
+          "speaker": "Mika",
+          "ja": "患者が共有データを管理でき、モデルの学習にデータが使われないプライバシー重視の仕組みになっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 462.7
+        }
+      ],
+      "t": 452.37
+    },
+    {
+      "kind": "world",
+      "heading_en": "US Supreme Court Rules on Ballots",
+      "heading_ja": "米最高裁が投票用紙に関する裁定",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Turning to world news, the US Supreme Court has ruled against the Trump administration in a high-profile election dispute.",
+          "ja": "続いて世界ニュースです。米最高裁判所は、注目の選挙を巡る争いでトランプ政権側に対して不利な裁定を下しました。",
+          "t": 471.51
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Justice Department had attempted to force California election officials to segregate and exclude 20,000 ballots from alleged non-citizens.",
+          "ja": "司法省はカリフォルニア州の選挙当局に対し、非市民とされる人々の2万票の投票用紙を分離して除外するよう強要しようとしていました。",
+          "t": 479.38
+        },
+        {
+          "speaker": "Alex",
+          "en": "California officials refused, arguing the list was unreliable and that separating votes on the eve of the election would disenfranchise eligible voters.",
+          "ja": "カリフォルニア州当局はそのリストの信頼性が低いと主張し、選挙前日に票を分ければ有資格者の投票権が奪われるとして拒否しました。",
+          "t": 488.31
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did the legal battles unfold before reaching the Supreme Court?",
+          "ja": "最高裁に達するまでに法廷闘争はどのように展開したのですか。",
+          "t": 497.78
+        },
+        {
+          "speaker": "Alex",
+          "en": "Lower courts, including federal judge David Carter and a federal appeals court, previously rejected the administration's emergency requests.",
+          "ja": "連邦地裁のデビッド・カーター判事や連邦控訴審を含む下級審は、以前に政権側の緊急要請を却下していました。",
+          "t": 502.71
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, the Supreme Court blocked the federal government's attempt to interfere with state voting procedures right before the midterms?",
+          "ja": "つまり、最高裁は中間選挙の直前に州の投票手続きに干渉しようとする連邦政府の試みを阻止したのですね。",
+          "t": 511.54
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is correct, leaving the disputed ballots to be counted alongside all other valid votes.",
+          "ja": "その通りで、係争中の投票用紙は他のすべての有効票と一緒に集計されることになりました。",
+          "t": 520.42
+        }
+      ],
+      "lang": "en",
+      "t": 471.51
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米最高裁は、カリフォルニア州に2万票の投票用紙の集計除外を求めたトランプ政権の要請を退けました。",
+          "en": "",
+          "lang": "ja",
+          "t": 526.68
+        },
+        {
+          "speaker": "Mika",
+          "ja": "州側はデータが不正確であり有権者の権利を奪うと主張し、裁判所がそれを支持しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 534.95
+        }
+      ],
+      "t": 526.68
+    },
+    {
+      "kind": "world",
+      "heading_en": "Supermarket Refrigeration Cyberattacks",
+      "heading_ja": "スーパーの冷蔵庫へのサイバー攻撃",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In Europe, a second wave of suspected cyberattacks has targeted supermarket refrigerators across seven countries.",
+          "ja": "ヨーロッパでは、7カ国のスーパーマーケットの冷蔵庫を狙った、サイバー攻撃とみられる第2波が発生しました。",
+          "t": 542.21
+        },
+        {
+          "speaker": "Alex",
+          "en": "Hackers remotely changed thermostat settings to defrost, raising temperatures and spoiling large quantities of food overnight.",
+          "ja": "ハッカーが遠隔操作でサーモスタットの設定を解凍モードに変更し、温度を上昇させて一晩で大量の食品を台無しにしました。",
+          "t": 549.6
+        },
+        {
+          "speaker": "Alex",
+          "en": "Supermarket chains such as Ahold Delhaize, Colruyt, and Ikea confirmed that stores in Belgium, Ireland, Luxembourg, Sweden, and other nations were affected.",
+          "ja": "Ahold Delhaize、Colruyt、IKEAなどのスーパーチェーンは、ベルギー、アイルランド、ルクセンブルク、スウェーデンなどの店舗が影響を受けたことを確認しました。",
+          "t": 557.68
+        },
+        {
+          "speaker": "Mika",
+          "en": "What vulnerability was exploited in these grocery store units?",
+          "ja": "これらの食料品店の機器ではどのような脆弱性が悪用されたのですか。",
+          "t": 567.37
+        },
+        {
+          "speaker": "Alex",
+          "en": "Security researchers pointed out that the targeted internet-connected units, manufactured by Danfoss, lacked recent security updates.",
+          "ja": "セキュリティ研究者は、Danfoss社が製造したターゲットとなったインターネット接続機器には、最近のセキュリティアップデートが欠けていたと指摘しています。",
+          "t": 572.02
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, unsecured smart refrigeration systems were hacked again, disrupting the food supply chain?",
+          "ja": "つまり、セキュリティの保護されていないスマート冷蔵システムが再びハッキングされ、食品サプライチェーンが混乱したのですね。",
+          "t": 580.48
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, leading the EU to condemn the incident as a deliberate attempt to disrupt food supplies.",
+          "ja": "はい、その結果EUはこの事件を食料供給を混乱させる意図的な試みであると非難しています。",
+          "t": 587.38
+        }
+      ],
+      "lang": "en",
+      "t": 542.21
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ヨーロッパ7カ国でスーパーの冷蔵庫や冷凍庫がサイバー攻撃を受けました。",
+          "en": "",
+          "lang": "ja",
+          "t": 593.69
+        },
+        {
+          "speaker": "Mika",
+          "ja": "温度が異常に上昇させられ、各国の店舗で大量の食品が廃棄される事態となっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 600.09
+        }
+      ],
+      "t": 593.69
+    },
+    {
+      "kind": "world",
+      "heading_en": "Crude Oil Prices Drop",
+      "heading_ja": "原油価格の下落",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In global macroeconomic news, crude oil prices dropped over 6 percent on Monday to multi-week lows.",
+          "ja": "世界のマクロ経済ニュースとして、月曜日に原油価格が6パーセント以上下落し、数週間ぶりの安値をつけました。",
+          "t": 607.2
+        },
+        {
+          "speaker": "Alex",
+          "en": "Brent crude fell to as low as 105.55 dollars a barrel amid growing hopes for diplomacy to end the Iran conflict.",
+          "ja": "イラン紛争を終結させる外交への期待が高まる中、ブレント原油は1バレル105.55ドルまで下落しました。",
+          "t": 613.84
+        },
+        {
+          "speaker": "Alex",
+          "en": "Iranian officials revealed they are pushing an accelerated ceasefire plan mediated by Qatar that could reopen the Strait of Hormuz.",
+          "ja": "イラン当局者は、ホルムズ海峡の再開につながる可能性がある、カタール仲介による加速された停戦計画を推進していると明らかにしました。",
+          "t": 621.17
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did financial markets react to this drop in energy prices?",
+          "ja": "金融市場はこのエネルギー価格の下落にどのように反応したのですか。",
+          "t": 629.52
+        },
+        {
+          "speaker": "Alex",
+          "en": "Stock markets rallied, government borrowing costs decreased, and airline stocks such as International Consolidated Airlines Group and United Airlines saw significant gains.",
+          "ja": "株式市場は反発し、政府の借入コストは低下し、IAGやユナイテッド航空などの航空株は大幅な上昇を記録しました。",
+          "t": 634.17
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, diplomatic progress in the Middle East lowered oil prices and eased global inflationary pressures?",
+          "ja": "つまり、中東における外交的進展が原油価格を引き下げ、世界のインフレ圧力を和らげたのですね。",
+          "t": 644.72
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is right, though market analysts note risks remain depending on how political situations unfold.",
+          "ja": "その通りですが、市場アナリストは政治情勢の展開次第でリスクは残ると指摘しています。",
+          "t": 652.05
+        }
+      ],
+      "lang": "en",
+      "t": 607.2
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "イラン紛争終結に向けた外交への期待から、原油価格が6パーセント以上下落しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 659.24
+        },
+        {
+          "speaker": "Mika",
+          "ja": "ブレント原油が数週間ぶりの安値となり、インフレ圧力の緩和や株価の反発につながっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 666.41
+        }
+      ],
+      "t": 659.24
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch",
+      "heading_ja": "CEOウォッチ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In CEO Watch, Apple CEO John Ternus spoke during the company's Q4 earnings call about their ambitious product lineup.",
+          "ja": "CEOウォッチです。アップルのジョン・ターナスCEOが第4四半期の決算説明会で、野心的な製品ラインナップについて語りました。",
+          "t": 674.16
+        },
+        {
+          "speaker": "Alex",
+          "en": "He highlighted the iPhone Duo as the most transformational iPhone since the original, alongside the iPhone 18 Pro and Pro Max.",
+          "ja": "彼は、iPhone 18 ProおよびPro Maxとともに、iPhone Duoを初代以来最も変革的なiPhoneであると強調しました。",
+          "t": 681.82
+        },
+        {
+          "speaker": "Mika",
+          "en": "And addressing manufacturing challenges, Ternus and COO Sabih Khan noted they are working hard to deliver devices quickly, but cannot yet predict when supply and demand will balance.",
+          "ja": "そして製造上の課題に関して、ターナスCEOとサビハ・カーンCOOは、デバイスを迅速に届けるために懸念しつつ取り組んでいるものの、需給のバランスがいつ取れるかはまだ予測できないと述べました。",
+          "t": 689.96
+        }
+      ],
+      "lang": "en",
+      "t": 674.16
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day",
+      "heading_ja": "本日のフレーズ",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Our phrase of the day is cut ties, which means to end a relationship or association with someone completely and formally.",
+          "ja": "本日のフレーズは「cut ties」です。誰かとの関係や結びつきを完全かつ公式に終わらせるという意味です。",
+          "t": 701.12
+        },
+        {
+          "speaker": "Mika",
+          "en": "In business contexts, it is often used when a company terminates partnerships due to severe compliance or security breaches.",
+          "ja": "ビジネスの文脈では、重大なコンプライアンスやセキュリティの違反が原因で企業が提携関係を解消する際によく使われます。",
+          "t": 709.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "For example, Google announced that it has now cut ties with the compromised manufacturing partner.",
+          "ja": "例えば、「Googleは、セキュリティ侵害を起こした製造パートナーとの関係を断ったと発表した」のように使います。",
+          "t": 717.03
+        }
+      ],
+      "lang": "en",
+      "t": 701.12
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Closing",
+      "heading_ja": "エンディング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Technology markets face rising supply and security challenges, but innovation, diplomacy, and resilience continue to shape our world.",
+          "ja": "テクノロジー市場は高まる供給やセキュリティの課題に直面していますが、イノベーション、外交、そして回復力が私たちの世界を形作り続けています。",
+          "t": 723.66
+        },
+        {
+          "speaker": "Alex",
+          "en": "Thank you for listening to Commute News. Stay informed, stay safe, and see you on tomorrow's commute.",
+          "ja": "Commute Newsをお聞きいただきありがとうございました。最新情報をチェックして安全にお過ごしください。それではまた明日の通勤時間にお会いしましょう。",
+          "t": 732.18
+        }
+      ],
+      "lang": "en",
+      "t": 723.66
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。いってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 738.98
+        }
+      ],
+      "t": 738.98
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Apple Reports Q4 2026 Earnings",
+      "title_ja": "アップル、2026年度第4四半期決算を発表",
+      "summary_ja": "アップルの第4四半期売上高は1,145億ドルで過去最高を記録しました。しかしメモリコストの上昇とiPhone Duoの供給遅延が課題となっています。",
+      "why_ja": "ハードウェア需要やサプライチェーンのコスト動向を示す重要な指標となります。",
+      "section": "tech",
+      "topic_key": "apple-q4-2026-earnings-iphone-duo",
+      "sources": [
+        {
+          "publisher": "Apple Newsroom",
+          "title": "Apple reports fourth quarter results",
+          "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Apple says it’s ‘hard to predict’ when iPhone Duo constraints will improve",
+          "url": "https://techcrunch.com/2026/11/02/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improve/"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Apple’s inventory surges 154% as memory chip costs climb",
+          "url": "https://techcrunch.com/2026/11/02/apples-inventory-surges-154-as-memory-chip-costs-climb/"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "Apple is ‘not able to predict’ when it’ll have enough iPhone Duos to go around",
+          "url": "https://www.theverge.com/tech/1024915/apple-iphone-duo-supply-chain-constraints"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "Apple set an iPhone sales record even without a new standard iPhone",
+          "url": "https://www.theverge.com/tech/1024748/apple-q4-2026-iphone-sales-earnings"
+        }
+      ]
+    },
+    {
+      "title_en": "Marvell Acquires Lumentum for $115B",
+      "title_ja": "マヴェルス、ルメンタムを1,150億ドルで買収",
+      "summary_ja": "マヴェルスはNVIDIAの支援を受け、光ネットワークの大手ルメンタムを1,150億ドルで買収します。AIデータセンターの接続基盤強化が狙いです。",
+      "why_ja": "AIデータセンター向け光ネットワーク市場の統合とインフラ競争を加速させます。",
+      "section": "tech",
+      "topic_key": "marvell-lumentum-acquisition-115b",
+      "sources": [
+        {
+          "publisher": "The Register",
+          "title": "Marvell wants to be a copper topper, bets $115B on photonics leader to push optical networking",
+          "url": "https://www.theregister.com/systems/2026/11/02/marvell-wants-to-be-a-copper-topper-bets-115b-on-photonics-leader-to-push-optical-networking/5307028"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "In one of the largest deals in tech history, Marvell buys Lumentum for $115B",
+          "url": "https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b/"
+        }
+      ]
+    },
+    {
+      "title_en": "OpenAI Unveils 'Grid Protectors Program'",
+      "title_ja": "OpenAI、「グリッド・プロテクターズ・プログラム」を発表",
+      "summary_ja": "OpenAIはデータセンターの名称をAIコンピュート・キャンパスに変更し、地域社会の反発やエネルギー問題への対応を進めます。",
+      "why_ja": "AIインフラの拡大に伴う電力・水資源の制約と政治的・社会的課題に対する業界の対応を示しています。",
+      "section": "tech",
+      "topic_key": "openai-grid-protectors-compute-campuses",
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/openai-considers-rebranding-data-centers-to-ai-compute-campuses-as-data-center-backlash-intensifies-company-reportedly-sees-2028-presidential-election-becoming-an-ai-issue"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program"
+        }
+      ]
+    },
+    {
+      "title_en": "Law Enforcement Dismantles 1.3 Million Android TV Botnet",
+      "title_ja": "130万台のアンドロイドTVボットネットが解体",
+      "summary_ja": "中国の製造業者VideostrongがAndroid TVにバックドアを仕掛けたボットネットがGoogleと法執行機関によって摘発されました。",
+      "why_ja": "ハードウェアのサプライチェーンセキュリティとIoT機器の脆弱性に対する重大なリスクを浮き彫りにしています。",
+      "section": "tech",
+      "topic_key": "videostrong-android-botnet-dismantled",
+      "sources": [
+        {
+          "publisher": "The Verge",
+          "title": "One of Google’s Android partners turned 1.3 million set-top boxes into a botnet",
+          "url": "https://www.theverge.com/1024807/google-botnet-android-tv-shut-down"
+        },
+        {
+          "publisher": "The Register",
+          "title": "Cops bust botnet of 1.3M infected Android TV boxes",
+          "url": "https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/5307045"
+        },
+        {
+          "publisher": "The Hacker News",
+          "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1rQy1rOGdyelRlR3lnRFBNM3hxQ3VqMU1lUjd0bHR2V2hkaDl4VDNQZTgzbHY2SU9NNWJxcTJvOU14ekRRRng4bjhLM0NVMEFBZDhpVGlqc3lSU3M0OUN4RFdvcnFKNnRqLUlHRXdoWDc1WVZqREFEUDJ3Vnc?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Anthropic Restricts Claude Code From Re-creating Game IP",
+      "title_ja": "Anthropic、ゲームIPの再作成を制限",
+      "summary_ja": "Anthropicは既存ゲームのクローン作成を防ぐためClaude Codeのシステムプロンプトを更新しました。著作権侵害への対策を強化しています。",
+      "why_ja": "AIによるコード生成と著作権保護のバランス、プラットフォームの規制強化を示しています。",
+      "section": "tech",
+      "topic_key": "anthropic-claude-code-game-cloning-limits",
+      "sources": [
+        {
+          "publisher": "The Verge",
+          "title": "Anthropic clamps down on Claude’s AI video game clones",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones"
+        },
+        {
+          "publisher": "Ars Technica",
+          "title": "Claude’s new rules against game cloning won’t stop the AI copying boom",
+          "url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Anthropic confirms new Claude Code limits to prevent game cloning, users report blocking reverse engineering tasks",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-confirms-new-claude-code-limits-to-prevent-game-cloning-users-report-opus-5-5-is-also-actively-blocking-reverse-engineering-tasks"
+        }
+      ]
+    },
+    {
+      "title_en": "Athenahealth Integrates Medical Records With Claude",
+      "title_ja": "athenahealth、カルテデータをClaudeに統合",
+      "summary_ja": "athenahealthは患者の医療記録をAnthropicのClaudeに安全に接続するツールを発表しました。患者主体の健康管理を支援します。",
+      "why_ja": "医療データと外部LLMの連携において、プライバシーとデータガバナンスの新しい基準を提示しています。",
+      "section": "health",
+      "topic_key": "athenahealth-anthropic-claude-mcp-integration",
+      "sources": [
+        {
+          "publisher": "Fierce Healthcare",
+          "title": "Athenahealth launches tool to bring patient health records into Anthropic's Claude",
+          "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/athenahealth-launches-tool-bring-patient-health-records-anthropics-claude"
+        }
+      ]
+    },
+    {
+      "title_en": "US Supreme Court Rules Against Trump Administration on Ballots",
+      "title_ja": "米最高裁、投票用紙を巡るトランプ政権の要請を却下",
+      "summary_ja": "米最高裁は、カリフォルニア州に対して2万票の投票用紙の集計除外を求めたトランプ政権の緊急要請を却下しました。",
+      "why_ja": "選挙管理権限と連邦政府の介入を巡る憲法上の重要な裁定です。",
+      "section": "world",
+      "topic_key": "us-supreme-court-california-ballots-ruling",
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "Supreme court rules against Trump over bid to force California to set aside ballots",
+          "url": "https://www.theguardian.com/us-news/2026/nov/02/supreme-court-trump-california-ballots"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Trump asks Supreme Court to block 20,000 California ballots before midterms",
+          "url": "https://www.aljazeera.com/news/2026/11/2/trump-asks-supreme-court-to-block-20000-california-ballots-before-midterms?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "Coordinated Cyberattacks Target Supermarket Refrigeration",
+      "title_ja": "欧州スーパーの冷蔵庫を狙った協調型サイバー攻撃",
+      "summary_ja": "ヨーロッパ7カ国のスーパーで冷蔵庫の温度が不正操作され、大量の食品が廃棄されるサイバー攻撃の第2波が発生しました。",
+      "why_ja": "重要インフラであるコールドチェーンのサイバーセキュリティの脆弱性と実世界への影響を示しています。",
+      "section": "world",
+      "topic_key": "europe-supermarket-refrigeration-cyberattack",
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "A fresh wave of cyberattacks has hit Europe’s supermarket refrigerators, destroying food across countries",
+          "url": "https://techcrunch.com/2026/11/02/a-fresh-wave-of-cyberattacks-has-hit-europes-supermarket-refrigerators-destroying-food-across-countries/"
+        },
+        {
+          "publisher": "The Register",
+          "title": "Frozen part II: Hackers remotely defrost produce in Euro supermarkets ... again",
+          "url": "https://www.theregister.com/cyber-crime/2026/11/02/frozen-part-ii-hackers-remotely-defrost-produce-in-euro-supermarkets-again/5306924"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Supermarket freezers across Europe struck in second crippling cyberattack",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/supermarket-freezers-across-europe-struck-in-second-crippling-cyberattack-hackers-raise-temperatures-to-50-degrees-celsius-in-belgium-and-sweden-destroying-food-stocks"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Who is hacking Europe’s supermarket fridges and freezers, and why?",
+          "url": "https://www.theguardian.com/technology/2026/nov/02/europe-supermarket-fridges-freezers-who-hacking-why"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Shop freezers in seven European countries hit by cyber-attack",
+          "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "'All this food is now useless': Piles of rubbish after shop freezers hit by cyber-attack",
+          "url": "https://www.bbc.co.uk/news/videos/cmwyvrgk9p0ro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Shop fridges and freezers across Europe hit by fresh suspected cyber-attack",
+          "url": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Ikea among shops affected by fridge cyber-hacks – Europe live",
+          "url": "https://www.theguardian.com/world/live/2026/nov/02/ukraine-russia-emergency-warning-systems-hack-zelenskyy-streeting-eu-latest-news-updates"
+        }
+      ]
+    },
+    {
+      "title_en": "Crude Oil Prices Drop on Iran Diplomacy Hopes",
+      "title_ja": "イラン外交への期待から原油価格が下落",
+      "summary_ja": "イラン紛争終結に向けた停戦交渉の加速化への期待から、原油価格が6パーセント以上下落しました。",
+      "why_ja": "世界のエネルギー市場、インフレ動向、および輸送コストに直接的な影響を与えます。",
+      "section": "world",
+      "topic_key": "oil-prices-drop-iran-war-diplomacy",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Iran pushing accelerated plan for ceasefire talks with US",
+          "url": "https://www.aljazeera.com/news/2026/11/2/iran-pushing-accelerated-plan-for-ceasefire-talks-with-us?traffic_source=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Oil price falls amid hope of a breakthrough to end Iran war",
+          "url": "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Gulf region on edge as Qatar leads talks with Iran to stave off new U.S. attacks",
+          "url": "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war"
+        },
+        {
+          "publisher": "WSJ",
+          "title": "Stock Market Today: Oil Prices Slide on Mideast Hopes; Stocks Rebound After Friday's Selloff",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeE1wX0VMX3RqMkpRUmkyWE9SeV9rYlFqNzBTb2QyalVqQjl1Z1FjaWFVd3J3RDJRUnFMTHd3dzJjQlI1R0dPRWtiNjM0ZlIzTUtWV3BUWHhEU3gtN29FbVNfSENrREdRX2dZejFlbE1xRHF2U1ZMS3o5TnMxb0NwMUV2WHpwZ00?oc=5"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "revenue",
+      "meaning_ja": "売上高、収益",
+      "note_ja": "企業の事業による総収入を表すビジネスの基本用語です。",
+      "example_en": "Total quarterly revenue reached 114.5 billion dollars, up 12 percent from last year."
+    },
+    {
+      "term": "constraint",
+      "meaning_ja": "制約、制限",
+      "note_ja": "供給や行動が制限される状況を指します。",
+      "example_en": "However, the company faces rising memory chip costs and supply limits on the new iPhone Duo."
+    },
+    {
+      "term": "acquire",
+      "meaning_ja": "買収する、手に入れる",
+      "note_ja": "他企業や資産を手に入れることを表します。",
+      "example_en": "Custom chip designer Marvell has agreed to buy Lumentum for 115 billion dollars."
+    },
+    {
+      "term": "infrastructure",
+      "meaning_ja": "インフラ、基盤施設",
+      "note_ja": "社会や産業の土台となる施設やネットワークを指します。",
+      "example_en": "The deal aims to build stronger optical networking infrastructure for massive AI systems."
+    },
+    {
+      "term": "rebrand",
+      "meaning_ja": "ブランドを刷新する、改称する",
+      "note_ja": "イメージや名称を新しく変更することです。",
+      "example_en": "OpenAI is planning to rebrand its data centers as AI compute campuses."
+    },
+    {
+      "term": "botnet",
+      "meaning_ja": "ボットネット",
+      "note_ja": "マルウェアに感染した多数の機器のネットワークを指します。",
+      "example_en": "Google says law enforcement and its security teams dismantled a 1.3 million device botnet."
+    },
+    {
+      "term": "backdoor",
+      "meaning_ja": "バックドア",
+      "note_ja": "セキュリティをバイパスしてシステムに侵入するための隠し通路です。",
+      "example_en": "The infected devices were Android TV set-top boxes made by Videostrong in Shenzhen, China."
+    },
+    {
+      "term": "infringe",
+      "meaning_ja": "侵害する、違反する",
+      "note_ja": "権利や法律などを犯すことです。",
+      "example_en": "Using AI to infringe intellectual property violates their usage policy."
+    },
+    {
+      "term": "credential",
+      "meaning_ja": "資格情報、認証情報",
+      "note_ja": "ユーザー名やパスワードなど本人確認のための情報を指します。",
+      "example_en": "Patients log in with their portal credentials and approve specific data types to share."
+    },
+    {
+      "term": "spoil",
+      "meaning_ja": "台無しにする、腐敗させる",
+      "note_ja": "食べ物などが悪くなって食べられなくなることを指します。",
+      "example_en": "Hackers raised temperatures in refrigeration units overnight, spoiling large amounts of food."
+    },
+    {
+      "term": "cut ties",
+      "meaning_ja": "関係を断つ",
+      "note_ja": "組織や人との関係を完全に解消するという意味の一般的な表現です。",
+      "example_en": "Google announced that it has now cut ties with the compromised manufacturing partner."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "cut ties",
+    "meaning_ja": "関係を断つ、絶交する",
+    "example_en": "Google announced that it has now cut ties with the compromised manufacturing partner.",
+    "example_ja": "Googleは、セキュリティ侵害を起こした製造パートナーとの関係を断ったと発表しました。"
+  }
+}
