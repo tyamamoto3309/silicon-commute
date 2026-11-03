@@ -1,0 +1,1127 @@
+{
+  "date": "2026-11-04",
+  "published": "2026-11-04T06:42:02+09:00",
+  "title_en": "Commute News: AMD Q3 Earnings, Google AI Search, and Apple Beta",
+  "title_ja": "通勤ニュース：AMDの好決算、Googleの検索AI統合、Appleのベータ版",
+  "summary_ja": "本日はAMDの好決算やAIチップ需要、Googleによる学校向け検索とAIの統合方針、そしてApple Watchの新しい音声AIベータ版についてお届けします。さらに、米国中間選挙の動向やブラジルの化石燃料ロードマップ、AIの安全性に関する専門家の警告もお伝えします。",
+  "duration": 790.4,
+  "audio": {
+    "file": "2026-11-04.mp3",
+    "bytes": 6324439,
+    "release_tag": "ep-2026-11-04"
+  },
+  "word_count": 1457,
+  "ja_chars": 836,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.5-flash-lite",
+    "write": "gemini-3.5-flash-lite",
+    "revise": "gemini-3.5-flash-lite",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Good morning and welcome to Commute News",
+      "heading_ja": "おはようございます。通勤ニュースへようこそ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, and a very warm welcome to Commute News for Wednesday, November 4, 2026. We hope your morning is off to a great start today.",
+          "ja": "おはようございます。2026年11月4日水曜日の通勤ニュースへようこそ。素晴らしい一日の始まりとなりますように。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning everyone. We have a lot of important updates to cover for your commute today across technology, health, and world events.",
+          "ja": "皆さんおはようございます。本日の通勤時間に向けて、テクノロジー、健康、そして世界の動向に関する多くの重要なアップデートをお届けします。",
+          "t": 8.88
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is right, Mika. Today we will discuss AMD strong quarterly earnings report, Google updating its search policy for K-12 schools, and Apple releasing new ambient listening features in its latest watchOS beta.",
+          "ja": "その通りですね、Mika。本日は、AMDの好調な四半期決算、K-12（幼稚園から高校まで）の学校向け検索ポリシーを更新したGoogle、そして最新のwatchOSベータ版で周囲の音を聞き取る新機能を発表したAppleについて取り上げます。",
+          "t": 17.55
+        },
+        {
+          "speaker": "Mika",
+          "en": "We will also cover federal health coordination on artificial intelligence, US midterm elections, Brazil is new climate roadmap, and crucial safety warnings from AI pioneers. Let us dive right into the stories.",
+          "ja": "また、人工知能に関する連邦保健機関の連携、米国中間選挙、ブラジルの新しい気候変動ロードマップ、そしてAIパイオニアからの重要な安全性に関する警告についても取り上げます。それでは早速ニュースを見ていきましょう。",
+          "t": 30.42
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "AMD Q3 Earnings Beat Estimates",
+      "heading_ja": "AMDの第3四半期決算が予想を上回る",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Let us start our technology segment with some major financial news from AMD. The chip designer released its third quarter earnings report on Tuesday.",
+          "ja": "まずはテック関連のセグメントから、AMDの主要な財務ニュースをお伝えします。同社のチップ設計会社は火曜日に第3四半期決算を発表しました。",
+          "t": 43.17
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did the company perform in the market, Alex?",
+          "ja": "アレックス、市場での企業の業績はどうでしたか？",
+          "t": 52.66
+        },
+        {
+          "speaker": "Alex",
+          "en": "The results easily beat Wall Street expectations. Following the announcement, AMD stock jumped seven percent in after hours trading.",
+          "ja": "業績はウォール街の予想を簡単に上回りました。この発表を受けて、AMDの株価は時間外取引で7パーセント急上昇しました。",
+          "t": 56.63
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specific factors drove this impressive financial growth?",
+          "ja": "この目覚ましい財務的成長を牽引した具体的な要因は何ですか？",
+          "t": 65.19
+        },
+        {
+          "speaker": "Alex",
+          "en": "Data center revenue nearly doubled during the quarter. This tremendous surge was driven by soaring enterprise demand for specialized artificial intelligence chips.",
+          "ja": "四半期中のデータセンターの売上高はほぼ倍増しました。このすさまじい急増は、特殊な人工知能チップに対する企業の急激な需要によって牽引されたものです。",
+          "t": 69.88
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, AMD reported very strong earnings because data center AI chip sales doubled?",
+          "ja": "つまり、データセンター向けAIチップの売上が倍増したため、AMDは非常に好調な決算を報告したということですね？",
+          "t": 80.13
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is entirely correct. Strong enterprise demand for data center hardware signals broader health and robust momentum in the global semiconductor sector.",
+          "ja": "その通りです。データセンター用ハードウェアに対する強い企業の需要は、世界の半導体セクター全体の健全性と堅調な勢いを示しています。",
+          "t": 86.4
+        },
+        {
+          "speaker": "Mika",
+          "en": "It is clear that AI infrastructure investments continue to pay off for major hardware suppliers.",
+          "ja": "AIインフラへの投資が主要なハードウェア供給業者にとって引き続き成果を上げていることがよく分かりますね。",
+          "t": 96.15
+        }
+      ],
+      "lang": "en",
+      "t": 43.17
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。AMDの第3四半期決算はウォール街の予想を上回り、株価が7パーセント上昇しました。AIチップに対する企業の需要により、データセンター部門の売上がほぼ倍増しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 102.75
+        }
+      ],
+      "t": 102.75
+    },
+    {
+      "kind": "story",
+      "heading_en": "Google Links Search to AI for Schools",
+      "heading_ja": "Googleが学校向けに検索とAIを紐付け",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Next, we turn to a controversial policy update from Google regarding educational accounts and school products.",
+          "ja": "次に、教育用アカウントおよび学校向け製品に関するGoogleの物議を醸す方針のアップデートについてお伝えします。",
+          "t": 117.95
+        },
+        {
+          "speaker": "Mika",
+          "en": "What are the specific details of this newly announced change?",
+          "ja": "今回発表された変更の具体的な詳細を教えてください。",
+          "t": 125.31
+        },
+        {
+          "speaker": "Alex",
+          "en": "Google announced it will let K-12 schools disable AI tools like Gemini and NotebookLM if administrators choose to do so. However, blocking artificial intelligence tools also means giving up Google Search.",
+          "ja": "Googleは、管理者が希望する場合、K-12の学校がGeminiやNotebookLMなどのAIツールを無効にすることを許可すると発表しました。しかし、人工知能ツールをブロックすることは、Google検索も放棄することを意味します。",
+          "t": 129.99
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is Google tying search access directly to artificial intelligence features?",
+          "ja": "なぜGoogleは検索へのアクセスを人工知能機能に直接結びつけているのですか？",
+          "t": 142.48
+        },
+        {
+          "speaker": "Alex",
+          "en": "Company executives explained that search and AI features are now deeply and inseparably integrated into the search engine platform.",
+          "ja": "会社の幹部らは、検索機能とAI機能が、現在では検索エンジン・プラットフォームに深く切り離せないほど統合されているためだと説明しています。",
+          "t": 148.14
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, schools that want to block classroom AI tools must also lose access to Google Search?",
+          "ja": "つまり、教室でのAIツールをブロックしたい学校は、Google検索へのアクセスも失うことになるのですね？",
+          "t": 156.65
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. This difficult choice highlights the company is massive influence over the education sector and its platform dominance.",
+          "ja": "その通りです。この難しい選択は、教育セクターに対する同社の絶大な影響力とプラットフォームの支配力を浮き彫りにしています。",
+          "t": 163.41
+        },
+        {
+          "speaker": "Mika",
+          "en": "Administrators will certainly have to weigh student research needs against AI policy concerns in the coming months.",
+          "ja": "管理者は、今後数ヶ月の間に生徒の調査ニーズとAIポリシーに関する懸念を慎重に比較検討しなければならないでしょう。",
+          "t": 171.53
+        }
+      ],
+      "lang": "en",
+      "t": 117.95
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Googleは学校がAIツールを無効にすることを認めますが、AIを制限するとGoogle検索も使えなくなります。検索とAIが完全に一体化しているため、教育現場に大きな影響を与えます。",
+          "en": "",
+          "lang": "ja",
+          "t": 179.61
+        }
+      ],
+      "t": 179.61
+    },
+    {
+      "kind": "story",
+      "heading_en": "Nvidia Imposes New Cloud Rules",
+      "heading_ja": "Nvidiaがクラウドプロバイダーに新しい制限を課す",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, let us examine a major policy shift from Nvidia involving new global restrictions for cloud service providers.",
+          "ja": "続いて、クラウドサービスプロバイダー向けの新しい世界的な制限に関するNvidiaの主要な方針転換について見ていきましょう。",
+          "t": 194.79
+        },
+        {
+          "speaker": "Mika",
+          "en": "What does this new compliance policy actually require operators to do?",
+          "ja": "この新しいコンプライアンス方針では、オペレーターに実際何が求められているのですか？",
+          "t": 202.64
+        },
+        {
+          "speaker": "Alex",
+          "en": "Nvidia has reportedly informed cloud data center operators that they must sell less than half of their services to Chinese companies for new contracts.",
+          "ja": "報道によると、Nvidiaはクラウドデータセンターの事業者に対し、新規契約において自社サービスの半分未満を中国企業に販売しなければならないと通知しました。",
+          "t": 207.96
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does this restriction apply exclusively to data centers located within Asia?",
+          "ja": "この制限はアジア内にあるデータセンターだけに排他的に適用されるのですか？",
+          "t": 217.83
+        },
+        {
+          "speaker": "Alex",
+          "en": "No. According to reports, the policy applies globally to data center operators using Nvidia hardware for future agreements.",
+          "ja": "いいえ。報道によれば、この方針は将来の契約においてNvidiaのハードウェアを使用する世界中のデータセンター事業者に適用されます。",
+          "t": 223.49
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, cloud operators must ensure at least fifty one percent of their business comes from non-Chinese customers?",
+          "ja": "つまり、クラウド事業者は売上の少なくとも51パーセントが非中国系顧客からのものであることを確実にしなければならないのですね？",
+          "t": 231.79
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. This strategic move aims to tighten compliance around semiconductor export controls and limit China is ongoing artificial intelligence capabilities.",
+          "ja": "その通りです。この戦略的動きは、半導体輸出管理のコンプライアンスを厳格化し、中国の進行中の人工知能能力を制限することを目的としています。",
+          "t": 239.92
+        },
+        {
+          "speaker": "Mika",
+          "en": "It adds another layer of complexity for international cloud infrastructure deployment.",
+          "ja": "これにより、国際的なクラウドインフラの展開にさらなる複雑さが加わることになりますね。",
+          "t": 250.12
+        }
+      ],
+      "lang": "en",
+      "t": 194.79
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Nvidiaはクラウド事業者に対し、新規契約において中国企業向けサービスを全体の49パーセント未満に制限するよう求めています。半導体輸出の管理を世界規模で強化する狙いです。",
+          "en": "",
+          "lang": "ja",
+          "t": 256.35
+        }
+      ],
+      "t": 256.35
+    },
+    {
+      "kind": "story",
+      "heading_en": "Apple Releases watchOS Beta",
+      "heading_ja": "AppleがwatchOSのベータ版をリリース",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In Apple news, the tech giant released the watchOS twenty-seven point three developer beta on Tuesday afternoon.",
+          "ja": "Appleのニュースです。同社は火曜日の午後にwatchOS 27.3の開発者向けベータ版をリリースしました。",
+          "t": 270.77
+        },
+        {
+          "speaker": "Mika",
+          "en": "What notable new software features are included in this developer testing build?",
+          "ja": "この開発者向けテストビルドには、どのような注目すべき新ソフトウェア機能が含まれていますか？",
+          "t": 278.45
+        },
+        {
+          "speaker": "Alex",
+          "en": "It introduces advanced on-device audio intelligence capabilities known as Live Rewind and Siri Recap.",
+          "ja": "ライブリワインドとSiriリカプとして知られる、高度なデバイス上の音声インテリジェンス機能が導入されています。",
+          "t": 284.33
+        },
+        {
+          "speaker": "Mika",
+          "en": "How do these specific ambient audio features function for the user?",
+          "ja": "これらの特定の環境音声機能は、ユーザーにとってどのように機能するのですか？",
+          "t": 291.4
+        },
+        {
+          "speaker": "Alex",
+          "en": "Live Rewind lets users view a text transcript of the last fifteen seconds, while Siri Recap automatically creates high-level summaries of recent conversations.",
+          "ja": "ライブリワインドにより、ユーザーは過去15秒間のテキスト文字起こしを表示でき、Siriリカプは最近の会話の高度な要約を自動的に作成します。",
+          "t": 296.56
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, the new Apple Watch beta lets users review recent audio and summarize conversations using on-device AI?",
+          "ja": "つまり、新しいApple Watchのベータ版により、ユーザーはデバイス上のAIを使って最近の音声を振り返り、会話を要約できるのですね？",
+          "t": 306.87
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, marking a significant strategic push into contextual, on-device artificial intelligence for wearable tech devices.",
+          "ja": "はい。これはウェアラブル技術デバイスにおける、文脈に応じたデバイス上の人工知能への重要な戦略的進出を示しています。",
+          "t": 314.83
+        },
+        {
+          "speaker": "Mika",
+          "en": "Privacy controls and user opt-in settings will play a huge role as these tools move toward public release.",
+          "ja": "これらのツールが一般公開に向けて進むにつれて、プライバシー管理とユーザーのオプトイン設定が大きな役割を果たすことでしょう。",
+          "t": 322.91
+        }
+      ],
+      "lang": "en",
+      "t": 270.77
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "AppleはwatchOSのベータ版で、過去15秒の音声を文字にするライブリワインドや、会話を要約するSiriリカプなどの音声AI機能を導入しました。プライバシーに配慮した設計となっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 330.7
+        }
+      ],
+      "t": 330.7
+    },
+    {
+      "kind": "story",
+      "heading_en": "CrowdStrike Acquires Two AI Startups",
+      "heading_ja": "CrowdStrikeが2つのAIスタートアップを買収",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Cybersecurity leader CrowdStrike is significantly expanding its artificial intelligence security portfolio through two major new acquisitions.",
+          "ja": "サイバーセキュリティ大手のCrowdStrikeは、2つの新たな主要買収を通じて、人工知能セキュリティのポートフォリオを大幅に拡大しています。",
+          "t": 346.16
+        },
+        {
+          "speaker": "Mika",
+          "en": "Which specific startup companies is CrowdStrike planning to purchase?",
+          "ja": "CrowdStrikeは具体的にどのスタートアップ企業を買収する予定ですか？",
+          "t": 355.24
+        },
+        {
+          "speaker": "Alex",
+          "en": "The cybersecurity giant is acquiring Fiddler AI for approximately four hundred million dollars and Dreadnode for about ninety-five million dollars.",
+          "ja": "サイバーセキュリティ大手は、Fiddler AIを約4億ドルで、Dreadnodeを約9,500万ドルで買収します。",
+          "t": 360.35
+        },
+        {
+          "speaker": "Mika",
+          "en": "What core technological services do these two acquired startups provide?",
+          "ja": "これら2つの買収されたスタートアップは、どのようなコア技術サービスを提供しているのですか？",
+          "t": 369.71
+        },
+        {
+          "speaker": "Alex",
+          "en": "Fiddler AI develops observability software for monitoring enterprise AI agents, while Dreadnode helps companies automate specialized security testing for AI models and apps.",
+          "ja": "Fiddler AIは企業向けAIエージェントを監視するためのオブザーバビリティ（可観測性）ソフトウェアを開発しており、Dreadnodeは企業がAIモデルやアプリ向けの専門的なセキュリティテストを自動化するのを支援します。",
+          "t": 374.99
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, CrowdStrike is spending nearly five hundred million dollars to secure enterprise artificial intelligence agents and models?",
+          "ja": "つまり、CrowdStrikeは企業の人工知能エージェントやモデルを保護するために、約5億ドルを投じるということですね？",
+          "t": 385.75
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is correct. This investment highlights the extremely fast-growing enterprise security market for autonomous AI agents.",
+          "ja": "その通りです。この投資は、自律型AIエージェント向けの非常に急速に成長している企業向けセキュリティ市場を浮き彫りにしています。",
+          "t": 394.57
+        },
+        {
+          "speaker": "Mika",
+          "en": "Securing these agentic workflows will be crucial as businesses deploy more automated software.",
+          "ja": "企業がより多くの自動化ソフトウェアを展開するにつれて、これらのエージェント型ワークフローを保護することが極めて重要になります。",
+          "t": 402.62
+        }
+      ],
+      "lang": "en",
+      "t": 346.16
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "CrowdStrikeは、AI監視のFiddler AIとAIセキュリティテストのDreadnodeを総額約5億ドルで買収し、企業におけるAIエージェントの保護を強化します。",
+          "en": "",
+          "lang": "ja",
+          "t": 409.09
+        }
+      ],
+      "t": 409.09
+    },
+    {
+      "kind": "health",
+      "heading_en": "FDA and CMS Coordinate Health AI Rules",
+      "heading_ja": "FDAとCMSが医療AI規則で連携",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Moving now to our digital health segment, federal health agencies are actively collaborating with state officials on clinical artificial intelligence governance.",
+          "ja": "続いてデジタルヘルスのセグメントに移ります。連邦の健康機関が、臨床用人工知能のガバナンスに関して州政府の当局者と積極的に協力しています。",
+          "t": 423.22
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specific regulatory and legal issues are federal officials working on with state authorities?",
+          "ja": "連邦政府の当局者は、州当局と具体的にどのような規制上および法律上の課題に取り組んでいるのですか？",
+          "t": 433.34
+        },
+        {
+          "speaker": "Alex",
+          "en": "They are focusing on establishing clear AI regulations, defining liability standards, and protecting medical doctors from AI-related legal liability.",
+          "ja": "彼らは、明確なAI規制の確立、責任基準の定義、そして医師をAI関連の法的責任から保護することに焦点を当てています。",
+          "t": 440.03
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is this coordinated inter-agency policy initiative so important for healthcare professionals?",
+          "ja": "なぜこの協調的な省庁間政策イニシアチブが医療従事者にとってそれほど重要なのでしょうか？",
+          "t": 449.5
+        },
+        {
+          "speaker": "Alex",
+          "en": "Clinicians need reliable regulatory standards and legal protections when integrating advanced artificial intelligence tools into patient care.",
+          "ja": "臨床医は、患者のケアに高度な人工知能ツールを統合する際、信頼できる規制基準と法的保護を必要としています。",
+          "t": 456.13
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, federal and state health agencies are creating joint frameworks to regulate clinical AI and protect doctors?",
+          "ja": "つまり、連邦および州の保健機関が、臨床AIを規制し医師を保護するための共同の枠組みを作っているのですね？",
+          "t": 465.21
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, representing a critical milestone for health-tech compliance and patient safety standards.",
+          "ja": "はい、これはヘルステックのコンプライアンスと患者の安全性基準にとって重要な節目を表しています。",
+          "t": 473.21
+        },
+        {
+          "speaker": "Mika",
+          "en": "Clear governance will undoubtedly help healthcare providers adopt beneficial technologies with greater confidence.",
+          "ja": "明確なガバナンスは、医療提供者がより大きな自信を持って有益な技術を採用するのに役立つに違いありません。",
+          "t": 479.74
+        }
+      ],
+      "lang": "en",
+      "t": 423.22
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "FDAやCMSなどの連邦機関が州政府と連携し、臨床AIの規制や医師の法的責任からの保護に関する方針作りに取り組んでいます。ヘルステックのコンプライアンスにおける重要な節目です。",
+          "en": "",
+          "lang": "ja",
+          "t": 487.3
+        }
+      ],
+      "t": 487.3
+    },
+    {
+      "kind": "world",
+      "heading_en": "US Midterm Elections Underway",
+      "heading_ja": "米国中間選挙が投票中",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Turning to world news, the United States midterm elections are officially underway today, drawing intense national and international attention.",
+          "ja": "続いて世界ニュースです。本日は米国の中間選挙が公式に投票中であり、国内外から激しい注目を集めています。",
+          "t": 502.03
+        },
+        {
+          "speaker": "Mika",
+          "en": "What major political control is at stake in these important congressional elections?",
+          "ja": "この重要な議会選挙では、どのような主要な政治的支配権が争われているのですか？",
+          "t": 511.3
+        },
+        {
+          "speaker": "Alex",
+          "en": "Voters across the country are deciding control of Congress and serving a referendum on the current administration is political agenda.",
+          "ja": "全国の有権者が議会の支配権を決定し、現政権の政治課題に対する信任投票を行っています。",
+          "t": 517.32
+        },
+        {
+          "speaker": "Mika",
+          "en": "Have election officials observed strong participation from voters so far?",
+          "ja": "選挙管理官はこれまでに有権者からの強い参加を確認していますか？",
+          "t": 526.09
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, voter turnout has surged dramatically, with early voting ballots significantly outstripping the total figures from the twenty-twenty-two midterm elections.",
+          "ja": "はい。期日前投票の数が2022年の中間選挙の総数を大幅に上回り、投票率が劇的に急増しています。",
+          "t": 531.5
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, high voter turnout in the midterm elections will determine control of the US Congress and impact future policies?",
+          "ja": "つまり、中間選挙での高い投票率が米国の議会の支配権を決定し、将来の政策に影響を与えるということですね？",
+          "t": 541.71
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is correct, directly impacting global economic stability, trade agreements, and fiscal spending.",
+          "ja": "その通りです。それが世界の経済安定、貿易協定、そして財政支出に直接的な影響を与えます。",
+          "t": 550.09
+        },
+        {
+          "speaker": "Mika",
+          "en": "The results will shape the political landscape in Washington for the remainder of the presidential term.",
+          "ja": "選挙結果は、大統領任期の残りの期間におけるワシントンの政治情勢を形作るでしょう。",
+          "t": 557.05
+        }
+      ],
+      "lang": "en",
+      "t": 502.03
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米国では中間選挙の投票が進んでおり、期日前投票が急増するなど高い投票率を記録しています。議会の主導権がどこに渡るかが決まり、世界の経済や政策にも影響を与えます。",
+          "en": "",
+          "lang": "ja",
+          "t": 564.17
+        }
+      ],
+      "t": 564.17
+    },
+    {
+      "kind": "world",
+      "heading_en": "Brazil Publishes Fossil Fuel Roadmap",
+      "heading_ja": "ブラジルが化石燃料のロードマップを発表",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In international climate news, the government of Brazil has published the world is first global roadmap for phasing out fossil fuels.",
+          "ja": "国際的な気候変動のニュースです。ブラジル政府は、化石燃料の段階的廃止に向けた世界初のグローバルロードマップを発表しました。",
+          "t": 577.47
+        },
+        {
+          "speaker": "Mika",
+          "en": "What is the primary objective of this new climate transition framework?",
+          "ja": "この新しい気候変動移行の枠組みの主な目的は何ですか？",
+          "t": 586.18
+        },
+        {
+          "speaker": "Alex",
+          "en": "It sets out practical steps to help national economies break their dependence on coal, oil, and gas ahead of the Cop thirty summit.",
+          "ja": "COP30サミットを前に、各国経済が石炭、石油、ガスへの依存から脱却するための実践的な手順を示しています。",
+          "t": 591.48
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does this official roadmap include strict timelines or binding enforcement deadlines?",
+          "ja": "この公式ロードマップには、厳格なタイムラインや法的な執行期限が含まれていますか？",
+          "t": 600.09
+        },
+        {
+          "speaker": "Alex",
+          "en": "No, the documents are non-binding and contain no deadlines, leaving implementation policies entirely up to individual national governments.",
+          "ja": "いいえ、この文書に法的拘束力はなく期限も含まれておらず、実際の実行政策は完全に各国の政府に委ねられています。",
+          "t": 606.16
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Brazil released a non-binding roadmap to help countries transition away from fossil fuels and focus on implementation?",
+          "ja": "つまり、ブラジルは各国が化石燃料からの移行を進め、実行に焦点を当てるための法的拘束力のないロードマップを公表したのですね？",
+          "t": 615.21
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, aiming to move international climate efforts away from endless negotiations and toward practical domestic execution.",
+          "ja": "はい。国際的な気候変動の取り組みを終わりのない交渉から実務的な国内での実行へと移行させることを目指しています。",
+          "t": 623.88
+        },
+        {
+          "speaker": "Mika",
+          "en": "Finance and energy ministries worldwide will now have to review these guidelines for their own economies.",
+          "ja": "世界中の財務省やエネルギー省は、自国の経済に向けてこれらのガイドラインを今すぐ見直さなければならなくなるでしょう。",
+          "t": 631.93
+        }
+      ],
+      "lang": "en",
+      "t": 577.47
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ブラジルはCOP30を前に、化石燃料からの脱却を目指す世界初のロードマップを発表しました。拘束力はありませんが、国際交渉から実務的な国内実行へと焦点を移す狙いがあります。",
+          "en": "",
+          "lang": "ja",
+          "t": 639.11
+        }
+      ],
+      "t": 639.11
+    },
+    {
+      "kind": "world",
+      "heading_en": "Geoffrey Hinton Warns About AI",
+      "heading_ja": "ジェフリー・ヒントン氏がAIについて警告",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Finally in our world segment, artificial intelligence pioneer Geoffrey Hinton has issued a grave warning regarding the technology is near-term risks.",
+          "ja": "ワールドセグメントの最後は、人工知能のパイオニアであるジェフリー・ヒントン氏が、この技術の短期的なリスクに関して重大な警告を発したというニュースです。",
+          "t": 653.6
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specific catastrophic scenarios did Professor Hinton warn about in his interview?",
+          "ja": "ヒントン教授はインタビューの中で、どのような具体的な破滅的シナリオについて警告したのですか？",
+          "t": 662.69
+        },
+        {
+          "speaker": "Alex",
+          "en": "He warned that advanced artificial intelligence could trigger a large-scale systemic incident, such as a temporary blackout of power or banking systems.",
+          "ja": "彼は、高度な人工知能が、電力システムや金融システムの一時的な停電などの大規模なシステム的インシデントを引き起こす可能性があると警告しました。",
+          "t": 668.48
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did he give a timeline for when such an incident might occur?",
+          "ja": "そのようなインシデントがいつ起こるかもしれないというタイムラインを示しましたか？",
+          "t": 677.73
+        },
+        {
+          "speaker": "Alex",
+          "en": "He stated that such an event could happen this year or next year, urging global leaders to pay close attention to these looming threats.",
+          "ja": "彼はそのような出来事が今年か来年に起こり得ると述べ、世界中の指導者たちに対して、こうした迫り来る脅威に細心の注意を払うよう促しました。",
+          "t": 682.22
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, a leading AI researcher warns that artificial intelligence could cause major infrastructure incidents soon?",
+          "ja": "つまり、著名なAI研究者が、人工知能が近く重大なインフラ障害を引き起こす可能性があると警告しているのですね？",
+          "t": 690.63
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is correct. His prominent warnings carry significant weight for global technology regulators and policymakers.",
+          "ja": "その通りです。彼の著名な警告は、世界の技術規制当局や政策立案者にとって大きな重みを持っています。",
+          "t": 698.25
+        },
+        {
+          "speaker": "Mika",
+          "en": "Safety research and effective risk management remain paramount as frontier models become more powerful.",
+          "ja": "フロンティアモデルがより強力になるにつれて、安全性に関する研究と効果的なリスク管理が極めて重要であり続けます。",
+          "t": 705.56
+        }
+      ],
+      "lang": "en",
+      "t": 653.6
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "AIのパイオニアであるジェフリー・ヒントン氏は、AIが今年や来年にも電力や金融システムの停止といった大規模なシステム障害を引き起こす恐れがあると警告しました。規制当局にとって重要な警鐘となります。",
+          "en": "",
+          "lang": "ja",
+          "t": 712.25
+        }
+      ],
+      "t": 712.25
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch: Nvidia and AI Models",
+      "heading_ja": "CEOウォッチ：NvidiaとAIモデル",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In CEO watch today, Nvidia chief executive Jensen Huang stated that his company is entirely happy to take business whether customers choose open models or closed models.",
+          "ja": "本日のCEOウォッチです。Nvidiaの最高経営責任者であるジェンスン・フアン氏は、顧客がオープンモデルを選ぶかクローズドモデルを選ぶかに関わらず、同社は喜んでビジネスを行うと述べました。",
+          "t": 727.37
+        },
+        {
+          "speaker": "Mika",
+          "en": "That statement perfectly illustrates how Nvidia supplies essential hardware to the entire artificial intelligence industry regardless of specific model architecture choices.",
+          "ja": "その発言は、Nvidiaが特定のモデルアーキテクチャの選択に関わらず、人工知能業界全体に不可欠なハードウェアをどのように供給しているかを完璧に示していますね。",
+          "t": 737.5
+        }
+      ],
+      "lang": "en",
+      "t": 727.37
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: Reverse Course",
+      "heading_ja": "本日のフレーズ：方針を転換する",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Now, it is time for our phrase of the day segment. Today, our useful English phrase is reverse course.",
+          "ja": "続いて、本日のフレーズのコーナーです。本日の役立つ英語フレーズは「reverse course（方針を転換する）」です。",
+          "t": 747.84
+        },
+        {
+          "speaker": "Alex",
+          "en": "To reverse course means to change your direction, strategy, or policy after previously making a decision on a matter.",
+          "ja": "reverse courseとは、ある事柄について以前に決定を下した後に、自分の方向性、戦略、または方針を転換することを意味します。",
+          "t": 754.47
+        },
+        {
+          "speaker": "Mika",
+          "en": "For example, you can use it in a sentence like this: The major tech company decided to reverse course and allow schools to disable AI tools.",
+          "ja": "例えば、次のような文で使うことができます。「その大手テック企業は方針を転換し、学校がAIツールを無効にすることを許可することに決めた。」",
+          "t": 761.89
+        }
+      ],
+      "lang": "en",
+      "t": 747.84
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Closing and Sign-off",
+      "heading_ja": "エンディングとご挨拶",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That wraps up our news coverage for today. Thank you so much for tuning in to Commute News during your morning routine.",
+          "ja": "本日のニュースカバレッジは以上です。朝のルーティンの最中にCommute Newsをお聴きいただき、本当にありがとうございました。",
+          "t": 770.51
+        },
+        {
+          "speaker": "Mika",
+          "en": "Have a wonderful Wednesday everyone, and we look forward to seeing you back here on tomorrow is commute.",
+          "ja": "皆さん素晴らしい水曜日をお過ごしください。それではまた、明日の通勤時間にお会いしましょう。",
+          "t": 778.03
+        }
+      ],
+      "lang": "en",
+      "t": 770.51
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、本日のCommute Newsでした。いってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 784.76
+        }
+      ],
+      "t": 784.76
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "AMD Q3 Earnings and Sales Forecast Beat Estimates",
+      "title_ja": "AMDの第3四半期決算と売上予測が予想を上回る",
+      "summary_ja": "AMDの第3四半期決算はウォール街の予想を上回り、時間外取引で株価が急上昇しました。AIチップに対する企業の需要急増により、データセンター部門の売上高がほぼ倍増しています。この好業績は半導体セクター全体の健全性を示しています。",
+      "why_ja": "AIハードウェアに対する企業の強い需要を裏付け、半導体市場全体の動向を占う上で重要な指標となります。",
+      "section": "tech",
+      "topic_key": "amd-q3-2026-earnings",
+      "companies": [
+        "AMD"
+      ],
+      "sources": [
+        {
+          "publisher": "Investing.com",
+          "title": "AMD stock jumps after hours as quarterly results, revenue guidance beat estimates",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRG43Ym5NZlcwNFlXa3FGTTAyazdIZkh0Wjk4M00xNHhSXzh1ajRhbE45cG40U2RBNHZydEJ6Y3NrY0tsS3ZyQ3hqTW9XU2Nab3NiWTVzVk5EVUktZW5RU3pObXdCTmRSVk9WM2ZYWVBtdWl0RHZHeVowVHFsYzdZYVdiYmUxS0xORGIyTTdXNUdIOWp4TlVlVk5Da2V0ZFpOR2JBaWs1VVhaOVhBOWxGSVAwbTJjUXdBeDVEM3lydVRMdlFycktj?oc=5"
+        },
+        {
+          "publisher": "Bloomberg.com",
+          "title": "AMD Sales Forecast Tops Estimates on Soaring AI Chip Demand",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYURlOUxxRUMybEdmbkJoTHZiZEVTTUtCN0gyZ1RsV0s3YlEteXR1NFZIWDNwXzJKTUdCRUpJY0RWNlRqVC02M0VaMFgtY0piUFNGSkhKQmZ3bTVwMHFERHN6ZExPSnVFbWdBWDYxQnNnX0RJRnF6QVlld0FBeDhySGlrUEZ4bEtmWkkybFFVRU9EcnhRd2F5c1M1eGc2OFk5VG95X0dUa1dWUGhPZzJJ?oc=5"
+        },
+        {
+          "publisher": "WSJ",
+          "title": "AMD Beats Wall Street Expectations as it Pivots to Data-Center First Status",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTS1ackJyUFczU0ZLRnVmUkF2M2M2MUtueVFjd3ZpOEVkSlJQRWY3eUFNa2g2MVlHOTJDZTROanJCRkMzN0k0S0s2WWh6c2VMVW84VklCRmNBdW5CcmlMYzFXX2RpNmp2UDNPbjNWOFZRMVJUYWtyQkcxX0NPTE1FZU1TXzQ4d2VmaXZkNEVRNTRsQUVPTlUtcXIxRUg5endOZVZyT29sYmtEbmhCQ2pxUA?oc=5"
+        },
+        {
+          "publisher": "CNBC",
+          "title": "AMD stock jumps 7% on earnings as data center revenue nearly doubles",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBfVXVMaFFzOXpSSmhDS2xlZWZLZDk0V2w5MHpTSnZ3d2c5bkMzRDhwbzhURWpMMVcwX3ZiME8ybmU4UHR1ekdtVlUwRTYxcTI0T1dadVhheUQ0LVVpWnRqYjdmeDkxMGJKQXBkNUtpaEVKZVlXNEhYRdIBfkFVX3lxTFAwT0pLTUtFX3FhLU4tWFFuU3JjMXF4NWxpWFNVZEoxeTdqMVc2d201ZHRMdXV4cEg4VGNnd0RDRmhKbnNYZndMa1hhMzZ3Y0lUdk82SUprYVVibVZQT19vR05WaGZKZlBzcDFLZWNzczZkb0pDN180UTZ5MTRuUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Google Reverses Course, Threatens to Cut Off Search for Schools Blocking AI",
+      "title_ja": "Googleが方針転換、AIをブロックする学校への検索提供停止を示唆",
+      "summary_ja": "Googleは学校がAIツールを無効にすることを許可する一方、AIを制限する場合はGoogle検索の利用も停止すると発表しました。検索機能とAIが完全に一体化しているためです。この決定は教育市場における同社の支配力を浮き彫りにしています。",
+      "why_ja": "EdTech市場の調達やプラットフォームの支配力、教育現場でのプライバシー問題に大きな影響を与えます。",
+      "section": "tech",
+      "topic_key": "google-search-schools-ai-integration",
+      "companies": [
+        "Google"
+      ],
+      "sources": [
+        {
+          "publisher": "Ars Technica",
+          "title": "Google will let schools skip AI tools, but they have to give up search, too",
+          "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
+          "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/"
+        },
+        {
+          "publisher": "CBS News",
+          "title": "Google to end search access for schools that block its AI tools, sparking backlash",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aY1ZYUUthaThJeldyOUZsc1U0Z19qMkVrenppMm9CZEZaOC13a1VqT0dWZW1ORHZTQmVqUHl0TTIyMkZPMkQyUUFmX21vWWd3c1VHUTl5R2xYMmxYWUxySWpUdnBaVVdITnlrZGlNRjAtS185cFE?oc=5"
+        },
+        {
+          "publisher": "The New York Times",
+          "title": "Google Will Turn Off Search for Schools That Reject A.I.",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPa2ZWRmYyZW9YZng5SmhjYnpjQ213dnRKVjVjNW1rcS1RRFoxVUFKYnl2VlVjMk1abE1kQTE2Qk1Ea09WcHlvMjFNbTREWnhmYXZiTjE5RTY0bUdMZGsyRFRCNDNWQjg0SG90WXlaSVV1d19iV0x4UEVnVlFzS3dyVWZB?oc=5"
+        },
+        {
+          "publisher": "NBC News",
+          "title": "Google to shut off search for schools that opt out of AI",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTXBsSzByWUh5YVNuZGpjVXRtQ21SMG0waXByX0JZVl85eGJ4M25FOExEMDJGTWpXbjJJa1dheEJLSXV1WEo3VWtMWEFaeWNfeW1FcWNpVTBZY2htRWxMdVExVVRvYjFQYUJyTXVSTjktMFc4VEJXb19JRTNTelM0NTh2akZrdFBTdVZr?oc=5"
+        },
+        {
+          "publisher": "Forbes",
+          "title": "Google Will Cut Off Search Engine Access To Schools Banning Generative AI",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOU9DYnFLdUJNeXVzdV9TV2hVWnhXQnZTdGk1UmVreHdOLUU4RUFnUmM4SVRGR0dDcVdDQmJvN09LRzg0eVRTOEpZTERHcU9QcGlacGxHNlZ1V0xWSEVNcEUyTTA5TmN1dDBvWHM5Q0lSWDlDX0VQdnpOSERXU2FVUms5eWVkZ1o4cjU5WEQxNjRoaF9malMyazVPaXY3cEFFWlJGLW1sUUhfZHNnRzlKM1RtcklBSEsyNkdKX3puYmh1TzdRb0E?oc=5"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Google says there’s no way to use Search without using artificial intelligence",
+          "url": "https://www.theguardian.com/technology/2026/nov/03/google-search-artificial-intelligence"
+        },
+        {
+          "publisher": "WSJ",
+          "title": "Google Curbs AI in School Accounts After Pushback",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSEpoOVBCTWZMaE5yTk5JeG0tX0FWdk5OZkY1d1dWQXQycUZGR2xwTks3VDlNaTJENmF6ZjM1QzFTN3QzRENuNFFlUjRqdk1FTW5WSWRDU2o3N1dEMEJsaFEzUGt2NGEyUXhXSHB6dF92R2U4d0U4SUN4UHN6LVhCNnJWamlqM2NzenBDWjAyVQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Nvidia Imposes New Global Restrictions on Cloud Sales to Chinese Customers",
+      "title_ja": "Nvidiaが中国向けクラウド販売に関する新たな世界的制限を課す",
+      "summary_ja": "Nvidiaはクラウドプロバイダーに対し、中国企業向けのサービス売上を全体の49パーセント未満に制限するよう求めました。この新しい方針は新規契約において世界中のデータセンターに適用されます。米国の半導体輸出管理のコンプライアンスを強化する狙いがあります。",
+      "why_ja": "アジアにおけるAIインフラの展開や半導体輸出規制の遵守に直接的な影響を及ぼします。",
+      "section": "tech",
+      "topic_key": "nvidia-china-cloud-sales-restriction",
+      "companies": [
+        "Nvidia",
+        "China Telecom"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Nvidia tells data center operators to limit business from Chinese customers with new global restrictions, report claims",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-tells-data-center-operators-to-limit-business-from-chinese-customers-with-new-global-restrictions-report-claims-allegedly-restricted-to-49-percent-of-the-total-ensuring-51-percent-are-non-chinese-outfits"
+        }
+      ]
+    },
+    {
+      "title_en": "Apple Releases watchOS Beta With Audio Intelligence",
+      "title_ja": "Appleが音声インテリジェンス搭載のwatchOSベータ版をリリース",
+      "summary_ja": "AppleはwatchOSの新しい開発者向けベータ版において、過去15秒の音声を文字にするライブリワインドや会話を要約するSiriリカプを導入しました。ユーザーが自発的に有効化する必要があり、プライバシー保護に配慮しています。",
+      "why_ja": "ウェアラブル端末における常時稼働型の文脈AIの活用とプライバシー保護のバランスを示す重要な事例です。",
+      "section": "tech",
+      "topic_key": "apple-watchos-audio-intelligence-beta",
+      "companies": [
+        "Apple"
+      ],
+      "sources": [
+        {
+          "publisher": "The Verge",
+          "title": "Here’s what it’s like to use Audio Intelligence on the Apple Watch",
+          "url": "https://www.theverge.com/tech/1025835/audio-intelligence-live-rewind-siri-recap-apple-watch"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "Apple’s latest watchOS beta includes its new always-on Audio Intelligence features",
+          "url": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+          "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/"
+        },
+        {
+          "publisher": "Bloomberg.com",
+          "title": "Apple Launches Beta Versions of Watch AI Listening Tools, New Health App",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNVVBQnczQ0dUZFYwcG5wUjRkU3BpNHQxRk9jNXRLNUcwb1pvWERNLUdKcVhjTjFSeTZ5UUNYeElicHFraUIyV09iSFgtYkJzb2RrdGlIckljN2VZVzVQUEUzQnNZNUFQWUo0NWI1ekdBMGhDemllZldzWFNMZHhQUmRkZkJDQVRRZURHNTlqMUFLWHRjbmE3ZERsVEtxVnREQ0MwVEpyUFczMDk4TjItMzFBaTJVamFjbmI5empyQmFZc09OZEttMw?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "CrowdStrike Acquires Fiddler AI and Dreadnode for AI Security",
+      "title_ja": "CrowdStrikeがAIセキュリティ強化のためFiddler AIとDreadnodeを買収",
+      "summary_ja": "サイバーセキュリティ大手のCrowdStrikeは、AIエージェント監視のFiddler AIを約4億ドルで、セキュリティテストのDreadnodeを9,500万ドルで買収すると発表しました。企業における自律型AIエージェントの利用急増に対応します。",
+      "why_ja": "企業における自律型AIエージェントやモデル監視のセキュリティ市場が急速に拡大していることを示しています。",
+      "section": "tech",
+      "topic_key": "crowdstrike-fiddler-ai-dreadnode-acquisition",
+      "companies": [
+        "CrowdStrike",
+        "Fiddler AI",
+        "Dreadnode"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "CrowdStrike to shell out nearly $500M for 2 AI security startups as the market for securing agents takes off",
+          "url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/"
+        }
+      ]
+    },
+    {
+      "title_en": "FDA and Federal Health Agencies Coordinate With States on Clinical AI Governance",
+      "title_ja": "FDAや連邦保健機関が臨床AIガバナンスで州政府と連携",
+      "summary_ja": "連邦の健康機関であるFDAやCMSなどは、臨床AIの規制や医師の法的責任からの保護に関して州政府との協力を進めています。医療従事者がAIツールを安全に利用するための法的基準の確立を目指しています。",
+      "why_ja": "ヘルステックのコンプライアンスや医療現場でのAI利用における法的責任の明確化にとって極めて重要です。",
+      "section": "health",
+      "topic_key": "fda-cms-state-clinical-ai-regulation",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "STAT News",
+          "title": "STAT+: FDA, CMS look to collaborate with states on health AI",
+          "url": "https://www.statnews.com/2026/11/03/fda-cms-collaborate-with-states-on-ai-heath-tech/?utm_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "US Midterm Elections Underway Amid High Voter Turnout",
+      "title_ja": "高い投票率の中で米国中間選挙が進行中",
+      "summary_ja": "米国の2026年中間選挙の投票が始まり、期日前投票が前回の選挙を大きく上回るなど投票率が急増しています。今回の選挙は連邦議会の支配権を決定し、政権の政治課題に対する評価を下すものとなります。",
+      "why_ja": "米国の貿易、財政支出、技術政策の方向性を左右し、世界の経済安定に直接的な影響を与えます。",
+      "section": "world",
+      "topic_key": "us-midterm-elections-2026",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "US midterm elections 2026 live: turnout surges across country as voters decide control of Congress",
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Michigan voters face crucial choice as Trump’s grip on Congress is tested",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/michigan-voters-face-crucial-choice-as-trumps-grip-on-congress-is-tested?traffic_source=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "In Pictures: US midterm elections in 20 photos",
+          "url": "https://www.aljazeera.com/gallery/2026/11/3/in-pictures-us-midterm-elections-in-20-photos?traffic_source=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "How US midterms have cost a record $12bn as cost of living soars",
+          "url": "https://www.aljazeera.com/news/2026/11/3/how-us-midterms-have-cost-a-record-12bn-as-cost-of-living-soars?traffic_source=rss"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Control of Congress is at stake today. And, judge to consider motion in Clancy case",
+          "url": "https://www.npr.org/2026/11/03/g-s1-151445/up-first-newsletter-midterms-election-day-iran-war-lindsay-clancy"
+        }
+      ]
+    },
+    {
+      "title_en": "Brazil Publishes World's First Global Roadmap for Phasing Out Fossil Fuels",
+      "title_ja": "ブラジルが化石燃料廃止に向けた世界初のグローバルロードマップを発表",
+      "summary_ja": "ブラジル政府はCOP30を前に、石炭、石油、ガスへの依存から脱却するための世界初のロードマップを発表しました。拘束力はなく期限も設けられていませんが、各国が独自の事情に合わせて実務的な移行を進めることを促します。",
+      "why_ja": "国際的な気候変動対策を交渉から具体的な国内政策の実行へと移行させるための重要な枠組みとなります。",
+      "section": "world",
+      "topic_key": "brazil-cop30-fossil-fuel-roadmap",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "Brazil publishes first global ‘roadmap’ for phasing out fossil fuels",
+          "url": "https://www.theguardian.com/environment/2026/nov/03/brazil-first-global-roadmap-phasing-out-fossil-fuels"
+        }
+      ]
+    },
+    {
+      "title_en": "AI Pioneer Geoffrey Hinton Warns of Impending Systemic Incidents",
+      "title_ja": "AIのパイオニアであるジェフリー・ヒントン氏が差し迫ったシステム障害を警告",
+      "summary_ja": "ノーベル賞受賞者でありAIのパイオニアであるジェフリー・ヒントン氏は、AIが今年や来年にも電力や金融システムの大規模な停止などのインシデントを引き起こす可能性があると警告しました。彼は企業による過度な競争とリスク軽視を批判しています。",
+      "why_ja": "先進的なAI技術がもたらす近未来のインフラリスクについて、世界の規制当局やリーダーに強い警鐘を鳴らします。",
+      "section": "world",
+      "topic_key": "geoffrey-hinton-ai-safety-warning-2026",
+      "companies": [
+        "OpenAI",
+        "Google"
+      ],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "AI ‘godfather’ Geoffrey Hinton says it might turn out humans would have been better off without AI",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "earnings report",
+      "meaning_ja": "決算報告",
+      "note_ja": "企業の業績を発表する公式な報告書を指します。",
+      "example_en": "AMD released its third quarter earnings report on Tuesday."
+    },
+    {
+      "term": "revenue",
+      "meaning_ja": "売上高、収益",
+      "note_ja": "企業が商品やサービスの販売によって得た総収入のことです。",
+      "example_en": "Data center revenue nearly doubles."
+    },
+    {
+      "term": "disable",
+      "meaning_ja": "無効にする、使えなくする",
+      "note_ja": "機能やシステムをオフにすることを意味します。",
+      "example_en": "Google will let schools disable AI tools like Gemini."
+    },
+    {
+      "term": "integrated",
+      "meaning_ja": "統合された、一体化した",
+      "note_ja": "複数のシステムや機能が組み合わさっている状態を指します。",
+      "example_en": "Search and artificial intelligence features are now deeply integrated into the search engine."
+    },
+    {
+      "term": "restriction",
+      "meaning_ja": "制限、規制",
+      "note_ja": "ルールや法律によって物事の自由を抑えることです。",
+      "example_en": "Nvidia tells cloud providers that they must sell less than half of their services to Chinese companies."
+    },
+    {
+      "term": "compliance",
+      "meaning_ja": "法令順守、コンプライアンス",
+      "note_ja": "法律や規則をしっかりと守ることを指します。",
+      "example_en": "This aims to tighten compliance around semiconductor export controls."
+    },
+    {
+      "term": "developer beta",
+      "meaning_ja": "開発者向けベータ版",
+      "note_ja": "一般公開の前に開発者テスト用としてリリースされるソフトウェアの試用版です。",
+      "example_en": "The company released the watchOS twenty-seven point three developer beta."
+    },
+    {
+      "term": "observability",
+      "meaning_ja": "オブザーバビリティ（可観測性）",
+      "note_ja": "システムの内部状態を外部からどれだけ把握できるかを示すIT用語です。",
+      "example_en": "Fiddler AI makes observability software for AI agents."
+    },
+    {
+      "term": "liability",
+      "meaning_ja": "法的責任",
+      "note_ja": "損害などを賠償すべき法的な義務のことです。",
+      "example_en": "They are working on regulating AI, establishing liability standards, and protecting doctors from AI liability."
+    },
+    {
+      "term": "turnout",
+      "meaning_ja": "投票率、参加者数",
+      "note_ja": "選挙などの投票に行った有権者の割合や人数を指します。",
+      "example_en": "Voter turnout has surged, with early ballots significantly outstripping figures from the twenty-twenty-two midterms."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "reverse course",
+    "meaning_ja": "方針を転換する、方向を逆にする",
+    "example_en": "The company decided to reverse course and allow schools to disable AI tools.",
+    "example_ja": "その会社は方針を転換し、学校がAIツールを無効にすることを許可しました。"
+  }
+}
