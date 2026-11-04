@@ -1,0 +1,941 @@
+{
+  "date": "2026-11-05",
+  "published": "2026-11-05T06:48:56+09:00",
+  "title_en": "Commute News: Arm Earnings, Binance Heist Tactics, and French Blood Bank Cyberattack",
+  "title_ja": "Commute News：Armの決算、バイナンスのハッキング手法、フランスの血液バンクへのサイバー攻撃",
+  "summary_ja": "Armの第2四半期決算はAI需要に支えられて好調となりましたが、Qualcommの売上高はメモリー不足などの影響で減少しました。バイナンスの巨額不正出金事件では北朝鮮ハッカーグループの巧妙な手口が明らかになり、さらにフランスの血液バンクの冷蔵施設がサイバー攻撃を受けるなどインフラのセキュリティ問題が浮き彫りになっています。",
+  "duration": 641.5,
+  "audio": {
+    "file": "2026-11-05.mp3",
+    "bytes": 5132670,
+    "release_tag": "ep-2026-11-05"
+  },
+  "word_count": 1193,
+  "ja_chars": 672,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.5-flash-lite",
+    "write": "gemini-3.5-flash-lite",
+    "revise": "gemini-3.5-flash-lite",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Good morning and today's top headlines",
+      "heading_ja": "おはようございます。本日の主要ニュースのプレビューです。",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it is Thursday, November 5. Welcome back to another edition of Commute News, your daily briefing on technology, digital health, and global developments.",
+          "ja": "おはようございます。11月5日木曜日、テクノロジー、デジタルヘルス、そしてグローバルな動向をお届けするCommute Newsの時間です。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning everyone. Today, we look closely at Arm earnings, North Korean hacker tactics in the recent Binance heist, and a concerning cyberattack on French blood storage facilities.",
+          "ja": "おはようございます。本日は、Armの決算、バイナンス事件における北朝鮮ハッカーの手口、そしてフランスの血液保管施設に対する懸念すべきサイバー攻撃について詳しくお伝えします。",
+          "t": 10.1
+        },
+        {
+          "speaker": "Alex",
+          "en": "We also have updates on Qualcomm revenue drops, OpenAI policy proposals, Meta acquisitions, and healthcare AI expansions. Let us dive right in.",
+          "ja": "また、Qualcommの売上減少、OpenAIの政策提案、Metaによる買収、そして医療AIの拡大についても最新情報をお伝えします。それでは早速始めましょう。",
+          "t": 21.15
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Arm Q2 Earnings Top Estimates",
+      "heading_ja": "Armの第2四半期決算、予想を上回る",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Let us start with technology. Arm Holdings reported its second quarter earnings. Sales climbed twenty-seven percent compared to the previous period.",
+          "ja": "まずはテクノロジーの話題から。Armホールディングスが第2四半期の決算を発表しました。売上高は前年同期比で27パーセント増加しました。",
+          "t": 30.03
+        },
+        {
+          "speaker": "Mika",
+          "en": "That sounds like a remarkably strong result. What specifically drove this growth, Alex?",
+          "ja": "非常に好調な結果のようですね。アレックス、具体的に何がこの成長を牽引したのですか？",
+          "t": 39.18
+        },
+        {
+          "speaker": "Alex",
+          "en": "It was driven by surging demand for data centers and artificial intelligence architecture. Arm comfortably beat Wall Street revenue estimates for the quarter.",
+          "ja": "データセンターと人工知能アーキテクチャに対する急激な需要が牽引しました。Armは今四半期のウォール街の売上高予想を余裕で上回りました。",
+          "t": 45.1
+        },
+        {
+          "speaker": "Mika",
+          "en": "Were there any negative reactions from the market despite the beat?",
+          "ja": "予想を上回ったにもかかわらず、市場から何か否定的な反応はありましたか？",
+          "t": 54.78
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, actually, Arm shares slipped slightly after the report, but the core numbers clearly show strong market health for semiconductor architecture.",
+          "ja": "はい、実は発表後にArmの株価は少し下落しましたが、中核となる数字は半導体アーキテクチャの健全な市場状態を明確に示しています。",
+          "t": 59.65
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Arm's sales jumped because of strong AI and data center demand, despite minor share fluctuations?",
+          "ja": "つまり、株価の小幅な変動はあるものの、強力なAIとデータセンターの需要によってArmの売上高が急増したということですね？",
+          "t": 68.74
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. The financial metrics underscore the pivotal role of advanced chips in modern computing infrastructure.",
+          "ja": "その通りです。この財務指標は、現代のコンピューティングインフラにおける高度なチップの極めて重要な役割を裏付けています。",
+          "t": 75.93
+        }
+      ],
+      "lang": "en",
+      "t": 30.03
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。Armの第2四半期決算は、AIやデータセンターの需要拡大により売上高が27パーセント増加し、市場予想を上回りました。",
+          "en": "",
+          "lang": "ja",
+          "t": 83.18
+        }
+      ],
+      "t": 83.18
+    },
+    {
+      "kind": "story",
+      "heading_en": "Qualcomm Revenue Drops on Weakness",
+      "heading_ja": "Qualcommの売上高、需要の低迷で減少",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Next, Qualcomm reported its fourth quarter results. Its revenue fell as a handset slowdown offset automotive gains.",
+          "ja": "次に、Qualcommが第4四半期の決算を発表しました。自動車向けの増収効果が、携帯電話の販売不振によって相殺され、売上高が減少しました。",
+          "t": 94.49
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why did smartphone sales slow down so significantly, Alex?",
+          "ja": "アレックス、なぜスマートフォンの販売がこれほど大幅に低迷したのですか？",
+          "t": 101.9
+        },
+        {
+          "speaker": "Alex",
+          "en": "A persistent memory shortage weighed heavily on smartphone sales and broader PC markets. Qualcomm also issued a weak earnings forecast, causing its stock to drop five percent.",
+          "ja": "慢性的なメモリー不足がスマートフォンや広範なPC市場に大きな重荷となりました。また、Qualcommは弱い業績見通しを発表し、株価が5パーセント下落する要因となりました。",
+          "t": 106.28
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did other segments perform well enough to counterbalance this drop?",
+          "ja": "他のセグメントはこの下落を相殺するほど好調でしたか？",
+          "t": 116.86
+        },
+        {
+          "speaker": "Alex",
+          "en": "Automotive gains helped somewhat, but they were not enough to offset the consumer device headwinds.",
+          "ja": "自動車向けは多少の助けとなりましたが、コンシューマー向け端末の逆風を相殺するには十分ではありませんでした。",
+          "t": 121.72
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, component shortages and weak consumer device sales hurt Qualcomm's overall financial performance?",
+          "ja": "つまり、部品不足とコンシューマー向け端末の売上低迷がQualcomm全体の財務実績に打撃を与えたということですね？",
+          "t": 128.28
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is correct. It provides a clear window into the broader consumer device slowdown affecting the entire semiconductor supply chain.",
+          "ja": "その通りです。これは、半導体サプライチェーン全体に影響を与えている消費者向け端末の幅広い減速を明確に映し出すものとなっています。",
+          "t": 135.47
+        }
+      ],
+      "lang": "en",
+      "t": 94.49
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Qualcommの第4四半期決算では、メモリー不足や携帯電話・PCの販売低迷により売上高が減少し、株価が5パーセント下落しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 144.33
+        }
+      ],
+      "t": 144.33
+    },
+    {
+      "kind": "story",
+      "heading_en": "Binance Heist and North Korean Tactics",
+      "heading_ja": "バイナンスの不正出金事件と北朝鮮の手口",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, let us look at the Binance cryptocurrency heist. New details reveal how North Korean hackers spent months planning the theft.",
+          "ja": "続いて、バイナンスの暗号資産不正出金事件についてです。北朝鮮のハッカーグループが数カ月かけて計画を進めていた新たな手口が明らかになりました。",
+          "t": 155.65
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did the attackers first gain access to the company systems, Alex?",
+          "ja": "アレックス、攻撃者は最初にどのようにして会社のシステムに侵入したのですか？",
+          "t": 164.41
+        },
+        {
+          "speaker": "Alex",
+          "en": "They used a malicious Homebrew download and fake job interviews. They tricked engineers into installing malware disguised as a coding assistant.",
+          "ja": "悪意あるHomebrewのダウンロードや、偽の採用面接を利用しました。プログラミング支援ツールを装ったマルウェアをエンジニアにインストールさせました。",
+          "t": 169.72
+        },
+        {
+          "speaker": "Mika",
+          "en": "Were these multi-stage intrusion methods detected immediately by endpoint security tools?",
+          "ja": "これら多段階型の侵入手法は、エンドポイントセキュリティツールによって即座に検知されたのですか？",
+          "t": 179.26
+        },
+        {
+          "speaker": "Alex",
+          "en": "No, the endpoint security tools did not detect the malware initially, allowing the threat actors to compromise internal wallet signing services later on.",
+          "ja": "いいえ、エンドポイントセキュリティツールは当初マルウェアを検知できず、その結果、脅威アクターが後に内部のウォレット署名サービスを侵害することを許してしまいました。",
+          "t": 185.7
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, the hackers used sophisticated social engineering and compromised developer tools to target billions in virtual assets?",
+          "ja": "つまり、ハッカーが巧妙なソーシャルエンジニアリングや改ざんされた開発ツールを使って、巨額の仮想資産を標的にしたということですね？",
+          "t": 195.75
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. The FBI attributed the multi-stage campaign directly to North Korea, targeting over six billion dollars in virtual assets.",
+          "ja": "はい。FBIはこの多段階型サイバー攻撃を北朝鮮によるものと直接断定しており、60億ドル以上の仮想資産が狙われました。",
+          "t": 204.67
+        }
+      ],
+      "lang": "en",
+      "t": 155.65
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "バイナンスの巨額不正出金事件について、北朝鮮のハッカーが偽の採用面接や改ざんされた開発ツールを使い、数カ月かけて計画的に侵入していたことが明らかになりました。",
+          "en": "",
+          "lang": "ja",
+          "t": 213.26
+        }
+      ],
+      "t": 213.26
+    },
+    {
+      "kind": "story",
+      "heading_en": "OpenAI Proposes AI Social Contract",
+      "heading_ja": "OpenAI、AI社会契約を提案",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "OpenAI is trying to shape the two thousand twenty-eight presidential election. Chief global affairs officer Chris Lehane proposed a new social contract.",
+          "ja": "OpenAIは2028年の大統領選挙に向けて影響力を発揮しようとしています。最高グローバル外務責任者のクリス・レヘン氏が新たな社会契約を提案しました。",
+          "t": 226.71
+        },
+        {
+          "speaker": "Mika",
+          "en": "What is the main goal of this proposal, Alex?",
+          "ja": "アレックス、この提案の主な目的は何ですか？",
+          "t": 236.71
+        },
+        {
+          "speaker": "Alex",
+          "en": "It outlines five policy priorities, including worker protections, education, and data center development, comparing AI's economic impact to the historical New Deal.",
+          "ja": "労働者の保護、教育、データセンターの展開など5つの政策優先事項を掲げ、AIが経済に与える影響を歴史的なニューディール政策になぞらえています。",
+          "t": 240.66
+        },
+        {
+          "speaker": "Mika",
+          "en": "How have policy experts and critics reacted to this metaphor?",
+          "ja": "政策専門家や批評家はこの比喩にどのように反応していますか？",
+          "t": 251.34
+        },
+        {
+          "speaker": "Alex",
+          "en": "Critics point out that while it invokes state capacity for the public, it is written by a private company advocating for policies that benefit its own business interests.",
+          "ja": "批判的な専門家からは、公的利益のために国家の能力を発動しているように見せかけているものの、実際には自社のビジネス上の利益を利する政策を主張する民間企業によって書かれたものであるという指摘が出ています。",
+          "t": 256.19
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, OpenAI wants politicians to create policies supporting widespread AI adoption, while critics raise concerns about corporate power and economic disruption?",
+          "ja": "つまり、OpenAIは政治家に対しAIの普及を支援する政策の策定を求めている一方で、批評家は企業の権力や経済的混乱に対する懸念を表明しているということですね？",
+          "t": 267.21
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. Affordability and data center electricity costs are already shaping up as key political conversation topics.",
+          "ja": "その通りです。手頃な価格やデータセンターの電気代の問題は、すでに重要な政治的議論のトピックになりつつあります。",
+          "t": 278.11
+        }
+      ],
+      "lang": "en",
+      "t": 226.71
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "OpenAI幹部が2028年の大統領選に向けた新たな社会契約を提案し、労働者保護やインフラ整備などの政策優先事項を示しましたが、自社の利益を優先しているとの批判もあります。",
+          "en": "",
+          "lang": "ja",
+          "t": 286.12
+        }
+      ],
+      "t": 286.12
+    },
+    {
+      "kind": "story",
+      "heading_en": "Meta Acquires AI Coding Startup Conductor",
+      "heading_ja": "Meta、AIコーディングのスタートアップConductorを買収",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Meta has acquired Conductor, an artificial intelligence coding startup. The startup lets engineers deploy teams of agents to work simultaneously.",
+          "ja": "Metaは人工知能コーディングのスタートアップであるConductorを買収しました。この新興企業は、エンジニアがエージェントのチームを展開して同時に作業できるようにするツールを提供しています。",
+          "t": 301.1
+        },
+        {
+          "speaker": "Mika",
+          "en": "What do these software agents actually do, Alex?",
+          "ja": "アレックス、これらのソフトウェアエージェントは実際には何をするのですか？",
+          "t": 310.27
+        },
+        {
+          "speaker": "Alex",
+          "en": "They work on separate parts of a project in concert. Founder Charlie Holtz will join Meta, though Conductor's cloud service will shut down later this month.",
+          "ja": "プロジェクトの別々の部分を連携して作業します。創業者のチャーリー・ホルト氏はMetaに加わりますが、Conductorのクラウドサービスは今月下旬に終了します。",
+          "t": 314.21
+        },
+        {
+          "speaker": "Mika",
+          "en": "Are these agents built entirely in-house by the startup?",
+          "ja": "これらのエージェントは完全にこのスタートアップの自社製なのですか？",
+          "t": 323.98
+        },
+        {
+          "speaker": "Alex",
+          "en": "No, the agents deployed on the platform come from major labs like Anthropic and OpenAI.",
+          "ja": "いいえ、プラットフォームに展開されるエージェントはAnthropicやOpenAIなどの主要な研究所のものを使用しています。",
+          "t": 328.35
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Meta is buying developer tools to strengthen its own AI coding capabilities as it races to catch up?",
+          "ja": "つまり、MetaはAI分野での遅れを取り戻すレースの中で、自社のAIコーディング能力を強化するために開発者向けツールを買収したということですね？",
+          "t": 334.39
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Meta has been working hard to expand its AI ecosystem, having recently surpassed ten million users with its Muse agents.",
+          "ja": "はい。MetaはAIエコシステムを拡大するために懸命に取り組んでおり、最近では Muse エージェントのユーザー数が1,000万人を突破しています。",
+          "t": 341.89
+        }
+      ],
+      "lang": "en",
+      "t": 301.1
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Metaは、複数のAIエージェントを活用してソフトウェア開発を自動化するスタートアップConductorを買収し、AI開発力の強化を進めています。",
+          "en": "",
+          "lang": "ja",
+          "t": 349.99
+        }
+      ],
+      "t": 349.99
+    },
+    {
+      "kind": "health",
+      "heading_en": "LeanTaaS Acquires LookDeep Health",
+      "heading_ja": "LeanTaaS、LookDeep Healthを買収しアンビエントAIへ参入",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, our digital health story. LeanTaaS is acquiring LookDeep Health to expand its platform into ambient intelligence.",
+          "ja": "続いて、デジタルヘルスのニュースです。LeanTaaSは、自社のプラットフォームをアンビエントインテリジェンス（環境知能）へ拡張するため、LookDeep Healthを買収します。",
+          "t": 361.97
+        },
+        {
+          "speaker": "Mika",
+          "en": "What does ambient intelligence mean specifically for hospital operations, Alex?",
+          "ja": "アレックス、病院運営にとってアンビエントインテリジェンスとは具体的にどういう意味を持つのですか？",
+          "t": 369.68
+        },
+        {
+          "speaker": "Alex",
+          "en": "It uses computer vision to monitor patient rooms. The system detects fall risks and movement, turning real-time signals into prioritized actions for care teams.",
+          "ja": "コンピュータビジョンを使用して患者の病室をモニタリングするものです。転倒のリスクや動きを検知し、リアルタイムのシグナルをケアチーム向けの優先度の高いアクションへと変換します。",
+          "t": 375.3
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does this reduce the burden on medical staff?",
+          "ja": "これがどのように医療スタッフの負担を軽減するのですか？",
+          "t": 385.28
+        },
+        {
+          "speaker": "Alex",
+          "en": "The system turns events like an attempted bed exit into prioritized tasks rather than additional alarms, helping stretched hospital staff.",
+          "ja": "このシステムは、ベッドからの離床の試みなどの出来事を、追加のアラームではなく優先度の高いタスクへと変換することで、人手不足に悩む病院スタッフを支援します。",
+          "t": 389.27
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, computer vision helps monitor patients continuously and supports hospital operations beyond retrospective dashboards?",
+          "ja": "つまり、コンピュータビジョンが患者を継続的に見守り、過去のダッシュボードを超えて病院運営をサポートするということですね？",
+          "t": 398.07
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. The goal is to build a central nervous system for hospital operations, capturing high-value signals from the physical care environment.",
+          "ja": "その通りです。実際のケア環境から高価値なシグナルを捉え、病院運営の中枢神経系を構築することが目的です。",
+          "t": 406.48
+        }
+      ],
+      "lang": "en",
+      "t": 361.97
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "医療テック企業のLeanTaaSがLookDeep Healthを買収しました。コンピュータビジョンを活用した病室のモニタリングにより、患者の転倒リスクなどを検知し、医療スタッフの負担軽減につなげます。",
+          "en": "",
+          "lang": "ja",
+          "t": 415.6
+        }
+      ],
+      "t": 415.6
+    },
+    {
+      "kind": "world",
+      "heading_en": "Cyberattack on French Blood Storage",
+      "heading_ja": "フランスの血液保管施設に対するサイバー攻撃",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, a look at the world beyond tech. French authorities report a cyberattack on cold storage units used for blood donations.",
+          "ja": "次に、テクノロジー以外の世界ニュースです。フランス当局は、献血用の血液を保管する冷蔵施設がサイバー攻撃を受けたことを明らかにしました。",
+          "t": 431.67
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did the attack successfully destroy the vital blood supplies, Alex?",
+          "ja": "アレックス、その攻撃によって重要な血液の備蓄は正常に破壊されてしまったのですか？",
+          "t": 439.76
+        },
+        {
+          "speaker": "Alex",
+          "en": "No, staff intervened quickly. Hackers set cold room temperatures to rise, but safeguards and staff prevented any loss of blood products.",
+          "ja": "いいえ、スタッフが迅速に対応しました。ハッカーは冷蔵室の温度を上昇させましたが、安全装置とスタッフのおかげで血液製剤の損失は一切防がれました。",
+          "t": 444.72
+        },
+        {
+          "speaker": "Mika",
+          "en": "What are security researchers saying about the culprits behind these freezer hacks?",
+          "ja": "セキュリティ研究者は、これらの冷蔵庫ハッキングの犯人について何と言っていますか？",
+          "t": 453.41
+        },
+        {
+          "speaker": "Alex",
+          "en": "While some Russian hacktivist groups claimed responsibility for related Danfoss hacks, experts note that Iranian hacktivists, state actors, or teenagers pulling pranks could also be responsible.",
+          "ja": "一部のロシアのハクティビストグループが関連するDanfossハッキングへの関与を主張しているものの、専門家はイランのハクティビスト、国家アクター、あるいは悪ふざけをする十代の若者たちも責任がある可能性があると指摘しています。",
+          "t": 459.24
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, hackers targeted European medical cold storage, but staff stopped the damage while cybersecurity experts investigate potential coordinated threats?",
+          "ja": "つまり、ハッカーが欧州の医療用冷蔵施設を狙ったもののスタッフが被害を防ぎ、サイバーセキュリティ専門家が組織的な脅威の可能性を調査しているということですね？",
+          "t": 471.05
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. This attack on critical medical infrastructure following supermarket incidents has raised serious European alarms.",
+          "ja": "その通りです。スーパーマーケットでの事件に続く今回の重要医療インフラへの攻撃は、欧州全域に深刻な警戒感を与えています。",
+          "t": 481.09
+        }
+      ],
+      "lang": "en",
+      "t": 431.67
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "フランスの血液事業機関が管理する冷蔵施設がサイバー攻撃を受け、温度が不正に変更されましたが、スタッフの介入により血液の損失は免れました。欧州のインフラセキュリティに懸念が広がっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 489.31
+        }
+      ],
+      "t": 489.31
+    },
+    {
+      "kind": "world",
+      "heading_en": "Japan Requests Software Flaw Data",
+      "heading_ja": "日本政府、米国企業にソフトウェアの脆弱性共有を要請",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In another world story, Japan is asking US technology companies to share undisclosed software flaws as security risks grow.",
+          "ja": "もう一つの世界ニュースです。日本政府は、セキュリティリスクの高まりを受け、米国企業に対して未公開のソフトウェアの脆弱性を共有するよう求めています。",
+          "t": 505.02
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is Japan making this formal request right now, Alex?",
+          "ja": "アレックス、なぜ日本は今この正式な要請を行っているのですか？",
+          "t": 513.44
+        },
+        {
+          "speaker": "Alex",
+          "en": "Rising cybersecurity threats make early vulnerability data critical for protecting government and enterprise infrastructure in the region.",
+          "ja": "サイバーセキュリティの脅威が高まる中、地域内の政府や企業のインフラを保護するために、早期の脆弱性データの把握が不可欠となっているためです。",
+          "t": 518.05
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does this impact international relations between technology governance bodies?",
+          "ja": "これがテクノロジーガバナンス機関間の国際関係にどのような影響を与えますか？",
+          "t": 527.33
+        },
+        {
+          "speaker": "Alex",
+          "en": "It emphasizes how bilateral technology governance and security protocols are becoming increasingly vital for cross-border defense.",
+          "ja": "これは、国境を越えた防御のために、二国間のテクノロジーガバナンスとセキュリティプロトコルがいかに重要性を増しているかを強調しています。",
+          "t": 533.42
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Japan wants tighter cooperation and proactive vulnerability sharing with US tech giants to manage growing cyber risks?",
+          "ja": "つまり、高まるサイバーリスクに対処するため、日本は米国のIT大手とのより緊密な協力と積極的な脆弱性の共有を求めているということですね？",
+          "t": 542.24
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, exactly. It reflects a proactive stance on regional digital defense.",
+          "ja": "はい、その通りです。地域的なデジタル防衛に対する積極的な姿勢を反映しています。",
+          "t": 551.17
+        }
+      ],
+      "lang": "en",
+      "t": 505.02
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本政府は、セキュリティリスクの高まりを背景に、米国のハイテク企業に対して未公開のソフトウェア脆弱性の情報共有を要請し、サイバー防御の強化を図っています。",
+          "en": "",
+          "lang": "ja",
+          "t": 556.75
+        }
+      ],
+      "t": 556.75
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch: Palantir, AMD, and Nvidia",
+      "heading_ja": "CEOウォッチ：Palantir、AMD、Nvidiaの動向",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In CEO Watch, Palantir chief executive Alex Karp cast military software as a force for peace while accepting defense dollars.",
+          "ja": "CEOウォッチです。Palantirの最高経営責任者であるアレックス・カープ氏は、防衛関連の資金を受け取りつつ、軍事ソフトウェアを平和のための力であると主張しました。",
+          "t": 570.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "And what are the latest updates from major semiconductor CEOs, Alex?",
+          "ja": "そして主要な半導体CEOからの最新のアップデートは何ですか、アレックス？",
+          "t": 578.54
+        },
+        {
+          "speaker": "Alex",
+          "en": "AMD expects to outsell Intel in the fourth quarter for the first time in history on strong Epyc processor demand. Meanwhile, Nvidia's Jensen Huang stated that Nvidia is happy to provide specialized chips whether customers use open or closed AI models.",
+          "ja": "AMDは、Epycプロセッサの旺盛な需要を背景に、第4四半期として史上初めてIntelの売上高を上回る見込みです。一方、Nvidiaのジェン・スン・ファン氏は、顧客がオープンまたはクローズドのどちらのAIモデルを使用していようとも、特化型チップを提供していくと述べています。",
+          "t": 583.83
+        }
+      ],
+      "lang": "en",
+      "t": 570.0
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the day: On a tear",
+      "heading_ja": "本日のフレーズ：on a tear（絶好調である、快進撃を続ける）",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Our phrase of the day is 'on a tear'. It means having a period of great success or continuous fast progress.",
+          "ja": "本日のフレーズは「on a tear」です。これは、大成功を収めている状態や、連続して急速に前進している期間を意味します。",
+          "t": 599.54
+        },
+        {
+          "speaker": "Alex",
+          "en": "For example, you could say: 'The company's engineering team has been on a tear, launching three new AI products this month.'",
+          "ja": "例えば、「その企業の開発チームは絶好調で、今月だけで3つの新しいAI製品を投入した」のように使えます。",
+          "t": 607.1
+        },
+        {
+          "speaker": "Mika",
+          "en": "It is a great idiom to describe someone or a team performing exceptionally well over a sustained stretch.",
+          "ja": "個人やチームが持続的な期間にわたって非常に優れたパフォーマンスを発揮している様子を描写するのに素晴らしいイディオムです。",
+          "t": 615.58
+        }
+      ],
+      "lang": "en",
+      "t": 599.54
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Takeaway and sign-off",
+      "heading_ja": "まとめと終わりの挨拶",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "As tech consolidation and cybersecurity challenges grow, staying informed on operational resilience is more important than ever.",
+          "ja": "テクノロジーの統合やサイバーセキュリティの課題が拡大する中、事業のレジリエンスに関する情報を常に把握することがこれまで以上に重要になっています。",
+          "t": 622.98
+        },
+        {
+          "speaker": "Mika",
+          "en": "Thank you for listening to Commute News. See you on tomorrow's commute.",
+          "ja": "Commute Newsをお聴きいただきありがとうございます。それでは、また明日の通勤時間にお会いしましょう。",
+          "t": 631.69
+        }
+      ],
+      "lang": "en",
+      "t": 622.98
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。いってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 637.6
+        }
+      ],
+      "t": 637.6
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Arm Q2 Earnings Top Estimates on Surging AI and Data Center Demand",
+      "title_ja": "Armの第2四半期決算、AIとデータセンター需要で予想を上回る",
+      "summary_ja": "Armの第2四半期売上高はAIおよびデータセンター需要により27%増加し、市場予想を上回りました。半導体市場の健全性を示す重要な指標となっていますが、発表後に株価は小幅に下落しました。",
+      "why_ja": "半導体業界全体の市場健全性やアーキテクチャ需要を測る上で重要な先行指標となります。",
+      "section": "tech",
+      "topic_key": "arm-q2-2026-earnings",
+      "sources": [
+        {
+          "publisher": "Quartz",
+          "title": "Arm Q2 earnings beat revenue expectations on data center demand",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GWWFXTGRFb2FNY0dGTmQyOGdkeHRqamRRVzNrVmpoeFJhenEtRkd4RFoyZ3pwVUtyMkJOQmQyZmExNnJUNnhiNVJXcE1pSWJ0cFMyNDZYaWhZdlYxWVNENFBYQ2hKTTU2d3IzWkJMMFdqZkpSQ2N6SFJ3?oc=5"
+        },
+        {
+          "publisher": "Benzinga",
+          "title": "Arm Shares Slip Despite Q2 Double-Beat: Details",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQd0pnSXJWQ3VaQ1k3ZW5OUXRta0VQbVFOdFNaSWtZNEVPWVNHeDRsajVJM3BxQ0lHX2szSkNCeFpkeXV4d294RW9JM3YwdVNCLS1rZnpEZkh2T0N4cFRSc1VpNnJORVlOa0RjUkxVTGNDR1BnQnpyLTNuaUZPMjRCeUZ6akVVWDdGWUVla29RQzU3WlFxTk9nNTg1RzdBTU9oYndYZG9n?oc=5"
+        },
+        {
+          "publisher": "WSJ",
+          "title": "Arm Holdings Sales Climb 27% on AI Demand",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRXpoNFE4WG9aNjkwazZlZEM1VWtKWlU2d21jZFRjWm12a0ZjckU0SDAxWWYwSzJhLWY1SmtQaTRSdVFoV1FvOE5KNHJMOXo5bG15amtKdGdMdmpZUFJScF9RNHNyMGFDcFhPT3ZpVDFhSVFTc0xXbnJ2blUwT3VnMHFmYUJtcWxYX0liQUhkUlc?oc=5"
+        },
+        {
+          "publisher": "Seeking Alpha",
+          "title": "Arm Holdings slips even as Q2 results, guidance top estimates (ARM:NASDAQ)",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbU5nYURlRHVxNjFOakxhSTc4MjhTSjZONVpRWEtCUjNSbjJsWHgybEJ6MjV1ZXRacThRRE44RDgxal9GX24xTXdHUG1FS3lJN2JlSTdRRjM1MEJaNzVjX2YwZmFZbWc1RTR0SENmRzVpVVEySGVnZEQtM0JjNmNSbDZvNGlySVVyVHBnT0tUcV85cEV4TlNodjM1WE8wQW8?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Arm beats second-quarter revenue estimates on AI and data-center demand",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMGV2UGo5V1FRUGxkUzdPWVo1NGhFM2lvM2N5NVUycUUya2VIX3N2aHM5am8tNUhCQ21oMng4LVQ2UllCWnRpdlNqUDd4MTM2ZVhpUTBlR3NQTTdBZFNMVlRDVV9LQ2d4Vjc1M0ZBcldwZmVEaGpDTENnVHR2bmp3Sm9ENnF6YWU1TDRjcmxiSWQwTjY5clQwb2V2a1JMdUhxLXRfLUZwUlNwR0Rob1E?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Qualcomm Revenue Drops on Smartphone and PC Weakness Amid Memory Shortage",
+      "title_ja": "Qualcommの売上高、メモリー不足と端末需要低迷で減少",
+      "summary_ja": "Qualcommの第4四半期決算は、メモリー不足やスマートフォン・PC市場の低迷により売上高が減少しました。自動車向けの増収があったものの、弱い業績見通しにより株価が下落しました。",
+      "why_ja": "コンシューマー向けデバイスの全般的な減速や部品供給の制約がモバイルチップ需要に与える影響を示しています。",
+      "section": "tech",
+      "topic_key": "qualcomm-q4-2026-earnings",
+      "sources": [
+        {
+          "publisher": "WSJ",
+          "title": "Qualcomm Revenue Falls as Handset Slowdown Offsets Automotive Gains",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVjRWZDhfZ1BEQ2tFQUVMZ0MzQTdvY1czUWxlcUVfU29QcldDSVU5eVRVeENnQ2pMQ1ppUmZvNThDVWtwUUFZY0djcG5CLVdmbDJ1WFpWRUMtVzhJcWZoRTVqd1JnTmVsN2I1T0ZIUHpxbEJhbjF2V1JVV1lBd1ZSZmZTS01BcFJsTkZnMGh3UEpfX1E4VlJFS3JnTUlfLXJsUmxqZGl0a0R0NDJUZC1YSUcxVkE?oc=5"
+        },
+        {
+          "publisher": "CNBC",
+          "title": "Qualcomm stock drops 5% on weak earnings forecast as memory shortage weighs on smartphone sales",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KdnBhYm1hakZ1aldQNm80ZGNKSmUtY1JqWHVZem5QZE1DVE00UmZfeldSNWJ6b0FOekhBQzlPbWJPRC0zclJQMGVxaWFiOGtSWWxGSVUzVXl3RU9lLWJNN3kxR19iZEpQV2NjM2F4aTFiWkg4bzhoRF9mQzJjZzDSAYQBQVVfeXFMT19QY1RERExyM2ZhYTBmU1hLNXJhWlo2UEJmMGEyR0lIVzVfQWFGcWRLMmtaSk5lM2N6N3N6NUh4TW9HN3FtUENWdWtleTFFVzVWN01EODExQUlXMXdXcTlnckEwcXA3S2tZSVFVM2lqNGtrR285NXVzLXYyaWRycXF1TnV1?oc=5"
+        },
+        {
+          "publisher": "Yahoo Finance",
+          "title": "Qualcomm to report Q4 earnings amid slowing smartphone, PC sales",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVDRMeHg0c29IZXhMQTBiaTRCdjBvSGd2MkFqQ1JTQlNXd2JwcWI4ZXNTcVl5UmpwS3RGOV9XSVpHakNsb09vV1BCbnBYcXJ0SUhaeGRMaWZRX0lHRFhqRzcyUmdYZWFDT1lVMUJQRFMtZHdmcTVWSjNjYWRsU2I3SE1uS0tPc1k2T1NHaHBDUUFwbzdlWEIzRmc5N0E0VDR0SnhMcVM5NHFyUjFha0Z1R3JibWQ3djQtZXd6ckxtX1Q?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Binance Reveals North Korean Attacker Tactics in $6.3 Billion Heist",
+      "title_ja": "バイナンスの巨額不正出金事件、北朝鮮ハッカーの巧妙な手口が判明",
+      "summary_ja": "バイナンスは、10月に発生した63億ドル規模の不正出金事件について、北朝鮮のハッカーグループが数カ月前からソーシャルエンジニアリングや偽の採用面接、改ざんされた開発ツールを用いて準備を進めていたと発表しました。",
+      "why_ja": "高度な国家支援型ハッカーによるサプライチェーン攻撃やソーシャルエンジニアリングの手口は、企業セキュリティにとって極めて重要な教訓となります。",
+      "section": "tech",
+      "topic_key": "binance-6-billion-heist-north-korea",
+      "sources": [
+        {
+          "publisher": "Ars Technica",
+          "title": "Binance says hackers who stole billions in crypto spent months planning heist",
+          "url": "https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Binance heist began with fake job interviews and a malicious Homebrew download",
+          "url": "https://www.tomshardware.com/tech-industry/cryptocurrency/binance-heist-began-with-fake-job-interviews-and-a-malicious-homebrew-download-attackers-used-adulterated-software-and-social-engineering-to-gain-access-to-billions-in-assets"
+        },
+        {
+          "publisher": "The Register",
+          "title": "North Korean fake job interview led to $6.3B Binance heist",
+          "url": "https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398"
+        }
+      ]
+    },
+    {
+      "title_en": "OpenAI Proposes AI Social Contract to Shape 2028 Election Rules",
+      "title_ja": "OpenAI、2028年選挙に向けたAI社会契約を提案",
+      "summary_ja": "OpenAIの幹部が、2028年の大統領選挙を見据えた新たな社会契約を提唱しました。労働者保護やインフラ整備などの優先事項を掲げ、AIの普及と産業育成を促す政策を求めています。",
+      "why_ja": "生成AIの主要プレイヤーが今後の政治サイクルに向けて積極的に規制や標準化に関与しようとする姿勢を反映しています。",
+      "section": "tech",
+      "topic_key": "openai-2028-election-policy",
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "OpenAI is already trying to shape the 2028 election",
+          "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/"
+        }
+      ]
+    },
+    {
+      "title_en": "Meta Acquires AI Coding Startup Conductor to Scale Automated Engineering",
+      "title_ja": "Meta、AIコーディングスタートアップのConductorを買収",
+      "summary_ja": "Metaは、エンジニアが並行してAIエージェントのチームを展開しソフトウェア開発を行えるようにするスタートアップConductorを買収しました。自社のAIコーディング機能の強化を図ります。",
+      "why_ja": "IT大手が開発者向けの自律型AIツールを取り込み、ソフトウェア開発ワークフローの自動化を加速させる動きを示しています。",
+      "section": "tech",
+      "topic_key": "meta-acquires-conductor-ai",
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "Meta acquires AI coding startup Conductor",
+          "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
+        },
+        {
+          "publisher": "Axios",
+          "title": "Exclusive: Meta buys AI startup, joins race to own coding in show of outsized ambition",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pYktNc1JSTUdXaEhqUkxvZ3o2REUyeHV1SGh0am95NTg0dVFsSHBfc1FDZDZocXhFd292a1padWFaTGJYSTd0WXh4RjhNTGw4ZXdXWjFUcURfTVRZaE5VU0lxUEl2a3A5cDBUdFo0NE4zTldsWmd6b1MxV0ZmYVE?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "LeanTaaS Acquires LookDeep Health to Expand iQueue Into Ambient Intelligence",
+      "title_ja": "LeanTaaS、LookDeep Healthを買収しアンビエントAIへ参入",
+      "summary_ja": "医療テック企業のLeanTaaSは、LookDeep Healthの買収を通じてiQueueプラットフォームを拡張し、コンピュータビジョンを活用した病室のモニタリングとアンビエントインテリジェンスを提供開始します。",
+      "why_ja": "コンピュータビジョンやアンビエントAIが病院運営や患者のモニタリング業務に統合されるトレンドを象徴しています。",
+      "section": "health",
+      "topic_key": "leantaas-acquires-lookdeep-health",
+      "sources": [
+        {
+          "publisher": "Fierce Healthcare",
+          "title": "LeanTaaS expands iQueue into ambient intelligence with LookDeep acquisition",
+          "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/leantaas-expands-iqueue-ambient-intelligence-lookdeep-acquisition"
+        }
+      ]
+    },
+    {
+      "title_en": "Cyberattack on French Blood Bank Cold Storage Raises European Infrastructure Alarms",
+      "title_ja": "フランスの血液バンクの冷蔵施設がサイバー攻撃を受け、欧州のインフラに警鐘",
+      "summary_ja": "フランスの血液事業機関が管理する冷蔵施設がサイバー攻撃を受け、温度が引き上げられる事態となりました。スタッフの介入により血液の損失は防がれましたが、欧州全域のコールドチェーンに対する懸念が高まっています。",
+      "why_ja": "スーパーマーケットの冷蔵庫に続き、重要医療インフラのコールドチェーンが標的にされたことで、深刻なサイバーセキュリティの脅威が浮き彫りになりました。",
+      "section": "world",
+      "topic_key": "europe-blood-bank-cyberattack",
+      "sources": [
+        {
+          "publisher": "The Register",
+          "title": "Cyberattack on French plasma stores is enough to make your blood boil",
+          "url": "https://www.theregister.com/security/2026/11/04/cyberattack-on-french-plasma-stores-is-enough-to-make-your-blood-boil/5307519"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
+          "url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "French blood banks hacked in latest cyber-attack on Europe",
+          "url": "https://www.theguardian.com/technology/2026/nov/04/france-national-blood-service-hack-cyber-attack-europe"
+        }
+      ]
+    },
+    {
+      "title_en": "Japan Requests US Tech Companies to Share Undisclosed Software Flaws",
+      "title_ja": "日本政府、未公開ソフトウェア脆弱性の共有を米ハイテク企業に要請",
+      "summary_ja": "セキュリティリスクの高まりを受け、日本政府が米国の技術企業に対し、未公開のソフトウェア脆弱性情報の共有を求めていることが明らかになりました。",
+      "why_ja": "日本の公共政策、サイバーセキュリティ対策、および二国間の技術ガバナンスに直結する重要な動きです。",
+      "section": "world",
+      "topic_key": "japan-us-tech-software-flaws",
+      "sources": [
+        {
+          "publisher": "Nikkei Asia",
+          "title": "Japan wants US tech companies to share undisclosed software flaws as risks mount",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRnY0ZUlCeGhXeWF0NHNXT3lyRWd5anJpMmdRaFQwMkJQa0pUYVBRMXhoUXRoNVdpTzc1akpmX0lqYjBhc01yck1iOElZdktHX1NqaVEyNV9lZGRtaHc1Ri1UcVJNa1N2V2NhOFNIS255ZUF2bFdUb3p3R1RTcXFqTUpQOEtzbkFZUzlmOVktVC1LUVpmSVU4SXdTUmVaMUl0Sk9YUWw1Z1Y3VnpaMWJqLUFmSldsZVU1YXFSU2FwYzVBQmtmZjR3?oc=5"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "surging",
+      "meaning_ja": "急増している、波のように押し寄せる",
+      "note_ja": "需要や価格などが急激に高まっている状態を表す際によく使われます。",
+      "example_en": "It was driven by surging demand for data centers and artificial intelligence."
+    },
+    {
+      "term": "slowdown",
+      "meaning_ja": "景気減速、成長の鈍化",
+      "note_ja": "経済活動や売上の伸びが緩やかになること。",
+      "example_en": "Its revenue fell as a handset slowdown offset automotive gains."
+    },
+    {
+      "term": "shortage",
+      "meaning_ja": "不足、欠乏",
+      "note_ja": "必要な数量が足りない状態を指します。",
+      "example_en": "A memory shortage weighed heavily on smartphone sales and PC markets."
+    },
+    {
+      "term": "heist",
+      "meaning_ja": "強盗、不正な盗み出し事件",
+      "note_ja": "ニュースなどで大規模な盗難事件を指す言葉として多用されます。",
+      "example_en": "Now, let us look at the Binance cryptocurrency heist."
+    },
+    {
+      "term": "social engineering",
+      "meaning_ja": "ソーシャルエンジニアリング（人間の心理的隙をつくサイバー攻撃手法）",
+      "note_ja": "技術的なハッキングではなく、人を欺いてパスワードや情報を盗む手法。",
+      "example_en": "They used a malicious Homebrew download and fake job interviews."
+    },
+    {
+      "term": "priorities",
+      "meaning_ja": "優先事項、重点施策",
+      "note_ja": "複数の課題の中で特に重要視される項目。",
+      "example_en": "It outlines five policy priorities, including worker protections, education, and data center development."
+    },
+    {
+      "term": "acquisition",
+      "meaning_ja": "買収、企業買収",
+      "note_ja": "他企業を自社の傘下に収めること。",
+      "example_en": "Meta has acquired Conductor, an artificial intelligence coding startup."
+    },
+    {
+      "term": "ambient intelligence",
+      "meaning_ja": "アンビエントインテリジェンス（環境知能）",
+      "note_ja": "周囲のセンサーやAIが人間の意識的な操作なしに状況を察知する技術。",
+      "example_en": "LeanTaaS is acquiring LookDeep Health to expand its platform into ambient intelligence."
+    },
+    {
+      "term": "computer vision",
+      "meaning_ja": "コンピュータビジョン（画像認識技術）",
+      "note_ja": "機械が画像や動画を解析して状況を理解する技術。",
+      "example_en": "It uses computer vision to monitor patient rooms."
+    },
+    {
+      "term": "safeguards",
+      "meaning_ja": "安全装置、保護対策",
+      "note_ja": "事故や損害を防ぐための仕組みや措置。",
+      "example_en": "Hackers set cold room temperatures to rise, but safeguards and staff prevented any loss of blood products."
+    },
+    {
+      "term": "vulnerability",
+      "meaning_ja": "脆弱性、セキュリティ上の欠陥",
+      "note_ja": "コンピュータシステムのセキュリティ上の弱点のこと。",
+      "example_en": "Rising cybersecurity threats make early vulnerability data critical for protecting government and enterprise infrastructure."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "on a tear",
+    "meaning_ja": "絶好調である、快進撃を続けている",
+    "example_en": "They’ve been on a tear, and I’m convinced MSL has the highest talent density of all the labs.",
+    "example_ja": "彼らは絶好調であり、MSL（スーパーインテリジェンス・ラボ）がすべてのラボの中で最も高い人材密度を誇ると確信しています。"
+  }
+}
