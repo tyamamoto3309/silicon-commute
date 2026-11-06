@@ -1,0 +1,1271 @@
+{
+  "date": "2026-11-06",
+  "published": "2026-11-06T08:52:01+09:00",
+  "title_en": "Tech Market Plunge, Clinical AI Rules, and Global Upheaval",
+  "title_ja": "米テック株急落、医療AI利用ルール、そして世界情勢",
+  "summary_ja": "米中間選挙後のデータセンター規制の動きを受けてテック株が大幅に下落しました。医療分野では医師による非公式なAIチャットボット利用に対する病院の管理強化が進んでいます。世界ではパラグアイ大統領の辞任やイスラエルでの組閣の動きなど大きな政治的変動が起きています。",
+  "duration": 1283.3,
+  "audio": {
+    "file": "2026-11-06.mp3",
+    "bytes": 10267247,
+    "release_tag": "ep-2026-11-06"
+  },
+  "word_count": 2399,
+  "ja_chars": 1308,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.6-flash",
+    "write": "gemini-3.8-flash",
+    "revise": "gemini-3.6-flash",
+    "tts": "gemini-3.8-flash-lite-tts, gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Good Morning and Today's Headlines",
+      "heading_ja": "オープニングと本日の主要ニュース",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning! It is Friday, November 6, 2026. Welcome to Commute News, your daily podcast for key global and technology stories explained in clear, simple English.",
+          "ja": "おはようございます！11月6日金曜日、Commute Newsへようこそ。世界の主要ニュースやテクノロジーの話題をわかりやすい英語でお届けする日常ポッドキャストです。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, Alex, and good morning to all our listeners. Here is a quick preview of the top headlines we are bringing you today.",
+          "ja": "おはようございます、Alex。そしてリスナーの皆さん、おはようございます。本日お届けする主要ニュースの概要です。",
+          "t": 10.99
+        },
+        {
+          "speaker": "Mika",
+          "en": "First, in tech news, a massive stock market rout hits major US technology companies after midterm election results spark widespread political pushback against AI data centers.",
+          "ja": "まずテックニュースでは、米中間選挙結果を受けてAIデータセンターに対する政治的反発が広がり、米大手IT企業を直撃する市場大暴落が発生しました。",
+          "t": 20.06
+        },
+        {
+          "speaker": "Mika",
+          "en": "Second, in digital health, major hospital networks enact strict data safety rules as thousands of doctors secretly use consumer AI chatbots to make clinical decisions.",
+          "ja": "次にデジタルヘルスでは、何千人もの医師が診療判断のために個人用AIチャットボットを密かに利用していることを受け、大手病院ネットワークが厳格なデータ安全ルールを導入しています。",
+          "t": 31.75
+        },
+        {
+          "speaker": "Mika",
+          "en": "Finally, in world news, the president of Paraguay resigns under pressure after a popular digital bank collapses and freezes the savings of millions of citizens.",
+          "ja": "最後に国際ニュースでは、人気のデジタル銀行が破綻し数百万人の市民の預金が凍結されたことを受け、パラグアイ大統領が辞任に追い込まれました。",
+          "t": 42.98
+        },
+        {
+          "speaker": "Alex",
+          "en": "Stay with us as we break down these stories and explain why they matter for you.",
+          "ja": "これらのニュースを詳しく解き明かし、なぜ重要なのかを解説していきますので、ぜひ最後までお聴きください。",
+          "t": 53.8
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "US Tech Stocks Drop After Midterm Backlash",
+      "heading_ja": "米中間選挙後の反発でハイテク株が大幅安",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "US technology stocks suffered a massive sell-off on Thursday following the US midterm elections. The tech-heavy Nasdaq composite index plunged by over 5.5 percent, erasing an estimated 2.5 trillion dollars in market value in its worst trading day since 2025.",
+          "ja": "木曜日、米中間選挙を受けて米国のハイテク株が大幅な売り注文に見舞われました。ハイテク株比率の高いナスダック総合指数は5.5%以上急落し、2025年以来最悪の取引日となり、推定2兆5000億ドルの市場価値が失われました。",
+          "t": 59.93
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why did the election results trigger such a deep market crash for artificial intelligence companies?",
+          "ja": "なぜ選挙結果が人工知能関連企業にとってこれほどの市場大暴落を引き起こしたのですか。",
+          "t": 76.48
+        },
+        {
+          "speaker": "Alex",
+          "en": "Democratic candidates across the country campaigned aggressively against the rapid construction of massive AI data centers. Out of 45 local ballot initiatives, voters approved 39 measures to restrict data center development. For instance, Texas governor-elect Gina Hinojosa promised a strict moratorium on new data center construction.",
+          "ja": "全米の民主党候補者たちが、大規模なAIデータセンターの急速な建設に対する規制を強力に掲げて選挙戦を戦ったからです。地方での45件の住民投票案のうち、有権者はデータセンター開発を制限する39件の措置を可決しました。例えば、テキサス州知事に当選したGina Hinojosa氏は新規データセンター建設の厳格な一時停止を約束しました。",
+          "t": 83.79
+        },
+        {
+          "speaker": "Mika",
+          "en": "Which specific tech giants and semiconductor companies took the biggest financial hit?",
+          "ja": "具体的なテック大手や半導体企業のうち、最も大きな財務的打撃を受けたのはどこですか。",
+          "t": 104.84
+        },
+        {
+          "speaker": "Alex",
+          "en": "Market leader Nvidia slid more than 9 percent, wiping out 400 billion dollars in value. Other chipmakers like AMD and Micron dropped by more than 17 percent. Elon Musk's companies also suffered: Tesla fell nearly 11 percent and SpaceX dropped over 9 percent after Musk spent nearly 450 million dollars supporting Republican candidates who lost.",
+          "ja": "市場を牽引するNvidiaは9%以上下落し、時価総額4000億ドルを消滅させました。AMDやMicronなどの他の半導体メーカーも17%以上下落しました。Elon Musk氏の関連会社も打撃を受け、Musk氏が落選した共和党候補の支援に約4億5000万ドルを費やした後、Teslaは11%近く下落し、SpaceXも9%以上下落しました。",
+          "t": 111.33
+        },
+        {
+          "speaker": "Mika",
+          "en": "How severe could the long-term impact be on future AI computing projects?",
+          "ja": "将来のAI計算プロジェクトに対する長期的影響はどの程度深刻になる可能性がありますか。",
+          "t": 132.91
+        },
+        {
+          "speaker": "Alex",
+          "en": "Analysts estimate that construction pauses could put roughly 30 percent of planned 2028 US data center capacity at risk. OpenAI president Greg Brockman admitted tech leaders were caught off guard by the public backlash and must work harder to win community support.",
+          "ja": "アナリストの試算によると、建設停止により2028年に計画されている全米のデータセンター容量の約30%がリスクに晒される可能性があります。OpenAI社長のGreg Brockman氏は、テック首脳陣が世論の強い反発に不意をつかれたことを認め、地域社会の支持を得るためにもっと努力しなければならないと述べました。",
+          "t": 138.64
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, political pushback against high-energy data centers shattered investor confidence in the immediate future of AI expansion.",
+          "ja": "つまり要するに、大量の電力を消費するデータセンターに対する政治的反発が、AI拡大の近い将来に対する投資家の信頼を打ち砕いたのですね。",
+          "t": 155.6
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly, Mika. Concerns over regulations and high costs are now forcing investors to re-evaluate tech valuations.",
+          "ja": "まさにその通りです、Mika。規制や高コストへの懸念から、投資家はテック企業の評価額を再評価せざるを得なくなっています。",
+          "t": 165.01
+        }
+      ],
+      "lang": "en",
+      "t": 59.93
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米中間選挙でAIデータセンターの建設規制を掲げた民主党が勝利し、ナスダック指数が5.5％超急落、2兆5000億ドルの市場価値が失われました。39件の建設制限案が可決され、2028年の建設計画の約3割に影響が出ると予測されており、AI投資の採算性への懸念が急速に高まっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 173.53
+        }
+      ],
+      "t": 173.53
+    },
+    {
+      "kind": "story",
+      "heading_en": "Microsoft Tightens Rules on Partner Data Centers",
+      "heading_ja": "Microsoft、提携先データセンターの管理を強化",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our next tech story focuses on cloud computing. Microsoft is significantly tightening its oversight over third-party data center partners known as neoclouds.",
+          "ja": "次のテックニュースはクラウドコンピューティングに焦点を当てます。Microsoftは、「ネオクラウド」として知られるサードパーティ製データセンターパートナーへの管理監督を大幅に強化しています。",
+          "t": 197.53
+        },
+        {
+          "speaker": "Mika",
+          "en": "What exactly are neoclouds, and why is Microsoft relying on them for artificial intelligence?",
+          "ja": "ネオクラウドとは正確にはどのようなもので、なぜMicrosoftは人工知能のためにそれらに依存しているのですか。",
+          "t": 208.52
+        },
+        {
+          "speaker": "Alex",
+          "en": "Neoclouds are specialized cloud service providers that rent out high-performance graphics chips and infrastructure for AI workloads. Big tech companies partnered with them to rapidly expand their computing capacity without building every facility themselves.",
+          "ja": "ネオクラウドとは、AI処理向けの高性能グラフィックスチップやインフラを貸し出す専門のクラウド事業者です。大手テック企業はすべての施設を自前で建設することなく、計算能力を迅速に拡張するために彼らと提携しました。",
+          "t": 215.64
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is Microsoft suddenly changing its approach and increasing control over these partners?",
+          "ja": "なぜMicrosoftは突然方針を転換し、これらの提携先に対する管理を強めているのですか。",
+          "t": 232.73
+        },
+        {
+          "speaker": "Alex",
+          "en": "Bloomberg reported that Microsoft has soured on neoclouds due to mounting construction delays and escalating project costs. When data center builds get delayed, Microsoft cannot deliver promised AI computing power to its commercial clients on time.",
+          "ja": "ブルームバーグの報道によると、建設の遅れやプロジェクト費用の高騰が相次いだため、Microsoftはネオクラウドへの評価を厳しくしています。データセンターの建設が遅れると、Microsoftは約束したAI計算能力を商用顧客に予定通り提供できなくなるためです。",
+          "t": 239.73
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did this policy shift impact the market values of these neocloud companies?",
+          "ja": "この方針転換はこれらネオクラウド企業の市場価値に影響を与えましたか。",
+          "t": 256.21
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, it caused immediate financial damage. For example, shares in neocloud operator IREN plunged by 18 percent after reports revealed Microsoft raised serious concerns about its project delays. Other neocloud firms like CoreWeave and Nebius Group also saw their stock prices drop sharply.",
+          "ja": "はい、即座に財務的ダメージを引き起こしました。例えば、Microsoftがプロジェクトの遅延に強い懸念を示したと報じられた後、ネオクラウド事業者のIRENの株価は18%急落しました。CoreWeaveやNebius Groupといった他のネオクラウド企業の株価も大幅に下落しました。",
+          "t": 262.25
+        },
+        {
+          "speaker": "Mika",
+          "en": "How will Microsoft manage its artificial intelligence infrastructure going forward?",
+          "ja": "今後、Microsoftは人工知能インフラをどのように管理していくのでしょうか。",
+          "t": 281.14
+        },
+        {
+          "speaker": "Alex",
+          "en": "Analysts say Microsoft wants stricter contractual rules, tighter monitoring, and more direct oversight. Moving forward, Microsoft may favor building and owning its own data centers to guarantee steady supply and avoid expensive third-party delays.",
+          "ja": "アナリストによると、Microsoftはより厳格な契約上のルール、緊密なモニタリング、そしてより直接的な監督を求めています。今後は安定供給を保証し他社の高コストな遅延を避けるため、自社でのデータセンター建設・所有を優先する可能性があります。",
+          "t": 287.66
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Microsoft is curbing its reliance on outside partners to secure total control over its critical AI supply chain.",
+          "ja": "つまり要するに、Microsoftは重要なAI供給網の完全な統制を確保するため、外部パートナーへの依存を制限しようとしているのですね。",
+          "t": 304.08
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is right, Mika. Infrastructure reliability has become top priority.",
+          "ja": "その通りです、Mika。インフラの信頼性が最優先事項となっています。",
+          "t": 313.2
+        }
+      ],
+      "lang": "en",
+      "t": 197.53
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Microsoftは、AI計算能力を供給する新興クラウド事業者「ネオクラウド」への監視を強化しています。工期の遅れや費用の高騰が相次ぎ、提携先IRENの株価が18％急落しました。AIインフラ需要が急拡大する中、他社依存による遅延リスクを減らし、主要拠点の自社管理と確実な供給確保を急ぐ戦略的転換です。",
+          "en": "",
+          "lang": "ja",
+          "t": 319.05
+        }
+      ],
+      "t": 319.05
+    },
+    {
+      "kind": "story",
+      "heading_en": "OpenSSH Issues Emergency Security Patch",
+      "heading_ja": "OpenSSHが緊急セキュリティパッチを公開",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Cybersecurity experts are urging system administrators to apply an emergency patch immediately following a critical software discovery. A combined vulnerability in OpenSSH and the musl libc library allows unauthorized users to gain administrative control over vulnerable Linux systems.",
+          "ja": "重大なソフトウェア欠陥の発見を受け、サイバーセキュリティの専門家はシステム管理者に対し、緊急パッチを直ちに適用するよう呼びかけています。OpenSSHとmusl libcライブラリの複合的な脆弱性により、権限のないユーザーが脆弱なLinuxシステムの管理権限を取得できてしまいます。",
+          "t": 345.46
+        },
+        {
+          "speaker": "Mika",
+          "en": "That sounds alarming. How easy is it for an attacker to exploit this security flaw?",
+          "ja": "それは深刻ですね。攻撃者がこのセキュリティ上の欠陥を悪用するのはどれほど簡単なのですか。",
+          "t": 362.85
+        },
+        {
+          "speaker": "Alex",
+          "en": "Surprising as it sounds, an attacker can bypass login authentication simply by typing any text longer than 256 characters into the password prompt. A logic flaw causes the system to mistake an error code for a valid password match, letting the user right in without a correct password.",
+          "ja": "驚くべきことに、攻撃者はパスワード入力画面で256文字を超える文字列を入力するだけでログイン認証を回避できます。論理的な欠陥により、システムがエラーコードを正当なパスワード一致と誤認し、正しいパスワードなしで侵入を許してしまいます。",
+          "t": 368.91
+        },
+        {
+          "speaker": "Mika",
+          "en": "Which operating systems and server environments are at risk from this bug?",
+          "ja": "このバグによってどのOSやサーバー環境が危険にさらされているのですか。",
+          "t": 386.3
+        },
+        {
+          "speaker": "Alex",
+          "en": "The primary concern is Alpine Linux, which is installed on millions of cloud servers, Docker containers, Kubernetes clusters, and embedded devices worldwide. Alpine uses musl libc and has password authentication enabled by default, making it directly vulnerable to remote attacks over local networks.",
+          "ja": "最大の問題は、世界中の数百万台のクラウドサーバー、Dockerコンテナ、Kubernetesクラスタ、組み込み機器にインストールされているAlpine Linuxです。Alpineはmusl libcを使用しており、デフォルトでパスワード認証が有効になっているため、ローカルネットワーク経由の遠隔攻撃に対して直接的な脆弱性を持っています。",
+          "t": 391.85
+        },
+        {
+          "speaker": "Mika",
+          "en": "What steps should IT security teams take right now to protect their systems?",
+          "ja": "ITセキュリティチームはシステムを保護するために、今すぐどのような対策を講じるべきでしょうか。",
+          "t": 410.08
+        },
+        {
+          "speaker": "Alex",
+          "en": "Developers for both OpenSSH and musl libc have released urgent software patches. If administrators cannot update immediately, they should set PasswordAuthentication to 'no' in their OpenSSH configuration file and restart the service to block password login attempts.",
+          "ja": "OpenSSHとmusl libcの双方の開発者が緊急ソフトウェアパッチを公開しました。管理者がすぐに更新できない場合は、OpenSSHの設定ファイルでPasswordAuthenticationを「no」に設定してサービスを再起動し、パスワードによるログイン試行を遮断する必要があります。",
+          "t": 415.74
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, a simple password entry trick compromises millions of Linux containers, requiring immediate patching across enterprise networks.",
+          "ja": "つまり要するに、単純なパスワード入力の抜け道で数百万のLinuxコンテナが危険に晒されるため、企業ネットワーク全体で即座のパッチ適用が必要ということですね。",
+          "t": 432.07
+        },
+        {
+          "speaker": "Alex",
+          "en": "Absolutely, Mika. Security teams must act quickly to secure vulnerable machines.",
+          "ja": "まったくその通りです、Mika。セキュリティチームは脆弱な機器を保護するため迅速に行動しなければなりません。",
+          "t": 441.43
+        }
+      ],
+      "lang": "en",
+      "t": 345.46
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "遠隔操作ソフトウェアOpenSSHとmusl libcの組み合わせにおいて、256文字以上のパスワードを入力すると認証を突破できる重大な脆弱性が発見され、緊急修正が配布されました。コンテナ環境で広く利用されるAlpine Linuxなどに影響が及ぶため、担当者はパッチ適用や設定変更を急いでいます。",
+          "en": "",
+          "lang": "ja",
+          "t": 447.32
+        }
+      ],
+      "t": 447.32
+    },
+    {
+      "kind": "story",
+      "heading_en": "US Lawmakers Summon Nvidia CEO Over China Claims",
+      "heading_ja": "米議員、中国スパイ疑惑を巡りNVIDIA CEOの招致を要請",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Turning to semiconductor politics, United States congressional leaders have formally summoned Nvidia CEO Jensen Huang to Washington for an urgent briefing. Key Republican lawmakers are seeking details regarding reported corporate ties to an alleged Chinese espionage operation.",
+          "ja": "半導体を巡る政治的動きに移ります。米国の議会指導者たちは、NvidiaのJensen Huang CEOに対し、ワシントンでの緊急説明会への出頭を正式に要請しました。主要な共和党議員らが、中国のスパイ活動への関与が取り沙汰される人物との企業関係について詳細を求めています。",
+          "t": 471.29
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specific concerns are leading lawmakers to demand a briefing from Nvidia's chief executive?",
+          "ja": "議員たちがNvidiaの最高経営責任者に説明を求める具体的な懸念事項は何ですか。",
+          "t": 488.23
+        },
+        {
+          "speaker": "Alex",
+          "en": "Nvidia produces the world's most advanced graphics processors, which are essential for training cutting-edge artificial intelligence models. Lawmakers want to investigate whether sensitive semiconductor technology secrets or business connections pose a threat to United States national security and trade compliance.",
+          "ja": "Nvidiaは最先端の人工知能モデルの学習に不可欠な、世界最高峰のグラフィックスプロセッサを製造しています。議員たちは、敏感な半導体技術の機密やビジネス上のつながりが米国の国家安全保障や貿易遵守に対する脅威となっていないかを調査したいと考えています。",
+          "t": 495.02
+        },
+        {
+          "speaker": "Mika",
+          "en": "Has Nvidia or Congress revealed whether this meeting will be open to the public?",
+          "ja": "この会合が公開で行われるかどうかについて、Nvidiaや議会から公表はありますか。",
+          "t": 514.15
+        },
+        {
+          "speaker": "Alex",
+          "en": "Congressional leaders have requested a closed-door briefing to discuss sensitive security documents and intelligence reports. Washington has been steadily tightening controls on advanced microchip exports to China, and any evidence of espionage activity could lead to even stricter restrictions.",
+          "ja": "議会指導者らは、機密性の高い安全保障文書や情報機関の報告書を議論するため非公開での説明会を要求しています。ワシントンは先端半導体の対中輸出規制を段階的に強化してきており、スパイ活動の証拠が見つかれば、さらに厳格な制限につながる可能性があります。",
+          "t": 520.04
+        },
+        {
+          "speaker": "Mika",
+          "en": "What does this mean for Nvidia's business and the broader global chip supply chain?",
+          "ja": "これはNvidiaのビジネスや、より広い世界的な半導体供給網にとって何を意味するのでしょうか。",
+          "t": 537.99
+        },
+        {
+          "speaker": "Alex",
+          "en": "Nvidia derives significant revenue from international markets, so increased political oversight creates major uncertainty for investors. If lawmakers uncover compliance failures, Congress could impose harsh penalties or further limit semiconductor sales to foreign buyers.",
+          "ja": "Nvidiaは収益の多くを海外市場に依存しているため、政治的監視の強化は投資家にとって大きな不確実性を生みます。もし議員たちが法令遵守上の不備を発見した場合、議会は厳しい罰足を科したり海外顧客への半導体販売をさらに制限したりする可能性があります。",
+          "t": 544.04
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, rising geopolitical tensions have placed Nvidia's leadership under intense congressional scrutiny regarding national security and China ties.",
+          "ja": "つまり要するに、地政学的緊張の高まりによって、Nvidiaの経営陣は国家安全保障や中国との関係について議会から厳しい監視の目に晒されているのですね。",
+          "t": 560.7
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly, Mika. Silicon Valley is paying very close attention to how Jensen Huang responds to lawmakers.",
+          "ja": "その通りです、Mika。シリコンバレーはJensen Huang氏が議員にどう回答するかを極めて注視しています。",
+          "t": 570.8
+        }
+      ],
+      "lang": "en",
+      "t": 471.29
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米議会の有力議員が、中国のスパイ活動に関与したとされる人物との関係を巡り、NVIDIAのCEOであるJensen Huang氏に非公開の説明会への出席を要請しました。AI半導体技術の機密管理に対する米当局の監視が一段と強まっており、今後の対中輸出規制や半導体供給網への影響が注視されています。",
+          "en": "",
+          "lang": "ja",
+          "t": 578.43
+        }
+      ],
+      "t": 578.43
+    },
+    {
+      "kind": "story",
+      "heading_en": "Tech Giants Sue California Over Child Online Safety Law",
+      "heading_ja": "米テック大手、カリフォルニア州の未成年保護法を提訴",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In digital law, technology giants Google, Meta, and TikTok have joined forces to file a major lawsuit against the state of California. The tech companies are asking a federal court to block a landmark state law intended to protect children online.",
+          "ja": "デジタル法務の分野では、テック大手のGoogle、Meta、TikTokが協力し、カリフォルニア州を相手取って大規模な訴訟を起こしました。これらIT企業は連邦地裁に対し、ネット上で子どもを保護することを目的とした画期的な州法の差し止めを求めています。",
+          "t": 602.7
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specific app design features does California's new youth safety law attempt to restrict?",
+          "ja": "カリフォルニア州の新しい未成年保護法は、アプリのどのような具体的にデザインされた機能を規制しようとしているのですか。",
+          "t": 618.45
+        },
+        {
+          "speaker": "Alex",
+          "en": "The law targets features that lawmakers argue foster digital addiction among minors. This includes algorithmic endless feeds, auto-playing video streams, and late-night push notifications designed to keep children using social media applications into the early morning hours.",
+          "ja": "この法律は、議員たちが未成年のデジタル依存を助長すると主張する機能を標的にしています。これにはアルゴリズムによる無限スクロール表示、動画の自動再生、子どもたちに早朝までSNSアプリを使い続けさせるために設計された深夜のプッシュ通知などが含まれます。",
+          "t": 625.28
+        },
+        {
+          "speaker": "Mika",
+          "en": "What legal arguments are Google, Meta, and TikTok making to challenge this law?",
+          "ja": "Google、Meta、TikTokはこの法律に対抗するためにどのような法的主張をしているのですか。",
+          "t": 642.65
+        },
+        {
+          "speaker": "Alex",
+          "en": "The tech companies argue that the law violates First Amendment free speech protections guaranteed under the United States Constitution. Furthermore, they contend that decisions regarding digital media consumption should belong to parents rather than state government regulators.",
+          "ja": "IT企業側は、この法律が合衆国憲法で保障された修正第1条の言論の自由の保護に違反していると主張しています。さらに、デジタルメディアの利用に関する決定権は州政府の規制当局ではなく保護者に属するべきだとも訴えています。",
+          "t": 648.67
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is this legal battle in California so important for the rest of the nation?",
+          "ja": "なぜカリフォルニア州でのこの法廷闘争が全米の他の地域にとっても重要なのですか。",
+          "t": 666.21
+        },
+        {
+          "speaker": "Alex",
+          "en": "California is often a trendsetter for technology regulation. Multiple other states are currently drafting similar digital safety legislation. If California's law is struck down by federal judges, it could dismantle state-level efforts across America to regulate social media platforms.",
+          "ja": "カリフォルニア州はテクノロジー規制のトレンドセッターとなることが多いためです。現在、他の複数の州も同様のデジタル安全法案を起草しています。もしカリフォルニア州の法律が連邦裁判官によって無効と判断されれば、SNSプラットフォームを規制しようとする全米各州の取り組みが瓦解する可能性があります。",
+          "t": 672.24
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, tech platforms are taking state lawmakers to court to defend their core app features under constitutional free speech principles.",
+          "ja": "つまり要するに、テックプラットフォームは憲法上の言論の自由の原則に基づいてアプリの中核機能を防衛するため、州の立法者を提訴しているのですね。",
+          "t": 690.18
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, Mika. The outcome will define how states can regulate social media design for minors.",
+          "ja": "はい、Mika。判決結果は、各州が未成年向けのSNSデザインをどのように規制できるかを決定づけることになります。",
+          "t": 699.91
+        }
+      ],
+      "lang": "en",
+      "t": 602.7
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Google、Meta、TikTokは、未成年向けの中毒的なアプリ機能を制限するカリフォルニア州の新法を阻止するため提訴しました。州側は無限スクロールや深夜通知の規制を目指す一方、企業側は表現の自由を侵害すると主張しています。各州のデジタル規制の先例となる重要な法廷闘争です。",
+          "en": "",
+          "lang": "ja",
+          "t": 706.57
+        }
+      ],
+      "t": 706.57
+    },
+    {
+      "kind": "health",
+      "heading_en": "Hospitals Rein in Doctor AI Chatbot Usage",
+      "heading_ja": "病院、医師による臨床AIチャットボット利用の管理を強化",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Moving to our digital health segment, hospitals across the United States are enacting strict data governance rules to curb unsanctioned artificial intelligence usage by doctors.",
+          "ja": "デジタルヘルスのセグメントに移ります。全米の病院が、医師による非公式な人工知能の利用を抑止するため、厳格なデータ管理規律を制定しています。",
+          "t": 730.04
+        },
+        {
+          "speaker": "Mika",
+          "en": "Are clinicians really using consumer AI chatbots to treat patients during their daily hospital rounds?",
+          "ja": "臨床医たちは毎日の回診時に、患者の治療のために個人用AIチャットボットを本当に使っているのですか。",
+          "t": 741.36
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, hundreds of thousands of doctors now consult popular tools like OpenEvidence, Doximity Ask, and ChatGPT for Clinicians. These free chatbots claim to comply with federal HIPAA privacy laws, leading many physicians to input sensitive patient histories and diagnostic details to get quick medical recommendations.",
+          "ja": "はい、現在何十万人もの医師がOpenEvidence、Doximity Ask、ChatGPT for Cliniciansなどの人気ツールを利用しています。これらの無料チャットボットは連邦HIPAAプライバシー法に準拠していると謳っているため、多くの医師が迅速な医療アドバイスを得るために患者の機密性の高い病歴や診断詳細を入力しています。",
+          "t": 748.48
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specific privacy risks have hospital technology leaders uncovered?",
+          "ja": "病院のテクノロジー責任者たちはどのような具体的なプライバシーリスクを発見したのですか。",
+          "t": 767.54
+        },
+        {
+          "speaker": "Alex",
+          "en": "Chief Information Officer Patrick Woodard of Monument Health discovered that a doctor had stored over one hundred full patient records directly inside a free chatbot system. Fearing severe data privacy breaches, Monument Health completely blocked access to the application across its medical network.",
+          "ja": "Monument Healthの最高情報責任者であるPatrick Woodard氏は、ある医師が無料チャットボットシステム内に100件以上の完全な患者記録を直接保存していたことを発見しました。深刻なデータプライバシー侵害を恐れたMonument Healthは、医療ネットワーク全体でそのアプリケーションへのアクセスを完全に遮断しました。",
+          "t": 772.92
+        },
+        {
+          "speaker": "Mika",
+          "en": "How are health systems managing the demand for AI assistance while protecting patient records?",
+          "ja": "医療機関は患者の記録を守りつつ、AIによるサポートへの需要にどのように対処しているのですか。",
+          "t": 791.14
+        },
+        {
+          "speaker": "Alex",
+          "en": "Hospital leaders realize they cannot simply ban technology altogether. Instead, health systems are either blocking unauthorized web tools or purchasing enterprise-grade AI software that offers verified security protocols and centralized administrative oversight.",
+          "ja": "病院の幹部らは、テクノロジーを単に全面的に禁止することはできないと認識しています。代わりに医療機関は、未承認のウェブツールを遮断するか、検証済みのセキュリティプロトコルと中央集中型の管理監督機能を備えた法人向けAIソフトウェアを購入する動きを見せています。",
+          "t": 797.81
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, hospital executives are stepping in to ensure clinical AI tools protect patient privacy before doctors adopt them.",
+          "ja": "つまり要するに、医師が採用する前に臨床AIツールが患者のプライバシーを保護するよう、病院経営陣が介入しているのですね。",
+          "t": 813.9
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly, Mika. Ensuring strict compliance with medical privacy laws remains paramount for hospital management.",
+          "ja": "まさにその通りです、Mika。医療プライバシー法の厳格な遵守を確保することが、病院経営にとって引き続き最優先事項です。",
+          "t": 822.48
+        }
+      ],
+      "lang": "en",
+      "t": 730.04
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "多数の医師が診療判断のためにAIチャットボットを利用する中、米国の病院は患者データの漏洩防止に向けた利用統治を強化しています。100件以上の患者記録を無許可でAIに入力していた事例を受け、接続を遮断する病院も出ています。利便性と機密保護を両立する明確な指針作りが不可欠です。",
+          "en": "",
+          "lang": "ja",
+          "t": 830.05
+        }
+      ],
+      "t": 830.05
+    },
+    {
+      "kind": "world",
+      "heading_en": "Paraguay President Resigns After Digital Bank Collapses",
+      "heading_ja": "デジタル銀行破綻を受け、パラグアイ大統領が辞任",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In global news, Paraguay's President Santiago Peña resigned on Thursday after the sudden collapse of a major digital lender triggered widespread political chaos.",
+          "ja": "国際ニュースでは、大手デジタル銀行の突然の破綻が深刻な政治的混乱を引き起こしたことを受け、パラグアイのSantiago Peña大統領が木曜日に辞任しました。",
+          "t": 852.19
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did the failure of a single digital bank lead to the downfall of the country's president?",
+          "ja": "たった1つのデジタル銀行の破綻が、なぜ一国の大統領の退陣にまで発展したのですか。",
+          "t": 862.61
+        },
+        {
+          "speaker": "Alex",
+          "en": "The central bank forced Ueno Bank into insolvency resolution after it ran out of funds, freezing the account deposits of three million customers—equivalent to sixty percent of Paraguay's adult population. Hundreds of thousands of families were left without money for food and daily necessities.",
+          "ja": "中央銀行が資金ショートしたUeno Bankを経営破綻処理に追い込み、パラグアイの成人人口の60%に相当する300万人の顧客の口座預金を凍結したからです。何十万もの世帯が食料や日常生活に必要な資金を引き出せなくなりました。",
+          "t": 869.23
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why were citizens and lawmakers blaming President Peña directly for the bank's collapse?",
+          "ja": "なぜ国民や議員たちは銀行の破綻についてPeña大統領を直接非難していたのですか。",
+          "t": 887.11
+        },
+        {
+          "speaker": "Alex",
+          "en": "Peña was previously a shareholder in the bank's parent company. Critics accused his administration of improper favoritism after officials deposited over 800 million dollars in public pension funds into Ueno Bank.",
+          "ja": "Peña氏が以前その銀行の親会社の株主だったからです。政権幹部が8億ドル以上の公的年金基金をUeno Bankに預託していたことから、批判者は政権による不当な優遇措置を非難しました。",
+          "t": 893.44
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did the political pressure leave President Peña with any choice other than resigning?",
+          "ja": "政治的圧力により、Peña大統領には辞任以外の選択肢が残されていなかったのでしょうか。",
+          "t": 906.73
+        },
+        {
+          "speaker": "Alex",
+          "en": "After massive street protests and a congressional vote to begin impeachment proceedings, Peña posted a video announcing his resignation to protect national stability. Congress has since approved emergency funds to reimburse frozen depositors.",
+          "ja": "大規模な街頭抗議デモと弾劾手続き開始に向けた議会採決を受け、Peña氏は国家の安定を守るため辞任を発表する動画を投稿しました。議会はその後、凍結された預金者に返金するための緊急資金を承認しました。",
+          "t": 912.9
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, widespread outrage over frozen savings and government conflicts of interest forced Paraguay's president from office.",
+          "ja": "つまり要するに、預金凍結と政府の利益相反に対する怒りの広がりが、パラグアイ大統領を辞任に追い込んだのですね。",
+          "t": 927.86
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly, Mika. Paraguay is now working to restore confidence in its financial system.",
+          "ja": "その通りです、Mika。パラグアイは現在、金融システムへの信頼回復に取り組んでいます。",
+          "t": 936.55
+        }
+      ],
+      "lang": "en",
+      "t": 852.19
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "パラグアイのPeña大統領が、新興デジタル銀行Ueno Bankの破綻責任を取り辞任しました。成人人口の約6割に当たる300万人の預金が凍結され、大統領の過去の持ち株関係や多額の公金預託に批判が集中しました。抗議デモと弾劾可決を受けた劇的な退陣劇となりました。",
+          "en": "",
+          "lang": "ja",
+          "t": 943.17
+        }
+      ],
+      "t": 943.17
+    },
+    {
+      "kind": "world",
+      "heading_en": "Israeli Opposition Leader Eisenkot Backed for Prime Minister",
+      "heading_ja": "イスラエル野党党首アイゼンコット氏、多数派の支持を獲得",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Turning to the Middle East, Israeli politics faces a major shift as opposition leader Gadi Eisenkot secured majority support in parliament to try to form a new government.",
+          "ja": "中東情勢に移ります。野党指導者のGadi Eisenkot氏が新政府樹立に向けて議会で過半数の支持を獲得し、イスラエル政治は大きな転換点を迎えています。",
+          "t": 963.88
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does securing a parliamentary majority mean Eisenkot is guaranteed to replace Prime Minister Benjamin Netanyahu?",
+          "ja": "議会で過半数を確保したことは、Eisenkot氏がBenjamin Netanyahu首相の後任になることが確実であることを意味しますか。",
+          "t": 974.67
+        },
+        {
+          "speaker": "Alex",
+          "en": "Out of 120 Knesset seats, 67 lawmakers endorsed Eisenkot during consultations, while only 46 backed Netanyahu. The endorsement includes support from Arab-majority parties like Ra'am following record voter turnout among Arab Israeli citizens.",
+          "ja": "クネセト（議会）の120議席のうち、協議の中で67名の議員がEisenkot氏を推薦したのに対し、Netanyahu氏を支持したのは46名にとどまりました。この推薦には、アラブ系イスラエル市民の記録的な投票率を受けたRa'amなどのアラブ系主要政党からの支持も含まれています。",
+          "t": 982.21
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why has President Isaac Herzog delayed naming Eisenkot as the official prime minister-designate?",
+          "ja": "なぜIsaac Herzog大統領はEisenkot氏を正式な組閣担当首相に指名するのを保留しているのですか。",
+          "t": 996.86
+        },
+        {
+          "speaker": "Alex",
+          "en": "President Herzog explained that deep political rivalries and mutual vetoes between coalition partners create ongoing deadlock. Herzog will hold private weekend consultations before deciding on Sunday which leader gets the first official attempt to form a stable governing coalition.",
+          "ja": "Herzog大統領は、連立パートナー間の根深い政治的対立と相互の拒否権が継続的な政治的膠着を生んでいると説明しました。Herzog大統領は週末に個別の協議を行い、安定した連立政権樹立に向けた最初の公式な優先権をどちらの指導者に与えるかを日曜日に決定します。",
+          "t": 1003.53
+        },
+        {
+          "speaker": "Mika",
+          "en": "What conditions has Eisenkot placed on potential coalition partners to ensure stability?",
+          "ja": "Eisenkot氏は安定性を確保するため、連立相手となり得る政党に対してどのような条件を課していますか。",
+          "t": 1020.43
+        },
+        {
+          "speaker": "Alex",
+          "en": "Eisenkot requires all participating parties to recognize Israel as a Jewish state, accept national service requirements, and reject extremist organizations.",
+          "ja": "Eisenkot氏は、参加するすべての政党に対し、イスラエルを猶太国家として承認すること、国民皆兵・奉仕の義務を受け入れること、そして過激派組織を否定することを求めています。",
+          "t": 1026.65
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Netanyahu has lost his majority, but forming a lasting ruling coalition remains a complex challenge for Eisenkot.",
+          "ja": "つまり要するに、Netanyahu氏は過半数を失いましたが、Eisenkot氏にとっても永続的な連立政権の樹立は依然として複雑な課題なのですね。",
+          "t": 1036.62
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is right, Mika. All eyes are on President Herzog's upcoming announcement on Sunday.",
+          "ja": "その通りです、Mika。日曜日に行われるHerzog大統領の発表に注目が集まっています。",
+          "t": 1044.99
+        }
+      ],
+      "lang": "en",
+      "t": 963.88
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "イスラエル議会で、野党指導者のEisenkot元参謀総長がNetanyahu首相を上回る過半数67議席の支持を取り付けました。しかし政党間の対立は深く、Herzog大統領は誰に組閣権を与えるか週末に協議し日曜に判断します。長期政権を率いた首相の去就が注目されます。",
+          "en": "",
+          "lang": "ja",
+          "t": 1051.22
+        }
+      ],
+      "t": 1051.22
+    },
+    {
+      "kind": "world",
+      "heading_en": "Over 600,000 March Across France in Cost-of-Living Strike",
+      "heading_ja": "フランス全土で60万人超が物価高抗議ストライキ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In Europe, more than 600,000 protesters took to the streets across France on Thursday as trade unions staged a massive nationwide general strike over the soaring cost of living.",
+          "ja": "欧州では木曜日、生活費の急騰を受けて労働組合が大規模な全国ゼネラルストライキを打ったため、フランス全土で60万人以上の抗議参加者が街頭に行進しました。",
+          "t": 1072.22
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specific demands are French workers and labor unions making to the government?",
+          "ja": "フランスの労働者や労働組合は政府に対してどのような具体的要求を行っているのですか。",
+          "t": 1083.34
+        },
+        {
+          "speaker": "Alex",
+          "en": "Five major trade unions organized demonstrations demanding higher wages to offset inflation, including a net salary increase of 100 euros per month and a higher national minimum wage. Workers are also protesting planned budget cuts to public education and healthcare systems.",
+          "ja": "5つの主要労働組合がデモを組織し、月額100ユーロの手取り賃上げや法定最低賃金の引き上げを含む、インフレを補填するための昇給を要求しました。労働者たちはまた、公教育や医療システムに対する予算削減案にも抗議しています。",
+          "t": 1089.29
+        },
+        {
+          "speaker": "Mika",
+          "en": "How severely did Thursday's general strike disrupt daily life and public infrastructure across France?",
+          "ja": "木曜日のゼネラルストライキは、フランス全土の日常生活や公共インフラをどの程度深刻に混乱させましたか。",
+          "t": 1105.81
+        },
+        {
+          "speaker": "Alex",
+          "en": "The strike caused widespread shutdowns across schools, public transit, and hospital services. Major tourist landmarks like the Eiffel Tower and sections of the Louvre Museum were forced to close, while workers halted production at oil refineries and nuclear power plants.",
+          "ja": "ストライキにより学校、公共交通機関、病院機能全体で広範な業務停止が発生しました。エッフェル塔やルーブル美術館の一部などの主要な観光名所が閉鎖を余儀なくされ、労働者たちは製油所や原子力発電所での生産をストップさせました。",
+          "t": 1112.81
+        },
+        {
+          "speaker": "Mika",
+          "en": "How is the French government responding to the mounting pressure from union leaders?",
+          "ja": "フランス政府は組合指導者からの高まる圧力にどのように対応しているのですか。",
+          "t": 1129.11
+        },
+        {
+          "speaker": "Alex",
+          "en": "Prime Minister Sébastien Lecornu announced he will convene a social conference with union leaders and employers next Monday to discuss economic demands.",
+          "ja": "Sébastien Lecornu首相は、経済的要求について協議するため、来週月曜日に労働組合幹部および使用者側との労使社会会議を招集すると発表しました。",
+          "t": 1135.11
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, intense public frustration over inflation and austerity has forced the French leadership into urgent negotiations.",
+          "ja": "つまり要するに、インフレと緊縮財政に対する国民の強い不満が、フランス政権に緊要な交渉を強いたのですね。",
+          "t": 1144.86
+        },
+        {
+          "speaker": "Alex",
+          "en": "Indeed, Mika. Labor unions have proven that economic discontent remains a powerful force across Europe.",
+          "ja": "まさにその通りです、Mika。労働組合は、経済的不満が欧州全域で引き続き強力な力を持っていることを証明しました。",
+          "t": 1153.28
+        }
+      ],
+      "lang": "en",
+      "t": 1072.22
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "フランスで物価高と公共緊縮に抗議する全国ストライキが実施され、内務省推計で60万人以上が参加しました。鉄道や学校、医療機関が混乱し、エッフェル塔も一時閉鎖されました。Lecornu首相は来週月曜に労使協議を開く意向を示し、対話による事態収拾を模索しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 1160.78
+        }
+      ],
+      "t": 1160.78
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch: Deutsche Telekom on Musk's Wireless Carrier Plan",
+      "heading_ja": "CEOウォッチ：ドイツテレコム首脳、マスク氏の携帯構想に言及",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In today's CEO Watch segment, Deutsche Telekom chief executive Tim Höttges addressed Elon Musk's ambitious plan to transform SpaceX's Starlink Mobile into a major wireless phone carrier.",
+          "ja": "本日のCEOウォッチのセグメントでは、ドイツテレコムのTim Höttges最高経営責任者が、SpaceXのStarlink Mobileを主要な携帯電話会社へと成長させるというElon Musk氏の野心的な計画に言及しました。",
+          "t": 1181.28
+        },
+        {
+          "speaker": "Mika",
+          "en": "What was the telecom chief's reaction to Elon Musk entering the mobile network market?",
+          "ja": "Elon Musk氏が携帯電話ネットワーク市場に参入することに対する通信企業のトップの反応はどのようなものでしたか。",
+          "t": 1192.87
+        },
+        {
+          "speaker": "Alex",
+          "en": "Speaking during an earnings call, Höttges remarked with a smile, quote, 'Welcome to the party,' unquote. While he stressed that Deutsche Telekom takes Musk super seriously, Höttges pointed out that building a nationwide wireless carrier network requires at least 200 billion dollars in capital investment.",
+          "ja": "決算説明会でHöttges氏は笑顔を見せながら「パーティーへようこそ」と述べました。ドイツテレコムがMusk氏を非常に真剣に受け止めていると強調しつつも、全国規模の携帯キャリアネットワークを構築するには少なくとも2000億ドルの設備投資が必要であると指摘しました。",
+          "t": 1198.97
+        }
+      ],
+      "lang": "en",
+      "t": 1181.28
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: Caught off Guard",
+      "heading_ja": "今日のフレーズ：caught off guard",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's Phrase of the Day is 'caught off guard'. It means to be surprised or taken by surprise by an unexpected event.",
+          "ja": "今日の「Phrase of the Day」は「caught off guard」です。予期せぬ出来事に驚かされる、不意をつかれるという意味です。",
+          "t": 1217.1
+        },
+        {
+          "speaker": "Alex",
+          "en": "OpenAI president Greg Brockman used this phrase when discussing the midterm election results, stating that tech leaders were caught off guard by the strong public backlash against data centers.",
+          "ja": "OpenAI社長のGreg Brockman氏は中間選挙結果を議論する際、データセンターに対する世論の強い反発にテック首脳陣が不意をつかれたと述べてこの表現を使いました。",
+          "t": 1224.95
+        },
+        {
+          "speaker": "Mika",
+          "en": "Here is another business example: 'The sudden change in government regulation caught company executives off guard.'",
+          "ja": "ビジネスでのもう一つの例です。「政府規制の突然の変更に、会社の経営陣は不意をつかれました。」",
+          "t": 1236.93
+        },
+        {
+          "speaker": "Alex",
+          "en": "It is a great phrase to describe unexpected market turns.",
+          "ja": "予期せぬ市場の転換を説明するのに最適なフレーズですね。",
+          "t": 1244.61
+        }
+      ],
+      "lang": "en",
+      "t": 1217.1
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Closing Thoughts and Sign-Off",
+      "heading_ja": "まとめとエンディング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That wraps up today's edition of Commute News for Friday, November 6. From market reactions to global political shifts, technology and policy continue to reshape our world rapidly.",
+          "ja": "11月6日金曜日のCommute Newsは以上です。市場の反応から世界的な政治的変化まで、テクノロジーと政策が私たちの世界を急速に再形成し続けています。",
+          "t": 1249.12
+        },
+        {
+          "speaker": "Mika",
+          "en": "Thank you for listening, everyone. Have a fantastic weekend, and please join us again on Monday morning for your daily news commute.",
+          "ja": "リスナーの皆さん、お聴きいただきありがとうございました。素晴らしい週末をお過ごしください。そして月曜日の朝の通勤ニュースでまたお会いしましょう。",
+          "t": 1260.38
+        },
+        {
+          "speaker": "Alex",
+          "en": "Stay safe, stay informed, and have a wonderful day!",
+          "ja": "安全に過ごし、最新情報を入手して、どうぞ良い一日をお過ごしください！",
+          "t": 1269.0
+        }
+      ],
+      "lang": "en",
+      "t": 1249.12
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "今週もCommute Newsをお聴きいただきありがとうございました。素敵な週末をお過ごしください。いってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 1273.18
+        }
+      ],
+      "t": 1273.18
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Post-Midterm Tech Rout Sparks Calls for National AI Data Center Moratorium",
+      "title_ja": "米中間選挙後のテック株急落、AIデータセンター建設停止を求める声",
+      "summary_ja": "米中間選挙でAIデータセンターの電力消費や騒音への規制を掲げた民主党が勝利し、ナスダック指数が5.5％超急落しました。有権者は39件の制限措置を可決し、新設予定のデータセンターの約30％に影響が出る恐れが指摘されています。投資家の間ではAIインフラ投資に対する採算性の懸念が広がっています。",
+      "why_ja": "AI普及に伴う電力インフラへの負荷と地方自治体・住民の反発が、今後のテクノロジー政策や市場の安定性を大きく揺るがす局面に入ったことを示しています。",
+      "section": "tech",
+      "topic_key": "tech-market-rout-ai-data-center-backlash",
+      "companies": [
+        "Nvidia",
+        "AMD",
+        "Micron",
+        "Intel",
+        "Tesla",
+        "SpaceX",
+        "OpenAI"
+      ],
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+          "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "AI stocks plunge after US election, driving down markets",
+          "url": "https://www.aljazeera.com/economy/2026/11/5/ai-stocks-plunge-after-election-driving-down-us-markets?traffic_source=rss"
+        },
+        {
+          "publisher": "MarketWatch",
+          "title": "Stock Market on Nov. 5, 2026: Nasdaq falls more than 5% in worst selloff since tariff tantrum; Dow slumps more than 1,800 points as selling spreads beyond tech",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdWpfcV9GYl9wNkMyc3BTMEtsc1M3c3dNcmtfQkE0QTFJWHZQQ3ZtVDVhWDFfdFZxcklWQlhtYlVQWFBFYU9TUi1SMDVMNFVITXFmUTVEbTM2bjJHcEJUUmQxZ0QtbDNVUmVKTjBqNGdEMlV1Wm5xZWZOV3N3Y0FoSWNYd3V4aV9BMy1Ua3RoeEV0YS13ZVBwQ3NoYTZYbnRYQ3FkUG1DQUdJVGlmM1ExUVcyb1BmYlhZ?oc=5"
+        },
+        {
+          "publisher": "Fox News",
+          "title": "OpenAI faces Democratic backlash over AI data center expansion",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdFhCek56UEgzRnEzcXdrWXUwMTRoOEZGdjd4aFJoQVlSbnVScVlQdGlCd0hoNUtYTmloZHlKc25UZy1EUXFReEJGQ2JOMHZJN1FBQnBMaUlBU3dRYXNaaE44NnlhUk9oSVBBak1pdTYyS2licU1iS0tyZnNxU2hFWGp2cGJJZw?oc=5"
+        },
+        {
+          "publisher": "CNBC",
+          "title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONG85QmJuZGVEWUIxSW4ybHJPVmN2RmR2VjBTdnkydmZSOGV6YllsWEUtbVpYclRTSWhQS09EZGxJSllyY0otS1QtQVdVY3BhY0ZqMWxfR25WeWo3Q3d5LUg5dVZrUGRneGh2LTRBQjY3SERxNTdLaXNkaU9VaHVPb0lKQW10WmvSAYwBQVVfeXFMTWdsc2pjdEpUS1NXdWRzcld3SFp2eVBhWkU2NWNOTXRsUS1WbTNRVlg3S0ZRalhiYnR5WTNKQUxiR1JXNkI3b3ItbnBsZkdoZE9lbWJkVFB1eTFwMFluVFNobUtfLU1sTUJPSlRVSU1IUnRhYXFPVzNEc0NRempsZGM3MTFTVFZSUGUzS0Y?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Microsoft Tightens Oversight of Neocloud Infrastructure Amid Delays and Escalating Costs",
+      "title_ja": "Microsoft、工期遅延と費用増を受けネオクラウドへの監督を強化",
+      "summary_ja": "MicrosoftはAI計算能力を委託している新興クラウド事業者「ネオクラウド」に対する管理と審査を厳格化しています。データセンターの建設遅延やコスト急増が主な要因で、提携先の1社であるIRENの株価は18％下落しました。巨大テック企業は重要インフラの遅れを防ぐため、直接関与を強めています。",
+      "why_ja": "生成AI向け計算資源の供給ボトルネックと、ハイパースケーラーによるインフラ調達方針の自前主義への回帰を浮き彫りにしています。",
+      "section": "tech",
+      "topic_key": "microsoft-neocloud-datacenter-oversight",
+      "companies": [
+        "Microsoft",
+        "IREN"
+      ],
+      "sources": [
+        {
+          "publisher": "Bloomberg.com",
+          "title": "Microsoft Sours on Neoclouds Amid Data Center Delays, Costs",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUTR2cGs0cFlMMmd0Zmx6SjMxblBNUWJVajQtQ2tWaGVyeEswUkZvbE5NeEwtSzQxVlNodHFjalBvQU95TW5UcG9Ja3FTMWRHZEplcEFCTFZNcEhiVFlUNHVVaTlJQnpsajNUQzFIRmhJa1BsQzItMkNfZndsdHZBenV3U3lIcGtsVllpZEp1NDkxREJsd25qd3kwV05IekQ4bmVlNkxZNzc2VnRjYTBIWWJ1Rm8?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Microsoft tightens oversight of neocloud data center projects, Bloomberg News reports",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPc0lzRWp3SlczTDBjS2gyYnZPX194TnVxQVZCTWdaTTlScTVVT2dYZU55dGg1eGQ3LXNySlIzaDZ2NkNEMXktTVotakRNZ215bUwzS041X2k4dGFHaEw5VDVLYVpJb3JPYnBWVFNVTkxHTk5zZGhYd01CdmVPazM5X1I3X2xvTGg2Tk9HS3RMQUp4cFRZV2lvdXR6dVAtQVozaWgxMFRrV0N5NDFib3pydHhVdS1ZQWJ1cWc?oc=5"
+        },
+        {
+          "publisher": "Investing.com",
+          "title": "IREN stock plunges 18% as Microsoft raises concerns over data center delays",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQeHNsRTk4ZXk1YUo5U2dKZ3dQd0U3eV9EY1BVUXVaOW5IbHludFZTVldSTjU5WndHLUk2dDloYjNEOWJPS2EtOGtlLW8tX3F0bEt2V1RwNHRzUExQUmxwaUlSSzlqSGhHeC1qQ0pkV0IwdDdBbE01NlZrS2ZtOFA1NjVJaTJPX2V3SFZiY1dWRWRQUlVtbXhra0k5Q3U0THM2Ti1vdkpfckNvT1ZDbDg4Rl9vR2RjNkVIR3ZyWUYtMnVMVy1xcTVZOGdRSQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "OpenSSH Releases Emergency Patch for High-Severity Flaw Affecting Linux Distributions",
+      "title_ja": "OpenSSH、Linux各ディストリビューションに影響する重大な脆弱性に緊急修正パッチ",
+      "summary_ja": "リモート接続ソフトウェアOpenSSHと軽量Cライブラリmusl libcの組み合わせにおいて、パスワード入力欄に256文字以上を入力すると認証を迂回できる脆弱性が発見されました。特にクラウドやコンテナ環境で多用されるAlpine Linuxが大きな影響を受けます。開発元は直ちにパッチを適用するかパスワード認証を無効化するよう呼びかけています。",
+      "why_ja": "基幹的なオープンソースソフトウェアの長期的なコード欠陥が、世界中のクラウドインフラのセキュリティリスクに直結することを示しています。",
+      "section": "tech",
+      "topic_key": "openssh-musl-libc-vulnerability",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "The Register",
+          "title": "Get root on a musl Linux system by slamming it with an overly long password",
+          "url": "https://www.theregister.com/security/2026/11/05/get-root-on-a-musl-linux-system-by-slamming-it-with-an-overly-long-password/5307910"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Combined OpenSSH and musl-libc flaws let anyone into Alpine Linux and other distros by typing anything over 256 characters as a password",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/combined-flaws-let-anyone-into-alpine-linux-and-other-distros-by-typing-anything-over-256-characters-as-a-password-emergency-fixes-for-openssh-and-musl-libc-issued-for-millions-of-systems-patch-immediately"
+        },
+        {
+          "publisher": "The Hacker News",
+          "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaGZIVGMxLVBKb1NRaGNvbmxHTXFVa3phVkZLWWtzQ3RqNHFuRmEtbnJLaUlaX2YxcXA2dWE2WGk2MWQtUXJiQ09iR2FWeGJ3c2ZZYUJjR1hYVFRvb3FDNnV0ZUJDNUZQVGZDYjBicXpRbVRscmQ5M2pyZ0FERWYycmZn?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Lawmakers Summon Nvidia CEO Jensen Huang for Congressional Briefing Over Espionage Allegations",
+      "title_ja": "米議員団、中国スパイ疑惑を巡りNVIDIA CEOジェンスン・フアン氏の議会説明を要請",
+      "summary_ja": "米議会の有力共和党議員らが、NVIDIAのCEOであるJensen Huang氏に対し、中国のスパイ活動への関与が疑われる人物との関係について議会で説明するよう要請しました。先端半導体の技術流出や国家安全保障上の懸念が背景にあります。NVIDIAに対する政治的監視は一段と厳しさを増しています。",
+      "why_ja": "米中対立の中で最先端AI半導体メーカーが直面する地政学的リスクと、対中技術輸出規制の行方を占う重要な動きです。",
+      "section": "tech",
+      "topic_key": "nvidia-jensen-huang-china-spy-investigation",
+      "companies": [
+        "Nvidia"
+      ],
+      "sources": [
+        {
+          "publisher": "Axios",
+          "title": "Nvidia CEO called in by lawmakers over ties to alleged Chinese spy",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SOWNrNmRhZ1c5Zkt2SDdyRGptdWUzZGVwbXVMQjI3WWJvdVFFcWh0WGozU2lZVm5sc1l2OVlQWmdBYUV3Qml1R3hiQUtPQXRhR3YyX2ZKSU44MHlsa2hkZE5YRWNnSHRiX00wRkE2TmppeVY3Q2c?oc=5"
+        },
+        {
+          "publisher": "CNBC",
+          "title": "Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVERlRnhFaUV4cmNBcG9zTUdqSFZ2eDYzd1J3MG5KbnFJWWtVUV9KZXp2WmZlVVc1Tk1VWW1rRExkWlJXNFl0Vk5iLXlOeVBZdmVWTnE2ZlpkV3NoVmtPVGJwUlB4STdINUczREd0SnUxMmk2c2ZkVmVCRmVlWlFJSNIBhgFBVV95cUxNQ1l5VVJhaHd3ZVhCcFhZdWJOUk1BLWNRSi1aT3M2UzU2RkxzQlFaRmpQUmNNS1VCQXlLcnpuakxjZFlnMUZ2eDFPbkpKUDd0d25YeVpyVy1qLURrRk9lZnRjYkNGbk1uUjc0REpCdVdzVDhlU2w2WTVfY2NydTFyMjVraGlMUQ?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Key Republicans seek briefing from Nvidia CEO over Chinese spy allegations-document",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNVFaekphR1ctQUxRQk5CTEFSNnZuTDNJR2FJLUg5UEdXbDZQUEY0UmphZ3JlWFdRLWxDWE4tZjRsQUpPMHhON0lnMTBZdHNocGVfUFJVUHUyd2k1UjlWa1RLQTA5MGh4SlFRUE5heWdZSC1NbkUtMmNrNEJpSHNyV3RFbHoteXZabVk4U0s4dzdoSlhpOWI2aDdSRmtFdk51bjRfOENZaFFrUFQxZDFSUWxOQ21pUHZNZ09fUWJ3Vi1MVW1KTDZVeXFQaw?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Google, Meta, and TikTok File Lawsuit to Block California's Youth Social Media Law",
+      "title_ja": "Google、メタ、TikTokがカリフォルニア州の未成年保護法を提訴",
+      "summary_ja": "Google、Meta、TikTokは、未成年のソーシャルメディア中毒を防ぐために制定されたカリフォルニア州の新法を阻止するため連邦地裁に提訴しました。この法律は無限スクロールや深夜通知などの機能を制限するものです。企業側は憲法が保障する表現の自由を侵害しており、保護者の権限を奪うものだと主張しています。",
+      "why_ja": "子どものネット依存対策とプラットフォーム企業のアルゴリズム規制を巡る法的な先例となり、全米の法規制に波及する可能性があります。",
+      "section": "tech",
+      "topic_key": "california-youth-social-media-lawsuit",
+      "companies": [
+        "Google",
+        "Meta",
+        "TikTok"
+      ],
+      "sources": [
+        {
+          "publisher": "Deadline",
+          "title": "Google, TikTok And Meta Sue To Block California’s Social Media Law That Restricts Addictive Features For Children",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOUl0QktPTkx6X3VkMTZBRTM3UFdnSnRnMHp5TnlzQkxuWnNHNThUT0E0SDZkRzQwUmtaM1lCSFJIUEdwSk5ndUFwN1JOOWNiQ1M0N05tWm8xNEt1WkpGcUNUMUJ5WGs1Qlp2WHhyRVNwNDVqSGFWWEdoVXlIbzAyS3gtR2ZUS1pBMUloQlBWRjRKZGE1UmFV?oc=5"
+        },
+        {
+          "publisher": "The New York Times",
+          "title": "Google, Meta and TikTok Sue California Over Ban on Features for Kids",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTk1NeG1sU1RNRUxjZ2tvMktHMTlTbUU5UzRfRkVVN25fLXE2cGlGN1NYZG1PQzl6R2ozZkp2YmpkcDVTX2dtY1pqc3I0ZEx5UzdyRG1vQ1lHdFpvaDBaMXhGWUVMaGdUXzBZdkUwTXlpMk5wMnNSOFMyMy1ZQVg2VkNMckhHWk14ay1NaHFRZ0U?oc=5"
+        },
+        {
+          "publisher": "Los Angeles Times",
+          "title": "Social media companies sue California over new law restricting use for children",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOM0h0Vkk5SURQbzlONjZBV0RWamdPNWtoMzZFekJxbE15RFIwVlV2a183Q2d4SV9JdUpwTFl5SFd4YkRCVjFOOFJnUTNtVEdfbFREQnU5TVdXdUk1ci1fVlhNZU9BRFl1bG0tbC16WUxYMTdYSjh2NXptVGs5eFVoLW5ISzh0ZmhSalV5VXBDMHpVdVhRVkxrcUpEQzRtY2FFV3RybnhTY3FpWE9mNEtsWkdoVjZKRzQ?oc=5"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Google, Meta and TikTok sue California to block law protecting children from addiction risk",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdDJsVjdKZ3JXZGIwRHpvcnhVZFRiLWlRRmxGOUYtUzNjZ3RaZkI5QUdNOUFWZlA0QnRYTEZMTVJlZzRSSGo5Z3RibldPM0t4c3J2SHowMk9sNGNiZFAyNmFtRkpnbldldVdLMTVnTk14ZzVhX3R1RDVjc2RRakU3VXN1a3hLNEQtaXZnRTB3dEhLUmlsM2x2UWs1MGliWFdDRVh4LXZBM3BwOXo1NWs4?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Google, Meta, TikTok sue to block California youth social media law",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQN3ZhN0lzM1RYWDl3eXBsdjZ2NU13NjJRMjB0clhpbW9rRTAwWnJIaFNGdEdhcW1tbHdfYmVQQXhSOEJUZXd6Z2Y2WVlZVDJpN3RuY1VnTE1rOHVUZkVLRGxBbGo1OWxPZkhmMGE4dkR1YWN6WHdFcnBtZDdoOFJTYU1DbnVCM0R0THhVa19xVVhIdWxpa2dRYWx5M25kNXhWTTNQbWNVV3EtQUU?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Health Systems Enact Strict Data Governance as Unsanctioned Physician AI Chatbot Usage Surges",
+      "title_ja": "医師によるAIチャットボット利用急増を受け、医療機関がデータ管理を厳格化",
+      "summary_ja": "診療判断のためにOpenEvidenceなどのAIチャットボットを利用する医師が急増する中、米国の病院組織は患者データの漏洩防止に向けた利用統治を強化しています。100件以上の診療記録を個人でAIに読み込ませていた事例を受け、アクセスを遮断する動きも出ています。病院側は安全性が認証された法人ツールの導入を進めています。",
+      "why_ja": "臨床現場での生成AI活用と患者の個人情報保護（HIPAAなど）の衝突を是正するための医療ガバナンスと制度設計が急務となっています。",
+      "section": "health",
+      "topic_key": "clinical-ai-chatbot-health-system-governance",
+      "companies": [
+        "OpenEvidence",
+        "Doximity"
+      ],
+      "sources": [
+        {
+          "publisher": "STAT News",
+          "title": "STAT+: As more doctors consult chatbots, health systems can block them — or buy in",
+          "url": "https://www.statnews.com/2026/11/05/doctors-use-ai-chatbots-hipaa-compliance-questions/?utm_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "Paraguay President Resigns and Faces Impeachment Following Digital Bank Collapse",
+      "title_ja": "パラグアイ大統領、新興デジタル銀行の破綻を受けて辞任・弾劾へ",
+      "summary_ja": "パラグアイのPeña大統領は、新興デジタル銀行Ueno Bankの破綻により成人人口の約6割に当たる300万人の預金が凍結された事態を受け、辞任を表明しました。大統領が過去に同グループの株主であり、公金や年金基金を預託していたことへの利益相反疑惑から大規模デモが発生し、議会も弾劾手続きを開始していました。",
+      "why_ja": "急成長するフィンテック企業と政府首脳との癒着が金融崩壊と政変を引き起こした南米の重大な統治危機です。",
+      "section": "world",
+      "topic_key": "paraguay-president-resigns-bank-collapse",
+      "companies": [
+        "Ueno Bank"
+      ],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "Paraguay’s president quits after millions of people’s savings frozen in bank crisis",
+          "url": "https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Paraguay's president is impeached minutes after resigning following a bank collapse",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Paraguay President Santiago Peña resigns after bank collapse",
+          "url": "https://www.bbc.co.uk/news/articles/c6p9g39vln3yo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Paraguay President Pena resigns in wake of bank collapse",
+          "url": "https://www.aljazeera.com/economy/2026/11/5/paraguay-president-pena-resigns-in-wake-of-bank-collapse?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "Israeli Political Deadlock Deepens as Opposition Leader Eisenkot Secures Majority Endorsement",
+      "title_ja": "イスラエル野党指導者アイゼンコット氏が過半数の支持獲得、政治的膠着は継続",
+      "summary_ja": "イスラエルの野党指導者であるEisenkot元参謀総長は、120議席の議会で67名の支持を取り付け、46名にとどまったNetanyahu首相をリードしました。しかし各政党間の拒否反応が強く、Herzog大統領は誰が安定政権を樹立できるか週末に協議した上で日曜日に判断する方針です。",
+      "why_ja": "Netanyahu長期政権の終焉の可能性と、中東地域の和平や安全保障情勢に直結するイスラエルの政権交代の行方を示しています。",
+      "section": "world",
+      "topic_key": "israel-eisenkot-coalition-backing",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Arab party backs Eisenkot in bid to form Israel’s next government",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/arab-party-backs-eisenkot-in-bid-to-form-israels-next-government?traffic_source=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Eisenkot backed by more than half of Knesset but Herzog still unsure who should be prime minister",
+          "url": "https://www.theguardian.com/world/2026/nov/05/herzog-netanyahu-eisenkot-israel-election-decision"
+        },
+        {
+          "publisher": "Japan Today",
+          "title": "Netanyahu weakened as rival Eisenkot secures broad backing to try to form government",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUm10V0JIdmJ0WkFJVGFPZWlmZDlFUDc5TkY5QUV3SXlQemd0UE55eTFMVHdtLU9oQ2tXWTRrdmhFMmdaRExweTk2LWRlR05PX1dOZWx1dmQwU1lITVlZUlR0bE5Ldmh0MlZncklQd0VmczhYd0ZwZW0xNVU5ZEhLZlpETURzV083ejlYYko3aTBmMm53LWVZaTIzOHFmSW1hSWIxTDhHRlBxdGJFdkhrb1BsNTZVd0hySlBScmEtYw?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Over 600,000 March Across France in Mass General Strike Over Cost of Living and Austerity",
+      "title_ja": "フランス全土で60万人以上が生活費高騰に抗議するゼネラルストライキに参加",
+      "summary_ja": "フランスで主要5労組による全国的なゼネラルストライキが実施され、内務省発表で60万人超がデモに参加しました。物価高に対する最低賃金の引き上げや公共サービス予算の拡充が要求され、交通機関や学校がストップし観光施設も閉鎖されました。Lecornu首相は来週月曜に労使協議を開くことを表明しました。",
+      "why_ja": "インフレと財政緊縮に対する欧州主要国の国民的不満の高まりと、社会不安が経済活動に与える影響を表しています。",
+      "section": "world",
+      "topic_key": "france-general-strike-cost-of-living",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Mass protests in France driven by nationwide strike action",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/mass-protests-in-france-driven-by-nationwide-strike-action?traffic_source=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "French protests see numbers surge as unions join strikes over high cost of living",
+          "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Protesters march in cities across France as unions stage general strike",
+          "url": "https://www.theguardian.com/world/2026/nov/05/protesters-france-march-strikes-education-cost-of-living"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Photos: Thousands rally in France over rising costs and economic struggles",
+          "url": "https://www.aljazeera.com/gallery/2026/11/5/photos-thousands-rally-in-france-over-rising-costs-and-economic-struggles?traffic_source=rss"
+        },
+        {
+          "publisher": "CNN",
+          "title": "France strikes: largest day of protests in years as economy fuels unrest",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTUNHazBUU1dRMnFWUUstOGlQTzdrN3Z5eGNZRjZkTjZZcUtmRVlpRmZ2NDlPbmlWYzBMNjRkcUNuWWJ4VXVmYWFLSktxeFRzUS13eXFyb0VUN0lsMW9WNjRfdWEtV3dOWGxPa2g3aHVVQmV1YlllQkxBN2ZPdzJrMkFvcWJmaURuV2ZacG9JWDJLWERJ?oc=5"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "moratorium",
+      "meaning_ja": "一時停止、凍結",
+      "note_ja": "法律や政策で特定の活動（建設や支払いなど）を一時的にストップさせる際に使われます。",
+      "example_en": "Texas governor-elect Gina Hinojosa promised a pause on new construction."
+    },
+    {
+      "term": "rout",
+      "meaning_ja": "大暴落、総崩れ",
+      "note_ja": "市場で株価などが一方的に崩れ落ちる全面安の局面を指す単語です。",
+      "example_en": "US technology stocks suffered a very sharp drop on Thursday."
+    },
+    {
+      "term": "backlash",
+      "meaning_ja": "強い反発、世論の逆風",
+      "note_ja": "社会や住民から生じる激しい反対感情や批判運動を表現します。",
+      "example_en": "Democratic candidates campaigned against large AI data centers."
+    },
+    {
+      "term": "oversight",
+      "meaning_ja": "監視、監督",
+      "note_ja": "組織やプロジェクトが計画通り適切に動いているかを見張る管理体制を意味します。",
+      "example_en": "Microsoft is tightening control over outside cloud partners."
+    },
+    {
+      "term": "bypass",
+      "meaning_ja": "回避する、通り抜ける",
+      "note_ja": "認証や障害物をすり抜けて正規の手順を無視すること。",
+      "example_en": "A code error allows that long input to bypass checks."
+    },
+    {
+      "term": "summon",
+      "meaning_ja": "呼び出す、召喚する",
+      "note_ja": "議会や法廷などの公的機関が説明を求めて正式に出頭を要求する動詞です。",
+      "example_en": "United States lawmakers have formally called Nvidia CEO Jensen Huang to Washington."
+    },
+    {
+      "term": "addictive",
+      "meaning_ja": "中毒性のある、習慣性の高い",
+      "note_ja": "利用者が無意識に繰り返し使い続けてしまうアプリ機能などに使われます。",
+      "example_en": "The law restricts addictive features for young users."
+    },
+    {
+      "term": "governance",
+      "meaning_ja": "統治、管理規律",
+      "note_ja": "組織内でデータや技術が正しく扱われるように定める枠組みや規則のことです。",
+      "example_en": "Hospital systems must create clear policy guidelines and choose certified enterprise tools."
+    },
+    {
+      "term": "insolvency",
+      "meaning_ja": "債務超過、支払い不能",
+      "note_ja": "企業や銀行が借金や預金を返済できなくなった破綻状態を指す法律・金融用語です。",
+      "example_en": "A popular digital bank called Ueno Bank collapsed into insolvency."
+    },
+    {
+      "term": "impeachment",
+      "meaning_ja": "弾劾（だんがい）",
+      "note_ja": "大統領などの高官が不正を犯した際に議会が解任を求めて裁判にかける手続き。",
+      "example_en": "Street protests broke out, and lawmakers voted to start impeachment trials."
+    },
+    {
+      "term": "deadlock",
+      "meaning_ja": "膠着（こうちゃく）状態、行き詰まり",
+      "note_ja": "双方が譲らず交渉や政治決定が前にも後ろにも進まない状況を言います。",
+      "example_en": "Different political parties still hold vetoes against working together."
+    },
+    {
+      "term": "general strike",
+      "meaning_ja": "ゼネラルストライキ、総罷業",
+      "note_ja": "特定企業だけでなく複数の産業の労働組合が一斉に行う全国規模の抗議ストライキ。",
+      "example_en": "Five major labor unions called a general strike over the high cost of living."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "caught off guard",
+    "meaning_ja": "不意をつかれる、油断しているところを突かれる",
+    "example_en": "The sudden shift in government regulation caught company executives off guard.",
+    "example_ja": "政府規制の突然の変更に、会社の経営陣は不意をつかれました。"
+  }
+}
