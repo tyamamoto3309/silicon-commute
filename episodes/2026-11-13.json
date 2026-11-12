@@ -1,0 +1,1421 @@
+{
+  "date": "2026-11-13",
+  "published": "2026-11-13T07:11:54+09:00",
+  "title_en": "Nvidia CEO Resigns, Google Launches Gemini 4, and Microsoft Outage",
+  "title_ja": "Nvidia最高経営責任者が辞任、Google Gemini 4公開、Microsoft大規模障害",
+  "summary_ja": "NvidiaのJensen Huang CEOが辞任し、CFOのColette Kress氏が暫定CEOに就任しました。Googleは最新AIモデルGemini 4 Hydrogenを発表し、Microsoft 365は世界的なシステム障害に見舞われました。ヘルスケア分野では米当局が電子事前承認のテストを開始し、世界ニュースでは中国が2028年のCOP33開催を見送りました。",
+  "duration": null,
+  "audio": null,
+  "word_count": 1938,
+  "ja_chars": 799,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.6-flash",
+    "write": "gemini-3.6-flash",
+    "revise": "gemini-3.5-flash-lite",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Good morning and welcome",
+      "heading_ja": "オープニング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning. It is Friday, November 13, 2026. This is Commute News.",
+          "ja": "おはようございます。2026年11月13日金曜日、Commute Newsです。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, Alex. Today, we cover Jensen Huang resigning as Nvidia CEO.",
+          "ja": "おはようございます、Alex。本日は、NVIDIAのJensen Huang CEOの辞任をお伝えします。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "In tech, Google launches Gemini 4 Hydrogen, and Microsoft 365 suffers a major global outage.",
+          "ja": "テック分野では、GoogleがGemini 4 Hydrogenを発表し、Microsoft 365で世界的な大規模障害が発生しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Also in tech, TSMC confirms a data leak, and United Airlines blocks AI booking agents.",
+          "ja": "さらにテック関連では、TSMCのデータ流出やUnited AirlinesによるAI代理予約の禁止を取り上げます。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "In digital health, US officials test new electronic prior authorization tools for healthcare providers.",
+          "ja": "デジタルヘルスでは、米当局が医療提供者向けの新しい電子事前承認ツールのテストを開始しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "And in world news, China declines to host the COP33 climate summit in 2028.",
+          "ja": "そして国際ニュースでは、中国が2028年の国連気候変動サミットCOP33の開催を見送りました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Let us dive into our top stories for this Friday morning commute.",
+          "ja": "それでは、今朝の通勤時間に合わせたトップニュースを見ていきましょう。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "story",
+      "heading_en": "Nvidia CEO Jensen Huang Resigns Immediately",
+      "heading_ja": "NvidiaのJensen Huang CEOが即座に辞任",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In our top story, Jensen Huang has resigned as Chief Executive Officer of Nvidia.",
+          "ja": "最初のトップニュースです。Jensen Huang氏がNVIDIAの最高経営責任者を辞任しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "This is shocking news. Why did he step down so suddenly from the board?",
+          "ja": "ショッキングなニュースですね。なぜ彼は突然取締役会を退いたのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "The board announced his immediate resignation after reports of extramarital affairs and security concerns.",
+          "ja": "婚外恋愛や安全保障上の懸念が報じられたことを受け、取締役会が彼の即時辞任を発表しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Who will lead the company now during this urgent leadership transition?",
+          "ja": "この緊迫したリーダーシップの移行期に、誰が会社を率いるのでしょうか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Chief Financial Officer Colette Kress is taking over as interim Chief Executive Officer.",
+          "ja": "最高財務責任者（CFO）のColette Kress氏が暫定CEOを引き継ぎます。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "How long has Colette Kress worked at Nvidia in senior leadership?",
+          "ja": "Colette Kress氏はどれくらいNVIDIAの経営陣を務めているのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "She joined Nvidia in September 2013 and has managed its finances for over eleven years.",
+          "ja": "彼女は2013年9月にNVIDIAに入社し、11年以上にわたり財務を統括してきました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does the company have a new board chair as well?",
+          "ja": "取締役会の会長も新しく選任されたのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. The board appointed Harvey C. Jones as its first-ever Chair of the Board.",
+          "ja": "はい。取締役会はHarvey C. Jones氏を初代取締役会会長に指名しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Investors are closely watching this sudden change in leadership at Nvidia.",
+          "ja": "投資家はこの突然の経営陣の交代を注視していますね。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Nvidia stock tumbled after the news. Nvidia will report third-quarter earnings on Tuesday, November 17.",
+          "ja": "ニュースを受けてNVIDIAの株価は下落しました。同社は11月17日火曜日に第3四半期の決算を発表します。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Analysts say next week's earnings call will be critical for the chipmaker.",
+          "ja": "アナリストは来週の決算説明会が同社にとって極めて重要になると指摘しています。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Colette Kress said she is committed to building on the foundation built over 33 years.",
+          "ja": "Colette Kress氏は、過去33年間に築かれた基盤をさらに発展させると表明しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Jensen Huang resigned after scandals, and CFO Colette Kress is interim CEO?",
+          "ja": "要するに、Jensen Huang氏がスキャンダルで辞任し、CFOのColette Kress氏が暫定CEOになったということですね？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. Colette Kress leads Nvidia as the board searches for a permanent successor.",
+          "ja": "その通りです。取締役会が後任を探す間、Colette Kress氏がNVIDIAを率います。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。NVIDIAのCEOであるJensen Huang氏が、スキャンダルを受けて即座に辞任しました。CFOのColette Kress氏が暫定CEOに就任し、経営基盤の維持と後任探しを進めます。",
+          "en": "",
+          "lang": "ja"
+        }
+      ]
+    },
+    {
+      "kind": "story",
+      "heading_en": "Google Releases Gemini 4 Hydrogen Model",
+      "heading_ja": "GoogleがGemini 4 Hydrogenモデルを公開",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Google has launched its new artificial intelligence model called Gemini 4 Hydrogen.",
+          "ja": "GoogleがGemini 4 Hydrogenと呼ばれる新しい人工知能モデルを発表しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What makes Gemini 4 Hydrogen different from previous Google AI models?",
+          "ja": "Gemini 4 Hydrogenは従来のGoogle AIモデルと何が違うのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "It focuses on fast coding, debugging software, and answering complex, multi-part questions.",
+          "ja": "高速なコーディングやデバッグ、複数要素を含む複雑な質問への回答に特化しています。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Where can people and developers try this new model today?",
+          "ja": "ユーザーや開発者は今日からどこでこの新モデルを試せますか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "It is available in Google Search globally, the Gemini app, and Google AI Studio.",
+          "ja": "全世界のGoogle Search、Geminiアプリ、Google AI Studioで利用可能です。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does Gemini 4 Hydrogen improve the everyday search experience for users?",
+          "ja": "Gemini 4 Hydrogenはユーザーの日常的な検索体験をどう向上させますか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "It understands nuanced questions, fixes typos, and creates visual responses with structured tables.",
+          "ja": "複雑なニュアンスの質問を理解し、誤字を補正し、表形式などの視覚的な回答を作成します。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does it replace older models like Gemini 3.8 Flash in production?",
+          "ja": "これはGemini 3.8 Flashのような旧モデルに取って代わるものですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Hydrogen replaces Flash, offering faster speed and fewer incorrect statements for developers.",
+          "ja": "はい。HydrogenはFlashに代わり、高速な処理速度と誤った回答の削減を提供します。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is this release significant for Google’s overall competition in AI?",
+          "ja": "このリリースはGoogleのAI競争においてなぜ重要なのでしょうか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Google is bringing advanced reasoning directly into Search to serve billions of users daily.",
+          "ja": "Googleは、毎日何十億人もが使う検索に高度な推論機能を直接組み込んでいるからです。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Developers can also use it in Android Studio and business applications right away.",
+          "ja": "開発者はAndroid Studioやビジネス向けアプリでもすぐに使えますね。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is right. It helps developers ship cleaner code faster across complex software projects.",
+          "ja": "その通りです。複雑なソフトウェア開発において、綺麗なコードをより早く出荷できるよう支援します。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Google launched Gemini 4 Hydrogen to upgrade Search and speed up coding?",
+          "ja": "つまり、Googleは検索のアップグレードとコーディングの高速化のためにGemini 4 Hydrogenを投入したのですね？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. It brings fast reasoning and better responses to everyday search and software work.",
+          "ja": "はい。日常の検索やソフトウェア作業に高速な推論とより良い回答を提供します。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Googleが最新AIモデルGemini 4 Hydrogenを公開しました。プログラミングや複雑な検索質問に対応し、Google Searchや各種アプリで即日利用可能になりました。",
+          "en": "",
+          "lang": "ja"
+        }
+      ]
+    },
+    {
+      "kind": "story",
+      "heading_en": "Global Microsoft 365 Outage Affects Services",
+      "heading_ja": "Microsoft 365で世界的な大規模障害が発生",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "A massive global outage hit Microsoft 365 services on Thursday, disrupting business workflows worldwide.",
+          "ja": "木曜日にMicrosoft 365サービスで世界規模の大規模障害が発生し、業務に支障が出ました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Which specific Microsoft services were affected by this widespread technical failure?",
+          "ja": "この広範なシステム障害により、具体的にどのMicrosoftサービスが影響を受けましたか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Users could not access Outlook email, Teams, Copilot, OneDrive, SharePoint, and Defender XDR.",
+          "ja": "Outlookメール、Teams、Copilot、OneDrive、SharePoint、Defender XDRにアクセスできなくなりました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did Microsoft explain what caused the servers to go offline globally?",
+          "ja": "Microsoftはサーバーがオフラインになった原因を説明しましたか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Microsoft reported elevated load and server health check failures across multiple global regions.",
+          "ja": "Microsoftは、複数の地域でサーバー負荷の上昇とヘルスチェックの失敗が発生したと報告しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "How many people filed reports on outage tracking websites during the peak hour?",
+          "ja": "障害追跡サイトにはピーク時にどれくらいの報告が寄せられましたか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Nearly 130,000 users worldwide reported problems on DownDetector as servers went down unexpectedly.",
+          "ja": "サーバーが不意に停止したため、DownDetectorには世界で13万人近くから障害が報告されました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What steps is Microsoft taking to fix this major productivity interruption?",
+          "ja": "生産性に大打撃を与えたこの障害に対し、Microsoftはどのような対策をとっていますか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Engineers are bypassing failed server components and redistributing connection traffic across worldwide infrastructure.",
+          "ja": "エンジニアが問題のコンポーネントを回避し、接続トラフィックを世界中のインフラに再分散させています。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Has Microsoft fully restored services for all enterprise and consumer accounts yet?",
+          "ja": "すべての法人および個人アカウントでサービスは完全に復旧しましたか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Microsoft says servers are slowly returning to service, but full recovery takes time.",
+          "ja": "Microsoftによるとサーバーは徐々に復旧しているものの、完全復旧には時間がかかる見込みです。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "This follows another multi-day Microsoft 365 outage back in September, right?",
+          "ja": "9月にも数日間にわたるMicrosoft 365の障害がありましたよね？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is correct. IT teams globally are raising concerns over ongoing cloud reliance.",
+          "ja": "その通りです。世界中のITチームがクラウドへの過度な依存に対する懸念を強めています。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, a major Microsoft outage blocked Outlook, Teams, and Copilot worldwide?",
+          "ja": "要するに、大規模な障害でOutlookやTeams、Copilotが世界中で使えなくなったのですね？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. Tens of thousands of businesses lost access to essential email and collaboration tools.",
+          "ja": "まさにその通りです。何万もの企業が主要なメールやコラボレーションツールを使えなくなりました。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Microsoft 365で大規模なシステム障害が発生し、OutlookやTeamsなどの主要サービスが世界中で停止しました。サーバーの過負荷や検証エラーが原因と見られています。",
+          "en": "",
+          "lang": "ja"
+        }
+      ]
+    },
+    {
+      "kind": "story",
+      "heading_en": "TSMC Confirms Employee Data Leak",
+      "heading_ja": "TSMCが従業員データの流出を確認",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Semiconductor giant TSMC confirmed a cybersecurity incident involving thousands of internal employee files.",
+          "ja": "半導体大手のTSMCが、多数の従業員ファイルに関わるサイバーセキュリティ事案を確認しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What details were leaked online, and where did the files appear recently?",
+          "ja": "どのような情報がネット上に漏洩し、ファイルはどこで見つかったのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Data matching 49,000 current and former employee files appeared on dark web forums.",
+          "ja": "現役および元従業員4万9000人分のデータと一致する情報がダークウェブ上に流出しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did hackers gain access directly to TSMC’s internal semiconductor manufacturing networks?",
+          "ja": "ハッカーはTSMCの内部の半導体製造ネットワークに直接侵入したのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "TSMC stated the leaked data matched files stored with an external cloud provider.",
+          "ja": "TSMCは、流出したデータは外部のクラウド事業者に保存されていたファイルと一致すると発表しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did financial markets respond to news of this cybersecurity breach?",
+          "ja": "このデータ侵害のニュースに対して金融市場はどのように反応しましたか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "TSMC stock fell four percent as news of the data breach spread online.",
+          "ja": "データ流出の報道が拡散するにつれ、TSMCの株価は4%下落しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is security so critical for a chip manufacturer like TSMC?",
+          "ja": "TSMCのような半導体メーカーにとって、なぜセキュリティがそれほど重要なのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "TSMC makes the world's most advanced chips, making its security vital for global tech supply chains.",
+          "ja": "TSMCは世界最先端のチップを製造しており、その安全性は世界中のハイテクサプライチェーンの要だからです。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Are semiconductor companies becoming bigger targets for cyberattacks and data theft?",
+          "ja": "半導体企業はサイバー攻撃や情報窃盗の標的になりやすくなっているのでしょうか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Tech leaders are increasing security investments to protect sensitive internal employee data.",
+          "ja": "はい。各社の経営陣は機密性の高い内部データを保護するため、セキュリティ投資を強化しています。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "TSMC is taking action to audit third-party cloud vendors and harden internal security.",
+          "ja": "TSMCは外部クラウド事業者の監査と社内セキュリティの強化を進めています。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "External cloud vendors often present supply chain security risks for major technology hardware firms.",
+          "ja": "外部クラウド事業者は、ハードウェア大手にとってサプライチェーン上のセキュリティリスクとなり得ます。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, TSMC confirmed 49,000 employee files leaked from an external cloud provider?",
+          "ja": "つまり、外部クラウドからTSMCの従業員4万9000人分のデータが流出したということですね？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. The breach caused TSMC stock to slide four percent despite core systems remaining safe.",
+          "ja": "はい。基幹システムは無事だったものの、流出を受けて株価は4%下落しました。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "TSMCの従業員約4万9000人分のデータがダークウェブに流出しました。外部クラウド事業者のデータが対象で、TSMCの自社システムや製造ラインへの影響はないと発表されています。",
+          "en": "",
+          "lang": "ja"
+        }
+      ]
+    },
+    {
+      "kind": "story",
+      "heading_en": "United Airlines Restrictions on AI Agents",
+      "heading_ja": "United AirlinesがAIエージェントの利用を制限",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "United Airlines has announced it will block personal AI agents from booking customer flights.",
+          "ja": "United Airlinesは、個人向けAIエージェントによる航空券の予約制限を発表しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is United Airlines stopping autonomous AI tools from making passenger reservations?",
+          "ja": "なぜUnited Airlinesは自律型AIツールによる予約管理を禁止するのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "The airline cited cybersecurity risks and compliance with federal aviation safety regulations.",
+          "ja": "同社はサイバーセキュリティ上のリスクと、連邦航空安全規制の遵守を理由に挙げています。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What security risks happen when passengers share login details with AI assistants?",
+          "ja": "乗客がAIアシスタントにログイン情報を共有すると、どのようなセキュリティリスクが生じますか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Sharing passwords with AI tools can leak sensitive data and cause unintended purchases or changes.",
+          "ja": "パスワードの共有は個人情報の流出や、意図しない予約の購入・変更を引き起こす可能性があります。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What federal aviation safety rules require human actions during flight check-in?",
+          "ja": "チェックイン時に人間による操作を義務付ける連邦航空ルールとは何ですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Rules require a human to confirm that luggage does not contain hazardous or banned substances.",
+          "ja": "手荷物に危険物や禁止物質が含まれていないか、本人が確認することを求める規定があります。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Is United Airlines the only major company restricting customer access for AI agents?",
+          "ja": "AIエージェントのアクセスを制限している大企業はUnited Airlinesだけですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "No. Banks like Bank of America recently warned customers against sharing logins with AI bots.",
+          "ja": "いいえ。Bank of Americaなどの銀行も最近、AIへのログイン共有を行わないよう注意喚起しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "How will United Airlines enforce this ban across its digital booking platforms?",
+          "ja": "United Airlinesはデジタル予約プラットフォームでこの制限をどう適用しますか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "United is updating its booking policies and blocking unauthorized third-party AI connections directly.",
+          "ja": "予約規約を更新し、無承認のサードパーティAIによる接続を直接ブロックします。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "This marks an important policy decision as autonomous AI assistants become more popular.",
+          "ja": "自律型AIアシスタントの普及に伴い、これは重要な方針決定となりますね。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Companies must balance customer convenience with strict cybersecurity and regulatory standards.",
+          "ja": "企業は利便性と、厳格なセキュリティや規制基準とのバランスを取らなければなりません。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, United Airlines blocked AI agents to protect security and satisfy flight rules?",
+          "ja": "要するに、セキュリティ保護と航空ルール遵守のため、AIエージェントをブロックしたのですね？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is right. Human passengers must manage their own flight bookings and check-in steps.",
+          "ja": "その通りです。乗客自身がフライトの予約やチェックイン手続きを行う必要があります。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "United Airlinesが、個人向けAIエージェントによる航空券の予約や変更を制限すると発表しました。セキュリティ上の懸念や、チェックイン時の本人確認規制を守るためです。",
+          "en": "",
+          "lang": "ja"
+        }
+      ]
+    },
+    {
+      "kind": "health",
+      "heading_en": "Testing Electronic Prior Authorization Rules",
+      "heading_ja": "電子事前承認ルールの実証テスト開始",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, our digital health story. US health agencies are launching real-world testing for electronic prior authorization.",
+          "ja": "続いてデジタルヘルスです。米保健当局が医療の電子事前承認に関する実証テストを開始しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What is electronic prior authorization, and why does it matter to health systems?",
+          "ja": "電子事前承認とは何ですか？医療制度にとってなぜ重要なのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Prior authorization is approval from insurers before patients get specific treatments or medical procedures.",
+          "ja": "事前承認とは、患者が特定の治療や処置を受ける前に保険会社から得る承認のことです。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Which federal agencies are organizing these voluntary real-world testing events?",
+          "ja": "どの政府機関がこの実証テストを共催しているのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Office of the National Coordinator for Health IT and CMS are leading the effort.",
+          "ja": "医療IT対策室（ONC）とメディケア・メディケイドサービスセンター（CMS）が主導しています。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "When do mandatory federal electronic prior authorization rules take effect across the country?",
+          "ja": "義務的な連邦ルールは全米でいつから施行されるのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "The binding federal rules will take effect for major health plans starting in 2027.",
+          "ja": "主要な医療保険プランを対象とした法的拘束力のある規則は、2027年から施行されます。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What will health systems and insurance providers do during these testing sprints?",
+          "ja": "医療機関や保険会社はテスト期間中に何を行うのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Participants will run ten to twelve week testing sprints using their actual daily clinical workflows.",
+          "ja": "参加者は実際の日常業務フローを用いて、10〜12週間の実証テストを行います。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "How will this testing help doctors and patients in their everyday healthcare experiences?",
+          "ja": "このテストは医師や患者の現場体験にどう役立ちますか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "It helps find technical gaps early, cutting administrative delays and delivering faster patient care.",
+          "ja": "技術的な欠陥を早期に発見し、事務的な遅延を減らしてスピーディな治療提供につなげます。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Organizations can register for the first round of testing through November 20.",
+          "ja": "医療機関などは11月20日まで第1ラウンドのテストへの参加登録が可能です。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "This policy shift aims to make digital healthcare workflows smoother for modern hospitals.",
+          "ja": "この政策転換は、現代の病院におけるデジタルヘルスケアの業務フローを円滑にすることを目的としています。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, US agencies are testing digital prior authorization to prepare for 2027 rules?",
+          "ja": "つまり、2027年の義務化に向けて事前承認の電子化をテストしているのですね？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. The testing aims to cut paperwork and accelerate patient access to needed treatments.",
+          "ja": "その通りです。事務手続きを減らし、患者が必要な治療を速やかに受けられるようにすることが狙いです。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米国保健当局が、事前承認手続きを電子化する実証実験を開始しました。2027年からの義務化に向け、医療機関や保険会社が連携して事務負担の軽減を目指します。",
+          "en": "",
+          "lang": "ja"
+        }
+      ]
+    },
+    {
+      "kind": "world",
+      "heading_en": "China Rules Out Hosting COP33",
+      "heading_ja": "中国がCOP33サミットの開催を見送り",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, a look at the world beyond tech. China has ruled out hosting the COP33 climate summit in 2028.",
+          "ja": "続いて世界のニュースです。中国は2028年の気候変動サミットCOP33の開催を見送りました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "This is a major decision. Why were climate experts expecting China to host the meeting?",
+          "ja": "大きな決定ですね。なぜ気候変動の専門家は中国の開催を期待していたのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "China is the world's largest emitter, but leads in solar power, electric vehicles, and clean tech.",
+          "ja": "中国は世界最大の温室効果ガス排出国ですが、太陽光やEV、クリーン技術をリードしているからです。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why did Chinese officials decide against holding the UN negotiations in 2028?",
+          "ja": "なぜ中国当局は2028年の国連交渉の開催を見送ったのでしょうか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Reports suggest the 2028 United States presidential election schedule influenced China's decision.",
+          "ja": "2028年の米国大統領選挙の日程が中国の決断に影響を与えたと報じられています。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Which region is eligible to host the COP33 conference under official UN rules?",
+          "ja": "国連の公式ルールでは、どの地域がCOP33を開催する権利を持っていますか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Under UN rules, an Asian country should host COP33 in November 2028.",
+          "ja": "国連の規定では、2028年11月のCOP33はアジアの国が開催することになっています。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Former US Vice President Al Gore expressed disappointment over China stepping back.",
+          "ja": "アメリカのAl Gore元副大統領も、中国の辞退に失望感を表明していますね。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Other Asian nations can now apply to host this critical international climate meeting.",
+          "ja": "これにより、他のアジア諸国が重要な国際気候会議の招致に名乗りを上げることができます。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "COP33 will evaluate global progress under the Paris Agreement to limit rising temperatures.",
+          "ja": "COP33は気温上昇を抑えるパリ協定に基づく世界の進捗状況を評価する場となります。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Experts say strong Asian leadership remains essential for global climate progress.",
+          "ja": "専門家は、世界の気候変動対策にはアジアの強力なリーダーシップが不可欠だと語っています。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "How important is this global stocktake mechanism under the Paris agreement?",
+          "ja": "パリ協定に基づくこのグローバル・ストックテイク（総合評価）の仕組みはどれほど重要ですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "It examines countries' progress on cutting emissions to limit global temperature rises.",
+          "ja": "世界的な気温上昇を抑えるために、各国が排出削減の進捗状況を検証する重要な仕組みとなっています。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, China declined to host COP33 in 2028, leaving the summit open for another Asian nation?",
+          "ja": "要するに、中国が2028年のCOP33開催を見送り、他のアジア諸国が開催に向けて名乗りを上げられる状況になったということですね？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, exactly, opening the door for other countries in the region to lead the 2028 climate talks.",
+          "ja": "はい、その通りです。2028年の気候変動交渉を主導する機会が他のアジア諸国に開かれました。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "中国が2028年の国連気候変動サミットCOP33の開催を見送る方針を固めました。米国の選挙日程などが影響したとみられ、他のアジア諸国が開催候補に浮上しています。",
+          "en": "",
+          "lang": "ja"
+        }
+      ]
+    },
+    {
+      "kind": "world",
+      "heading_en": "Israeli Strike Hits Gaza Hospital",
+      "heading_ja": "ガザのナセル病院にイスラエル軍の空爆",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "An Israeli airstrike hit Nasser Hospital in Khan Younis, southern Gaza, early on Thursday.",
+          "ja": "木曜早朝、ガザ南部ハンユーニスのナセル病院にイスラエル軍の空爆がありました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What was the damage, and how many casualties were reported from the strike?",
+          "ja": "どのような被害があり、どれほどの死傷者が報告されていますか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Health officials reported at least six people killed, including a surgeon, and 30 wounded.",
+          "ja": "衛生当局によると、外科医1人を含む少なくとも6人が死亡、30人が負傷しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Was Nasser Hospital an operating facility before this recent attack occurred?",
+          "ja": "ナセル病院はこの攻撃の前まで機能していた医療施設だったのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "It was one of the few functional medical complexes remaining in southern Gaza.",
+          "ja": "ガザ南部で機能していた数少ない医療複合施設の一つでした。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What did the Israeli military say regarding the target of the airstrike?",
+          "ja": "空爆のターゲットについてイスラエル軍は何と主張していますか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Israeli military stated it targeted a Hamas commander inside the hospital complex.",
+          "ja": "イスラエル軍は、病院施設内にいたハマスの司令官を標的にしたと主張しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did local hospital directors confirm whether the commander was found among the dead?",
+          "ja": "病院長は標的とされた司令官が遺体の中に含まれていたか確認しましたか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Hospital directors stated the targeted commander was not found among the victims.",
+          "ja": "病院長は、犠牲者の中に標的の司令官は見つからなかったと述べています。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "The strike severely damaged surgical wards, leaving critical medical units out of service.",
+          "ja": "空爆で外科病棟が大打撃を受け、主要な医療機能が停止しました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "International organizations continue to raise very deep concerns over repeated attacks on healthcare infrastructure.",
+          "ja": "国際機関は、医療インフラへの度重なる攻撃に対して非常に強い懸念を示し続けています。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ガザ南部ナセル病院への空爆により、医師を含む6人が死亡、30人が負傷しました。外科部門が破壊され、ガザ地区の医療機能低下が懸念されています。",
+          "en": "",
+          "lang": "ja"
+        }
+      ]
+    },
+    {
+      "kind": "world",
+      "heading_en": "Historic US Senate Win in Mississippi",
+      "heading_ja": "ミシシッピ州で歴史的な上院議員選の勝利",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Democrat Scott Colom has won a historic United States Senate seat in Mississippi.",
+          "ja": "民主党のScott Colom氏がミシシッピ州の上院議員選挙で歴史的な勝利を収めました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is Scott Colom's election victory considered such a historic political event?",
+          "ja": "なぜScott Colom氏の勝利はそれほど歴史的な事件とされるのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Colom becomes Mississippi's first Black US senator since Blanche Bruce served in 1881.",
+          "ja": "1881年のBlanche Bruce氏以来、同州で145年ぶりの黒人上院議員となります。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Who did Colom defeat in this tightly contested Senate election race?",
+          "ja": "この接戦となった上院選で、Colom氏は誰を破ったのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "He narrowly defeated incumbent Republican Cindy Hyde-Smith by less than five thousand votes.",
+          "ja": "現職の共和党Cindy Hyde-Smith氏を5000票未満の僅差で破りました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does this victory change the balance of power in the US Senate?",
+          "ja": "この勝利によって米上院の勢力図はどう変わりますか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "The victory gives Democrats 55 seats in the 100-member United States Senate.",
+          "ja": "この勝利により、100議席のアメリカ上院で民主党が55議席を確保することになります。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What key issues helped Colom win support across Mississippi's 82 counties?",
+          "ja": "ミシシッピ全82郡で支持を集める決め手となった主な課題は何ですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Colom focused on economic concerns, opposing tariffs and highlighting rising food prices.",
+          "ja": "Colom氏は関税への反対や食料品価格の高騰を訴え、経済課題に注力しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "High turnout among young voters and the state's Black community pushed him to victory.",
+          "ja": "若い有権者や黒人コミュニティのの高い投票率が彼の勝利を後押ししました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Colom thanked local voters for keeping faith during days of vote counting.",
+          "ja": "Colom氏は開票が続いた数日間、信じて支えてくれた地元の有権者に感謝を述べました。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米国ミシシッピ州の上院議員選挙で、民主党のScott Colom氏が勝利しました。同州で黒人上院議員が誕生するのは1881年以来となり、歴史的な勝利となりました。",
+          "en": "",
+          "lang": "ja"
+        }
+      ]
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch: Intel and Qualcomm Statements",
+      "heading_ja": "CEOウォッチ：IntelとQualcomm",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Time for CEO Watch. Intel CEO Lip-Bu Tan addressed recent company turnaround efforts during a stock slump.",
+          "ja": "CEOウォッチの時間です。IntelのLip-Bu Tan CEOは、株価低迷期における企業の再建策について語りました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What did Lip-Bu Tan said about leading Intel through these challenges?",
+          "ja": "この苦境でIntelを率いることについて、Lip-Bu Tan氏は何と語りましたか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "He stated, \"I feel called to do this,\" emphasizing his dedication to Intel's recovery.",
+          "ja": "彼は「これを行うことが自分の使命だと感じている」と述べ、業績回復への決意を強調しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Meanwhile, what did Qualcomm's Chief Executive Officer say about recent tech stock market drops?",
+          "ja": "一方、ハイテク株の下落についてQualcommの最高経営責任者は何と言っていますか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Qualcomm's CEO rejected market fears, stating, \"There is no AI correction for us.\"",
+          "ja": "QualcommのCEOは市場の懸念を否定し、「我々にとってAIの調整局面など存在しない」と語りました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Tech executives remain focused on long-term strategy despite market swings.",
+          "ja": "ハイテク企業のトップは、市場の変動に左右されず長期戦略に注力していますね。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: take over",
+      "heading_ja": "今日のフレーズ：take over",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's Phrase of the Day is \"take over\".",
+          "ja": "今日のPhrase of the Dayは「take over」です。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "It means to take control of a job, position, or responsibility from someone else.",
+          "ja": "他の誰かから仕事や役職、責任を引き継ぐ・引き受けるという意味です。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Exactly. In our top story, CFO Colette Kress is taking over as interim CEO of Nvidia.",
+          "ja": "その通りです。最初のニュースで、CFOのColette Kress氏がNVIDIAの暫定CEOを引き継ぎました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Here is another everyday example: \"Sarah will take over the project while Tom is away.\"",
+          "ja": "日常会話の例です。「トムが不在の間、サラがプロジェクトを引き継ぎます。」"
+        },
+        {
+          "speaker": "Mika",
+          "en": "You can use \"take over\" whenever someone steps into a new leadership role.",
+          "ja": "誰かが新しい役割を引き受けるときに「take over」を使ってみてください。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Have a great weekend",
+      "heading_ja": "エンディング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That is all for Commute News today, Friday, November 13, 2026.",
+          "ja": "2026年11月13日金曜日のCommute Newsは以上です。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Remember, strong leadership and clear communication matter during times of big change.",
+          "ja": "大きな変化の時期こそ、強いリーダーシップと明確な対話が大切ですね。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Have a wonderful weekend, and join us again on Monday morning for your commute.",
+          "ja": "素晴らしい週末をお過ごしください。月曜日の通勤時間にまたお会いしましょう。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Have a great day and a great weekend.",
+          "ja": "良い一日と良い週末をお過ごしください。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。いってらっしゃい。",
+          "en": "",
+          "lang": "ja"
+        }
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Nvidia CEO Jensen Huang Resigns Effective Immediately",
+      "title_ja": "NvidiaのJensen Huang CEOが即座に辞任",
+      "summary_ja": "Nvidiaの最高経営責任者Jensen Huang氏が、婚外関係などのスキャンダルを受けて即座に辞任しました。CFOのColette Kress氏が暫定CEOに任命され、経営体制の安定化と後任選びに当たります。次週火曜日には第3四半期の決算発表が予定されています。",
+      "why_ja": "世界中のAI基盤を支える半導体リーダーの突然の辞任であり、半導体業界やIT投資戦略に直接的な影響を与える重大ニュースです。",
+      "section": "tech",
+      "topic_key": "nvidia-jensen-huang-china-spy-investigation",
+      "companies": [
+        "NVIDIA",
+        "Cisco",
+        "Microsoft"
+      ],
+      "sources": [
+        {
+          "publisher": "NVIDIA Newsroom",
+          "title": "NVIDIA Announces CEO Transition",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
+          "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/"
+        },
+        {
+          "publisher": "The Register",
+          "title": "Jensen Huang resigns as Nvidia chief executive",
+          "url": "https://www.theregister.com/systems/2026/11/12/jensen-huang-resigns-as-nvidia-chief-executive/5309411"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Nvidia’s Jensen Huang resigns, chipmaker names CFO Colette Kress as interim CEO",
+          "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/"
+        },
+        {
+          "publisher": "Ars Technica",
+          "title": "Nvidia CEO Jensen Huang has resigned",
+          "url": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Nvidia CEO Jensen Huang resigns in the wake of multiple affairs, Chinese spy allegations",
+          "url": "https://www.tomshardware.com/tech-industry/nvidia-confirms-jensen-huang-has-resigned-as-ceo-colette-kress-executive-vice-president-and-chief-financial-officer-appointed-interim-ceo"
+        },
+        {
+          "publisher": "AP News",
+          "title": "Jensen Huang built the company that powers AI. Now Nvidia must find a way forward without him",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZnRkZ3V0d2hRdmgxRzM2bzlRVW1wdVd6a05PTGRUeTZDY3lwVkN4RFBDQUFrcmVBWmdnOVpkSVNlaVluTndndG1aeE1RQnBHY2NDcWVyeWg0VHhNQlBqejBSeXp0T0RBaTlUQS1rZ19kWEp4THhJa1cxWXhkSUl2Nm1YRG1xbmNMeV95S0NJMzl6M3c?oc=5"
+        },
+        {
+          "publisher": "The New York Times",
+          "title": "Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZGZPN0R3U3EyaUN6MEpaNXlrd2pJbnJJTG1BZXo4WWRKSW9oMW0xQkE2VjlyeU42TldBVW1kcDdxNEFJSVFtdEg5VjdfdmtGRW1VRzlhWFlNSGdQdjFwMXkxYkl0OVl4el9XcFptT1hxekxPNFBvLVRHQXFlaGhJdThQRmFMWWVXZHJYUzY2SUFWTEpqS0E?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Google Launches Gemini 4 Hydrogen Model for Advanced Coding and Search",
+      "title_ja": "Googleが高度なコーディング・検索用AIモデルGemini 4 Hydrogenを発表",
+      "summary_ja": "Googleが新世代AIモデル「Gemini 4 Hydrogen」を公開しました。プログラミングの補助や複雑な質問処理に特化し、Google SearchやGeminiアプリ、開発者向けツールで即日利用可能になりました。旧モデルに代わり、高速で高精度な回答を提供します。",
+      "why_ja": "検索エンジンや開発環境へのAI直接統合が進むことで、日常業務の生産性向上やAI競争の進展に直結します。",
+      "section": "tech",
+      "topic_key": "google-gemini-4-hydrogen-launch",
+      "companies": [
+        "Google"
+      ],
+      "sources": [
+        {
+          "publisher": "Google Blog",
+          "title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/"
+        },
+        {
+          "publisher": "Google Blog",
+          "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+          "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "Google’s new Gemini model is better at understanding complicated questions",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+          "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/"
+        },
+        {
+          "publisher": "Ars Technica",
+          "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+          "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/"
+        },
+        {
+          "publisher": "blog.google",
+          "title": "Introducing Gemini 4 Hydrogen for Agentic Workflows",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbnlqelBIT1ZXblFBa25zdHlXalhPR2Z2b2xLZ2lmeEtFbUFXS3Mya3FtU0tyeGJrOXpHVEJOdFpDVUZSUTVOUHA0WjRiakw2a2hIRzc3ZHBfM3pDT3dKTDdfMExNQ2FnU1NWSHI3UGpXX2lVSEUxeVYwb2FfNE5vRGJnMjhWSzU5WkFrdmtOdW5Fb0lja1dFN3JUMkQ5R01JRXhNUA?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Global Microsoft 365 Outage Disrupts Outlook, Teams, and Copilot",
+      "title_ja": "Microsoft 365のグローバル障害によりOutlookやTeamsが停止",
+      "summary_ja": "Microsoft 365のインフラで深刻な障害が発生し、OutlookやTeams、Copilotなどの主要サービスが世界中で利用不能となりました。世界で13万人以上のユーザーから障害が報告され、サーバー負荷の上昇や検証エラーが原因とされています。",
+      "why_ja": "クラウド型ビジネスツールの障害は世界中の企業の業務停止に直結し、ITインフラの冗長性確保の重要性を再認識させます。",
+      "section": "tech",
+      "topic_key": "microsoft-365-global-outage",
+      "companies": [
+        "Microsoft"
+      ],
+      "sources": [
+        {
+          "publisher": "The Verge",
+          "title": "Microsoft Outlook is down",
+          "url": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Microsoft’s Outlook email hit by new outage",
+          "url": "https://techcrunch.com/2026/11/12/microsofts-outlook-email-hit-by-new-outage/"
+        },
+        {
+          "publisher": "Mashable",
+          "title": "Is Outlook down? Users report Microsoft outage.",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1PUWJMNm5aOVdpOXJNT1E4NDRMMV9fdXYzakhwdFZ1cVphS3BTdXp1Nk5kR0pPeWlKdXZRMVNlUXVEUFlUQ21nMmtudHY3Q2RldWdoWDl3cV9ObHRjaXdDSml3a21kUEEwc29YM0lCZw?oc=5"
+        },
+        {
+          "publisher": "Forbes",
+          "title": "Is Microsoft Outlook Down? Problems Continue Hours After Widespread Impact",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUTVMQ2otVGhvbjNrUkYtU0hLSzdWN1V0U2ZPQTc3Q09aOUt2RldJNld1V0NEb083YWphMFJYYlQtSGhxYTg4M0xkZGhTdUlSV1BkbEozNXRDRTdlNzVCZFNtaWIzZGNnZE9wU3JoZWJ3ZzM2WG5uT0drMHNENXdlSnNmaEExeE5Jc2RZRk1ySjNyVUpMTUpaV0Zxem5ad2dKb2NGcmxKM0ZGZ296cFlibVg0MVluc1R3SVE5amlUS1BQYWJVeVE?oc=5"
+        },
+        {
+          "publisher": "Yahoo Finance",
+          "title": "Microsoft outage disrupts Outlook, Teams, and Copilot for users 'in any region'",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSXRGTzRHWGVubjllRE1ILWQ2R0NMNU1fcFNQTlZhU0U3eHYxZ21DN0JPZElYSWxXb1ZTRnBlMHItR3o4Q2w0ZE5MN0c5SlZtUXhxYkt3ekVRdkdVTFBwLW5vakJHbHM2QUxMVVdqV29UMW1aN1NUa0VCR2I1aUZ2TWNrQWdsbmhSY0QwMkRaX3Q4dEtEOXRScmJSUEgybUxsWm9MbFdSeXhRaXM5RWdLVVdLV3Y5aG1ZUC0wRTJ6djVTbGI0OExFRXFSMkc?oc=5"
+        },
+        {
+          "publisher": "CNBC",
+          "title": "Microsoft outage hits Outlook. AWS and Google users also report issues",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8zWVd0VTRLTkFhaHlDLTNmZUNmLXkzd3ZLQVBULVd3Wk5GTDBPNzA1TkRGSmlzM0NlTURMX01hdmZHSHE2SW1zbE5OTE80ZjhfX1BZMTFJY2pyUGJjYktrVEJzT0VGelQxQmE5RjhlZkxEcjUwQ21KWnRTZS3SAYIBQVVfeXFMT3hWLTZLb043cWxGX05UYWkwT3dJRVRFV0NqN3pOMFVjLUdVT29LZDB5SXpGSXczejdKV2dxY05oSjVyWE1zZmVTNktfb2U3dDYzSVJQVUYwSFNNSzVZZnJ0LU5UOGxoV3FJUkRUeW1vOEZOal8wR1c0MGp5a2FxdndjUQ?oc=5"
+        },
+        {
+          "publisher": "Deadline",
+          "title": "Microsoft Outlook Goes Down In 365 Outage, Paralyzing Business Communication",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORXpmMkkxQ09tQVliNDBnbmxMZ3ZhOW9BalhaU0ZLWlpnek54X1RCSW5TdHFUYmticDdfX0x3a3NGc08tZk0wWmFSWU5vaDVBc0RBRFpKdW5mX192Q2F3emJhUHJXVkxSTEhCakZVdHpzSXRlSkpXMXl3VUdXdXF6T3hR?oc=5"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Global Microsoft outage affecting Outlook and Teams users, with company ‘restarting’ servers",
+          "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Microsoft outage hits tens of thousands of users",
+          "url": "https://www.aljazeera.com/news/2026/11/12/microsoft-outage-hits-tens-of-thousands-of-users?traffic_source=rss"
+        },
+        {
+          "publisher": "WIRED",
+          "title": "Major Microsoft Outlook Outage Leaves People With Email Jobs Unable to Email",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWTEycUFvNHRyM0VUODM2ZTlvRlJVZlpETng5b1BUdEhKdExzX09pN1I4eldjSXZvd21GUTJmOXNIb1JHVGJ0SXp2SVFMM0ZZVFhDSnNXbHRkZXFHbVhDRmVrclhkcm5hRENPNGVpS0QzNXNhTjVQZ3ZSRWZablJpM1N6eXNhcGh0NDdGNTlxaXFTTzBuQ3l3?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "TSMC Confirms Cybersecurity Breach Exposing 49,000 Employee Data Files",
+      "title_ja": "TSMCが4万9000件の従業員データ流出を確認",
+      "summary_ja": "半導体ファウンドリ最大手のTSMCが、従業員4万9000人分のデータファイルがダークウェブ上に流出したことを確認しました。データは外部クラウド事業者のサーバーに保管されていたもので、株価は4%下落しました。",
+      "why_ja": "サプライチェーン上のサードパーティを介した情報漏洩リスクを示しており、先進的な半導体産業におけるセキュリティ強化が急務です。",
+      "section": "tech",
+      "topic_key": "tsmc-employee-data-leak",
+      "companies": [
+        "TSMC"
+      ],
+      "sources": [
+        {
+          "publisher": "Coinpedia",
+          "title": "TSMC Stock Slides 4% As Staff Data Of 46,000 Surfaces On Dark Web Forums",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPS3VZcHhWai1DTXNpc0xpSE4xRzhhT2NDV2RxeHRhRGNpWGdYekxSUi1ocU0xRlpJT1BvdXBSUk1QYy1kOWxkZXZrQktWYm43Y09lMVEzZlB0QXJHQjVyamJtWklzSkJ5Q0hYWi1mVThHVHF0bXVvU2stS3ZsMENqc1poZXlPWXkxV3VWT0lvM1RiNk01eEpvX3BxQ3RDb3NEWVl6ejJWaW14MW5Kbnk00gG0AUFVX3lxTE5Uc0E1cVgzVTVZQ3FjMGsycWxUMjZRZ1lHa1JfbXFzQUVaX1l3Q1lfbi1CekxMeW5FME03azUtTlpLbzVZTjYybHhCZkw2ZmYzLXZxS2k5ZDE3V2R1X3YtRXBOc0NxS3N5M290SC1uc1hoM2RoZEVET2traVVxZVdENHVUdVdsdzh0ZGwtUTFLRXdlQjMzWGlUTVhnUWhLRWlITDdhcHJUb1pHY0lNcUZSNkQ1aQ?oc=5"
+        },
+        {
+          "publisher": "Seeking Alpha",
+          "title": "TSMC discovers data on thousands of current, former employees leaked to external website",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZ2J6RWloVkFVNXVGYUdSRVR0Tm5HT29vZUtPZzBkbWlSaHQxUGZodFBweWozNlRfN2hHSHc2bmcwVTNsUUFaNndrYlRseXVJSlNCNnpxcEN3Nm9RRXlkMTFiVVh1ZXBhc2dTV09Ibmp3M21oZDcwRW43T1JKRnU0Zk5XNXhiNVVEMnJ5MUNhamswXzF0RjljWWlTVjZtb0RMdFo5WE1qTDllODE4eDFTOU1ZekNvbjRrU3diNzdYM2NncDg?oc=5"
+        },
+        {
+          "publisher": "Wccftech",
+          "title": "Taiwan Chip Giant TSMC Acknowledges Hack Of Reportedly 49,000 Employee Files Occurred But Says Leaked Data Matches That Stored With External Cloud Provider",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNWTZVUUFQNGRmQU1zTHJISmFCcFdOa3BobloxMzhlZkZ6SURZcnNDNnA0MDJpNEVqOUpfTjQ1WWdKVGxmTzVmc1ExMFUzemVRanlvRHYxY3VDVWNrS3B3U1g1SUtQWkw2UVZZZC12NGdDMDFtVm1TX0haX0tITDc0MzBwdmZRMFRwR0JJVkQ3T0UtQU9ZRktrR1Y3YnVCRTdxYjROdHAxRDg3clhHeFVoeF9pNXRWZ3E0cl8wY24zdGN5QXdMalhGOHFDRVBwNm1pVldUczBTaEQ4T0VkRVhfTldjVWdEaXE1SWlXRnBTUlZURWFQYTNBY25aZG5VeFREZlRKZnJsSdIBjAJBVV95cUxPQjlia2xibEJXOHBFS2hCQUM4LTR5aDdKeFIyUjJ4UnBEeXYxZTZMYnVRbFFmOUhKRVVnVVF1Y3B0T2tOa0I0dmstck8zd1AybFVTaHNiSDcxcE9ONFdGVmRPVll1WmZFd1B2dHVtUzBhOElsaTJodU1ndkp4MEc0R0U3aUhPdXJyRDk2Q0ZQQTRaVXA5aW9BclBCbFpCeFcwZ0FVQ3Z0dTctV0VvTGlxRVBoRmxkZWgxVEdhMnZoSUFfVkdBY0lWRlhWbTQ1UE8yVWZWYm1qTmp1bW9haWdTMlE0YXBtODEzT0NfMF9YNnk2TFpzeEp0cG93WElKd1BWaVlqMWNKc0VuUm1k?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "United Airlines Blocks AI Agents from Booking Flights Citing Security Risks",
+      "title_ja": "United Airlinesが安全上の懸念からAIエージェントの予約管理を制限",
+      "summary_ja": "United Airlinesは、個人向けAIエージェントによるフライト予約や変更を拒否する方針を発表しました。アカウント情報の共有によるセキュリティリスクや、手荷物検査に関する連邦規制の遵守を理由に挙げています。",
+      "why_ja": "自律型AIアシスタントの普及に伴う法的・セキュリティ上の課題を浮き彫りにし、今後の企業のAI対応方針の先行事例となります。",
+      "section": "tech",
+      "topic_key": "united-airlines-blocks-ai-agents",
+      "companies": [
+        "United Airlines",
+        "Bank of America"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+          "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/"
+        },
+        {
+          "publisher": "The Register",
+          "title": "United Airlines wants you to check in, not your chatbot",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/12/united-airlines-wants-you-to-check-in-not-your-chatbot/5309373"
+        }
+      ]
+    },
+    {
+      "title_en": "CMS and ONC Launch Real-World Testing for Electronic Prior Authorization",
+      "title_ja": "米保健当局が医療の事前承認電子化に向けた実証テストを開始",
+      "summary_ja": "米国ONCとCMSは、2027年からの電子事前承認（ePA）義務化に向けて実証テストを開始しました。医療機関や保険会社が実際のワークフローを用いて技術的ギャップを特定し、手続きの遅延を防ぐことを目指します。",
+      "why_ja": "医療ITの標準化とデジタル化により事務負担を大幅に削減し、患者が迅速に適切な治療を受けられる環境整備が進みます。",
+      "section": "health",
+      "topic_key": "cms-onc-electronic-prior-authorization-testing",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "STAT News",
+          "title": "STAT+: New documents raise more questions about Medicare’s AI prior-authorization experiment",
+          "url": "https://www.statnews.com/2026/11/12/new-documents-raise-more-questions-about-medicares-ai-prior-authorization-experiment/?utm_campaign=rss"
+        },
+        {
+          "publisher": "Fierce Healthcare",
+          "title": "ONC, CMS move electronic prior authorization into real-world testing",
+          "url": "https://www.fiercehealthcare.com/regulatory/onc-cms-launch-electronic-prior-authorization-testing-initiative"
+        }
+      ]
+    },
+    {
+      "title_en": "China Rules Out Hosting COP33 UN Climate Summit in 2028",
+      "title_ja": "中国が2028年の気候変動サミットCOP33開催を見送り",
+      "summary_ja": "中国が2028年の国連気候変動サミットCOP33の開催を見送る決断をしました。クリーンエネルギー技術で世界をリードする中国の開催見送りには米大統領選日程などが影響したとみられ、他のアジア諸国が開催候補となります。",
+      "why_ja": "世界最大の排出国である中国の決断は、国際的な気候変動交渉におけるアジアのリーダーシップ枠組みに影響を与えます。",
+      "section": "world",
+      "topic_key": "china-declines-cop33-host",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "China rules out hosting Cop33 climate summit in 2028",
+          "url": "https://www.theguardian.com/environment/2026/nov/12/china-rules-out-hosting-cop33-climate-summit-in-2028"
+        }
+      ]
+    },
+    {
+      "title_en": "Israeli Airstrike Hits Gaza's Nasser Hospital, Killing Six",
+      "title_ja": "イスラエル軍の空爆がガザのナセル病院に着弾、6人が死亡",
+      "summary_ja": "ガザ地区南部ハンユーニスのナセル病院にイスラエル軍の空爆があり、外科医を含む6人が死亡、30人が負傷しました。外科病棟が深刻なダメージを受け、地域で機能していた貴重な医療施設が麻痺しています。",
+      "why_ja": "ガザ地区における医療インフラの損壊と人道危機が一段と深刻化している実態を示しています。",
+      "section": "world",
+      "topic_key": "israel-gaza-nasser-hospital-strike",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Al Jazeera reports from Gaza hospital attacked by Israel",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/al-jazeera-reports-from-gaza-hospital-attacked-by-israel?traffic_source=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Jerusalem Daily: Gaza’s Nasser Hospital hit by Israeli air strike",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Israeli airstrike on Nasser hospital in Gaza kills surgeon and five others",
+          "url": "https://www.theguardian.com/world/2026/nov/12/israeli-airstrike-nasser-hospital-gaza-kills-surgeon"
+        },
+        {
+          "publisher": "NPR",
+          "title": "An Israeli strike on a Gaza hospital kills 6 people, including a doctor and a child",
+          "url": "https://www.npr.org/2026/11/12/nx-s1-6038339/israeli-strike-gaza-hospital"
+        },
+        {
+          "publisher": "AP News",
+          "title": "Israel hits Gaza hospital and France turns away a settler leader, and other Mideast news",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdmdGNlhOUURTNDdjOXk4eHVVdC1FZGVHMEFsZEJHa2FUM2NrdUZWbzI0Q3gyRHllbXY4dWZ4NmdUZzU0UVRNRWcxTGJmb2lEalZSZkRQeUFvYUNNM3hEeEh1bXV3d0E5bXJnbUt2eTRkMTR1WjA0R1d5RHNNZElhWVlMSDVsckp2X0Nsa0JpSWQ3dlJPRDZMMU5mRnU1bHpEcXBPVWhKWnFVM1U?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Democrat Scott Colom Wins Mississippi Senate Seat in Historic Victory",
+      "title_ja": "民主党のScott Colom氏がミシシッピ州で歴史的上院選勝利",
+      "summary_ja": "民主党のScott Colom氏がミシシッピ州の上院議員選挙で勝利しました。同州で黒人の上院議員が誕生するのは1881年以来145年ぶりであり、民主党は上院の過半数55議席を確保しました。",
+      "why_ja": "米上院の勢力図に変化をもたらすとともに、歴史的な人種的政治動向の節目となりました。",
+      "section": "world",
+      "topic_key": "us-mississippi-senate-race-colom-victory",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Before Scott Colom, these two men were the last black US senators from Mississippi",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1y19g19do?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
+          "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Colom wins Mississippi Senate race. And, White House warns Dems over future probes",
+          "url": "https://www.npr.org/2026/11/12/g-s1-153171/up-first-newsletter-scott-colom-trump-democrats-ukraine-russia"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "resigned",
+      "meaning_ja": "辞任した、退任した",
+      "note_ja": "役職や職務を自ら辞めたことを表す一般的な動詞の過去形。",
+      "example_en": "In our top story, Jensen Huang has resigned as Chief Executive Officer of Nvidia."
+    },
+    {
+      "term": "interim",
+      "meaning_ja": "暫定の、仮の",
+      "note_ja": "後任が決まるまでの臨時の役職などを指す形容詞。",
+      "example_en": "Chief Financial Officer Colette Kress is taking over as interim Chief Executive Officer."
+    },
+    {
+      "term": "debugging",
+      "meaning_ja": "デバッグ、不具合修正",
+      "note_ja": "プログラム中の欠陥（バグ）を探して修正する作業。",
+      "example_en": "It focuses on fast coding, debugging software, and answering complex, multi-part questions."
+    },
+    {
+      "term": "nuanced",
+      "meaning_ja": "微妙なニュアンスを含む、複雑な",
+      "note_ja": "単なる言葉通りではない細かい意図や背景を含む様子。",
+      "example_en": "It understands nuanced questions, fixes typos, and creates visual responses with structured tables."
+    },
+    {
+      "term": "outage",
+      "meaning_ja": "システム障害、停止",
+      "note_ja": "電気や通信、クラウドサービスなどが停止した状態。",
+      "example_en": "A massive global outage hit Microsoft 365 services on Thursday, disrupting business workflows worldwide."
+    },
+    {
+      "term": "infrastructure",
+      "meaning_ja": "インフラ、基盤設備",
+      "note_ja": "IT分野ではサーバーやネットワークなどの基盤施設を指す。",
+      "example_en": "Engineers are bypassing failed server components and redistributing connection traffic across worldwide infrastructure."
+    },
+    {
+      "term": "breach",
+      "meaning_ja": "侵害、情報流出",
+      "note_ja": "security breachで「セキュリティ侵害・データ漏洩」を意味する。",
+      "example_en": "How did financial markets respond to news of this cybersecurity breach?"
+    },
+    {
+      "term": "compliance",
+      "meaning_ja": "法令遵守、規制適合",
+      "note_ja": "法律やルールに従って運用すること。",
+      "example_en": "The airline cited cybersecurity risks and compliance with federal aviation safety regulations."
+    },
+    {
+      "term": "prior authorization",
+      "meaning_ja": "事前承認（医療保険手続き）",
+      "note_ja": "治療前に保険会社へ申請して認可を得る米国の医療手続き。",
+      "example_en": "Prior authorization is approval from insurers before patients get specific treatments or medical procedures."
+    },
+    {
+      "term": "emitter",
+      "meaning_ja": "（温室効果ガスの）排出国、排出源",
+      "note_ja": "環境問題でCO2などの排出者を指す名詞。",
+      "example_en": "China is the world's largest emitter, but leads in solar power, electric vehicles, and clean tech."
+    },
+    {
+      "term": "incumbent",
+      "meaning_ja": "現職の",
+      "note_ja": "選挙などで現在の役職についている人を指す表現。",
+      "example_en": "He narrowly defeated incumbent Republican Cindy Hyde-Smith by less than five thousand votes."
+    },
+    {
+      "term": "turnaround",
+      "meaning_ja": "業績回復、立ち直し",
+      "note_ja": "悪化した状況や業績を反転・回復させること。",
+      "example_en": "Intel CEO Lip-Bu Tan addressed recent company turnaround efforts during a stock slump."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "take over",
+    "meaning_ja": "引き継ぐ、引き受ける、職務を交代する",
+    "example_en": "Sarah will take over the project while Tom is away.",
+    "example_ja": "トムが不在の間、サラがプロジェクトを引き継ぎます。"
+  }
+}
