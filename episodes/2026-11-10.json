@@ -4,8 +4,12 @@
   "title_en": "Google TPU Expansion, AI Energy Deals, and New Biosecurity Rules",
   "title_ja": "Googleの新型TPU発表、AI電力危機と新バイオセキュリティ指針",
   "summary_ja": "Googleがエージェント型AIに対応する最新TPUを発表し、Anthropicは電力確保のため34億ドルの天然ガスタービンを調達しました。デジタルヘルス分野では、創薬AIの生物兵器転用を防ぐ米国の厳格な新指針が公表されています。世界情勢では、カタール仲介によるイラン情勢の対話や欧州冷却装置へのサイバー攻撃の責任追及を伝えます。",
-  "duration": null,
-  "audio": null,
+  "duration": 1100.5,
+  "audio": {
+    "file": "2026-11-10.mp3",
+    "bytes": 8804613,
+    "release_tag": "ep-2026-11-10"
+  },
   "word_count": 2145,
   "ja_chars": 1283,
   "hosts": [
@@ -16,7 +20,7 @@
     "select": "gemini-3.7-flash",
     "write": "gemini-3.8-flash",
     "revise": "gemini-3.8-flash",
-    "tts": "gemini-3.8-flash-tts"
+    "tts": "gemini-2.5-flash-preview-tts, gemini-3.8-flash-lite-tts"
   },
   "segments": [
     {
@@ -27,25 +31,30 @@
         {
           "speaker": "Alex",
           "en": "Good morning, it is Tuesday, November 10. This is Commute News. I am Alex, here with Mika from Kyoto.",
-          "ja": "おはようございます。11月10日火曜日、Commute Newsです。京都のMikaさんと共にお届けします。"
+          "ja": "おはようございます。11月10日火曜日、Commute Newsです。京都のMikaさんと共にお届けします。",
+          "t": 0.0
         },
         {
           "speaker": "Mika",
           "en": "Good morning, Alex. On today's train ride, we look at Google's new custom artificial intelligence chips and Anthropic's multi-billion-dollar power purchase.",
-          "ja": "Alexさん、おはようございます。今朝の通勤時間では、Googleの最新AIチップ発表とAnthropicによる巨額の電源調達を取り上げます。"
+          "ja": "Alexさん、おはようございます。今朝の通勤時間では、Googleの最新AIチップ発表とAnthropicによる巨額の電源調達を取り上げます。",
+          "t": 6.2
         },
         {
           "speaker": "Alex",
           "en": "In digital health, we examine stricter United States rules to stop artificial intelligence from making bioweapons.",
-          "ja": "デジタルヘルスでは、AIによる生物兵器製造を防ぐための米国の新指針を解説します。"
+          "ja": "デジタルヘルスでは、AIによる生物兵器製造を防ぐための米国の新指針を解説します。",
+          "t": 15.1
         },
         {
           "speaker": "Mika",
           "en": "And in world news, President Donald Trump says the war with Iran is effectively over after talks in Washington. Let us begin.",
-          "ja": "そして国際ニュースでは、ワシントンでの会談を経てトランプ大統領がイラン戦争の事実上の終結に言及した話題をお伝えします。それでは始めましょう。"
+          "ja": "そして国際ニュースでは、ワシントンでの会談を経てトランプ大統領がイラン戦争の事実上の終結に言及した話題をお伝えします。それでは始めましょう。",
+          "t": 21.94
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 0.0
     },
     {
       "kind": "story",
@@ -55,40 +64,48 @@
         {
           "speaker": "Alex",
           "en": "Google announced two new custom artificial intelligence chips today. They are TPU 8tx and TPU 8i Max. TPU means Tensor Processing Unit.",
-          "ja": "Googleは本日、2種類の独自AIチップを発表しました。TPU 8txとTPU 8i Maxです。TPUとはテンソル・プロセッシング・ユニットを意味します。"
+          "ja": "Googleは本日、2種類の独自AIチップを発表しました。TPU 8txとTPU 8i Maxです。TPUとはテンソル・プロセッシング・ユニットを意味します。",
+          "t": 29.32
         },
         {
           "speaker": "Mika",
           "en": "What do these new chips actually do?",
-          "ja": "これらの新しいチップは、具体的にどのような働きをするのですか。"
+          "ja": "これらの新しいチップは、具体的にどのような働きをするのですか。",
+          "t": 37.19
         },
         {
           "speaker": "Alex",
           "en": "Google built them for what it calls agentic workloads. That means autonomous artificial intelligence agents that take multiple actions on their own. TPU 8i Max handles very large context windows. That lets the chip read huge amounts of data at once. TPU 8tx focuses on secure and confidential computing for banks and governments.",
-          "ja": "Googleはこれらを「エージェント型処理」向けに開発しました。自律的なAIエージェントが自ら複数の動作を行う処理のことです。TPU 8i Maxは非常に大きなコンテキストウィンドウを処理し、一度に膨大なデータを読み込めます。TPU 8txは銀行や政府機関向けの安全な機密計算に特化しています。"
+          "ja": "Googleはこれらを「エージェント型処理」向けに開発しました。自律的なAIエージェントが自ら複数の動作を行う処理のことです。TPU 8i Maxは非常に大きなコンテキストウィンドウを処理し、一度に膨大なデータを読み込めます。TPU 8txは銀行や政府機関向けの安全な機密計算に特化しています。",
+          "t": 40.19
         },
         {
           "speaker": "Mika",
           "en": "Has Google made chips like this before?",
-          "ja": "Googleは以前からこのようなチップを作ってきたのでしょうか。"
+          "ja": "Googleは以前からこのようなチップを作ってきたのでしょうか。",
+          "t": 57.61
         },
         {
           "speaker": "Alex",
           "en": "Google designed its first TPU over a decade ago. Earlier this year, Google introduced TPU 8t for model training and TPU 8i for reasoning. Now, with 8tx and 8i Max, Google has released four TPU systems in a single year for the first time.",
-          "ja": "Googleは10年以上前に最初のTPUを設計しました。今年前半には学習用のTPU 8tと推論用のTPU 8iを投入しました。今回8txと8i Maxが加わり、1年間で4つのTPUシステムを発表したのは同社初となります。"
+          "ja": "Googleは10年以上前に最初のTPUを設計しました。今年前半には学習用のTPU 8tと推論用のTPU 8iを投入しました。今回8txと8i Maxが加わり、1年間で4つのTPUシステムを発表したのは同社初となります。",
+          "t": 60.75
         },
         {
           "speaker": "Mika",
           "en": "Why does this matter so much for the cloud market?",
-          "ja": "なぜこれがクラウド市場にとってそれほど重要なのでしょうか。"
+          "ja": "なぜこれがクラウド市場にとってそれほど重要なのでしょうか。",
+          "t": 73.64
         },
         {
           "speaker": "Alex",
           "en": "Google wants to lower its reliance on Nvidia. Over one hundred external customers now use Google TPUs. Building its own chips helps Google manage costs and offer custom hardware to enterprise clients. So, in short, Google is expanding custom silicon to run complex AI agents efficiently without relying only on Nvidia.",
-          "ja": "GoogleはNVIDIAへの依存度を下げたいと考えています。現在100社以上の外部顧客がGoogleのTPUを利用しています。自社製チップの拡充はコスト抑制と企業顧客への特化型ハードウェア提供につながります。要するに、GoogleはNVIDIAだけに頼らず、複雑なAIエージェントを効率よく動かすため独自半導体を強化しています。"
+          "ja": "GoogleはNVIDIAへの依存度を下げたいと考えています。現在100社以上の外部顧客がGoogleのTPUを利用しています。自社製チップの拡充はコスト抑制と企業顧客への特化型ハードウェア提供につながります。要するに、GoogleはNVIDIAだけに頼らず、複雑なAIエージェントを効率よく動かすため独自半導体を強化しています。",
+          "t": 77.33
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 29.32
     },
     {
       "kind": "recap",
@@ -101,9 +118,11 @@
           "speaker": "Mika",
           "ja": "日本語でおさらいします。Googleは自律型AIエージェントの処理に向け、独自半導体TPU 8txとTPU 8i Maxを発表しました。大容量データ処理と高度なセキュリティ保護に特化し、年内に4種のTPUを投入したのは同社初です。NVIDIAへの依存を抑え、自社クラウドのコストと性能を高める狙いがあります。",
           "en": "",
-          "lang": "ja"
+          "lang": "ja",
+          "t": 94.21
         }
-      ]
+      ],
+      "t": 94.21
     },
     {
       "kind": "story",
@@ -113,40 +132,48 @@
         {
           "speaker": "Alex",
           "en": "Artificial intelligence startup Anthropic is spending 3.4 billion dollars on natural gas turbines. The massive deal secures up to 1.7 gigawatts of electrical generating capacity using heavy Caterpillar equipment.",
-          "ja": "AIスタートアップのAnthropicが天然ガスタービンに34億ドルを投じます。Caterpillar製機器により、最大1.7ギガワットの発電容量を確保する巨額契約です。"
+          "ja": "AIスタートアップのAnthropicが天然ガスタービンに34億ドルを投じます。Caterpillar製機器により、最大1.7ギガワットの発電容量を確保する巨額契約です。",
+          "t": 116.34
         },
         {
           "speaker": "Mika",
           "en": "Why is an artificial intelligence software company buying heavy power generators instead of renting computing servers?",
-          "ja": "なぜAIソフトウェア企業が計算サーバーを借りるのではなく、重厚な発電設備を直接購入しているのですか。"
+          "ja": "なぜAIソフトウェア企業が計算サーバーを借りるのではなく、重厚な発電設備を直接購入しているのですか。",
+          "t": 129.22
         },
         {
           "speaker": "Alex",
           "en": "Anthropic historically preferred to rent servers. In its financial filings, the company revealed it pays 1.25 billion dollars per month to rent computing power from Elon Musk's xAI. But data centers now face an acute electricity shortage. Waiting for local utility companies to connect new data centers to the public electrical grid can take six years or longer. Turbine manufacturing lead times stretch into the 2030s as global equipment orders exceed factory production capacity.",
-          "ja": "Anthropicは歴史的にサーバーを借りる運用を好んできました。同社の財務書類によると、Elon Musk氏率いるxAIから計算能力を借りるために毎月12億5000万ドルを支払っています。しかし現在のデータセンターは深刻な電力不足に直面しています。新設データセンターを公共送電網に接続する順番待ちは6年以上に達し、ガスタービンの製造待ちも2030年代まで延びています。"
+          "ja": "Anthropicは歴史的にサーバーを借りる運用を好んできました。同社の財務書類によると、Elon Musk氏率いるxAIから計算能力を借りるために毎月12億5000万ドルを支払っています。しかし現在のデータセンターは深刻な電力不足に直面しています。新設データセンターを公共送電網に接続する順番待ちは6年以上に達し、ガスタービンの製造待ちも2030年代まで延びています。",
+          "t": 136.99
         },
         {
           "speaker": "Mika",
           "en": "How did Anthropic manage to get these turbines so quickly?",
-          "ja": "Anthropicはどのようにしてこれほど早くタービンを確保できたのでしょうか。"
+          "ja": "Anthropicはどのようにしてこれほど早くタービンを確保できたのでしょうか。",
+          "t": 164.49
         },
         {
           "speaker": "Alex",
           "en": "Anthropic took over existing orders from a Texas supplier named OnePWR Solutions. OnePWR ordered the Caterpillar machines two years ago but could not find the financing to finish the deal. So Anthropic stepped in directly and agreed to pay for the machines, engineering, and installation. This clever move lets Anthropic jump ahead in line and bypass a six-year equipment waitlist.",
-          "ja": "Anthropicはテキサス州のサプライヤーであるOnePWR Solutionsが保持していた既存の発注枠を引き継ぎました。OnePWRは2年前にCaterpillarへ発注していましたが資金調達に難航していました。そこでAnthropicが直接乗り出し、機器代金や据付工事費用を肩代わりしたのです。これにより6年の待機期間を迂回して納入を前倒しできました。"
+          "ja": "Anthropicはテキサス州のサプライヤーであるOnePWR Solutionsが保持していた既存の発注枠を引き継ぎました。OnePWRは2年前にCaterpillarへ発注していましたが資金調達に難航していました。そこでAnthropicが直接乗り出し、機器代金や据付工事費用を肩代わりしたのです。これにより6年の待機期間を迂回して納入を前倒しできました。",
+          "t": 169.0
         },
         {
           "speaker": "Mika",
           "en": "Are other artificial intelligence firms also building their own private gas power plants?",
-          "ja": "他のAI企業も同様に自前の民間ガス発電所を建設しているのですか。"
+          "ja": "他のAI企業も同様に自前の民間ガス発電所を建設しているのですか。",
+          "t": 191.07
         },
         {
           "speaker": "Alex",
           "en": "Yes, they are. Musk's xAI installed converted jet turbines in Mississippi, and OpenAI's partner Crusoe secured twenty-nine gas turbines for a data center in Texas. But environmental groups are raising strong alarms. They warn that burning huge amounts of natural gas releases heavy emissions, and rising fuel prices could cause buyer's remorse. So, in short, Anthropic committed 3.4 billion dollars to private gas generators to bypass long power grid delays.",
-          "ja": "はい、その通りです。マスク氏のxAIはミシシッピ州で転用ジェットタービンを設置し、OpenAIの提携先Crusoeもテキサスの施設向けに29基のガスタービンを確保しました。しかし環境団体は排出量増加に強い危機感を表明しており、燃料価格高騰による後悔のリスクも指摘されています。要するに、Anthropicは送電網の長期停滞を回避するため、民間ガス発電に34億ドルを投じました。"
+          "ja": "はい、その通りです。マスク氏のxAIはミシシッピ州で転用ジェットタービンを設置し、OpenAIの提携先Crusoeもテキサスの施設向けに29基のガスタービンを確保しました。しかし環境団体は排出量増加に強い危機感を表明しており、燃料価格高騰による後悔のリスクも指摘されています。要するに、Anthropicは送電網の長期停滞を回避するため、民間ガス発電に34億ドルを投じました。",
+          "t": 197.26
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 116.34
     },
     {
       "kind": "recap",
@@ -159,9 +186,11 @@
           "speaker": "Mika",
           "ja": "AI開発大手のAnthropicは、データセンターの電力不足を解消するため、34億ドルを投じて1.7ギガワット相当の天然ガスタービンを確保しました。送電網への接続には最長6年かかるため、Texasのサプライヤーから既存発注を引き継ぎ待機期間を回避する動きです。一方、ガス燃焼による環境への影響や将来の燃料コスト上昇には懸念の声も上がっています。",
           "en": "",
-          "lang": "ja"
+          "lang": "ja",
+          "t": 223.51
         }
-      ]
+      ],
+      "t": 223.51
     },
     {
       "kind": "story",
@@ -171,40 +200,48 @@
         {
           "speaker": "Alex",
           "en": "Nikkei Asia reports that Elon Musk is actively lining up Japanese semiconductor equipment and materials suppliers for a secretive new venture called Terafab.",
-          "ja": "日経アジアの報道によると、イーロン・マスク氏はTerafabと呼ばれる極秘の新半導体ベンチャーのため、日本の製造装置や材料メーカーの確保を進めています。"
+          "ja": "日経アジアの報道によると、イーロン・マスク氏はTerafabと呼ばれる極秘の新半導体ベンチャーのため、日本の製造装置や材料メーカーの確保を進めています。",
+          "t": 250.56
         },
         {
           "speaker": "Mika",
           "en": "What is the Terafab project, and why does Musk want to build his own chip factory?",
-          "ja": "Terafabプロジェクトとは何であり、なぜマスク氏は独自の半導体工場を作ろうとしているのですか。"
+          "ja": "Terafabプロジェクトとは何であり、なぜマスク氏は独自の半導体工場を作ろうとしているのですか。",
+          "t": 260.2
         },
         {
           "speaker": "Alex",
           "en": "Terafab is designed to manufacture advanced artificial intelligence silicon internally. Musk relies heavily on specialized chips to power Tesla autonomous vehicles, humanoid robots, and xAI supercomputers. Right now, tech companies face severe capacity bottlenecks at commercial foundries. Musk wants to control his own production lines directly so his expanding businesses do not have to wait on external chip factories.",
-          "ja": "Terafabは先端AI半導体を自社製造するために構想されています。マスク氏はTeslaの自動運転車や人型ロボット、xAIのスーパーコンピューター向けに特化型チップを大量に必要としています。現在テック企業は既存ファブの深刻な生産制約に直面しており、マスク氏は外部の工場待ちを解消し自ら直接製造ラインを管理したいと考えています。"
+          "ja": "Terafabは先端AI半導体を自社製造するために構想されています。マスク氏はTeslaの自動運転車や人型ロボット、xAIのスーパーコンピューター向けに特化型チップを大量に必要としています。現在テック企業は既存ファブの深刻な生産制約に直面しており、マスク氏は外部の工場待ちを解消し自ら直接製造ラインを管理したいと考えています。",
+          "t": 265.86
         },
         {
           "speaker": "Mika",
           "en": "Why is Musk focusing his supply chain search specifically on companies in Japan?",
-          "ja": "なぜマスク氏は供給網のパートナーとして特に日本企業に焦点を当てているのでしょうか。"
+          "ja": "なぜマスク氏は供給網のパートナーとして特に日本企業に焦点を当てているのでしょうか。",
+          "t": 289.47
         },
         {
           "speaker": "Alex",
           "en": "Japan remains the global powerhouse for specialized semiconductor fabrication tools and raw chemical materials. Japanese companies lead the entire world in silicon wafer cleaning machinery, precision lithography parts, and chemical supplies. It is physically impossible to construct a state-of-the-art semiconductor factory without Japanese equipment and materials. This reality gives Japan an indispensable position in global hardware manufacturing.",
-          "ja": "日本は半導体製造用の特殊装置や高純度化学素材において世界的な中核拠点であり続けています。日本企業はウエハー洗浄装置や超精密露光部品、化学薬品の分野で世界をリードしています。日本の設備や材料なしには最先端の半導体工場を建設することは事実上不可能です。この強みが先端ハードウェア製造における日本の不可欠な地位を支えています。"
+          "ja": "日本は半導体製造用の特殊装置や高純度化学素材において世界的な中核拠点であり続けています。日本企業はウエハー洗浄装置や超精密露光部品、化学薬品の分野で世界をリードしています。日本の設備や材料なしには最先端の半導体工場を建設することは事実上不可能です。この強みが先端ハードウェア製造における日本の不可欠な地位を支えています。",
+          "t": 295.03
         },
         {
           "speaker": "Mika",
           "en": "Will building Terafab be an easy task for Musk's team?",
-          "ja": "マスク氏のチームにとってTerafabの立ち上げは容易な計画なのでしょうか。"
+          "ja": "マスク氏のチームにとってTerafabの立ち上げは容易な計画なのでしょうか。",
+          "t": 320.18
         },
         {
           "speaker": "Alex",
           "en": "Not at all. Building advanced silicon fabrication facilities requires years of fine-tuning, complex cleanrooms, and reliable suppliers. That is why securing partnerships with seasoned Japanese toolmakers is a crucial first step for Musk. So, in short, Musk is recruiting essential Japanese semiconductor equipment makers to help turn his ambitious Terafab chip factory into reality.",
-          "ja": "決して容易ではありません。先端半導体工場の建設には長年の微調整、複雑なクリーンルーム、そして信頼できるサプライヤーが欠かせません。だからこそ実績ある日本の装置メーカーとの提携確保が不可欠な第一歩となります。要するに、マスク氏は野心的なTerafab工場を実現するため、中核となる日本の半導体装置メーカーを巻き込んでいます。"
+          "ja": "決して容易ではありません。先端半導体工場の建設には長年の微調整、複雑なクリーンルーム、そして信頼できるサプライヤーが欠かせません。だからこそ実績ある日本の装置メーカーとの提携確保が不可欠な第一歩となります。要するに、マスク氏は野心的なTerafab工場を実現するため、中核となる日本の半導体装置メーカーを巻き込んでいます。",
+          "t": 324.36
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 250.56
     },
     {
       "kind": "recap",
@@ -217,9 +254,11 @@
           "speaker": "Mika",
           "ja": "Elon Muskが進める極秘の半導体製造計画Terafabが、日本の半導体製造装置や材料メーカーと接触していることが報じられました。TeslaやxAI向けの独自供給網を作る狙いです。最先端ファブに不可欠な精密装置や化学材料を握る日本の産業プレゼンスが改めて浮き彫りになっています。",
           "en": "",
-          "lang": "ja"
+          "lang": "ja",
+          "t": 345.91
         }
-      ]
+      ],
+      "t": 345.91
     },
     {
       "kind": "story",
@@ -229,40 +268,48 @@
         {
           "speaker": "Alex",
           "en": "Cybersecurity researchers have uncovered a dangerous cloud supply-chain breach. Hackers exploited cross-account trust relationships in Amazon Web Services to infiltrate corporate environments through data analytics platform Qubole.",
-          "ja": "サイバーセキュリティ研究者が危険なクラウドサプライチェーン攻撃を公表しました。攻撃者はデータ分析基盤Quboleを通じてAmazon Web Servicesのアカウント間信頼関係を悪用し、企業のクラウド環境へ侵入しました。"
+          "ja": "サイバーセキュリティ研究者が危険なクラウドサプライチェーン攻撃を公表しました。攻撃者はデータ分析基盤Quboleを通じてAmazon Web Servicesのアカウント間信頼関係を悪用し、企業のクラウド環境へ侵入しました。",
+          "t": 367.39
         },
         {
           "speaker": "Mika",
           "en": "How exactly did attackers use a trusted vendor to reach private customer systems?",
-          "ja": "攻撃者はどのようにして信頼された外部ベンダーを介し顧客の社内システムに到達したのですか。"
+          "ja": "攻撃者はどのようにして信頼された外部ベンダーを介し顧客の社内システムに到達したのですか。",
+          "t": 380.94
         },
         {
           "speaker": "Alex",
           "en": "Many enterprises integrate cloud platforms like Qubole into their Amazon Web Services setups to run big data analytics. To make integrations work smoothly, companies create Identity and Access Management trust roles that grant external vendors automatic access to their private accounts. Cybersecurity firm Wiz discovered that attackers compromised these trusted access pathways. Once inside Qubole's systems, the hackers crossed over into private corporate accounts to steal enterprise secrets and sensitive data.",
-          "ja": "多くの企業がビッグデータ分析のためQuboleのようなクラウド基盤をAWS環境に接続しています。円滑に連携させるため、企業はIAMロールを作成し外部ベンダーに社内アカウントへの自動アクセス権限を付与します。セキュリティ企業Wizの調査によると、ハッカーはこの信頼された接続経路を侵害しました。Quboleのシステム内部に入り込んだ後、各企業のプライベートアカウントへと横展開して機密情報を盗み出しました。"
+          "ja": "多くの企業がビッグデータ分析のためQuboleのようなクラウド基盤をAWS環境に接続しています。円滑に連携させるため、企業はIAMロールを作成し外部ベンダーに社内アカウントへの自動アクセス権限を付与します。セキュリティ企業Wizの調査によると、ハッカーはこの信頼された接続経路を侵害しました。Quboleのシステム内部に入り込んだ後、各企業のプライベートアカウントへと横展開して機密情報を盗み出しました。",
+          "t": 386.55
         },
         {
           "speaker": "Mika",
           "en": "What makes this kind of supply chain attack so difficult to detect?",
-          "ja": "なぜこのようなサプライチェーン攻撃は検知が極めて難しいのでしょうか。"
+          "ja": "なぜこのようなサプライチェーン攻撃は検知が極めて難しいのでしょうか。",
+          "t": 415.09
         },
         {
           "speaker": "Alex",
           "en": "Because the access appears completely legitimate to standard security monitoring tools. The cloud infrastructure assumes the incoming commands belong to an approved partner service. Security analysts warn that companies often grant broad privileges to external SaaS vendors and fail to audit or revoke old connections.",
-          "ja": "標準的な監視ツールから見るとアクセスが完全に正当なものに見えるためです。クラウド基盤は送られてくる指示を承認済みの提携サービスからのものと見なしてしまいます。企業が外部SaaSに過度な権限を与えたまま、古い接続の点検や無効化を怠っている点が警告されています。"
+          "ja": "標準的な監視ツールから見るとアクセスが完全に正当なものに見えるためです。クラウド基盤は送られてくる指示を承認済みの提携サービスからのものと見なしてしまいます。企業が外部SaaSに過度な権限を与えたまま、古い接続の点検や無効化を怠っている点が警告されています。",
+          "t": 419.96
         },
         {
           "speaker": "Mika",
           "en": "What steps should enterprise cloud administrators take right now?",
-          "ja": "企業のクラウド管理者は今すぐどのような対策を取るべきですか。"
+          "ja": "企業のクラウド管理者は今すぐどのような対策を取るべきですか。",
+          "t": 438.12
         },
         {
           "speaker": "Alex",
           "en": "Cloud teams must immediately audit their external IAM trust relationships and enforce the principle of least privilege. So, in short, attackers compromised vendor cloud trust pathways in Amazon Web Services to breach customer networks and steal corporate secrets.",
-          "ja": "クラウド運用チームは直ちに外部IAM信頼設定を総点検し、最小権限の原則を徹底しなければなりません。要するに、攻撃者はAWSにおけるベンダーの信頼経路を侵害し、顧客ネットワークに侵入して企業の秘密を窃取しました。"
+          "ja": "クラウド運用チームは直ちに外部IAM信頼設定を総点検し、最小権限の原則を徹底しなければなりません。要するに、攻撃者はAWSにおけるベンダーの信頼経路を侵害し、顧客ネットワークに侵入して企業の秘密を窃取しました。",
+          "t": 442.89
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 367.39
     },
     {
       "kind": "recap",
@@ -275,9 +322,11 @@
           "speaker": "Mika",
           "ja": "セキュリティ企業Wizの調査により、データ分析基盤Quboleを経由してAmazon Web Servicesのアカウント間信頼設定を悪用した不正アクセスが発覚しました。信頼関係を結んだ外部ベンダーが侵入経路となり、顧客企業の機密情報が狙われました。外部連携アカウントの権限管理の見直しが急務です。",
           "en": "",
-          "lang": "ja"
+          "lang": "ja",
+          "t": 458.58
         }
-      ]
+      ],
+      "t": 458.58
     },
     {
       "kind": "story",
@@ -287,40 +336,48 @@
         {
           "speaker": "Alex",
           "en": "Meta announced on Monday that it is expanding its artificial intelligence age-estimation technology worldwide on Instagram. The software proactively detects users who are teenagers, even if they register using an adult birthday.",
-          "ja": "Metaは月曜日、InstagramにおけるAI年齢推定技術を世界中に拡大すると発表しました。ユーザーが成人の生年月日を入力していても、AIが自律的に十代の若者である可能性を検知します。"
+          "ja": "Metaは月曜日、InstagramにおけるAI年齢推定技術を世界中に拡大すると発表しました。ユーザーが成人の生年月日を入力していても、AIが自律的に十代の若者である可能性を検知します。",
+          "t": 479.93
         },
         {
           "speaker": "Mika",
           "en": "How can an artificial intelligence system accurately tell if an account belongs to a teenager?",
-          "ja": "AIシステムはどのようにしてアカウントが十代の若者のものだと正確に見分けるのですか。"
+          "ja": "AIシステムはどのようにしてアカウントが十代の若者のものだと正確に見分けるのですか。",
+          "t": 492.57
         },
         {
           "speaker": "Alex",
           "en": "The artificial intelligence analyzes multiple contextual signals across user profiles. It scans written text in posts, comments, bios, and captions for clues, such as mentions of school grades or birthday celebrations. It also examines visual details in uploaded photos and videos, evaluating physical characteristics like height and bone structure. When the system suspects an account belongs to a teen, it automatically enrolls them into strict Teen Account protections.",
-          "ja": "AIはプロフィール全体の多様な文脈的手がかりを解析します。投稿、コメント、自己紹介欄、キャプション内の文章を調べ、学年や誕生日の祝詞といった文脈を読み取ります。さらに投稿された写真や動画の身体的特徴、例えば身長や骨格なども分析します。若年層と判定された場合、自動的に厳格なティーンアカウント保護機能が適用されます。"
+          "ja": "AIはプロフィール全体の多様な文脈的手がかりを解析します。投稿、コメント、自己紹介欄、キャプション内の文章を調べ、学年や誕生日の祝詞といった文脈を読み取ります。さらに投稿された写真や動画の身体的特徴、例えば身長や骨格なども分析します。若年層と判定された場合、自動的に厳格なティーンアカウント保護機能が適用されます。",
+          "t": 498.52
         },
         {
           "speaker": "Mika",
           "en": "What specific protections do these Teen Accounts enforce?",
-          "ja": "ティーンアカウントでは具体的にどのような保護機能が働くのでしょうか。"
+          "ja": "ティーンアカウントでは具体的にどのような保護機能が働くのでしょうか。",
+          "t": 523.35
         },
         {
           "speaker": "Alex",
           "en": "Teen Accounts set profile settings to private by default, limit daily screen time, hide harmful comments, and prevent unknown adults from sending direct messages. Meta is also rolling out similar technology on Facebook and plans to launch it on Threads later this year.",
-          "ja": "ティーンアカウントはプロフィールを初期設定で非公開にし、毎日の利用時間を制限し、有害なコメントを非表示にし、見知らぬ大人からのメッセージ送信を遮断します。MetaはFacebookでも同様の技術を展開しており、年内にはThreadsへの導入も計画しています。"
+          "ja": "ティーンアカウントはプロフィールを初期設定で非公開にし、毎日の利用時間を制限し、有害なコメントを非表示にし、見知らぬ大人からのメッセージ送信を遮断します。MetaはFacebookでも同様の技術を展開しており、年内にはThreadsへの導入も計画しています。",
+          "t": 527.45
         },
         {
           "speaker": "Mika",
           "en": "What prompted Meta to push this global expansion right now?",
-          "ja": "なぜMetaはこの世界展開を今急いで進めているのですか。"
+          "ja": "なぜMetaはこの世界展開を今急いで進めているのですか。",
+          "t": 542.14
         },
         {
           "speaker": "Alex",
           "en": "Meta recently settled massive legal battles worth up to 18 billion dollars with fifty-two bipartisan attorneys general across the United States. Under that agreement, Meta promised to aggressively identify underage users and keep children under thirteen off its apps. So, in short, Meta is deploying behavioral AI across the world to place suspected teenagers into safer, restricted Instagram experiences.",
-          "ja": "Metaは最近、米国の52の超党派司法長官と最大180億ドル規模の法的一括和解に達しました。その合意の下で未成年利用者の検知強化と13歳未満の排除を約束したためです。要するに、Metaは十代の利用者を安全な制限環境に移行させるため、行動分析AIを世界規模で導入しています。"
+          "ja": "Metaは最近、米国の52の超党派司法長官と最大180億ドル規模の法的一括和解に達しました。その合意の下で未成年利用者の検知強化と13歳未満の排除を約束したためです。要するに、Metaは十代の利用者を安全な制限環境に移行させるため、行動分析AIを世界規模で導入しています。",
+          "t": 546.34
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 479.93
     },
     {
       "kind": "recap",
@@ -333,9 +390,11 @@
           "speaker": "Mika",
           "ja": "MetaはInstagram上で、成人の生年月日を偽って登録した若年層を自動検知するAI年齢推定技術を全世界に拡大しました。投稿テキストや画像の身体的特徴から十代と判断されたアカウントは、非公開設定などの保護機能に自動移行します。各国の法制強化や訴訟に対応する安全対策です。",
           "en": "",
-          "lang": "ja"
+          "lang": "ja",
+          "t": 567.82
         }
-      ]
+      ],
+      "t": 567.82
     },
     {
       "kind": "health",
@@ -345,40 +404,48 @@
         {
           "speaker": "Alex",
           "en": "In our digital health story, United States officials have issued strict new biosecurity guardrails for generative artificial intelligence models used in drug discovery and pharmaceutical design.",
-          "ja": "デジタルヘルスのニュースです。米政府当局者は、創薬や医薬品設計に用いられる生成AIモデルを対象とした、厳格なバイオセキュリティ新指針を策定しました。"
+          "ja": "デジタルヘルスのニュースです。米政府当局者は、創薬や医薬品設計に用いられる生成AIモデルを対象とした、厳格なバイオセキュリティ新指針を策定しました。",
+          "t": 588.0
         },
         {
           "speaker": "Mika",
           "en": "Why are government biosecurity rules suddenly necessary for pharmaceutical research tools?",
-          "ja": "なぜ製薬研究ツールに対して突然、政府による生物安全保障のルールが必要になったのでしょうか。"
+          "ja": "なぜ製薬研究ツールに対して突然、政府による生物安全保障のルールが必要になったのでしょうか。",
+          "t": 601.02
         },
         {
           "speaker": "Alex",
           "en": "Frontier generative artificial intelligence has become incredibly powerful at designing complex biological molecules and identifying candidate medicines in record time. But public health experts and national security agencies warn that this technology cuts both ways. The very same computational tools that design life-saving therapeutic proteins can be repurposed by malicious actors to engineer deadly chemical toxins, synthetic viruses, or completely novel biological weapons.",
-          "ja": "最先端の生成AIは複雑な生体分子を設計し、新薬候補を記録的な速さで特定する強力な能力を持っています。しかし公衆衛生の専門家や安全保障機関は、この技術が諸刃の剣であると警告しています。人命を救う治療用タンパク質を設計する同じ計算ツールが、悪意ある者によって猛毒の化学毒素や人工ウイルス、未知の生物兵器の設計に転用されかねないためです。"
+          "ja": "最先端の生成AIは複雑な生体分子を設計し、新薬候補を記録的な速さで特定する強力な能力を持っています。しかし公衆衛生の専門家や安全保障機関は、この技術が諸刃の剣であると警告しています。人命を救う治療用タンパク質を設計する同じ計算ツールが、悪意ある者によって猛毒の化学毒素や人工ウイルス、未知の生物兵器の設計に転用されかねないためです。",
+          "t": 607.86
         },
         {
           "speaker": "Mika",
           "en": "What concrete requirements do these new federal guidelines impose on drug developers?",
-          "ja": "今回の連邦新指針は創薬開発企業にどのような具体的要件を義務付けているのですか。"
+          "ja": "今回の連邦新指針は創薬開発企業にどのような具体的要件を義務付けているのですか。",
+          "t": 637.82
         },
         {
           "speaker": "Alex",
           "en": "The guidelines mandate that developers put strict safety verification filters on their algorithmic models before simulating molecular biological structures. If a user prompts the system to generate molecular sequences matching dangerous biological agents, the software must block the request and log the security risk.",
-          "ja": "指針では、分子構造のシミュレーションを実行する前に、モデルへ厳格な安全検証フィルターを組み込むことを義務付けています。危険な生体物質に該当する分子配列の生成が指示された場合、ソフトウェアは要求をブロックし安全上のリスクを記録しなければなりません。"
+          "ja": "指針では、分子構造のシミュレーションを実行する前に、モデルへ厳格な安全検証フィルターを組み込むことを義務付けています。危険な生体物質に該当する分子配列の生成が指示された場合、ソフトウェアは要求をブロックし安全上のリスクを記録しなければなりません。",
+          "t": 644.35
         },
         {
           "speaker": "Mika",
           "en": "How will pharmaceutical companies and research universities adapt to these requirements?",
-          "ja": "製薬会社や大学研究機関はこれらの要件にどう適応していくのでしょうか。"
+          "ja": "製薬会社や大学研究機関はこれらの要件にどう適応していくのでしょうか。",
+          "t": 664.74
         },
         {
           "speaker": "Alex",
           "en": "Laboratories and healthcare institutions will need robust compliance infrastructure to verify that their AI drug screening pipelines remain secure while continuing vital scientific innovation. So, in short, federal officials are establishing safety boundaries to stop medical AI from generating dangerous biological weapons.",
-          "ja": "研究所や医療機関は、重要な科学革新を継続しながら創薬スクリーニング基盤の安全性を保証するため、堅牢なコンプライアンス態勢を整える必要があります。要するに、連邦政府は創薬AIが危険な生物兵器の作成に悪用されるのを防ぐため、厳格な防護壁を築きました。"
+          "ja": "研究所や医療機関は、重要な科学革新を継続しながら創薬スクリーニング基盤の安全性を保証するため、堅牢なコンプライアンス態勢を整える必要があります。要するに、連邦政府は創薬AIが危険な生物兵器の作成に悪用されるのを防ぐため、厳格な防護壁を築きました。",
+          "t": 671.46
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 588.0
     },
     {
       "kind": "recap",
@@ -391,9 +458,11 @@
           "speaker": "Mika",
           "ja": "米政府は、医薬品開発AIが生物兵器や毒素の設計に悪用されるのを防ぐための厳格な新指針を策定しました。新薬発見を加速させるAIモデルに対し、危険な分子構造の出力を防ぐ安全検証を義務付けています。画期的な創薬研究の進展と公衆衛生の安全保障を両立させるためのルール整備です。",
           "en": "",
-          "lang": "ja"
+          "lang": "ja",
+          "t": 692.21
         }
-      ]
+      ],
+      "t": 692.21
     },
     {
       "kind": "world",
@@ -403,30 +472,36 @@
         {
           "speaker": "Alex",
           "en": "In world news, United States President Donald Trump said on Monday that the war with Iran is effectively over. The announcement came immediately after Oval Office talks with Qatar's prime minister, Sheikh Mohammed bin Abdulrahman Al Thani.",
-          "ja": "国際ニュースです。ドナルド・トランプ米大統領は月曜日、イランとの戦争は事実上終結したと表明しました。ホワイトハウスの大統領執務室で行われたカタールのムハンマド首相兼外相との首脳会談直後の発言です。"
+          "ja": "国際ニュースです。ドナルド・トランプ米大統領は月曜日、イランとの戦争は事実上終結したと表明しました。ホワイトハウスの大統領執務室で行われたカタールのムハンマド首相兼外相との首脳会談直後の発言です。",
+          "t": 715.2
         },
         {
           "speaker": "Mika",
           "en": "Does this mean United States military strikes against Iranian targets are stopping permanently?",
-          "ja": "これにより米軍によるイラン標的への軍事攻撃は恒久的に停止するのでしょうか。"
+          "ja": "これにより米軍によるイラン標的への軍事攻撃は恒久的に停止するのでしょうか。",
+          "t": 730.89
         },
         {
           "speaker": "Alex",
           "en": "Trump told reporters that resuming military strikes was quite unlikely, adding that Middle Eastern allies like Israel are fully protected. However, Trump maintained that the military remains locked and loaded if conditions change. Meanwhile, Iranian officials strongly rejected Trump's statements, calling them fake news and denying that any formal peace agreement had been signed.",
-          "ja": "トランプ氏は記者団に対し、軍事攻撃の再開は極めて考えにくいと述べ、イスラエルなどの中東同盟国は完全に保護されていると付け加えました。ただし状況が変われば軍は即応態勢にあるとも牽制しました。一方、イラン当局者はトランプ氏の発言を強く否定し、偽ニュースであり公式な和平合意は結ばれていないと反論しています。"
+          "ja": "トランプ氏は記者団に対し、軍事攻撃の再開は極めて考えにくいと述べ、イスラエルなどの中東同盟国は完全に保護されていると付け加えました。ただし状況が変われば軍は即応態勢にあるとも牽制しました。一方、イラン当局者はトランプ氏の発言を強く否定し、偽ニュースであり公式な和平合意は結ばれていないと反論しています。",
+          "t": 738.02
         },
         {
           "speaker": "Mika",
           "en": "How did global financial and energy markets respond to the diplomatic announcement?",
-          "ja": "世界の金融市場やエネルギー市場はこの外交発表にどのように反応しましたか。"
+          "ja": "世界の金融市場やエネルギー市場はこの外交発表にどのように反応しましたか。",
+          "t": 762.16
         },
         {
           "speaker": "Alex",
           "en": "Crude oil prices tumbled sharply as fears of Middle Eastern supply disruptions faded, triggering a relief rally across Wall Street. So, in short, high-level diplomatic mediation with Qatar has brought renewed hopes for an end to direct military strikes between Washington and Tehran.",
-          "ja": "中東の供給混乱への懸念が和らいだことで原油価格は急落し、ウォール街では安堵感から株価が全面高となりました。要するに、カタールとの高官外交を経て、ワシントンとテヘラン間の直接的な軍事衝突の終結に向けた期待が再燃しています。"
+          "ja": "中東の供給混乱への懸念が和らいだことで原油価格は急落し、ウォール街では安堵感から株価が全面高となりました。要するに、カタールとの高官外交を経て、ワシントンとテヘラン間の直接的な軍事衝突の終結に向けた期待が再燃しています。",
+          "t": 768.58
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 715.2
     },
     {
       "kind": "recap",
@@ -439,9 +514,11 @@
           "speaker": "Mika",
           "ja": "トランプ米大統領はカタールの首相と会談後、イランとの軍事衝突について「事実上終結した」と述べ、追加攻撃の可能性は低いとの認識を示しました。イラン側は反発していますが、中東情勢の緊張緩和への期待から国際原油価格は急落しています。",
           "en": "",
-          "lang": "ja"
+          "lang": "ja",
+          "t": 787.33
         }
-      ]
+      ],
+      "t": 787.33
     },
     {
       "kind": "world",
@@ -451,30 +528,36 @@
         {
           "speaker": "Alex",
           "en": "French Foreign Minister Jean-Noel Barrot has formally accused Iran of conducting massive cyber sabotage campaigns across Europe. Hackers targeted internet-connected industrial refrigeration and freezer units at roughly seven hundred retail supermarkets and medical blood banks.",
-          "ja": "フランスのジャン＝ノエル・バロ外相は、欧州全域で大規模なサイバー妨害工作を実行したとしてイランを公式に非難しました。ハッカーらは約700か所のスーパーマーケットや医療用血液バンクにある産業用冷蔵・冷凍設備を標的にしました。"
+          "ja": "フランスのジャン＝ノエル・バロ外相は、欧州全域で大規模なサイバー妨害工作を実行したとしてイランを公式に非難しました。ハッカーらは約700か所のスーパーマーケットや医療用血液バンクにある産業用冷蔵・冷凍設備を標的にしました。",
+          "t": 806.51
         },
         {
           "speaker": "Mika",
           "en": "How did the attackers tamper with these refrigeration systems, and what damage did they cause?",
-          "ja": "攻撃者はどのようにして冷却設備を不正操作し、どのような被害を引き起こしたのですか。"
+          "ja": "攻撃者はどのようにして冷却設備を不正操作し、どのような被害を引き起こしたのですか。",
+          "t": 824.05
         },
         {
           "speaker": "Alex",
           "en": "Hackers breached vulnerable web controllers, including older units made by Danish manufacturer Danfoss. They remotely raised temperatures in the middle of the night, spoiling millions of dollars' worth of chilled and frozen food. Fortunately, health workers discovered the tampering at medical blood banks in time to protect critical blood supplies before anything spoiled.",
-          "ja": "ハッカーはデンマークのダンフォス社製旧型機器を含む脆弱なWebコントローラーに侵入しました。真夜中に遠隔操作で温度を引き上げ、数百万ドル相当の冷蔵・冷凍食料を腐敗させました。幸いにも医療用血液バンクでは職員が異常を早期発見したため、貴重な血液製剤の変質は未然に防がれました。"
+          "ja": "ハッカーはデンマークのダンフォス社製旧型機器を含む脆弱なWebコントローラーに侵入しました。真夜中に遠隔操作で温度を引き上げ、数百万ドル相当の冷蔵・冷凍食料を腐敗させました。幸いにも医療用血液バンクでは職員が異常を早期発見したため、貴重な血液製剤の変質は未然に防がれました。",
+          "t": 830.96
         },
         {
           "speaker": "Mika",
           "en": "How is the French government responding diplomatically to this physical infrastructure attack?",
-          "ja": "この物理インフラへの攻撃に対し、フランス政府は外交的にどう対応していますか。"
+          "ja": "この物理インフラへの攻撃に対し、フランス政府は外交的にどう対応していますか。",
+          "t": 854.07
         },
         {
           "speaker": "Alex",
           "en": "Foreign Minister Barrot called it the first large-scale sabotage on French national territory. France summoned Iran's ambassador and announced plans to impose Europe-wide European Union sanctions against the perpetrators. So, in short, France has formally blamed Iranian state actors for disabling commercial and medical cold-storage networks.",
-          "ja": "バロ外相はフランス領土に対する初の大規模妨害工作であると非難しました。仏政府はイラン大使を召喚し、実行者に対するEU規模の制裁手続きを開始すると表明しました。要するに、フランスは商業および医療の冷却ネットワークを停止させた責任がイラン国家機関にあると公式に断定しました。"
+          "ja": "バロ外相はフランス領土に対する初の大規模妨害工作であると非難しました。仏政府はイラン大使を召喚し、実行者に対するEU規模の制裁手続きを開始すると表明しました。要するに、フランスは商業および医療の冷却ネットワークを停止させた責任がイラン国家機関にあると公式に断定しました。",
+          "t": 860.99
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 806.51
     },
     {
       "kind": "recap",
@@ -487,9 +570,11 @@
           "speaker": "Mika",
           "ja": "フランスのBarrot外相は、欧州のスーパーや血液バンクの業務用冷蔵設備約700拠点を狙ったサイバー攻撃について、イラン軍事組織の関与を断定しました。食品廃棄などの被害を受け、フランスはイラン大使を召喚し、EU規模の制裁手続きを開始しています。",
           "en": "",
-          "lang": "ja"
+          "lang": "ja",
+          "t": 882.36
         }
-      ]
+      ],
+      "t": 882.36
     },
     {
       "kind": "world",
@@ -499,30 +584,36 @@
         {
           "speaker": "Alex",
           "en": "In Washington, outgoing Republican Representative Thomas Massie introduced a resolution on Monday to impeach Defense Secretary Pete Hegseth. The move marks an extraordinary intra-party challenge as Congress convenes following the midterm elections.",
-          "ja": "ワシントンでは月曜日、任期満了を控えた共和党のトーマス・マシー下院議員がピート・ヘグセス国防長官に対する弾劾決議案を提出しました。中間選挙を終えたばかりの議会において異例の党内対立となっています。"
+          "ja": "ワシントンでは月曜日、任期満了を控えた共和党のトーマス・マシー下院議員がピート・ヘグセス国防長官に対する弾劾決議案を提出しました。中間選挙を終えたばかりの議会において異例の党内対立となっています。",
+          "t": 902.94
         },
         {
           "speaker": "Mika",
           "en": "What specific charges did Representative Massie bring against the defense secretary?",
-          "ja": "マシー下院議員は国防長官に対して具体的にどのような嫌疑を申し立てたのですか。"
+          "ja": "マシー下院議員は国防長官に対して具体的にどのような嫌疑を申し立てたのですか。",
+          "t": 918.8
         },
         {
           "speaker": "Alex",
           "en": "Massie reintroduced eight articles of impeachment. He accused Hegseth of violating the Constitution by conducting the military war on Iran without authorization from Congress, violating the War Powers Resolution. Massie also cited strikes on alleged drug boats in the Caribbean, civilian casualties from bombing an Iranian school, and operations in Venezuela and Yemen.",
-          "ja": "マシー氏は8項目の弾劾条項を再提出しました。戦争権限決議に違反し議会の事前承認を得ずにイランへの軍事作戦を実行したとして、憲法違反を主張しています。さらにカリブ海での麻薬船攻撃、イランの学校爆撃による民間人死傷者、ベネズエラやイエメンでの作戦なども告発理由に挙げました。"
+          "ja": "マシー氏は8項目の弾劾条項を再提出しました。戦争権限決議に違反し議会の事前承認を得ずにイランへの軍事作戦を実行したとして、憲法違反を主張しています。さらにカリブ海での麻薬船攻撃、イランの学校爆撃による民間人死傷者、ベネズエラやイエメンでの作戦なども告発理由に挙げました。",
+          "t": 925.13
         },
         {
           "speaker": "Mika",
           "en": "How are Defense Secretary Hegseth and President Trump responding to the impeachment push?",
-          "ja": "ヘグセス国防長官とトランプ大統領はこの弾劾の動きにどう応じていますか。"
+          "ja": "ヘグセス国防長官とトランプ大統領はこの弾劾の動きにどう応じていますか。",
+          "t": 948.01
         },
         {
           "speaker": "Alex",
           "en": "Hegseth stayed defiant, saying critics have disagreements with military success and that he welcomes the chance to defend his record. President Trump defended Hegseth fiercely, insisting he won wars for America and insulting Massie publicly. So, in short, a Republican lawmaker has forced an impeachment effort against the defense secretary over unauthorized foreign wars.",
-          "ja": "ヘグセス氏は自らの軍事的成功に対する政治的反発に過ぎないと反論し、実績を堂々と弁護すると述べました。トランプ大統領もヘグセス氏を強く擁護し、アメリカのために戦争を勝利に導いたと強調してマシー氏を公然と非難しました。要するに、承認なき対外戦争の遂行を巡り、共和党議員が国防長官の弾劾を迫る事態となっています。"
+          "ja": "ヘグセス氏は自らの軍事的成功に対する政治的反発に過ぎないと反論し、実績を堂々と弁護すると述べました。トランプ大統領もヘグセス氏を強く擁護し、アメリカのために戦争を勝利に導いたと強調してマシー氏を公然と非難しました。要するに、承認なき対外戦争の遂行を巡り、共和党議員が国防長官の弾劾を迫る事態となっています。",
+          "t": 954.64
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 902.94
     },
     {
       "kind": "recap",
@@ -535,9 +626,11 @@
           "speaker": "Mika",
           "ja": "米共和党のMassie下院議員は、議会の承認を得ずにイランへの軍事作戦を主導したとして、Pete Hegseth国防長官の弾劾決議案を提出しました。先の中間選挙での民主党勝利を受け、政権による軍事権限の行使に対する議会の追及姿勢が鮮明になっています。",
           "en": "",
-          "lang": "ja"
+          "lang": "ja",
+          "t": 978.14
         }
-      ]
+      ],
+      "t": 978.14
     },
     {
       "kind": "ceo_watch",
@@ -547,15 +640,18 @@
         {
           "speaker": "Alex",
           "en": "In CEO Watch, NVIDIA chief executive Jensen Huang published an open apology to his company. Huang admitted personal unfaithfulness to his wife, acknowledged causing pain to his family, and offered no excuses for his conduct.",
-          "ja": "CEO動静です。NVIDIAのJensen Huang最高経営責任者は社内に向け公開謝罪文を発表しました。妻に対する不貞行為を認め、家族を深く傷つけたと述べ弁解の余地はないと謝罪しました。"
+          "ja": "CEO動静です。NVIDIAのJensen Huang最高経営責任者は社内に向け公開謝罪文を発表しました。妻に対する不貞行為を認め、家族を深く傷つけたと述べ弁解の余地はないと謝罪しました。",
+          "t": 998.62
         },
         {
           "speaker": "Mika",
           "en": "Meanwhile, Elon Musk defended Tesla's decision to halt Cybertruck production in about eight months, promising deposit refunds to affected reservation holders. And AMD chief Lisa Su called recent Wall Street panic short-sighted, as company shares swiftly recovered all of their sharp seventeen percent losses within two trading sessions.",
-          "ja": "一方、Elon Musk氏は約8カ月後にCybertruckの生産を終了するTeslaの決定を擁護し、予約金の手付金を返還すると確約しました。またAMDのLisa Su最高経営責任者は最近の市場の売りを近視眼的だと批判し、株価は17％の急落からわずか2取引日で下落分を全快させました。"
+          "ja": "一方、Elon Musk氏は約8カ月後にCybertruckの生産を終了するTeslaの決定を擁護し、予約金の手付金を返還すると確約しました。またAMDのLisa Su最高経営責任者は最近の市場の売りを近視眼的だと批判し、株価は17％の急落からわずか2取引日で下落分を全快させました。",
+          "t": 1012.68
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 998.62
     },
     {
       "kind": "phrase",
@@ -565,20 +661,24 @@
         {
           "speaker": "Mika",
           "en": "Today's phrase is bypass. Spell it B-Y-P-A-S-S. To bypass something means to find an alternate route, go around a delay, or avoid an obstacle entirely.",
-          "ja": "今日のフレーズは「bypass」です。綴りは B-Y-P-A-S-S。別の経路を見つけたり、遅延を迂回したり、障害を完全に回避することを意味します。"
+          "ja": "今日のフレーズは「bypass」です。綴りは B-Y-P-A-S-S。別の経路を見つけたり、遅延を迂回したり、障害を完全に回避することを意味します。",
+          "t": 1033.07
         },
         {
           "speaker": "Alex",
           "en": "In our energy story today, Anthropic spent billions on natural gas turbines to bypass the six-year waitlist for connecting to the public electrical grid.",
-          "ja": "本日のエネルギーストーリーでは、Anthropicが公共送電網への6年におよぶ接続待ちを回避（バイパス）するため、数十億ドルを投じてガスタービンを購入しました。"
+          "ja": "本日のエネルギーストーリーでは、Anthropicが公共送電網への6年におよぶ接続待ちを回避（バイパス）するため、数十億ドルを投じてガスタービンを購入しました。",
+          "t": 1043.01
         },
         {
           "speaker": "Mika",
           "en": "Another common workplace example: The hospital engineering team built a secure digital portal to bypass slow paper forms and speed up patient admissions. It is a very practical verb for engineering and everyday business.",
-          "ja": "職場でのもう一つの例文です。「病院のエンジニアリングチームは、時間のかかる紙の書類手続きを迂回して患者の受付を迅速化するため、安全なデジタルポータルを構築した」。技術分野や日々のビジネスでとても実用的な動詞です。"
+          "ja": "職場でのもう一つの例文です。「病院のエンジニアリングチームは、時間のかかる紙の書類手続きを迂回して患者の受付を迅速化するため、安全なデジタルポータルを構築した」。技術分野や日々のビジネスでとても実用的な動詞です。",
+          "t": 1053.07
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 1033.07
     },
     {
       "kind": "outro",
@@ -588,15 +688,18 @@
         {
           "speaker": "Alex",
           "en": "From specialized custom artificial intelligence silicon and multi-billion-dollar turbine purchases to new federal biosecurity rules, technological infrastructure is transforming at an unprecedented pace. Keep a close watch on these critical power and safety boundaries as tech leaders race forward.",
-          "ja": "特化型の独自AI半導体や数十億ドル規模のタービン調達から連邦政府のバイオセキュリティ新指針に至るまで、技術インフラは前例のない速度で変革を遂げています。各社が開発競争を加速させる中、電力と安全保障の境界線に引き続き注目していきましょう。"
+          "ja": "特化型の独自AI半導体や数十億ドル規模のタービン調達から連邦政府のバイオセキュリティ新指針に至るまで、技術インフラは前例のない速度で変革を遂げています。各社が開発競争を加速させる中、電力と安全保障の境界線に引き続き注目していきましょう。",
+          "t": 1066.9
         },
         {
           "speaker": "Mika",
           "en": "Thank you very much for listening to Commute News. Stay informed, stay safe, and have a wonderful day ahead on your commute.",
-          "ja": "Commute Newsをお聴きいただき誠にありがとうございました。最新情報をチェックして安全に、通勤時間を快適にお過ごしください。"
+          "ja": "Commute Newsをお聴きいただき誠にありがとうございました。最新情報をチェックして安全に、通勤時間を快適にお過ごしください。",
+          "t": 1085.15
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 1066.9
     },
     {
       "kind": "recap",
@@ -609,9 +712,11 @@
           "speaker": "Mika",
           "ja": "以上、Commute Newsでした。今日も気をつけていってらっしゃい。",
           "en": "",
-          "lang": "ja"
+          "lang": "ja",
+          "t": 1093.56
         }
-      ]
+      ],
+      "t": 1093.56
     }
   ],
   "stories": [

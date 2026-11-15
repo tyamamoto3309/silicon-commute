@@ -4,8 +4,12 @@
   "title_en": "TSMC's $1B AI Deal, EU Digital Fairness Act, and Spain General Strike",
   "title_ja": "TSMCによるAI大手への10億ドル出資、EUのデジタル公正法案、スペインのゼネスト",
   "summary_ja": "半導体大手TSMCがOpenAIとAnthropicに計10億ドルを出資する計画を発表し、AI産業の循環的資金調達が注目されています。EU欧州委員会は依存性デザインやダークパターンを規制するデジタル公正法案を提案し、ヘルスケア分野ではGoogle DeepMindが遺伝子変異の影響を細胞レベルで解析するAlphaGenome 2を発表しました。世界ニュースでは、家賃高騰に対する抗議としてスペインで14年ぶりのゼネストが実施されました。",
-  "duration": null,
-  "audio": null,
+  "duration": 995.9,
+  "audio": {
+    "file": "2026-11-12.mp3",
+    "bytes": 7968077,
+    "release_tag": "ep-2026-11-12"
+  },
   "word_count": 1958,
   "ja_chars": 1133,
   "hosts": [
@@ -15,7 +19,7 @@
   "models": {
     "select": "gemini-3.6-flash",
     "write": "gemini-3.6-flash",
-    "tts": "gemini-3.8-flash-tts"
+    "tts": "gemini-2.5-flash-preview-tts, gemini-3.8-flash-lite-tts"
   },
   "segments": [
     {
@@ -26,20 +30,24 @@
         {
           "speaker": "Alex",
           "en": "Good morning, it is Thursday, November 12. This is Commute News. I am Alex, and today we look at big moves in technology, health, and global news.",
-          "ja": "おはようございます。11月12日木曜日、Commute Newsです。ナビゲーターのAlexです。本日はテクノロジー、ヘルスケア、国際ニュースの最新動向をお伝えします。"
+          "ja": "おはようございます。11月12日木曜日、Commute Newsです。ナビゲーターのAlexです。本日はテクノロジー、ヘルスケア、国際ニュースの最新動向をお伝えします。",
+          "t": 0.0
         },
         {
           "speaker": "Mika",
           "en": "Good morning, I am Mika in Kyoto. Today, chipmaker TSMC invests one billion dollars into top AI labs Anthropic and OpenAI. In health, Google DeepMind releases AlphaGenome 2 to study disease in human cells.",
-          "ja": "おはようございます。京都のMikaです。本日は、半導体メーカーTSMCによるAI開発大手AnthropicとOpenAIへの10億ドル出資を取り上げます。デジタルヘルス分野では、Google DeepMindが人間の細胞疾患を研究するAlphaGenome 2を発表しました。"
+          "ja": "おはようございます。京都のMikaです。本日は、半導体メーカーTSMCによるAI開発大手AnthropicとOpenAIへの10億ドル出資を取り上げます。デジタルヘルス分野では、Google DeepMindが人間の細胞疾患を研究するAlphaGenome 2を発表しました。",
+          "t": 10.44
         },
         {
           "speaker": "Alex",
           "en": "And in world news, millions of workers join a general strike in Spain over rising housing costs. Let us get started.",
-          "ja": "そして国際ニュースでは、住宅コストの高騰に抗議してスペインで数百万人が参加するゼネストが発生しました。それでは始めましょう。"
+          "ja": "そして国際ニュースでは、住宅コストの高騰に抗議してスペインで数百万人が参加するゼネストが発生しました。それでは始めましょう。",
+          "t": 24.48
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 0.0
     },
     {
       "kind": "story",
@@ -49,40 +57,48 @@
         {
           "speaker": "Alex",
           "en": "Our first story is about semiconductor giant TSMC. The Taiwanese chipmaker plans to invest one billion dollars into AI startups OpenAI and Anthropic. According to Reuters, TSMC will buy 500 million dollars of OpenAI stock. It will also buy 500 million dollars of Anthropic shares.",
-          "ja": "最初のニュースは半導体大手TSMCについてです。ロイター通信によると、台湾の同社はAIスタートアップのOpenAIとAnthropicに計10億ドルを出資する計画です。TSMCはOpenAIの優先株を5億ドル、Anthropicの株式を5億ドル購入する予定です。"
+          "ja": "最初のニュースは半導体大手TSMCについてです。ロイター通信によると、台湾の同社はAIスタートアップのOpenAIとAnthropicに計10億ドルを出資する計画です。TSMCはOpenAIの優先株を5億ドル、Anthropicの株式を5億ドル購入する予定です。",
+          "t": 33.08
         },
         {
           "speaker": "Mika",
           "en": "Why is a chip builder buying stakes in AI software companies? Does TSMC not already make chips for them?",
-          "ja": "なぜ受託製造会社がAIソフトウェア企業に出資するのでしょうか？TSMCはすでに彼ら向けにチップを製造しているのではないでしょうか？"
+          "ja": "なぜ受託製造会社がAIソフトウェア企業に出資するのでしょうか？TSMCはすでに彼ら向けにチップを製造しているのではないでしょうか？",
+          "t": 51.7
         },
         {
           "speaker": "Alex",
           "en": "TSMC makes hardware for companies like Nvidia and Apple. But now it wants direct stakes in leading AI model builders. The Wall Street Journal says this deal gives confidence to the AI market. However, analysts warn about circular financing. That means companies invest in their own suppliers or customers. It makes real market demand harder to measure.",
-          "ja": "TSMCはNvidiaやAppleなどのハードウェアを製造しています。しかし今回、最先端AIの開発企業に直接出資しようとしています。ウォール・ストリート・ジャーナル誌は市場の信頼を高めると伝えていますが、アナリストは投資家や供給網が相互に出資し合う循環的資金調達の懸念を指摘しています。"
+          "ja": "TSMCはNvidiaやAppleなどのハードウェアを製造しています。しかし今回、最先端AIの開発企業に直接出資しようとしています。ウォール・ストリート・ジャーナル誌は市場の信頼を高めると伝えていますが、アナリストは投資家や供給網が相互に出資し合う循環的資金調達の懸念を指摘しています。",
+          "t": 59.58
         },
         {
           "speaker": "Mika",
           "en": "TSMC also builds chip factories outside Taiwan, right?",
-          "ja": "TSMCは台湾国外でも工場を建設していますよね？"
+          "ja": "TSMCは台湾国外でも工場を建設していますよね？",
+          "t": 82.59
         },
         {
           "speaker": "Alex",
           "en": "Yes. TSMC operates fabs in Japan and China. It is expanding in Arizona and building a new fab in Germany. Fabs are specialized factories that manufacture silicon microchips. This investment ties TSMC closer to the top creators of artificial intelligence.",
-          "ja": "はい。TSMCは日本や中国で半導体製造工場（ファブ）を運営しています。米国アリゾナ州で拡張を進め、ドイツでも新工場を建設中です。ファブとは半導体チップを製造する専門工場のことです。この出資によりTSMCはAI開発のトップ企業との連携をさらに強化します。"
+          "ja": "はい。TSMCは日本や中国で半導体製造工場（ファブ）を運営しています。米国アリゾナ州で拡張を進め、ドイツでも新工場を建設中です。ファブとは半導体チップを製造する専門工場のことです。この出資によりTSMCはAI開発のトップ企業との連携をさらに強化します。",
+          "t": 87.41
         },
         {
           "speaker": "Mika",
           "en": "So, in short, TSMC is investing one billion dollars into its biggest AI software partners to secure its future role.",
-          "ja": "つまり要約すると、TSMCは将来のポジションを確実にするため、最大のAIパートナー企業に10億ドルを出資するということですね？"
+          "ja": "つまり要約すると、TSMCは将来のポジションを確実にするため、最大のAIパートナー企業に10億ドルを出資するということですね？",
+          "t": 104.44
         },
         {
           "speaker": "Alex",
           "en": "That is right.",
-          "ja": "その通りです。"
+          "ja": "その通りです。",
+          "t": 113.05
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 33.08
     },
     {
       "kind": "recap",
@@ -95,9 +111,11 @@
           "speaker": "Mika",
           "ja": "日本語でおさらいします。半導体受託製造大手のTSMCが、OpenAIとAnthropicに計10億ドルを出資する計画が明らかになりました。自社顧客への直接出資はAI市場への信頼を高める一方、関係企業間での循環型資金調達となり、実際の市場需要を見極めにくくするリスクも懸念されています。",
           "en": "",
-          "lang": "ja"
+          "lang": "ja",
+          "t": 115.43
         }
-      ]
+      ],
+      "t": 115.43
     },
     {
       "kind": "story",
@@ -107,50 +125,60 @@
         {
           "speaker": "Alex",
           "en": "European regulators want to protect online shoppers and social media users. The European Union Commission proposed the Digital Fairness Act on Wednesday. This new law targets deceptive features on internet platforms.",
-          "ja": "欧州の規制当局はオンライン買い物客やSNS利用者の保護を強めています。EU欧州委員会は水曜日、「デジタル公正法案」を提案しました。この新法はネット上の欺瞞的な機能を規制対象としています。"
+          "ja": "欧州の規制当局はオンライン買い物客やSNS利用者の保護を強めています。EU欧州委員会は水曜日、「デジタル公正法案」を提案しました。この新法はネット上の欺瞞的な機能を規制対象としています。",
+          "t": 140.81
         },
         {
           "speaker": "Mika",
           "en": "What kind of features does the EU want to ban?",
-          "ja": "EUはどのような機能を禁止しようとしているのですか？"
+          "ja": "EUはどのような機能を禁止しようとしているのですか？",
+          "t": 154.38
         },
         {
           "speaker": "Alex",
           "en": "It bans dark patterns. Dark patterns are design tricks that push users to spend money. For example, apps cannot show fake claims about low stock. The rule also covers video game loot boxes and hidden influencer ads. Users can turn off infinite scrolling, autoplay videos, and AI chatbot prompts.",
-          "ja": "ダークパターンと呼ばれる手法を禁止します。ダークパターンとは、消費者に購入を促す詐欺的なデザイン手法のことです。例えば在庫がわずかだと偽る表示が禁止されます。またゲームのガチャや隠れたインフルエンサー広告、無制限スクロールや自動再生のオフ機能なども義務付けられます。"
+          "ja": "ダークパターンと呼ばれる手法を禁止します。ダークパターンとは、消費者に購入を促す詐欺的なデザイン手法のことです。例えば在庫がわずかだと偽る表示が禁止されます。またゲームのガチャや隠れたインフルエンサー広告、無制限スクロールや自動再生のオフ機能なども義務付けられます。",
+          "t": 158.38
         },
         {
           "speaker": "Mika",
           "en": "How will this rule help everyday consumers and businesses?",
-          "ja": "この規則は一般の消費者や企業にどのような影響を与えますか？"
+          "ja": "この規則は一般の消費者や企業にどのような影響を与えますか？",
+          "t": 176.39
         },
         {
           "speaker": "Alex",
           "en": "The EU Commission says the law could save European consumers up to 15.1 billion dollars each year. It also creates fair rules for businesses. Subscriptions must be easy to cancel. Also, ticket sites must show clear real-time prices. Violators could face fines of up to six percent of their global annual revenue.",
-          "ja": "欧州委員会によると、この法律により消費者は年間最大151億ドルを節約できます。サブスク解約手続きの簡素化やチケットのリアルタイム価格表示も求められます。違反企業には全世界の年商の最大6パーセントの罰金が科される可能性があります。"
+          "ja": "欧州委員会によると、この法律により消費者は年間最大151億ドルを節約できます。サブスク解約手続きの簡素化やチケットのリアルタイム価格表示も求められます。違反企業には全世界の年商の最大6パーセントの罰金が科される可能性があります。",
+          "t": 181.06
         },
         {
           "speaker": "Mika",
           "en": "Does this mean apps will have to change how they talk to children?",
-          "ja": "子供向けのアプリ仕様も変更が必要になるのでしょうか？"
+          "ja": "子供向けのアプリ仕様も変更が必要になるのでしょうか？",
+          "t": 200.04
         },
         {
           "speaker": "Alex",
           "en": "Yes. It limits targeted ads and paid gaming features for minors. The draft law must still pass the European Parliament before it becomes law.",
-          "ja": "はい。未成年者向けのターゲット広告や課金要素が制限されます。草案は今後、欧州議会での承認手続きに進みます。"
+          "ja": "はい。未成年者向けのターゲット広告や課金要素が制限されます。草案は今後、欧州議会での承認手続きに進みます。",
+          "t": 205.16
         },
         {
           "speaker": "Mika",
           "en": "So, in short, the EU proposes strict rules to stop addictive app designs and hidden online costs.",
-          "ja": "つまり要約すると、EUはアプリの依存性デザインや隠れたネット費用を止める厳しい規制案を出したということですね？"
+          "ja": "つまり要約すると、EUはアプリの依存性デザインや隠れたネット費用を止める厳しい規制案を出したということですね？",
+          "t": 214.5
         },
         {
           "speaker": "Alex",
           "en": "Exactly.",
-          "ja": "その通りです。"
+          "ja": "その通りです。",
+          "t": 221.37
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 140.81
     },
     {
       "kind": "recap",
@@ -163,9 +191,11 @@
           "speaker": "Mika",
           "ja": "EU欧州委員会は、消費者を惑わすデザインや依存性の高い機能を規制する「デジタル公正法案」を発表しました。無制限スクロールの停止や未成年向け課金規制などが盛り込まれており、違反企業には世界売上高の最大6パーセントの罰金が科される可能性があります。",
           "en": "",
-          "lang": "ja"
+          "lang": "ja",
+          "t": 223.23
         }
-      ]
+      ],
+      "t": 223.23
     },
     {
       "kind": "story",
@@ -175,40 +205,48 @@
         {
           "speaker": "Alex",
           "en": "A key leader at Meta is stepping down. Santosh Janardhan, the company head of infrastructure and co-head of engineering, will leave his position in early 2027. He first joined the social media giant back in 2009 according to TechCrunch.",
-          "ja": "Metaの重要幹部が退任します。TechCrunchによると、同社のインフラ責任者兼エンジニアリング共同部門長のSantosh Janardhan氏が2027年初頭に退任する予定です。同氏は2009年に入社しました。"
+          "ja": "Metaの重要幹部が退任します。TechCrunchによると、同社のインフラ責任者兼エンジニアリング共同部門長のSantosh Janardhan氏が2027年初頭に退任する予定です。同氏は2009年に入社しました。",
+          "t": 243.18
         },
         {
           "speaker": "Mika",
           "en": "Who will take over his job as Meta spends billions on data centers for AI?",
-          "ja": "MetaがAIデータセンターに巨額を投じる中、誰が彼を引き継ぐのですか？"
+          "ja": "MetaがAIデータセンターに巨額を投じる中、誰が彼を引き継ぐのですか？",
+          "t": 257.88
         },
         {
           "speaker": "Alex",
           "en": "Dave Brown will take over the role. Brown joined Meta earlier this year after spending 19 years at Amazon Web Services. At Amazon, he focused on cloud computing and artificial intelligence. Janardhan will move into an advisory role for Meta Compute to help with the transition. Meta Compute is the team scaling data center investments.",
-          "ja": "後任にはDave Brown氏が就任します。同氏はAmazon Web Servicesで19年間クラウドやAI事業に携わった後、今年Metaに入社しました。Janardhan氏は退任まで、データセンター投資を管轄するMeta Compute部門のアドバイザーを務めます。"
+          "ja": "後任にはDave Brown氏が就任します。同氏はAmazon Web Servicesで19年間クラウドやAI事業に携わった後、今年Metaに入社しました。Janardhan氏は退任まで、データセンター投資を管轄するMeta Compute部門のアドバイザーを務めます。",
+          "t": 263.45
         },
         {
           "speaker": "Mika",
           "en": "Did Janardhan state why he is stepping down during this key building phase?",
-          "ja": "重要期における退任の理由についてJanardhan氏は何か述べていますか？"
+          "ja": "重要期における退任の理由についてJanardhan氏は何か述べていますか？",
+          "t": 283.72
         },
         {
           "speaker": "Alex",
           "en": "An internal memo reported by Bloomberg said he felt it was time to pass the baton. Infrastructure means the servers, networks, and power systems that keep internet apps running. Meta is investing heavily to build larger data centers. Bringing in a former AWS executive shows Meta wants strong enterprise experience.",
-          "ja": "ブルームバーグが報じた社内メモによると、「バトンを渡す時期」だと述べたとのことです。インフラとはアプリの運行に必要なサーバーやネットワークなどの基盤設備を指します。クラウド大手の元幹部を起用したことは、Metaが大規模インフラ構築の知見を求めていることを示しています。"
+          "ja": "ブルームバーグが報じた社内メモによると、「バトンを渡す時期」だと述べたとのことです。インフラとはアプリの運行に必要なサーバーやネットワークなどの基盤設備を指します。クラウド大手の元幹部を起用したことは、Metaが大規模インフラ構築の知見を求めていることを示しています。",
+          "t": 289.35
         },
         {
           "speaker": "Mika",
           "en": "So, in short, Meta is changing its infrastructure leader to a former Amazon cloud executive to manage its huge AI buildout.",
-          "ja": "つまり要約すると、Metaは巨額のAIデータセンター拡張を管理するため、インフラ責任者を元Amazonのクラウド幹部に交代させるわけですね？"
+          "ja": "つまり要約すると、Metaは巨額のAIデータセンター拡張を管理するため、インフラ責任者を元Amazonのクラウド幹部に交代させるわけですね？",
+          "t": 308.49
         },
         {
           "speaker": "Alex",
           "en": "That is correct.",
-          "ja": "その通りです。"
+          "ja": "その通りです。",
+          "t": 316.82
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 243.18
     },
     {
       "kind": "recap",
@@ -221,9 +259,11 @@
           "speaker": "Mika",
           "ja": "Metaの長年のインフラ責任者であるSantosh Janardhan氏が2027年初頭に退任し、元Amazon幹部のDave Brown氏が後任に就くことが決定しました。AIデータセンター構築の加速に伴い、クラウド運用の知見を持つリーダーへと体制移行を進める狙いがあります。",
           "en": "",
-          "lang": "ja"
+          "lang": "ja",
+          "t": 319.58
         }
-      ]
+      ],
+      "t": 319.58
     },
     {
       "kind": "story",
@@ -233,40 +273,48 @@
         {
           "speaker": "Alex",
           "en": "SoftBank is changing its energy plans for AI data centers. The Japanese technology firm canceled large reservations for gas power turbines. It will take a 3.7 billion dollar hit to earnings. The company canceled reservations for 13 gigawatts of power capacity according to The Wall Street Journal.",
-          "ja": "SoftBankがAIデータセンター向けのエネルギー計画を変更しています。同社はガスタービンの大規模予約をキャンセルし、37億ドルの費用を計上します。ウォール・ストリート・ジャーナルによると、キャンセルされた発電容量は13ギガワット分に上ります。"
+          "ja": "SoftBankがAIデータセンター向けのエネルギー計画を変更しています。同社はガスタービンの大規模予約をキャンセルし、37億ドルの費用を計上します。ウォール・ストリート・ジャーナルによると、キャンセルされた発電容量は13ギガワット分に上ります。",
+          "t": 342.01
         },
         {
           "speaker": "Mika",
           "en": "Why did SoftBank reserve so many power turbines in the first place?",
-          "ja": "そもそもSoftBankはなぜそれほど大量のタービンを予約していたのですか？"
+          "ja": "そもそもSoftBankはなぜそれほど大量のタービンを予約していたのですか？",
+          "t": 360.18
         },
         {
           "speaker": "Alex",
           "en": "SoftBank wanted to secure power equipment early, fearing supply shortages. A gas turbine converts natural gas into electricity for data centers. SoftBank founder Masayoshi Son reserved massive capacity. However, the company determined it ordered too much equipment and chose to end contracts with supplier GE Vernova.",
-          "ja": "電力機器の不足を見越して早期確保を目指したためです。ガスタービンは天然ガスをデータセンター用電力に変換します。孫正義会長の主導で巨大容量を確保しましたが、需要予想の過剰によりサプライヤーのGE Vernovaとの契約を解除することを決定しました。"
+          "ja": "電力機器の不足を見越して早期確保を目指したためです。ガスタービンは天然ガスをデータセンター用電力に変換します。孫正義会長の主導で巨大容量を確保しましたが、需要予想の過剰によりサプライヤーのGE Vernovaとの契約を解除することを決定しました。",
+          "t": 365.37
         },
         {
           "speaker": "Mika",
           "en": "Did Elon Musk not claim that SoftBank defaulted on these turbine contracts?",
-          "ja": "Elon Musk氏がSoftBankは契約破綻したと主張していませんでしたか？"
+          "ja": "Elon Musk氏がSoftBankは契約破綻したと主張していませんでしたか？",
+          "t": 384.66
         },
         {
           "speaker": "Alex",
           "en": "Yes. But SoftBank Chief Financial Officer Yoshimitsu Goto publicly denied Elon Musk claim. Goto stated there was no default and that the change was voluntary. SoftBank is still building a 33 billion dollar power plant in Ohio. That plant will provide energy to a nearby eight-gigawatt OpenAI data center leased by SoftBank.",
-          "ja": "はい。しかしSoftBankの後藤芳光CFOはMusk氏の主張を否定し、契約不履行ではなく自主的な解約だと表明しました。なおSoftBankはオハイオ州でOpenAI向けデータセンター用として330億ドル規模の発電所建設を引き続き計画しています。"
+          "ja": "はい。しかしSoftBankの後藤芳光CFOはMusk氏の主張を否定し、契約不履行ではなく自主的な解約だと表明しました。なおSoftBankはオハイオ州でOpenAI向けデータセンター用として330億ドル規模の発電所建設を引き続き計画しています。",
+          "t": 390.3
         },
         {
           "speaker": "Mika",
           "en": "So, in short, SoftBank took a 3.7 billion dollar charge to cancel excess gas turbine orders while adjusting its AI power projects.",
-          "ja": "つまり要約すると、SoftBankはAI電力計画の調整に伴い、過剰予約だったガスタービン注文を解約して37億ドルの損失処理を行ったということですね？"
+          "ja": "つまり要約すると、SoftBankはAI電力計画の調整に伴い、過剰予約だったガスタービン注文を解約して37億ドルの損失処理を行ったということですね？",
+          "t": 409.94
         },
         {
           "speaker": "Alex",
           "en": "That is right.",
-          "ja": "その通りです。"
+          "ja": "その通りです。",
+          "t": 418.68
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 342.01
     },
     {
       "kind": "recap",
@@ -279,9 +327,11 @@
           "speaker": "Mika",
           "ja": "SoftBankはAIデータセンター用ガスタービンの大量予約を解約し、37億ドルの費用を計上することを明らかにしました。電力不足を見越して過剰に確保していた備品を調整した形ですが、同社はElon Musk氏の主張する債務不履行を明確に否定しています。",
           "en": "",
-          "lang": "ja"
+          "lang": "ja",
+          "t": 420.88
         }
-      ]
+      ],
+      "t": 420.88
     },
     {
       "kind": "story",
@@ -291,40 +341,48 @@
         {
           "speaker": "Alex",
           "en": "British semiconductor startup Fractile has raised 720 million dollars in a new Series C funding round. The funding round was supported by Britain Sovereign AI Fund, Thrive Capital, and Lightspeed. Financial reports value the U.K. company at over five billion British pounds, which is about seven billion dollars according to Reuters.",
-          "ja": "英国の半導体スタートアップFractileがシリーズCで7億2000万ドルを調達しました。英国政府のソブリンAI基金やThrive Capitalなどが参加しています。ロイター通信によると、企業評価額は50億ポンド（約70億ドル）以上に達しています。"
+          "ja": "英国の半導体スタートアップFractileがシリーズCで7億2000万ドルを調達しました。英国政府のソブリンAI基金やThrive Capitalなどが参加しています。ロイター通信によると、企業評価額は50億ポンド（約70億ドル）以上に達しています。",
+          "t": 441.33
         },
         {
           "speaker": "Mika",
           "en": "What makes Fractile chip design unique compared to standard AI processors?",
-          "ja": "Fractileのチップ設計は従来のAIプロセッサと何が違うのですか？"
+          "ja": "Fractileのチップ設計は従来のAIプロセッサと何が違うのですか？",
+          "t": 461.53
         },
         {
           "speaker": "Alex",
           "en": "Fractile places memory directly on top of the silicon chip. It uses stacked DRAM memory to speed up AI inference. Inference is the process where a trained AI model processes user prompts. Traditional chips slow down when processing long chains of tasks. Fractile memory design aims to solve that bottleneck.",
-          "ja": "Fractileはシリコンチップ上にメモリを積層配置しています。DRAMメモリを積み重ねることでAI推論を高速化します。推論とは学習済みAIモデルが指示を処理する工程です。従来のチップが苦手としていた連続タスクでの処理速度の低下を防ぎます。"
+          "ja": "Fractileはシリコンチップ上にメモリを積層配置しています。DRAMメモリを積み重ねることでAI推論を高速化します。推論とは学習済みAIモデルが指示を処理する工程です。従来のチップが苦手としていた連続タスクでの処理速度の低下を防ぎます。",
+          "t": 467.12
         },
         {
           "speaker": "Mika",
           "en": "Why is the British government backing this chip startup so heavily?",
-          "ja": "英国政府がこのスタートアップを強力に支援しているのはなぜですか？"
+          "ja": "英国政府がこのスタートアップを強力に支援しているのはなぜですか？",
+          "t": 485.85
         },
         {
           "speaker": "Alex",
           "en": "The U.K. government wants to ensure Britain holds a strong position in physical AI hardware. Fractile builds both custom chips and machine learning software. Chief Executive Officer Walter Goodwin stated on LinkedIn that the new money will allow Fractile to ship its first chip systems next year.",
-          "ja": "英国政府は自国経済の基盤となるAIハードウェア領域で主導権を確保したい考えです。Fractileはチップとソフトウェアの両方を開発しています。Walter Goodwin CEOは、調達資金を活用して来年中に最初のチップ出荷を目指すと発表しました。"
+          "ja": "英国政府は自国経済の基盤となるAIハードウェア領域で主導権を確保したい考えです。Fractileはチップとソフトウェアの両方を開発しています。Walter Goodwin CEOは、調達資金を活用して来年中に最初のチップ出荷を目指すと発表しました。",
+          "t": 491.04
         },
         {
           "speaker": "Mika",
           "en": "So, in short, Fractile secured 720 million dollars to manufacture custom U.K. chips that run AI models faster and cheaper.",
-          "ja": "つまり要約すると、FractileはAIモデルを高速かつ低コストで動かす独自チップの製造に向け、7億2000万ドルを確保したということですね？"
+          "ja": "つまり要約すると、FractileはAIモデルを高速かつ低コストで動かす独自チップの製造に向け、7億2000万ドルを確保したということですね？",
+          "t": 509.15
         },
         {
           "speaker": "Alex",
           "en": "That is correct. It is a major boost for European hardware.",
-          "ja": "その通りです。欧州のハードウェア開発にとって大きな前進です。"
+          "ja": "その通りです。欧州のハードウェア開発にとって大きな前進です。",
+          "t": 517.44
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 441.33
     },
     {
       "kind": "recap",
@@ -337,9 +395,11 @@
           "speaker": "Mika",
           "ja": "英国のAIチップスタートアップFractileが、政府基金などから7億2000万ドルを調達しました。メモリをチップ上に積層する独自構造によりAI推論の処理速度向上を目指しており、来年の製品出荷に向けて開発を加速させています。",
           "en": "",
-          "lang": "ja"
+          "lang": "ja",
+          "t": 522.63
         }
-      ]
+      ],
+      "t": 522.63
     },
     {
       "kind": "health",
@@ -349,40 +409,48 @@
         {
           "speaker": "Alex",
           "en": "Now, our digital health story. Google DeepMind has unveiled AlphaGenome 2. This new artificial intelligence model helps scientists understand how changes in human DNA affect individual biological cells. DeepMind trained the AI model on over 100 million individual cell profiles across 68 human tissues to map disease mechanisms.",
-          "ja": "続いてデジタルヘルス領域のニュースです。Google DeepMindが「AlphaGenome 2」を発表しました。このAIモデルはDNA変異が人間の個別細胞に与える影響を解析します。68の組織から1億件以上の単一細胞データを学習し、疾患のメカニズムを解明します。"
+          "ja": "続いてデジタルヘルス領域のニュースです。Google DeepMindが「AlphaGenome 2」を発表しました。このAIモデルはDNA変異が人間の個別細胞に与える影響を解析します。68の組織から1億件以上の単一細胞データを学習し、疾患のメカニズムを解明します。",
+          "t": 542.83
         },
         {
           "speaker": "Mika",
           "en": "How does AlphaGenome 2 help doctors and medical researchers discover new disease treatments?",
-          "ja": "AlphaGenome 2は医師や研究者の治療法開発にどのように役立つのですか？"
+          "ja": "AlphaGenome 2は医師や研究者の治療法開発にどのように役立つのですか？",
+          "t": 564.61
         },
         {
           "speaker": "Alex",
           "en": "Almost every human cell shares the exact same DNA. However, heart muscle cells, skin cells, and immune cells activate different genes. AlphaGenome 2 predicts how genetic variants alter specific cell types. Google says it identifies nearly twice as many gene-changing variants as older systems. It turns static cell maps into predictive engines.",
-          "ja": "体の細胞は同じDNAを持ちますが、心筋や皮膚、免疫細胞ごとに働く遺伝子が異なります。AlphaGenome 2は細胞の種類ごとに遺伝子変異の影響を予測し、従来モデルの約2倍の変異を検出できます。静的な細胞図鑑を予測エンジンへと進化させました。"
+          "ja": "体の細胞は同じDNAを持ちますが、心筋や皮膚、免疫細胞ごとに働く遺伝子が異なります。AlphaGenome 2は細胞の種類ごとに遺伝子変異の影響を予測し、従来モデルの約2倍の変異を検出できます。静的な細胞図鑑を予測エンジンへと進化させました。",
+          "t": 571.83
         },
         {
           "speaker": "Mika",
           "en": "Does this mean researchers can analyze drug targets on computer simulations before laboratory testing?",
-          "ja": "ラボでの実験前にコンピュータ上で創薬ターゲットを分析できるということでしょうか？"
+          "ja": "ラボでの実験前にコンピュータ上で創薬ターゲットを分析できるということでしょうか？",
+          "t": 594.6
         },
         {
           "speaker": "Alex",
           "en": "Yes. DeepMind scientist Adam Gayoso says the system links genetics directly to cell biology. DeepMind genomics lead Žiga Avsec explains that developing new drugs requires targeting specific proteins in specific cell types. AlphaGenome 2 gives researchers that needed detail. It can even predict actions in unstudied cell types without retraining.",
-          "ja": "その通りです。DeepMindの研究者は人間遺伝学と細胞生物学が直結したと説明します。創薬では特定の細胞内のタンパク質を標的にする必要があるため、この詳細な予測精度が不可欠となります。未学習の細胞状態に対しても再学習なしで予測が可能です。"
+          "ja": "その通りです。DeepMindの研究者は人間遺伝学と細胞生物学が直結したと説明します。創薬では特定の細胞内のタンパク質を標的にする必要があるため、この詳細な予測精度が不可欠となります。未学習の細胞状態に対しても再学習なしで予測が可能です。",
+          "t": 602.44
         },
         {
           "speaker": "Mika",
           "en": "So, in short, AlphaGenome 2 maps how DNA mutations impact specific human cells, speeding up targeted medical treatments.",
-          "ja": "つまり要約すると、AlphaGenome 2はDNA変異の細胞別影響を可視化し、ピンポイントな新薬開発を加速させるということですね？"
+          "ja": "つまり要約すると、AlphaGenome 2はDNA変異の細胞別影響を可視化し、ピンポイントな新薬開発を加速させるということですね？",
+          "t": 625.33
         },
         {
           "speaker": "Alex",
           "en": "That is right.",
-          "ja": "その通りです。"
+          "ja": "その通りです。",
+          "t": 634.27
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 542.83
     },
     {
       "kind": "recap",
@@ -395,9 +463,11 @@
           "speaker": "Mika",
           "ja": "Google DeepMindが、DNA変異が特定の細胞にどのような影響を与えるかを予測する「AlphaGenome 2」を発表しました。細胞の種類ごとの遺伝子発現パターンを高精度で特定できるため、ターゲットを絞った効果的な創薬や精密医療への活用が期待されています。",
           "en": "",
-          "lang": "ja"
+          "lang": "ja",
+          "t": 636.68
         }
-      ]
+      ],
+      "t": 636.68
     },
     {
       "kind": "world",
@@ -407,40 +477,48 @@
         {
           "speaker": "Alex",
           "en": "Now, a look at the world beyond tech. Millions of workers across Spain joined a nationwide general strike on Wednesday. It was Spain's first general strike in 14 years. Unions organized the 24-hour stoppage to protest high living costs and soaring housing prices.",
-          "ja": "続いてテクノロジー以外の世界ニュースです。水曜日、スペイン全土で14年ぶりとなるゼネストが実施され、数百万人の労働者が参加しました。労働組合主導の24時間ストライキは、生活費と家賃の高騰に対する抗議として行われました。"
+          "ja": "続いてテクノロジー以外の世界ニュースです。水曜日、スペイン全土で14年ぶりとなるゼネストが実施され、数百万人の労働者が参加しました。労働組合主導の24時間ストライキは、生活費と家賃の高騰に対する抗議として行われました。",
+          "t": 660.38
         },
         {
           "speaker": "Mika",
           "en": "How serious is the housing crisis for average Spanish workers?",
-          "ja": "一般のスペイン人労働者にとって住宅危機はどれほど深刻なのですか？"
+          "ja": "一般のスペイン人労働者にとって住宅危機はどれほど深刻なのですか？",
+          "t": 678.15
         },
         {
           "speaker": "Alex",
           "en": "In Madrid, renting a small 50-square-meter apartment costs about 1,170 euros a month. That is nearly half the average monthly gross salary of 2,460 euros. Housing experts recommend spending under 30 percent. Protests erupted after an 87-year-old woman was evicted from her long-time Madrid home and later died.",
-          "ja": "マドリードでは50平方メートルのアパート家賃が月平均1,170ユーロで、平均月収2,460ユーロの約半分を占めます。適正水準とされる30パーセントを大幅に超えています。70年住んだ家を立ち退かされた87歳女性の死が抗議活動のきっかけとなりました。"
+          "ja": "マドリードでは50平方メートルのアパート家賃が月平均1,170ユーロで、平均月収2,460ユーロの約半分を占めます。適正水準とされる30パーセントを大幅に超えています。70年住んだ家を立ち退かされた87歳女性の死が抗議活動のきっかけとなりました。",
+          "t": 683.52
         },
         {
           "speaker": "Mika",
           "en": "Did the general strike cause big disruptions in major cities?",
-          "ja": "主要都市では大きな混乱が生じたのでしょうか？"
+          "ja": "主要都市では大きな混乱が生じたのでしょうか？",
+          "t": 704.19
         },
         {
           "speaker": "Alex",
           "en": "Transport came to a standstill. Over 120,000 demonstrators marched in Madrid and 50,000 gathered in Barcelona. Some violent scuffles broke out, and police made over 50 arrests. Socialist Prime Minister Pedro Sánchez recently called snap elections for November 29 after housing reform plans failed in parliament.",
-          "ja": "公共交通機関がストップし、マドリードで12万人、バルセロナで5万人がデモ行進しました。一部で衝突が起き50人以上が逮捕されました。住宅改革案の議会否決を受け、Sánchez首相は11月29日に解散総選挙を行う予定です。"
+          "ja": "公共交通機関がストップし、マドリードで12万人、バルセロナで5万人がデモ行進しました。一部で衝突が起き50人以上が逮捕されました。住宅改革案の議会否決を受け、Sánchez首相は11月29日に解散総選挙を行う予定です。",
+          "t": 709.5
         },
         {
           "speaker": "Mika",
           "en": "It sounds like housing will be a major issue in the upcoming vote.",
-          "ja": "住宅問題が次の選挙の最大の争点になりそうですね。"
+          "ja": "住宅問題が次の選挙の最大の争点になりそうですね。",
+          "t": 730.23
         },
         {
           "speaker": "Alex",
           "en": "Indeed it will.",
-          "ja": "間違いなくそうなります。"
+          "ja": "間違いなくそうなります。",
+          "t": 735.84
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 660.38
     },
     {
       "kind": "recap",
@@ -453,9 +531,11 @@
           "speaker": "Mika",
           "ja": "スペインで家賃高騰と生活苦に抗議する14年ぶりのゼネストが行われ、数百万人が参加しました。マドリード等の家賃水準が平均給与の半分近くに達しており、11月29日に控える総選挙に向けて住宅政策が最大の焦点となっています。",
           "en": "",
-          "lang": "ja"
+          "lang": "ja",
+          "t": 738.76
         }
-      ]
+      ],
+      "t": 738.76
     },
     {
       "kind": "world",
@@ -465,40 +545,48 @@
         {
           "speaker": "Alex",
           "en": "The United Kingdom has appointed the world's first special representative for climate security. Prime Minister Andy Burnham will formally announce the role at the COP31 climate summit in Turkey. Madeleine Alessandri, chair of the Joint Intelligence Committee, will take the new advisory post.",
-          "ja": "英国政府が世界初となる気候安全保障担当の特別代表を任命しました。Burnham首相がトルコで開催中のCOP31で発表する予定です。合同情報委員会の議長を務めるMadeleine Alessandri氏が就任します。"
+          "ja": "英国政府が世界初となる気候安全保障担当の特別代表を任命しました。Burnham首相がトルコで開催中のCOP31で発表する予定です。合同情報委員会の議長を務めるMadeleine Alessandri氏が就任します。",
+          "t": 754.47
         },
         {
           "speaker": "Mika",
           "en": "What will the climate security representative do for UK national security?",
-          "ja": "気候安全保障特使は英国の安全保障でどのような役割を果たすのですか？"
+          "ja": "気候安全保障特使は英国の安全保障でどのような役割を果たすのですか？",
+          "t": 770.2
         },
         {
           "speaker": "Alex",
           "en": "Alessandri will advise top government officials on national security risks caused by global climate disruption. A secret intelligence report warned that ecosystem failures abroad could cause UK food shortages, price hikes, and mass migration within five years. Prime Minister Burnham pledged strong climate leadership.",
-          "ja": "Alessandri氏は気候変動がもたらす安全保障上のリスクについて政府首脳に助言します。非公開の情報報告書は、海外の生態系崩壊が5年以内に英国の食料不足や物価高、大量移民を引き起こす恐れがあると警告しています。"
+          "ja": "Alessandri氏は気候変動がもたらす安全保障上のリスクについて政府首脳に助言します。非公開の情報報告書は、海外の生態系崩壊が5年以内に英国の食料不足や物価高、大量移民を引き起こす恐れがあると警告しています。",
+          "t": 775.11
         },
         {
           "speaker": "Mika",
           "en": "Are environmental groups happy with this new UK government appointment?",
-          "ja": "環境団体はこの新たな政府人事を受け入れていますか？"
+          "ja": "環境団体はこの新たな政府人事を受け入れていますか？",
+          "t": 792.13
         },
         {
           "speaker": "Alex",
           "en": "Campaigners criticize the move. Groups like Power Shift Africa point out double standards. They say the U.K. preaches clean development overseas while approving new North Sea gas projects like Jackdaw at home. They want stronger domestic emissions cuts to match the government climate security claims.",
-          "ja": "環境団体は懐疑的です。海外にはクリーン開発を求めつつ、国内では北海ガス田開発などを承認している二重基準を批判しています。安全保障を唱えるならば、国内の温室効果ガス削減計画を強化すべきだと主張しています。"
+          "ja": "環境団体は懐疑的です。海外にはクリーン開発を求めつつ、国内では北海ガス田開発などを承認している二重基準を批判しています。安全保障を唱えるならば、国内の温室効果ガス削減計画を強化すべきだと主張しています。",
+          "t": 796.9
         },
         {
           "speaker": "Mika",
           "en": "So national security and environmental policies are becoming closely linked.",
-          "ja": "国家安全保障と環境政策が強く結びつき始めていますね。"
+          "ja": "国家安全保障と環境政策が強く結びつき始めていますね。",
+          "t": 813.07
         },
         {
           "speaker": "Alex",
           "en": "Yes, completely.",
-          "ja": "まさにその通りです。"
+          "ja": "まさにその通りです。",
+          "t": 818.08
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 754.47
     },
     {
       "kind": "recap",
@@ -511,9 +599,11 @@
           "speaker": "Mika",
           "ja": "英国政府は気候変動に伴う食料不足や地域紛争などの安全保障リスクに対処するため、世界初の「気候安全保障特別代表」を任命しました。しかし、国内で化石燃料開発を続ける政府の姿勢に対して環境団体からの批判も上がっています。",
           "en": "",
-          "lang": "ja"
+          "lang": "ja",
+          "t": 820.12
         }
-      ]
+      ],
+      "t": 820.12
     },
     {
       "kind": "world",
@@ -523,40 +613,48 @@
         {
           "speaker": "Alex",
           "en": "Indonesia Vice President Gibran Rakabuming Raka has submitted his resignation to President Prabowo Subianto. An aide confirmed to the BBC that the letter was delivered on Wednesday. This move threatens the political alliance governing Southeast Asia's largest economy.",
-          "ja": "インドネシアのGibran Rakabuming Raka副大統領がPrabowo Subianto大統領に辞表を提出しました。水曜日に書面が届けられたとBBCが報じており、東南アジア最大の経済国における連立与党の対立が深刻化しています。"
+          "ja": "インドネシアのGibran Rakabuming Raka副大統領がPrabowo Subianto大統領に辞表を提出しました。水曜日に書面が届けられたとBBCが報じており、東南アジア最大の経済国における連立与党の対立が深刻化しています。",
+          "t": 835.69
         },
         {
           "speaker": "Mika",
           "en": "Why did the Vice President decide to hand in his resignation?",
-          "ja": "なぜ副大統領は辞表を提出する事態になったのですか？"
+          "ja": "なぜ副大統領は辞表を提出する事態になったのですか？",
+          "t": 850.23
         },
         {
           "speaker": "Alex",
           "en": "Indonesia Supreme Court ruled that Gibran's high school equivalence certificate was invalid. Over 100 lawmakers supported an effort to start impeachment proceedings against him. Gibran, who is 39 years old, is the son of former president Joko Widodo, known as Jokowi.",
-          "ja": "最高裁判所がGibran氏の高校卒業同等資格を無効と判定したためです。100人以上の議員が弾劾手続きを支持していました。39歳の同氏はJokowi前大統領の息子です。"
+          "ja": "最高裁判所がGibran氏の高校卒業同等資格を無効と判定したためです。100人以上の議員が弾劾手続きを支持していました。39歳の同氏はJokowi前大統領の息子です。",
+          "t": 854.5
         },
         {
           "speaker": "Mika",
           "en": "Does this resignation show a growing rift between current and former leadership?",
-          "ja": "この辞任は現大統領と前大統領の亀裂の深まりを示しているのでしょうか？"
+          "ja": "この辞任は現大統領と前大統領の亀裂の深まりを示しているのでしょうか？",
+          "t": 868.99
         },
         {
           "speaker": "Alex",
           "en": "Yes. President Prabowo has shifted away from Jokowi's key projects, including building a new capital city. Instead, Prabowo is focusing resources on a nationwide free school meal program. The political fallout could create uncertainty for regional policy and government stability in Indonesia.",
-          "ja": "はい。Prabowo大統領は新首都建設など前大統領の主要施策から離れ、独自の無料給食事業へ予算を振り向けています。この政治的混迷は同国の政情や地域政策に不透明感をもたらす可能性があります。"
+          "ja": "はい。Prabowo大統領は新首都建設など前大統領の主要施策から離れ、独自の無料給食事業へ予算を振り向けています。この政治的混迷は同国の政情や地域政策に不透明感をもたらす可能性があります。",
+          "t": 874.2
         },
         {
           "speaker": "Mika",
           "en": "This will be an important story to watch across Southeast Asia.",
-          "ja": "東南アジア情勢において注視すべきニュースですね。"
+          "ja": "東南アジア情勢において注視すべきニュースですね。",
+          "t": 889.98
         },
         {
           "speaker": "Alex",
           "en": "Absolutely.",
-          "ja": "その通りです。"
+          "ja": "その通りです。",
+          "t": 894.34
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 835.69
     },
     {
       "kind": "recap",
@@ -569,9 +667,11 @@
           "speaker": "Mika",
           "ja": "インドネシアのGibran副大統領が、学歴資格をめぐる最高裁判断や議会での弾劾の動きを受けて辞表を提出しました。Prabowo現大統領とJokowi前大統領との連立関係の崩壊を示唆しており、同国の政情安定に影響を与える可能性があります。",
           "en": "",
-          "lang": "ja"
+          "lang": "ja",
+          "t": 896.58
         }
-      ]
+      ],
+      "t": 896.58
     },
     {
       "kind": "ceo_watch",
@@ -581,15 +681,18 @@
         {
           "speaker": "Alex",
           "en": "Now for CEO Watch. Microsoft Chief Executive Officer Satya Nadella commented on workplace changes in the age of artificial intelligence. Nadella said that workers in AI-heavy jobs are having an identity crisis as software takes over routine tasks.",
-          "ja": "続いてCEOウォッチです。MicrosoftのSatya Nadella CEOは、AI時代の働き方の変化に言及しました。AIの活用が進む職種では定型業務が自動化され、労働者が自己アイデンティティの危機に直面していると語りました。"
+          "ja": "続いてCEOウォッチです。MicrosoftのSatya Nadella CEOは、AI時代の働き方の変化に言及しました。AIの活用が進む職種では定型業務が自動化され、労働者が自己アイデンティティの危機に直面していると語りました。",
+          "t": 915.59
         },
         {
           "speaker": "Mika",
           "en": "Meanwhile, Databricks Chief Executive Officer Ali Ghodsi shared how he tracks company operations. Ghodsi said he uses Databricks updated Genie AI agent to get unvarnished truth about internal problems, since employees rarely report failures directly to the top executive.",
-          "ja": "一方、DatabricksのAli Ghodsi CEOは社内管理手法を明かしました。社員が経営陣に直接失敗報告をしないため、同社のAIエージェントGenieを活用して社内問題の客観的な実態を把握しているとのことです。"
+          "ja": "一方、DatabricksのAli Ghodsi CEOは社内管理手法を明かしました。社員が経営陣に直接失敗報告をしないため、同社のAIエージェントGenieを活用して社内問題の客観的な実態を把握しているとのことです。",
+          "t": 930.64
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 915.59
     },
     {
       "kind": "phrase",
@@ -599,20 +702,24 @@
         {
           "speaker": "Mika",
           "en": "Today's Phrase of the Day is \"pass the baton.\" In our story about Meta, executive Santosh Janardhan said he wanted to pass the baton to a new leader.",
-          "ja": "今日のPhrase of the Dayは「pass the baton」です。Metaのニュースで、幹部のSantosh Janardhan氏が新しいリーダーにバトンを渡したいと述べた場面で登場しました。"
+          "ja": "今日のPhrase of the Dayは「pass the baton」です。Metaのニュースで、幹部のSantosh Janardhan氏が新しいリーダーにバトンを渡したいと述べた場面で登場しました。",
+          "t": 947.02
         },
         {
           "speaker": "Alex",
           "en": "\"Pass the baton\" comes from relay races in track events. It means passing responsibility or control of a project or job to another person.",
-          "ja": "「pass the baton」は陸上競技のリレーに由来します。仕事やプロジェクトの責任や役割を次の人に引き継ぐことを意味します。"
+          "ja": "「pass the baton」は陸上競技のリレーに由来します。仕事やプロジェクトの責任や役割を次の人に引き継ぐことを意味します。",
+          "t": 956.65
         },
         {
           "speaker": "Mika",
           "en": "For example: \"The retiring director will pass the baton to her deputy next month.\" It is a great phrase for workplace transitions!",
-          "ja": "例えば「退職するディレクターは来月、副ディレクターにバトンを渡します」のように使えます。ビジネスの引継ぎで大変役立つ表現ですね！"
+          "ja": "例えば「退職するディレクターは来月、副ディレクターにバトンを渡します」のように使えます。ビジネスの引継ぎで大変役立つ表現ですね！",
+          "t": 965.67
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 947.02
     },
     {
       "kind": "outro",
@@ -622,15 +729,18 @@
         {
           "speaker": "Alex",
           "en": "That is all for today's Commute News. Today we saw how AI technology, digital health tools, and economic shifts are reshaping industries around the world. Stay informed and drive safely. See you on tomorrow's commute.",
-          "ja": "本日のCommute Newsは以上です。AI技術、デジタルヘルス、そして経済の変動が世界中の産業を再編している様子をお届けしました。気をつけていってらっしゃいませ。明日の通勤ラジオでお会いしましょう。"
+          "ja": "本日のCommute Newsは以上です。AI技術、デジタルヘルス、そして経済の変動が世界中の産業を再編している様子をお届けしました。気をつけていってらっしゃいませ。明日の通勤ラジオでお会いしましょう。",
+          "t": 974.24
         },
         {
           "speaker": "Mika",
           "en": "Thank you for listening.",
-          "ja": "ご視聴ありがとうございました。"
+          "ja": "ご視聴ありがとうございました。",
+          "t": 987.63
         }
       ],
-      "lang": "en"
+      "lang": "en",
+      "t": 974.24
     },
     {
       "kind": "recap",
@@ -643,9 +753,11 @@
           "speaker": "Mika",
           "ja": "以上、Commute Newsでした。いってらっしゃい。",
           "en": "",
-          "lang": "ja"
+          "lang": "ja",
+          "t": 990.35
         }
-      ]
+      ],
+      "t": 990.35
     }
   ],
   "stories": [
