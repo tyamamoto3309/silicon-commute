@@ -1,0 +1,1292 @@
+{
+  "date": "2026-11-15",
+  "published": "2026-11-15T11:56:24+09:00",
+  "title_en": "Jensen Huang Resigns as Nvidia CEO Amid Smuggling Probes",
+  "title_ja": "NVIDIAのJensen Huang CEO辞レン、Microsoft世界規模障害と宇宙・医療の最前線",
+  "summary_ja": "NVIDIAのJensen Huang氏が中国への先端チップ密輸捜査の渦中でCEOを電撃辞任し、テック界に激震が走りました。またMicrosoftの広範囲な障害やSpaceXのロケット空中キャッチ、米当局による事前承認DX実証が進行しています。さらに米中ロ首脳会談の計画や全米航空機運行停止など、注目すべき世界ニュースを解説します。",
+  "duration": null,
+  "audio": null,
+  "word_count": 1931,
+  "ja_chars": 1335,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.8-flash",
+    "write": "gemini-3.8-flash",
+    "revise": "gemini-3.8-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Welcome to Commute News",
+      "heading_ja": "オープニング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it is Sunday, November 15. This is Commute News.",
+          "ja": "おはようございます。11月15日日曜日、Commute Newsです。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "We bring you the biggest technology and global news for your morning train ride.",
+          "ja": "朝の通勤時間に向けて、最大のテックニュースと世界の動向をお届けします。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning! Today, we start with a massive shock at Nvidia.",
+          "ja": "おはようございます！本日はまず、NVIDIAにおける巨大な衝撃からお伝えします。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Chief Executive Jensen Huang has resigned as investigations expand into banned AI chip smuggling to China.",
+          "ja": "中国への禁止されたAIチップ密輸捜査が広がる中、Jensen Huang最高経営責任者が辞任しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "In digital health, United States federal regulators are beginning real-world tests to speed up medical approvals.",
+          "ja": "デジタルヘルスでは、アメリカ連邦当局が医療の事前承認手続きを迅速化する実証実験を開始します。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "And in world news, Donald Trump plans a historic joint meeting with Vladimir Putin and Xi Jinping.",
+          "ja": "そして世界ニュースでは、Donald Trump大統領がVladimir Putin氏、Xi Jinping氏との歴史的な3首脳会談を計画しています。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Let us get right into the stories.",
+          "ja": "それでは早速ニュースを見ていきましょう。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "story",
+      "heading_en": "Jensen Huang Resigns as Nvidia CEO Amid Smuggling Probes",
+      "heading_ja": "NVIDIAのJensen Huang CEOが辞任、対中AIチップ密輸捜査が拡大",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our lead story is an unprecedented leadership shake-up at the world's most valuable artificial intelligence chipmaker.",
+          "ja": "トップニュースは、世界最大のAI半導体メーカーにおける前代未聞のトップ辞任劇です。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Jensen Huang has resigned immediately as President, Chief Executive Officer, and board member of Nvidia after leading the company for 33 years.",
+          "ja": "Jensen Huang氏が33年間にわたり率いたNVIDIAの社長、CEO、および取締役を即時辞任しました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "The board of directors appointed Chief Financial Officer Colette Kress as interim CEO, and named Harvey Jones as its first-ever board chair.",
+          "ja": "取締役会は最高財務責任者のColette Kress氏を暫定CEOに任命し、初の取締役会議長としてHarvey Jones氏を選任しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What triggered such a sudden and shocking resignation from the founder?",
+          "ja": "創業者によるこれほど突然で衝撃的な辞任の引き金は何だったのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Authorities in the United States, Singapore, and Malaysia are actively investigating the smuggling of restricted Nvidia chips into China.",
+          "ja": "米国、シンガポール、マレーシアの当局が、規制対象であるNVIDIA製チップの中国への密輸疑惑を本格的に捜査しています。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Analysts estimate that up to 1.5 million banned Blackwell GPUs, representing over a gigawatt of computing power, reached Chinese laboratories.",
+          "ja": "アナリストの試算によると、1ギガワット超の計算能力に相当する最大150万個の禁止されたBlackwell GPUが中国の研究所に渡ったとされています。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Forensic reports show Chinese AI developers like DeepSeek and Moonshot AI used these export-controlled chips to train advanced models.",
+          "ja": "科学的な分析レポートにより、DeepSeekやMoonshot AIなどの中国開発者がこれら輸出規制チップを使って先端モデルを訓練していたことが判明しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Were there also internal corporate governance issues involved?",
+          "ja": "社内の企業ガバナンス上の問題も関係していたのでしょうか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, reports revealed Huang had an extramarital relationship with an executive at Megaspeed, a Singapore data center firm suspected of moving chips to China.",
+          "ja": "はい、中国へのチップ流出が疑われるシンガポールのデータセンター企業Megaspeed社の幹部とHuang氏が不倫関係にあったことが報じられました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "United States Treasury Secretary Scott Bessent questioned whether Nvidia leadership knowingly sold hardware through overseas shell companies.",
+          "ja": "米財務長官のScott Bessent氏は、NVIDIA経営陣が海外のペーパーカンパニー経由での販売を把握していたのではないかと疑問を呈しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "How are employees, investors, and foreign partners responding?",
+          "ja": "従業員や投資家、海外のパートナー企業はどのように反応していますか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Over 115,000 supporters, including Elon Musk, signed an online petition demanding Huang's return, while Asian governments work to protect their supply contracts.",
+          "ja": "Elon Musk氏を含む11万5,000人以上の支持者がHuang氏の復帰を求める署名を行い、アジア各国政府は自国の供給契約の確保に動いています。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, Jensen Huang resigned abruptly as international probes deepen into massive illegal Blackwell AI chip shipments to Chinese developers.",
+          "ja": "要するに、中国開発者への大規模なBlackwellチップ不正流出をめぐる国際捜査が深まる中、Jensen Huang氏が電撃辞任しました。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。NVIDIAの創業者兼CEOのJensen Huang氏が即時辞任しました。シンガポールのMegaspeed社などを経由し、対中輸出規制下にあるBlackwellチップが最大150万個密輸された疑惑を米当局などが捜査しています。後任の暫定CEOにはCFOのColette Kress氏が就任しましたが、世界のAI供給網や地政学リスクに極めて大きな影響を与えています。",
+          "en": "",
+          "lang": "ja"
+        }
+      ]
+    },
+    {
+      "kind": "story",
+      "heading_en": "Microsoft Suffers Global Cloud Outage Across Core Services",
+      "heading_ja": "Microsoftが世界規模のクラウド障害、主要サービスが麻痺",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our second story details a massive and costly disruption across critical global digital infrastructure.",
+          "ja": "第2のニュースは、世界の重要なデジタルインフラ全般に及んだ甚大なシステム障害の詳細です。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Microsoft suffered a day-long worldwide cloud outage that disabled Outlook, Teams, Copilot, Intune, and core enterprise systems.",
+          "ja": "Microsoftで丸一日に及ぶ世界規模のクラウド障害が発生し、OutlookやTeams、Copilot、Intuneなどの基幹システムが停止しました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "The outage impacted a significant portion of Microsoft's 450 million paid commercial enterprise subscribers.",
+          "ja": "この障害は、4億5,000万人を超えるMicrosoft 365の法人有料契約者の多くに大きな打撃を与えました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specifically caused such a huge system failure?",
+          "ja": "具体的に何がこのような巨大なシステム障害を引き起こしたのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Microsoft confirmed there was no cyberattack, explaining that routine server health checks failed across its cloud network.",
+          "ja": "Microsoftはサイバー攻撃を否定し、クラウドネットワーク全体でサーバーの健全性確認テストが失敗したことが原因だと説明しました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "To prevent people from losing important communications during the long crisis, the company extended its email timeout window to 48 hours.",
+          "ja": "長引く危機の中で重要な通信が失われないよう、同社はメールのタイムアウト保持期間を48時間に延長しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What consequences did organizations face in daily operations?",
+          "ja": "各組織の日常業務にはどのような影響が出たのでしょうか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Hospitals could not send vital prescription changes to patients, and banks could not send verification codes for customer money transfers.",
+          "ja": "病院では患者への重要な処方変更を送信できず、銀行では顧客の送金に必要な認証コードを配信できませんでした。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Courts in the Philippines were paralyzed, and in Japan, government offices suffered IT outages that forced workers to rely on physical fax machines.",
+          "ja": "フィリピンでは裁判所の業務が麻痺し、日本では政府機関のシステムが停止して職員がファクスへの切り替えを余儀なくされました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Are systems running normally again today?",
+          "ja": "本日はすでにシステムは正常に戻っているのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, Microsoft fully restored all cloud services and apologized deeply, though experts say this proves the extreme danger of single-vendor cloud dependency.",
+          "ja": "はい、Microsoftは全サービスを復旧して深く謝罪しましたが、専門家は単一クラウド企業への過度な依存の危険性が示されたと指摘しています。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, a day-long Microsoft outage crippled hospitals and public agencies worldwide, showing the vulnerability of centralizing essential software.",
+          "ja": "要するに、丸一日に及ぶMicrosoftの障害が世界中の病院や官公庁を麻痺させ、必須ソフトの一元化が抱える脆弱性を露呈させました。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Microsoftで丸一日に及ぶ大規模なクラウド障害が発生し、OutlookやTeamsなどが世界中で停止しました。原因はサーバー確認機能の不具合とされ、病院での処方連絡や銀行送金、行政システムが麻痺しました。日本でも一部業務でファクスが再利用されるなど、単一ベンダー依存のリスクが改めて浮き彫りになっています。",
+          "en": "",
+          "lang": "ja"
+        }
+      ]
+    },
+    {
+      "kind": "story",
+      "heading_en": "Italy Fines Meta 887 Million Dollars Over Android Media Access",
+      "heading_ja": "イタリア当局、Android写真アクセスを巡りMetaに8億8700万ドルの罰金",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Next, European privacy regulators have handed down another enormous financial penalty against an American tech giant.",
+          "ja": "次は、欧州のプライバシー規制当局が米テック大手に科した巨額の制裁金についてです。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Italy's Data Protection Authority fined Meta 805 million euros, which equals approximately 887 million dollars.",
+          "ja": "イタリアのデータ保護当局は、Meta社に対して8億500万ユーロ、米ドル換算で約8億8,700万ドルの罰金を科しました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Regulators concluded that Meta improperly collected and examined photos and videos belonging to around 20 million Android smartphone users.",
+          "ja": "当局は、Metaが約2,000万人のAndroidスマートフォン利用者の写真や動画を不適切に収集・調査していたと結論づけました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "How exactly was Meta getting into people's private photo albums?",
+          "ja": "Metaは具体的にどのように個人のプライベートなアルバムへアクセスしていたのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "The issue involves a feature on the Facebook app that scans personal gallery files to suggest ideas for upcoming social media posts.",
+          "ja": "問題となったのは、端末の写真フォルダをスキャンして今後のSNS投稿のアイデアを提案するFacebookアプリの機能です。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "The authority said Facebook used a broad app permission without making it clear that stored photos would be analyzed for content suggestions.",
+          "ja": "規制当局は、保存された写真が投稿提案のために分析されることを明確に説明せず、大まかな包括的権限で済ませていたと指摘しました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Italian government ordered Meta to turn off this suggestion feature by default within 60 days and ask each user for separate, explicit consent.",
+          "ja": "イタリア当局はMetaに対し、60日以内にこの提案機能を初期状態で無効化し、利用者一人ひとりに個別の明示的な同意を求めるよう命じました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What legal defense is Meta presenting against this massive fine?",
+          "ja": "この巨額の制裁金に対してMetaはどのような法的反論を行っているのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Meta said it strongly disagrees and will appeal, arguing that users always keep control through their personal device settings.",
+          "ja": "Metaは決定に強く反対して控訴する方針を示し、利用者は端末の設定を通じて常に権限を自身で管理できると主張しています。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "This comes right after a United States judge ordered Meta to pay 25 billion dollars over long-term data privacy deceptions in New Mexico.",
+          "ja": "この制裁は、ニューメキシコ州でMetaが長年のデータ管理の虚偽説明により米裁判所から250億ドルの支払いを命じられた直後に起きました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, Italy slapped Meta with an 887-million-dollar fine for accessing 20 million Android users' personal media files without specific permission.",
+          "ja": "要するに、イタリア当局が明確な許可なく2,000万人のメディアファイルにアクセスしたとして、Metaに8億8,700万ドルの罰金を科しました。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "イタリアのデータ保護当局は、利用者の明確な同意なしにスマートフォンの写真や動画にアクセスしたとして、Metaに8億500万ユーロ（約8億8,700万ドル）の罰金を科しました。投稿提案機能の説明が不十分だったと指摘され、Metaは利用者が管理可能だとして控訴する意向です。",
+          "en": "",
+          "lang": "ja"
+        }
+      ]
+    },
+    {
+      "kind": "story",
+      "heading_en": "SpaceX Catches Starship Upper Stage with Launch Tower",
+      "heading_ja": "SpaceX、打ち上げタワーでStarship上段の空中キャッチに初成功",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In our fourth tech story, SpaceX has achieved an extraordinary engineering breakthrough in its pursuit of full rocket reusability.",
+          "ja": "第4のテックニュースは、SpaceXがロケットの完全再利用を目指す中で達成した類まれな工学的快挙です。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "During Starship Flight 15 in Starbase, Texas, giant mechanical arms on the launch tower successfully caught the returning Starship upper stage in midair.",
+          "ja": "テキサス州スターベースで行われたStarship第15回試験飛行で、発射塔の巨大な機械アームが帰還したStarship上段の空中キャッチに成功しました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Engineers affectionately nickname these towering metal catch arms the Mechazilla chopsticks.",
+          "ja": "エンジニアたちはこのそびえ立つ金属製のアームを「メカジラ・チョップスティック（箸）」と呼んでいます。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does this catch differ from their previous booster recoveries?",
+          "ja": "今回のキャッチはこれまでの第1段ブースター回収と何が違うのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "While SpaceX previously caught the Super Heavy first-stage booster, this marks the first time they ever caught the Starship upper-stage orbital spacecraft itself.",
+          "ja": "SpaceXは以前にも下段のSuper Heavyブースターを捕獲していますが、Starship上段の軌道宇宙船本体を捕獲したのは今回が初めてです。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "The spacecraft orbited Earth multiple times, survived extreme re-entry heat, and re-ignited three Raptor engines to flip vertically just before touching down.",
+          "ja": "宇宙船は地球を何周も周回して大気圏再突入の超高温に耐え、着陸寸前に3基のラプターエンジンを再点火して垂直姿勢へと反転しました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Two small pins protruding just one foot from the rocket rested perfectly onto the waiting tower arms with zero margin for error.",
+          "ja": "ロケット本体からわずか1フィート突き出た2つの突起が、寸分の狂いもなく待ち構えるタワーのアームに収まりました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did the launch vehicle achieve one hundred percent recovery on this flight?",
+          "ja": "今回の飛行試験で打ち上げ機は100パーセント回収されたのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Not completely, because the Super Heavy booster aborted its own planned catch and had to detonate safely over the Gulf of Mexico.",
+          "ja": "完全ではありません。Super Heavyブースターは自らのキャッチを中止し、メキシコ湾上で安全に爆発処理されたためです。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Even so, successfully catching the upper stage proves that rapid spaceship recovery without runways or oceans is technically viable.",
+          "ja": "それでも上段の捕獲成功は、滑走路や海を必要としない迅速な宇宙船回収が技術的に可能であることを証明しました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, SpaceX caught its Starship orbital vehicle with launchpad arms for the first time, bringing fully reusable space travel much closer.",
+          "ja": "要するに、SpaceXが発射台のアームでStarship軌道宇宙船の捕捉に初成功し、完全再利用型の宇宙飛行に大きく近づきました。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "SpaceXは大型宇宙船Starshipの第15回飛行試験で、発射塔の巨大アーム「チョップスティック」を用いて軌道から帰還した上段機体を空中で初めて捕捉しました。下段ブースターの回収は見送られたものの、宇宙船本体の完全かつ迅速な再利用に向けた歴史的な節目となりました。",
+          "en": "",
+          "lang": "ja"
+        }
+      ]
+    },
+    {
+      "kind": "story",
+      "heading_en": "Google Launches Gemini 4 Hydrogen for Coding and Search",
+      "heading_ja": "GoogleがGemini 4 Hydrogenを発表、コーディングと検索を大幅刷新",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our final technology story focuses on Google's rapid expansion of highly specialized artificial intelligence models.",
+          "ja": "テックの最後のニュースは、Googleによる特化型人工知能モデルの急速な展開についてです。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Google officially released Gemini 4 Hydrogen, an AI model engineered specifically for cost-efficient software coding and multi-step agentic workflows.",
+          "ja": "Googleは、費用対効果の高いプログラミングと複数手順の自律エージェント処理に特化したAIモデル「Gemini 4 Hydrogen」を公式発表しました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Software developers can start building right away using the Gemini API in Google AI Studio, Android Studio, and the Google Antigravity platform.",
+          "ja": "開発者はGoogle AI StudioやAndroid Studio、Google Antigravity上のGemini APIを使ってすぐに開発を始めることができます。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What capabilities does Gemini 4 Hydrogen offer to computer programmers?",
+          "ja": "Gemini 4 Hydrogenはプログラマーにどのような能力を提供するのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "The model features four configurable thinking levels, allowing developers to balance quick responses with deep analytical reasoning.",
+          "ja": "このモデルは設定可能な4段階の思考レベルを備えており、開発者は高速な応答と深い分析的推論のバランスを調整できます。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "It can operate standalone or team up with Google's frontier models, like Gemini 4 Carbon and Argon, to generate cleaner, production-ready code with fewer errors.",
+          "ja": "単独運用のほか、Gemini 4 CarbonやArgonなどの最上位モデルと連携し、エラーの少ない本番運用品質のコードを生成可能です。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Is this release only meant for coders, or does it reach general consumers too?",
+          "ja": "このリリースはプログラマー専用のものですか、それとも一般ユーザーにも届くのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Google integrated Hydrogen directly into Google Search worldwide, calling it the single biggest model upgrade Search has ever received.",
+          "ja": "GoogleはHydrogenを世界中のGoogle検索に直接統合し、検索エンジン史上最大のモデルアップグレードだと発表しました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Search now understands complex multi-part queries, uses advanced query fan-out to discover hidden websites, and generates visual comparison tables instantly.",
+          "ja": "検索機能が複雑な複数項目の質問を理解し、高度な分散検索で埋もれたサイトを発見し、即座に視覚的な比較表を作成できるようになりました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, Google launched Gemini 4 Hydrogen to accelerate everyday developer coding while radically upgrading its core global search engine.",
+          "ja": "要するに、Googleは開発者の日常的なコーディングを加速させるとともに、基幹のウェブ検索を抜本的に刷新するためGemini 4 Hydrogenを投入しました。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Googleは開発者向けの軽量で高速なAIモデル「Gemini 4 Hydrogen」を公開しました。高度なコーディングやエージェント処理を効率化するほか、Google検索にも即座に統合され、複雑な複数条件の検索への理解や視覚的な比較表示が世界中で利用可能になっています。",
+          "en": "",
+          "lang": "ja"
+        }
+      ]
+    },
+    {
+      "kind": "health",
+      "heading_en": "US Regulators Launch Real-World Tests for Electronic Prior Authorization",
+      "heading_ja": "米医療当局、保険事前承認の完全電子化に向けた実証試験を開始",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Turning to our digital health segment, United States federal health regulators are taking decisive action to modernize medical insurance approvals.",
+          "ja": "デジタルヘルスのコーナーです。米国の連邦保健当局は、医療保険の事前承認手続きを近代化するための決定的な一歩を踏み出しました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Centers for Medicare and Medicaid Services, together with the Office of the National Coordinator for Health IT, have launched voluntary industry testing sprints.",
+          "ja": "CMS（メディケア・メディケイド・サービスセンター）とONC（医療IT国家調整官室）が、業界有志による実証実験スプリントを開始しました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "These production-like trials will run for 10 to 12 weeks to test electronic prior authorization workflows before federal mandates take effect in 2027.",
+          "ja": "2027年に連邦規則が義務化されるのを前に、本番に近い環境で電子事前承認の流れを検証するため、10〜12週間の実地テストが行われます。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is the prior authorization process such a major problem for healthcare today?",
+          "ja": "現在の医療において、事前承認の手続きはなぜそれほど大きな問題になっているのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Prior authorization requires clinicians to seek permission from health insurance payers before administering specialized drugs, surgeries, or diagnostic scans.",
+          "ja": "事前承認とは、医師が特別な薬剤や手術、画像検査などを行う前に、医療保険会社から事前の許可を得る手続きです。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Right now, doctors rely heavily on manual paper forms, fax machines, and phone calls, causing administrative burdens and dangerous treatment delays.",
+          "ja": "現在は手書き書類やファクス、電話に大きく依存しており、過度な事務負担や危険な治療の遅れを引き起こしています。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Which healthcare groups are participating in these federal test sprints?",
+          "ja": "この連邦実証スプリントには具体的にどのような医療関係組織が参加するのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Major hospital systems, insurance payers like Medicare Advantage and Medicaid managed care, and electronic health record software developers are testing real data together.",
+          "ja": "大病院システム、メディケア・アドバンテージ等の保険者、電子カルテ開発会社が一体となり、実データを用いた相互テストを行います。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "They are using standardized application programming interfaces to uncover software bugs and data gaps while there is still time to fix them.",
+          "ja": "標準化されたAPIを活用し、修正可能な今のうちにソフトウェアの不具合やデータ連携の齟齬を洗い出す狙いがあります。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, federal health agencies are running live tests on automated prior authorizations to eliminate paperwork barriers and ensure patients get timely care.",
+          "ja": "要するに、連邦保健機関が事前承認の自動化実地テストを進めており、書類手続きの壁を取り除いて患者が必要な治療を適時に受けられるよう支援しています。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米国のCMSとONCは、医療保険の事前承認（Prior Authorization）を完全電子化する実地テストを開始しました。2027年の法的義務化を前に、病院や保険者、電子カルテ事業者がAPI接続の課題を検証します。紙やファクスによる承認遅延を解消し、患者が必要な治療を迅速に受けられる環境づくりが進んでいます。",
+          "en": "",
+          "lang": "ja"
+        }
+      ]
+    },
+    {
+      "kind": "world",
+      "heading_en": "White House Discloses Plans for US-Russia-China Nuclear Summit",
+      "heading_ja": "米中ロの3カ国首脳会談、核軍縮協議へ計画発表",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, let us examine world diplomacy beyond technology.",
+          "ja": "ここからは、テクノロジーの枠を超えた世界の外交動向をお伝えします。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "The White House announced that President Donald Trump is preparing to hold an unprecedented trilateral meeting with Russian President Vladimir Putin and Chinese President Xi Jinping.",
+          "ja": "ホワイトハウスは、Donald Trump米大統領がロシアのPutin大統領、中国のXi Jinping国家主席と前例のない3者会談を計画中であると発表しました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "This historic summit is scheduled to take place next week on the sidelines of the APEC gathering in Shenzhen, China.",
+          "ja": "この歴史的な首脳会談は、来週中国の深圳で開催されるAPECサミットの合間に予定されています。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What will be the primary focus of discussions between the three global leaders?",
+          "ja": "3人の世界指導者による協議の主眼は何になるのでしょうか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "White House spokeswoman Olivia Wales stated that Trump intends to discuss reducing nuclear weapons arsenals and curbing dangerous proliferation.",
+          "ja": "ホワイトハウスのOlivia Wales報道官は、核兵器削減と危険な核拡散の抑止についてTrump氏が協議する意向だと述べました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "The last bilateral nuclear arms control pact between Washington and Moscow expired in February, leaving global arsenals without formal guardrails.",
+          "ja": "米ロ間の最後の核軍備管理条約が今年2月に失効し、世界の核戦力は公式な歯止めを失った状態にあります。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "While Moscow confirmed the meeting and US officials say Iran may be discussed, China has only confirmed bilateral meetings and no formal treaty is expected immediately.",
+          "ja": "ロシアは会談を確認し米当局はイラン問題も議題になり得ると述べる一方、中国は2国間会談のみを発表しており、即時の正式合意は予想されていません。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, the United States, Russia, and China are planning historic talks in Shenzhen to reopen superpower negotiations on nuclear arms limits.",
+          "ja": "要するに、核戦力の制限に向けた大国間交渉を再開すべく、米中ロが深圳での歴史的な首脳会談を計画しています。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米ホワイトハウスは、中国の深圳で開催されるAPEC首脳会議に合わせ、Trump大統領、Putin大統領、Xi Jinping国家主席による初の3者首脳会談を調整中だと発表しました。米ロ間の条約失効を受けた核軍縮が主眼ですが、中国政府の正式反応や具体合意の行方が注目されています。",
+          "en": "",
+          "lang": "ja"
+        }
+      ]
+    },
+    {
+      "kind": "world",
+      "heading_en": "FAA Grounds All US Flights After Cable Upgrade Causes Network Crash",
+      "heading_ja": "通信回線工事の不具合で全米の航空便が運航停止",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In our second world story, United States commercial aviation ground to an abrupt halt this weekend.",
+          "ja": "世界ニュースの2本目は、今週末に発生した米国の民間航空網の一斉停止についてです。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Federal Aviation Administration ordered a four-hour nationwide ground stop that canceled more than 8,200 flights on Friday and another 3,000 on Saturday.",
+          "ja": "連邦航空局（FAA）は4時間に及ぶ全米の地上待機命令を出し、金曜日に8,200便以上、土曜日にさらに3,000便が欠航となりました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What went wrong with the national air traffic control communication system?",
+          "ja": "全国の航空管制通信システムで一体何が起きたのでしょうか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Transportation Secretary Sean Duffy explained that contractor L3Harris was conducting routine maintenance to replace obsolete copper wire with modern fiber optic lines at a remote facility.",
+          "ja": "Sean Duffy運輸長官は、請負業者のL3Harris社が遠隔施設で老朽化した銅線を最新の光ファイバーに交換する定期保守を行っていたと説明しました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "A newly installed router malfunctioned and overwhelmed the network by flooding it with over 1,000 connection attempts every four seconds, disrupting radar feeds and plane communications.",
+          "ja": "新設されたルーターが誤作動を起こし、4秒ごとに1,000回以上の接続要求を浴びせてネットワークを過負荷にし、レーダーや通信を麻痺させました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "FAA officials confirmed there was zero evidence of any cyberattack or artificial intelligence issues during this third nationwide grounding of the century.",
+          "ja": "今世紀で3度目となる全米運航停止において、FAA当局はサイバー攻撃やAIの関与を示す証拠は一切ないことを確認しました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, a failed copper-to-fiber telecom upgrade flooded air traffic control routers, grounding domestic flights across the entire United States.",
+          "ja": "要するに、銅線から光ファイバーへの更新作業ミスが管制ルーターを過負荷に追い込み、全米の国内航空網を完全停止させました。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米連邦航空局（FAA）は、通信網トラブルにより全米の航空機に地上待機命令を出し、8,000便以上が欠航しました。老朽化した銅線を光ファイバーへ交換した際、ルーターの異常通信で航空管制網が過負荷状態に陥ったことが原因で、サイバー攻撃等は否定されています。",
+          "en": "",
+          "lang": "ja"
+        }
+      ]
+    },
+    {
+      "kind": "world",
+      "heading_en": "United States Loses Its Status for Measles Elimination",
+      "heading_ja": "アメリカ、はしか排除国の認定を喪失",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our final world story marks a concerning public health setback in North America.",
+          "ja": "最後の世界ニュースは、北米における深刻な公衆衛生の後退を示す話題です。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Global health authorities officially announced that the United States has lost its measles elimination status after holding the distinction for over 25 years.",
+          "ja": "世界の公衆衛生当局は、米国が25年以上にわたって維持してきた「麻疹（はしか）排除国」の認定を公式に喪失したと発表しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "What does elimination status mean, and why did the United States lose it?",
+          "ja": "排除国のステータスとは何を意味し、なぜ米国はそれを失ってしまったのですか？"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Elimination means a country has stopped continuous, ongoing transmission of the measles virus for more than 12 consecutive months.",
+          "ja": "排除状態とは、その国内において麻疹ウイルスの持続的な感染拡大が12か月以上連続して途絶えていることを意味します。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "The United States first achieved this milestone in the year 2000, but declining childhood vaccination coverage in recent years triggered persistent community outbreaks.",
+          "ja": "米国は2000年に初めてこの快挙を達成しましたが、近年の幼児期ワクチン接種率の低下により地域社会での持続的な集団感染が再発しました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Epidemiologists emphasized that maintaining high routine immunization rates across school districts is essential to protect children from preventable and severe viral illnesses.",
+          "ja": "疫学者たちは、予防可能な重篤なウイルス感染症から子どもたちを守るためには、学区全体で高い定期予防接種率を維持することが不可欠だと強調しています。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, declining childhood immunization rates led international health agencies to revoke America's long-held measles elimination status.",
+          "ja": "要するに、子どもの予防接種率の低下により、国際保健機関は米国が長年維持してきた麻疹排除国のステータスを取り消しました。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "世界の保健当局は、米国が2000年から維持してきた「麻疹（はしか）排除国」のステータスを公式に喪失したと発表しました。子どものワクチン接種率の低下に伴い国内での持続的な感染が再確認されたためで、予防接種率回復の重要性が強く訴えられています。",
+          "en": "",
+          "lang": "ja"
+        }
+      ]
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch",
+      "heading_ja": "CEO動向",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In CEO Watch today, fresh reports describe the painful scene inside Nvidia when Jensen Huang stepped down after three decades as chief executive.",
+          "ja": "本日のCEO動向です。Jensen Huang氏が30年間務めた最高経営責任者を退任した際の、NVIDIA社内での痛切な場面が新たに報じられました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Huang was reportedly broken and shattered during the meeting, harshly rebuking himself even as many devoted employees clamor for his return.",
+          "ja": "Huang氏は辞任会議の席で打ちのめされ、自らを厳しく責めていたと伝えられますが、多くの熱心な従業員は今も彼の復帰を強く求めています。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Meanwhile, Tesla opened direct pre-orders for its autonomous Cybercab for personal use, attaching geographical limits and a 299-dollar monthly fee.",
+          "ja": "一方、Teslaは地域制限と月額299ドルの料金を設定した上で、個人利用向け自動運転車Cybercabの予約受付を開始しました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "Even Tesla CEO Elon Musk openly conceded that charging customers 299 dollars per month is definitely too high for regular drivers.",
+          "ja": "TeslaのElon Musk CEO自身も、一般ドライバーに対して月額299ドルを請求するのは確かに高すぎると率直に認めました。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day",
+      "heading_ja": "本日のキーフレーズ",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's phrase of the day is 'step down'.",
+          "ja": "本日のキーフレーズは「step down」です。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "In our lead story, we reported that Jensen Huang had to step down as Nvidia chief executive amid international chip smuggling investigations.",
+          "ja": "トップニュースで、国際的なチップ密輸捜査の渦中でJensen Huang氏がNVIDIAのCEOを退任した（step down）とお伝えしました。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "'Step down' is a common, natural phrasal verb that means resigning or relinquishing an influential official position.",
+          "ja": "「step down」は、影響力のある公的な役職を辞任する、または退くことを意味する、非常に一般的で自然な句動詞です。"
+        },
+        {
+          "speaker": "Mika",
+          "en": "For instance: After ten years of dedicated leadership, the hospital director chose to step down to spend time with family.",
+          "ja": "例えば、「10年間の献身的なリーダーシップを経て、病院長は家族と過ごすために退任することを選びました」のように日常会話やビジネスで使われます。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Closing",
+      "heading_ja": "エンディング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That wraps up our Sunday broadcast of Commute News.",
+          "ja": "以上をもちまして、本日のCommute News日曜版をお届けしました。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "From high-stakes semiconductor shifts and telecom network failures to global diplomatic summits, keep these developing stories on your radar.",
+          "ja": "半導体業界の激動や通信網の大規模障害から大国間の首脳会談まで、変化する最新ニュースをぜひ心に留めておいてください。"
+        },
+        {
+          "speaker": "Alex",
+          "en": "Thank you for listening, and we look forward to joining you again on tomorrow's morning commute.",
+          "ja": "ご清聴ありがとうございました。明日の朝の通勤時間にも皆様にお会いできるのを楽しみにしています。"
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。今日も気をつけて、いってらっしゃい。",
+          "en": "",
+          "lang": "ja"
+        }
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Jensen Huang Resigns as Nvidia CEO as Probes Expand into Banned AI Chip Smuggling to China",
+      "title_ja": "NVIDIAのJensen Huang CEOが電撃辞任、対中半導体密輸捜査が拡大",
+      "summary_ja": "NVIDIAの創業者兼CEOのJensen Huang氏が、即時辞任を発表しました。シンガポールやマレーシアの拠点を経由して規制対象のBlackwellチップが中国へ不正流出した疑いについて米当局などが捜査を進めており、幹部との私的関係も取り沙汰されています。",
+      "why_ja": "生成AIブームを牽引してきた世界最大の半導体企業のトップ交代は、世界的なAI開発サプライチェーンと各国の安全保障政策に計り知れない影響を与えます。",
+      "section": "tech",
+      "topic_key": "nvidia-jensen-huang-china-spy-investigation",
+      "companies": [
+        "NVIDIA",
+        "Megaspeed",
+        "DeepSeek"
+      ],
+      "sources": [
+        {
+          "publisher": "NVIDIA Newsroom",
+          "title": "NVIDIA Announces CEO Transition",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Where was Nvidia’s security team?",
+          "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+          "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+          "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "U.S. Treasury Secretary questions whether Nvidia knowingly sold AI GPUs to shell companies, says company itself is responsible",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-treasury-secretary-questions-whether-nvidia-knowingly-sold-ai-gpus-to-shell-companies-says-company-itself-is-responsible-i-think-it-is-important-that-anyone-at-the-company-there-be-held-accountable-for-that"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Researchers allege DeepSeek, Kimi, and other Chinese AI models were trained using banned Nvidia Blackwell GPUs",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-allege-deepseek-kimi-and-other-chinese-ai-models-were-trained-on-export-controlled-nvidia-blackwell-chips-statistical-analysis-on-model-weights-reveals-high-correlation-to-nvidia-hardware"
+        },
+        {
+          "publisher": "The Register",
+          "title": "Chinese AI labs are training models on Nvidia's Blackwell despite export controls, says ex-OpenAI engineer",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/13/chinese-ai-labs-are-training-models-on-nvidias-blackwell-despite-export-controls-says-ex-openai-engineer/5309891"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Malaysia and Singapore step up Nvidia AI chip probes amidst Jensen Huang controversy",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-and-singapore-step-up-nvidia-ai-chip-probes-as-charges-brought-against-chinese-national-over-917-smuggled-servers-firm-at-center-of-jensen-huang-controversy-announces-inventory-audit-to-account-for-all-restricted-gpus"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "The unfolding Jensen Huang scandal: a timeline",
+          "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Mass smuggling of up to 1.5 million Nvidia AI GPUs could be the underlying cause of Jensen Huang's departure, analysts claim",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls"
+        },
+        {
+          "publisher": "The Register",
+          "title": "Singapore says US authorities, and Supermicro, hardly helped investigation of Jensen Huang’s Chinese friend",
+          "url": "https://www.theregister.com/legal/2026/11/13/singapore-says-us-authorities-and-supermicro-hardly-helped-investigation-of-jensen-huangs-chinese-friend/5309579"
+        },
+        {
+          "publisher": "The New York Times",
+          "title": "Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMFhFdjVXUmFEeDhEemZrSmthRjRTdDVVOVQ5S0lWaVVVWXR4T2RiU25IN20xaTFTdHB0RDRNNU1CZ1dmYWVXWWI1MkpydU42bzJaSFlRTFBtZTJfbmM3c2Ezc2w3Uk05YnFGNFVrRXRZam9JTV9ERlRudU1XNHIzUkdtQQ?oc=5"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Nvidia scandal: US treasury chief blames Lutnick’s commerce department over alleged lack of action",
+          "url": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china"
+        },
+        {
+          "publisher": "WSJ",
+          "title": "How Jensen Huang Built the Backdoor Route That Keeps Beijing in the AI Race",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5WRVRId0ZUcVRGRlNaOFhjRE5vUUVQWnZ6OElxc0llcUVsaXAxbDFxdXJocTh6UTc2OGN6VnZuN2sxMnZROVhnaU1aTWVVUlZLbU1KRzFYT2ljczNYTV9FTVQxWnFrS2xNdDdZQ2FHejNDUjh2d29PbHRROA?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Microsoft Suffers Global Cloud Outage Disabling Outlook, Teams, and Critical Enterprise Systems",
+      "title_ja": "Microsoftが世界規模のクラウド障害、主要業務基盤が停止",
+      "summary_ja": "Microsoftのクラウドサービスで大規模障害が発生し、OutlookやTeamsなどが丸一日にわたって停止しました。病院での医療連絡や司法・金融取引に深刻な混乱が生じ、日本でも行政機関やファクス代替利用などの影響が出ました。",
+      "why_ja": "単一のメガクラウド事業者へのインフラ集中リスクを改めて露呈させ、行政機関や医療機関におけるBCP（事業継続計画）の見直しを促す契機となります。",
+      "section": "tech",
+      "topic_key": "microsoft-cloud-infrastructure-outage",
+      "companies": [
+        "Microsoft"
+      ],
+      "sources": [
+        {
+          "publisher": "The Register",
+          "title": "Microsoft outage gives customers a crash course in dependence on Redmond",
+          "url": "https://www.theregister.com/saas/2026/11/13/microsoft-outage-gives-customers-a-crash-course-in-dependence-on-redmond/5309805"
+        },
+        {
+          "publisher": "Ars Technica",
+          "title": "Microsoft’s global outage may be worse than Amazon's or CrowdStrike's, expert says",
+          "url": "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Microsoft’s latest email outage turned into a full-blown global cloud crisis",
+          "url": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Japanese workers return to fax machines during ongoing Microsoft 365 outage",
+          "url": "https://www.tomshardware.com/software/japanese-workers-return-to-fax-machines-during-ongoing-microsoft-365-outage-were-going-full-analog-say-workers-forced-to-ditch-pdfs"
+        },
+        {
+          "publisher": "The Register",
+          "title": "Microsoft services restored to all customers, company says it's 'deeply sorry'",
+          "url": "https://www.theregister.com/saas/2026/11/13/microsoft-services-restored-to-all-customers-company-says-its-deeply-sorry/5309609"
+        },
+        {
+          "publisher": "The Register",
+          "title": "Microsoft struggling to fix massive cloud outage that's taken down email and Intune",
+          "url": "https://www.theregister.com/saas/2026/11/12/microsoft-struggling-to-fix-massive-cloud-outage-thats-taken-down-email-and-intune/5309531"
+        },
+        {
+          "publisher": "The Washington Post",
+          "title": "Outlook went down, then air traffic systems. It’s been a bad week of outages.",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb1d3VFZ3Z0JMZkQxdXB3S2oxbmhMWDZDRUM2X1hHMWljOVhoV28wQ1VkMkZIMFBuRWl6MWFMSEY1OUNjN3dYQ2V4NHZfWnA5Qm9EMEdJaERlN0hrRFdWeHpoZUR4emF1TXhlSDFsS3d0VVBXTElaTklCa19hZlBCZlJnSjJPV1BmeUpJbEI5MjhvZDE2YWRDVlZDQnZxbjhyZndySF9wOU12dW9fOGRXaHdxZzZwUVE?oc=5"
+        },
+        {
+          "publisher": "The Hill",
+          "title": "Microsoft services fully restored after global disruptions",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQM01adi05T1FWTGJmNVNsa01HekdoeU5rOHVxU2I3Unl0Q2FUWkdINGZNN3dGR2VtRDdPbzdJSERCTGRtaTNtcU5vckE4UEpZaGVYTS1SX3Q3cWJUcXNZTWZTSHB0RXY3VHdIYnEybWR6UmNoZUJEOFJSTVppYTM5Zk81akdsV0ZoTVZCUFNCYkd1N2ttWU5TZVFZQzh1VDNxbFY4WjdkNHLSAa4BQVVfeXFMT0NZNF9hWmdNVU80RE5mQzk1eW45WDJhUDBqclRMUG5UckoxZ2NzcEwwT25yYzM5Z2NaVEpfRk53azFnNkZJSzFyZHBUV3ZzQi1WZDlxTHpWMGRDc3ZMOE1VNldfSjlMbGI3bzYtYmw4WU1lQjFmVFotTlFGUkhsUHgyY0NvYlBKWE5GUGstRnhxc3RYUFZaVjdPRlNwZkMxTWVUbzUzdFpjY3dhMndR?oc=5"
+        },
+        {
+          "publisher": "Inc.com",
+          "title": "Microsoft Upgraded Its Network. Then Came the Global Outage",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeERzbmFpREg3ZGk3eEVZWW1md0tmdmtWNW14U2dsM2JqSjBRRUxBVGVEMVVZbjU5ZXNPSV9VTGlXWWtYZlAzMnVSRUtJODRxWm5vdTc1V3Fmc1dyWTdyYWFwajFQQkl6UXRkVWUxWmdGWDhqQ3JCRmxGZ2JoU2J3OE9fMUNTRTRWMmdRU0lianFEbGRYTDVxMHlTZWp2dnM?oc=5"
+        },
+        {
+          "publisher": "Barron's",
+          "title": "Why Microsoft Outage Is the Worst Possible Timing for the Stock",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUtKYTY3Q0wwdDR0WDQ0NlBVV0xsZVEzM0J5aDVUd1hrX2VBOXFTbks4Z2JFZFF6RG9TNjVIb3ZNRl9KRUJvNGxnYlgzQzBKbWVYWDFuU3F2X2VBdU5UWVo1OWVFOHpUX0E3RHNmNXBJQTE0dVU2R0dUS3pvVWhGNQ?oc=5"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Microsoft says services fully restored after day-long global outage",
+          "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "Italy Hits Meta with 887 Million Dollar Fine for Accessing Android Users' Photos and Videos",
+      "title_ja": "イタリア当局、画像アクセスの同意不備でMetaに8億8700万ドルの制裁金",
+      "summary_ja": "イタリアのデータ保護当局は、Facebookアプリが明確な同意を得ずにAndroid端末内の写真や動画へアクセスしていたとして、Metaに8億500万ユーロ（約8億8,700万ドル）の制裁金を科しました。Metaは決定を不服として控訴する意向です。",
+      "why_ja": "EUにおけるデータ保護と同意取得プロセスの厳格な運用姿勢を示しており、モバイルアプリ開発におけるプライバシー設計に強い影響を与えます。",
+      "section": "tech",
+      "topic_key": "italy-meta-android-photo-access-fine",
+      "companies": [
+        "Meta"
+      ],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "Italy fines Meta $887m for accessing Android users’ photos and videos",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTW9mbXFBUUVjX2R6d19QWTBrWlFiSE96OFVjeGx1elljZGJnYkdLbnhlRy11d1BObUpPN0Vvam40bTBieFJwdGNhY0NrWE5iMG1FT3E3SnFQU0FiMm13ZmZzX0xYQXA5aG1od3FHanp1U2pWVnY1eTZ3VFR0WmYyc0VVNFVXVGIwdkFJVWdwNl85dEpIS1dFWmR4NXNfOU1tc2pZRlFtTElMV25lMU9hYWV0Njh3RUtuaGc?oc=5"
+        },
+        {
+          "publisher": "DW.com",
+          "title": "Italy slaps Meta with €805mn fine over access to Android photos",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeEI3d0dzZnNKWndEN3RYdHNtVFpKWlp6V2Vjby1lQ01RQ1hKbS1RbnlBdldRT1Z3V2d3dTFsWURlM1hkclFsWUdHZGlQeVV4QjRMZVljNWc4bG1Kc3ZxQ0RZTGNEYkdwOVBodEtpaUhsWDdROVlNSlB6dUE3dlAyUGRqX0lhWi01Vi10VlR4Znp5Y2RDYlFHZkdOZ9IBmwFBVV95cUxNcVFWZF9ZT21CVWJDdndaZmNKN1FxUV9kV0Ewc0VnQWg2TURBUGVLYjRGeHZPUXVzMVdWM1E1Y1dzbWxpVWRPTlh6UURnT2pBQTNzUy11cTh6aGltSVIxaU53eWp4a0dfalVuSGUxM0lqQTlNUzJPbE4tNnlFZzZLMlp3QUJzNWZPVVZJckZYb0RpVlkyaXpwd2pXRQ?oc=5"
+        },
+        {
+          "publisher": "The Hill",
+          "title": "Italy fines Meta $887M for accessing users’ photos without specific consent",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOc3hUdkVVYzJ5c1R3MHV2b1NMRzExZWRiUTJBN0dJV2xVOEFGS05EOGhKT0ltbDgzeDVTSUV4WThObjdielkxdDRnMzNLMmdPQjctWXZKSFNPSG9LWDNRYjYwTTRWZ0V0dG5kWmU2S3poemxKRXpsMmZWTHpZWE5mX3M0ZmtoWU3SAYwBQVVfeXFMTkJ1UmNEdHFBMzZwMXZxWjZPTTZld0Z4b0VRb09mdUJkdngxRGdITnliQUdxaFE1R2wyR2JGLXg5dFFaTk1sWnVGTmpEbEUwYlpSdzdxLUVydmgxWkxCVy10MHR3Z0Y1SlpzRnZkUFdvSHNqbE1faVRCTldBYzBDQ0xoUmgxbGE0VVFKNVk?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Italy fines Meta $887 million over Android users' data access",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSVFmcHRvNGEzVXRKbU5Kc0JhSDV4R2o0bnpXSUJMZnRMc1E2ckNCRzBaWDhzY2xObHVtNmtiWmdoX3g4NlVsYkc1bzFDbVB0T016LWczNHJ6bGx2ZXlQeDZPUGNjeXJPaWZ3Wm5DdU9za21PMXFlZVVDckh5Q1I0QnROcElOTnA2bGMzczBMbFJweW1ISkkwWUgzNXJpTU95N0NR?oc=5"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Italy fines Meta €805m over accessing users' photos",
+          "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "SpaceX Executes Historic First Catch of Starship Upper Stage with Launch Tower Chopsticks",
+      "title_ja": "SpaceX、発射タワーのアームでStarship上段の空中捕獲に初成功",
+      "summary_ja": "SpaceXは大型ロケット「Starship」の第15回試験飛行で、地球周回から帰還した宇宙船上段を発射タワーの機械式アーム「チョップスティック」で空中で捕捉することに初めて成功しました。",
+      "why_ja": "宇宙船上段の完全再利用に向けた実証であり、ロケット打ち上げコストの大幅な削減と高頻度打ち上げの実現に大きく近づきました。",
+      "section": "tech",
+      "topic_key": "spacex-starship-chopstick-catch",
+      "companies": [
+        "SpaceX"
+      ],
+      "sources": [
+        {
+          "publisher": "Ars Technica",
+          "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
+          "url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+          "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch"
+        },
+        {
+          "publisher": "Ars Technica",
+          "title": "Starship flight 15 powers to orbit—setting up a possible catch on Saturday",
+          "url": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "SpaceX’s Starship nails a smooth return with historic catch",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/aje-onl-nf_spacexs-starship-nails-a-smooth-return-141126?traffic_source=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "SpaceX’s Starship captured by launchpad arms in dramatic first",
+          "url": "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first?traffic_source=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
+          "url": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "Ars Technica",
+          "title": "With Starship catch, SpaceX still shows it can dazzle the world",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTjNxR3RJODFOUXdTLWVmNHlwVTVqNGVFdlg3TFhMT0pzVjE2YXZEaS1NOUhnZW93c1d6NjR0eHF3UWpDbHlGSzdTSGxZYU1MbGJPZWJ5OVBLMG1hcEdONEw1UjhENjdrd3l2X2VKUkVnMGEyMGZXV2FiT0d4TkpFZWwwaHpjSy1xYVdidkRqR3VrODktNXBDODNYeDhxa3BERVJV?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Google Releases Gemini 4 Hydrogen Model to Power Agentic Coding and Upgraded Search UI",
+      "title_ja": "GoogleがGemini 4 Hydrogenを発表、コーディングと検索機能を高度化",
+      "summary_ja": "Googleは、高速で効率的なプログラミング作業と自律エージェントの実行に特化したAIモデル「Gemini 4 Hydrogen」を発表しました。同時にGoogle検索にも展開され、複雑な問い合わせに対する回答能力や比較表の表示などが刷新されました。",
+      "why_ja": "開発者向けツールの効率化に加え、検索エンジンの抜本的なAI高度化により、日常的な情報探索体験の変革が進みます。",
+      "section": "tech",
+      "topic_key": "google-gemini-4-hydrogen-launch",
+      "companies": [
+        "Google",
+        "Alphabet"
+      ],
+      "sources": [
+        {
+          "publisher": "Google Blog",
+          "title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/"
+        },
+        {
+          "publisher": "Google Blog",
+          "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+          "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/"
+        },
+        {
+          "publisher": "Google Blog",
+          "title": "Introducing Gemini 4 Hydrogen",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+        }
+      ]
+    },
+    {
+      "title_en": "CMS and ONC Initiate Real-World Testing for Federal Electronic Prior Authorization Mandate",
+      "title_ja": "米保健当局、医療保険事前承認の電子化に向けた実証試験を開始",
+      "summary_ja": "米国のCMSとONCは、医療保険の事前承認手続きを電子化する2027年の義務化規則に先立ち、現場の医療機関や保険会社、EHRベンダーと連携した10〜12週間の実証実験スプリントを開始しました。",
+      "why_ja": "紙やファクスに頼る煩雑な承認プロセスをAPIで自動化・迅速化することで、米国の医療DX推進や患者の適時受療に直結する政策的取り組みです。",
+      "section": "health",
+      "topic_key": "cms-onc-electronic-prior-authorization-testing",
+      "companies": [
+        "CMS",
+        "ONC"
+      ],
+      "sources": [
+        {
+          "publisher": "Fierce Healthcare",
+          "title": "ONC, CMS move electronic prior authorization into real-world testing",
+          "url": "https://www.fiercehealthcare.com/regulatory/onc-cms-launch-electronic-prior-authorization-testing-initiative"
+        }
+      ]
+    },
+    {
+      "title_en": "White House Discloses Plans for Trilateral Nuclear Summit in China with Trump, Putin, and Xi",
+      "title_ja": "米中ロ首脳による核軍縮会談、中国・深圳での開催をホワイトハウスが発表",
+      "summary_ja": "ホワイトハウスは、中国・深圳で開催されるAPECサミットの場で、Donald Trump大統領、Vladimir Putin大統領、Xi Jinping国家主席による3カ国首脳会談を計画していると明らかにしました。核軍縮の枠組みが主な議題となる見通しです。",
+      "why_ja": "米ロの核軍備管理条約が失効した中、中国を交えた新たな大国間外交と軍縮枠組みの構築に向けた重要な試金石となります。",
+      "section": "world",
+      "topic_key": "trump-putin-xi-summit-china",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+          "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "FAA Grounds Flights Nationwide for Hours After Copper-to-Fiber Telecom Upgrade Fails",
+      "title_ja": "全米の航空便が運航停止、通信回線の更新工事不具合で管制網に過負荷",
+      "summary_ja": "米連邦航空局（FAA）は、老朽化した銅線から光ファイバーへの更新作業中に発生したルーターの過負荷により、全米の航空機に対して地上待機命令を発令しました。8,000便以上が欠航し、航空インフラの脆弱性が浮き彫りになりました。",
+      "why_ja": "社会インフラの老朽化と通信回線移行時のリスク管理の重要性を示す事例であり、公共交通システムの冗長化が急務となっています。",
+      "section": "world",
+      "topic_key": "faa-nationwide-flight-ground-stop",
+      "companies": [
+        "FAA",
+        "L3Harris"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "Transportation secretary blames ‘routine’ equipment upgrade for grounding flights nationwide",
+          "url": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "Work to replace old copper wire led to the FAA’s ground stop",
+          "url": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
+          "url": "https://www.theverge.com/news/1033489/faa-ground-stop"
+        },
+        {
+          "publisher": "Ars Technica",
+          "title": "FAA has lifted its third-ever nationwide ground stop",
+          "url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/"
+        },
+        {
+          "publisher": "The Register",
+          "title": "FAA blames ground stop on faulty copper wiring",
+          "url": "https://www.theregister.com/offbeat/2026/11/13/faa-blames-ground-stop-on-faulty-copper-wiring/5309912"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "US government grounds all flights across the United States ‘due to extraordinary circumstances’",
+          "url": "https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances/"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "How telecoms upgrade work sparked US flight chaos",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "US flights resume after ageing technology blamed for outage",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/us-flights-resume-after-ageing-technology-blamed-for-outage?traffic_source=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
+          "url": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "US blames outdated technology for nationwide flight disruption",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/us-blames-outdated-technology-for-nationwide-flight-disruption?traffic_source=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "US blames system upgrade for longest nationwide FAA ground stop since 9/11",
+          "url": "https://www.aljazeera.com/news/2026/11/14/us-blames-system-upgrade-for-longest-nationwide-faa-ground-stop-since-9?traffic_source=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "'We'll get home one day' - US travellers impacted by nationwide ground stop",
+          "url": "https://www.bbc.co.uk/news/videos/c893ryz7lw33o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "Yahoo",
+          "title": "FAA ground stop latest updates: Controllers’ union chief says communications with some planes were disrupted; cancellations top 5,000; Duffy blames L3Harris",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQcU9zSUwyVUpOUnFTQnpLUHNWV1VOeEgtWmdGemZlX1pvRkl6alVwblFkbTZ0RDlWSUo3aXFxZ0QzbThlUjJEdXB6dEdMYU4tcGdHZU5KR2x4RWFwRTNod2MyeVdBUWpVeXlOenV6YUN0aGRGZEtmdE9pLU1yME5Gb3RncU9CTHI0akt2cVc0eVo2LUI2SjNOM2E3eVZhWVpabERIX3BjMWdJam9YMUFXdzBlT1NLYzdKdUV4OUdHbnpvWWdwdE5CVjNFc0cyMjRKVnh5Ty0ycFNDNUVDYlZUX05sWTE4SVFBLTZGVVFBNlJHQ3Y2bGZVN0R2amNPcExPSjNmeW1qVEs?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Global Health Authorities Announce United States Has Lost Its Measles Elimination Status",
+      "title_ja": "米国、26年間維持した麻疹排除国のステータスを喪失",
+      "summary_ja": "世界の保健当局は、米国が2000年に達成した「麻疹排除国」の地位を失ったと発表しました。幼児期のワクチン接種率低下と国内での持続的な感染拡大が主因です。",
+      "why_ja": "予防接種率の低下が先進国において感染症の再流行をもたらす現実を示しており、公衆衛生施策における啓発と信頼構築の重要性を訴えかけています。",
+      "section": "world",
+      "topic_key": "us-loses-measles-elimination-status",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "NPR",
+          "title": "US has lost measles elimination status, global health authorities say",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMm5kN1UwLUQ1cF9CdGJNMHctVFlUQVlTSWtPRnBOb0pBR1RSaW5xcjdpTGpMU3hMQ0otbm9WSXd2WV8yMUVMX1lYVHdQQXd3V2ZWUFhyYzhuSVFSVU5XX3JIR1lscmFRQTNHZl8tNTJGaFhjdnIybFU2Nk5DelN6ZVBMUHIxTTRzem8zek9KRUp1bmdaVDhn?oc=5"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "step down",
+      "meaning_ja": "辞任する、役職を退く",
+      "note_ja": "CEOや政府高官などが役職を辞任する際に頻出する標準的な句動詞です。",
+      "example_en": "Just two and a half months later, CEO Jensen Huang himself left the company over growing questions about his extramarital relationships."
+    },
+    {
+      "term": "interim",
+      "meaning_ja": "暫定の、臨時の",
+      "note_ja": "正式な後任が決まるまでの間、一時的に職務を務める役職に使われます。",
+      "example_en": "Nvidia named Chief Financial Officer Colette Kress as interim CEO, and Harvey Jones as board chair."
+    },
+    {
+      "term": "funnel",
+      "meaning_ja": "不正に流す、送り込む",
+      "note_ja": "資金や物資を特定の経路を通して送る・迂回させる意味で用いられます。",
+      "example_en": "Reports suggest up to 1.5 million restricted Blackwell AI chips were funneled to Chinese AI developers."
+    },
+    {
+      "term": "reinstate",
+      "meaning_ja": "復職させる、元の状態に戻す",
+      "note_ja": "辞任や解任されたリーダーを再び元の役職に戻すことを要求する文脈で使われます。",
+      "example_en": "Over 115,000 people, including Elon Musk, signed a petition to reinstate Huang."
+    },
+    {
+      "term": "outage",
+      "meaning_ja": "機能停止、運行停止、停電",
+      "note_ja": "クラウドシステムや電力などが停止する事故全般を指す基本単語です。",
+      "example_en": "Microsoft suffered a day-long global cloud outage that took down Outlook, Teams, and Intune."
+    },
+    {
+      "term": "explicit consent",
+      "meaning_ja": "明示的な同意",
+      "note_ja": "プライバシー規制やGDPR等で、本人が明確に承諾することを指す法律用語です。",
+      "example_en": "The regulator found that Meta accessed photos and videos from about 20 million Android smartphone users without explicit consent."
+    },
+    {
+      "term": "reusability",
+      "meaning_ja": "再利用可能性",
+      "note_ja": "宇宙工学やソフトウェア開発において、繰り返し使える特性を表します。",
+      "example_en": "In our fourth tech story, SpaceX achieved a major breakthrough in rocket reusability."
+    },
+    {
+      "term": "agent workflow",
+      "meaning_ja": "エージェントの業務手順、自律処理手順",
+      "note_ja": "AIが自律的にタスクを連続実行する業務の流れを指す最新のIT用語です。",
+      "example_en": "Google released Gemini 4 Hydrogen, an AI model built for fast, cost-efficient software coding and agent workflows."
+    },
+    {
+      "term": "prior authorization",
+      "meaning_ja": "事前承認",
+      "note_ja": "医療機関が特定の治療・投薬を行う前に医療保険者から受ける事前承認制度です。",
+      "example_en": "Prior authorization requires doctors to get approval from health insurers before giving certain treatments or medications."
+    },
+    {
+      "term": "mandate",
+      "meaning_ja": "義務付ける、命令する",
+      "note_ja": "法律や公的規則によって特定の行動を強制することを指します。",
+      "example_en": "Federal rules will mandate standardized electronic application programming interfaces, or APIs, starting in 2027."
+    },
+    {
+      "term": "ground stop",
+      "meaning_ja": "地上待機命令、離陸停止措置",
+      "note_ja": "航空管制上の理由で航空機の離陸を一斉に停止させる安全措置です。",
+      "example_en": "The Federal Aviation Administration ordered a nationwide ground stop on Friday, canceling thousands of flights."
+    },
+    {
+      "term": "elimination status",
+      "meaning_ja": "排除状態の認定",
+      "note_ja": "特定の地域で感染症の持続的な伝播が長期間途絶えている公式の認定です。",
+      "example_en": "Global health authorities announced that the United States has officially lost its measles elimination status."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "step down",
+    "meaning_ja": "役職を辞任する、退く",
+    "example_en": "After ten years of dedicated leadership, the hospital director chose to step down to spend time with family.",
+    "example_ja": "10年間の献身的なリーダーシップを経て、病院長は家族と過ごすために退任することを選びました。"
+  }
+}
