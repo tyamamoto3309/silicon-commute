@@ -1,0 +1,1098 @@
+{
+  "date": "2026-11-16",
+  "published": "2026-11-16T05:58:58+09:00",
+  "title_en": "Memory Chip Lawsuit Moves Ahead and Tech Security Under Watch",
+  "title_ja": "メモリ大手提訴の進展と技術安全保障への警戒",
+  "summary_ja": "米連邦裁判所はメモリ大手3社による価格カルテル疑惑の反トラスト訴訟の継続を認め、半導体業界に大きな緊張が走っています。デジタルヘルス分野では病院内ネットワークで安全にカルテを推論分析するAIの導入が進む一方、アフリカでのエボラ出血熱拡大や中東・欧州情勢の緊張も続いています。",
+  "duration": 1089.0,
+  "audio": {
+    "file": "2026-11-16.mp3",
+    "bytes": 8712865,
+    "release_tag": "ep-2026-11-16"
+  },
+  "word_count": 2042,
+  "ja_chars": 1184,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.8-flash",
+    "write": "gemini-3.8-flash",
+    "revise": "gemini-3.8-flash",
+    "tts": "gemini-3.8-flash-lite-tts, gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Monday Morning Briefing",
+      "heading_ja": "月曜朝のヘッドライン",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it is Monday, November 16. This is Commute News.",
+          "ja": "おはようございます、11月16日月曜日です。Commute Newsをお届けします。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, Alex. Let us preview three big stories for this morning.",
+          "ja": "アレックス、おはようございます。今朝の主要な3つのニュースをご紹介します。",
+          "t": 4.99
+        },
+        {
+          "speaker": "Alex",
+          "en": "First, in technology, a federal judge refuses to dismiss a major price-fixing lawsuit against the three biggest memory chip makers.",
+          "ja": "まずテック分野では、大手メモリメーカー3社に対する大規模な価格カルテル訴訟について、米連邦判事が却下を退けました。",
+          "t": 10.45
+        },
+        {
+          "speaker": "Mika",
+          "en": "Next, in digital health, hospitals start using special artificial intelligence that reads patient records without connecting to the public internet.",
+          "ja": "次にデジタルヘルスでは、インターネットに接続せず院内で患者カルテを読み取る専用AIの病院導入が進んでいます。",
+          "t": 19.4
+        },
+        {
+          "speaker": "Alex",
+          "en": "And in world news, health officials warn that a dangerous Ebola outbreak in the Democratic Republic of Congo remains out of control.",
+          "ja": "そして国際ニュースでは、コンゴ民主共和国での危険なエボラ出血熱の流行が依然として制御不能だと保健機関が警告しています。",
+          "t": 29.33
+        },
+        {
+          "speaker": "Mika",
+          "en": "Let us explore these stories and more during your morning commute.",
+          "ja": "それでは通勤時間にこれらのニュースを詳しく見ていきましょう。",
+          "t": 38.34
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Judge Allows DRAM Price-Fixing Lawsuit to Proceed",
+      "heading_ja": "DRAM価格操作疑惑の集団訴訟、裁判所が継続認める",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "A federal judge has refused to dismiss an antitrust lawsuit against Samsung, SK Hynix, and Micron.",
+          "ja": "米連邦判事は、Samsung、SK Hynix、Micronに対する反トラスト法訴訟の却下申請を退けました。",
+          "t": 43.56
+        },
+        {
+          "speaker": "Mika",
+          "en": "What are these companies accused of doing?",
+          "ja": "これらの企業は何をしたと訴えられているのですか。",
+          "t": 50.62
+        },
+        {
+          "speaker": "Alex",
+          "en": "The lawsuit alleges that the three companies colluded to cut supply and raise prices. Together, they control most of the global DRAM market. DRAM is the main memory used in computers, phones, and data centers. The plaintiffs say memory prices jumped by as much as 500 percent in one year.",
+          "ja": "訴訟は、3社が結託して供給を減らし価格を釣り上げたと主張しています。3社で世界のDRAM市場の大半を占めています。DRAMはパソコンやスマホ、データセンターで使われる主記憶装置です。原告側は、メモリ価格が1年で最大500パーセント跳ね上がったと述べています。",
+          "t": 54.47
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did the judge describe their actions?",
+          "ja": "裁判長はその行為をどのように表現したのですか。",
+          "t": 72.43
+        },
+        {
+          "speaker": "Alex",
+          "en": "Judge Noel Wise said the companies acted like hawks flying in formation. The companies argued they were just watching each other closely in a tight market. But the judge noted that hawks do not usually fly in formation. The plaintiffs pointed to simultaneous production cuts between October 2022 and April 2023.",
+          "ja": "ノエル・ワイズ判事は、各社が隊列を組んで飛ぶタカのように行動したと述べました。各社は厳しい市場でお互いを注視していただけだと反論しました。しかし判事は、タカは普通隊列を組まないと指摘しました。原告は2022年10月から2023年4月の同時の減産を指摘しています。",
+          "t": 76.22
+        },
+        {
+          "speaker": "Mika",
+          "en": "What happens next in this case?",
+          "ja": "この裁判は今後どうなるのでしょうか。",
+          "t": 95.5
+        },
+        {
+          "speaker": "Alex",
+          "en": "The chipmakers must respond to the complaint by December 7. A case conference will follow in January 2027. This ruling is not a final verdict, but it exposes the memory industry to severe legal scrutiny. So, in short, three dominant chip makers must now defend themselves in court against serious price-fixing charges.",
+          "ja": "半導体各社は12月7日までに訴状へ回答しなければならず、2027年1月に審理運営会議が開かれます。今回の判断は最終判決ではありませんが、メモリ業界は厳しい法的精査を受けることになります。つまり要約すると、主要チップ大手3社は深刻な価格操作の告発に対し、法廷で弁明を迫られることになりました。",
+          "t": 98.72
+        }
+      ],
+      "lang": "en",
+      "t": 43.56
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。米連邦地裁は、Samsung、SK Hynix、Micronのメモリ大手3社に対する価格カルテル訴訟の却下申請を退けました。1年でDRAM価格が最大500パーセント急騰した背景に協調的な減産があったとの原告側の主張について、裁判所は審理を進める合理的な根拠があると判断しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 118.41
+        }
+      ],
+      "t": 118.41
+    },
+    {
+      "kind": "story",
+      "heading_en": "ULA Vulcan Rocket Fails and Destroys Amazon Satellites",
+      "heading_ja": "ULAのバルカンロケットが飛行失敗、Amazon衛星40基を喪失",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "United Launch Alliance suffered the first complete mission failure of its new Vulcan rocket over the weekend.",
+          "ja": "ユナイテッド・ローンチ・アライアンス（ULA）の新型ロケット「バルカン」が週末、初の完全なミッション失敗に見舞われました。",
+          "t": 143.69
+        },
+        {
+          "speaker": "Mika",
+          "en": "What was the rocket carrying?",
+          "ja": "そのロケットは何を運んでいたのですか。",
+          "t": 151.18
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Vulcan Centaur rocket was carrying 40 Amazon Leo broadband satellites. It was supposed to be a return-to-flight mission, but an anomaly occurred midflight, and the rocket failed to deliver its payload into orbit. All 40 satellites were completely destroyed.",
+          "ja": "バルカン・セントールロケットはAmazonの低軌道ブロードバンド衛星「Leo」40基を搭載していました。運用復帰ミッションとなる予定でしたが、飛行中に異常が発生し、積載物を軌道に投入できませんでした。40基の衛星はすべて破壊されました。",
+          "t": 154.2
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is this launch so critical for Amazon?",
+          "ja": "なぜこの打ち上げはAmazonにとってそれほど重要だったのですか。",
+          "t": 170.18
+        },
+        {
+          "speaker": "Alex",
+          "en": "Amazon is building a massive global satellite internet constellation called Project Leo. It is racing directly against SpaceX, which operates Starlink. Starlink already has thousands of active internet satellites in orbit. Amazon must launch hundreds of satellites rapidly to satisfy government regulatory deadlines. Losing forty satellites in a single flight creates an immediate and costly bottleneck.",
+          "ja": "Amazonは「プロジェクトLeo」と呼ばれる大規模な衛星インターネット網を構築しています。すでに数千基の衛星を軌道上に展開しているSpaceXのStarlinkと直接競合しています。Amazonは政府の厳しい期限を満たすため、急速に数百基を打ち上げる必要があります。1回の飛行で40基を失うことは、直接的かつ深刻な遅れを生み出します。",
+          "t": 173.93
+        },
+        {
+          "speaker": "Mika",
+          "en": "What are the next steps for United Launch Alliance?",
+          "ja": "ユナイテッド・ローンチ・アライアンスの次の対応はどうなりますか。",
+          "t": 197.85
+        },
+        {
+          "speaker": "Alex",
+          "en": "Engineers and federal investigators must conduct a thorough review to determine the root cause of the in-flight anomaly. That launch pause could delay upcoming commercial deployments and vital national security missions. So, in short, a midflight rocket failure destroyed 40 Amazon satellites, delivering a major blow to its broadband rivalry with SpaceX.",
+          "ja": "技術者と連邦調査官は、飛行中の異常の根本原因を特定するため徹底的な調査を行う必要があります。打ち上げの中断は今後の民間衛星や重要な国家安全保障任務を遅らせる可能性があります。つまり要約すると、飛行中のロケット故障によりAmazonの衛星40基が失われ、SpaceXとの通信衛星競争に大きな打撃を与えました。",
+          "t": 202.1
+        }
+      ],
+      "lang": "en",
+      "t": 143.69
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ULAの新型ロケット「Vulcan」が飛行中に異常を起こし、Amazonの通信衛星「Leo」40基すべてが失われました。SpaceXのStarlinkに対抗して低軌道インターネット網の構築を急ぐAmazonにとって、衛星打ち上げ計画の大幅な遅れにつながる手痛い打撃となります。",
+          "en": "",
+          "lang": "ja",
+          "t": 223.34
+        }
+      ],
+      "t": 223.34
+    },
+    {
+      "kind": "story",
+      "heading_en": "Congress Moves to Tighten AI Chip Export Rules",
+      "heading_ja": "米議会、AIチップ対中輸出規制の強化へ法案準備",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Bipartisan lawmakers in the United States Congress are moving quickly to tighten export controls on advanced artificial intelligence chips.",
+          "ja": "米議会の超党派議員は、先端人工知能（AI）チップの輸出規制強化に向けて迅速に動いています。",
+          "t": 245.57
+        },
+        {
+          "speaker": "Mika",
+          "en": "What triggered this sudden push from Capitol Hill?",
+          "ja": "議会によるこの突然の動きは何がきっかけなのですか。",
+          "t": 254.73
+        },
+        {
+          "speaker": "Alex",
+          "en": "The push follows national security fallout involving former Nvidia chief executive Jensen Huang and a suspected Chinese spy. Both Democrats and Republicans are demanding answers and seeking stricter export measures. They want to ensure powerful semiconductor hardware and advanced computing systems do not reach China through indirect channels.",
+          "ja": "この動きは、元NVIDIA最高経営責任者のJensen Huang氏と中国のスパイ容疑者を巡る国家安全保障上の余波を受けたものです。民主党と共和党の双方が説明を求め、より厳しい輸出規制を模索しています。強力な半導体ハードウェアや高度な計算システムが間接的なルートで中国に渡るのを阻止したい考えです。",
+          "t": 258.92
+        },
+        {
+          "speaker": "Mika",
+          "en": "Which congressional leaders are taking action?",
+          "ja": "どの議会指導者が行動を起こしているのですか。",
+          "t": 279.55
+        },
+        {
+          "speaker": "Alex",
+          "en": "Senate Banking Committee Chairman Tim Scott sent formal letters requesting public testimony from both Jensen Huang and Commerce Secretary Howard Lutnick. Senate Minority Leader Chuck Schumer stated that Huang and executive officials must answer directly to Congress. House Speaker Mike Johnson also noted a growing consensus among lawmakers to limit China's access to advanced chips produced by companies like Nvidia.",
+          "ja": "上院銀行委員会のティム・スコット委員長は、Jensen Huang氏とハワード・ラトニック商務長官に対し公開証言を求める正式書簡を送りました。シューマー上院院内総務も、Huang氏と政府高官は議会で直接説明すべきだと述べました。ジョンソン下院議長も、NVIDIAなどの先進チップへの中国のアクセスを制限する合意が議員間で広がっていると指摘しました。",
+          "t": 283.52
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specific legislation is being considered?",
+          "ja": "どのような具体的な法案が検討されているのですか。",
+          "t": 308.22
+        },
+        {
+          "speaker": "Alex",
+          "en": "Stalled measures like the Remote Access Security Act, which targets indirect cloud access, are gaining fresh traction. So, in short, American lawmakers are drafting aggressive bipartisan rules to restrict advanced AI chip sales following the Nvidia leadership scandal.",
+          "ja": "クラウド経由の間接アクセスを規制対象とする「リモートアクセス安全保障法案」など、停滞していた法案が再び注目を集めています。つまり要約すると、NVIDIA首脳陣を巡るスキャンダルを受け、米議員らは先端AIチップの販売を制限する超党派の厳しい規制法案を準備しています。",
+          "t": 312.19
+        }
+      ],
+      "lang": "en",
+      "t": 245.57
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "NVIDIAの元CEOであるJensen Huang氏を巡るスキャンダルを受け、米議会の超党派議員が中国向けAIチップの輸出規制強化に乗り出しました。上院委員会がHuang氏や商務長官の証言を要求しており、半導体業界に対する規制法案の成立機運が急速に高まっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 329.02
+        }
+      ],
+      "t": 329.02
+    },
+    {
+      "kind": "story",
+      "heading_en": "Apple Prepares First Smart Glasses Focused on Siri AI",
+      "heading_ja": "アップル、Siri AIに特化した初のスマートグラスを準備",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Apple is preparing its first lightweight smart glasses, and they will focus heavily on conversational Siri artificial intelligence.",
+          "ja": "Appleは初の軽量スマートグラスを準備しており、対話型のSiri人工知能に大きく注力する予定です。",
+          "t": 350.3
+        },
+        {
+          "speaker": "Mika",
+          "en": "Will these new glasses have visual computer displays?",
+          "ja": "この新しいメガネには視覚的なコンピュータ画面が表示されるのですか。",
+          "t": 358.95
+        },
+        {
+          "speaker": "Alex",
+          "en": "No, according to reporting from Mark Gurman, the initial model will completely lack augmented reality visual displays. Apple is betting that audio conversations and intelligent voice assistants provide a better everyday consumer experience. The prototypes, known internally as N50, run a stripped-down version of visionOS and use an energy-efficient chip based on older smartwatch processors.",
+          "ja": "いいえ、マーク・ガーマン記者の報道によると、初期モデルには拡張現実（AR）の視覚ディスプレイが一切搭載されません。Appleは音声対話と知的な音声アシスタントの方が日常の消費者体験に適していると賭けています。社内でN50と呼ばれる試作機は、簡易版visionOSとスマートウォッチ用プロセッサに基づく省電力チップで駆動します。",
+          "t": 363.27
+        },
+        {
+          "speaker": "Mika",
+          "en": "How will people use these glasses during the day?",
+          "ja": "利用者は日中どのようにこのメガネを使うのでしょうか。",
+          "t": 386.38
+        },
+        {
+          "speaker": "Alex",
+          "en": "Users will rely on voice commands and industry-leading sound quality for phone calls, music playback, and FaceTime audio. Built-in Wi-Fi lets audio continue streaming even if you step away from your iPhone. They also include a tiny magnetic charger, described as roughly the size of a candy mint, which can attach while worn.",
+          "ja": "利用者は音声コマンドと業界最高水準の音質を活用し、通話や音楽再生、FaceTime音声通話を行います。内蔵Wi-Fiにより、iPhoneから離れても音声ストリーミングを継続できます。また、キャンディサイズの小型マグネット式充電器を備え、装着したまま充電することも可能です。",
+          "t": 390.48
+        },
+        {
+          "speaker": "Mika",
+          "en": "When will consumers finally see them?",
+          "ja": "消費者はいつ頃これを目にすることができるのでしょうか。",
+          "t": 409.87
+        },
+        {
+          "speaker": "Alex",
+          "en": "Apple plans to introduce the glasses at its WWDC conference next June, with commercial shipments beginning before the end of next year. So, in short, Apple is entering smart eyewear by ditching complex screens in favor of voice-driven Siri AI.",
+          "ja": "Appleは来年6月のWWDCでこのグラスを発表し、来年末までに一般出荷を開始する計画です。つまり要約すると、Appleは複雑な画面を排し、音声主導のSiri AIを武器にスマートアイウェア市場へ参入しようとしています。",
+          "t": 413.31
+        }
+      ],
+      "lang": "en",
+      "t": 350.3
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Appleが初のスマートグラスを開発中であり、来年6月のWWDCで発表される見込みです。画面表示機能は持たず、改良されたSiriによる音声対話と高品質な音響を主軸とし、Metaなどが先行するメガネ型端末市場に対抗する狙いがあります。",
+          "en": "",
+          "lang": "ja",
+          "t": 428.16
+        }
+      ],
+      "t": 428.16
+    },
+    {
+      "kind": "story",
+      "heading_en": "US Disrupts North Korean FaceStealer Cyber Campaign",
+      "heading_ja": "米政府、北朝鮮ハッカー集団「FaceStealer」の拠点を解体",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "The United States Department of Justice and the FBI have partially disrupted a sophisticated cyber campaign known as FaceStealer.",
+          "ja": "米司法省と連邦捜査局（FBI）は、「FaceStealer」として知られる巧妙なサイバー犯罪作戦を部分的に妨害・解体しました。",
+          "t": 446.9
+        },
+        {
+          "speaker": "Mika",
+          "en": "Who is behind FaceStealer and how much money was stolen?",
+          "ja": "FaceStealerの背後には誰がいて、どれほどの資金が盗まれたのですか。",
+          "t": 455.43
+        },
+        {
+          "speaker": "Alex",
+          "en": "Federal officials confirmed that state-backed North Korean operatives ran the campaign to steal funds for their government. The group has stolen around 400 million dollars in cryptocurrency from victims and was linked to the massive five-billion-dollar breach against the Binance exchange. The operation has been actively targeting tech workers for over 18 months.",
+          "ja": "連邦当局は、北朝鮮政府の支援を受けた工作員が国家資金を調達するためにこの作戦を実行していたと確認しました。同グループは被害者から約4億ドルの暗号資産を盗み出し、Binance取引所に対する50億ドル規模の大規模ハッキングにも関与していました。この作戦は18か月以上にわたり技術者を標的としてきました。",
+          "t": 459.92
+        },
+        {
+          "speaker": "Mika",
+          "en": "How do these hackers deceive technology professionals?",
+          "ja": "ハッカーたちはどのようにしてIT技術者を騙すのですか。",
+          "t": 481.48
+        },
+        {
+          "speaker": "Alex",
+          "en": "They use advanced spear-phishing and artificial intelligence deepfakes. Government technicians seized cloud infrastructure containing 900 recorded videos of targeted employees. Attackers pose as legitimate employers on typo-squatted domains, invite workers to meetings, simulate fake technical problems, and push malware updates. They also attempted to infiltrate open-source software libraries like Javascript modules and Rust crates.",
+          "ja": "彼らは高度なスピアフィッシングとAIディープフェイクを駆使します。政府の技術者は標的となった従業員の録画映像900本を含むクラウド基盤を押収しました。攻撃者はタイポスクワッティングされた偽ドメインで本物の雇用主になりすまし、面接に招いて技術トラブルを装い不正な更新ソフトを導入させます。さらにJavascriptやRustなどのオープンソースライブラリへの侵入も試みていました。",
+          "t": 485.85
+        },
+        {
+          "speaker": "Mika",
+          "en": "What is the FBI advising developers to do?",
+          "ja": "FBIは開発者に対してどのような助言をしていますか。",
+          "t": 511.34
+        },
+        {
+          "speaker": "Alex",
+          "en": "Officials urge tech workers and repository maintainers to verify meeting links and scrutinize unexpected software installers. So, in short, federal authorities seized critical cloud servers to disrupt North Korean deepfake attacks threatening developers and open-source software.",
+          "ja": "当局は技術者やリポジトリ管理者に対し、会議リンクを照合し不審なインストーラーを厳しく精査するよう呼びかけています。つまり要約すると、連邦当局は開発者やオープンソースソフトを脅かす北朝鮮のディープフェイク攻撃を阻止するため、主要なクラウドサーバーを押収しました。",
+          "t": 515.05
+        }
+      ],
+      "lang": "en",
+      "t": 446.9
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米司法省とFBIは、北朝鮮のハッカー集団「FaceStealer」のクラウド拠点を差し押さえました。AIディープフェイクを用いて実在企業の面接を偽装し、4億ドル以上の暗号資産を窃取したほか、主要なオープンソースソフトへの不正侵入を試みていました。",
+          "en": "",
+          "lang": "ja",
+          "t": 532.35
+        }
+      ],
+      "t": 532.35
+    },
+    {
+      "kind": "health",
+      "heading_en": "Dyania Health and Nvidia Deploy On-Premises Medical AI",
+      "heading_ja": "ダイアニア・ヘルスとNVIDIA、病院内での推論AIを展開",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, our digital health story. Healthcare startup Dyania Health is partnering with Nvidia to deploy advanced clinical reasoning artificial intelligence inside hospital networks.",
+          "ja": "さて、本日のデジタルヘルスのニュースです。医療スタートアップのDyania HealthはNVIDIAと提携し、病院のネットワーク内で高度な臨床推論人工知能を展開します。",
+          "t": 553.44
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why must this healthcare artificial intelligence operate strictly on-premises?",
+          "ja": "なぜこの医療向け人工知能は厳格にオンプレミスで運用される必要があるのですか。",
+          "t": 565.37
+        },
+        {
+          "speaker": "Alex",
+          "en": "Patient privacy and legal compliance are paramount. Hospitals manage decades of unstructured medical records, doctor clinical notes, pathology findings, and surgical reports. Healthcare systems cannot transmit protected personal health data to public frontier cloud models. Running inference locally on Nvidia accelerated computing clusters behind the hospital firewall ensures sensitive patient data never touches the open internet.",
+          "ja": "患者のプライバシーと法規制の遵守が極めて重要だからです。病院は数十年にわたる非構造化カルテや医師の臨床記録、病理所見、手術報告書を管理しています。医療機関は保護された個人健康データを公開クラウドモデルに送信できません。病院のファイアウォール内のNVIDIAアクセラレーテッド計算クラスターで局所的に推論を行うことで、機微な患者データが外部ネットに流出することを防ぎます。",
+          "t": 571.45
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does Dyania's software help medical staff make clinical decisions?",
+          "ja": "Dyaniaのソフトウェアは医療スタッフの臨床判断をどのように支援するのですか。",
+          "t": 598.49
+        },
+        {
+          "speaker": "Alex",
+          "en": "Their platform, named Synapsis AI, reads full patient charts longitudinally, determining exactly what happened and when. Dyania invested more than 25,000 physician hours annotating cases to teach the software genuine clinical logic. Instead of just writing summaries, Synapsis AI answers complex clinical questions while citing precise evidence in the medical records.",
+          "ja": "「Synapsis AI」と呼ばれるその基盤は、患者カルテ全体を長期的に読み解き、何がいつ起こったかを正確に判定します。Dyaniaはソフトウェアに本物の臨床推論を学習させるため、2万5000時間以上の医師によるアノテーション作業を費やしました。単に要約を作成するだけでなく、カルテ内の正確な証拠を提示しながら複雑な臨床の質問に答えます。",
+          "t": 604.1
+        },
+        {
+          "speaker": "Mika",
+          "en": "What technology powers this local system?",
+          "ja": "このローカルシステムはどのような技術で動いているのですか。",
+          "t": 627.31
+        },
+        {
+          "speaker": "Alex",
+          "en": "It runs on Nvidia TensorRT software and local GPU hardware. So, in short, Dyania Health and Nvidia allow hospitals to perform population-scale clinical reasoning while keeping patient records safely inside their private networks.",
+          "ja": "NVIDIAのTensorRTソフトウェアと現地のGPUハードウェア上で稼働します。つまり要約すると、Dyania HealthとNVIDIAは、患者記録を構内ネットワーク内に安全に留めたまま、病院全体の大規模な臨床推論を可能にしました。",
+          "t": 631.21
+        }
+      ],
+      "lang": "en",
+      "t": 553.44
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Dyania HealthとNVIDIAは、病院の構内ネットワーク内で安全に動作する臨床推論AI「Synapsis AI」を発表しました。患者データを外部クラウドに出さず、2万5000時間の医師監修データを基に膨大なカルテから根拠付きの臨床洞察を導き出します。",
+          "en": "",
+          "lang": "ja",
+          "t": 646.21
+        }
+      ],
+      "t": 646.21
+    },
+    {
+      "kind": "world",
+      "heading_en": "DR Congo Ebola Outbreak Remains Out of Control",
+      "heading_ja": "コンゴ民主共和国のエボラ出血熱、依然として収束見えず",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, turning to world news. Public health authorities warn that a six-month-old Ebola outbreak in the Democratic Republic of Congo is still expanding and remains out of control.",
+          "ja": "続いて、国際ニュースです。コンゴ民主共和国で発生して6か月が経過したエボラ出血熱の流行が依然として拡大し、制御不能な状態にあると公衆衛生当局が警告しています。",
+          "t": 668.41
+        },
+        {
+          "speaker": "Mika",
+          "en": "What are the latest figures from health agencies on the ground?",
+          "ja": "現地の保健機関による最新の数値はどうなっていますか。",
+          "t": 680.34
+        },
+        {
+          "speaker": "Alex",
+          "en": "Since the epidemic was officially declared on May 15, more than 11,200 infections and 5,500 deaths have been recorded across eight provinces. Africa CDC Director-General Jean Kaseya warned that without immediate intervention, this could become the worst Ebola outbreak in world history. Over 80 percent of new cases emerge outside known contact tracing lists, and 65 percent of deaths occur in local communities outside treatment centers.",
+          "ja": "5月15日の公式流行宣言以来、8つの州で1万1200件以上の感染と5500人以上の死者が記録されています。アフリカCDCのジャン・カセヤ事務局長は、緊急の介入がなければ世界史上最悪のエボラ流行になりかねないと警告しました。新規症例の80パーセント以上が追跡リスト外から発生し、死者の65パーセントは治療センター外の地域社会で発生しています。",
+          "t": 685.54
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why has containment been so difficult for international responders?",
+          "ja": "なぜ国際的な対応部隊にとってウイルスの封じ込めがこれほど困難なのですか。",
+          "t": 712.88
+        },
+        {
+          "speaker": "Alex",
+          "en": "The crisis is driven by the rare Bundibugyo strain, which currently has no approved vaccine or specific cure. Ongoing regional conflict and severely damaged road networks also slow down testing, meaning lab samples can take up to 72 hours to reach testing labs. Furthermore, international donors have released only 1.3 billion dollars of the 2.9 billion promised to fund emergency aid.",
+          "ja": "承認されたワクチンや特効薬がない稀少な「ブンディブギョ株」が原因であることが大きな要因です。また、続く地域紛争や道路の寸断によって検査が遅れ、検体の搬送に最大72時間かかることもあります。さらに、国際支援国が約束した緊急援助資金29億ドルのうち、拠出されたのは13億ドルにとどまっています。",
+          "t": 718.31
+        },
+        {
+          "speaker": "Mika",
+          "en": "Are there any positive medical developments?",
+          "ja": "前向きな医療の進展はあるのでしょうか。",
+          "t": 742.52
+        },
+        {
+          "speaker": "Alex",
+          "en": "The World Health Organization noted that clinical trials for two new vaccines are advancing, and over 3,000 patients have recovered. So, in short, funding shortfalls and a lack of approved vaccines leave the Congo Ebola outbreak dangerously uncontrolled.",
+          "ja": "世界保健機関（WHO）は2つの新ワクチンの治験が進展しており、3000人以上が回復したと報告しています。つまり要約すると、資金不足と承認ワクチンの欠如により、コンゴでのエボラ出血熱は依然として危険な拡大を続けています。",
+          "t": 746.59
+        }
+      ],
+      "lang": "en",
+      "t": 668.41
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "コンゴ民主共和国でのエボラ出血熱の流行から半年が経過し、症例数は1万1200件、死者は5500人を超えました。承認されたワクチンがない「ブンディブギョ株」による感染であり、アフリカCDCは国際支援の遅れと制御不能な拡大に強い危機感を示しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 763.52
+        }
+      ],
+      "t": 763.52
+    },
+    {
+      "kind": "world",
+      "heading_en": "Estonia to Close Russian Border After Drone Factory Sabotage",
+      "heading_ja": "エストニア、ドローン工場襲撃未遂受けロシア国境閉鎖へ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Estonia announced it will completely close all border crossings with Russia starting on December 1.",
+          "ja": "エストニアは12月1日からロシアとのすべての国境検問所を完全に閉鎖すると発表しました。",
+          "t": 784.32
+        },
+        {
+          "speaker": "Mika",
+          "en": "What incident prompted Estonia to take this major step?",
+          "ja": "エストニアがこの大きな措置に踏み切るきっかけとなった事件は何ですか。",
+          "t": 791.55
+        },
+        {
+          "speaker": "Alex",
+          "en": "Security forces arrested eight individuals during an attempted attack on Threod Systems, a defense contractor that manufactures long-range attack and reconnaissance drones for Ukraine. Estonian internal security confirmed the sabotage attempt was ordered directly by Russia's GRU military intelligence service with the goal of causing explosions and setting the production facility on fire.",
+          "ja": "ウクライナ向けに長距離攻撃・偵察用ドローンを製造する防衛企業スリード・システムズ社の施設を襲撃しようとした8人を治安部隊が逮捕しました。エストニア国内治安当局は、工場の爆発と放火を狙ったこの破壊工作未遂が、ロシア軍参謀本部情報総局（GRU）から直接指示されたものであると確認しました。",
+          "t": 796.21
+        },
+        {
+          "speaker": "Mika",
+          "en": "How are Estonian government leaders responding to the threat?",
+          "ja": "エストニア政府の指導者らはこの脅威にどう対応していますか。",
+          "t": 820.39
+        },
+        {
+          "speaker": "Alex",
+          "en": "Prime Minister Kristen Michal explained that the border closure is essential to protect critical domestic industry and reduce the threat of further hybrid attacks. He declared that Moscow is trying to intimidate Baltic nations, but Estonia will increase security cooperation and firmly continue its support for Ukraine. Foreign Minister Margus Tsahkna echoed this stance, warning that hostile foreign actions will carry direct consequences.",
+          "ja": "クリステン・ミハル首相は、国内の重要産業を保護しさらなるハイブリッド攻撃の脅威を低減するために国境閉鎖が不可欠であると説明しました。ロシアはバルト三国を脅迫しようとしているが、エストニアは安全保障協力を強化しウクライナ支援を断固として継続すると宣言しました。ツァフクナ外相も同調し、敵対的行為には相応の結果が伴うと警告しました。",
+          "t": 825.4
+        },
+        {
+          "speaker": "Mika",
+          "en": "What did Russian officials say about the border move?",
+          "ja": "ロシア側はこの国境閉鎖の動きについて何と述べていますか。",
+          "t": 852.49
+        },
+        {
+          "speaker": "Alex",
+          "en": "Moscow denied involvement and dismissed the measures as hostility. So, in short, Estonia is sealing its eastern border crossings after foiling a Russian military sabotage plot against a key drone manufacturer.",
+          "ja": "モスクワは関与を否定し、この措置を敵視政策として一蹴しました。つまり要約すると、エストニアは主要ドローン製造企業に対するロシア軍の破壊工作計画を阻止したことを受け、東部国境を全面的に封鎖します。",
+          "t": 857.03
+        }
+      ],
+      "lang": "en",
+      "t": 784.32
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "エストニア政府は、ウクライナ支援ドローン製造施設へのロシア軍情報機関による放火・破壊工作未遂事件を受け、12月1日からロシアとの全陸上国境を閉鎖すると発表しました。防衛産業への攻撃を阻止し、安全保障を強化する姿勢を鮮明にしています。",
+          "en": "",
+          "lang": "ja",
+          "t": 870.66
+        }
+      ],
+      "t": 870.66
+    },
+    {
+      "kind": "world",
+      "heading_en": "Iran Launches Drone Strikes on US Military Base in Bahrain",
+      "heading_ja": "イラン、バーレーンの米軍基地へドローン報復攻撃を実施",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Iran launched retaliatory drone attacks against a United States military installation in Bahrain early on Sunday.",
+          "ja": "イランは日曜日未明、バーレーンにある米軍軍事施設に対してドローンによる報復攻撃を実施しました。",
+          "t": 890.36
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specific site was targeted, and were there casualties?",
+          "ja": "具体的にどの拠点が標的とされ、死傷者は出たのでしょうか。",
+          "t": 898.4
+        },
+        {
+          "speaker": "Alex",
+          "en": "Iran's Revolutionary Guards launched six drones aimed at a US air defense radar facility at the Al-Rifaa helicopter base. Bahraini air defense batteries successfully intercepted the drones before they reached their intended targets. Sirens forced local residents to take emergency shelter, and it marked the second drone assault against American forces in Bahrain in just three days following earlier US strikes in Iran.",
+          "ja": "イラン革命防衛隊は、リファー・ヘリコプター基地にある米軍防空レーダー施設を狙ってドローン6機を発射しました。バーレーンの防空部隊が標的到達前にドローンをすべて迎撃しました。警報サイレンにより住民が緊急避難を強いられ、米軍による対イラン攻撃を受けたバーレーンへの攻撃はわずか3日間で2度目となりました。",
+          "t": 903.3
+        },
+        {
+          "speaker": "Mika",
+          "en": "How have neighboring Middle Eastern countries responded?",
+          "ja": "近隣の中東諸国はどのように反応していますか。",
+          "t": 929.22
+        },
+        {
+          "speaker": "Alex",
+          "en": "Regional partners including Saudi Arabia, Qatar, Jordan, and Egypt issued urgent statements strongly condemning the drone assault. They described the strikes as a flagrant violation of international law and a dangerous escalation that undermines regional diplomatic stability. In addition, Iranian authorities claimed that a supertanker holding two million barrels of crude oil struck a naval mine and sank in the Strait of Hormuz.",
+          "ja": "サウジアラビア、カタール、ヨルダン、エジプトなどの周辺国は、ドローン攻撃を強く非難する緊急声明を発表しました。国際法への明白な違反であり、地域の外交的安定を損なう危険なエスカレーションだと表明しています。さらにイラン当局は、原油200万バレルを積んだ大型タンカーがホルムズ海峡で機雷に接触して沈没したとも主張しました。",
+          "t": 933.94
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does Tehran plan to stop these regional attacks?",
+          "ja": "イラン政府はこれらの地域攻撃を停止する意向があるのでしょうか。",
+          "t": 960.51
+        },
+        {
+          "speaker": "Alex",
+          "en": "Iranian diplomats stated they will continue retaliating against foreign military actions. So, in short, intercepted Iranian drone attacks in Bahrain and naval mine tensions are raising the risk of wider Middle Eastern conflict.",
+          "ja": "イランの外交官は、外国の軍事行動に対して報復を続けると明言しました。つまり要約すると、バーレーンで迎撃されたイランのドローン攻撃と機雷を巡る緊張により、中東での紛争拡大リスクが高まっています。",
+          "t": 964.76
+        }
+      ],
+      "lang": "en",
+      "t": 890.36
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "イランはバーレーンにある米軍基地のレーダー施設に向けドローン6機による攻撃を行いました。防空網により迎撃され被害は免れたものの、サウジアラビアなど周辺のアラブ諸国は地域の安定を脅かす危険な挑発行為であるとしてイランを一斉に非難しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 979.89
+        }
+      ],
+      "t": 979.89
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch: Executive Moves and Public Visits",
+      "heading_ja": "CEOウォッチ：首脳陣の復帰協議と店舗訪問",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In executive news, former Nvidia chief executive Jensen Huang has discussed a potential comeback to the company with close allies, according to reporting from the Financial Times.",
+          "ja": "経営陣の動向として、フィナンシャル・タイムズの報道によると、元NVIDIA最高経営責任者のJensen Huang氏が同社への復帰の可能性について側近らと協議したとのことです。",
+          "t": 998.36
+        },
+        {
+          "speaker": "Mika",
+          "en": "Could he really return so quickly after stepping down?",
+          "ja": "退任したばかりの彼が本当にそれほど早く復帰できるのでしょうか。",
+          "t": 1009.33
+        },
+        {
+          "speaker": "Alex",
+          "en": "It remains uncertain, especially as congressional committees demand his testimony regarding the recent national security fallout.",
+          "ja": "議会委員会が最近の安全保障問題を巡って証言を求めている最中であり、実現するかどうかは依然として不透明です。",
+          "t": 1013.58
+        },
+        {
+          "speaker": "Mika",
+          "en": "Meanwhile, AMD chief executive Dr. Lisa Su made a high-profile public appearance in Austin, Texas, for the opening of a brand-new Micro Center retail store. She personally met enthusiastic PC gamers, signed a 9070 XT graphics card, and handed out 300 swag bags to excited customers.",
+          "ja": "一方、AMDのCEOであるLisa Su博士はテキサス州オースティンを訪れ、マイクロセンターの新店舗開業イベントに登場しました。熱心なPCゲームファンと直接交流し、9070 XTグラフィックカードにサインして、集まった300名の客に記念品を手渡しました。",
+          "t": 1021.85
+        }
+      ],
+      "lang": "en",
+      "t": 998.36
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: In Formation",
+      "heading_ja": "今日のフレーズ：In formation",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's phrase of the day is in formation. In our first story, the judge said the chip companies acted like hawks flying in formation.",
+          "ja": "今日のフレーズは「in formation（隊列を組んで、整列して）」です。最初のニュースで裁判長は、半導体各社が隊列を組んで飛ぶタカのように行動したと述べました。",
+          "t": 1038.36
+        },
+        {
+          "speaker": "Alex",
+          "en": "In formation means moving together in an organized pattern or coordinated group. It is often used for military planes or marching bands.",
+          "ja": "「in formation」は、組織された規則的な隊形や連携した集団で共に動くことを意味します。軍用機やマーチングバンドなどによく使われます。",
+          "t": 1046.91
+        },
+        {
+          "speaker": "Mika",
+          "en": "Here is another example: The rescue boats sailed in formation across the bay during the safety drill.",
+          "ja": "別の例文を挙げます。「救助艇は安全訓練の間、隊列を組んで湾内を航行しました。」",
+          "t": 1055.56
+        }
+      ],
+      "lang": "en",
+      "t": 1038.36
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Sign-off and Tomorrow's Commute",
+      "heading_ja": "エンディングと次回予告",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That brings us to the conclusion of today's episode of Commute News.",
+          "ja": "以上で本日のCommute Newsを終了いたします。",
+          "t": 1062.33
+        },
+        {
+          "speaker": "Mika",
+          "en": "Be sure to keep a close watch on global supply chains, semiconductor regulations, and evolving technology news throughout the week ahead.",
+          "ja": "今週も世界のサプライチェーンや半導体規制、最新のテクノロジーニュースにぜひ注目してお過ごしください。",
+          "t": 1067.33
+        },
+        {
+          "speaker": "Alex",
+          "en": "Have a wonderful, safe Monday morning, and we will catch you right here on tomorrow's commute.",
+          "ja": "安全で素晴らしい月曜日の朝をお過ごしください。明日の通勤時間にお会いしましょう。",
+          "t": 1076.04
+        }
+      ],
+      "lang": "en",
+      "t": 1062.33
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。今週も気をつけていってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 1082.44
+        }
+      ],
+      "t": 1082.44
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Judge Refuses to Dismiss DRAM Price-Fixing Antitrust Suit",
+      "title_ja": "米裁判所、DRAM価格カルテル訴訟の却下申請を棄却",
+      "summary_ja": "米連邦判事は、Samsung、SK Hynix、Micronに対するDRAM価格操作疑惑の集団訴訟について、審理継続を認めました。原告側は3社が協調して供給を制限し、1年で価格を最大500パーセント急騰させたと主張しています。",
+      "why_ja": "メモリ市場の9割を握る3社による寡占と協調減産の違法性が法廷で争われることになり、PCやサーバーなど日本の調達コストにも波及する可能性があります。",
+      "section": "tech",
+      "topic_key": "dram-price-fixing-antitrust-lawsuit",
+      "companies": [
+        "Samsung",
+        "SK hynix",
+        "Micron"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Judge denies motion to dismiss DRAM price-fixing lawsuit against Micron, Samsung, and SK hynix, finds evidence of DRAM collusion plausible after 500% price surge",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/judge-denies-motion-to-dismiss-dram-price-fixing-lawsuit-against-micron-samsung-and-sk-hynix-says-chipmakers-acted-like-hawks-flying-in-formation-finds-evidence-of-dram-collusion-plausible-after-500-percent-price-surge"
+        },
+        {
+          "publisher": "Around Prague",
+          "title": "DRAM Lawsuit: Judge Lets Case Against Samsung, Micron and SK hynix Proceed",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObEZzTmlLdGNBNGhjaDJMTTloZGFtMi1Hc2hyLWJudlJPVEZnNGpHdjVCTld1amlFZWdpM2hBdnJUUjExWnhqRWJaQWN0YUNHTmFHM1hJdWI4dlVLOU9jdW9fcWZFcWVsalRjVTdlSjFXRGlDMWNHR1E0NmtIdXBFSmFMYk9aNnBNWHQ1R2JqbkNnX19CSWNtcGtyVWJ5N3locVNoazBfTWltcHc?oc=5"
+        },
+        {
+          "publisher": "TechPowerUp",
+          "title": "Samsung, SK hynix, and Micron Fail to Get DRAM Antitrust Suit Dismissed",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZnl3Qi1Gc1I0ZTRBN0Z4TkVOWjBMb2U4Z0FLNy1pcnU1d3hETFdndXlLbTdWQmJIZl83SDhGb3c1WXc4eDdKUG1saUQwVkxNcEtyeTdoUXAtaFVzemhyUVpoSHRuWXZ3R2ZiMzI0aENBLWZZaHU5bm9mZk42eHZVaHhtVE5KdDBXWkQtdXI5RjNsTUFBcGp4TTU5a2IzZ1dQS3d4YmNzWdIBrAFBVV95cUxPS1hmbDljMlQ4Q2JaZlJhOGtnbXZZb2tvZk9SdEgwdkZKVnBHSUtfODJKV1VXaUcxNzNDYUlfdm84LTlZcXh3QzNscEFRbjVJeWZ1RDJpOEMxZzE1RXpySHBaV054REtxNWZVQjdDNXFVRUlhanVZTnEtWHZ0TVZEcmNfc3FGZUlld2VBTHJGMy1SUzZvQTZyQXQ4dE1ZaTFpeUNYTEgxSUtuTU5r?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "ULA Vulcan Rocket Suffers In-Flight Failure, Destroying Amazon Satellites",
+      "title_ja": "ULAのバルカンロケットが飛行異常で失敗、Amazon衛星40基喪失",
+      "summary_ja": "ULAの新型ロケット「Vulcan」が飛行中に異常を起こし、Amazonの通信衛星「Leo」40基が失われました。SpaceXのStarlinkに対抗して展開を進めるProject Leoの打ち上げ日程に深刻な遅れが生じる見通しです。",
+      "why_ja": "宇宙輸送におけるSpaceXへの一極集中がさらに強まる可能性があり、日米の民間および防衛衛星打ち上げ市場の選定にも影響を与えます。",
+      "section": "tech",
+      "topic_key": "ula-vulcan-launch-failure-amazon-leo",
+      "companies": [
+        "United Launch Alliance",
+        "Amazon",
+        "SpaceX"
+      ],
+      "sources": [
+        {
+          "publisher": "WESH",
+          "title": "ULA Vulcan suffers anomaly, fails to deliver payload into orbit",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ3NaWl9RSmlCaF83T1pIZ21rSTdDZ1FrWVQteHRVMVpjQ3ZLRVZUWVpSRjdRVXZlSGRaTVJFVk5xTkJxWjVMRW91RlNYbThDYjg1WHJTZXd5bW9qSlBZOWRjTUxreFlzZklHNXVQYWsyc1Z3aGt2WTM1aEZyOGhJdDVXbm5BTnJhLTVoY3BZaDlqNXJvc1FnVkJhbWJtNFZ4UlVEUl9WYTg1c00?oc=5"
+        },
+        {
+          "publisher": "Bloomberg.com",
+          "title": "ULA’s Vulcan Rocket Fails Midflight, Loses Amazon Satellites",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTW0yRGhpTTVJMHZVdlM4NUc2WDJGWkljT0VmREZ6NTNDcENHYzJ0ZUpab01nTFZxMnlsaFB3OVVzQ3h6TVZCVUdVejZRdWxJWlRrWU1jNmpMSzNuN0w2UXNEdlA5Wk4yVEVxOFR4aUFBczQwZkNMWUdhR2ltaXlZXzhjN0xlbGNjekE4eDNMSllEUlRFcXh3dGVodUNaT3VSVUlUQ0Z5d1Y2RVlYXzR5VQ?oc=5"
+        },
+        {
+          "publisher": "Spaceflight Now",
+          "title": "ULA suffers first total mission failure with loss of Vulcan rocket carrying 40 Amazon Leo satellites",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPOXBwbWd2b0g0V3hIb3RLVTU4Tkd6M2xtSUNDUU5Pd1B5OW9rcGVMcXdiMnJKclpldzBIS0FsZlplY2tSelFyZldnQlhrd3FtOEZsWDRSYkJjdjNEWWFPVEdET0pPNHFjSEZUaFYyZTJCaUhGcC1PYkc3M1VIZDJGdG9WWHNsZFd1X0V1V1hFT1JKR2FmNnR0dXY2eWh5b0FEVTNVWFh2SjVSRmgtQVZPY2RaMXBfVTJhTzA2UG4zV05nd0dUZTFQVUtrNFhuMzlzbU5XOWF3?oc=5"
+        },
+        {
+          "publisher": "SpaceNews",
+          "title": "Vulcan launch of Amazon Leo satellites fails",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAwNjRRQkI4WnFYRGp3UW5EMGJMX2VPM0xKQTU5dUFJWk5CRVpKZUNuVXNUSTNiLVNPSnk4b3Nrd3Awa1Q2VHRKRkNneUlrbVVDRUJEUW43Z3p3YUxCbHc2NWtDcmpwcDg5UTQzZXVxS1BLNUhMbFE?oc=5"
+        },
+        {
+          "publisher": "Space",
+          "title": "Vulcan Centaur rocket fails during return-to-flight launch, 40 Amazon satellites lost (video)",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPazU1Wk1ibHhlaFhlLTE1WEQ4TXItRFN5Si1JWmdMRk9mSVZuVjdiSlc4cnlqUHY4Tk5KZl9WRDg0ZGh5ZlZIVUxUUkhIVGVYV2VGdDJ2LXZCRERIT09UMldTdU1hZkFSamRpVC1handfdjZTdHFkOThkdlliLVR4X0pIc2ljaTQ0UUoySXRqdElZTC1LZmxyS1J5bUpPX3lGTWR6ejVNZWJlODBDSjc4c2ZxaEJzMy1YVVBMZUl3Q09qWnM3RExaVEdoTGo?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "US Congress Moves to Tighten AI Chip Export Controls",
+      "title_ja": "米議会、AIチップ対中輸出規制の強化法案を推進",
+      "summary_ja": "元NVIDIA CEOのJensen Huang氏を巡るスキャンダルを受け、米議会の超党派議員が中国向けAIチップの輸出規制強化に乗り出しました。Huang氏や商務長官への証言要求に加え、クラウド経由のアクセス制限法案などが浮上しています。",
+      "why_ja": "半導体規制が一段と厳格化することで、グローバルな半導体サプライチェーンや日本の関連製造装置・材料メーカーにも影響が及ぶ可能性があります。",
+      "section": "tech",
+      "topic_key": "nvidia-jensen-huang-china-spy-investigation",
+      "companies": [
+        "Nvidia"
+      ],
+      "sources": [
+        {
+          "publisher": "The Verge",
+          "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
+        },
+        {
+          "publisher": "Latin Times",
+          "title": "U.S. Congress Moves to Slash AI Chip Sales to China After Spy Scandal Forces Out Nvidia CEO",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUFJoM3NKa2dHR3pHZU5jb01RWkFCZVM0dE1ocldYQnhVd3QxbUxMaEtjTDNYRktrb3RfSVNFcGlxcGlrVGVBa3hib2RSLXZidG00SzA3OV9oUlVqWTFGbHlXdER4d2JkME1SeTV0YndhQ3E1eko3V3FUNlY2akcxQXhGMVp5Q29J?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Apple Prepares First Smart Glasses Focused on Siri AI",
+      "title_ja": "アップル、Siri対話型AIに特化した軽量スマートグラスを開発中",
+      "summary_ja": "Appleは画面表示を持たず音声対話Siriに特化した初のスマートグラスを開発しており、来年6月のWWDCで発表する見込みです。軽量デザインと高音質通話、小型充電器を備え、日常的な装着を促す設計となっています。",
+      "why_ja": "Metaが先行するAIスマートグラス分野へAppleが本格参入することで、画面を見ない次世代音声コンピューティング市場の形成が加速します。",
+      "section": "tech",
+      "topic_key": "apple-smart-glasses-siri-ai",
+      "companies": [
+        "Apple",
+        "Meta"
+      ],
+      "sources": [
+        {
+          "publisher": "The Verge",
+          "title": "Apple’s first smart glasses are coming together",
+          "url": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together"
+        },
+        {
+          "publisher": "Bloomberg.com",
+          "title": "Apple Bets on Siri AI Apps as the Main Draw for Its Smart Glasses",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONFBHRGhFVUVMRGtZTjJ0dXRaZE9JLWY0cEVhMUhMdDRmNzczeVpEaTFKVjVJMjR6RjlidUc1SGJNcWYtNjF2c0M3SE1HY1ZSc1NzeWR5VDRpdUJ4dHBYb2xWSEZKdXdUakdudjRGWC1TYWFTWlE0UW1NQ3JqY1FjOGNvMmlCZlFISGx0Vmg0cWhWYjIwTF9VMFdNSWF0cWV1UWswZS1HWERVVFFoUE5qYVBYNUpIazN5TGtQeG5zbWVMMktUcUZyWXNR?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "US Disrupts North Korean FaceStealer Cyber Campaign",
+      "title_ja": "米司法省、北朝鮮ハッカー集団「FaceStealer」の基盤を解体",
+      "summary_ja": "米司法省とFBIは、IT技術者を標的に4億ドル以上の暗号資産を奪った北朝鮮のサイバー攻撃基盤を押収しました。攻撃者は採用面接を偽装してディープフェイク動画を使用し、オープンソースソフトへのバックドア設置も図っていました。",
+      "why_ja": "リモート採用活動やオープンソースソフトウェアの供給網を狙うAI偽装の手口が深刻化しており、日本のIT・自治体組織でも厳重な警戒が求められます。",
+      "section": "tech",
+      "topic_key": "fbi-disrupts-north-korea-facestealer",
+      "companies": [
+        "Binance"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "FBI disrupts North Korean FaceStealer campaign behind $5 billion Binance hack",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/fbi-disrupts-north-korean-facestealer-campaign-behind-usd5-billion-binance-hack-doj-seizes-facestealer-cloud-infrastructure-containing-900-videos-of-tech-workers-hackers-used-ai-deepfakes-to-steal-usd400-million-and-compromise-open-source-software"
+        }
+      ]
+    },
+    {
+      "title_en": "Dyania Health and Nvidia Deploy On-Premises Clinical AI in Hospitals",
+      "title_ja": "ダイアニア・ヘルスとNVIDIA、病院内での推論AIを展開",
+      "summary_ja": "Dyania HealthはNVIDIAと提携し、外部クラウドを介さず病院内のファイアウォール内で患者カルテ全体を分析・推論する「Synapsis AI」を展開します。2万5000時間以上の医師監修データを活用し、個人情報を守りつつ診療記録を要約・分析します。",
+      "why_ja": "医療データの国外移転や漏洩リスクを完全に排除したオンプレミス型AIのモデルとして、日本の電子カルテ活用や公衆衛生政策にも大きな示唆を与えます。",
+      "section": "health",
+      "topic_key": "dyania-health-nvidia-on-prem-clinical-ai",
+      "companies": [
+        "Dyania Health",
+        "Nvidia"
+      ],
+      "sources": [
+        {
+          "publisher": "Fierce Healthcare",
+          "title": "Dyania Health, Nvidia team up to bring clinical reasoning AI inside hospital networks",
+          "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/dyania-health-nvidia-cleveland-clinic"
+        }
+      ]
+    },
+    {
+      "title_en": "Africa CDC Warns DRC Ebola Outbreak Remains Out of Control",
+      "title_ja": "コンゴ民主共和国のエボラ出血熱、依然として収束見えず",
+      "summary_ja": "コンゴ民主共和国でのエボラ出血熱の感染拡大について、アフリカCDCは依然として制御不能な状態にあると警告しました。死者は5500人を超え、承認されたワクチンがないブンディブギョ株による感染が拡大しています。",
+      "why_ja": "国際社会からの資金拠出不足と紛争下での医療崩壊が重なっており、世界的な公衆衛生安全保障上の深刻なリスクとなっています。",
+      "section": "world",
+      "topic_key": "drc-ebola-outbreak-africa-cdc-warning",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "title": "Africa CDC says Ebola outbreak still out of control six months since it was declared",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQU25FZUdud21zOGRwcHdZRTZESUh4dUY0ajFFSTBhSXQwUWo5SXFVNGtXb0ZBcF9HUnZJeklFQXd0c0h4MUtWandzSVhzeldqZXFEdGZ3d0poQU5KV1dtTWZWUzdCQk1tQW56ZTAwT0cwZklldnZ6Q3dHVHFDQWJmNjhQaHFYOGZOa1lnU1Y2dGNwVGRZaFBrTTlESzk0a1B6Z0JQU0swOTZCanZBanVRS0hnTFhrQlRsSHRRbXhfTlFRaXB4aUhGS2VDV09VVDFvZThlOUFQLTJiaDJx?oc=5"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Africa CDC says Ebola outbreak in DR Congo ‘still not under control’",
+          "url": "https://www.aljazeera.com/news/2026/11/15/africa-cdc-says-ebola-outbreak-in-dr-congo-still-not-under-control?traffic_source=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "My mother told me I would die if I sought treatment for Ebola - I am proof you can survive",
+          "url": "https://www.bbc.co.uk/news/articles/cmvg2e2q28w1o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "Estonia to Close Border with Russia After Drone Factory Sabotage",
+      "title_ja": "エストニア、ドローン企業への破壊工作未遂を受けロシア国境閉鎖へ",
+      "summary_ja": "エストニア政府は、ウクライナ向けドローン製造企業への放火・破壊工作未遂事件を受け、12月1日からロシアとの陸上国境を全面閉鎖すると発表しました。ロシア軍参謀本部情報総局の関与が指摘されています。",
+      "why_ja": "欧州の重要インフラや軍事サプライチェーンに対するハイブリッド攻撃が増加しており、バルト三国とロシアの緊張が一段と高まっています。",
+      "section": "world",
+      "topic_key": "estonia-russia-border-closure-sabotage",
+      "companies": [
+        "Threod Systems"
+      ],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "Estonia to close all border crossings with Russia after attack on drone maker",
+          "url": "https://www.theguardian.com/world/2026/nov/15/estonia-to-close-all-border-crossings-with-russia-after-attack-on-drone-maker"
+        },
+        {
+          "publisher": "CNN",
+          "title": "Estonia to shut its border with Russia, blaming Moscow for foiled arson plot",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMUtINm83UmtnLXFTVERsOFhuYnRMODFLOWdNcDEtYmhBR1JTVDhtb1ZYSnFVTWZkR1E1ckxEWXR5WGp4TExCWTBoSkM5eUtlZzNobFpwblJfeV83Tk5CNnlYOXd6dW16WHk3UFRJX1UtYVZXdEZDN0JxQ0NPbVdfS05lMTk?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Iran Attacks US Military Base in Bahrain with Retaliatory Drones",
+      "title_ja": "イラン、バーレーンの米軍基地へドローン攻撃を実施",
+      "summary_ja": "イランはバーレーンにある米軍レーダー施設に向けドローン6機による攻撃を行いました。防空システムが迎撃し被害は免れましたが、サウジアラビアなど周辺諸国は地域の安全を脅かす行為として一斉に非難しました。",
+      "why_ja": "ホルムズ海峡でのタンカー被害情報と合わせて中東のエネルギー供給航路における軍事的緊張が再燃しています。",
+      "section": "world",
+      "topic_key": "iran-drone-strike-us-base-bahrain",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "Iran launches drone attacks against US military base in Bahrain",
+          "url": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - as it happened",
+          "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Iran targets US military base in Bahrain with drone attack",
+          "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "CNBC",
+          "title": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain in attack on U.S. base",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb1Vjb3BmOFROS281RURvRlRMTHZJVW0xRHMwZHpkSHRpamtsM0Fmd1cxZVZsSVk5UXdlRWJKeVpRcjFSMmJOYXpaVGxWUTBfdWc1eHpxdUpoeG1mVjItcmdxWmFaZDdKYWRZNWZkcHpOOTNpc0lwT0ZzYVNjT1JqU2tSNlrSAYoBQVVfeXFMTS11NU1oNVBmZFo0Mzd5eXBSVFNtU0dSUVBOSV9vWVozZ25FM0c1a0tlTWt3cmlEZDE2d2RYNzhVRE9xd0l1WEFOMElNRWlfNXFNMzQ5MnJYLXVUcWYwMkxmYmttMmFWN2RvWFNuTFlUSzN4d1BsdmtjUmo3bWFvY0RZOHR6QUt4VS13?oc=5"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "antitrust",
+      "meaning_ja": "独占禁止の、反トラストの",
+      "note_ja": "市場の公正な競争を守り独占を防ぐ法律や訴訟に使われます。",
+      "example_en": "A federal judge has refused to dismiss an antitrust lawsuit against Samsung, SK Hynix, and Micron."
+    },
+    {
+      "term": "collude",
+      "meaning_ja": "結託する、共謀する",
+      "note_ja": "複数の企業が裏で手を組んで価格や供給を操作する不正行為を指します。",
+      "example_en": "The lawsuit alleges that the three companies colluded to cut supply and raise prices."
+    },
+    {
+      "term": "in formation",
+      "meaning_ja": "隊列を組んで、整列して",
+      "note_ja": "規則的な配置や整然とした集団行動を表す表現です。",
+      "example_en": "Judge Noel Wise said the companies acted like hawks flying in formation."
+    },
+    {
+      "term": "anomaly",
+      "meaning_ja": "異常、異変",
+      "note_ja": "機械や宇宙ロケットなどの予期せぬ不具合や異常事態を指します。",
+      "example_en": "An anomaly happened midflight, and the rocket failed to deliver its payload into orbit."
+    },
+    {
+      "term": "bipartisan",
+      "meaning_ja": "超党派の、2大政党による",
+      "note_ja": "米国の民主党と共和党が党派を超えて合意・協力している状況を表します。",
+      "example_en": "Bipartisan lawmakers in the United States Congress are moving quickly to tighten export controls on advanced artificial intelligence chips."
+    },
+    {
+      "term": "fallout",
+      "meaning_ja": "予期せぬ悪影響、余波",
+      "note_ja": "事件や失脚の後に生じる二次的な影響や混乱を意味します。",
+      "example_en": "So, in short, American lawmakers are uniting to pass tougher export bans on advanced AI hardware after the Nvidia leadership fallout."
+    },
+    {
+      "term": "on-premises",
+      "meaning_ja": "オンプレミスの、自社設備内の",
+      "note_ja": "クラウドではなく自社の施設や院内サーバー内で運用する形態を指します。",
+      "example_en": "Synapsis AI runs on the hospital's own accelerated computing infrastructure, so inference stays inside the hospital's private network."
+    },
+    {
+      "term": "firewall",
+      "meaning_ja": "ファイアウォール、防火壁",
+      "note_ja": "外部からの不正侵入を防ぐセキュリティ境界のことです。",
+      "example_en": "By running on local Nvidia computing clusters behind the hospital firewall, the AI does not connect to the public internet."
+    },
+    {
+      "term": "sabotage",
+      "meaning_ja": "破壊工作、妨害行為",
+      "note_ja": "軍事や産業施設などを故意に破壊する秘密裏の工作を指します。",
+      "example_en": "Officials said the sabotage plot was ordered directly by Russian military intelligence to set the building on fire and trigger explosions."
+    },
+    {
+      "term": "retaliatory",
+      "meaning_ja": "報復の、仕返しの",
+      "note_ja": "相手の攻撃に対する反撃や意趣返しを表す形容詞です。",
+      "example_en": "Iran launched retaliatory drone strikes against a United States military base in Bahrain over the weekend."
+    },
+    {
+      "term": "intercept",
+      "meaning_ja": "迎撃する、遮断する",
+      "note_ja": "飛来するミサイルやドローンを到達前に撃墜・捕捉することを指します。",
+      "example_en": "Bahraini air defense systems intercepted six drones aimed at a US radar facility at the Al-Rifaa base."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "in formation",
+    "meaning_ja": "隊列を組んで、規則正しく並んで",
+    "example_en": "The rescue boats sailed in formation across the bay during the safety drill.",
+    "example_ja": "救助艇は安全訓練の間、隊列を組んで湾内を航行しました。"
+  }
+}
