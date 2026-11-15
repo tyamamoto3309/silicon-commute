@@ -5,7 +5,8 @@ on:
     # Monday–Friday JST (= Sunday–Thursday UTC).
     # In practice GitHub has been starting scheduled runs about 3–4 hours late, and can drop them,
     # so we schedule early and repeat. News is collected when the run actually starts, and the
-    # script is idempotent: once today's episode exists, later runs only rebuild the site.
+    # script is idempotent: once today's episode exists, later runs only rebuild the site
+    # (and add audio to one recent episode that was published text-only, if any).
     - cron: "7 16 * * 0-4"    # 01:07 JST
     - cron: "37 17 * * 0-4"   # 02:37 JST
     - cron: "53 18 * * 0-4"   # 03:53 JST
@@ -14,6 +15,10 @@ on:
     inputs:
       force:
         description: "今日の回を作り直す（オフなら、既にある場合はサイトの再構築だけ行う）"
+        type: boolean
+        default: false
+      audio_only:
+        description: "音声が欠けている過去の回に、音声だけを付け直す（新しい回は作らない）"
         type: boolean
         default: false
 
@@ -51,30 +56,33 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
-        run: python scripts/run_daily.py ${{ inputs.force && '--force' || '' }}
+        run: python scripts/run_daily.py ${{ inputs.force && '--force' || '' }} ${{ inputs.audio_only && '--audio-only' || '' }}
 
       - name: Store MP3 in GitHub Releases
-        if: steps.gen.outputs.created == 'true' && steps.gen.outputs.audio_ok == 'true'
+        if: steps.gen.outputs.uploads != '' && steps.gen.outputs.uploads != '0'
         env:
           GH_TOKEN: ${{ github.token }}
-          TAG: ${{ steps.gen.outputs.tag }}
-          MP3: ${{ steps.gen.outputs.mp3 }}
-          DATE: ${{ steps.gen.outputs.date }}
         run: |
-          if gh release view "$TAG" >/dev/null 2>&1; then
-            gh release upload "$TAG" "$MP3" --clobber
-          else
-            gh release create "$TAG" "$MP3" --title "$DATE" --notes-file out/release_notes.md --latest=false
-          fi
+          # out/uploads.tsv: one line per MP3 = tag, mp3 path, date, release-notes file
+          while IFS=$'\t' read -r TAG MP3 DATE NOTES; do
+            [ -n "$TAG" ] || continue
+            if gh release view "$TAG" >/dev/null 2>&1; then
+              gh release upload "$TAG" "$MP3" --clobber
+            else
+              gh release create "$TAG" "$MP3" --title "$DATE" --notes-file "$NOTES" --latest=false
+            fi
+          done < out/uploads.tsv
 
       - name: Commit transcript
-        if: steps.gen.outputs.created == 'true'
+        if: steps.gen.outputs.changed == 'true'
+        env:
+          MSG: ${{ steps.gen.outputs.commit_msg }}
         run: |
           git config user.name "silicon-commute-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add episodes state 2>/dev/null || git add episodes
           if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
-          git commit -m "Episode ${{ steps.gen.outputs.date }}"
+          git commit -m "$MSG"
           git pull --rebase --autostash
           git push
 
@@ -103,5 +111,5 @@ jobs:
       - name: Report missing audio
         if: steps.gen.outputs.created == 'true' && steps.gen.outputs.audio_ok != 'true'
         run: |
-          echo "::error::音声の生成に失敗しました（テキストのみ公開）。ログの 'tts' 行を確認してください。無料枠の上限に達した可能性があります。"
+          echo "::error::音声の生成に失敗しました（テキストのみ公開）。ログの 'tts' 行を確認してください。次回以降の実行で自動的に音声の付け直しを試みます。"
           exit 1

@@ -60,6 +60,10 @@ episode:
   tts_chunk_words: 560
   # TTSリクエストの最小間隔（秒）。無料枠の「1分あたりの回数」制限を避けるため
   tts_min_interval_sec: 21
+  # 音声の生成に失敗した回は、後の実行で台本から音声だけを作り直す（何日前の回まで対象にするか）
+  audio_retry_days: 14
+  # 「audio_only」で手動実行したときに、1回で音声を付け直す最大の回数
+  audio_backfill_per_run: 5
 
 hosts:
   - name: Alex

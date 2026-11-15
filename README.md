@@ -130,7 +130,7 @@ gh repo create silicon-commute --public --source=. --push
 | 症状 | 対処 |
 |---|---|
 | Actions が赤くなる | 失敗したジョブを開き、ログの `ERROR` 行を確認。`GEMINI_API_KEY` の登録ミスが最も多い原因です |
-| 「音声の生成に失敗」 | 無料枠の上限の可能性。翌日には回復します。**Run workflow** で `force` にチェックして再作成も可 |
+| 「音声の生成に失敗」 | 無料枠の上限の可能性。その日の後の実行で、台本はそのままに音声だけ自動で付け直します。すぐ直したいときは **Run workflow** で `audio_only` にチェック |
 | Pages が 404 | 手順4（Source = GitHub Actions）を確認し、もう一度 Run workflow |
 | モデル名のエラー | Google がモデルを更新した可能性。`config.yaml` の `models` を最新名に変更 |
 | push 権限エラー | Settings → Actions → General → Workflow permissions を「Read and write」に |
