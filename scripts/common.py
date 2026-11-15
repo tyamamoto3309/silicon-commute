@@ -86,17 +86,24 @@ def word_count(text: str) -> int:
 _client = None
 
 
+# google-genai 3.0 (released 2026-11-06) changed the default endpoint from v1beta to v1.
+# Text models work on v1, but multi-speaker TTS (speech_config / speech_metadata) is
+# only served on v1beta, so every TTS call failed from 2026-11-09 on. Pin it explicitly.
+GEMINI_API_VERSION = os.environ.get("GEMINI_API_VERSION", "v1beta")
+
+
 def gemini_client():
     global _client
     if _client is None:
         from google import genai
+        from google.genai import types
 
         key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
         if not key:
             raise RuntimeError(
                 "GEMINI_API_KEY が設定されていません（GitHub の Settings → Secrets に登録してください）"
             )
-        _client = genai.Client(api_key=key)
+        _client = genai.Client(api_key=key, http_options=types.HttpOptions(api_version=GEMINI_API_VERSION))
     return _client
 
 

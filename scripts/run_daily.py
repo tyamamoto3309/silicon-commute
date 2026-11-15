@@ -5,6 +5,10 @@ Usage:
   python scripts/run_daily.py --force         # regenerate today's episode
   python scripts/run_daily.py --date 2026-09-28
   python scripts/run_daily.py --mock          # offline test: no API calls, fake audio
+  python scripts/run_daily.py --audio-only    # add audio to recent episodes that were published text-only
+
+If today's episode already exists, a normal run adds audio to (at most) one recent
+episode that is still missing it, so a failed TTS day heals itself on a later run.
 """
 from __future__ import annotations
 
@@ -78,12 +82,107 @@ def models_used(cfg: dict) -> dict:
     return out
 
 
+def make_audio(cfg: dict, script: dict, date: str, now: datetime, mock_tts: bool) -> tuple[dict | None, float | None]:
+    """TTS → WAV → MP3. Sets line/segment start times in `script`. Returns (audio, duration), or (None, None) on failure."""
+    from tts import encode_mp3, media_duration, synthesize
+
+    wav, mp3 = OUT_DIR / f"{date}.wav", OUT_DIR / f"{date}.mp3"
+    try:
+        synth_fn = None
+        if mock_tts:
+            import mock
+
+            synth_fn = mock.fake_tts
+        synthesize(cfg, script, wav, synth_fn=synth_fn)
+        encode_mp3(wav, mp3, {
+            "title": f"{now:%b %-d} · {script.get('title_en', '')}",
+            "artist": cfg["podcast"]["title"],
+            "album": cfg["podcast"]["title"],
+            "date": date,
+            "genre": "Podcast",
+        })
+        duration = round(media_duration(mp3), 1)
+        audio = {"file": mp3.name, "bytes": mp3.stat().st_size, "release_tag": f"ep-{date}"}
+        log.info("MP3 ready: %s (%.1f min, %.1f MB)", mp3.name, duration / 60, audio["bytes"] / 1e6)
+        return audio, duration
+    except Exception:  # noqa: BLE001
+        log.error("Audio generation failed for %s.\n%s", date, traceback.format_exc())
+        return None, None
+
+
+def write_release_notes(episode: dict) -> Path:
+    lines = [f"## {episode['title_en']}", f"**{episode['title_ja']}**", "", episode.get("summary_ja", ""), ""]
+    lines += [f"- {s.get('title_ja', '')} / {s.get('title_en', '')}" for s in episode.get("stories", [])]
+    text = "\n".join(lines)
+    path = OUT_DIR / f"release_notes_{episode['date']}.md"
+    path.write_text(text, encoding="utf-8")
+    (OUT_DIR / "release_notes.md").write_text(text, encoding="utf-8")  # name used by the older workflow file
+    return path
+
+
+def missing_audio(today: str, days: int) -> list[Path]:
+    """Episodes from the last `days` days (today included) that were published without audio, newest first."""
+    start = (datetime.fromisoformat(today) - timedelta(days=days)).strftime("%Y-%m-%d")
+    return [
+        p for p in sorted(EPISODES_DIR.glob("*.json"), reverse=True)
+        if start <= p.stem <= today and not (read_json(p, {}) or {}).get("audio")
+    ]
+
+
+def backfill_audio(cfg: dict, today: str, limit: int, mock_tts: bool) -> list[dict]:
+    """Add audio to up to `limit` recent text-only episodes from their saved scripts. Stops at the first failure."""
+    days = int(cfg["episode"].get("audio_retry_days", 14))
+    todo = missing_audio(today, days)
+    if not todo:
+        log.info("Every episode from the last %d days has audio", days)
+        return []
+    log.info("Episodes without audio: %s (this run: up to %d)", ", ".join(p.stem for p in todo), limit)
+    done: list[dict] = []
+    for p in todo[:limit]:
+        ep = read_json(p, {})
+        date = ep["date"]
+        log.info("Adding audio to %s from its saved script", date)
+        script = {"title_en": ep.get("title_en", ""), "segments": ep["segments"]}
+        now = datetime.combine(datetime.fromisoformat(date).date(), time(6, 0), JST)
+        audio, duration = make_audio(cfg, script, date, now, mock_tts)
+        if not audio:
+            log.warning("Still no audio for %s — a later run will try again", date)
+            break  # most likely quota or an outage; don't burn more requests now
+        ep["segments"] = script["segments"]  # now with line/segment start times for the player
+        ep["audio"], ep["duration"] = audio, duration
+        if not mock_tts:
+            ep.setdefault("models", {})["tts"] = models_used(cfg)["tts"]
+        write_json(p, ep)
+        done.append({"date": date, "tag": audio["release_tag"], "mp3": str(OUT_DIR / audio["file"]), "notes": str(write_release_notes(ep))})
+    return done
+
+
+def report(*, created: dict | None, uploads: list[dict], commit_msg: str, date: str, audio_ok: bool = True) -> None:
+    """GitHub Actions step outputs, plus out/uploads.tsv: one MP3 per line to store in GitHub Releases."""
+    OUT_DIR.mkdir(exist_ok=True)
+    with open(OUT_DIR / "uploads.tsv", "w", encoding="utf-8") as f:
+        for u in uploads:
+            f.write(f"{u['tag']}\t{u['mp3']}\t{u['date']}\t{u['notes']}\n")
+    first = uploads[0] if uploads else {}
+    set_output(
+        date=date,
+        created=str(created is not None).lower(),
+        audio_ok=str(audio_ok).lower(),
+        changed=str(created is not None or bool(uploads)).lower(),
+        uploads=str(len(uploads)),
+        commit_msg=commit_msg,
+        tag=first.get("tag", f"ep-{date}"),
+        mp3=first.get("mp3", str(OUT_DIR / f"{date}.mp3")),
+    )
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", help="episode date (JST) YYYY-MM-DD; default = today in Japan")
     ap.add_argument("--force", action="store_true", help="overwrite an existing episode for the date")
     ap.add_argument("--mock", action="store_true", help="no network/API: fixture news + fake audio")
     ap.add_argument("--no-tts", action="store_true", help="skip audio generation")
+    ap.add_argument("--audio-only", action="store_true", help="only add audio to recent text-only episodes; never create a new one")
     args = ap.parse_args()
 
     cfg = load_config()
@@ -92,9 +191,17 @@ def main() -> int:
         now = datetime.combine(datetime.fromisoformat(args.date).date(), time(6, 0), JST)
     date = now.strftime("%Y-%m-%d")
     ep_path = EPISODES_DIR / f"{date}.json"
-    if ep_path.exists() and not args.force:
-        log.info("Episode %s already exists — nothing to do (use --force to regenerate)", date)
-        set_output(date=date, created="false", audio_ok="true")
+    if args.audio_only or (ep_path.exists() and not args.force):
+        if not args.audio_only:
+            log.info("Episode %s already exists (use --force to regenerate)", date)
+        per_run = int(cfg["episode"].get("audio_backfill_per_run", 5)) if args.audio_only else 1
+        uploads = [] if args.no_tts else backfill_audio(cfg, date, limit=per_run, mock_tts=args.mock)
+        if not uploads:
+            log.info("No audio added this run")
+        report(
+            created=None, uploads=uploads, date=uploads[0]["date"] if uploads else date,
+            commit_msg="Add audio: " + ", ".join(u["date"] for u in uploads) if uploads else "",
+        )
         return 0
 
     ep_cfg = cfg["episode"]
@@ -143,27 +250,11 @@ def main() -> int:
         ]
 
     # 3. audio ---------------------------------------------------------------
-    audio = None
-    duration = None
+    audio = duration = None
     if not args.no_tts:
-        from tts import encode_mp3, media_duration, synthesize
-
-        wav, mp3 = OUT_DIR / f"{date}.wav", OUT_DIR / f"{date}.mp3"
-        try:
-            synth_fn = mock.fake_tts if args.mock else None
-            synthesize(cfg, script, wav, synth_fn=synth_fn)
-            encode_mp3(wav, mp3, {
-                "title": f"{now:%b %-d} · {script.get('title_en', '')}",
-                "artist": cfg["podcast"]["title"],
-                "album": cfg["podcast"]["title"],
-                "date": date,
-                "genre": "Podcast",
-            })
-            duration = round(media_duration(mp3), 1)
-            audio = {"file": mp3.name, "bytes": mp3.stat().st_size, "release_tag": f"ep-{date}"}
-            log.info("MP3 ready: %s (%.1f min, %.1f MB)", mp3.name, duration / 60, audio["bytes"] / 1e6)
-        except Exception:  # noqa: BLE001
-            log.error("Audio generation failed — publishing text only.\n%s", traceback.format_exc())
+        audio, duration = make_audio(cfg, script, date, now, mock_tts=args.mock)
+        if not audio:
+            log.error("Publishing text only — a later run will try to add the audio again.")
 
     # 4. save episode --------------------------------------------------------
     episode = {
@@ -186,13 +277,9 @@ def main() -> int:
     write_json(ep_path, episode)
     log.info("Saved %s", ep_path.relative_to(ep_path.parent.parent))
 
-    notes = [f"## {episode['title_en']}", f"**{episode['title_ja']}**", "", episode["summary_ja"], ""]
-    notes += [f"- {s.get('title_ja', '')} / {s.get('title_en', '')}" for s in episode["stories"]]
-    (OUT_DIR / "release_notes.md").write_text("\n".join(notes), encoding="utf-8")
-    set_output(
-        date=date, created="true", audio_ok=str(bool(audio)).lower(),
-        tag=f"ep-{date}", mp3=str(OUT_DIR / f"{date}.mp3"), title=episode["title_en"].replace("\n", " "),
-    )
+    notes_path = write_release_notes(episode)
+    uploads = [{"date": date, "tag": audio["release_tag"], "mp3": str(OUT_DIR / audio["file"]), "notes": str(notes_path)}] if audio else []
+    report(created=episode, uploads=uploads, commit_msg=f"Episode {date}", date=date, audio_ok=bool(audio))
     return 0
 
 
