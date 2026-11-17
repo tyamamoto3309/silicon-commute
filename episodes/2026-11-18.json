@@ -1,0 +1,1301 @@
+{
+  "date": "2026-11-18",
+  "published": "2026-11-18T08:28:04+09:00",
+  "title_en": "Nvidia Hits Record Revenue as Board Rejects Huang Return",
+  "title_ja": "NVIDIAが最高売上を更新、取締役会はHuang氏の復帰を否定",
+  "summary_ja": "NVIDIAが第3四半期に1158億ドルの過去最高売上高を発表する一方、取締役会は辞任したJensen Huang前CEOの復帰を正式に否定しました。デジタルヘルス分野では、米国HHSが患者自身による医療アプリを通じたカルテ共有を保証するHIPAA改定規則を最終決定しました。世界情勢では、ウクライナによるクリミア大橋攻撃、英豪によるイスラエル入植企業への制裁、カナダと中国の関税緩和合意が注目を集めています。",
+  "duration": 1243.0,
+  "audio": {
+    "file": "2026-11-18.mp3",
+    "bytes": 9944998,
+    "release_tag": "ep-2026-11-18"
+  },
+  "word_count": 2274,
+  "ja_chars": 1414,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.8-flash",
+    "write": "gemini-3.8-flash",
+    "revise": "gemini-3.8-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Welcome to Commute News",
+      "heading_ja": "オープニング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, everyone. It is Wednesday, November 18, and this is Commute News, your quick daily audio briefing.",
+          "ja": "皆さん、おはようございます。11月18日水曜日、手短に日々のニュースをお届けするCommute Newsです。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, Alex! Today we have a packed tech lineup, starting with Nvidia's massive revenue numbers and their board's final answer to former CEO Jensen Huang.",
+          "ja": "おはようございます、Alex！本日は盛りだくさんのテックニュースからお届けします。まずはNVIDIAの驚異的な売上実績と、前CEOのJensen Huang氏に対する取締役会の最終決定です。",
+          "t": 7.6
+        },
+        {
+          "speaker": "Alex",
+          "en": "We also examine critical cyber attacks, self-driving car safety orders, memory chip factory robotics, and a major update to United States health privacy rules.",
+          "ja": "さらに、重大なサイバー攻撃や自動運転車の安全性制限命令、メモリ工場でのロボット導入、そして米国の医療プライバシー規則の大幅改定も詳しく見ていきます。",
+          "t": 17.91
+        },
+        {
+          "speaker": "Mika",
+          "en": "And in world news, Ukraine strikes the strategic Crimean Bridge, while countries shift trade and diplomatic policies. Let us dive into our top stories!",
+          "ja": "そして国際ニュースでは、ウクライナによる戦略的要衝クリミア大橋への攻撃や、各国による貿易・外交方針の転換を取り上げます。それではトップニュースから見ていきましょう！",
+          "t": 28.11
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Nvidia Posts Record $115.8B Revenue as Board Rejects Huang's Return",
+      "heading_ja": "NVIDIAが過去最高益を達成、取締役会はHuang氏の復帰を拒否",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Nvidia reported historic financial results for its third quarter on Tuesday. Total quarterly revenue reached 115.8 billion dollars, surging 103 percent compared to a year ago.",
+          "ja": "NVIDIAが火曜日、第3四半期の記録的な決算を発表しました。四半期売上高は前年同期比103％増の1158億ドルに急伸しました。",
+          "t": 37.87
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is an astonishing number! Did data center chips for artificial intelligence continue to drive most of that growth?",
+          "ja": "目を見張るような数字ですね！その急成長の大部分は、やはり人工知能向けのデータセンター用チップが牽引したのでしょうか？",
+          "t": 48.96
+        },
+        {
+          "speaker": "Alex",
+          "en": "Absolutely. Data Center revenue alone hit 107.6 billion dollars, jumping 110 percent. They also began shipping their next-generation Vera Rubin computing platforms to cloud partners like Google and Microsoft.",
+          "ja": "その通りです。データセンター部門の売上だけで110％増の1076億ドルに達しました。また、GoogleやMicrosoftなどのクラウドパートナー向けに、次世代計算プラットフォーム「Vera Rubin」の出荷も開始しました。",
+          "t": 56.94
+        },
+        {
+          "speaker": "Mika",
+          "en": "What did company leadership say about former chief executive Jensen Huang during the earnings call?",
+          "ja": "決算説明会の中で、経営陣は前CEOのJensen Huang氏についてどのように言及したのですか？",
+          "t": 69.86
+        },
+        {
+          "speaker": "Alex",
+          "en": "Board chair Harvey Jones directly addressed that topic right at the start. He confirmed the board unanimously accepted Huang's resignation and does not intend to reinstate him as CEO.",
+          "ja": "取締役会長のHarvey Jones氏が冒頭で直接言及しました。取締役会はHuang氏の辞任を満場一致で承認しており、彼をCEOに復帰させる意向はないと明言しました。",
+          "t": 76.73
+        },
+        {
+          "speaker": "Mika",
+          "en": "Huang resigned last week over personal conduct issues, but did he not offer to return?",
+          "ja": "Huang氏は個人的な行動規範違反を理由に先週辞任しましたが、復帰の申し出をしていたのではありませんでしたか？",
+          "t": 88.26
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Huang posted on social media that he would be honored to return if the board asked. However, Jones made it clear the board is searching for a permanent replacement from internal and external candidates.",
+          "ja": "はい。Huang氏は取締役会から求められれば復帰することを光栄に思うとSNSに投稿していました。しかしJones会長は、社内外から正式な後任候補を探していると明確に述べました。",
+          "t": 94.42
+        },
+        {
+          "speaker": "Mika",
+          "en": "Who is currently running the company while that search continues?",
+          "ja": "後任探しが進められている間、現在は誰が会社を率いているのですか？",
+          "t": 107.28
+        },
+        {
+          "speaker": "Alex",
+          "en": "Chief financial officer Colette Kress is serving as interim CEO. She highlighted that Nvidia's momentum is real, its roadmap is on track, and its ambition has never been greater.",
+          "ja": "最高財務責任者（CFO）のColette Kress氏が暫定CEOを務めています。彼女は、NVIDIAの勢いは本物であり、ロードマップは順調で、野心はかつてないほど大きいと強調しました。",
+          "t": 112.27
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Nvidia's AI business is booming with record revenue, but its board has completely closed the door on its founder's return.",
+          "ja": "つまり要約すると、NVIDIAのAI事業は記録的な売上で急成長しているものの、取締役会は創業者の復帰への扉を完全に閉ざしたということですね。",
+          "t": 123.52
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. The company is forging ahead into its next chapter without him.",
+          "ja": "その通りです。同社は彼抜きの新たな章へと突き進んでいます。",
+          "t": 132.45
+        }
+      ],
+      "lang": "en",
+      "t": 37.87
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。NVIDIAの第3四半期売上高は前年同期比103％増の1158億ドルと過去最高を記録し、AIデータセンター需要の力強さを示しました。一方で取締役会のHarvey Jones会長は、先週辞任したJensen Huang前CEOを復帰させる意向はないと明言し、暫定CEOのColette Kress氏のもとで後任探しを進めています。",
+          "en": "",
+          "lang": "ja",
+          "t": 137.83
+        }
+      ],
+      "t": 137.83
+    },
+    {
+      "kind": "story",
+      "heading_en": "Japan's Fugaku Supercomputer Faces Data Breach of 4,000 Users",
+      "heading_ja": "日本の富岳スーパーコンピュータに不正アクセス、4000人超のデータ流出",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our second story takes us to Japan. Fugaku, Japan's most powerful supercomputer, has suffered a suspected cyber attack and data breach.",
+          "ja": "2つ目のニュースは日本からです。日本最高峰のスーパーコンピュータ「富岳」がサイバー攻撃を受け、データ漏洩の疑いが生じています。",
+          "t": 166.01
+        },
+        {
+          "speaker": "Mika",
+          "en": "Fugaku is located at the Riken Center in Kobe. How serious is this security incident for Japan's research community?",
+          "ja": "富岳は神戸の理化学研究所にありますね。日本の研究コミュニティにとって、このセキュリティインシデントはどのくらい深刻なのでしょうか？",
+          "t": 174.94
+        },
+        {
+          "speaker": "Alex",
+          "en": "Riken announced that personal information for more than 4,000 Fugaku users was potentially compromised. In addition, account details for 375 users of the Rikyu AI supercomputer were also exposed.",
+          "ja": "理研は、富岳の利用者4000人以上の個人情報が漏洩した可能性があると発表しました。さらに、AIスーパーコンピュータ「RIKIU」の利用者375人のアカウント情報も流出の対象となっています。",
+          "t": 182.81
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specific types of user records were the hackers able to access?",
+          "ja": "ハッカーは具体的にどのようなユーザー記録にアクセスできたのですか？",
+          "t": 195.1
+        },
+        {
+          "speaker": "Alex",
+          "en": "The stolen data includes user names, email addresses, research project files, and the authentication credentials used to log into the supercomputer systems.",
+          "ja": "流出したデータには、利用者の氏名、メールアドレス、研究プロジェクトのファイル、そしてスパコンシステムにログインするための認証情報が含まれています。",
+          "t": 200.29
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did outside hackers manage to breach such a secure national facility?",
+          "ja": "これほど強固な国家研究機関に、外部のハッカーはどうやって侵入したのですか？",
+          "t": 210.39
+        },
+        {
+          "speaker": "Alex",
+          "en": "Investigators found attackers exploited Fugaku's publicly accessible operational status dashboard between November 10 and 13. That dashboard allowed them to reach internal networks, where they installed unauthorized software on several servers.",
+          "ja": "調査によると、攻撃者は11月10日から13日にかけて、外部公開されていた富岳の稼働状況ダッシュボードを足がかりに悪用しました。そのダッシュボード経由で内部ネットワークに到達し、複数サーバーに不正なソフトウェアをインストールしていました。",
+          "t": 215.86
+        },
+        {
+          "speaker": "Mika",
+          "en": "Has the system been secured now?",
+          "ja": "現在、システムは安全に対処されたのでしょうか？",
+          "t": 230.88
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, Riken took the dashboard offline and blocked unauthorized access on November 14. Japan's Chief Cabinet Secretary Minoru Kihara stated that officials are investigating to safeguard vital national research infrastructure.",
+          "ja": "はい、理研は11月14日にダッシュボードを停止し、不正アクセスを遮断しました。木原稔官房長官は、極めて重要な国の研究開発インフラを守るため当局が調査を進めていると述べました。",
+          "t": 234.06
+        },
+        {
+          "speaker": "Mika",
+          "en": "Fugaku cost around 130 billion yen to build and ranks as the ninth-fastest supercomputer on Earth.",
+          "ja": "富岳は約1300億円をかけて開発され、世界で9番目に高速なスーパーコンピュータに位置づけられていますね。",
+          "t": 247.97
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is correct. Protecting high-performance academic computing is becoming just as critical as commercial security.",
+          "ja": "その通りです。学術向けの高性能計算基盤を守ることは、民間のセキュリティ確保と同じくらい不可欠になっています。",
+          "t": 254.83
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, hackers entered Japan's top supercomputer through a status website, stealing login credentials and research files from thousands of scientists.",
+          "ja": "つまり要約すると、ハッカーが状況表示用ウェブサイトを経由して日本最高峰のスパコンに侵入し、数千人の科学者のログイン認証情報や研究ファイルを盗み出したということです。",
+          "t": 262.7
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is the bottom line.",
+          "ja": "まさにそれが核心です。",
+          "t": 272.87
+        }
+      ],
+      "lang": "en",
+      "t": 166.01
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "理化学研究所は、神戸市に設置されているスーパーコンピュータ「富岳（ふがく）」に不正アクセスがあり、利用者4000人以上の氏名や認証情報などが流出した可能性があると発表しました。外部公開されていた稼働状況ダッシュボードが悪用され、不審なプログラムも確認されており、政府と理研が調査を進めています。",
+          "en": "",
+          "lang": "ja",
+          "t": 275.6
+        }
+      ],
+      "t": 275.6
+    },
+    {
+      "kind": "story",
+      "heading_en": "Waymo Halts US Highway Operations After California Safety Order",
+      "heading_ja": "カリフォルニア当局の命令を受け、Waymoが全米の高速道路運行を停止",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Next, autonomous vehicle leader Waymo has halted its driverless robotaxi operations on freeways across the entire United States.",
+          "ja": "続いて、自動運転技術をリードするWaymoが、全米の高速道路における無人ロボタクシーの運行を停止しました。",
+          "t": 299.15
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is a huge setback for robotaxis. What prompted Waymo to take its self-driving cars off the highway?",
+          "ja": "ロボタクシーにとって大きな後退ですね。Waymoが自動運転車を高速道路から引き揚げるに至ったきっかけは何だったのですか？",
+          "t": 307.7
+        },
+        {
+          "speaker": "Alex",
+          "en": "The California Department of Motor Vehicles issued an urgent restriction after finding that Waymo's freeway operations pose an imminent hazard to public safety.",
+          "ja": "カリフォルニア州自動車局（DMV）が、Waymoの高速道路運行は公衆の安全に切迫した危険をもたらすと認定し、緊急の運行制限を出したためです。",
+          "t": 314.9
+        },
+        {
+          "speaker": "Mika",
+          "en": "An imminent hazard sounds very serious. What dangerous driving incidents did state regulators discover?",
+          "ja": "「切迫した危険」というのは非常に重い表現ですね。州の規制当局はどのような危険な走行事案を確認したのでしょうか？",
+          "t": 325.23
+        },
+        {
+          "speaker": "Alex",
+          "en": "Regulators pointed to recurring incursions into active highway construction zones. Specifically, three Waymo vehicles drove into a closed work area on Route 101 near Burlingame, and another incident involved highway patrol cars on Highway 280.",
+          "ja": "規制当局は、作業中の高速道路工事区間への度重なる誤進入を指摘しました。具体的には、バーリンゲーム近くの国道101号線で3台のWaymo車両が封鎖された作業区間に進入し、高速280号線では州警察車両が関与する事案も発生しました。",
+          "t": 332.37
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did this order only apply to California, or does it cover other states too?",
+          "ja": "この命令はカリフォルニア州だけに適用されたのですか、それとも他州にも及ぶのですか？",
+          "t": 347.33
+        },
+        {
+          "speaker": "Alex",
+          "en": "California issued the legal order, but Waymo decided to pause freeway rides across all 15 of its commercial markets nationwide while evaluating software performance. However, surface street rides are continuing normally, serving over 500,000 trips each week.",
+          "ja": "法的な命令を出したのはカリフォルニア州ですが、Waymoはソフトウェアの性能を再検証するため、商用展開している全米15都市の全市場で高速運行を自主的に一時停止しました。ただし、週50万回以上の利用がある一般道での運行は通常通り継続しています。",
+          "t": 352.92
+        },
+        {
+          "speaker": "Mika",
+          "en": "Highway access was a key advantage for Waymo to shorten travel times to airports across the San Francisco Bay Area.",
+          "ja": "高速道路の利用は、サンフランシスコ・ベイエリア全域で空港までの移動時間を大幅に短縮するための大きな強みでしたよね。",
+          "t": 368.72
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. The California DMV insists these restrictions will stay in place until Waymo demonstrates effective corrective actions to keep construction workers and drivers safe.",
+          "ja": "その通りです。カリフォルニア州DMVは、工事作業員やドライバーの安全を確保するための効果的な是正措置をWaymoが証明するまで、制限を継続すると主張しています。",
+          "t": 376.53
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, state regulators banned Waymo from freeways after robotaxis entered active construction zones, stalling highway expansion nationwide.",
+          "ja": "つまり要約すると、ロボタクシーが工事区間に進入したことを受け、規制当局が高速運行を禁止したことで、Waymoの全米での高速展開にブレーキがかかった形ですね。",
+          "t": 387.64
+        },
+        {
+          "speaker": "Alex",
+          "en": "That summarizes the challenge ahead.",
+          "ja": "直面している課題をまさに要約しています。",
+          "t": 397.24
+        }
+      ],
+      "lang": "en",
+      "t": 299.15
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "自動運転タクシーを手がけるAlphabet傘下のWaymoは、全米での高速道路運行を一時停止しました。カリフォルニア州当局が工事区間への相次ぐ進入などを「公衆への切迫した危険」と判断して運行制限を命じたためで、一般道での営業は継続するものの、空港アクセス短縮など同社の商用展開に打撃となっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 401.1
+        }
+      ],
+      "t": 401.1
+    },
+    {
+      "kind": "story",
+      "heading_en": "Optimizely Supply Chain Attack Injects Malware into Major Sites",
+      "heading_ja": "Optimizelyのサプライチェーン攻撃で大手サイトに不正コード混入",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In cybersecurity news, a major software supply chain attack has injected dangerous malware into hundreds of high-profile global websites.",
+          "ja": "サイバーセキュリティのニュースです。大規模なソフトウェアサプライチェーン攻撃が発生し、世界的な有名ウェブサイト数百件に危険なマルウェアが混入されました。",
+          "t": 426.02
+        },
+        {
+          "speaker": "Mika",
+          "en": "A supply chain attack sounds widespread. Which technology provider was compromised to cause this breach?",
+          "ja": "サプライチェーン攻撃ということは広範囲に及びそうですね。どのテクノロジー企業が侵害されて今回の被害を引き起こしたのですか？",
+          "t": 435.46
+        },
+        {
+          "speaker": "Alex",
+          "en": "Attackers breached the digital delivery systems of Optimizely, a widely used web personalization platform. Optimizely distributes JavaScript code snippets to help companies optimize their websites.",
+          "ja": "広く普及しているウェブ最適化プラットフォームのOptimizelyが配信システムを侵害されました。同社は顧客企業がサイトを最適化するための小さなJavaScriptコードを配布しています。",
+          "t": 442.98
+        },
+        {
+          "speaker": "Mika",
+          "en": "Which major corporate websites and digital services were caught up in the attack?",
+          "ja": "どのような大手企業のサイトやデジタルサービスが攻撃に巻き込まれたのでしょうか？",
+          "t": 455.93
+        },
+        {
+          "speaker": "Alex",
+          "en": "Security researchers at ReportURI identified 178 affected websites, including household names like CNN, Zoom, Salesforce, HSBC, and the BBC. Optimizely's own login portals were also compromised.",
+          "ja": "セキュリティ調査会社ReportURIの研究者は、CNN、Zoom、Salesforce、HSBC、BBCなど178件の被害サイトを確認しました。Optimizely自身のログインポータルも侵害されていました。",
+          "t": 462.11
+        },
+        {
+          "speaker": "Mika",
+          "en": "What harmful actions did the injected script attempt to carry out on visitors' computers and mobile devices?",
+          "ja": "混入されたスクリプトは、訪問者のパソコンやモバイル端末でどのような不正行為を実行しようとしたのですか？",
+          "t": 474.88
+        },
+        {
+          "speaker": "Alex",
+          "en": "The malicious script, named track.js, delivered a potent mix of exploits. It swapped cryptocurrency wallet addresses to steal funds, skimmed payment credit card numbers, stole browser cookies and screenshots, and deployed exploit kits targeting iPhones and iPads.",
+          "ja": "「track.js」と名付けられた不正スクリプトは、多様な攻撃を仕掛けました。暗号資産のウォレットアドレスを書き換えて資金を盗み、クレジットカード情報をスキミングし、クッキーや画面キャプチャを盗んだほか、iPhoneやiPadを標的とした攻撃キットを展開しました。",
+          "t": 482.63
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why didn't regular web browser security protections block the malicious script immediately?",
+          "ja": "通常のウェブブラウザのセキュリティ機能が、その不正スクリプトを即座にブロックできなかったのはなぜですか？",
+          "t": 499.42
+        },
+        {
+          "speaker": "Alex",
+          "en": "Because the bad code was hosted directly on Optimizely's official content delivery network and signed with a valid digital certificate. To browsers, it appeared completely legitimate.",
+          "ja": "悪意あるコードがOptimizelyの正規コンテンツ配信ネットワーク（CDN）上に置かれ、有効な電子証明書で署名されていたからです。ブラウザ側からは完全に正規のコードに見えていたのです。",
+          "t": 506.19
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, hackers compromised a trusted web platform, transforming popular global websites into dispensers of crypto-stealing malware and mobile exploits.",
+          "ja": "つまり要約すると、ハッカーが信頼されているウェブ配信基盤を改ざんし、世界的な人気サイトを暗号資産窃盗やモバイル攻撃用マルウェアの配布元に変えてしまったということですね。",
+          "t": 518.32
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is precisely why third-party software code represents such a massive security risk.",
+          "ja": "外部のサードパーティ製ソフトウェアコードがこれほど巨大なセキュリティリスクになる理由は、まさにそこにあります。",
+          "t": 528.99
+        }
+      ],
+      "lang": "en",
+      "t": 426.02
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ウェブサイト改善支援ツール大手のOptimizelyがサプライチェーン攻撃を受け、同社の正規サーバーから配信されるコードが改ざんされました。BBCやZoom、CNNなど178以上の有名サイトを通じて訪問者の暗号資産やクレジットカード情報の窃盗、iPhoneへの感染が試みられ、外部ツールの管理リスクが浮き彫りになりました。",
+          "en": "",
+          "lang": "ja",
+          "t": 535.58
+        }
+      ],
+      "t": 535.58
+    },
+    {
+      "kind": "story",
+      "heading_en": "Samsung, SK Hynix, and Micron Unite for Robot Charging Standards",
+      "heading_ja": "Samsung・SKハイニックス・マイクロンが半導体工場のロボット充電規格で連携",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In semiconductor manufacturing, top memory rivals Samsung Electronics, SK Hynix, and Micron are coming together to create shared charging standards for factory robots.",
+          "ja": "半導体製造の分野で、メモリ業界の競合トップであるSamsung Electronics、SK hynix、Micronの3社が、工場内ロボットの充電規格を共通化するために連携しました。",
+          "t": 562.83
+        },
+        {
+          "speaker": "Mika",
+          "en": "Samsung, SK Hynix, and Micron are normally intense market rivals. Why are they joining forces on robotics?",
+          "ja": "Samsung、SK hynix、Micronは普段激しく争っているライバル同士ですよね。なぜロボット工学の分野で手を組んでいるのですか？",
+          "t": 573.42
+        },
+        {
+          "speaker": "Alex",
+          "en": "Soaring global demand for memory chips used in artificial intelligence is forcing manufacturers to maximize output inside their fabrication plants, or fabs. To increase efficiency, they are deploying automated mobile robots to handle materials.",
+          "ja": "人工知能向けメモリチップの世界的な需要急増を受け、メーカーは既存の製造工場（ファブ）の生産能力を極限まで引き上げる必要に迫られています。効率化のため、資材運搬に自律走行型の移動ロボットを投入しています。",
+          "t": 580.65
+        },
+        {
+          "speaker": "Mika",
+          "en": "What exact tasks do these autonomous robots perform inside semiconductor cleanrooms?",
+          "ja": "半導体のクリーンルーム内で、それらの自律ロボットは具体的にどのような作業を行っているのですか？",
+          "t": 595.49
+        },
+        {
+          "speaker": "Alex",
+          "en": "Mobile robots transport delicate silicon wafer containers between production floors. Mobile manipulators with robotic arms and even humanoid robots are also being tested to unpack supplies and replace manual labor.",
+          "ja": "移動ロボットは、デリケートなシリコンウエハーの容器を製造フロア間で搬送します。また、ロボットアームを備えた移動作業機や人型ロボットも、資材の荷解きや手作業の代替として検証が進められています。",
+          "t": 601.5
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why does robot charging present such a logistical headache for factory managers?",
+          "ja": "ロボットの充電設備が、工場管理者にとってなぜそれほど厄介な問題になっているのでしょうか？",
+          "t": 614.68
+        },
+        {
+          "speaker": "Alex",
+          "en": "Currently, robots from different manufacturers require their own unique batteries and separate charging stations. These proprietary docks take up valuable cleanroom floor space and significantly increase factory maintenance costs.",
+          "ja": "現在、メーカーの異なるロボットはそれぞれ独自のバッテリーと専用充電スタンドを必要とします。独自の充電器が並ぶと高コストなクリーンルームの床面積が圧迫され、保守費用も大幅に跳ね上がってしまいます。",
+          "t": 620.47
+        },
+        {
+          "speaker": "Mika",
+          "en": "So working with industry association SEMI allows them to install universal charging docks across their chip facilities?",
+          "ja": "業界団体のSEMIと協力することで、半導体工場全体に共通の充電設備を配備できるようにするわけですね？",
+          "t": 634.54
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. Standardized charging allows chipmakers to mix and match different robot fleets easily as they build toward fully automated, unmanned semiconductor fabrication plants.",
+          "ja": "その通りです。充電を標準化すれば、異なるメーカーのロボット群を簡単に混在配備できるようになり、完全自動化された無人半導体工場の実現へと近づくことができます。",
+          "t": 642.48
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, three memory giants are setting aside competition to create universal robot chargers, accelerating the race toward fully unmanned chip manufacturing.",
+          "ja": "つまり要約すると、大手メモリ3社が競争を脇に置いてロボットの共通充電規格を策定し、半導体製造の完全無人化を加速させようとしているのですね。",
+          "t": 653.57
+        },
+        {
+          "speaker": "Alex",
+          "en": "Spot on, Mika. Industrial automation is taking a huge leap forward.",
+          "ja": "その通りです、Mika。工場の自動化が大きな一歩を踏み出しています。",
+          "t": 663.94
+        }
+      ],
+      "lang": "en",
+      "t": 562.83
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "世界メモリ半導体大手のSamsung、SK hynix、Micronの3社が、製造工場内で動く搬送ロボットの充電規格を共通化する協議体を設立しました。AI需要で増産が求められるなか、メーカーごとに異なる充電器でクリーンルームのスペースが圧迫されるのを防ぎ、将来の完全無人ファブ実現に向けたコスト削減を図ります。",
+          "en": "",
+          "lang": "ja",
+          "t": 669.01
+        }
+      ],
+      "t": 669.01
+    },
+    {
+      "kind": "health",
+      "heading_en": "US HHS Finalizes HIPAA Rule Guaranteeing Patient App Access",
+      "heading_ja": "米HHSがHIPAA改定規則を最終決定、アプリによる診療記録取得を保障",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Turning to digital healthcare, the United States Department of Health and Human Services has finalized a major overhaul of the landmark HIPAA Privacy Rule.",
+          "ja": "デジタルヘルスケアの話題です。米国保健福祉省（HHS）が、医療情報の保護を定めた重要法規「HIPAAプライバシー規則」の大幅改定を最終決定しました。",
+          "t": 693.48
+        },
+        {
+          "speaker": "Mika",
+          "en": "HIPAA is the federal law governing medical privacy and patient records. What is the main focus of this new update?",
+          "ja": "HIPAAは医療プライバシーやカルテなどの記録を管理する連邦法ですね。今回の改定の主眼はどこにあるのでしょうか？",
+          "t": 703.41
+        },
+        {
+          "speaker": "Alex",
+          "en": "The finalized rule focuses heavily on empowering patients. Most notably, healthcare providers must now fulfill patient record requests within 15 calendar days, cutting the previous 30-day requirement in half.",
+          "ja": "今回の最終決定規則は、患者自身の権利強化に大きく重点を置いています。特に注目すべきは、医療機関が患者からの記録開示請求に応じる期限が、従来の30日から15日以内へと半減された点です。",
+          "t": 711.08
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is a significant improvement for patients seeking medical care. How does the rule support modern smartphone technology?",
+          "ja": "医療機関を利用する患者にとって大きな改善ですね。スマートフォンの最新テクノロジーに対してはどのような後押しがあるのですか？",
+          "t": 723.93
+        },
+        {
+          "speaker": "Alex",
+          "en": "It officially establishes standards for personal health applications. When providers have the technical capacity, patients have the legal right to receive their health records directly through mobile apps and fitness platforms.",
+          "ja": "「個人向け健康アプリ」に対する標準仕様が正式に確立されました。医療機関側に技術的機能がある場合、患者はモバイルアプリやフィットネス連携ツールを通じて診療記録を直接受け取る法的権利を持ちます。",
+          "t": 732.15
+        },
+        {
+          "speaker": "Mika",
+          "en": "HHS Secretary Robert F. Kennedy Jr. highlighted that Americans should never have to fight for access to their own health records.",
+          "ja": "HHSのRobert F. Kennedy Jr.長官は、米国人が自分のカルテを開示してもらうために苦労して闘うようなことがあってはならないと強調しましたね。",
+          "t": 746.05
+        },
+        {
+          "speaker": "Alex",
+          "en": "Right. The rule also removes unnecessary paperwork and makes it easier for clinics to share patient records with community organizations and social services to coordinate comprehensive care.",
+          "ja": "その通りです。また不要な事務負担を撤廃し、診療所が地域組織や福祉支援団体と患者データを円滑に共有して、総合的な地域医療連携をコーディネートしやすくしています。",
+          "t": 754.54
+        },
+        {
+          "speaker": "Mika",
+          "en": "Health organizations will have 180 days after the effective date to comply with these digital sharing standards.",
+          "ja": "医療機関は新規則の発効後、180日以内にこれらデジタル共有基準に準拠する必要がありますね。",
+          "t": 766.4
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. This update removes friction, paving the way for seamless personal health data exchange across the country.",
+          "ja": "はい。この改定によって障壁が取り除かれ、全米で個人の健康データがスムーズに流通する道が開かれます。",
+          "t": 773.96
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, new federal rules cut medical record wait times to 15 days and guarantee direct access through smartphone health applications.",
+          "ja": "つまり要約すると、米連邦政府の新規則によりカルテの開示待機期間が15日に短縮され、スマホの健康アプリを通じた直接取得が保障されたということですね。",
+          "t": 781.52
+        },
+        {
+          "speaker": "Alex",
+          "en": "It is a transformative step for patient data ownership.",
+          "ja": "患者によるデータ主権の確立に向けた画期的な一歩です。",
+          "t": 790.62
+        }
+      ],
+      "lang": "en",
+      "t": 693.48
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米保健福祉省はHIPAAプライバシー規則を改定し、患者が個人用健康アプリを通じてカルテなどの医療記録を直接取得できる権利を明記しました。開示請求への対応期限も従来の30日から15日以内に短縮されます。患者本人がデータを管理しやすくなり、ヘルスケアアプリの普及や地域医療連携の効率化を後押しします。",
+          "en": "",
+          "lang": "ja",
+          "t": 795.48
+        }
+      ],
+      "t": 795.48
+    },
+    {
+      "kind": "world",
+      "heading_en": "Ukraine Damages Crimean Bridge in Massive Drone and Missile Strike",
+      "heading_ja": "ウクライナがドローンとミサイルでクリミア大橋に大規模攻撃",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In world news, Ukraine has carried out a massive, highly coordinated drone and missile strike that severely damaged the strategic Crimean Bridge.",
+          "ja": "国際ニュースです。ウクライナが極めて組織的な大規模ドローン・ミサイル攻撃を実施し、戦略拠点であるクリミア大橋に深刻な打撃を与えました。",
+          "t": 818.68
+        },
+        {
+          "speaker": "Mika",
+          "en": "The Kerch bridge is the critical road and rail link between mainland Russia and occupied Crimea. How was Ukraine able to strike it?",
+          "ja": "ケルチ海峡に架かるこの橋は、ロシア本土と占領下のクリミアを結ぶ極めて重要な道路・鉄道網ですね。ウクライナはどのようにして攻撃を成功させたのですか？",
+          "t": 827.97
+        },
+        {
+          "speaker": "Alex",
+          "en": "President Volodymyr Zelensky revealed it was a meticulously planned seven-stage operation. Early drone waves first overwhelmed local air defenses and established radio relay networks, bypassing recent satellite connection restrictions.",
+          "ja": "Volodymyr Zelensky大統領は、入念に計画された7段階の作戦だったと明かしました。初期のドローン編隊がまず現地の防空網を圧倒すると同時に無線中継網を構築し、最近の衛星通信制限を回避しました。",
+          "t": 836.5
+        },
+        {
+          "speaker": "Mika",
+          "en": "And what weapons delivered the final damaging blow to the bridge structure?",
+          "ja": "そして、どのような兵器が橋の構造に決定的な打撃を与えたのでしょうか？",
+          "t": 850.71
+        },
+        {
+          "speaker": "Alex",
+          "en": "Ukrainian forces launched domestic Flamingo cruise missiles carrying 1,000 kilograms of explosives. Images confirmed that a major road section collapsed directly into the sea, while drone strikes also targeted the parallel railway line.",
+          "ja": "ウクライナ軍は、1000キロの爆薬を搭載した国産巡航ミサイル「Flamingo」を発射しました。映像では道路区間の大部分が海中に崩落したことが確認され、並行する鉄道橋もドローン攻撃を受けました。",
+          "t": 856.17
+        },
+        {
+          "speaker": "Mika",
+          "en": "This delivers a painful logistical and symbolic blow to President Vladimir Putin just before key diplomatic meetings with leaders from China and the United States.",
+          "ja": "中国や米国の首脳との重要な外交日程を控えたVladimir Putin大統領にとって、補給面でも象徴的にも極めて手痛い打撃になりますね。",
+          "t": 870.44
+        },
+        {
+          "speaker": "Alex",
+          "en": "Indeed. While Moscow insists it will rebuild the bridge, Ukraine has once again demonstrated its expanding long-range strike capabilities.",
+          "ja": "その通りです。ロシア政府は橋を再建すると主張していますが、ウクライナは長距離打撃能力が拡大していることを改めて証明しました。",
+          "t": 880.71
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Ukraine used innovative drone swarms and cruise missiles to partially collapse Russia's vital military supply bridge to Crimea.",
+          "ja": "つまり要約すると、ウクライナが先進的なドローン群と巡航ミサイルを駆使し、クリミアへ通じるロシア軍の生命線である補給橋を部分崩落させたということです。",
+          "t": 889.62
+        },
+        {
+          "speaker": "Alex",
+          "en": "A major tactical achievement for Kyiv.",
+          "ja": "キーウ側にとって極めて大きな戦術的成果と言えます。",
+          "t": 898.69
+        }
+      ],
+      "lang": "en",
+      "t": 818.68
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ウクライナ軍は、ロシア本土とクリミア半島を結ぶ要衝「クリミア大橋」に対し、多数のドローンと国産巡航ミサイルを組み合わせた大規模攻撃を実施しました。道路部分の一部が崩落し、ロシア軍の補給路と象徴的インフラに深刻な打撃を与えています。ロシア側は再建を主張していますが、外交日程を控えたMoscowに衝撃を与えています。",
+          "en": "",
+          "lang": "ja",
+          "t": 902.14
+        }
+      ],
+      "t": 902.14
+    },
+    {
+      "kind": "world",
+      "heading_en": "UK and Australia Sanction Israeli West Bank Settlement Businesses",
+      "heading_ja": "英豪両政府、ヨルダン川西岸のイスラエル入植企業に協調制裁",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Next, the United Kingdom and Australia have announced coordinated economic sanctions targeting companies and individuals involved in Israeli settlements in the West Bank.",
+          "ja": "続いて、イギリスとオーストラリアの両政府が、ヨルダン川西岸地区のイスラエル入植地に関与する企業や個人を標的とした協調経済制裁を発表しました。",
+          "t": 926.67
+        },
+        {
+          "speaker": "Mika",
+          "en": "Western nations often sanction individual settlers, but this announcement specifically focuses on commercial enterprises, right?",
+          "ja": "西側諸国はこれまで個人の入植者を制裁することが多かったですが、今回の発表は特に営利企業に焦点を当てているのですね？",
+          "t": 937.32
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. The UK government placed sanctions on eight Israeli construction companies. Meanwhile, Australia sanctioned four organizations, including the construction firm Eyal Hari Yehuda and the Nachala settler movement, along with three individuals.",
+          "ja": "その通りです。英政府はイスラエルの建設会社8社に制裁を科しました。一方、豪政府は建設会社Eyal Hari Yehudaや入植者運動組織Nachalaを含む4つの団体と、個人3名を制裁対象に指定しました。",
+          "t": 945.69
+        },
+        {
+          "speaker": "Mika",
+          "en": "What diplomatic reasons did government officials give for introducing these business restrictions now?",
+          "ja": "両国の政府高官は、なぜ今このような企業規制に踏み切ったのか、どのような外交的理由を挙げているのですか？",
+          "t": 960.66
+        },
+        {
+          "speaker": "Alex",
+          "en": "Australian Foreign Minister Penny Wong emphasized that rapid settlement expansion and settler violence are actively extinguishing the possibility of a two-state solution. Both countries warned their domestic companies against trading with or assisting these settlement builders.",
+          "ja": "オーストラリアのPenny Wong外相は、急速な入植地拡大と入植者の暴力がパレスチナとの「2国家共存」の可能性を消し去っていると強調しました。両国は自国企業に対し、これら入植地建設業者との取引や支援を行わないよう警告しています。",
+          "t": 967.6
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did Israel respond to these coordinated international measures?",
+          "ja": "イスラエル側はこの国際的な協調措置に対して何か反応を示しましたか？",
+          "t": 984.16
+        },
+        {
+          "speaker": "Alex",
+          "en": "Wong noted she discussed Australia's stance directly with Israeli counterpart Gideon Sa'ar, defending the sanctions as necessary to protect long-term peace prospects.",
+          "ja": "Wong外相は、イスラエルのGideon Sa'ar外相と直接立場を協議したと明かし、長期的な中東和平の展望を守るために制裁が必要不可欠だと主張しました。",
+          "t": 988.97
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Britain and Australia took coordinated action by sanctioning construction firms to push back against illegal West Bank settlements.",
+          "ja": "つまり要約すると、イギリスとオーストラリアが協調し、違法な西岸入植活動を抑止するため建設企業に制裁を科したということですね。",
+          "t": 999.41
+        },
+        {
+          "speaker": "Alex",
+          "en": "It marks a notable toughening of commercial pressure.",
+          "ja": "商業的取引への圧力を一段と強めた顕著な動きです。",
+          "t": 1008.7
+        }
+      ],
+      "lang": "en",
+      "t": 926.67
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "イギリスとオーストラリアは、ヨルダン川西岸地区でのイスラエル入植地建設に関与する企業や団体に対し、協調して制裁を科しました。急速な入植地拡大がパレスチナとの「2国家共存」の道を脅かしていると懸念を示し、建設企業との取引や支援を禁止することで入植活動への圧力を強めています。",
+          "en": "",
+          "lang": "ja",
+          "t": 1013.41
+        }
+      ],
+      "t": 1013.41
+    },
+    {
+      "kind": "world",
+      "heading_en": "Canada and China Agree to Reciprocal Tariff Cuts Amid US Tension",
+      "heading_ja": "米国の関税摩擦を背景に、カナダと中国が相互関税削減で合意",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Finally, Canada and China have finalized a reciprocal trade agreement to cut import tariffs, seeking closer commercial ties amid mounting economic friction with the United States.",
+          "ja": "最後に、カナダと中国が関税を相互に引き下げる貿易合意をまとめ、米国との通商摩擦が激化するなかで経済関係の緊密化を図っています。",
+          "t": 1036.34
+        },
+        {
+          "speaker": "Mika",
+          "en": "Where was this bilateral agreement reached, and what specific goods are covered under the deal?",
+          "ja": "この二国間合意はどこで交わされ、具体的にどのような品目が対象になっているのですか？",
+          "t": 1048.26
+        },
+        {
+          "speaker": "Alex",
+          "en": "Canadian Prime Minister Mark Carney met Chinese President Xi Jinping on the sidelines of the APEC summit in Shenzhen. China agreed to provide tariff relief on approximately 400 million Canadian dollars worth of exports, including frozen pork and seafood.",
+          "ja": "カナダのMark Carney首相が、深圳で開催されたAPEC首脳会議の合間に中国のXi Jinping国家主席と会談しました。中国は冷凍豚肉や海産物など、約4億カナダドル相当のカナダ製品に関税緩和を適用することに合意しました。",
+          "t": 1055.28
+        },
+        {
+          "speaker": "Mika",
+          "en": "What trade concessions did Canada offer to Beijing in exchange for those agricultural benefits?",
+          "ja": "そうした農水産物での譲歩の見返りとして、カナダ側は中国に対してどのような優遇措置を提供したのですか？",
+          "t": 1071.59
+        },
+        {
+          "speaker": "Alex",
+          "en": "Canada agreed to extend tariff exemptions for Chinese steel and aluminum products for an additional two years, while adding exemptions for 32 industrial metal items facing domestic shortages.",
+          "ja": "カナダは中国製の鉄鋼・アルミニウム製品に対する関税免除をさらに2年間延長し、さらに国内で供給不足に直面している32品目の金属製品も対象に追加しました。",
+          "t": 1078.6
+        },
+        {
+          "speaker": "Mika",
+          "en": "How has the United States government reacted to this economic cooperation between Ottawa and Beijing?",
+          "ja": "オタワと北京の間のこうした経済協力に対し、米国政府はどのように反応していますか？",
+          "t": 1091.23
+        },
+        {
+          "speaker": "Alex",
+          "en": "White House trade adviser Peter Navarro reacted furiously, accusing Canada of trying to play China off against the United States and warning Ottawa against becoming vulnerable to Beijing.",
+          "ja": "ホワイトハウスの通商顧問Peter Navarro氏は激しく反発し、カナダが中国を天秤にかけて米国に対抗しようとしていると非難し、中国に取り込まれるなと警告しました。",
+          "t": 1098.59
+        },
+        {
+          "speaker": "Mika",
+          "en": "Carney explained that US tariffs on Canadian manufacturing make diversifying trade partners essential for protecting local jobs.",
+          "ja": "Carney首相は、米国の関税がカナダの製造業に打撃を与えるなか、国内の雇用を守るためには貿易相手国の多角化が不可欠だと説明しています。",
+          "t": 1110.99
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, Canada and China expanded mutual tariff relief to protect their economies against rising American protectionism.",
+          "ja": "つまり要約すると、カナダと中国は米国の保護主義の高まりから自国経済を守るため、相互の関税減免を拡大させたわけですね。",
+          "t": 1119.93
+        },
+        {
+          "speaker": "Mika",
+          "en": "A fascinating shift in global trade alignments.",
+          "ja": "世界貿易の枠組みにおける非常に興味深い変化です。",
+          "t": 1128.76
+        }
+      ],
+      "lang": "en",
+      "t": 1036.34
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "カナダのMark Carney首相と中国のXi Jinping国家主席は深圳での首脳会談で、相互に関税を削減することで合意しました。中国はカナダ産の豚肉や海産物への関税を緩和し、カナダは中国産鉄鋼などの関税免除を延長します。米国の関税圧力に対抗し、同盟国カナダが中国との通商関係を改善させる動きとして注目されます。",
+          "en": "",
+          "lang": "ja",
+          "t": 1132.97
+        }
+      ],
+      "t": 1132.97
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "Tech Leaders Speak on Ambition and Outages",
+      "heading_ja": "CEOウォッチ：リーダーたちの発言",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In CEO Watch, former Nvidia CEO Jensen Huang posted on X that he would be honored to return as CEO if the board decides it is in the company's best interest.",
+          "ja": "CEOウォッチです。NVIDIAの前CEOであるJensen Huang氏は、取締役会が最善と判断するならばCEO復帰の呼びかけに応じることを光栄に思うとXに投稿しました。",
+          "t": 1159.66
+        },
+        {
+          "speaker": "Mika",
+          "en": "Meanwhile, interim CEO Colette Kress said, 'Vera Rubin is off to an explosive start, our roadmap is on track and our ambition has never been greater.'",
+          "ja": "一方、暫定CEOのColette Kress氏は「Vera Rubinは爆発的なスタートを切り、ロードマップは順調で、当社の野心はかつてないほど大きい」と語りました。",
+          "t": 1169.52
+        },
+        {
+          "speaker": "Alex",
+          "en": "And at Microsoft Ignite, CEO Satya Nadella offered an apology for recent Outlook email outages, telling attendees plainly, 'We have work to do.'",
+          "ja": "そしてMicrosoft Igniteの冒頭で、Satya Nadella CEOは最近のOutlookのシステム障害について謝罪し、「私たちにはやるべき仕事がある」と率直に述べました。",
+          "t": 1179.0
+        }
+      ],
+      "lang": "en",
+      "t": 1159.66
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: Shut Down",
+      "heading_ja": "本日のフレーズ：shut down",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's phrase of the day is 'shut down'. Alex used it when talking about Nvidia's board refusing Jensen Huang's return.",
+          "ja": "本日のフレーズ・オブ・ザ・デイは「shut down」です。NVIDIAの取締役会がJensen Huang氏の復帰を拒絶した際、Alexが使っていましたね。",
+          "t": 1188.16
+        },
+        {
+          "speaker": "Alex",
+          "en": "To shut down something can mean turning off a machine, but here it means stopping an idea, request, or proposal completely.",
+          "ja": "機械などの電源を切るという意味もありますが、ここでは提案や要求、アイデアを完全に却下する、断ち切るという意味で使われます。",
+          "t": 1196.01
+        },
+        {
+          "speaker": "Mika",
+          "en": "For example: 'The committee quickly shut down the proposal because of budget concerns.' It is a very natural and useful business phrase.",
+          "ja": "例えば、「委員会は予算上の懸念から、その提案を即座に却下した（shut downした）」のように使えます。ビジネスでもとても自然で役立つ表現ですね。",
+          "t": 1204.03
+        }
+      ],
+      "lang": "en",
+      "t": 1188.16
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Wrapping Up Today's Commute",
+      "heading_ja": "エンディング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That brings us to the end of today's episode. From corporate accountability in Silicon Valley to shifting international trade dynamics, policy and governance continue to reshape our world.",
+          "ja": "本日の放送はここまでです。シリコンバレーの企業ガバナンスから国際貿易の新たな力学まで、政策と統治が私たちの世界を再形成し続けています。",
+          "t": 1212.76
+        },
+        {
+          "speaker": "Mika",
+          "en": "Thank you so much for joining us on Commute News. We hope you have a safe, wonderful, and productive day ahead!",
+          "ja": "Commute Newsをお聴きいただき本当にありがとうございました。安全で実りある、素晴らしい一日をお過ごしください！",
+          "t": 1224.3
+        },
+        {
+          "speaker": "Alex",
+          "en": "Stay informed, take care, and join us again tomorrow morning for your daily commute.",
+          "ja": "情報にアンテナを張りつつ、気をつけてお過ごしください。また明日の通勤時間にお会いしましょう。",
+          "t": 1231.66
+        }
+      ],
+      "lang": "en",
+      "t": 1212.76
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。いってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 1237.57
+        }
+      ],
+      "t": 1237.57
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Nvidia Posts Record $115.8B Revenue as Board Rejects Huang's Return",
+      "title_ja": "NVIDIAが過去最高益を達成、取締役会はHuang氏の復帰を拒否",
+      "summary_ja": "NVIDIAは2026年第3四半期の売上高が前年同期比103％増の1158億ドルに達したと発表しました。AIデータセンター向け売上高が急伸する一方で、取締役会のHarvey Jones会長は、行動規範違反で先週辞任した創業者Jensen Huang氏のCEO復帰の可能性を満場一致で否定しました。",
+      "why_ja": "AIインフラへの巨額投資が継続している実態を裏付けるとともに、ハイテク巨人における輸出管理とコーポレートガバナンスへの厳しい監視姿勢を象徴しています。",
+      "section": "tech",
+      "topic_key": "nvidia-jensen-huang-china-spy-investigation",
+      "companies": [
+        "Nvidia"
+      ],
+      "sources": [
+        {
+          "publisher": "NVIDIA Newsroom",
+          "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+          "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "Nvidia says it does not intend to reinstate Jensen Huang as CEO",
+          "url": "https://www.theverge.com/report/1035465/nvidia-says-it-will-not-reinstate-jensen-huang-as-ceo"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+          "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Nvidia chair says the board will not rehire Huang as CEO",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUzY1ZVJpMEF5SkVrMm5oVXBaUE9FNFVkUTNxQllsbHo0YXpJMnZQc0Zjc2c2Z2FjRTNYdHAxdi1ZaEFJZkFIRUxqaVNHWUpTZTdydVZtejBWd2Rqa2llYVJDR2MwdjFORHhPSkc0WXAxbml3NWdiTkx5bW9FbE9xdUl1Y1paSnZMcG1OM3RSSHV1TGhHWl92dEpGenJGTXpSbXV3OVRfQzdHTXNqX1NXRzVaY1NGdEFwOTNWSm5R?oc=5"
+        },
+        {
+          "publisher": "Yahoo Finance",
+          "title": "Nvidia earnings live: Nvidia posts Q3 beat as revenue rose 103% YOY to $115.8B, board says it will not reinstate Jensen Huang as CEO",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTGswLW45X25uQXNodGZiZnNWeFk1dTdSWm5SRktfUXBTaTY3QlA2dFR3U3hFNnpDX2dwa3VHYllDS3Roa1VyWGFEMk16alc1dHRXR1p0eUVsRk1LMEliNDJyYlJIczVmam1OT25jMjRKbUZ2UE05bGtKLWUtdldySHpvOWMyRUdmenJUaFk0eTYtalRlZll0RkkzdGdzcnMwYkR1eWpKZTdqU3VRYXpLY1BSU2MwM04yMEJmbW9YOWZvZlRleUpqd3BseDhrTE5GVEFNN0FTM0hjUjdDTFBGUUQyOWVfUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Japan's Fugaku Supercomputer Faces Data Breach of 4,000 Users",
+      "title_ja": "日本の富岳スーパーコンピュータに不正アクセス、4000人超のデータ流出",
+      "summary_ja": "理化学研究所は、運用するスーパーコンピュータ「富岳」の外部稼働状況ダッシュボードが悪用され、不正アクセスを受けたと発表しました。利用者4,000人以上の氏名、メールアドレス、研究ファイル、認証情報が流出した疑いがあり、不審なプログラムの混入も確認されました。",
+      "why_ja": "国家最高水準の計算研究インフラにおけるサイバーセキュリティ脆弱性を露呈し、学術・産学連携データの保護管理体制の根本的見直しを迫る事案です。",
+      "section": "tech",
+      "topic_key": "japan-fugaku-supercomputer-hack",
+      "companies": [
+        "Riken",
+        "Fujitsu"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Japan’s most powerful supercomputer may have been hacked, over 4,000 users’ personal data stolen",
+          "url": "https://www.tomshardware.com/tech-industry/supercomputers/japans-most-powerful-supercomputer-may-have-been-hacked-over-4-000-users-personal-data-stolen-investigation-opened-into-fugaku-breach-after-unauthorized-software-installed"
+        },
+        {
+          "publisher": "The Register",
+          "title": "Japan's Fugaku supercomputer has decidedly un-super security",
+          "url": "https://www.theregister.com/security/2026/11/17/japans-fugaku-supercomputer-has-decidedly-un-super-security/5310333"
+        }
+      ]
+    },
+    {
+      "title_en": "Waymo Halts US Highway Operations After California Safety Order",
+      "title_ja": "カリフォルニア当局の命令を受け、Waymoが全米の高速道路運行を停止",
+      "summary_ja": "カリフォルニア州自動車局（DMV）は、Waymoの自動運転車が高速道路の工事区間に相次いで進入したことを「公衆への切迫した危険」と認定し、運行制限を命じました。これを受けてWaymoは全米15都市の商用市場において高速道路での無人走行サービスを自主的に全面停止しました。",
+      "why_ja": "一般道から高速走行への商用サービス拡大に急ブレーキがかかり、自動運転の安全性検証と規制当局による監督の厳格化が一段と進むことを意味します。",
+      "section": "tech",
+      "topic_key": "waymo-freeway-operations-dmv-suspension",
+      "companies": [
+        "Waymo",
+        "Alphabet"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "Waymo suspends freeway rides nationwide after California DMV order",
+          "url": "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/"
+        },
+        {
+          "publisher": "The New York Times",
+          "title": "Waymo Pulls Its Driverless Taxis From All U.S. Highways Temporarily",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9JSjUyU0FRdGh2TzZ5NzBTRk0ySnV4eTk4T1EtQ1lTQzZLM3ZnZFBXU2xPMlhJV3F3ZTZZMjBnQUViV0I5Wml4MEF3Q0ZNRE81LXFjSnV3ZHNteVZsUFNxbDRlLW5NaXJyRlhGNkdhQ0ttWnlXWmh4R2FnWQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Optimizely Supply Chain Attack Injects Malware into Major Sites",
+      "title_ja": "Optimizelyのサプライチェーン攻撃で大手サイトに不正コード混入",
+      "summary_ja": "ウェブ最適化サービスを提供するOptimizelyの配信基盤が侵害され、BBC、Zoom、CNN、Salesforceなど178以上の有名サイトに不正なJavaScriptコードが挿入されました。訪問者の暗号資産ウォレットのアドレス書き換えや決済カード情報の窃盗、iOS端末への攻撃が試みられました。",
+      "why_ja": "正規の第三者配信スクリプトを経由したサプライチェーン攻撃の破壊力を示しており、大手企業のウェブフロントエンドにおけるセキュリティ監査の重要性を浮き彫りにしました。",
+      "section": "tech",
+      "topic_key": "optimizely-supply-chain-malware-attack",
+      "companies": [
+        "Optimizely",
+        "Zoom",
+        "Salesforce",
+        "BBC"
+      ],
+      "sources": [
+        {
+          "publisher": "Ars Technica",
+          "title": "Hundreds of websites deliver potent malware cocktail to unsuspecting visitors",
+          "url": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/"
+        },
+        {
+          "publisher": "The Register",
+          "title": "Optimizely hack turns world's biggest websites into malware dispensers",
+          "url": "https://www.theregister.com/cyber-crime/2026/11/17/optimizely-hack-turns-worlds-biggest-websites-into-malware-dispensers/5310448"
+        }
+      ]
+    },
+    {
+      "title_en": "Samsung, SK Hynix, and Micron Unite for Robot Charging Standards",
+      "title_ja": "Samsung・SKハイニックス・マイクロンが半導体工場のロボット充電規格で連携",
+      "summary_ja": "メモリ半導体大手のSamsung Electronics、SK Hynix、Micronの3社が、半導体工場内で稼働する自律移動ロボットの充電規格統一に向けて協議体を結成しました。業界団体のSEMIと協力し、共通充電設備を導入することでクリーンルームの省スペース化と保守費用の削減を目指します。",
+      "why_ja": "AI向けメモリ増産に向け、競合各社が足並みを揃えてファブの完全自動化・無人化へのインフラ基盤構築を加速させる重要な協調の動きです。",
+      "section": "tech",
+      "topic_key": "memory-makers-fab-robot-charging-standard",
+      "companies": [
+        "Samsung Electronics",
+        "SK Hynix",
+        "Micron"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Samsung, SK hynix, and Micron form unlikely alliance to standardize robot charging as chipmakers push toward unmanned fabs",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/samsung-sk-hynix-and-micron-form-unlikely-alliance-to-standardize-robot-charging-as-chipmakers-push-toward-unmanned-chip-fabs-standard-specs-would-allow-manufacturer-agnostic-charging-equipment"
+        }
+      ]
+    },
+    {
+      "title_en": "US HHS Finalizes HIPAA Rule Guaranteeing Patient App Access",
+      "title_ja": "米HHSがHIPAA改定規則を最終決定、アプリによる診療記録取得を保障",
+      "summary_ja": "米保健福祉省（HHS）はHIPAAプライバシー規則の改定を最終決定しました。医療機関が患者からの記録請求に応じる期限を従来の30日から15日以内に短縮し、個人向け健康アプリを通じた診療記録への直接アクセスを保障するとともに、地域連携におけるデータ共有の円滑化を盛り込みました。",
+      "why_ja": "患者主導のデータ流通を法的・技術的に後押しするもので、ヘルスケアアプリ開発や日本の電子カルテ共有政策にも大きな示唆を与えます。",
+      "section": "health",
+      "topic_key": "hhs-hipaa-privacy-rule-patient-app-access",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "STAT News",
+          "title": "STAT+: Updated health data privacy rule sets standards for sharing records with apps",
+          "url": "https://www.statnews.com/2026/11/17/hipaa-privacy-rule-update-aims-to-improve-patient-access-to-records/?utm_campaign=rss"
+        },
+        {
+          "publisher": "Fierce Healthcare",
+          "title": "HHS finalizes updates to HIPAA privacy rule to ease patient access to health information",
+          "url": "https://www.fiercehealthcare.com/health-tech/hhs-finalizes-updates-hipaa-privacy-rule-ease-patient-access-health-information"
+        }
+      ]
+    },
+    {
+      "title_en": "Ukraine Damages Crimean Bridge in Massive Drone and Missile Strike",
+      "title_ja": "ウクライナがドローンとミサイルでクリミア大橋に大規模攻撃",
+      "summary_ja": "ウクライナ軍は、ロシア本土とクリミア半島を結ぶクリミア大橋に対し、ドローンと国産巡航ミサイル「Flamingo」による周到な7段階の複合攻撃を実施しました。道路区間の一部が海に崩落し、ロシア軍の重要補給路と象徴的インフラに重大な被害を与えました。",
+      "why_ja": "ロシアの対ウクライナ軍事兵站に深刻な支障をきたすとともに、中米首脳会談を控えるPutin政権に対して強力な政治的圧力をかける狙いがあります。",
+      "section": "world",
+      "topic_key": "ukraine-kerch-bridge-strike",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+          "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "How Ukraine struck the Kerch bridge, a symbol of Putin’s rule",
+          "url": "https://www.theguardian.com/world/2026/nov/17/how-ukraine-struck-kerch-bridge-symbol-vladimir-putin-rule"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "‘They were keeping it for a rainy day’: Ukraine’s Kerch bridge attack is proof Kyiv still has cards to play",
+          "url": "https://www.theguardian.com/world/2026/nov/17/ukraine-kerch-bridge-attack-russia-crimea-analysis"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "How the attack on Crimean Bridge unfolded",
+          "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial attacks escalate",
+          "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war"
+        }
+      ]
+    },
+    {
+      "title_en": "UK and Australia Sanction Israeli West Bank Settlement Businesses",
+      "title_ja": "英豪両政府、ヨルダン川西岸のイスラエル入植企業に協調制裁",
+      "summary_ja": "イギリスとオーストラリアは、ヨルダン川西岸地区の違法入植地建設に関与するイスラエルの建設企業や過激派入植者団体に対し、協調制裁を発表しました。入植地拡大と暴力がパレスチナとの「2国家共存」の可能性を破壊していると批判し、企業への資金供与や取引を禁じました。",
+      "why_ja": "個人への制裁から入植事業を支える商業的建設会社への直接制裁へと踏み込んだもので、中東和平を巡る西側諸国の外交方針の硬化を示しています。",
+      "section": "world",
+      "topic_key": "uk-australia-sanctions-israeli-west-bank-settlements",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "UK sanctions Israeli settlement firms to protect two-state solution",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/aje-onl-nf_uk-sanctions-eight-israeli-settlement-firms-171126?traffic_source=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Australia sanctions individuals and company involved in illegal West Bank settlements",
+          "url": "https://www.theguardian.com/world/2026/nov/18/australia-sanctions-construction-company-west-bank-settlement-expansion-ntwnfb"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "UK sanctions firms over Israeli West Bank settlements",
+          "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Ed Miliband announces first sanctions on Israeli firms working in West Bank",
+          "url": "https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions"
+        },
+        {
+          "publisher": "The Times of Israel",
+          "title": "‘Do not build’: UK sanctions 8 Israeli construction companies for building West Bank settlements",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObEVDWHBSU1REbnl0MmstS0F0ejN5em05UkgxbjctNmVoWjZZZU1WbHhGbE02OXRWS3RVandocHQwTnpYQkxhRE1jNzFmUXpndF9uam5iYmRJLWVHZU4tajh6cmZnTV96OFJMWEhVbGVrZERJenJUaGhhMHhBVjZVYVJLTVRhVFJZbTc4NGcyb3k0NGladGxwX0FVd2xTdW41dTVhVU5tZ0lsX2RWdGxYMdIBtgFBVV95cUxOeHYya19iX3BIbGYyMUhUVzFwaXljdmxQNi1mQkxSeGk0bjFGZWlSQkV0NkZpR2ozXzJFZmtDZS02V3RaR1k4SVZYYkR2UUkwWmhTcFZ3VjcyMm5hR3dNb0lLZEFuVDI0ODBnOERQeGY0dE0yU0YwLTBmaTV6UXQ3eTFZbDc3NXN0UVlRVzZLR1pqdVl2czJfbnhoMzRGa2hiaVZrcUNld000NjhBdWQ1R1AyaFBtUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Canada and China Agree to Reciprocal Tariff Cuts Amid US Tension",
+      "title_ja": "米国の関税摩擦を背景に、カナダと中国が相互関税削減で合意",
+      "summary_ja": "カナダのMark Carney首相と中国のXi Jinping国家主席は深圳のAPEC首脳会議で会談し、相互の関税引き下げで合意しました。中国はカナダ産の豚肉や海産物への関税を減免し、カナダは中国産鉄鋼・アルミ製品の関税免除を延長します。米国の関税措置に対するカナダの多角化戦略の一環です。",
+      "why_ja": "トランプ米政権による関税強化を受け、米国の伝統的同盟国であるカナダが中国との経済関係改善に活路を見出す地政学的地殻変動を象徴しています。",
+      "section": "world",
+      "topic_key": "china-canada-tariff-relief-pact",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "China, Canada expand tariff relief after Carney-Xi meeting",
+          "url": "https://www.aljazeera.com/economy/2026/11/17/china-canada-expand-tariff-relief-after-carney-xi-meeting?traffic_source=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Carney looks to China as Trump tariffs squeeze Canada's car industry",
+          "url": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "reinstate",
+      "meaning_ja": "（元の役職に）復帰させる、復職させる",
+      "note_ja": "辞任や解任されたリーダーを再び元の地位に戻す際に頻出の動詞です。",
+      "example_en": "He confirmed the board unanimously accepted Huang's resignation and does not intend to reinstate him as CEO."
+    },
+    {
+      "term": "interim",
+      "meaning_ja": "暫定の、仮の",
+      "note_ja": "「interim CEO」で正式な後任が決まるまでの「暫定CEO」を指します。",
+      "example_en": "Chief financial officer Colette Kress is serving as interim CEO."
+    },
+    {
+      "term": "data breach",
+      "meaning_ja": "データ漏洩、情報流出インシデント",
+      "note_ja": "不正アクセス等により機密情報が外部に漏れる事態を指すセキュリティ用語です。",
+      "example_en": "Fugaku, Japan's most powerful supercomputer, has suffered a suspected cyber attack and data breach."
+    },
+    {
+      "term": "authentication",
+      "meaning_ja": "認証（ログイン情報）",
+      "note_ja": "ユーザーが本人であることを証明するパスワードやID情報全般を指します。",
+      "example_en": "The stolen data includes user names, email addresses, research project files, and the authentication credentials used to log into the supercomputer systems."
+    },
+    {
+      "term": "imminent hazard",
+      "meaning_ja": "切迫した危険",
+      "note_ja": "規制当局が緊急停止措置などを出す際の法的な重い表現です。",
+      "example_en": "The California Department of Motor Vehicles issued an urgent restriction after finding that Waymo's freeway operations pose an imminent hazard to public safety."
+    },
+    {
+      "term": "corrective action",
+      "meaning_ja": "是正措置、改善策",
+      "note_ja": "問題や欠陥を改善するために企業が講じる具体的な対応策のことです。",
+      "example_en": "The California DMV insists these restrictions will stay in place until Waymo demonstrates effective corrective actions to keep construction workers and drivers safe."
+    },
+    {
+      "term": "compromise",
+      "meaning_ja": "（システムなどを）侵害する、不正侵入する",
+      "note_ja": "日常の「妥協する」のほかに、ITセキュリティでは「侵害・突破される」という意味で多用されます。",
+      "example_en": "Security researchers at ReportURI identified 178 affected websites, including household names like CNN, Zoom, Salesforce, HSBC, and the BBC."
+    },
+    {
+      "term": "unmanned",
+      "meaning_ja": "無人の、人が常駐しない",
+      "note_ja": "工場や車両で人が作業せず完全に機械やロボットで自律稼働する状態を指します。",
+      "example_en": "Standardized charging allows chipmakers to mix and match different robot fleets easily as they build toward fully automated, unmanned semiconductor fabrication plants."
+    },
+    {
+      "term": "coordinate",
+      "meaning_ja": "連携させる、調整する",
+      "note_ja": "「care coordination（医療連携）」のように、複数の機関が協力して患者を支援する場面で使われます。",
+      "example_en": "The rule also removes unnecessary paperwork and makes it easier for clinics to share patient records with community organizations and social services to coordinate comprehensive care."
+    },
+    {
+      "term": "unprecedented",
+      "meaning_ja": "前例のない、かつてない",
+      "note_ja": "歴史上初めて、あるいはこれまでにない規模の事態を強調する際によく使われます。",
+      "example_en": "President Volodymyr Zelensky revealed it was a meticulously planned seven-stage operation."
+    },
+    {
+      "term": "sanctions",
+      "meaning_ja": "制裁、経済制裁措置",
+      "note_ja": "国家が国際法違反や人権侵害などに対して科す経済的・法的な制限措置です。",
+      "example_en": "Next, the United Kingdom and Australia have announced coordinated economic sanctions targeting companies and individuals involved in Israeli settlements in the West Bank."
+    },
+    {
+      "term": "reciprocal",
+      "meaning_ja": "相互の、互恵的な",
+      "note_ja": "双方が同等の措置を取り交わす関係を表します。",
+      "example_en": "Finally, Canada and China have finalized a reciprocal trade agreement to cut import tariffs, seeking closer commercial ties amid mounting economic friction with the United States."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "shut down",
+    "meaning_ja": "（提案や要求を）完全に却下する、退ける、断ち切る",
+    "example_en": "The committee quickly shut down the proposal because of budget concerns.",
+    "example_ja": "委員会は予算上の懸念から、その提案を即座に却下しました。"
+  }
+}
