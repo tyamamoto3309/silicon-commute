@@ -1,0 +1,1052 @@
+{
+  "date": "2026-11-19",
+  "published": "2026-11-19T07:55:08+09:00",
+  "title_en": "Anthropic IPO Valuation and Global Market News",
+  "title_ja": "Anthropicの1.5兆ドルIPOとグローバル最新ニュース",
+  "summary_ja": "本日はAnthropicが1.5兆ドル評価で新規上場価格を決定した話題など最新テックニュースをお伝えします。デジタルヘルスでは病院システムにおけるAI臨床スクライブの全社統合の動きを取り上げます。世界ニュースではEUによる対ウクライナ450億ユーロ融資案や日銀の追加利上げ予測などを解説します。",
+  "duration": 1059.0,
+  "audio": {
+    "file": "2026-11-19.mp3",
+    "bytes": 8472926,
+    "release_tag": "ep-2026-11-19"
+  },
+  "word_count": 1950,
+  "ja_chars": 1287,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.6-flash",
+    "write": "gemini-3.6-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Introduction",
+      "heading_ja": "オープニング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it is Thursday, November 19. This is Commute News. I am Alex, and with me as always is Mika.",
+          "ja": "おはようございます。11月19日木曜日のCommute Newsです。アレックスです。そしていつものようにミカさんと一緒にお届けします。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, everyone! Today, we look at Anthropic pricing its massive initial public offering at 1.5 trillion dollars.",
+          "ja": "みなさん、おはようございます！本日は、Anthropicが1.5兆ドル規模の大型新規上場価格を決定したニュースを取り上げます。",
+          "t": 7.53
+        },
+        {
+          "speaker": "Alex",
+          "en": "In digital health, we check how hospitals are choosing artificial intelligence tools to reduce doctor paperwork.",
+          "ja": "デジタルヘルスでは、医師の書類作成を減らすために病院がAIツールをどのように選定しているかをチェックします。",
+          "t": 15.86
+        },
+        {
+          "speaker": "Mika",
+          "en": "And in world news, the European Union proposes a major loan for Ukraine. Let us get started!",
+          "ja": "そして世界ニュースでは、EUがウクライナへの大型融資案を提示しました。それでは始めましょう！",
+          "t": 23.73
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Anthropic Prices IPO at $83 per Share",
+      "heading_ja": "AnthropicがIPO価格を1株83ドルに設定",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Artificial intelligence company Anthropic has officially set its initial public offering price at 83 dollars per share. This share price is well above its projected range of 70 to 78 dollars.",
+          "ja": "人工知能企業のAnthropicは、新規株式公開（IPO）の価格を1株あたり83ドルに正式決定しました。この株価は、予想されていた70ドルから78ドルのレンジを大きく上回っています。",
+          "t": 30.45
+        },
+        {
+          "speaker": "Mika",
+          "en": "That sounds like a very high valuation for an artificial intelligence startup. How much is the total company worth at this 83 dollar price?",
+          "ja": "AIスタートアップとしては非常に高い評価額ですね。この83ドルという価格で、会社全体の価値はいくらになるのですか？",
+          "t": 42.86
+        },
+        {
+          "speaker": "Alex",
+          "en": "At 83 dollars a share, Anthropic has a total market value of 1.5 trillion dollars. The stock will begin trading today on the Nasdaq exchange under the ticker symbol ANT. Big tech partners hold major shares in the firm. Amazon owns almost 15 percent, while Google holds about 14 percent.",
+          "ja": "1株83ドルでのAnthropicの市場評価額は合計1.5兆ドルに達します。同社株は本日、ティッカーシンボル「ANT」でナスダック市場での取引を開始します。大手ITパートナーも株を大量保有しており、Amazonが約15%、Googleが約14%を所有しています。",
+          "t": 52.28
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is this public listing so important for the broader tech market right now?",
+          "ja": "この株式公開が、いま広範なテック市場にとってそれほど重要なのはなぜですか？",
+          "t": 70.15
+        },
+        {
+          "speaker": "Alex",
+          "en": "It is the first major public listing for a leading generative artificial intelligence developer. Financial markets are watching closely to see if public investors will support these high AI valuations. Other private AI startups, including main rival OpenAI, will look at this listing to plan their own future public stock market launches.",
+          "ja": "大手生成AI開発企業として初の主要な株式公開だからです。株式市場の投資家がこうした高いAI評価額を支持するかどうか、金融市場が注視しています。ライバルのOpenAIを含む他の未上場AIスタートアップも、今後の株式上場計画の参考にすることになります。",
+          "t": 76.06
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Anthropic is starting public trading with a 1.5 trillion dollar valuation, setting a key test for artificial intelligence market confidence?",
+          "ja": "つまり要約すると、Anthropicは1.5兆ドルの評価額で株式取引を開始し、AI市場への信頼感を測る重要な試金石となるということですね？",
+          "t": 96.92
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is exactly right, Mika.",
+          "ja": "その通りです、ミカさん。",
+          "t": 107.2
+        }
+      ],
+      "lang": "en",
+      "t": 30.45
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。AI企業のAnthropicが、想定を上回る1株83ドルで新規上場（IPO）の価格を決定しました。同社の評価額は1.5兆ドルに達し、Generative AI大手として初の本格的な株式公開となります。株式市場におけるAI企業への投資意欲を測る試金石として、非常に大きな注目を集めています。",
+          "en": "",
+          "lang": "ja",
+          "t": 110.25
+        }
+      ],
+      "t": 110.25
+    },
+    {
+      "kind": "story",
+      "heading_en": "Netherlands Rejects US Export Controls on ASML",
+      "heading_ja": "オランダがASMLへの米国輸出規制要求を拒否",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "The Dutch government has rejected new demands from the United States to put further export restrictions on semiconductor equipment maker ASML. Dutch officials explicitly called the American request completely unacceptable.",
+          "ja": "オランダ政府は、半導体製造装置メーカーのASMLに対してさらなる輸出規制を課すよう求めた米国の新たな要求を拒否しました。オランダ政府高官は米国の要求を「完全に受け入れられない」と明確に表現しました。",
+          "t": 136.33
+        },
+        {
+          "speaker": "Mika",
+          "en": "ASML is a critical supplier in the global microchip supply chain. What kind of specialized machinery does ASML actually produce for chipmakers?",
+          "ja": "ASMLは世界の半導体サプライチェーンにおいて極めて重要なサプライヤーです。ASMLは実際、半導体メーカー向けにどのような専門装置を製造しているのですか？",
+          "t": 150.79
+        },
+        {
+          "speaker": "Alex",
+          "en": "ASML builds advanced lithography machinery. Lithography is a complex process that uses light beams to print microscopic electronic circuits onto silicon wafers. Leading semiconductor fabrication plants across East Asia and the world require these advanced machines to build modern microchips.",
+          "ja": "ASMLは高度な露光（リソグラフィ）装置を製造しています。露光とは、光を用いてシリコンウェハ上に極小の電子回路を印刷する複雑な工程です。東アジアをはじめとする世界の最先端半導体工場は、現代のチップを作るためにこれらの高度な装置を必要としています。",
+          "t": 160.62
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is the United States government pressing the Netherlands to restrict ASML machine sales even further?",
+          "ja": "なぜ米国政府はオランダに対し、ASMLの装置販売をさらに制限するよう圧力をかけているのですか？",
+          "t": 179.18
+        },
+        {
+          "speaker": "Alex",
+          "en": "The United States wants to stop advanced chipmaking tools from reaching Chinese companies to protect national security. However, the Dutch government states that it must safeguard its own economic interests and support its largest technology firm. ASML relies on international customers in Asia for a large part of its earnings.",
+          "ja": "米国は安全保障を守るため、最先端の半導体製造ツールが中国企業に渡るのを防ぎたいと考えています。しかしオランダ政府は、自国の経済的国益を守り、最大手テック企業を支援しなければならないと主張しています。ASMLは収益の大きな割合をアジアの国際顧客に依存しています。",
+          "t": 186.79
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, the Netherlands is standing firm against American demands to place stricter export controls on ASML machinery?",
+          "ja": "つまり要するに、オランダはASMLの装置に対してより厳しい輸出規制を課すよう求める米国の要求に毅然と対抗しているということですね？",
+          "t": 207.45
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is correct, Mika. The Dutch government wants to balance global security ties with the commercial success of its chip supply chain.",
+          "ja": "その通りです、ミカさん。オランダ政府は、世界的な安全保障上の関係と自国の半導体サプライチェーンの商業的成功とのバランスを取ろうとしています。",
+          "t": 216.18
+        }
+      ],
+      "lang": "en",
+      "t": 136.33
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "オランダ政府は、半導体製造装置大手ASMLに対する輸出規制の強化を求めた米国の要請を拒否し、受け入れられないと表明しました。先端リソグラフィ装置を供給するASMLの貿易制限をめぐり、安全保障を理由とする米国と、自国の経済利益を守りたいオランダの戦略的対立が表面化しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 225.54
+        }
+      ],
+      "t": 225.54
+    },
+    {
+      "kind": "story",
+      "heading_en": "Intel Secures First External Customer for Advanced Node",
+      "heading_ja": "Intelが最先端プロセスで初の外部顧客を獲得",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Semiconductor giant Intel has secured its first external customer for its most advanced microchip manufacturing process. This process is Intel's newest production line created to build smaller, faster chips for next-generation devices.",
+          "ja": "半導体大手のIntelは、同社で最も高度な半導体製造プロセスにおいて初となる外部顧客を獲得しました。このプロセスは、次世代機器向けにより小さく高速なチップを作るために新設された最新の生産ラインです。",
+          "t": 248.66
+        },
+        {
+          "speaker": "Mika",
+          "en": "Intel has been trying to rebuild its manufacturing business for several years. Why is finding an outside customer for this advanced process such a major step?",
+          "ja": "Intelは数年前から製造事業の再建を図ってきました。この最先端プロセスで外部顧客を獲得したことが、なぜそれほど大きな一歩となるのですか？",
+          "t": 263.88
+        },
+        {
+          "speaker": "Alex",
+          "en": "Historically, Intel only manufactured chips that its own engineers designed. Now, Intel is building a commercial foundry business, which means manufacturing custom chips for other tech firms. Winning a major outside client demonstrates that external chip designers trust Intel's advanced factory technology.",
+          "ja": "歴史的にIntelは自社エンジニアが設計したチップのみを製造してきました。現在Intelは商用ファウンドリ事業（他社のカスタムチップを製造する事業）を展開しています。主要な外部顧客を獲得したことは、外部の設計会社がIntelの先端工場技術を信頼している証拠となります。",
+          "t": 274.59
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does this development affect Intel's main goal to compete with TSMC in contract chip manufacturing?",
+          "ja": "この進展は、受託製造においてTSMCに対抗するというIntelの主要目標にどのように影響しますか？",
+          "t": 294.02
+        },
+        {
+          "speaker": "Alex",
+          "en": "TSMC, based in Taiwan, is the world's leading custom chip manufacturer today. Intel wants to win market share away from TSMC in advanced fabrication. Securing this key customer proves that Intel's turnaround strategy is working and gives confidence to future chip clients.",
+          "ja": "台湾に本社を置くTSMCは現在、世界最高の受託チップ製造会社です。Intelは先端製造分野でTSMCから市場シェアを奪いたいと考えています。この重要な顧客の獲得は、Intelの事業再生戦略が機能していることを証明し、今後の顧客に安心感を与えます。",
+          "t": 301.52
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Intel has signed its first external customer for its top manufacturing process, validating its plan to challenge TSMC in advanced chip production?",
+          "ja": "つまり短く言えば、Intelは最先端の製造プロセスで初の外部顧客を獲得し、先端チップ製造でTSMCに挑む計画の正しさを証明したということですね？",
+          "t": 318.9
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is correct, Mika. It shows that Intel can attract major outside partners to its chip factories.",
+          "ja": "その通りです、ミカさん。Intelが自社工場に主要な外部パートナーを引き寄せられることを示しています。",
+          "t": 329.73
+        }
+      ],
+      "lang": "en",
+      "t": 248.66
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Intelが最先端の半導体製造プロセスにおいて、初となる外部顧客を獲得したことが明らかになりました。これまで自社設計チップの製造が中心だった同社にとって、受託製造（ファウンドリ）事業の再生計画が順調に進んでいることを証明する重要な節目であり、TSMCへの追撃に向けた足がかりとなります。",
+          "en": "",
+          "lang": "ja",
+          "t": 337.5
+        }
+      ],
+      "t": 337.5
+    },
+    {
+      "kind": "story",
+      "heading_en": "AI Uncovers Decade-Old Flaw in NGINX Software",
+      "heading_ja": "AIがNGINXの10年前の脆弱性を発見",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Cybersecurity researchers using artificial intelligence software have discovered a critical ten-year-old security flaw in NGINX web server software. NGINX is popular open-source software that powers more than 225 million websites worldwide.",
+          "ja": "人工知能ソフトウェアを使用したサイバーセキュリティ研究者が、NGINXウェブサーバー用のソフトに10年前から存在していた重大な欠陥を発見しました。NGINXは世界中で2億2500万以上のウェブサイトを動かしている人気オープンソースソフトです。",
+          "t": 361.78
+        },
+        {
+          "speaker": "Mika",
+          "en": "A decade-old security bug sounds very dangerous. What specific threat does this vulnerability pose to web server owners and users?",
+          "ja": "10年前からのセキュリティバグというのは非常に危険に聞こえます。この脆弱性はウェブサーバーの所有者や利用者に具体的にどのような脅威をもたらすのですか？",
+          "t": 377.44
+        },
+        {
+          "speaker": "Alex",
+          "en": "The flaw exists in how NGINX handles the HTTP/2 web protocol. It allows unauthenticated attackers to execute malicious code remotely on web servers. Because NGINX powers so many public websites, unpatched servers are at high risk of automated cyberattacks.",
+          "ja": "欠陥はNGINXがHTTP/2という通信プロトコルを処理する方法に存在します。未認証の攻撃者がウェブサーバー上で外部から悪意あるコードを実行できてしまいます。NGINXは数多くの公開ウェブサイトで使われているため、修正されていないサーバーは自動攻撃のハイリスクに晒されます。",
+          "t": 386.59
+        },
+        {
+          "speaker": "Mika",
+          "en": "It is remarkable that artificial intelligence discovered a flaw that remained hidden for ten whole years. How did AI locate this bug?",
+          "ja": "10年間も隠されていた欠陥を人工知能が発見したというのは驚きです。AIはどのようにしてこのバグを特定したのですか？",
+          "t": 403.19
+        },
+        {
+          "speaker": "Alex",
+          "en": "Automated AI tools searched through vast amounts of source code to find hidden software flaws. AI systems can identify subtle programming errors much faster than human auditors. This event proves that AI-driven security auditing is becoming essential to protect open-source software infrastructure.",
+          "ja": "自動化されたAIツールが膨大なソースコードを捜索し、隠されたソフトの欠陥を見つけ出しました。AIシステムは人間よりはるかに速く微細なプログラムエラーを特定できます。この出来事は、オープンソースソフトの基盤を守るためにAIによるセキュリティ監査が不可欠になっていることを証明しています。",
+          "t": 412.52
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, AI discovered a severe ten-year-old security flaw in NGINX software, urging server operators to update their systems immediately?",
+          "ja": "要するに、AIがNGINXの10年前の深刻なセキュリティ欠陥を発見し、サーバー管理者に即座のアップデートを促しているということですね？",
+          "t": 431.6
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is right, Mika. Server administrators around the world must install the new security patch quickly to prevent potential system compromises.",
+          "ja": "その通りです、ミカさん。世界中のサーバー管理者は、システムの侵入被害を防ぐために新しい修正パッチを迅速に適用する必要があります。",
+          "t": 441.53
+        }
+      ],
+      "lang": "en",
+      "t": 361.78
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "世界で2億2500万以上のウェブサイトで使われているオープンソースソフト「NGINX」に、10年前から潜んでいた重大な脆弱性がAIによって発見されました。攻撃者が遠隔でコードを実行できる危険性があり、AIを活用したバグ検出の有効性と、早急なセキュリティパッチ適用の必要性が示されています。",
+          "en": "",
+          "lang": "ja",
+          "t": 451.51
+        }
+      ],
+      "t": 451.51
+    },
+    {
+      "kind": "story",
+      "heading_en": "Nvidia Board Approaches Arm CEO Rene Haas",
+      "heading_ja": "Nvidia取締役会がArmのRene Haas CEOに接触",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In executive news, Nvidia's board of directors has hired a recruitment firm that approached Arm Chief Executive Officer Rene Haas. The firm asked Haas about becoming the next Chief Executive Officer of Nvidia following Jensen Huang's departure.",
+          "ja": "経営陣のニュースです。Nvidiaの取締役会が依頼した人材募集会社が、Armの最高経営責任者（CEO）であるRene Haas氏に打診を行いました。Jensen Huang氏の退任に伴い、Nvidiaの次期CEO就任について打診した模様です。",
+          "t": 475.95
+        },
+        {
+          "speaker": "Mika",
+          "en": "Jensen Huang was the face of Nvidia for decades. Why is the board looking at Rene Haas as a prospective successor?",
+          "ja": "Jensen Huang氏は長年にわたりNvidiaの顔でした。取締役会が後任候補としてRene Haas氏に着目しているのはなぜですか？",
+          "t": 491.84
+        },
+        {
+          "speaker": "Alex",
+          "en": "Rene Haas currently leads Arm, the British semiconductor design company whose chip blueprints power most smartphones and many modern AI processors. Nvidia previously tried to buy Arm for 40 billion dollars a few years ago, so Nvidia's leadership team knows Haas and his strategy very well.",
+          "ja": "Rene Haas氏は現在、大半のスマートフォンや現代の多くのAIプロセッサの基盤となる設計図を手掛ける英国の半導体設計会社Armを率いています。Nvidiaは数年前にArmを400億ドルで買収しようとした経緯があり、経営陣はHaas氏とその戦略を熟知しています。",
+          "t": 500.05
+        },
+        {
+          "speaker": "Mika",
+          "en": "Has Rene Haas accepted the offer or commented on this approach from Nvidia?",
+          "ja": "Rene Haas氏はこのオファーを受け入れたり、Nvidiaからの接触についてコメントを出したりしているのですか？",
+          "t": 518.6
+        },
+        {
+          "speaker": "Alex",
+          "en": "No formal agreement has been announced yet. Executive search firms often approach top industry leaders during major CEO searches. However, contacting the head of a major partner like Arm shows that Nvidia's board is looking for an experienced leader who understands global chip design and AI infrastructure.",
+          "ja": "正式な合意は発表されていません。経営幹部のヘッドハンティング会社は最高経営責任者を探す際、業界のトップに広く接触します。しかしArmのような主要パートナーのトップに連絡したことは、取締役会が世界的なチップ設計とAIインフラを熟知した経験豊富なリーダーを求めていることを示しています。",
+          "t": 524.51
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Nvidia is considering Arm Chief Executive Officer Rene Haas as a top candidate to replace Jensen Huang?",
+          "ja": "つまり手短に言えば、NvidiaはJensen Huang氏の後任トップ候補としてArmのRene Haas CEOを検討しているということですね？",
+          "t": 544.12
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, exactly. Replacing Jensen Huang is a massive challenge, and Rene Haas is now a candidate in that search.",
+          "ja": "まさにその通りです。Jensen Huang氏の後任を見つけるのは大きな挑戦であり、Rene Haas氏がその検索候補に挙がっています。",
+          "t": 552.5
+        }
+      ],
+      "lang": "en",
+      "t": 475.95
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "NVIDIAの取締役会から委託された人材募集会社が、次期CEOの後任候補としてArmのCEOであるRene Haas氏に打診したことが報じられました。創業者Jensen Huang氏の退任を受け、AI半導体業界の首位を守るため、世界的チップ設計会社を率いる実績豊富な経営者の起用が検討されています。",
+          "en": "",
+          "lang": "ja",
+          "t": 560.87
+        }
+      ],
+      "t": 560.87
+    },
+    {
+      "kind": "health",
+      "heading_en": "AI Clinical Scribe Market Shifts to Enterprise Platforms",
+      "heading_ja": "AI臨床スクライブ市場が基幹システム統合へ移行",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, our digital health story. The market for artificial intelligence clinical scribes is shifting rapidly toward enterprise integration. Large health systems are moving away from small pilot tests and standardizing AI documentation tools across entire hospital networks.",
+          "ja": "続いてデジタルヘルスのニュースです。AI臨床スクライブ（文書作成補助）の市場は、全社基幹システムへの統合へと急速にシフトしています。大規模な医療機関は小規模な試験導入から脱却し、病院ネットワーク全体でAI文書化ツールを標準化し始めています。",
+          "t": 585.48
+        },
+        {
+          "speaker": "Mika",
+          "en": "For listeners who may not know, what exactly is an AI clinical scribe, and how does it help busy doctors?",
+          "ja": "ご存じないリスナーのために、AI臨床スクライブとは具体的に何で、忙しい医師をどのように助けるものなのですか？",
+          "t": 602.53
+        },
+        {
+          "speaker": "Alex",
+          "en": "An AI clinical scribe listens to doctor-patient conversations and automatically generates detailed medical records. Physicians often spend hours every evening typing administrative notes, leading to severe doctor burnout. AI scribes complete these notes instantly, allowing physicians to focus directly on patient care.",
+          "ja": "AI臨床スクライブは医師と患者の会話を聞き取り、詳細な診療記録を自動生成します。医師は毎晩何時間も事務的なメモの入力に費やしており、深刻なバーンアウト（燃え尽き）を引き起こしています。AIスクライブがこれを即座に完了するため、医師は患者のケアに集中できます。",
+          "t": 610.02
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why are major hospital systems changing how they purchase and implement these digital health tools?",
+          "ja": "なぜ大手病院システムは、これらのデジタルヘルスツールの購入や導入の方法を変えているのですか？",
+          "t": 629.83
+        },
+        {
+          "speaker": "Alex",
+          "en": "Previously, individual doctors downloaded different scribe apps on their own smartphones. Today, hospital executives demand secure enterprise platforms that integrate smoothly into their centralized electronic health record systems. Software providers that offer enterprise security and full platform integration are winning big hospital contracts.",
+          "ja": "以前は個別に使用する医師が自分のスマホに別々のスクライブアプリをダウンロードしていました。現在、病院幹部は中央の電子カルテシステムにスムーズに連携できる安全な企業向けプラットフォームを求めています。高度なセキュリティと完全なシステム統合を提供するソフト企業が大手病院との契約を勝ち取っています。",
+          "t": 636.97
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, health systems are adopting unified enterprise AI scribes to cut administrative burdens and prevent physician burnout?",
+          "ja": "つまり要約すると、医療機関は事務負担を減らし医師のバーンアウトを防ぐため、統一された企業向けAIスクライブの採用を進めているのですね？",
+          "t": 658.45
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is exactly right, Mika. Integrated AI documentation is quickly becoming standard practice across modern hospital management systems.",
+          "ja": "まったくその通りです、ミカさん。統合型のAI文書作成機能は、現代の病院管理システムにおいて急速に標準的な運用となりつつあります。",
+          "t": 667.5
+        }
+      ],
+      "lang": "en",
+      "t": 585.48
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "デジタルヘルス分野では、医師の事務負担や燃え尽き症候群を軽減する「AI臨床代筆（スクライブ）」ツールの導入が、個別の試用から病院全体の基幹システム統合へと移行しています。電子カルテと連携したセキュリティの高い大規模プラットフォームが、医療機関での採用条件となっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 676.83
+        }
+      ],
+      "t": 676.83
+    },
+    {
+      "kind": "world",
+      "heading_en": "EU Proposes 45 Billion Euro Loan for Ukraine",
+      "heading_ja": "EUがウクライナへ450億ユーロの融資案を発表",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, a look at the world beyond tech. The European Union executive has proposed a 45 billion euro loan package for Ukraine in 2027 to prevent a cash crisis and strengthen its defenses.",
+          "ja": "それでは、テック以外の世界ニュースに目を向けましょう。EU欧州委員会は、資金不足の回避と防衛力強化のため、2027年に向けたウクライナ支援として450億ユーロの融資案を提示しました。",
+          "t": 699.26
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is a very large financial package. How will this 45 billion euro loan be divided and used?",
+          "ja": "非常に大きな支援案ですね。この450億ユーロの融資はどのように分配され使われるのですか？",
+          "t": 711.3
+        },
+        {
+          "speaker": "Alex",
+          "en": "European Commission President Ursula von der Leyen explained that 25 billion euros will go toward military equipment and weapons. The remaining 20 billion euros will support civilian needs, including funding public hospitals and schools.",
+          "ja": "EU欧州委員会のUrsula von der Leyen委員長は、250億ユーロを軍事装備や兵器に当て、残りの200億ユーロは公立病院や学校などの民間生活支援に活用すると説明しました。",
+          "t": 718.21
+        },
+        {
+          "speaker": "Mika",
+          "en": "Do all European Union member states agree on providing this loan to Ukraine?",
+          "ja": "EUの全加盟国がこのウクライナへの融資提供に同意しているのですか？",
+          "t": 733.3
+        },
+        {
+          "speaker": "Alex",
+          "en": "Ursula von der Leyen expressed confidence that member states will support the plan. However, four nations—Slovakia, Czechia, Hungary, and Bulgaria—have stated they will not participate in new funding. EU leaders aim to finalize details to maintain financial stability for Ukraine.",
+          "ja": "Ursula von der Leyen委員長は加盟国がこの計画を支持すると自信を示しました。しかし、スロバキア、チェコ、ハンガリー、ブルガリアの4カ国は新たな資金提供に参加しないと表明しています。EU首脳陣はウクライナの財政安定を保つため詳細の合意を目指しています。",
+          "t": 739.12
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, the EU is proposing 45 billion euros in loans to support Ukraine's defense and public services in 2027?",
+          "ja": "要するに、EUは2027年のウクライナの防衛と公共サービスを支援するために450億ユーロの融資を提案しているということですね？",
+          "t": 756.68
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, exactly. It is designed to give Ukraine clear financial certainty for 2027.",
+          "ja": "はい、まさにその通りです。2027年に向けた明確な財政的確実性をウクライナに与えるよう設計されています。",
+          "t": 764.86
+        }
+      ],
+      "lang": "en",
+      "t": 699.26
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "EU欧州委員会は、ウクライナの財政危機を防ぎ防衛力を強化するため、2027年に向けた450億ユーロ（約7.2兆円）の融資案を発表しました。軍事支援に250億ユーロ、医療や教育などの市民生活支援に200億ユーロを割り当てる計画で、EU加盟国での合意形成を目指しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 771.36
+        }
+      ],
+      "t": 771.36
+    },
+    {
+      "kind": "world",
+      "heading_en": "Bank of Japan Expected to Raise Interest Rates",
+      "heading_ja": "日銀が12月と明春の追加利上げを予測される",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Turning to economic policy in Japan, a new Reuters poll shows that most economists expect the Bank of Japan to raise interest rates in December and again by March 2027.",
+          "ja": "日本の経済政策に目を向けると、ロイターの最新調査で、多くの経済アナリストがBank of Japan（日本銀行）に対し12月と2027年3月までの追加利上げを予想していることがわかりました。",
+          "t": 793.6
+        },
+        {
+          "speaker": "Mika",
+          "en": "The Bank of Japan has been adjusting its monetary policy gradually. Why do economists expect another interest rate hike so soon?",
+          "ja": "Bank of Japanは段階的に金融政策を調整してきましたが、なぜアナリストたちはこれほど早い追加利上げを予想しているのですか？",
+          "t": 804.7
+        },
+        {
+          "speaker": "Alex",
+          "en": "Economists point to steady inflation and moderate wage growth in Japan as key reasons. Bank of Japan Governor Kazuo Ueda has stated that the central bank will continue raising rates if economic data and inflation match predictions.",
+          "ja": "アナリストたちは日本の安定したインフレ率と穏やかな賃金上昇を主な理由に挙げています。Bank of Japanの植田和男総裁も、経済データや物価動向が予測通りであれば利上げを続けると述べています。",
+          "t": 813.5
+        },
+        {
+          "speaker": "Mika",
+          "en": "How will a potential rate hike affect the Japanese yen and local businesses?",
+          "ja": "利上げが行われた場合、日本円や国内企業にはどのような影響がありますか？",
+          "t": 828.22
+        },
+        {
+          "speaker": "Alex",
+          "en": "Higher interest rates generally strengthen the Japanese yen against major currencies. That can lower import costs for food and energy in Japan, though it increases borrowing costs for local companies and homebuyers.",
+          "ja": "金利が上がると一般的に主要通貨に対して日本円が買われやすくなります。これにより食料やエネルギーの輸入コストが下がりますが、国内企業や住宅ローンの借入金利は上昇します。",
+          "t": 834.03
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, experts predict the Bank of Japan will raise interest rates twice in the coming months as inflation stays steady?",
+          "ja": "つまり要約すると、インフレが安定しているため、専門家はBank of Japanが今後数ヶ月で2回の利上げを行うと予測しているわけですね？",
+          "t": 847.83
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is correct. Financial markets are watching upcoming Japanese inflation data very closely.",
+          "ja": "その通りです。金融市場は今後発表される日本のインフレデータを注視しています。",
+          "t": 856.57
+        }
+      ],
+      "lang": "en",
+      "t": 793.6
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ロイターの調査によると、多くの経済アナリストがBank of Japan（日本銀行）に対し、今年12月と2027年3月末までの追加利上げを予想しています。安定したインフレ率と賃金上昇を踏まえ、日銀が金融政策の正常化を進めると見られており、為替や金利動向への注目が高まっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 863.42
+        }
+      ],
+      "t": 863.42
+    },
+    {
+      "kind": "world",
+      "heading_en": "Israeli Forces Advance Beyond Gaza Yellow Line",
+      "heading_ja": "イスラエル軍がガザのイエローライン越え地上作戦を実施",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In Middle East news, Israeli military ground forces have launched an operation in central Gaza west of the designated Yellow Line. Witnesses reported tanks moving near the Nuseirat refugee camp along the main north to south highway.",
+          "ja": "中東のニュースです。イスラエル地上軍がガザ地区中部の指定された「イエローライン」西側で地上作戦を開始しました。目撃者によると、ヌセイラト難民キャンプ近くの主要な南北幹線道路沿いを戦車が進軍したとのことです。",
+          "t": 886.44
+        },
+        {
+          "speaker": "Mika",
+          "en": "What did the Israeli military say was the reason for advancing beyond the Yellow Line?",
+          "ja": "イスラエル軍はイエローラインを越えて進軍した理由について何と説明しているのですか？",
+          "t": 901.22
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Israeli military stated it was conducting a targeted operation with security services to dismantle a tunnel that posed an immediate threat. The Yellow Line marks the line where Israeli troops withdrew under last year's ceasefire agreement.",
+          "ja": "イスラエル軍は、直接的な脅威となっていたトンネルを撤去するため治安機関と限定的な作戦を実施したと発表しました。イエローラインは昨年の停戦協定に基づきイスラエル軍が撤退した境界線を示しています。",
+          "t": 907.6
+        },
+        {
+          "speaker": "Mika",
+          "en": "How has Hamas responded to this military move in central Gaza?",
+          "ja": "ガザ中部でのこの軍事行動に対し、Hamas側はどのように反発しているのですか？",
+          "t": 923.01
+        },
+        {
+          "speaker": "Alex",
+          "en": "Hamas condemned the advance as a dangerous violation of the October 2025 ceasefire agreement. The operation forced displaced Palestinian families to flee the area once again amid heavy gunfire and artillery shelling.",
+          "ja": "Hamasはこの進軍を2025年10月の停戦協定に対する危険な違反であると非難しました。激しい砲撃と銃撃の中で、避難していたパレスチナ人の家族が再びその地域からの退避を余儀なくされました。",
+          "t": 928.02
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Israeli forces advanced beyond the ceasefire line to destroy a tunnel, sparking renewed tension in Gaza?",
+          "ja": "つまり要約すると、イスラエル軍がトンネル破壊のため停戦ラインを越えて進軍し、ガザでの緊張が再燃しているということですね？",
+          "t": 941.88
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, exactly. The event highlights how fragile the local ceasefire agreement currently remains.",
+          "ja": "はい、その通りです。この出来事は、現地での停戦協定がいかに脆弱な状態にあるかを浮き彫りにしています。",
+          "t": 950.1
+        }
+      ],
+      "lang": "en",
+      "t": 886.44
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "イスラエル軍がガザ地区中部の「イエローライン」を越えて限定的な地上作戦を展開し、トンネルの撤去を行ったと発表しました。これに対しHamasは停戦協定への重大な違反であると非難しており、住民の再避難が発生するなど現地での緊張が再び高まっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 957.45
+        }
+      ],
+      "t": 957.45
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch",
+      "heading_ja": "CEOウォッチ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Time for CEO Watch. OpenAI Chief Executive Officer Sam Altman warned against a future where artificial intelligence, not humans, calls the shots. He emphasized that advanced models must remain under human control.",
+          "ja": "CEOウォッチの時間です。OpenAIの最高経営責任者Sam Altman氏は、人間ではなくAIが決定権を握る未来に対して警告を発し、高度なモデルは人間の制御下に置かれなければならないと強調しました。",
+          "t": 977.73
+        },
+        {
+          "speaker": "Mika",
+          "en": "Meanwhile, Nvidia interim Chief Executive Officer Colette Kress told employees \"let us move forward\" during her first all-hands meeting following Jensen Huang's exit.",
+          "ja": "一方、Nvidiaの暫定CEOであるColette Kress氏は、Jensen Huang氏退任後の初となる全社ミーティングで社員に対し「前に進みましょう」と語りかけました。",
+          "t": 991.35
+        },
+        {
+          "speaker": "Alex",
+          "en": "Finally, Anduril co-founder Palmer Luckey warned that AI-powered cyberattacks are outpacing defenses, saying \"it is time to start running.\"",
+          "ja": "最後に、Andurilの共同創業者Palmer Luckey氏は、AIによるサイバー攻撃が防衛態勢を上回るスピードで進んでいると警告し、「走って逃げ始める時だ」と述べました。",
+          "t": 1002.27
+        }
+      ],
+      "lang": "en",
+      "t": 977.73
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: Call the Shots",
+      "heading_ja": "今日のフレーズ：Call the shots",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's Phrase of the Day is \"call the shots.\" It means to make the important decisions or be in control of a situation.",
+          "ja": "今日の「Phrase of the Day」は「call the shots」です。これは重要な決定を下したり、状況の主導権を握ったりすることを意味します。",
+          "t": 1011.66
+        },
+        {
+          "speaker": "Alex",
+          "en": "We heard this expression when Sam Altman said humans, not AI, must call the shots.",
+          "ja": "Sam Altman氏が、AIではなく人間が主導権を握らなければならないと述べた際に出てきた表現ですね。",
+          "t": 1019.95
+        },
+        {
+          "speaker": "Mika",
+          "en": "You can also use it at work, for example: \"In our project team, Sarah calls the shots on design.\" It is a great, natural phrase to use!",
+          "ja": "職場で使うなら例えば「私たちのプロジェクトチームでは、サラーがデザインの決定権を握っています」のように使えます。とても自然で使いやすいフレーズですよ！",
+          "t": 1026.08
+        }
+      ],
+      "lang": "en",
+      "t": 1011.66
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Outro",
+      "heading_ja": "エンディング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That is all for today's episode of Commute News. From Anthropic's historic initial public offering to major global headlines, staying informed helps you navigate a changing world. Thank you for listening, and see you on tomorrow's commute.",
+          "ja": "今日のCommute Newsは以上です。Anthropicの歴史的な新規上場から世界の大ニュースまで、最新情報を得ることが変化する世界を進む助けになります。ご清聴ありがとうございました。明日の通勤時間にお会いしましょう。",
+          "t": 1035.23
+        },
+        {
+          "speaker": "Mika",
+          "en": "Have a wonderful Thursday!",
+          "ja": "素晴らしい木曜日をお過ごしください！",
+          "t": 1050.34
+        }
+      ],
+      "lang": "en",
+      "t": 1035.23
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。いってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 1053.25
+        }
+      ],
+      "t": 1053.25
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Anthropic Prices IPO at $83 per Share, Valuing AI Pioneer at $1.5 Trillion",
+      "title_ja": "Anthropicが1株83ドルでIPO価格決定、企業価値1.5兆ドルに",
+      "summary_ja": "AI開発大手のAnthropicがIPOの売り出し価格を想定を上回る1株83ドルに設定し、企業価値が1.5兆ドルに達しました。AmazonやGoogleなどの大手パートナーも株式を保有しており、生成AI企業として最大級の株式公開となります。",
+      "why_ja": "生成AI企業として初の超大型IPOであり、公開株式市場が現在のAI分野の評価額を維持・支持できるかを示す重要な指標となります。",
+      "section": "tech",
+      "topic_key": "anthropic-ipo-pricing",
+      "companies": [
+        "Anthropic",
+        "Amazon",
+        "Google"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "Anthropic reportedly prices IPO at $83 a share, above projected range",
+          "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/"
+        },
+        {
+          "publisher": "The Register",
+          "title": "Anthropic decides to go head-to-head with GTA VI release, schedules IPO for the same day",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/18/anthropic-decides-to-go-head-to-head-with-gta-vi-release-schedules-ipo-for-the-same-day/5310872"
+        },
+        {
+          "publisher": "Yahoo Finance",
+          "title": "Anthropic IPO live: Company said to price stock at $83, begin trading Thursday",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYmJBc3JzY0NwYkFWVWFEbGtLUTlvYTRHeFdVUlhTTUhhNFp6TzNIS1ZhejNINXk3ekxNc2lwNklyaXRDNWt3NjJkRldjZkpsTmNDSVYyNHNOTG1FRjBtOFZYelV6b3d1YXk5NmM0LW5RZUp1UHVHLU5FNVgzNlZQX2ZxUmpfTkhpYVBEYm5ZclBZUlk4dEJfYm95SF9aaFV1ZVAtclZZbVJnVE1Sd0xmN21ZLU9uSFh1Si1KRUhfRzhHVGJhT0VYQlEzNmg?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Netherlands Rejects US Demands to Further Restrict ASML Semiconductor Exports",
+      "title_ja": "オランダ政府がASMLに対する米国の追加輸出規制要求を拒否",
+      "summary_ja": "オランダ政府は半導体製造装置大手ASMLに対する対中輸出規制の強化を求めた米国の要請を「受け入れられない」として拒否しました。自国の経済利益と最大手テック企業の保護を優先した形です。",
+      "why_ja": "先端露光装置の供給をめぐり、安全保障を強調する米国と経済主権を守ろうとするオランダの戦略的対立を浮き彫りにしています。",
+      "section": "tech",
+      "topic_key": "asml-netherlands-us-export-controls",
+      "companies": [
+        "ASML"
+      ],
+      "sources": [
+        {
+          "publisher": "The Next Web",
+          "title": "Netherlands calls US bid to curb ASML exports unacceptable",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSV9HWGZMVHJweTBWNEw0LWlMUlFTcXlPYW5raWd5RGV1UTdGSXd6bGFWV3NuNy0yUWFQM0dZMDkwTi1aLTYtLVRfWk9nUlZaRXBYNXJIUW5aSmdtQVI1QTB1eHV4ZEZ5WU9IWVE5X1E1a010aDFheTV2WUoxUzlZVE1CQl9YRzE1eEh0Y2tFbUdSZkNvSEs5TTZZOVVrOHM?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Intel Secures First External Customer for Its Advanced Foundry Manufacturing Process",
+      "title_ja": "Intelが最先端製造プロセスで初の外部ファウンドリ顧客を獲得",
+      "summary_ja": "Intelが最先端の半導体製造ノードにおいて初となる外部顧客の獲得に成功しました。従来の自社設計チップ中心から、受託製造（ファウンドリ）事業への転換を図る同社にとって大きな前進です。",
+      "why_ja": "受託製造で世界首位のTSMCに対抗するIntelの事業再建計画が具現化しつつあることを裏付ける重要な契約です。",
+      "section": "tech",
+      "topic_key": "intel-advanced-process-first-customer",
+      "companies": [
+        "Intel"
+      ],
+      "sources": [
+        {
+          "publisher": "OregonLive.com",
+          "title": "Intel has its first customer for its most advanced manufacturing process",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONWkyLUpyY29wZG5tbHlBR3ExNWI4TjZ1MlJZSi1PWmdFSk9VdV84MUlaaVIxWEs4WWxscUgxU25SQmRCeGIydzFZMHNTbWVnY1ZTRVc1ZktEb0ZiYm5GeXZmTFc3MWdveE9zMmlQSTI3OTJ1RG1NSGdISWx2Y2doOWdTZ1lhaHVmOTl6TDdNN1p2SWs5TVlSRldlemhlMUhFcF9IQjBOU2cybGVqMXduZi1Jbno2OXVWNWRVdm50QnNEMmdHa3c?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Critical Decade-Old Vulnerability Uncovered in NGINX Web Server Software",
+      "title_ja": "AIが2億2500万サイトで使われるNGINXの10年前の重大脆弱性を発見",
+      "summary_ja": "AIを用いたセキュリティ監査により、2億2500万以上のサイトで利用されているNGINXのHTTP/2実装に10年前から潜んでいた重大な欠陥が発見されました。遠隔からコードを実行されるリスクがあります。",
+      "why_ja": "オープンソース基盤のサイバーセキュリティリスクを示すとともに、AIによる脆弱性自動検出の威力を実証した事例です。",
+      "section": "tech",
+      "topic_key": "nginx-http2-vulnerability-ai-discovery",
+      "companies": [
+        "NGINX"
+      ],
+      "sources": [
+        {
+          "publisher": "The Register",
+          "title": "AI found more critical bugs in another widely used technology running 225M websites",
+          "url": "https://www.theregister.com/security/2026/11/18/ai-found-more-critical-bugs-in-another-widely-used-technology-running-225m-websites/5310887"
+        },
+        {
+          "publisher": "The Hacker News",
+          "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1OWWloaVJwUDhtZHlyQzUtbl9wZzZZWjRTX3J0WXJGWkh4Tjc0TjI2NkFhZjVycVRIeFJINWFPSXhkVXh4ZmUwd3VNMUFZS2Q3Tk5EVTN4YU1yeGVSa2lYMVM3bnFuMElYcV9tMzRzSzBGN2ZQOTZoQlAtZEs?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Nvidia Board Approaches Arm CEO Rene Haas as Prospective Successor to Jensen Huang",
+      "title_ja": "Nvidia取締役会がJensen Huang氏の後任としてArmのRene Haas CEOに打診",
+      "summary_ja": "Nvidiaの取締役会が委託した人材募集会社が、退任するJensen Huang CEOの後任候補としてArmのRene Haas CEOに接触したことが報じられました。",
+      "why_ja": "世界最高額のAIインフラ企業のトップ交代劇であり、半導体業界全体のパートナーシップや戦略に多大な影響を及ぼします。",
+      "section": "tech",
+      "topic_key": "nvidia-jensen-huang-china-spy-investigation",
+      "companies": [
+        "NVIDIA",
+        "Arm"
+      ],
+      "sources": [
+        {
+          "publisher": "Bloomberg.com",
+          "title": "Arm CEO Haas Approached by Nvidia Board’s Recruitment Firm",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSkdMM3B6VU5DaTBZaEZfWnQwQ2RIRjg0WkRUVkxLM2JmcUxxMHpCUHBjRzNmTHFFMXRzM1R4Z2kzZ0ZIOFdmeVFZdGMwSFpQMGQydWZHWVR2V3Ytczd2b3YtVkM5Y3lGRl9KN2VBWllFSXpKdDRmVGl6NGdJTzgyemZyeldNbE9fdGgwTEtfclhzTjZGT0YycW41S2NMVGYzOFJqX1dTcTAyVFZReVZQaXFqUnU?oc=5"
+        },
+        {
+          "publisher": "Yahoo Finance",
+          "title": "Arm CEO Rene Haas Reportedly Approached By Recruitment Agency Hired By Nvidia Board",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZ1BodzZ1VXJQR29CYVg4TmVEVU1BZXRoMkczWUtvQnFmOE03clBub0x0OFBEcmtROUVfWkdDUUZPQ1dEck9VNmNBZmF1dDJBMjdyak5namlaek5YUlp5Sk44OU9jdHJzVml0bjNVQUo3SEFtYTFVMy1BVWFvT0lFZFlUTFhfbXhtUURiN3N3S3FhM1JTTW56Zg?oc=5"
+        },
+        {
+          "publisher": "Investing.com",
+          "title": "Nvidia reportedly approaches Arm CEO Rene Haas for top job after Jensen Huang exit",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNX1hwcVRUS19qR0VDZ0VRVFVsSG9XUWZ1SDZFelhhXzVGVFBnRU1teUVfMjlENUdyT3VKaGNpUmI0YnhPWGVvZ1FGYUxjYjVwbFpwcVhkSzdZTU9mNjllbGgycmFCT2dsUFNfT04xUXl4S0V1UVQ2TWljUXlOeUg3TUJpOE1KUXU1QkdhdWpzdjBwZkxkS0RyQ194U19sOC1MVWZIczQ5dmNIX2dyMDBiV0Z1MnBENjlwOFZvZmpwam82RkkwSzJ6RkJkZGtxQU43SWFQOWRB?oc=5"
+        },
+        {
+          "publisher": "marketscreener.com",
+          "title": "Nvidia Board Approaches Arm's Rene Haas in CEO Search",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSDkwbHNMOU1KQXVKa3RKWjk5bFlvVE9Cc3RDOGtsNk5PeExIVmY2a2p3TjdRamVNUFJOSjMwdlBMTWpXV1I0R2ZEblpxemdkSF9pNG91U25jZVVKVVRhWGF6N1YwMkxiYUVodzlsS3JIUHdEaFhYTjE0YjNJR084VHh4VE5Jbk1wdDM1WHAyOUp3dW1VRzRYdjRPTGM5UW5VUlJjcWtxM1ZfUQ?oc=5"
+        },
+        {
+          "publisher": "Quartz",
+          "title": "Arm's CEO is being courted as a candidate to replace Jensen Huang at Nvidia",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTMnJxT2pteGJRNmdkUmNVOGJ6UDFiYXdMN2FhSkdNdTVwUTEtblJzMW9UbDlPLXNsUXhUaDB2V0E4eUNYSW44UDJBYzRFd1NlclFJdHR4cFpBZG5GcGhMVkl0UFJIc09y?oc=5"
+        },
+        {
+          "publisher": "Crypto Briefing",
+          "title": "Nvidia approaches Arm CEO Rene Haas as potential successor to Jensen Huang",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjJjX1VyUjhwa01VVndMODA0RkwtUVFVSjNrOGpLNWQ0UGgtLVdDbndNOFFuNFRVendRWDFrZEU5Nk1DY1IyZlFxNVY2OFZJRlg1azdLX1A3Y0lQb196U2tmRG5GREpPNkxpTkZReGNkQ1duOFlOM3NyQVJfV1BwXy1mLXN2QW5kTlJjMHFPY1RndkJ3LVRBWEhyZFRaSFVYaER4ag?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "AI Clinical Scribe Market Shifts Toward Enterprise Integration Amid Heavy Competition",
+      "title_ja": "AI臨床スクライブ市場が個別の試用から基幹システム全社統合へシフト",
+      "summary_ja": "医師のカルテ作成を自動化するAI臨床スクライブの市場で、個人のアプリ利用から病院システム全体に直接統合する大型プラットフォーム契約への移行が進んでいます。",
+      "why_ja": "医師のバーンアウト防止と医療DX（デジタルトランスフォーメーション）の推進において、セキュリティと基幹システム連携の重要性が明確になっています。",
+      "section": "health",
+      "topic_key": "ai-clinical-scribe-market-competition",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "STAT News",
+          "title": "STAT+: The emerging winners and losers in the AI scribe market",
+          "url": "https://www.statnews.com/2026/11/18/ai-scribe-market-emerging-winners-losers-ai-prognosis/?utm_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "European Union Proposes €45 Billion Loan Package to Secure Ukraine's Financial Stability",
+      "title_ja": "EUがウクライナの財政安定に向け450億ユーロの融資案を提示",
+      "summary_ja": "EU欧州委員会は2027年に向け、ウクライナの資金危機回避と防衛力維持のため450億ユーロの融資案を発表しました。軍事支援と病院や学校などの市民生活支援に充てられます。",
+      "why_ja": "欧州の安全保障構造と対ウクライナ支援の継続性を担保するための超大型財政パッケージです。",
+      "section": "world",
+      "topic_key": "eu-ukraine-45-billion-loan-proposal",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "EU proposes €45bn loan for Ukraine to avert cash crisis and boost defences",
+          "url": "https://www.theguardian.com/world/2026/nov/18/eu-loan-ukraine-cash-crisis-defences-von-der-leyen-kyiv"
+        }
+      ]
+    },
+    {
+      "title_en": "Bank of Japan Forecasted to Raise Interest Rates in December and Early 2027",
+      "title_ja": "日銀が今年12月と2027年3月までに利上げを行うとアナリストが予測",
+      "summary_ja": "ロイターの調査によると、多くの経済アナリストがBank of Japanに対し12月と2027年3月までの追加利上げを予測しています。インフレ率の安定と賃金上昇が根拠とされています。",
+      "why_ja": "日本の金融政策正常化の進展を示し、為替レートや国内外の資本フローに直結する重要な経済指標です。",
+      "section": "world",
+      "topic_key": "boj-rate-hike-forecast",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "WTVB",
+          "title": "Bank of Japan to raise interest rates in December and again by end-March, economists say: Reuters poll",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOT1B3aHBzV3M4YkNTdUZHVE5lc1FpU0t2RGEzVkhVbzk1aUtjbXpiQXBIcndaQlhILXlVdFhlRThNNEpKbE14T1JzX2VpWk1CR2dmLXAtNzBBMG9jUmswWFRqclRPdF9sNnBQZjlETl9uN3FlYndpWUJjUXV3N2EtWkZyWG1mMTRYSGNFaE5lMDdZczlGaWdDaVBHR0tLRkVmZWY3MDhrQUZ3RUJfSFdBeW4zbjZOUmJyQlE?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Israeli Forces Launch Military Ground Operation Beyond Yellow Line in Central Gaza",
+      "title_ja": "イスラエル軍がガザ中部のイエローラインを越えて地上作戦を開始",
+      "summary_ja": "イスラエル地上軍がガザ地区中部のイエローライン西側で作戦を開始し、トンネルの撤去を行いました。Hamas側は停戦協定に対する重大な違反であると反発しています。",
+      "why_ja": "中東の緊張が再燃しており、現地の停戦協定の維持と住民の安全に対する深刻な懸念をもたらしています。",
+      "section": "world",
+      "topic_key": "israel-gaza-yellow-line-ground-operation",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+          "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "What does Israel’s new ground offensive mean for Palestinians in Gaza?",
+          "url": "https://www.aljazeera.com/news/2026/11/18/what-does-israels-new-ground-offensive-mean-for-palestinians-in-gaza?traffic_source=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Israeli forces launch new military operation in central Gaza",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-forces-launch-new-military-operation-in-central-gaza?traffic_source=rss"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "initial public offering",
+      "meaning_ja": "新規株式公開（IPO）",
+      "note_ja": "未上場企業が初めて株式を証券市場に公開して投資家に売り出すこと。",
+      "example_en": "Artificial intelligence company Anthropic has officially set its initial public offering price at 83 dollars per share."
+    },
+    {
+      "term": "valuation",
+      "meaning_ja": "企業評価額、査定額",
+      "note_ja": "企業の財務状況や成長性に基づいた市場価値の試算額のこと。",
+      "example_en": "That sounds like a very high valuation for an artificial intelligence startup."
+    },
+    {
+      "term": "export restrictions",
+      "meaning_ja": "輸出規制",
+      "note_ja": "安全保障や経済政策の観点から自国製品や技術の海外輸出を制限すること。",
+      "example_en": "The Dutch government has rejected new demands from the United States to put further export restrictions on semiconductor equipment maker ASML."
+    },
+    {
+      "term": "lithography",
+      "meaning_ja": "露光（リソグラフィ）技術",
+      "note_ja": "光を使ってシリコンウェハ上に微細な回路パターンを転写する半導体製造技術。",
+      "example_en": "ASML builds advanced lithography machinery."
+    },
+    {
+      "term": "foundry",
+      "meaning_ja": "半導体受託製造企業（ファウンドリ）",
+      "note_ja": "他社が設計した半導体チップの製造のみを専門に請け負う工場や企業のこと。",
+      "example_en": "Now, Intel is building a commercial foundry business, which means manufacturing custom chips for other tech firms."
+    },
+    {
+      "term": "vulnerability",
+      "meaning_ja": "脆弱性、セキュリティ上の欠陥",
+      "note_ja": "サイバー攻撃者によって悪用される可能性があるソフトウェアの不具合や弱点のこと。",
+      "example_en": "The vulnerability is in the HTTP/2 protocol implementation inside NGINX."
+    },
+    {
+      "term": "execute code",
+      "meaning_ja": "コード（プログラム）を実行する",
+      "note_ja": "コンピュータ上で不正なプログラムを作動させること。遠隔実行（remote execution）は特に危険とされる。",
+      "example_en": "It allows unauthenticated attackers to execute malicious code remotely on web servers."
+    },
+    {
+      "term": "successor",
+      "meaning_ja": "後任者、継承者",
+      "note_ja": "役職や立場を引き継ぐ人物のこと。",
+      "example_en": "Nvidia Board Approaches Arm CEO Rene Haas as Prospective Successor to Jensen Huang"
+    },
+    {
+      "term": "burnout",
+      "meaning_ja": "燃え尽き症候群、心身の極度の疲労",
+      "note_ja": "過度なストレスや長時間の事務労働などによって心身が消耗し動けなくなる状態。",
+      "example_en": "Physicians often spend hours every evening typing administrative notes, leading to severe doctor burnout."
+    },
+    {
+      "term": "civilian needs",
+      "meaning_ja": "民生需要、一般市民の生活ニーズ",
+      "note_ja": "軍事目的ではなく、病院・学校・インフラなど市民の生活維持に必要な資金や物資。",
+      "example_en": "The remaining 20 billion euros will support civilian needs, including funding public hospitals and schools."
+    },
+    {
+      "term": "interest rate hike",
+      "meaning_ja": "利上げ、金利引き上げ",
+      "note_ja": "中央銀行が政策金利を引き上げ、景気の過熱やインフレを抑制する措置のこと。",
+      "example_en": "The Bank of Japan has been adjusting its monetary policy gradually. Why do economists expect another interest rate hike so soon?"
+    },
+    {
+      "term": "ceasefire agreement",
+      "meaning_ja": "停戦協定",
+      "note_ja": "紛争当事者間で一時的または永久的に戦闘を停止することを定めた合意のこと。",
+      "example_en": "The Yellow Line marks the line where Israeli troops withdrew under last year's ceasefire agreement."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "call the shots",
+    "meaning_ja": "決定権を握る、主導権を握る",
+    "example_en": "In our project team, Sarah calls the shots on design.",
+    "example_ja": "私たちのプロジェクトチームでは、サラがデザインの決定権を握っています。"
+  }
+}
