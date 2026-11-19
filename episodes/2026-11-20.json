@@ -1,0 +1,1175 @@
+{
+  "date": "2026-11-20",
+  "published": "2026-11-20T08:00:29+09:00",
+  "title_en": "Chip Shipment Halts, Apple Surveillance Ruling, and Shenzhen Summit",
+  "title_ja": "対中半導体出荷停止、英アップル判決、深セン首脳宣言",
+  "summary_ja": "米国の輸出規制強化を受けてTSMCとSamsungが中国向け先端半導体の出荷を停止し、英国では裁判所がAppleへの秘密監視命令の開示を命じました。医療分野では電子カルテ最大手Epicの市場慣行とAIデータ利用方針に注目が集まり、国際情勢ではICJのミャンマー虐殺判決や米中ロの深セン共同平和宣言が発表されました。",
+  "duration": 1297.8,
+  "audio": {
+    "file": "2026-11-20.mp3",
+    "bytes": 10383251,
+    "release_tag": "ep-2026-11-20"
+  },
+  "word_count": 2323,
+  "ja_chars": 1296,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.8-flash",
+    "write": "gemini-3.8-flash",
+    "revise": "gemini-3.8-flash",
+    "tts": "gemini-3.8-flash-lite-tts, gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Today on Commute News",
+      "heading_ja": "本日のヘッドライン",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it is Friday, November 20. This is Commute News. Welcome to your daily morning briefing covering global technology, international business, and major world events.",
+          "ja": "おはようございます。11月20日金曜日、Commute Newsです。世界のテクノロジー、国際ビジネス、主要な世界情勢をお届けする毎朝のニュースブリーフィングへようこそ。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, Alex! Today, we start with major semiconductor foundries pausing chip shipments to China. In tech security, European officials investigate an AI-assisted breach, while London orders secrecy lifted on an Apple surveillance notice. In health, electronic health record giant Epic defends its market practices. And in world news, top global leaders sign a joint declaration in Shenzhen.",
+          "ja": "おはようございます、Alex！本日はまず、主要半導体ファウンドリが中国向け半導体出荷を一時停止したニュースからお伝えします。テックセキュリティでは、欧州当局がAI支援の不正侵入を調査する一方、ロンドンではAppleへの監視命令の機密解除が命じられました。医療分野では電子カルテ最大手のEpicが自社の市場慣行を擁護し、国際ニュースでは主要首脳が深センで共同宣言に署名しました。",
+          "t": 11.51
+        },
+        {
+          "speaker": "Alex",
+          "en": "We also have historic legal rulings and corporate restructuring to discuss. Let us dive into our top technology story.",
+          "ja": "歴史的な判決や企業の組織再編についても詳しく見ていきます。それでは、トップのテクノロジーニュースから始めましょう。",
+          "t": 35.49
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "TSMC and Samsung Halt China Chip Shipments",
+      "heading_ja": "TSMCとSamsungが中国向け半導体出荷を一時停止",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Taiwan Semiconductor Manufacturing Company, known as TSMC, and Samsung Electronics have halted some advanced chip shipments to customers in China. This immediate move comes directly after the United States government announced and implemented tightened export curbs.",
+          "ja": "TSMC（台湾積体電路製造）とSamsung Electronicsが、中国の顧客に対する一部の先端半導体の出荷を停止しました。この即座の動きは、米国政府が輸出規制の強化を発表・施行した直後に取られたものです。",
+          "t": 43.63
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why are these major Asian foundries taking such decisive action right now?",
+          "ja": "なぜこれらアジアの主要ファウンドリは、今すぐこのような決定的な行動を取っているのでしょうか？",
+          "t": 60.21
+        },
+        {
+          "speaker": "Alex",
+          "en": "The United States recently expanded its export control framework. Specific new trade rules covering advanced semiconductor shipments through Malaysia and Singapore took effect on November 19. American officials want to close potential regional trade loopholes and prevent high-end artificial intelligence chips from reaching Chinese organizations.",
+          "ja": "米国が最近、輸出管理の枠組みを拡大したためです。マレーシアやシンガポールを経由する先端半導体の輸送を対象とした具体的な新規制が11月19日に発効しました。米政府は地域の貿易上の抜け穴を塞ぎ、高性能な人工知能チップが中国の組織に渡るのを防ぎたいと考えています。",
+          "t": 65.85
+        },
+        {
+          "speaker": "Mika",
+          "en": "How dependent are TSMC and Samsung on Western technology?",
+          "ja": "TSMCとSamsungは西側の技術にどの程度依存しているのですか？",
+          "t": 87.04
+        },
+        {
+          "speaker": "Alex",
+          "en": "Both companies rely heavily on American software, design platforms, and advanced chip manufacturing equipment. If they violate United States export regulations, they could face severe trade penalties and lose access to crucial Western tools. Therefore, pausing these shipments allows both foundries to review each customer order in detail and verify full legal compliance before moving forward.",
+          "ja": "両社とも米国のソフトウェア、設計基盤、先端半導体製造装置に大きく依存しています。米国の輸出規制に違反すれば、厳しい制裁を受け、極めて重要な西側のツールへのアクセスを失いかねません。そのため出荷を一時停止することで、両ファウンドリは今後の業務を進める前に各顧客の注文を詳細に精査し、完全な法遵守を確認できるのです。",
+          "t": 91.71
+        },
+        {
+          "speaker": "Mika",
+          "en": "What does this mean for the semiconductor market across East Asia?",
+          "ja": "これは東アジア全体の半導体市場にとって何を意味するのでしょうか？",
+          "t": 115.58
+        },
+        {
+          "speaker": "Alex",
+          "en": "It shows how quickly American trade policy ripples across the entire Pacific supply chain. Chinese technology firms may experience immediate supply bottlenecks for advanced processors, while global foundries must navigate complex international trade boundaries.",
+          "ja": "米国の貿易政策がいかに迅速に太平洋全域のサプライチェーンに波及するかを示しています。中国のハイテク企業は先端プロセッサの深刻な供給不足に直面する可能性があり、グローバルな受託製造企業は複雑な国際通商の境界線に対応しなければなりません。",
+          "t": 120.76
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Asian chip makers are strictly following new United States rules to protect their global business.",
+          "ja": "つまり要するに、アジアの半導体メーカーは自社の世界的事業を守るため、米国の新規制に厳格に従っているということですね。",
+          "t": 137.05
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly right. Global semiconductor supply chains are adjusting immediately to Washington's stricter export oversight.",
+          "ja": "その通りです。世界の半導体サプライチェーンは、米政府のより厳格な輸出監視に即座に適応しています。",
+          "t": 144.85
+        }
+      ],
+      "lang": "en",
+      "t": 43.63
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。米国の新たな輸出規制強化を受けて、TSMCとSamsungが中国向け先端半導体の一部の出荷を停止しました。マレーシアやシンガポールを経由する規制が発効したことを受け、米国の製造装置やソフトに依存する両社は違反リスクを避けて法順守を優先しています。アジアの半導体供給網への影響は必至です。",
+          "en": "",
+          "lang": "ja",
+          "t": 153.45
+        }
+      ],
+      "t": 153.45
+    },
+    {
+      "kind": "story",
+      "heading_en": "UK Tribunal Orders Disclosure of Secret Apple Order",
+      "heading_ja": "英裁判所がAppleへの秘密監視命令の開示を命令",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In London, the Investigatory Powers Tribunal has issued a landmark legal ruling against government secrecy. The independent court ruled that the British Home Office must publicly confirm it issued a secret surveillance order demanding Apple provide access to encrypted customer information.",
+          "ja": "ロンドンで、捜査権限審判所が政府の秘密主義に対して画期的な司法判断を下しました。この独立裁判所は、暗号化された顧客情報へのアクセスをAppleに要求する秘密監視命令を出した事実を、英内務省は公式に認めなければならないと裁定しました。",
+          "t": 179.67
+        },
+        {
+          "speaker": "Mika",
+          "en": "What did the British government originally demand from Apple in that secret order?",
+          "ja": "英政府はその秘密命令の中で、もともとAppleに何を要求していたのですか？",
+          "t": 198.29
+        },
+        {
+          "speaker": "Alex",
+          "en": "Reports indicate that the government issued a secret technical capability notice requiring Apple to build a backdoor into its systems. British authorities wanted access to encrypted customer data stored anywhere in the world. California-based Apple refused to comply and even blocked United Kingdom users from turning on its Advanced Data Protection feature for iCloud rather than weaken its security.",
+          "ja": "報道によると、英政府はAppleのシステムにバックドアを構築するよう義務付ける秘密の「技術能力通知」を発出していました。当局は世界中に保管されている暗号化顧客データへのアクセスを求めたのです。カリフォルニアに本拠を置くAppleはこれに応じることを拒否し、セキュリティを低下させるくらいならと、英国内のユーザー向けにiCloudの高度データ保護機能の有効化をブロックしました。",
+          "t": 204.62
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did British authorities attempt to defend keeping this notice secret?",
+          "ja": "英国当局はこの通知を秘密のままにしておくため、どのように抗弁したのですか？",
+          "t": 229.8
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Home Office argued that confirming the existence of the surveillance order would cause severe damage to national security. However, the independent tribunal explicitly rejected London's secrecy claims. Rights group Liberty International brought this legal challenge on behalf of two individuals, marking the first time the government has been compelled to confirm such a secret order.",
+          "ja": "英内務省は、監視命令の存在を認めることは国家安全保障に重大な損害を与えるだろうと主張しました。しかし独立審判所は、ロンドン当局の機密維持の主張を明確に退けました。人権団体リバティ・インターナショナルが個人2名に代わってこの訴えを起こしており、政府がこのような秘密命令の存在確認を義務付けられたのは史上初となります。",
+          "t": 235.6
+        },
+        {
+          "speaker": "Mika",
+          "en": "How has Apple responded to this courtroom outcome?",
+          "ja": "Appleはこの法廷での結果にどう反応していますか？",
+          "t": 260.01
+        },
+        {
+          "speaker": "Alex",
+          "en": "Apple welcomed the tribunal's decision. The company reiterated that it has never built a backdoor or master key into any of its products, and stated that it never will.",
+          "ja": "Appleは審判所の判断を歓迎しました。同社は、自社製品にバックドアやマスターキーを組み込んだことは一度もなく、今後も絶対に組み込むことはないと改めて言明しました。",
+          "t": 264.45
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, a court has limited government secrecy over private digital encryption.",
+          "ja": "つまり要するに、裁判所が民間のデジタル暗号化をめぐる政府の秘密主義に歯止めをかけたのですね。",
+          "t": 275.86
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is the core of it. It establishes a powerful international precedent for user privacy rights against state surveillance.",
+          "ja": "まさにそこが核心です。国家による監視に対抗するユーザーのプライバシー権について、強力な国際的先例を確立しました。",
+          "t": 282.36
+        }
+      ],
+      "lang": "en",
+      "t": 179.67
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "英国の捜査権限審判所は、暗号化データへのアクセスをAppleに要求した秘密命令の存在を認めるよう英政府に命じました。政府側は国家安全保障を理由に非開示を求めましたが退けられました。Appleはバックドアの作成を完全否定しており、個人の暗号化プライバシーと国家権力の境界を示す重要な判決となりました。",
+          "en": "",
+          "lang": "ja",
+          "t": 291.23
+        }
+      ],
+      "t": 291.23
+    },
+    {
+      "kind": "story",
+      "heading_en": "European Commission Faces AI-Assisted Cyberattack",
+      "heading_ja": "欧州委員会がAI支援のサイバー攻撃被害を調査",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "The European Commission is scrambling to contain a targeted, artificial intelligence-assisted cyberattack on its internal computer systems. European Union IT officials took staff human resources and medical reimbursement portals completely offline while actively investigating whether sensitive personal employee data was compromised.",
+          "ja": "欧州委員会は、内部のコンピュータシステムを標的とした人工知能支援のサイバー攻撃の封じ込めに追われています。EUのIT担当者は、職員の機微な個人情報が侵害されたかどうかを調査する間、人事および医療費払い戻しポータルを完全にオフラインにしました。",
+          "t": 316.94
+        },
+        {
+          "speaker": "Mika",
+          "en": "How exactly are modern attackers utilizing artificial intelligence in this government breach?",
+          "ja": "今回の政府機関への不正侵入で、攻撃者は具体的にどのように人工知能を利用しているのですか？",
+          "t": 337.67
+        },
+        {
+          "speaker": "Alex",
+          "en": "Threat actors now deploy automated AI tools to scan vast administrative networks at incredible speeds. These algorithms identify hidden software bugs and generate highly convincing phishing messages to steal employee login credentials. The technology allows cyber attackers to locate weaknesses and extract confidential records much faster than traditional human hackers ever could.",
+          "ja": "脅威アクターは今や、驚くべき速さで広大な行政ネットワークをスキャンするために自動化AIツールを配備しています。これらのアルゴリズムは隠れたソフトウェアの欠陥を特定し、職員のログイン認証情報を盗み出すための極めて説得力のあるフィッシングメッセージを作成します。この技術により、サイバー攻撃者は従来の人間のハッカーよりもはるかに速く弱点を見つけ出し、機密記録を抜き出すことができます。",
+          "t": 344.49
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specific internal functions were interrupted by shutting down these European Commission portals?",
+          "ja": "これら欧州委員会のポータルを閉鎖したことで、具体的にどのような内部機能が中断されたのですか？",
+          "t": 367.99
+        },
+        {
+          "speaker": "Alex",
+          "en": "Taking the human resources and medical reimbursement systems offline prevents active data theft, but it completely paralyzes vital administrative operations. Commission staff cannot submit medical claims or update personal employment records. Technical teams must now painstakingly inspect every connected server and software layer to ensure no malicious code or hidden backdoors remain inside the institutional network.",
+          "ja": "人事および医療費精算システムをオフラインにすることで継続的なデータ窃取は防げますが、重要な行政業務は完全に麻痺します。委員会の職員は医療費請求を提出したり個人雇用記録を更新したりすることができません。技術チームは組織のネットワーク内に悪意あるコードや隠しバックドアが残っていないか確認するため、接続されたすべてのサーバーとソフトウェア層を入念に点検しなければなりません。",
+          "t": 375.27
+        },
+        {
+          "speaker": "Mika",
+          "en": "Is this part of a wider security trend affecting public agencies everywhere?",
+          "ja": "これは世界中の公的機関に影響を及ぼしている広範なセキュリティ傾向の一部なのでしょうか？",
+          "t": 400.97
+        },
+        {
+          "speaker": "Alex",
+          "en": "Absolutely. Public governance bodies worldwide manage immense databases of personal citizen and employee records. As AI-augmented cyber weapons become more accessible, institutional defenders must continually upgrade their automated monitoring to stop automated intrusions before data leaks out.",
+          "ja": "その通りです。世界中の公的統治機関は、市民や職員の膨大な個人データベースを管理しています。AIで強化されたサイバー兵器が入手しやすくなるにつれ、組織の防御側はデータが流出する前に自動化された侵入を阻止できるよう、自動監視を継続的に更新しなければなりません。",
+          "t": 406.8
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, European governance systems are under pressure from smart, automated cyber threats.",
+          "ja": "つまり要するに、欧州の統治システムが高度で自動化されたサイバー脅威からの圧力にさらされているわけですね。",
+          "t": 425.28
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Defending critical government databases now requires continuous real-time monitoring and much faster automated responses.",
+          "ja": "はい。重要な政府データベースを守るには、継続的なリアルタイム監視と、はるかに迅速な自動対応が不可欠になっています。",
+          "t": 432.33
+        }
+      ],
+      "lang": "en",
+      "t": 316.94
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "欧州委員会は、AIを活用した標的型サイバー攻撃を受け、職員の人事や医療費還付システムを遮断して個人情報の流出有無を調査しています。AIを用いた脆弱性の自動探索や巧妙な攻撃は公的機関にとって深刻な脅威となっており、迅速な検知と防御体制の強化が急務となっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 441.05
+        }
+      ],
+      "t": 441.05
+    },
+    {
+      "kind": "story",
+      "heading_en": "Microsoft Realignment and Infrastructure Risks",
+      "heading_ja": "MicrosoftのAI組織改編とインフラ危機",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Microsoft CEO Satya Nadella has explained the corporate strategy behind offering voluntary buyouts to 60,000 employees in October. Nadella stated that the company is fundamentally reorganizing so that every worker uses artificial intelligence and manages automated agents, rather than directly performing routine tasks.",
+          "ja": "Microsoftのサティア・ナデラCEOは、10月に6万人の社員に希望退職を提示した背景にある企業戦略を説明しました。ルーチン業務を直接こなすのではなく、全従業員が人工知能を駆使して自律型エージェントを管理するよう、会社を根本から再編しているとナデラ氏は述べています。",
+          "t": 462.76
+        },
+        {
+          "speaker": "Mika",
+          "en": "Are software engineers at Microsoft actually being eliminated by automated coding systems?",
+          "ja": "Microsoftのソフトウェアエンジニアは、実際に自動コーディングシステムによって排除されているのですか？",
+          "t": 482.63
+        },
+        {
+          "speaker": "Alex",
+          "en": "Nadella insists that software engineering is not dying, but its operating point has completely changed. As an example, he pointed to the team building Cowork, the AI agent inside Microsoft 365 apps. That team consists of just eleven developers who built an automated software factory that produces the features, instead of coding every piece manually.",
+          "ja": "ナデラ氏はソフトウェアエンジニアリングが消滅するのではなく、その役割の基準点が完全に変化したのだと主張しています。例として同氏は、Microsoft 365アプリ内のAIエージェント「Cowork」を構築するチームを挙げました。そのチームはわずか11人の開発者で構成され、手作業でコーディングする代わりに機能を生産する自動ソフトウェア工場を構築しました。",
+          "t": 489.27
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did Nadella also voice major concerns regarding the security of physical infrastructure?",
+          "ja": "ナデラ氏は物理的インフラのセキュリティについても重大な懸念を表明しましたか？",
+          "t": 510.99
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, speaking at the DealBook Summit, Nadella warned that vast amounts of critical infrastructure in America are unpatchable. He noted that everyday hardware, transportation systems, and data center cooling chillers run on internet-connected firmware that cannot easily be updated. In an era of AI-driven cyberattacks, these unfixable systems present severe exploitation risks.",
+          "ja": "はい、DealBookサミットで登壇したナデラ氏は、米国内の膨大な重要インフラが修正パッチを適用できない状態にあると警告しました。日常的なハードウェア、交通システム、データセンターの冷却装置などは、容易にアップデートできないネット接続ファームウェアで稼働していると指摘しました。AI主導のサイバー攻撃の時代において、これら修正不能なシステムは深刻な悪用リスクをもたらします。",
+          "t": 517.51
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does rapid security patching complicate this overall technical problem?",
+          "ja": "迅速なセキュリティ修正パッチの適用は、この技術的問題全体をどう複雑にしているのですか？",
+          "t": 540.73
+        },
+        {
+          "speaker": "Alex",
+          "en": "Nadella explained that because AI tools uncover vulnerabilities so rapidly, security patches must be deployed immediately into production without traditional lengthy testing. That rushed cycle can inadvertently trigger technical instability across complex global cloud services.",
+          "ja": "ナデラ氏は、AIツールが脆弱性をあまりに急速に発見するため、従来の長期的なテストを行わずに本番環境へ即座にセキュリティパッチを配備せざるを得なくなっていると説明しました。その拙速なサイクルが、複雑な世界的クラウドサービス全体に意図せぬ技術的不安定性を引き起こしかねないのです。",
+          "t": 546.5
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Microsoft is restructuring around AI while warning about legacy infrastructure vulnerabilities.",
+          "ja": "つまり要するに、MicrosoftはAIを中心とした再編を進める一方で、旧式インフラの脆弱性に警鐘を鳴らしているのですね。",
+          "t": 564.0
+        },
+        {
+          "speaker": "Alex",
+          "en": "Precisely. The workforce must adapt to managing software agents while older internet-linked machines remain deeply exposed.",
+          "ja": "その通りです。従業員がソフトウェアエージェントの管理に適応しなければならない一方で、ネットに繋がった古い機器は大きな危険にさらされたままです。",
+          "t": 572.19
+        }
+      ],
+      "lang": "en",
+      "t": 462.76
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "MicrosoftのナデラCEOは、10月に6万人に希望退職を募った理由について、全社員がAIエージェントを指揮する組織体制へ転換するためだと語りました。一方で同氏は、データセンター冷却設備や交通インフラなど、修正困難な古いファームウェアがAIサイバー攻撃の脅威に晒されている実態に強い危機感を示しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 580.91
+        }
+      ],
+      "t": 580.91
+    },
+    {
+      "kind": "story",
+      "heading_en": "AMD Shares Drop Following Short Seller Report",
+      "heading_ja": "空売りレポートを受けAMD株が急落",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Shares of semiconductor giant AMD dropped sharply on Thursday following a critical report published by investment firm Hunterbrook. The short-seller report raised serious questions about AMD's reported artificial intelligence revenue and alleged that the chipmaker faces potential scrutiny regarding export controls and Chinese customers.",
+          "ja": "投資会社Hunterbrookが批判的なレポートを公表したことを受け、半導体大手AMDの株価が木曜日に急落しました。この空売りレポートは、AMDが計上している人工知能関連の売上高に深刻な疑問を投げかけ、同社が輸出規制や中国の顧客をめぐる精査に直面する可能性があると主張しました。",
+          "t": 606.9
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specific allegations did the Hunterbrook report present regarding AMD's business practices?",
+          "ja": "Hunterbrookのレポートは、AMDの事業慣行に関してどのような具体的な疑惑を提示したのですか？",
+          "t": 628.3
+        },
+        {
+          "speaker": "Alex",
+          "en": "Hunterbrook alleged that AMD relied on circular financing transactions to artificially inflate its AI chip sales figures. The report also claimed that AMD could face United States regulatory investigations over whether its high-performance accelerator chips were routed to Chinese buyers through intermediary third parties, potentially bypassing strict American export limits.",
+          "ja": "Hunterbrookは、AMDがAIチップの売上高を人工的に水増しするために循環的な金融取引に依存していたと主張しました。また同レポートは、厳格な米国の輸出制限を回避する形で、同社の高性能アクセラレータチップが仲介業者を経由して中国の買い手に流れていなかったか、米規制当局の調査を受ける可能性があるとも指摘しました。",
+          "t": 635.43
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why did this report cause such a pronounced negative reaction across Wall Street?",
+          "ja": "なぜこのレポートはウォール街全体でこれほど顕著なネガティブ反応を引き起こしたのでしょうか？",
+          "t": 659.07
+        },
+        {
+          "speaker": "Alex",
+          "en": "Many investors have treated AMD as the primary credible alternative to Nvidia in the booming AI accelerator market. If regulators launch an investigation into AMD's trade practices, or if its customer demand is dependent on vendor financing rather than organic purchases, AMD's financial valuation could face substantial downward pressure. Investors are exceptionally cautious about any regulatory friction involving China.",
+          "ja": "多くの投資家は、急成長するAIアクセラレータ市場においてAMDをNvidiaに対する最も有力で信頼できる対抗馬とみなしてきました。もし規制当局がAMDの貿易慣行の調査に乗り出したり、顧客の需要が自然な購買ではなくベンダー金融に依存していたりすれば、AMDの企業価値評価は大きな下押し圧力に直面しかねません。投資家は中国が絡む規制摩擦に極めて慎重になっています。",
+          "t": 665.32
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does this development fit into the broader semiconductor industry climate?",
+          "ja": "この動きは、より広い半導体業界の情勢の中でどのように位置づけられますか？",
+          "t": 691.73
+        },
+        {
+          "speaker": "Alex",
+          "en": "It underscores that investors are scrutinizing the actual quality of enterprise AI revenue. Regulators and financial analysts alike are closely examining whether accelerator sales reflect genuine corporate deployment or complicated financing arrangements designed to maintain market momentum.",
+          "ja": "投資家が企業のAI売上の実際の質を厳しく精査している実態を浮き彫りにしています。アクセラレータの売上が本物の企業導入を反映しているのか、それとも市場の勢いを維持するための複雑な金融スキームなのかについて、規制当局もアナリストも注視しています。",
+          "t": 697.8
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, AMD faces pressure regarding compliance with export controls and real market demand.",
+          "ja": "つまり要するに、AMDは輸出規制の遵守と実質的な市場需要をめぐって強い圧力を受けているわけですね。",
+          "t": 716.49
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is correct. Scrutiny on AI chip supply chains and financial transparency continues to intensify across the sector.",
+          "ja": "その通りです。業界全体で、AI半導体のサプライチェーンと財務の透明性に対する監視が一段と強まり続けています。",
+          "t": 723.74
+        }
+      ],
+      "lang": "en",
+      "t": 606.9
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "空売り投資ファンドHunterbrookが、AMDのAI関連売上における循環取引や第三者を経由した対中輸出規制回避の可能性を指摘し、AMD株が大幅に下落しました。Nvidiaの有力な代替供給元として期待されてきた同社ですが、売上の実態や米政府の輸出管理基準を巡り、市場の警戒感が急速に高まっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 732.68
+        }
+      ],
+      "t": 732.68
+    },
+    {
+      "kind": "health",
+      "heading_en": "Epic Systems Defends EHR Practices and AI Record Access",
+      "heading_ja": "Epicが電子カルテの競争慣行を擁護しAIアクセス方針を提示",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In our digital health story, electronic health records giant Epic Systems has publicly defended its market practices while outlining new policies for artificial intelligence access. Epic announced clear guidelines governing how third-party AI software can interact with patient medical records across its extensive hospital networks.",
+          "ja": "デジタルヘルスのニュースです。電子カルテ大手のEpic Systemsが、自社の市場慣行を公式に擁護するとともに、人工知能によるアクセスに関する新方針を提示しました。Epicは、広大な病院ネットワーク全体でサードパーティのAIソフトウェアが患者の診療記録とどのように連携できるかを定めた明確なガイドラインを発表しました。",
+          "t": 757.91
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why have healthcare technology competitors and industry regulators been scrutinizing Epic so heavily?",
+          "ja": "なぜヘルスケアテックの競合他社や業界の規制当局は、これほど厳しくEpicを精査しているのですか？",
+          "t": 778.91
+        },
+        {
+          "speaker": "Alex",
+          "en": "Epic holds clinical data for hundreds of millions of patients across global medical networks. Several health technology startups argue that Epic uses closed software practices, making it prohibitively difficult and expensive for outside applications to connect. Furthermore, recent industry analyses reveal that automated AI medical billing and coding systems have actually been driving up overall administrative healthcare expenditures.",
+          "ja": "Epicは世界の医療ネットワーク全体で数億人もの患者の臨床データを保持しています。一部のヘルスケア新興企業は、Epicが閉鎖的なソフトウェア慣行を採用しており、外部アプリの接続を極端に難しく高額にしていると主張しています。さらに最近の業界分析では、自動化されたAI医療請求・コーディングシステムが、かえって管理医療費全体を押し上げている実態も明らかになっています。",
+          "t": 786.3
+        },
+        {
+          "speaker": "Mika",
+          "en": "How is Epic leadership defending its software architecture and business model?",
+          "ja": "Epicの経営陣は、自社のソフトウェア構造やビジネスモデルをどのように擁護しているのですか？",
+          "t": 813.41
+        },
+        {
+          "speaker": "Alex",
+          "en": "Epic executives argue that strict data controls are essential to safeguard confidential patient privacy and prevent unauthorized data harvesting. The company stated that its new rules provide transparent integration paths for medical AI developers, balancing innovative diagnostic tools with strict security protections. Healthcare administrators in Japan are watching these developments carefully as hospitals continue modernizing digital medical records.",
+          "ja": "Epicの幹部らは、患者の機密プライバシーを保護し、不正なデータ収集を防ぐためには厳格なデータ管理が不可欠であると主張しています。同社は、新ルールが医療AI開発者に透明性のある連携経路を提供し、革新的な診断ツールと厳格なセキュリティ保護を両立させると述べました。病院の電子カルテ近代化を進める日本の医療管理者も、こうした動向を注意深く見守っています。",
+          "t": 819.45
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is standardizing AI access so critical for hospitals going forward?",
+          "ja": "今後の病院にとって、AIアクセスの標準化がこれほど重要なのはなぜですか？",
+          "t": 847.67
+        },
+        {
+          "speaker": "Alex",
+          "en": "Hospitals need artificial intelligence to analyze patient imaging and clinical histories effectively, but they cannot afford runaway administrative costs or privacy violations. Clear interoperability standards ensure hospitals maintain control over their proprietary medical data.",
+          "ja": "病院は患者の画像や病歴を効果的に分析するために人工知能を必要としていますが、管理コストの暴走やプライバシー侵害を許容することはできません。明確な相互運用性の基準があってこそ、病院は独自の医療データに対する主導権を維持できるのです。",
+          "t": 853.3
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, health data giants must open up to AI while protecting sensitive medical privacy.",
+          "ja": "つまり要するに、医療データの大手企業は機微なプライバシーを守りつつ、AIへのデータ開放を進める必要があるのですね。",
+          "t": 871.19
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. Achieving that delicate balance will determine both the future cost and the clinical quality of modern patient care.",
+          "ja": "その通りです。その繊細なバランスを達成できるかどうかが、今後の診療の費用と質を左右することになります。",
+          "t": 878.23
+        }
+      ],
+      "lang": "en",
+      "t": 757.91
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "電子カルテ最大手Epicが、囲い込み批判に対して患者プライバシーの安全確保を主張しつつ、外部AIによる医療記録アクセスに関する新基準を提示しました。医療現場でAI導入とコスト抑制の両立が課題となる中、医療データの安全な利活用は日本の医療機関や政策にとっても示唆に富む動きです。",
+          "en": "",
+          "lang": "ja",
+          "t": 887.03
+        }
+      ],
+      "t": 887.03
+    },
+    {
+      "kind": "world",
+      "heading_en": "ICJ Finds Myanmar Guilty of Genocide",
+      "heading_ja": "国際司法裁判所がミャンマーの虐殺を認定",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In a historic ruling, the International Court of Justice in The Hague has found Myanmar guilty of committing genocide against its Rohingya Muslim minority during a brutal 2017 military crackdown.",
+          "ja": "歴史的な判決として、ハーグの国際司法裁判所（ICJ）は、2017年の過酷な軍事弾圧においてミャンマーがロヒンギャ・ムスリム少数派に対するジェノサイド（集団殺害）を実行したと有罪認定しました。",
+          "t": 910.81
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is this United Nations court verdict being described as a landmark moment in international law?",
+          "ja": "国連の最高裁判所によるこの判決が、国際法における画期的な瞬間と評されているのはなぜですか？",
+          "t": 923.05
+        },
+        {
+          "speaker": "Alex",
+          "en": "It marks the very first time in history that the world court has held a sovereign nation-state guilty of genocide under the 1948 Genocide Convention. The judges concluded that the Myanmar military acted with deliberate intent to destroy a substantial part of the Rohingya population through systematic violence and displacement.",
+          "ja": "1948年のジェノサイド条約に基づき、同裁判所が主権国家に集団殺害の有罪責任を認めた歴史上初めての判決だからです。裁判官団は、ミャンマー軍が組織的な暴力と強制退去を通じてロヒンギャ住民のかなりの部分を破壊する明確な意図を持って行動したと結論づけました。",
+          "t": 929.95
+        },
+        {
+          "speaker": "Mika",
+          "en": "How are Rohingya survivors and refugees responding to the court's historic decision?",
+          "ja": "ロヒンギャの生存者や難民はこの歴史的な司法判断にどのように反応していますか？",
+          "t": 949.59
+        },
+        {
+          "speaker": "Alex",
+          "en": "Rohingya refugees living in crowded camps across Bangladesh cheered the verdict with immense relief and emotion. Human rights activists emphasized that this legal ruling must now pave the way for formal accountability, financial reparations, and guaranteed citizenship rights for their community.",
+          "ja": "バングラデシュ全域の過密な難民キャンプで暮らすロヒンギャ難民は、大きな安堵と感動をもって判決を歓迎しました。人権活動家らは、この司法的判断がコミュニティのための正式な責任追及、金銭的賠償、市民権の回復への道を開かなければならないと強調しています。",
+          "t": 955.65
+        },
+        {
+          "speaker": "Mika",
+          "en": "What international impact will follow this judgment?",
+          "ja": "この判決に続いてどのような国際的影響が生じますか？",
+          "t": 973.51
+        },
+        {
+          "speaker": "Alex",
+          "en": "It revitalizes the global genocide convention and provides a legal framework for holding other state actors accountable.",
+          "ja": "世界のジェノサイド条約に新たな生命を吹き込み、他の国家主体の責任を追及するための法的枠組みを提供することになります。",
+          "t": 977.8
+        }
+      ],
+      "lang": "en",
+      "t": 910.81
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "国際司法裁判所（ICJ）は、ミャンマー軍が2017年にロヒンギャ少数民族に対してジェノサイドを行ったと認定しました。国家そのものがジェノサイド条約違反で有罪となるのは史上初です。バングラデシュの避難民らは歓喜し、賠償や市民権回復への第一歩として期待が高まっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 985.87
+        }
+      ],
+      "t": 985.87
+    },
+    {
+      "kind": "world",
+      "heading_en": "Trump, Xi, and Putin Sign Shenzhen Peace Declaration",
+      "heading_ja": "トランプ、習、プーチンが深セン平和宣言に署名",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "United States President Donald Trump, Chinese President Xi Jinping, and Russian President Vladimir Putin concluded an unprecedented trilateral summit in Shenzhen, China. Meeting for ninety minutes, the three leaders issued a signed joint peace declaration.",
+          "ja": "米国のドナルド・トランプ大統領、中国の習近平国家主席、ロシアのウラジーミル・プーチン大統領が、中国の深センで前例のない3カ国首脳会談を終えました。90分間にわたり会談した3首脳は、署名入りの共同平和宣言を発表しました。",
+          "t": 1007.24
+        },
+        {
+          "speaker": "Mika",
+          "en": "What core commitments were highlighted in their official joint declaration?",
+          "ja": "公式の共同宣言ではどのような中核的公約が強調されたのですか？",
+          "t": 1022.87
+        },
+        {
+          "speaker": "Alex",
+          "en": "The leaders explicitly affirmed that a nuclear war cannot be won and must never be fought. They agreed to support reforms at the United Nations, collaborate on increasing petroleum production and supplies, and keep diplomatic communication channels open to reduce the danger of nuclear proliferation worldwide.",
+          "ja": "首脳らは、核戦争に勝者はあり得ず、決して戦ってはならないと明確に確認しました。また、国連の改革を支持し、石油の増産と供給確保で協力し、世界規模での核拡散の危険を減らすために外交的対話チャンネルを維持することで合意しました。",
+          "t": 1028.43
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did the Shenzhen declaration provide any concrete solutions for the wars in Ukraine or Iran?",
+          "ja": "深セン宣言は、ウクライナやイランでの戦争に対する具体的な解決策を示したのですか？",
+          "t": 1047.07
+        },
+        {
+          "speaker": "Alex",
+          "en": "Conspicuously, the formal peace declaration made no direct mention of ending the wars in Ukraine or Iran. While Donald Trump praised the meeting as consequential and Xi Jinping stressed the necessity of major power dialogue, diplomatic observers noted that substantial peace resolutions remain elusive.",
+          "ja": "際立った点として、公式の平和宣言ではウクライナやイランの戦争終結について直接の言及はありませんでした。ドナルド・トランプ氏が会談を極めて有意義だったと称賛し、習近平氏が大国間の対話の必要性を強調した一方で、外交関係者は実質的な和平の解決策は依然として見出せていないと指摘しました。",
+          "t": 1053.58
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, the summit provided symbolic engagement without resolving immediate battleground conflicts.",
+          "ja": "つまり首脳会談は、当面の戦場での紛争を解決することなく、象徴的な対話を提供したわけですね。",
+          "t": 1071.78
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. The leaders established high-level diplomatic contact, but practical peace settlements on major conflicts still require extensive future negotiations.",
+          "ja": "その通りです。首脳らはハイレベルな外交接触を確立しましたが、主要な紛争に関する実際的な和平合意には、今後も広範な交渉が必要です。",
+          "t": 1078.45
+        }
+      ],
+      "lang": "en",
+      "t": 1007.24
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "中国・深センで米中ロ首脳による初の3カ国会談が開催され、「核戦争を起こしてはならない」とする共同平和宣言に署名しました。国連改革や石油供給拡大で合意した一方、ウクライナやイランの紛争解決への言及はなく、具体的成果は限定的と見られています。",
+          "en": "",
+          "lang": "ja",
+          "t": 1089.14
+        }
+      ],
+      "t": 1089.14
+    },
+    {
+      "kind": "world",
+      "heading_en": "UK and EU Finalize Reset Summit in Brussels",
+      "heading_ja": "英・EUがブリュッセルで関係再構築サミット",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "British Prime Minister Andy Burnham and European Commission President Ursula von der Leyen convened in Brussels for a high-stakes summit aimed at finalizing a comprehensive reset of post-Brexit relations.",
+          "ja": "英国のアンディ・バーナム首相と欧州委員会のウルズラ・フォン・デア・ライエン委員長が、ブレグジット後の関係の包括的なリセットを最終確定させることを目指し、ブリュッセルで極めて重要な首脳会談を開催しました。",
+          "t": 1109.59
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specific agreements did negotiators reach during these intensive late-night discussions?",
+          "ja": "深夜に及ぶ集中的な協議の中で、交渉担当者らはどのような具体的な合意に達したのですか？",
+          "t": 1123.11
+        },
+        {
+          "speaker": "Alex",
+          "en": "Britain made a key concession by agreeing to a youth mobility quota of 100,000 European Union citizens annually up to age thirty-one. In exchange, both sides finalized food and agricultural agreements that require the United Kingdom to align dynamically with European standards, potentially adding 0.4 percent to British gross domestic product.",
+          "ja": "英国は、31歳までのEU市民を対象に年間10万人の若者移動枠を受け入れるという重要な譲歩を行いました。その引き換えとして双方は、英国が欧州基準に動的に準拠することを義務付ける農産品・食品協定をまとめ、英国の国内総生産を0.4％押し上げる見込みとなりました。",
+          "t": 1130.08
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did the summit also tackle contentious cross-border migration policies?",
+          "ja": "首脳会談では、物議を醸している国境を越えた移民政策についても取り組みましたか？",
+          "t": 1151.87
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. A leaked joint draft confirmed that the United Kingdom and the European Union will begin structured talks on transferring rejected asylum seekers to third-country processing hubs. This joint initiative mirrors recent European agreements and represents a major policy pivot toward collaborative border management.",
+          "ja": "はい。流出した共同草案によると、英国とEUは申請が却下された庇護希望者を第三国の処理拠点へ移送することについて、体系的な協議を開始することを確認しました。この共同の取り組みは最近の欧州各国の協定に倣ったものであり、協調的な国境管理に向けた大きな政策転換を示しています。",
+          "t": 1157.54
+        },
+        {
+          "speaker": "Mika",
+          "en": "Negotiations clearly went down to the wire before reaching this compromise.",
+          "ja": "この妥協点に達するまで、交渉が最後の最後までもつれ込んだことは明らかですね。",
+          "t": 1177.74
+        },
+        {
+          "speaker": "Alex",
+          "en": "Indeed. Both sides pushed hard until the final hour to restore economic cooperation and address common migration challenges.",
+          "ja": "まさにその通りです。双方は経済協力を回復させ、共通の移民課題に対処するため、最後の最後まで粘り強く交渉を続けました。",
+          "t": 1183.64
+        }
+      ],
+      "lang": "en",
+      "t": 1109.59
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "英国のバーナム首相と欧州委員会のフォン・デア・ライエン委員長が会談し、ブレグジット後の関係修復に臨みました。英国は年間10万人の若者移動枠を受け入れ、食品貿易円滑化を目指します。また、却下された難民申請者を第三国へ送還する枠組みの協議でも一致しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 1192.44
+        }
+      ],
+      "t": 1192.44
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch: Nadella and Amodei on AI Safety",
+      "heading_ja": "CEOウォッチ：AIの安全性と開発速度",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "On our CEO Watch today, Anthropic Chief Executive Dario Amodei spoke at the Nasdaq opening bell ceremony. He firmly reiterated Anthropic's commitment to pacing artificial intelligence development responsibly, emphasizing that safety standards must never be compromised by commercial or political pressures.",
+          "ja": "本日のCEOウォッチです。Anthropicのダリオ・アモデイCEOがナスダックの取引開始ベル式典で演説しました。同氏はビジネスや政治的な圧力によって安全基準が妥協されてはならないと強調し、責任あるペースでAI開発を進める同社の姿勢を改めて強く表明しました。",
+          "t": 1214.01
+        },
+        {
+          "speaker": "Mika",
+          "en": "Meanwhile, Microsoft CEO Satya Nadella warned about security realities at the DealBook Summit. Nadella observed that because AI accelerates vulnerability discovery, vendors are forced to patch software instantly in production, creating operational instability across internet-connected critical infrastructure.",
+          "ja": "一方、Microsoftのサティア・ナデラCEOはDealBookサミットでセキュリティの現実について警鐘を鳴らしました。ナデラ氏は、AIが脆弱性の発見を加速させるため、ベンダーは本番環境で即座にパッチを適用せざるを得ず、ネット接続された重要インフラに運用の不安定さをもたらしていると指摘しました。",
+          "t": 1233.56
+        }
+      ],
+      "lang": "en",
+      "t": 1214.01
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: Down to the Wire",
+      "heading_ja": "今日のフレーズ：Down to the wire",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's phrase of the day is 'down to the wire'. In our report on the UK and EU talks, negotiators said the discussions were going down to the wire. 'Down to the wire' means continuing right until the very last minute before a deadline.",
+          "ja": "今日のフレーズは「down to the wire」です。英EU会談の報道で、交渉が「down to the wire」になっていると伝えられました。これは締め切りの直前、最後の最後までもつれ込むことを意味します。",
+          "t": 1253.79
+        },
+        {
+          "speaker": "Alex",
+          "en": "Here is another everyday example: 'Our budget talks went down to the wire, but we reached an agreement just before midnight.'",
+          "ja": "日常の別の例を挙げましょう。「予算の話し合いは最後の最後までもつれ込みましたが、午前0時の直前に合意に達しました。」",
+          "t": 1267.54
+        }
+      ],
+      "lang": "en",
+      "t": 1253.79
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Wrap-up and Sign-off",
+      "heading_ja": "まとめとエンディング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That wraps up our show for this Friday. Global tech supply chains are shifting fast, and diplomatic borders are being redrawn. Have a wonderful and restful weekend, everyone.",
+          "ja": "今週金曜日の番組をお届けしました。世界のテック供給網は急速に変化し、外交の境界線も引き直されています。皆さん、素晴らしい充実した週末をお過ごしください。",
+          "t": 1275.44
+        },
+        {
+          "speaker": "Mika",
+          "en": "We will see you on Monday morning for your commute. Take care!",
+          "ja": "月曜日の朝、また通勤時間にお会いしましょう。お気をつけて！",
+          "t": 1285.92
+        }
+      ],
+      "lang": "en",
+      "t": 1275.44
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。よい週末をお過ごしください。いってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 1290.5
+        }
+      ],
+      "t": 1290.5
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "TSMC and Samsung Halt China Shipments Under New US Rules",
+      "title_ja": "TSMCとSamsung、米新輸出規制で対中半導体出荷を一時停止",
+      "summary_ja": "TSMCとSamsung Electronicsは、米国がマレーシアやシンガポール経由の規制を強化したことを受け、中国顧客向け先端半導体の一部の出荷を停止しました。両社は米国の製造装置や設計技術に依存しており、違反による制裁リスクを避けるため受注の審査を進めています。",
+      "why_ja": "東アジアの先端半導体サプライチェーンが米国の通商管理に直結している実態を示し、日本の部材・製造装置メーカーの対中ビジネスにも直接的な影響を与えます。",
+      "section": "tech",
+      "topic_key": "us-export-controls-tsmc-samsung-shipment-pause",
+      "companies": [
+        "TSMC",
+        "Samsung Electronics"
+      ],
+      "sources": [
+        {
+          "publisher": "The Edge Malaysia",
+          "title": "New US export controls on Malaysia, Singapore for advanced chips to take effect Nov 19",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9HbWVneXd0OHl3ZF9QX0pZWE10VVpyTW53SjlpTkNrS3drcFpwLVFkZXhobFlIRDVvVVBtNFVJSE5haF9vQktRWC1FZGdDRW9C?oc=5"
+        },
+        {
+          "publisher": "Proactive financial news",
+          "title": "TSMC and Samsung halt some chip shipments to China as US tightens export curbs",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUFdoNE4wZUlsM2QwVzNvaUEyeW9FUm1WRS10ZUl6Vy04NFdCUWhnSkxnVXFUc2g0b1JGTU5Ca2NqSzJ4VWxtSTQyd3RSWWhsWllvYXpTdGN3c1h4eFlMamgzS3ZfcWNlaVliOWg5d25VanF3RVd0TFlaRHlXODlKZjg0T1plWGJ4TWRISElIU1Z0X1llZy1DMnRmVGNRT2FEYUZ0bDJlUkM4cXlIMFgwUzB6dTNfZThyUUJkMnJvTllQbUZpaC1zRXFZWHlWdGhnY2FwQVhpUU5MUEJ4Rk9yU3lQVQ?oc=5"
+        },
+        {
+          "publisher": "Seeking Alpha",
+          "title": "TSMC and Samsung pause some chip shipments to China due to new US export rules: report",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTlF6RkgzZlhBY0ktWFUzb2wxR2JoQ3lFTG1kNHJwcFhxU1lTdV92Rm5rLWE1eTgyRHhwWHlGamlFOUk1R3pqMGJkak83dm1CZlE2RmtYSWhsRXdsc2hZdm1fSGs0LXlzVVpvaWlYWW9QVHgxS1lxMUI3QW5EZUc4NnE3MnpjMnp2dmRaSUlCS1BoajRwekt1U0ptWGNfSV9hWEZPY2lTX0YzV2k3Z1QzNmpaU3M3SWRCS3dMMG9kUTE?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "UK Tribunal Orders Disclosure of Secret Surveillance Order to Apple",
+      "title_ja": "英裁判所、Appleに対する秘密の監視命令の開示を命じる",
+      "summary_ja": "英国の捜査権限審判所は、暗号化データへのアクセスを求めて政府がAppleに出した秘密命令の存在を認めるよう命じる判決を下しました。Appleは暗号化を弱める要請を拒否し、英国内でのiCloud高度保護機能を停止していました。",
+      "why_ja": "国家安全保障を理由とした政府の監視要請に対し、裁判所が個人の暗号化プライバシーを擁護して情報開示を命じた歴史的な国際判例となります。",
+      "section": "tech",
+      "topic_key": "uk-apple-encryption-backdoor-tribunal-order",
+      "companies": [
+        "Apple"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "UK government forced to disclose secret Apple backdoor order",
+          "url": "https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order/"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "UK tribunal confirms government order demanding access to Apple data",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQenZpeUVpaFZLYklnRUUyX1M2WUFiLUE1VFNSQmZLWHdmaDB2a2Q1WXBOeDliUExJbzZ0eVFPLVJ2ekNKRVhBSFVSRXo4d2RxRG1XMjAzTkI3SjNmRGFGMVptQXQ4UFI3VklnanpvaEpXQnlYN0RxMHJXVGpXNWJMZnZDRWFRX0ZGQWNJT2xIdl9OUlpMci1FVUdMYnRORktIQjR4WmdGWWpUTnFBclBqbkdCYTZvMnNIY3FpN1RSdEFiQ2Rm?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "European Commission Probes Targeted AI-Assisted Cyberattack",
+      "title_ja": "欧州委員会、AI支援による標的型サイバー攻撃を調査",
+      "summary_ja": "欧州委員会は、人事や医療費払い戻しシステムを狙ったAI支援の標的型サイバー攻撃を受け、システムを遮断して情報流出の有無を調査しています。AIが悪用され、脆弱性の自動探索や巧妙なフィッシングが急増しています。",
+      "why_ja": "行政機関や医療関連インフラがAI化されたサイバー攻撃の直接的な標的となっており、公共ガバナンスにおける防御体制の刷新が急務となっています。",
+      "section": "tech",
+      "topic_key": "eu-commission-ai-cyberattack",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "The Register",
+          "title": "European Commission scrambles to contain AI-assisted cyberattack",
+          "url": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103"
+        }
+      ]
+    },
+    {
+      "title_en": "Microsoft Restructures Workforce Around AI and Highlights Firmware Risks",
+      "title_ja": "Microsoft、全社AI再編と修正困難なインフラ危機を表明",
+      "summary_ja": "Microsoftのサティア・ナデラCEOは、全社員がAIエージェントを管理する組織へ転換するため6万人に希望退職を提示したと述べました。同時に、データセンター冷却設備や交通制御機器など修正不可能な旧式ファームウェアがAI攻撃に脅かされていると警鐘を鳴らしました。",
+      "why_ja": "大手テック企業における雇用構造の不可逆的なAIシフトを示すとともに、社会インフラの老朽化した組込機器の脆弱性という新たな安全保障リスクを提起しています。",
+      "section": "tech",
+      "topic_key": "microsoft-workforce-ai-restructuring-buyouts",
+      "companies": [
+        "Microsoft"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+          "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+          "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/"
+        },
+        {
+          "publisher": "Benzinga",
+          "title": "Microsoft CEO Nadella Questions AI Clouds Reliant on Few Customers - Microsoft (NASDAQ:MSFT)",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORG1yMkF2Y3NJV3QwLXlyS3ppMkUyWk5oRG9kenVyd09zalZoWVJkcGVKOGNOQ1hlNVNRWnlkMHpkX1JEbTIwTV95VHVIdmFIbU5LUTU4UlJPNTBaZ0NTUWhUQ3dvX1oxY1ItY2thSmZtRV9ScGpMS1A0MUdWWEgydFh3amhaVWtxaG92WXpCdW5YQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "AMD Stock Drops After Short-Seller Report Alleges China Links",
+      "title_ja": "空売りファンドの報告書でAMD株が下落、中国関連取引を疑問視",
+      "summary_ja": "投資会社HunterbrookがAMDについて、AIチップ売上の循環取引や迂回輸出を通じた対中輸出規制違反の可能性を指摘する空売りレポートを発表し、株価が急落しました。NVIDIAに次ぐ供給元としての評価に揺らぎが生じています。",
+      "why_ja": "AI半導体需要の持続性に対する市場の疑念と、対中輸出規制を巡る米政府の監視網の厳格化が半導体企業の業績評価に及ぼす影響を浮き彫りにしています。",
+      "section": "tech",
+      "topic_key": "amd-hunterbrook-short-report-china-investigation",
+      "companies": [
+        "AMD"
+      ],
+      "sources": [
+        {
+          "publisher": "Bloomberg.com",
+          "title": "AMD Slides After Hunterbrook Shorts Stock, Cites Circular Deals",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbkp6di1ZYkMzQlhjTmkxbHFwNzIzLWMyc3NKXzBqSV9hZ05wODRRYUhjYl9pSmIyNENPaHpXWmlScUpaYXhfT3AyQ1hKYVhWZnhHRVp1a0g2dkVGWmpYa2lXdmdjaE1TUTQwbFlyNjJVNjVkRmlIbWt3WHhWYjNJWXNGSG9RcFkwYUFRZzdYMVNpQXVnZllfU0ZlZEc0QnFsQ1RnWk9tUmc5d2luUVVSaWRKMA?oc=5"
+        },
+        {
+          "publisher": "Barron's",
+          "title": "AMD Stock Drops After Short Report Says It Isn’t an Nvidia Replacement",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5vOE1LWHU3SlUwbnlZRHlYTUpYZEJzTUJYRlMwdjVaRXdiTXg3NHJKSEVNcTNOVTVOLXFac0xDUUU2dy1OM0tFcERGUG1BSV9hX0Z0Wk41bTdEbW1fNmFMNjh2cEVyeE1ldHFvQ2hoMHUtVTExT0ZPb2Y2V09Kdw?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "AMD shares slide as report says China links could invite US scrutiny",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdGVGbWc5MzZvYkJfQTdMMHBzZllhb3dnNzYydUFXOEpWOHNuRVppNnkyVEdldnp0Z1pMX3B1NlNOVGpPOTJFTE1qcTNFUFJOZjRoQTNfbk5DcUZmZ3dlN1MtUXRMblp4MFNPdnR6d1BjRUxXbkI4RHdLSm82MDJiRFVOQVJ6MGhRSEhYdEQtYVB6RVdoZjBvbWg5Z1BZY0Jrbno4THFVdUg5MEhIQml0TEJLWQ?oc=5"
+        },
+        {
+          "publisher": "CNBC",
+          "title": "AMD dives on short-seller report of alleged China exposure",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNamxpaV9pd09BZHBwY2dkTF9NMUttWDFlQS16Q2MwOFl3d3VxX1BrR0J4aEtlQXM2TG5XUlN0eXBfMExna25BSzNOdTUxNG1DdG5ZQ2NNaWtqTjJpTnQ3S25xeXpBSzk5cWp4MUExWmk3RE1GWExWalJINFNOX3FjYWphSHFsOVR1SHppYkxvU0Uyek5zU2hCcUMzZ9IBoAFBVV95cUxNelFseGlBTTJCNTlhVlhxSzVvTjd4Y29iNzkxUE9USXk5YnQ3bEVNWl9yRmpnOHVhYzhyLUp3WXQtQjRoSmVDMUVqcDR5bFBMQmxuUzJ1VnRVaTloYTlMQnhnZTZ6QU9ybDdGSzJpWjhOTjRYT3ZyVk5LSmd6a3dKbTMyU3hNckEyeU5YVHhiNmV1N0VTaDh0emN1bDJPYjZW?oc=5"
+        },
+        {
+          "publisher": "Hunterbrook",
+          "title": "The Bank of AMD",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9iRFBiQkd2dkRRWGpJN2dSSTRYWlgyaHR5Sm5WVkVCaEJZR19GY1o4cHB3SzA3bDRmeHRJWkdYRjVoOHRkTEJkR3I1QXIwUWlRRW94Y2FPc0J1dw?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Epic Systems Defends EHR Dominance and Outlines AI Record Access",
+      "title_ja": "電子カルテ最大手Epic、市場慣行を擁護しAIアクセス方針を提示",
+      "summary_ja": "電子カルテ大手のEpic Systemsは、囲い込み批判に対して患者プライバシーの安全確保を主張しつつ、外部AIツールによる医療記録アクセスに関する新基準を提示しました。医療現場ではAIコーディングによる医療費高騰などの課題も浮上しています。",
+      "why_ja": "医療データの囲い込み防止とAI利活用の両立は、日本の医療DX推進や地域医療情報連携ネットワーク（EHR）の設計においても直面する重要課題です。",
+      "section": "health",
+      "topic_key": "epic-systems-ehr-competition-ai-access",
+      "companies": [
+        "Epic Systems"
+      ],
+      "sources": [
+        {
+          "publisher": "STAT News",
+          "title": "STAT+: Epic defends competitive practices; promises AI access to records",
+          "url": "https://www.statnews.com/2026/11/19/epic-defends-competitive-practices-promises-ai-access-health-tech/?utm_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "ICJ Rules Myanmar Committed Genocide Against Rohingya",
+      "title_ja": "国際司法裁判所、ミャンマーのロヒンギャ虐殺を有罪認定",
+      "summary_ja": "ハーグの国際司法裁判所（ICJ）は、ミャンマー軍が2017年の掃討作戦においてロヒンギャ少数民族に対し集団殺害を実行したと認める歴史的判決を下しました。国家そのものがジェノサイド条約違反で有罪となるのは史上初です。",
+      "why_ja": "国際法廷が国家のジェノサイド責任を明確に認定した初の判例となり、アジア地域における人権保護や難民支援政策に根本的な影響を与えます。",
+      "section": "world",
+      "topic_key": "icj-myanmar-rohingya-genocide-ruling",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Rohingya genocide survivor: ‘perpetrators will have to face consequences’",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/rohingya-genocide-survivor-perpetrators-will-have-to-face?traffic_source=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "What does the Myanmar genocide ruling mean for the Rohingya?",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/what-does-the-myanmar-genocide-ruling-mean-for-the-rohingya?traffic_source=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "World reacts to ICJ finding Myanmar guilty of genocide against Rohingya",
+          "url": "https://www.aljazeera.com/news/2026/11/19/world-reacts-to-icj-finding-myanmar-guilty-of-genocide-against-rohingya?traffic_source=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Rohingya survivors react to landmark genocide ruling against Myanmar",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/rohingya-survivors-react-to-landmark-genocide-ruling-against-myanmar?traffic_source=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Rohingya genocide: What was said in court and what happens now?",
+          "url": "https://www.bbc.co.uk/news/videos/c60qj10j0ld5o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Myanmar ruling gives new relevance to genocide convention and is ‘full of messages’ for Israel",
+          "url": "https://www.theguardian.com/law/2026/nov/19/myanmar-ruling-new-relevance-genocide-convention-messages-israel"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "‘Everyone struggled for this justice’: tears in court as Rohingya vindicated in Myanmar genocide ruling",
+          "url": "https://www.theguardian.com/global-development/2026/nov/19/everyone-struggled-for-this-justice-tears-in-court-as-rohingya-vindicated-in-myanmar-genocide-ruling"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Myanmar committed genocide against Rohingya minority, world’s top court rules",
+          "url": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar"
+        },
+        {
+          "publisher": "The New York Times",
+          "title": "Live Updates: U.N. Court Rules Myanmar Committed Genocide Against Rohingya",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5qLUhZWS1IeE93REZvbWFfdUpvcnEyOG1kZjU5M2dMV3N2TFFtZEZsVll5eUx4MWxhcTRaWFlqSndxaVhtRWNrel94QVVCcWgtSGdvd2xvRHZNdm9rNDhJbmhpeWNmSW41bnRZaHo1a0xuRTZmODVXc3Yxemh3QQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Trump, Xi, and Putin Issue Joint Peace Declaration in Shenzhen",
+      "title_ja": "米中ロ首脳が深センで歴史的会談、共同平和宣言を発表",
+      "summary_ja": "トランプ米大統領、中国の習主席、ロシアのプーチン大統領が深センで初の3カ国首脳会談を開き、「核戦争は戦ってはならない」とする共同平和宣言に署名しました。国連改革や石油供給拡大で合意したものの、ウクライナやイランの戦争終結策には言及がありませんでした。",
+      "why_ja": "大国間の対話枠組みが再始動した一方で、進行中の国際紛争の具体的解決には至っておらず、今後の地政学的安全保障とエネルギー市場に波紋を広げます。",
+      "section": "world",
+      "topic_key": "trump-putin-xi-summit-china",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Will the Shenzhen summit safeguard world peace?",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/11/19/will-the-shenzhen-summit-safeguard-world-peace?traffic_source=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+          "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars",
+          "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "New page in history? Xi, Trump and Putin summit was more of a footnote",
+          "url": "https://www.theguardian.com/world/2026/nov/19/new-page-in-history-xi-trump-and-putin-summit-was-more-of-a-footnote"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Trump, Xi and Putin meet as global alliances hang in the balance",
+          "url": "https://www.npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa"
+        },
+        {
+          "publisher": "NBC News",
+          "title": "Trump touts ‘unbelievable’ summit with Putin and Xi, though peace deals remain elusive",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZ1ZqeHBBUkpzd1dXRjlaQ0RkemNaNWItOUN3RnlWdnFkdmo2Y19xOUFNQ3FHN0hLRndCM1I4TkYyUzlGY0ljc004UkdVejA5N2gyQmtQTWhET3VueEZjY292aUQtdlE5TWYwcEQ2MVNONFFNM1MtQnJHSEltaHlYRGJDUHZXWVdzd2JIUzFaeXdCRHlOdVRoaklhMU45U3BPMzFielVtR0RtTFRzNF9XZnNXcjY3eDNObU1mbGlLbTFrRUJtY3c?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "UK and EU Advance Brussels Summit for Post-Brexit Reset",
+      "title_ja": "英EU首脳がブリュッセルで会談、離脱後関係のリセットを協議",
+      "summary_ja": "英国のバーナム首相とEUのフォン・デア・ライエン委員長がブリュッセルでサミットを行い、若者移動枠10万人の受け入れや食品貿易協定の妥結を目指しました。また、却下された難民申請者を第三国へ送還する枠組みの協議開始でも一致しました。",
+      "why_ja": "ブレグジット後の通商摩擦の緩和と、欧州全体で喫緊の課題となっている移民・難民管理の新たな共同枠組みの行方を左右します。",
+      "section": "world",
+      "topic_key": "uk-eu-brussels-reset-summit",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "UK-EU reset talks will go ‘down to the wire’ as crunch summit approaches",
+          "url": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "UK and EU plan first talks on sending refused asylum seekers to third countries",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/19/uk-eu-talks-asylum-seekers-third-country-hubs"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "What is at stake at the EU-UK summit in Brussels?",
+          "url": "https://www.theguardian.com/politics/2026/nov/19/eu-uk-summit-explainer-burnham-brexit-brussels"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "export curbs",
+      "meaning_ja": "輸出規制",
+      "note_ja": "貿易管理において特定品目の国外持ち出しを制限する措置。",
+      "example_en": "This immediate move comes directly after the United States government announced and implemented tightened export curbs."
+    },
+    {
+      "term": "foundry",
+      "meaning_ja": "半導体受託製造企業（ファウンドリ）",
+      "note_ja": "他社が設計した半導体チップの製造を専門に請け負う工場・企業。",
+      "example_en": "Why are these major Asian foundries taking such decisive action right now?"
+    },
+    {
+      "term": "compliance",
+      "meaning_ja": "法令順守、コンプライアンス",
+      "note_ja": "法律や規制、社内規則などに従うこと。",
+      "example_en": "Pausing these shipments allows both foundries to review each customer order in detail and verify full legal compliance before moving forward."
+    },
+    {
+      "term": "backdoor",
+      "meaning_ja": "バックドア（裏口）",
+      "note_ja": "暗号化や認証を回避してシステム内に不正に侵入・アクセスできる裏ルート。",
+      "example_en": "Reports indicate that the government issued a secret technical capability notice requiring Apple to build a backdoor into its systems."
+    },
+    {
+      "term": "reimbursement",
+      "meaning_ja": "払い戻し、還付",
+      "note_ja": "立替金や医療費などを後から精算して返金すること。",
+      "example_en": "European Union IT officials took staff human resources and medical reimbursement portals completely offline."
+    },
+    {
+      "term": "buyout",
+      "meaning_ja": "早期退職手当、希望退職募集",
+      "note_ja": "退職金を割り増しして自発的な離職を促す制度。",
+      "example_en": "Microsoft CEO Satya Nadella has explained the corporate strategy behind offering voluntary buyouts to 60,000 employees in October."
+    },
+    {
+      "term": "firmware",
+      "meaning_ja": "ファームウェア",
+      "note_ja": "電子機器のハードウェアを直接制御するために内部に組み込まれたソフトウェア。",
+      "example_en": "He noted that everyday hardware, transportation systems, and data center cooling chillers run on internet-connected firmware that cannot easily be updated."
+    },
+    {
+      "term": "short-seller",
+      "meaning_ja": "空売り投資家",
+      "note_ja": "企業の株価が下落することを見込んで空売りを行い、利益を狙う投資家や機関。",
+      "example_en": "The short-seller report raised serious questions about AMD's reported artificial intelligence revenue."
+    },
+    {
+      "term": "scrutiny",
+      "meaning_ja": "厳格な精査、厳しい監視",
+      "note_ja": "規制当局や世論、市場などが細部まで綿密に調べること。",
+      "example_en": "Why have healthcare technology competitors and industry regulators been scrutinizing Epic so heavily?"
+    },
+    {
+      "term": "genocide",
+      "meaning_ja": "集団殺害、ジェノサイド",
+      "note_ja": "特定の国民、人種、民族、宗教的集団を故意に破壊・抹殺する行為。",
+      "example_en": "It marks the very first time in history that the world court has held a sovereign nation-state guilty of genocide under the 1948 Genocide Convention."
+    },
+    {
+      "term": "trilateral",
+      "meaning_ja": "3カ国間の、3者による",
+      "note_ja": "3つの国家や当事者が参加する会談や枠組みを表す言葉。",
+      "example_en": "United States President Donald Trump, Chinese President Xi Jinping, and Russian President Vladimir Putin concluded an unprecedented trilateral summit in Shenzhen, China."
+    },
+    {
+      "term": "down to the wire",
+      "meaning_ja": "最後の最後までもつれ込む",
+      "note_ja": "競馬のゴール前の針金（wire）に由来し、締め切りギリギリまで結果が分からない状況。",
+      "example_en": "Negotiations clearly went down to the wire before reaching this compromise."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "down to the wire",
+    "meaning_ja": "最後の最後まで、期限ギリギリまで",
+    "example_en": "Our budget talks went down to the wire, but we reached an agreement just before midnight.",
+    "example_ja": "私たちの予算交渉は最後の最後までもつれ込みましたが、午前0時の直前に合意に達しました。"
+  }
+}
