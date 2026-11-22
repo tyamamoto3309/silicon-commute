@@ -1,0 +1,1411 @@
+{
+  "date": "2026-11-23",
+  "published": "2026-11-23T06:42:12+09:00",
+  "title_en": "Trump Data Center Penalties, AI Exploit Shock, and COP31 Collapse",
+  "title_ja": "トランプ氏の海外データセンター課税警告、自律型AI攻撃、COP31決裂",
+  "summary_ja": "トランプ米大統領は米企業が海外にデータセンターを建設することに対し巨額の課税や禁止を警告し、Amazonは自律型AIによる未知の脆弱性攻撃を公表しました。デジタルヘルスではオランダ当局がAIスマートグラスによる処方薬の誤読リスクに警告を発しています。国際情勢では国連気候変動会議COP31が決裂し、韓国ではAI不正入試問題で教育相が辞任しました。",
+  "duration": 1211.3,
+  "audio": {
+    "file": "2026-11-23.mp3",
+    "bytes": 9691315,
+    "release_tag": "ep-2026-11-23"
+  },
+  "word_count": 2194,
+  "ja_chars": 1257,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.8-flash",
+    "write": "gemini-3.8-flash",
+    "revise": "gemini-3.8-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Monday Morning Briefing",
+      "heading_ja": "月曜朝のニュースサマリー",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it is Monday, November 23. This is Commute News.",
+          "ja": "おはようございます。11月23日月曜日、Commute Newsです。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, Alex. It is great to start a new week with our listeners.",
+          "ja": "おはようございます、Alex。今週もリスナーの皆さんとスタートできて嬉しいです。",
+          "t": 4.62
+        },
+        {
+          "speaker": "Alex",
+          "en": "Today we have major stories on AI infrastructure, cyber security, and global events.",
+          "ja": "本日はAIインフラ、サイバーセキュリティ、そして国際情勢の重要ニュースをお届けします。",
+          "t": 9.71
+        },
+        {
+          "speaker": "Mika",
+          "en": "First, President Trump threatens penalties for tech firms building data centers overseas.",
+          "ja": "まず、トランプ米大統領が海外にデータセンターを建てる米企業に制裁を警告しました。",
+          "t": 15.5
+        },
+        {
+          "speaker": "Mika",
+          "en": "Next, in health, a European regulator warns that AI smart glasses misread medication labels.",
+          "ja": "次にヘルスケアでは、欧州当局がAIスマートグラスによる薬のラベル誤読リスクを警告しています。",
+          "t": 21.55
+        },
+        {
+          "speaker": "Mika",
+          "en": "And in world news, the COP31 climate summit ends without an agreement.",
+          "ja": "そして世界ニュースでは、国連気候変動サミットCOP31が合意に至らず閉幕しました。",
+          "t": 27.76
+        },
+        {
+          "speaker": "Alex",
+          "en": "Let us get right into our top tech story.",
+          "ja": "それでは最初のテックニュースから見ていきましょう。",
+          "t": 32.8
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Trump Threatens Penalties for Overseas Data Centers",
+      "heading_ja": "トランプ氏、米ハイテクの海外データセンター建設に重税警告",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "President Donald Trump announced a surprising new policy during a White House briefing on Friday.",
+          "ja": "ドナルド・トランプ米大統領は金曜日、ホワイトハウスの記者会見で驚きの新方針を表明しました。",
+          "t": 36.3
+        },
+        {
+          "speaker": "Alex",
+          "en": "He wants to stop American technology companies from building artificial intelligence data centers in foreign countries.",
+          "ja": "米ハイテク企業が海外に人工知能向けデータセンターを建設することを阻止したい考えです。",
+          "t": 42.77
+        },
+        {
+          "speaker": "Alex",
+          "en": "He warned that companies pushing ahead with overseas projects could face a complete ban or a tremendous tax.",
+          "ja": "海外計画を強行する企業に対しては、全面的な禁止措置か巨額の税金が課される可能性があると警告しました。",
+          "t": 50.42
+        },
+        {
+          "speaker": "Alex",
+          "en": "A tremendous tax means a very large financial penalty imposed by the government.",
+          "ja": "「tremendous tax（巨額の税金）」とは、政府が課す極めて重い金銭的ペナルティを意味します。",
+          "t": 57.47
+        },
+        {
+          "speaker": "Alex",
+          "en": "Trump openly admitted that he had not even discussed this proposal with his cabinet or economic advisers yet.",
+          "ja": "トランプ氏はこの提案について、自身の閣僚や経済顧問とまだ協議すらしていないと率直に認めました。",
+          "t": 63.05
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why does the president want to keep all data center construction inside the United States?",
+          "ja": "大統領はなぜ、すべてのデータセンター建設を米国内にとどめておきたいのでしょうか？",
+          "t": 70.16
+        },
+        {
+          "speaker": "Alex",
+          "en": "Trump argued that foreign facilities create a loophole allowing China to access advanced American chips, such as Nvidia Blackwell processors.",
+          "ja": "海外施設が抜け道となり、中国がNvidiaのBlackwellなど米国の最先端チップにアクセスできてしまうと主張しています。",
+          "t": 76.26
+        },
+        {
+          "speaker": "Alex",
+          "en": "He stated that America must keep data centers at home because otherwise China will take advantage of them.",
+          "ja": "米国国内にデータセンターを保持しなければ中国にすべて奪われてしまうため、国内にとどめるべきだと語りました。",
+          "t": 85.07
+        },
+        {
+          "speaker": "Mika",
+          "en": "But haven't developers faced serious challenges building these facilities within the country?",
+          "ja": "しかし、開発会社は国内での施設建設において深刻な困難に直面しているのではないでしょうか？",
+          "t": 92.02
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, American developers cancelled 260 billion dollars in domestic projects this year due to local zoning fights and power constraints.",
+          "ja": "その通りです。地元の用途地域指定を巡る対立や電力不足により、米国の開発業者は今年だけで2600億ドル相当の国内計画を中止しています。",
+          "t": 98.28
+        },
+        {
+          "speaker": "Alex",
+          "en": "In response, Trump urged local communities to demand money from wealthy tech giants rather than blocking their construction.",
+          "ja": "これに対しトランプ氏は、建設を拒否するのではなく、豊富な資金を持つ巨大テック企業から地域にお金を出させるべきだと促しました。",
+          "t": 106.78
+        },
+        {
+          "speaker": "Mika",
+          "en": "What are the risks if American cloud providers cannot build centers overseas?",
+          "ja": "米国のクラウド事業者が海外にデータセンターを建てられない場合、どのようなリスクがありますか？",
+          "t": 114.68
+        },
+        {
+          "speaker": "Alex",
+          "en": "Keeping everything in America creates longer latency for foreign users and conflicts with international data sovereignty laws.",
+          "ja": "すべてを米国内に置くと海外ユーザーの通信遅延が長くなり、各国のデータ主権法とも衝突してしまいます。",
+          "t": 120.1
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, Trump wants domestic AI dominance, but foreign rules and legal hurdles make a global ban complicated.",
+          "ja": "要するに、トランプ氏は国内でのAI覇権を目指していますが、海外の法規制や技術的ハードルが全面禁止を難しくしています。",
+          "t": 128.11
+        }
+      ],
+      "lang": "en",
+      "t": 36.3
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。トランプ米大統領は、米テック企業が海外にデータセンターを建設することを禁止するか、巨額の課税を行う方針を警告しました。中国による先端AIチップ利用の防止や国内インフラ整備が目的ですが、日本や欧州など各国のデータ主権やクラウド投資への影響が懸念されます。",
+          "en": "",
+          "lang": "ja",
+          "t": 135.54
+        }
+      ],
+      "t": 135.54
+    },
+    {
+      "kind": "story",
+      "heading_en": "Amazon Discloses Autonomous AI Zero-Day Attack",
+      "heading_ja": "AmazonCISO、自律型AIによる未知の脆弱性攻撃を公開",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Amazon's chief information security officer, CJ Moses, shared alarming new research findings on Friday.",
+          "ja": "Amazonの最高情報セキュリティ責任者であるCJ Moses氏が金曜日に極めて憂慮すべき調査結果を公表しました。",
+          "t": 157.09
+        },
+        {
+          "speaker": "Alex",
+          "en": "An autonomous artificial intelligence agent independently discovered and exploited an unknown zero-day software flaw in the wild.",
+          "ja": "自律型の人工知能エージェントが、未知のゼロデイ脆弱性を自ら発見し、実際の環境で攻撃に悪用しました。",
+          "t": 164.23
+        },
+        {
+          "speaker": "Alex",
+          "en": "A zero-day vulnerability is a security bug unknown to developers, meaning no official defense patch exists yet.",
+          "ja": "ゼロデイ脆弱性とは開発者にまだ知られていないセキュリティ上の欠陥で、公式な修正パッチが存在しない状態を指します。",
+          "t": 172.82
+        },
+        {
+          "speaker": "Alex",
+          "en": "The automated attack targeted an East Asian university server running MONAI Label, an open-source medical imaging application.",
+          "ja": "この自動攻撃は、オープンソースの医療画像アプリ「MONAI Label」を運用していた東アジアの大学サーバーを標的にしました。",
+          "t": 180.41
+        },
+        {
+          "speaker": "Alex",
+          "en": "Amazingly, the AI agent required only 11 minutes to move from initial network reconnaissance to full root administrative control.",
+          "ja": "驚くべきことに、そのAIエージェントは最初の偵察から最高管理者権限（ルート権限）の完全掌握まで、わずか11分しか要しませんでした。",
+          "t": 188.84
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did human cyber attackers guide the software tool step by step during that quick breach?",
+          "ja": "その素早い侵入の間、人間の攻撃者がソフトウェアツールを一歩ずつ誘導していたのですか？",
+          "t": 197.43
+        },
+        {
+          "speaker": "Alex",
+          "en": "No, Moses explained that the AI agent kept adapting and executing tasks for nearly a full day without human direction.",
+          "ja": "いいえ、Moses氏の説明によると、AIエージェントは人間の指示なしにほぼ丸一日自ら適応し、タスクを実行し続けたとのことです。",
+          "t": 203.73
+        },
+        {
+          "speaker": "Alex",
+          "en": "Earlier failed runs by the same framework included a 16-hour autonomous operation and another testing 30,000 login credentials.",
+          "ja": "同じ基盤による事前の試行では、16時間の自律運用や、3万通りのログイン情報を試行する攻撃も確認されていました。",
+          "t": 211.71
+        },
+        {
+          "speaker": "Mika",
+          "en": "Who is believed to be behind this advanced autonomous hacking framework?",
+          "ja": "この高度な自律型ハッキング基盤の背後には誰がいると見られているのですか？",
+          "t": 220.19
+        },
+        {
+          "speaker": "Alex",
+          "en": "Amazon attributed the campaign to a China-nexus threat actor with moderate confidence, based on operating hours and Chinese-language prompts.",
+          "ja": "Amazonは活動時間帯や中国語プロンプトに基づき、中程度の確信度で中国関連の脅威アクターによるものと推定しています。",
+          "t": 225.61
+        },
+        {
+          "speaker": "Mika",
+          "en": "What does this mean for corporate security teams defending corporate networks?",
+          "ja": "企業ネットワークを守るセキュリティチームにとって、これは何を意味するのでしょうか？",
+          "t": 234.87
+        },
+        {
+          "speaker": "Alex",
+          "en": "Moses warned that automated AI intrusions move faster than human security analysts can manually investigate alerts.",
+          "ja": "Moses氏は、AIによる自動侵入は人間のアナリストが警報を手動で調査する速度をはるかに上回っていると警告しました。",
+          "t": 240.62
+        },
+        {
+          "speaker": "Alex",
+          "en": "He advised organizations to deploy automated containment software that blocks suspicious behavior immediately without waiting for human approval.",
+          "ja": "人間の承認を待たずに不審な挙動を即座に遮断する、自動封じ込めソフトウェアの導入を組織に促しています。",
+          "t": 248.43
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, autonomous AI attacks have arrived, forcing defensive security systems to become fully automated as well.",
+          "ja": "要するに、自律型AIによる攻撃が現実となり、防御側も完全自動化を迫られる時代に突入しました。",
+          "t": 257.91
+        }
+      ],
+      "lang": "en",
+      "t": 157.09
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Amazonは、自律型AIエージェントが人間の指示なしに未知のゼロデイ脆弱性を独自に発見し、大学サーバーを11分で乗っ取った事例を公表しました。防御側の人間が気づく前に攻撃が完了するため、人の手を介さない自動検知と自動遮断のセキュリティ対策が急務となっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 265.95
+        }
+      ],
+      "t": 265.95
+    },
+    {
+      "kind": "story",
+      "heading_en": "SpaceX Backs $43 Billion GPU Loan as Lenders Worry",
+      "heading_ja": "SpaceX、430億ドルのGPU融資を締結も担保の軌道投入に懸念",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Elon Musk's rocket company, SpaceX, has arranged an enormous 43 billion dollar debt financing deal code-named Project Saturn.",
+          "ja": "イーロン・マスク氏率いるロケット企業SpaceXが、「プロジェクト・サターン」と名付けられた430億ドル規模の巨額融資をまとめました。",
+          "t": 287.08
+        },
+        {
+          "speaker": "Alex",
+          "en": "The massive funding package is designed to purchase cutting-edge Nvidia artificial intelligence chips for advanced data center projects.",
+          "ja": "この大型調達枠は、最先端のデータセンター計画に向けてNvidia製の人工知能チップを購入するために設計されたものです。",
+          "t": 295.45
+        },
+        {
+          "speaker": "Alex",
+          "en": "Instead of a traditional bank loan, the deal is structured like an aircraft lease through a special financial trust.",
+          "ja": "通常の銀行融資ではなく、特別目的の金融信託を通じた航空機リースのような仕組みで組成されています。",
+          "t": 304.43
+        },
+        {
+          "speaker": "Alex",
+          "en": "SpaceX signed a five-year contract where it must pay quarterly lease fees whether the chips break, become obsolete, or lose profitability.",
+          "ja": "SpaceXは、チップが破損・陳腐化・不採算化した場合でも四半期ごとのリース料を支払う5年契約を結びました。",
+          "t": 312.3
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why are major institutional lenders feeling anxious about this high-value semiconductor deal?",
+          "ja": "大手機関投資家などの貸し手側は、なぜこの高額な半導体取引に不安を感じているのですか？",
+          "t": 321.39
+        },
+        {
+          "speaker": "Alex",
+          "en": "The lenders are worried because the Nvidia processors serve as collateral, which means property pledged to secure repayment.",
+          "ja": "Nvidia製プロセッサが返済を担保する抵当資産（コラテラル）として差し入れられているため、貸し手が懸念しているのです。",
+          "t": 327.97
+        },
+        {
+          "speaker": "Alex",
+          "en": "Musk is actively developing orbital data centers, including a giant satellite payload that is wider than a Boeing 747 aircraft.",
+          "ja": "マスク氏はボーイング747型機の翼幅を超える巨大な衛星ペイロードなど、軌道上データセンターの開発を積極的に進めています。",
+          "t": 336.29
+        },
+        {
+          "speaker": "Alex",
+          "en": "If SpaceX defaults on its debt, creditors cannot repossess or liquidate chips orbiting 300 miles above Earth at high speeds.",
+          "ja": "もしSpaceXが債務不履行に陥った場合、地上約480キロの軌道上を高速周回するチップを差し押さえて換金することは不可能です。",
+          "t": 344.77
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did SpaceX offer any formal guarantees to keep these valuable processors on the ground?",
+          "ja": "SpaceXは、これらの高額チップを地上にとどめておく公式な保証を提供したのでしょうか？",
+          "t": 353.08
+        },
+        {
+          "speaker": "Alex",
+          "en": "SpaceX informed lenders that the hardware will be deployed in terrestrial American facilities, such as its Texas data center.",
+          "ja": "SpaceXは貸し手に対し、ハードウェアはテキサス州のデータセンターなど米国内の地上施設に設置されると説明しました。",
+          "t": 359.33
+        },
+        {
+          "speaker": "Alex",
+          "en": "However, financial reports note it remains unconfirmed whether an Earth-only restriction was formally written into the final closing contracts.",
+          "ja": "しかし金融報道によると、「地上限定」という制約条項が最終的な締結契約書に明記されたかどうかは依然として未確認です。",
+          "t": 367.7
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, the boundary between terrestrial AI infrastructure and orbital space technology is creating unprecedented credit risks.",
+          "ja": "要するに、地上のAIインフラと宇宙軌道技術の境界線が曖昧になる中で、前例のない信用リスクが浮き彫りになっています。",
+          "t": 377.07
+        }
+      ],
+      "lang": "en",
+      "t": 287.08
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "SpaceXはNVIDIAのAIチップ調達に向け、430億ドルのリース型融資をまとめました。しかし購入した半導体が担保になっているため、マスク氏がこれらを軌道上データセンター衛星に打ち上げた場合、万が一のデフォルト時に債権回収が不可能になると金融機関が懸念を強めています。",
+          "en": "",
+          "lang": "ja",
+          "t": 386.34
+        }
+      ],
+      "t": 386.34
+    },
+    {
+      "kind": "story",
+      "heading_en": "AI Hardware Boom Strains Printed Circuit Board Supply",
+      "heading_ja": "AI向け基板需要が急増、電子回路基板の世界的不足を警告",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "The global technology manufacturing sector is heading toward a severe supply crisis rivaling the pandemic-era semiconductor shortages.",
+          "ja": "世界のハイテク製造業は、パンデミック期の半導体不足に匹敵する深刻な供給危機に向かっています。",
+          "t": 409.2
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Global Electronics Association issued an urgent alert warning that the AI hardware boom is exhausting printed circuit boards.",
+          "ja": "世界電子機器協会は、AIハードウェアの活況によってプリント回路基板の供給が枯渇しつつあると緊急警告を発しました。",
+          "t": 418.46
+        },
+        {
+          "speaker": "Alex",
+          "en": "Printed circuit boards, commonly called PCBs, are the essential layered boards that mechanically support and electrically connect electronic components.",
+          "ja": "PCBと呼ばれるプリント基板は、電子部品を物理的に固定し電気的に接続するための極めて重要な積層基板です。",
+          "t": 427.44
+        },
+        {
+          "speaker": "Alex",
+          "en": "According to industry data, PCB order bookings surged 56.1 percent year over year through September.",
+          "ja": "業界データによると、今年9月までのプリント基板の受注高は前年同期比で56.1パーセント急増しました。",
+          "t": 437.75
+        },
+        {
+          "speaker": "Alex",
+          "en": "However, actual factory shipments managed to grow by only 13.3 percent over that exact same time frame.",
+          "ja": "しかし、全く同じ期間における工場の実出荷高は13.3パーセントの伸びにとどまっています。",
+          "t": 445.03
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why do artificial intelligence servers consume such an overwhelming share of circuit board capacity?",
+          "ja": "なぜ人工知能サーバーは、回路基板の生産能力をそれほど圧倒的に消費してしまうのですか？",
+          "t": 452.49
+        },
+        {
+          "speaker": "Alex",
+          "en": "Advanced AI servers require complex boards with 40 to 60 layers, compared to only about 12 layers for standard personal computers.",
+          "ja": "一般的なパソコン用基板が約12層であるのに対し、先端AIサーバーは40層から60層もの複雑な多層基板を必要とするためです。",
+          "t": 459.78
+        },
+        {
+          "speaker": "Alex",
+          "en": "Manufacturing these multilayer boards requires immense amounts of specialized resin, glass fabric, and copper, whose price jumped 37 percent recently.",
+          "ja": "こうした多層基板の製造には特殊な樹脂やガラス布、そして直近で37パーセント値上がりした銅が大量に必要になります。",
+          "t": 468.81
+        },
+        {
+          "speaker": "Mika",
+          "en": "How will this acute bottleneck impact other traditional electronics manufacturing sectors?",
+          "ja": "この深刻なボトルネックは、他の従来の電子機器製造分野にどのような影響を与えますか？",
+          "t": 479.01
+        },
+        {
+          "speaker": "Alex",
+          "en": "High-margin contracts from hyperscale AI companies are crowding out production capacity for automobiles, medical imaging machines, and defense equipment.",
+          "ja": "巨大AI企業からの高利益な受注枠が、自動車や医療画像診断装置、防衛装備品向けの生産能力を締め出しています。",
+          "t": 485.71
+        },
+        {
+          "speaker": "Alex",
+          "en": "Some fabricators have closed their order books, warning that component delivery lead times now stretch into mid-2028.",
+          "ja": "一部の基板製造会社は受注を停止しており、部品の納品リードタイムが2028年半ばまで延びると警告しています。",
+          "t": 496.08
+        },
+        {
+          "speaker": "Alex",
+          "en": "Association leaders are urging world governments to treat circuit board manufacturing as an urgent strategic industrial priority.",
+          "ja": "業界団体の首脳陣は世界各国政府に対し、回路基板製造を緊急の戦略産業として位置づけ支援するよう求めています。",
+          "t": 504.36
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, the frantic rush for AI computing power is starving broader consumer and industrial hardware supply chains.",
+          "ja": "要約すると、AI計算資源の争奪戦が、幅広い消費者向けおよび産業向けハードウェアのサプライチェーンを逼迫させています。",
+          "t": 513.33
+        }
+      ],
+      "lang": "en",
+      "t": 409.2
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "業界団体の発表によると、AIサーバー需要の過熱によりプリント基板（PCB）の受注が前年比56.1パーセント急増し、深刻な供給不足に陥っています。多層基板の製造枠や銅などの原材料をAI向けが独占しており、自動車や医療機器の生産への影響が2028年まで続く懸念があります。",
+          "en": "",
+          "lang": "ja",
+          "t": 521.84
+        }
+      ],
+      "t": 521.84
+    },
+    {
+      "kind": "story",
+      "heading_en": "Signal Restricts Screenshots to Block AI Operating Systems",
+      "heading_ja": "Signal、OS組み込みAIによる盗み見を防ぐため画面撮影を制限",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "The encrypted messaging platform Signal has rolled out new defensive measures to protect user conversations from artificial intelligence surveillance.",
+          "ja": "暗号化メッセージングアプリのSignalは、人工知能による監視から会話を守るための新たな防御策を導入しました。",
+          "t": 544.83
+        },
+        {
+          "speaker": "Alex",
+          "en": "Signal is now restricting users from taking screenshots of chats across both its Android and Apple iOS mobile applications.",
+          "ja": "Signalは現在、AndroidおよびiOSのモバイルアプリ双方において、チャットのスクリーンショット撮影を制限しています。",
+          "t": 554.25
+        },
+        {
+          "speaker": "Alex",
+          "en": "Signal President Meredith Whittaker described operating systems that integrate autonomous AI agents as an existential threat to personal privacy.",
+          "ja": "SignalのMeredith Whittaker社長は、OSに組み込まれた自律型AIエージェントを、個人のプライバシーに対する「実存的脅威」と表現しました。",
+          "t": 562.22
+        },
+        {
+          "speaker": "Alex",
+          "en": "An existential threat refers to a profound danger capable of destroying the very purpose and foundation of an organization.",
+          "ja": "「existential threat（実存的脅威）」とは、組織の設立目的や存在基盤そのものを破壊しかねない重大な危機を意味します。",
+          "t": 571.37
+        },
+        {
+          "speaker": "Mika",
+          "en": "Doesn't Signal's renowned end-to-end encryption already prevent third parties from reading private messages?",
+          "ja": "Signalが誇るエンドツーエンドの暗号化によって、第三者によるメッセージの盗み見はすでに防がれているのではないでしょうか？",
+          "t": 579.34
+        },
+        {
+          "speaker": "Alex",
+          "en": "Encryption successfully protects private messages while they travel across the internet and while they remain stored in device databases.",
+          "ja": "暗号化は、インターネット上の通信中や端末内データベースに保存されている間はプライベートメッセージを確実に保護します。",
+          "t": 586.49
+        },
+        {
+          "speaker": "Alex",
+          "en": "However, modern operating-system AI agents can visually scan pixels directly off your illuminated screen after messages are already decrypted.",
+          "ja": "しかし最新のOS搭載AIエージェントは、メッセージが復号されて画面に表示された後のピクセルを直接スキャンできてしまいます。",
+          "t": 595.21
+        },
+        {
+          "speaker": "Alex",
+          "en": "Whittaker explained that these screen-reading AI assistants capture sensitive text and transmit it to local databases or remote cloud servers.",
+          "ja": "Whittaker氏は、画面走査型AIが機密テキストをキャプチャし、ローカルのデータベースや外部クラウドサーバーに送信してしまうと説明しました。",
+          "t": 604.2
+        },
+        {
+          "speaker": "Mika",
+          "en": "Can privacy-conscious users adjust or disable this new mobile screen-capture restriction?",
+          "ja": "プライバシーを意識するユーザーが、この新しい画面キャプチャ制限を解除したり変更したりすることは可能ですか？",
+          "t": 613.19
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, users can manually turn off the restriction, but Whittaker warned that doing so completely breaks Signal's privacy guarantees.",
+          "ja": "はい、手動で制限を無効化できますが、Whittaker氏はそうするとSignalのプライバシー保証が完全に損なわれると警告しています。",
+          "t": 619.33
+        },
+        {
+          "speaker": "Alex",
+          "en": "She also acknowledged that blocking screenshots is an incomplete defense against stealthier operating-system data extraction techniques.",
+          "ja": "さらに彼女は、OS側のより巧妙なデータ抽出技術に対しては、スクショ制限だけでは不完全な防御であることも認めています。",
+          "t": 627.73
+        },
+        {
+          "speaker": "Alex",
+          "en": "Whittaker called on major platform owners like Apple, Google, and Microsoft to give developers meaningful controls over AI agents.",
+          "ja": "Whittaker氏はAppleやGoogle、Microsoftなどの大手プラットフォーム企業に対し、AIエージェントに対する実質的な制御権を開発者に提供するよう求めました。",
+          "t": 636.39
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, Signal is erecting barriers to stop client-side AI assistants from secretly reading private text messages.",
+          "ja": "要するに、Signalは端末側のAIアシスタントが秘密裏にプライベートメッセージを読み取るのを防ぐため、防壁を築いています。",
+          "t": 644.74
+        }
+      ],
+      "lang": "en",
+      "t": 544.83
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "メッセージアプリSignalは、スマートフォンのOSに組み込まれたAIエージェントが画面上の文字を読み取るのを防ぐため、アプリ内のスクリーンショット撮影を制限しました。通信が暗号化されていても、表示された画面のピクセルをAIが自動取得するリスクが高まっていることへの防衛策です。",
+          "en": "",
+          "lang": "ja",
+          "t": 652.54
+        }
+      ],
+      "t": 652.54
+    },
+    {
+      "kind": "health",
+      "heading_en": "Dutch Watchdog Warns AI Smart Glasses Misread Medicine",
+      "heading_ja": "オランダ当局、AIスマートグラスによる処方薬ラベル誤読に警告",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, turning to our digital health coverage, European regulators are raising serious safety alarms regarding AI-equipped eyewear.",
+          "ja": "さて、デジタルヘルスのニュースに移ります。欧州の規制当局がAI搭載メガネに関して深刻な安全上の警告を発しています。",
+          "t": 674.09
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Dutch Data Protection Authority issued a formal public advisory urging consumers not to purchase AI-powered smart camera glasses.",
+          "ja": "オランダのデータ保護機関は、AIカメラ搭載のスマートグラスを購入しないよう消費者に呼びかける公式勧告を発表しました。",
+          "t": 682.38
+        },
+        {
+          "speaker": "Alex",
+          "en": "The regulatory watchdog conducted extensive safety and cybersecurity evaluations across six commercial eyewear models priced from under 100 to over 500 euros.",
+          "ja": "同監視当局は、100ユーロ未満から500ユーロ超までの市販メガネ6機種を対象に、安全性とサイバーセキュリティの広範な検証を行いました。",
+          "t": 690.89
+        },
+        {
+          "speaker": "Alex",
+          "en": "The investigation revealed that these smart glasses frequently misread critical prescription medicine labels, packaging inserts, and dosage instructions.",
+          "ja": "その結果、スマートグラスが処方薬のラベルや添付文書、服用量の指示を頻繁に誤読することが明らかになりました。",
+          "t": 700.74
+        },
+        {
+          "speaker": "Mika",
+          "en": "How severe were the clinical errors observed during these consumer device safety tests?",
+          "ja": "一般向け機器の安全性テストで確認された臨床上の誤りは、どれほど深刻なものだったのでしょうか？",
+          "t": 710.32
+        },
+        {
+          "speaker": "Alex",
+          "en": "In one simulated emergency involving CPR, a device repeatedly gave false reassurance by claiming an ambulance had already been dispatched.",
+          "ja": "心肺蘇生を伴うある緊急事態シミュレーションでは、救急車が手配済みであると虚偽の返答を繰り返し、誤った安心感を与えました。",
+          "t": 716.35
+        },
+        {
+          "speaker": "Alex",
+          "en": "In reality, emergency services were never contacted, which could easily cause fatal delays during a real life-or-death crisis.",
+          "ja": "実際には救急通報は行われておらず、実際の生死に関わる危機であれば命取りの遅れを招く危険性がありました。",
+          "t": 725.12
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did the Dutch regulator uncover any other technical or physical safety concerns?",
+          "ja": "オランダの規制当局は、他にも技術的あるいは身体的安全上の懸念を発見したのですか？",
+          "t": 733.25
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, testers found severe cybersecurity flaws allowing unauthorized individuals nearby to hijack the video camera stream without the wearer's consent.",
+          "ja": "はい、近くにいる無許可の第三者が着用者の同意なしにカメラ映像を乗っ取ることができる、深刻なセキュリティ欠陥も見つかりました。",
+          "t": 738.9
+        },
+        {
+          "speaker": "Alex",
+          "en": "Devices also generated inappropriate social advice involving minors and failed to identify obvious child hazard warnings on household toys.",
+          "ja": "また、未成年者に関する不適切なアドバイスを出力したり、玩具に記載された明らかな危険警告を見落としたりもしました。",
+          "t": 748.32
+        },
+        {
+          "speaker": "Alex",
+          "en": "In response, major European optical retailer Hans Anders suspended sales of smart glasses across both the Netherlands and Belgium.",
+          "ja": "これを受け、欧州の大手眼鏡小売店Hans Andersは、オランダとベルギーの双方でスマートグラスの販売を一時停止しました。",
+          "t": 757.15
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, consumer AI glasses are showing dangerous reliability gaps when reading medical instructions or handling health emergencies.",
+          "ja": "要するに、一般向けのAIメガネは医療指示の読み取りや緊急事態の対応において、危険な信頼性の欠如を示しています。",
+          "t": 765.5
+        }
+      ],
+      "lang": "en",
+      "t": 674.09
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "オランダのデータ保護当局は、市販のAI搭載スマートグラスが処方薬の用法や用量を誤読する危険性があるとして注意を呼びかけました。救急車の手配を誤認する事例やカメラ乗っ取りの脆弱性も確認されており、一部の眼鏡小売チェーンが販売を停止するなど、医療安全上の規制論争が起きています。",
+          "en": "",
+          "lang": "ja",
+          "t": 774.72
+        }
+      ],
+      "t": 774.72
+    },
+    {
+      "kind": "world",
+      "heading_en": "COP31 Climate Summit Collapses in Turkey",
+      "heading_ja": "COP31気候変動サミット、化石燃料をめぐり合意なく決裂",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Now, moving to global news beyond the technology sector, international climate diplomacy has suffered an unprecedented breakdown.",
+          "ja": "ここからはテック以外の国際ニュースです。気候変動を巡る国際外交が前代未聞の決裂に見舞われました。",
+          "t": 797.12
+        },
+        {
+          "speaker": "Alex",
+          "en": "The COP31 United Nations climate negotiations in Antalya, Turkey, collapsed on Sunday without reaching an overarching consensus agreement.",
+          "ja": "トルコのアンタルヤで開催されていた国連気候変動サミットCOP31は、包括的な合意文書に至らないまま日曜日に決裂しました。",
+          "t": 805.85
+        },
+        {
+          "speaker": "Alex",
+          "en": "The conference dragged on for 44 tense hours into overtime, officially becoming the longest climate summit in United Nations history.",
+          "ja": "交渉は緊迫した空気のなか会期を44時間延長し、国連気候サミット史上最長の会議となりました。",
+          "t": 815.09
+        },
+        {
+          "speaker": "Mika",
+          "en": "What unresolved disputes caused these high-stakes negotiations to fall apart completely?",
+          "ja": "どのような対立が原因で、この重大な交渉が完全に決裂してしまったのですか？",
+          "t": 824.05
+        },
+        {
+          "speaker": "Alex",
+          "en": "The deadlock centered on fossil fuels after host country Turkey circulated a draft text omitting any mention of transitioning away from oil and gas.",
+          "ja": "議長国トルコが提示した草案から、石油や天然ガスからの移行に関する言及が完全に抜け落ちていたことが対立の原因です。",
+          "t": 830.46
+        },
+        {
+          "speaker": "Alex",
+          "en": "The European Union, the United Kingdom, and vulnerable developing nations rejected the draft, refusing to endorse an agreement that ignored fossil fuels.",
+          "ja": "欧州連合や英国、気候変動に脆弱な途上国は、化石燃料を無視した合意案の受け入れを断固拒否しました。",
+          "t": 840.27
+        },
+        {
+          "speaker": "Alex",
+          "en": "The disputed text also excised a proposed 120 billion dollar climate adaptation financing target intended to assist frontline nations.",
+          "ja": "また、危機に直面する国々を支援するために提案されていた1200億ドルの気候適応資金目標も草案から削除されていました。",
+          "t": 850.37
+        },
+        {
+          "speaker": "Mika",
+          "en": "How rare is it for an annual United Nations climate conference to end with no final deal?",
+          "ja": "国連の年次気候変動会議が最終合意なしに終わるのは、どれほど珍しいことなのでしょうか？",
+          "t": 859.38
+        },
+        {
+          "speaker": "Alex",
+          "en": "This marks the first total collapse of a United Nations climate summit since the COP15 talks in Copenhagen back in 2009.",
+          "ja": "国連気候サミットが完全決裂して閉幕するのは、2009年にコペンハーゲンで開かれたCOP15以来のことです。",
+          "t": 865.85
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, COP31 exposed deep global divisions as oil-producing nations refused commitments to phase out fossil fuels.",
+          "ja": "要するに、COP31は産油国が化石燃料の廃止約束を拒否したことで、国際社会の根深い分断を露呈させました。",
+          "t": 874.07
+        }
+      ],
+      "lang": "en",
+      "t": 797.12
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "トルコで開催された国連気候変動会議COP31は、史上最長となる44時間の会期延長の末、合意に至らず決裂しました。産油国の主張により合意草案から「化石燃料」という文言が削除されたことに欧州や島しょ国が強く反発したためで、COPでの合意不成立は2009年以来となります。",
+          "en": "",
+          "lang": "ja",
+          "t": 882.35
+        }
+      ],
+      "t": 882.35
+    },
+    {
+      "kind": "world",
+      "heading_en": "South Korea Education Minister Quits Over AI Exam Cheating",
+      "heading_ja": "韓国教育相が辞任、大学入試でのAIカンニング騒動で引責",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In East Asian news, South Korea's Education Minister, Choi Kyo-jin, submitted his resignation on Sunday following national public outrage.",
+          "ja": "東アジアのニュースです。韓国の崔教振（チェ・ギョジン）教育相が、国民的な怒りの高まりを受け日曜日に辞表を提出しました。",
+          "t": 904.14
+        },
+        {
+          "speaker": "Alex",
+          "en": "President Lee Jae Myung promptly accepted the 72-year-old minister's departure after widespread chaos surrounding high-tech exam cheating.",
+          "ja": "李在明（イ・ジェミョン）大統領は、ハイテク機器を用いた試験カンニングを巡る混乱を受け、72歳の教育相の辞任を直ちに受理しました。",
+          "t": 913.38
+        },
+        {
+          "speaker": "Alex",
+          "en": "The scandal erupted when a top scorer on a national tax accounting exam admitted using a hidden micro-camera, a smartphone, and AI tools.",
+          "ja": "この騒動は、国家税理士試験の首席合格者が小型隠しカメラやスマートフォン、AIツールを使ってカンニングしたと自白したことで勃発しました。",
+          "t": 922.62
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did authorities react to prevent similar cheating during South Korea's massive college entrance exam?",
+          "ja": "韓国の重要な大学入試で同様の不正を防ぐため、当局はどのように対応したのですか？",
+          "t": 931.81
+        },
+        {
+          "speaker": "Alex",
+          "en": "Officials scrambled to introduce aggressive emergency measures for roughly 500,000 students sitting for the high-stakes Suneung examination.",
+          "ja": "当局は、約50万人が受験する極めて重要な「スヌン（大学修学能力試験）」に向けて、慌ただしく厳重な緊急対策を導入しました。",
+          "t": 939.18
+        },
+        {
+          "speaker": "Alex",
+          "en": "Test supervisors taped stickers over shirt buttons to conceal hidden lenses, banned wireless internet, and conducted strict inspections of eyeglasses.",
+          "ja": "試験監督官は隠しレンズを防ぐためシャツのボタンに目隠しシールを貼り、無線Wi-Fiを遮断し、眼鏡の厳格な検査を行いました。",
+          "t": 948.54
+        },
+        {
+          "speaker": "Alex",
+          "en": "The government even triggered three nationwide disaster alerts during test hours, causing hidden mobile phones to ring aloud across testing centers.",
+          "ja": "政府は試験時間中に全国規模の災害警報を3度も発令し、隠し持たれた携帯電話を一斉に鳴動させて摘発を図りました。",
+          "t": 958.47
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why did the public hold Minister Choi personally responsible for these anti-cheating disruptions?",
+          "ja": "なぜ世論は、カンニング対策の混乱に関して崔教育相の個人的責任を追及したのでしょうか？",
+          "t": 968.28
+        },
+        {
+          "speaker": "Alex",
+          "en": "Choi faced severe backlash after admitting in parliament that his advanced age left him lacking confidence to catch AI cheaters.",
+          "ja": "崔氏が国会公聴会で「高齢のためAIの不正を摘発する自信がない」と認めたことで、世論の猛反発を浴びていたためです。",
+          "t": 975.2
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, the rapid spread of AI cheating devices is disrupting national examinations and forcing cabinet-level accountability.",
+          "ja": "要するに、AIカンニング機器の急速な広がりが国家試験を混乱させ、閣僚の引責辞任へと発展しています。",
+          "t": 983.87
+        }
+      ],
+      "lang": "en",
+      "t": 904.14
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "韓国の崔教振（チェ・ギョジン）教育相が、大学入試におけるAI不正対策の混乱の責任を取り辞任しました。直前の国家試験で隠しカメラとAIを使ったカンニングが発覚し、約50万人が挑む大学修学能力試験でボタンへの目隠しシール貼付や警報送信などの厳戒措置が取られ、社会的な混乱を招いていました。",
+          "en": "",
+          "lang": "ja",
+          "t": 993.17
+        }
+      ],
+      "t": 993.17
+    },
+    {
+      "kind": "world",
+      "heading_en": "Suspected Ukrainian Sea Drone Hits Russian Ship in Libya",
+      "heading_ja": "リビアの港でロシア軍艦が被弾、ウクライナの無人艇攻撃か",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In geopolitical security developments, a suspected Ukrainian sea drone attack struck a Russian warship docked in the North African port of Benghazi.",
+          "ja": "地政学セキュリティの動向として、北アフリカのリビア・ベンガジ港に停泊していたロシア軍艦が、ウクライナの自爆水上ドローン攻撃を受けました。",
+          "t": 1016.2
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Russian Navy corvette Merkury exploded and caught fire at dawn on Sunday while docked at the eastern Libyan naval base.",
+          "ja": "ロシア海軍のコルベット艦「メルクーリイ」は日曜日の夜明け、リビア東部の海軍基地に停泊中に爆発・炎上しました。",
+          "t": 1025.96
+        },
+        {
+          "speaker": "Alex",
+          "en": "Commercial satellite imagery confirmed that the Russian warship capsized and sank at the pier, leaving only its bow visible above water.",
+          "ja": "民間の衛星画像によって、このロシア軍艦が埠頭で転覆・沈没し、船首部分だけが水面に出ている状態が確認されました。",
+          "t": 1034.31
+        },
+        {
+          "speaker": "Alex",
+          "en": "Hours later, a second unmanned maritime drone struck a Russian-linked commercial cargo vessel operating off the Libyan coastline.",
+          "ja": "その数時間後には、リビア沖合を航行していた別のロシア系民間貨物船も無人水上ドローンによって被弾しました。",
+          "t": 1043.39
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did Libyan authorities respond to naval warfare reaching their domestic harbor facilities?",
+          "ja": "自国の港湾施設にまで海上戦闘が及んだことに対し、リビア当局はどう反応したのでしょうか？",
+          "t": 1052.08
+        },
+        {
+          "speaker": "Alex",
+          "en": "Eastern Libyan authorities condemned the strikes as a direct violation of national sovereignty, stating the warship had docked solely for refueling.",
+          "ja": "リビア東部当局はこの攻撃を主権に対する重大な侵害として非難し、軍艦は給油と補給のために寄港しただけだと表明しました。",
+          "t": 1058.79
+        },
+        {
+          "speaker": "Alex",
+          "en": "Officials insisted they will not allow Libyan commercial ports or territorial waters to become a battleground for foreign international conflicts.",
+          "ja": "当局者は、リビアの商業港や領海が対外的な国際紛争の戦場や報復の場となることを許さないと強調しています。",
+          "t": 1068.55
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does this incident mark a major expansion of Ukraine's maritime drone campaign?",
+          "ja": "この事件は、ウクライナの水上ドローン作戦が大幅に拡大したことを示しているのでしょうか？",
+          "t": 1078.19
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, Benghazi lies over 1,000 miles from Ukraine across the Mediterranean Sea, far beyond the Black Sea combat zone.",
+          "ja": "はい、ベンガジは黒海の戦域をはるかに越え、地中海を挟んでウクライナから1600キロ以上離れた場所に位置しています。",
+          "t": 1084.06
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, asymmetric naval drone warfare has stretched across the Mediterranean to target Russian naval logistics in North Africa.",
+          "ja": "要するに、非対称な海軍ドローン戦が地中海全域に広がり、北アフリカにあるロシア海軍の補給拠点を標的にしています。",
+          "t": 1092.01
+        }
+      ],
+      "lang": "en",
+      "t": 1016.2
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "北アフリカ・リビア東部のベンガジ港に補給のため停泊していたロシア海軍のコルベット艦「メルクーリイ」が、ウクライナ軍とみられる水上ドローンの攻撃を受け沈没しました。戦線から1600キロ以上離れた地中海にまで無人兵器による攻撃範囲が広がっている実態を示しています。",
+          "en": "",
+          "lang": "ja",
+          "t": 1100.98
+        }
+      ],
+      "t": 1100.98
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "Executive Voice: Telemedicine Leadership",
+      "heading_ja": "CEO動向：遠隔医療の地域統合を語る",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In executive news, Eagle Telemedicine CEO Jason Povio discussed the evolving role of virtual healthcare with Chief Healthcare Executive.",
+          "ja": "経営陣の動向として、Eagle TelemedicineのJason Povio最高経営責任者がメディアの取材に応じ、バーチャル医療の役割について語りました。",
+          "t": 1122.18
+        },
+        {
+          "speaker": "Alex",
+          "en": "Povio argued that telemedicine programs should actively empower and preserve local hospital capacity rather than seeking to replace regional clinical teams.",
+          "ja": "Povio氏は、遠隔医療は地域医療チームを代替するのではなく、地元の病院の診療能力を補強し維持するために使われるべきだと主張しました。",
+          "t": 1131.26
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does his leadership philosophy bridge the gap between digital doctors and bedside medical staff?",
+          "ja": "彼の経営哲学は、画面越しの遠隔医師とベッドサイドの医療スタッフとの溝をどう埋めようとしているのですか？",
+          "t": 1141.47
+        },
+        {
+          "speaker": "Alex",
+          "en": "He emphasized that virtual physicians must function as integrated partners alongside on-site nurses, allowing smaller rural facilities to keep patients close to home.",
+          "ja": "遠隔の医師が現地の看護師らと一体のパートナーとして機能することで、地方の小規模病院でも患者を住み慣れた地域で治療できると強調しました。",
+          "t": 1148.52
+        },
+        {
+          "speaker": "Alex",
+          "en": "That collaborative model strengthens community hospitals while preventing costly patient transfers.",
+          "ja": "こうした協力モデルが、負担の大きい遠方への転院を防ぎつつ、地域医療の基盤を強化します。",
+          "t": 1159.3
+        }
+      ],
+      "lang": "en",
+      "t": 1122.18
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: Take Advantage Of",
+      "heading_ja": "本日のフレーズ：take advantage of",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's phrase of the day is take advantage of.",
+          "ja": "本日のフレーズは「take advantage of」です。",
+          "t": 1166.74
+        },
+        {
+          "speaker": "Mika",
+          "en": "President Trump used it when telling towns to benefit from data center builders.",
+          "ja": "トランプ大統領が自治体に対し、データセンター事業者を利用して利益を得るよう促した際に使いました。",
+          "t": 1169.9
+        },
+        {
+          "speaker": "Mika",
+          "en": "To take advantage of something means to make good use of an opportunity or situation.",
+          "ja": "この表現は、好機や状況をうまく生かして利用する、活用するという意味です。",
+          "t": 1174.5
+        },
+        {
+          "speaker": "Mika",
+          "en": "For example: You should take advantage of your daily train ride to improve your English skills.",
+          "ja": "例えば「毎日の通勤電車を活用して英語力を伸ばすべきだ」のように使えます。",
+          "t": 1179.33
+        },
+        {
+          "speaker": "Alex",
+          "en": "A very practical phrase for all of our listeners on their morning commute.",
+          "ja": "毎朝通勤中のリスナーの皆さんにとって、非常に実践的な表現ですね。",
+          "t": 1184.59
+        }
+      ],
+      "lang": "en",
+      "t": 1166.74
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Monday Wrap-Up",
+      "heading_ja": "月曜日の終わりに",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That brings us to the conclusion of today's morning edition of Commute News.",
+          "ja": "本日のCommute News朝刊はここまでとなります。",
+          "t": 1188.93
+        },
+        {
+          "speaker": "Mika",
+          "en": "We covered major regulatory debates, artificial intelligence security milestones, and dramatic international events across the globe today.",
+          "ja": "本日は主要な規制の議論からAIセキュリティの節目、そして世界各地の劇的な国際ニュースまで幅広くお届けしました。",
+          "t": 1193.36
+        },
+        {
+          "speaker": "Alex",
+          "en": "Thank you for listening, have a safe and productive Monday, and join us again tomorrow morning.",
+          "ja": "お聴きいただきありがとうございました。安全で実りある月曜日をお過ごしください。また明日の朝お会いしましょう。",
+          "t": 1200.56
+        }
+      ],
+      "lang": "en",
+      "t": 1188.93
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。今週も気をつけて、いってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 1205.82
+        }
+      ],
+      "t": 1205.82
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Trump Threatens Penalties for Tech Firms Building Foreign Data Centers",
+      "title_ja": "トランプ米大統領、海外データセンター建設に重税警告",
+      "summary_ja": "トランプ米大統領は米テック企業が海外にAIデータセンターを建設することを禁止するか、巨額の課税を行う方針を警告しました。先端AI半導体の中国への流出阻止や国内電力網の課題を巡る発言ですが、政権幹部への事前協議はなかったとされています。",
+      "why_ja": "日本や欧州など米国外でのソブリンクラウド構想やデータ主権の確保、メガクラウド各社の設備投資計画に大きな不確実性をもたらします。",
+      "section": "tech",
+      "topic_key": "trump-us-datacenter-overseas-penalties",
+      "companies": [
+        "Nvidia",
+        "SpaceX",
+        "Google",
+        "Meta"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Trump wants to ban US companies from building overseas data centers as bans slow development",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/trump-wants-to-ban-us-companies-from-building-overseas-data-centers-as-bans-slow-development-also-considers-putting-a-tremendous-tax-in-lieu-of-prohibition"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Trump threatens ‘tremendous penalties’ for US tech firms that build datacenters abroad",
+          "url": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Trump threatens ban on US firms building AI data centres overseas",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "Amazon Discloses Autonomous AI Agent Executed Zero-Day Server Attack",
+      "title_ja": "Amazon、自律型AIによる未知の脆弱性攻撃とサーバー侵害を公表",
+      "summary_ja": "AmazonのCISOは、自律型AIエージェントが人間の指示を受けずに未知のゼロデイ脆弱性を発見し、わずか11分で大学サーバーの管理者権限を奪取した事例を公表しました。攻撃者は中国拠点と推定されています。",
+      "why_ja": "既知の攻撃手法の再利用にとどまらず、脆弱性調査から侵入までAIが自律完結する段階に入ったことを示し、サイバー防御の自動化が不可避となっています。",
+      "section": "tech",
+      "topic_key": "autonomous-ai-zero-day-exploit-server",
+      "companies": [
+        "Amazon"
+      ],
+      "sources": [
+        {
+          "publisher": "The Register",
+          "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server",
+          "url": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382"
+        }
+      ]
+    },
+    {
+      "title_en": "SpaceX Backs $43 Billion GPU Loan as Lenders Fear Orbital Loss",
+      "title_ja": "SpaceXが430億ドルのAI半導体融資、担保の宇宙打ち上げを金融機関が警戒",
+      "summary_ja": "SpaceXはNVIDIAのAIチップ調達に向け、430億ドルのリース型借入契約を締結しました。しかし同社が軌道上データセンター衛星を推進していることから、担保となる高額半導体が宇宙に送られ回収不能になるリスクを債権者が懸念しています。",
+      "why_ja": "AI計算資源への大規模な資産担保型融資が進む一方、宇宙空間への展開という新領域における担保保全の法的課題が浮き彫りになりました。",
+      "section": "tech",
+      "topic_key": "spacex-nvidia-gpu-loan-orbital-collateral",
+      "companies": [
+        "SpaceX",
+        "Nvidia",
+        "Apollo",
+        "Goldman Sachs",
+        "BlackRock",
+        "KKR",
+        "Pimco"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Lenders back SpaceX's $43 billion Nvidia GPU deal but worry the collateral could end up in orbit, making them impossible to reclaim if Musk defaults",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/lenders-back-spacexs-usd43-billion-nvidia-gpu-deal-but-worry-the-collateral-could-end-up-in-orbit-making-it-impossible-to-reclaim-if-musk-defaults-five-year-hell-or-high-water-lease-may-lack-a-written-earth-only-guarantee"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Chips can survive the space environment — can their financing?",
+          "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/"
+        },
+        {
+          "publisher": "Ars Technica",
+          "title": "SpaceX lenders don’t want Elon Musk launching their collateral into space",
+          "url": "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/"
+        }
+      ]
+    },
+    {
+      "title_en": "AI Server Demand Triggers Multi-Year Circuit Board Supply Crisis",
+      "title_ja": "AI向け需要過熱でプリント基板が世界的不足、2028年まで継続か",
+      "summary_ja": "世界電子機器協会は、AIサーバーの爆発的な生産拡大によりプリント基板（PCB）のサプライチェーンが逼迫していると警告しました。9月までの受注が前年比56.1パーセント増えた一方、出荷は追いついていません。",
+      "why_ja": "AI向け多層基板の需要急増が自動車や医療機器、防衛産業向けの基板枠を圧迫しており、幅広い製造業に部材不足とコスト上昇の影響が及んでいます。",
+      "section": "tech",
+      "topic_key": "ai-hardware-pcb-substrate-shortage",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "The Register",
+          "title": "AI boom threatens circuit board crunch to rival pandemic-era chip shortage",
+          "url": "https://www.theregister.com/systems/2026/11/20/ai-boom-threatens-circuit-board-crunch-to-rival-pandemic-era-chip-shortage/5311335"
+        }
+      ]
+    },
+    {
+      "title_en": "Signal Blocks Mobile Screenshots to Shield Chats from AI Agents",
+      "title_ja": "Signal、OS組み込みAIの画面走査に対抗しスクリーンショットを制限",
+      "summary_ja": "暗号化通信アプリSignalは、スマートフォンのOSが組み込みAIエージェントを通じて画面上の表示内容を直接読み取るリスクに対抗し、アプリ内でのスクリーンショット撮影を制限する新仕様を導入しました。",
+      "why_ja": "エンドツーエンド暗号化を迂回してOSのAIエージェントが画面ピクセルから個人データを収集する新たなプライバシー侵害リスクが表面化しています。",
+      "section": "tech",
+      "topic_key": "signal-anti-ai-agent-screen-scraping",
+      "companies": [
+        "Signal",
+        "Apple",
+        "Google",
+        "Microsoft"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+          "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
+        },
+        {
+          "publisher": "The Register",
+          "title": "Signal slams door on prying AI agents to protect privacy",
+          "url": "https://www.theregister.com/security/2026/11/20/signal-slams-door-on-prying-ai-agents-to-protect-privacy/5311466"
+        }
+      ]
+    },
+    {
+      "title_en": "Dutch Watchdog Warns AI Smart Glasses Misread Prescription Labels",
+      "title_ja": "オランダ規制当局、AIスマートグラスによる処方薬ラベル誤読に警告",
+      "summary_ja": "オランダのデータ保護機関は、市販のAI搭載カメラグラスが処方薬の用法や用量指示を誤って解釈する危険性があるとして注意を呼びかけました。救急通報の誤認や第三者によるカメラ乗っ取りリスクも確認されています。",
+      "why_ja": "マルチモーダルAIを搭載したウェアラブル端末の医療・健康用途での誤認事故が現実化し、EUのAI法に基づく販売規制の先行事例となりつつあります。",
+      "section": "health",
+      "topic_key": "dutch-regulator-ai-glasses-medication-safety",
+      "companies": [
+        "Hans Anders",
+        "Meta"
+      ],
+      "sources": [
+        {
+          "publisher": "The Register",
+          "title": "Dutch data watchdog highlights safety issues with AI glasses",
+          "url": "https://www.theregister.com/security/2026/11/20/dutch-data-watchdog-highlights-safety-issues-with-ai-glasses/5311345"
+        }
+      ]
+    },
+    {
+      "title_en": "COP31 Climate Conference Collapses Over Fossil Fuel Deadlock",
+      "title_ja": "COP31気候変動会議が決裂、化石燃料の文言を巡り対立",
+      "summary_ja": "トルコのアンタルヤで開催されていた国連気候サミットCOP31は、44時間の延長交渉の末に合意文書を採択できず決裂しました。草案から「化石燃料」の文言が削除されたことに対し、欧州連合や島しょ国が強く反対しました。",
+      "why_ja": "COPが包括的合意に至らず終了するのは2009年以来であり、脱化石燃料をめぐる産油国と消費国・途上国の国際協調の機能不全を露呈させました。",
+      "section": "world",
+      "topic_key": "cop31-climate-summit-talks-collapse",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Why has the COP31 climate summit failed to reach agreement?",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/11/22/why-has-the-cop31-climate-summit-failed-to-reach-agreement?traffic_source=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "What's next after no deal at COP31 climate talks?",
+          "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "COP31 fails to reach major climate deal as talks expose deep divisions",
+          "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "UN climate talks collapse without a deal",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/un-climate-talks-collapse-without-a-deal?traffic_source=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "‘Disappointing’: Delegates react after COP31 climate talks end without deal",
+          "url": "https://www.aljazeera.com/news/2026/11/22/countries-react-after-cop31-climate-talks-end-in-collapse?traffic_source=rss"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Climate change talks fall apart in final hours over fossil fuels",
+          "url": "https://www.npr.org/2026/11/22/nx-s1-6046195/cop31-climate-talks-close-disappointment"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Cop31 climate talks break down as key deal rejected",
+          "url": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected"
+        }
+      ]
+    },
+    {
+      "title_en": "South Korea Education Minister Quits Amid AI Exam Cheating Crisis",
+      "title_ja": "韓国教育相が辞任、大学修学能力試験でのAI不正防止混乱で引責",
+      "summary_ja": "韓国の崔教振（チェ・ギョジン）教育相が、大学入試（スヌン）におけるAI不正対策の混乱の責任を取り辞任しました。直前の国家資格試験で小型カメラとAIによるカンニングが発覚したため、当局がボタン隠しや警報発令など過剰な措置を取り反発を招いていました。",
+      "why_ja": "生成AIや小型端末の進化が国家規模の公平な試験運営に直接的な脅威を与えており、行政管理と不正防止の新たな制度設計が問われています。",
+      "section": "world",
+      "topic_key": "south-korea-education-minister-resigns-ai-exam",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "South Korean minister quits after AI cheating scandal engulfs university exams",
+          "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "South Korea education minister resigns over exam cheating scandal",
+          "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "Suspected Ukrainian Sea Drone Attack Sinks Russian Ship in Libya",
+      "title_ja": "リビアの港でロシア軍艦が沈没、ウクライナの無人艇攻撃か",
+      "summary_ja": "リビア東部ベンガジの海軍基地に停泊していたロシア海軍のコルベット艦「メルクーリイ」が自爆型水上ドローンによる攻撃を受け沈没しました。ウクライナ軍による作戦とみられ、数時間後には別のロシア系貨物船も被弾しました。",
+      "why_ja": "黒海を中心としていたウクライナの無人艇戦術が地中海・北アフリカにまで地理的に拡大し、ロシアの遠征兵站拠点を直接脅かしています。",
+      "section": "world",
+      "topic_key": "ukraine-drone-strike-russian-warship-libya",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Russian ship hit in Benghazi by suspected Ukrainian drone attack, say Libyan officials",
+          "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Suspected drone attack causes explosion on Russian ship in Libya",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya?traffic_source=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Russian vessel hit by suspected Ukrainian drone at Libya’s Benghazi port",
+          "url": "https://www.aljazeera.com/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya?traffic_source=rss"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Libya's eastern government suspects drone attack caused explosion on Russian ship",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSHNFQ2hvQUxyR05zYXIyVjczNjE3eEVLWWhMdk1mS01BQV91dy03OU5SSzVzbzlvVk1ManQ2TFhqU2xkRkhZcGthVlZad0E1aVRKU1E5ZWxJTWRQVG5UYmFYYmcxZGJ1TFc1YzE0a2E4XzQ4SGJLNjNlc0otTGhGRnRWTHpmeW1mWnVBLTNhYmFLU3JOUTVfSTliN19fMG9rRWlmeFdKNHFSU1JVTTdnQUNhUlBUWmRSTDVXUUJuUW9fNEV2cjNWdTlPZw?oc=5"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "tremendous",
+      "meaning_ja": "ものすごい、非常に大きな",
+      "note_ja": "数量や規模、影響などが並外れて大きいことを表す単語です。",
+      "example_en": "He warned that companies pushing ahead with overseas projects could face a complete ban or a tremendous tax."
+    },
+    {
+      "term": "penalty",
+      "meaning_ja": "罰則、制裁金",
+      "note_ja": "規則違反などに対して科される罰金や不利な処遇を指します。",
+      "example_en": "A tremendous tax means a very large financial penalty imposed by the government."
+    },
+    {
+      "term": "zero-day flaw",
+      "meaning_ja": "ゼロデイ脆弱性（未修正の欠陥）",
+      "note_ja": "開発者やベンダーがまだ把握していない、またはパッチが存在しないセキュリティ上の欠陥です。",
+      "example_en": "An autonomous artificial intelligence agent independently discovered and exploited an unknown zero-day software flaw in the wild."
+    },
+    {
+      "term": "autonomous",
+      "meaning_ja": "自律的な、自立して動作する",
+      "note_ja": "外部からの指示を受けずに自ら判断して動作するシステムに使われます。",
+      "example_en": "So, in short, autonomous AI attacks have arrived, forcing defensive security systems to become fully automated as well."
+    },
+    {
+      "term": "collateral",
+      "meaning_ja": "担保、抵当物件",
+      "note_ja": "融資を受ける際に返済不能時の保証として差し出す資産のことです。",
+      "example_en": "The lenders are worried because the Nvidia processors serve as collateral, which means property pledged to secure repayment."
+    },
+    {
+      "term": "terrestrial",
+      "meaning_ja": "地上の、地球上の",
+      "note_ja": "宇宙空間（orbital）と対比して地上の施設を指す際によく用いられます。",
+      "example_en": "SpaceX informed lenders that the hardware will be deployed in terrestrial American facilities, such as its Texas data center."
+    },
+    {
+      "term": "printed circuit board",
+      "meaning_ja": "プリント基板（電子回路基板）",
+      "note_ja": "電子部品を固定し配線で結ぶための板状部品。略称はPCBです。",
+      "example_en": "The Global Electronics Association issued an urgent alert warning that the AI hardware boom is exhausting printed circuit boards."
+    },
+    {
+      "term": "crowd out",
+      "meaning_ja": "〜を押し出す、締め出す",
+      "note_ja": "資金力のある買い手が市場の生産枠やリソースを独占し、他者を締め出す状況を表します。",
+      "example_en": "High-margin contracts from hyperscale AI companies are crowding out production capacity for automobiles, medical imaging machines, and defense equipment."
+    },
+    {
+      "term": "existential threat",
+      "meaning_ja": "実存的脅威（存在を揺るがす脅威）",
+      "note_ja": "組織やサービスの根幹、あるいは人類自体の存続を脅かすような致命的な危険を指します。",
+      "example_en": "Signal President Meredith Whittaker described operating systems that integrate autonomous AI agents as an existential threat to personal privacy."
+    },
+    {
+      "term": "misread",
+      "meaning_ja": "読み誤る、誤読する",
+      "note_ja": "テキストや表示内容を正しく認識できないことを意味します。",
+      "example_en": "The investigation revealed that these smart glasses frequently misread critical prescription medicine labels, packaging inserts, and dosage instructions."
+    },
+    {
+      "term": "consensus",
+      "meaning_ja": "合意、総意",
+      "note_ja": "国際会議や組織内で関係者全員が一致して出す合意を指します。",
+      "example_en": "The COP31 United Nations climate negotiations in Antalya, Turkey, collapsed on Sunday without reaching an overarching consensus agreement."
+    },
+    {
+      "term": "sovereignty",
+      "meaning_ja": "主権、統治権",
+      "note_ja": "国家が自国の領土や港湾を自ら管理・支配する権利のことです。",
+      "example_en": "Eastern Libyan authorities condemned the strikes as a direct violation of national sovereignty, stating the warship had docked solely for refueling."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "take advantage of",
+    "meaning_ja": "〜を利用する、〜を生かす、〜に乗じる",
+    "example_en": "You should take advantage of your daily train ride to improve your English skills.",
+    "example_ja": "毎日の電車の乗車時間を活用して、英語力を伸ばすべきです。"
+  }
+}
