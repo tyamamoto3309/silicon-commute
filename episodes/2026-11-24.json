@@ -1,0 +1,1212 @@
+{
+  "date": "2026-11-24",
+  "published": "2026-11-24T11:51:42+09:00",
+  "title_en": "Jensen Huang Returns to Nvidia, TSMC Texas Fab, and E-Prescriptions in AI",
+  "title_ja": "Jensen Huang氏がNvidiaのCEOに復帰、TSMCのテキサス新工場計画、AIでの電子処方箋導入",
+  "summary_ja": "Nvidia取締役会はトランプ大統領の働きかけを受けてJensen Huang氏のCEO復帰を決定し、TSMCはテキサス州に226億ドルの新工場を申請しました。医療分野ではChatGPT上で医師が直接処方箋を作成できる新連携が発表されました。世界情勢ではホルムズ海峡のタンカー爆発報道、日本の副首都構想、ガザの深刻な環境汚染被害が伝えられています。",
+  "duration": 1118.4,
+  "audio": {
+    "file": "2026-11-24.mp3",
+    "bytes": 8948200,
+    "release_tag": "ep-2026-11-24"
+  },
+  "word_count": 1936,
+  "ja_chars": 1441,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.8-flash",
+    "write": "gemini-3.8-flash",
+    "revise": "gemini-3.8-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Morning Headlines",
+      "heading_ja": "今朝のヘッドライン",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it is Tuesday, November 24. This is Commute News.",
+          "ja": "おはようございます。11月24日火曜日、Commute Newsです。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, Alex. We have a very busy morning for our commute today.",
+          "ja": "Alex、おはようございます。今朝の通勤時間もニュースが盛りだくさんですね。",
+          "t": 4.83
+        },
+        {
+          "speaker": "Alex",
+          "en": "We do. We have major developments across technology, healthcare, and the wider world.",
+          "ja": "そうですね。テクノロジー、ヘルスケア、そして世界の重要ニュースで大きな動きがあります。",
+          "t": 10.05
+        },
+        {
+          "speaker": "Mika",
+          "en": "First, in tech, Jensen Huang makes a dramatic return as the CEO of Nvidia.",
+          "ja": "まずテック分野では、Jensen Huang氏がNvidiaのCEOに見事な復帰を果たしました。",
+          "t": 16.09
+        },
+        {
+          "speaker": "Alex",
+          "en": "In digital health, doctors can now create real prescriptions directly inside ChatGPT.",
+          "ja": "デジタルヘルスでは、医師がChatGPT内から直接処方箋を作成できるようになりました。",
+          "t": 21.53
+        },
+        {
+          "speaker": "Mika",
+          "en": "And in world news, Japan is studying plans for a backup capital outside Tokyo.",
+          "ja": "そして国際ニュースでは、日本政府が東京以外にバックアップとなる副首都を検討しています。",
+          "t": 27.57
+        },
+        {
+          "speaker": "Alex",
+          "en": "Let us start with Nvidia.",
+          "ja": "それではNvidiaのニュースから見ていきましょう。",
+          "t": 33.22
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Jensen Huang Reinstated as Nvidia CEO",
+      "heading_ja": "Jensen Huang氏がNvidiaのCEOに電撃復帰",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Nvidia announced that co-founder Jensen Huang is back as president, CEO, and board director. The board voted unanimously to reinstate him, ending an eleven-day hiatus.",
+          "ja": "Nvidiaは共同創業者のJensen Huang氏が社長、CEO、および取締役に復帰したと発表しました。取締役会は全員一致で復帰を承認し、11日間の離脱に終止符を打ちました。",
+          "t": 35.97
+        },
+        {
+          "speaker": "Mika",
+          "en": "Wait, did the board not state just last week that it had closed the door on Huang returning?",
+          "ja": "待ってください、取締役会は先週、Huang氏の復帰への扉を閉ざしたと表明したばかりではありませんでしたか？",
+          "t": 46.51
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, on their earnings call, the board insisted they did not intend to reinstate him. But President Donald Trump actively pushed the board to change its decision.",
+          "ja": "はい、決算説明会で取締役会は復帰させる意図はないと強調していました。しかしドナルド・トランプ大統領が判断を覆すよう強く働きかけました。",
+          "t": 52.94
+        },
+        {
+          "speaker": "Mika",
+          "en": "How involved was the White House in bringing him back?",
+          "ja": "ホワイトハウスは彼の復帰にどれほど関与していたのですか？",
+          "t": 63.21
+        },
+        {
+          "speaker": "Alex",
+          "en": "Very involved. Trump spoke to Huang the night before and dialed into Nvidia's Sunday night board meeting. Vice President JD Vance acted as a liaison, offering reassurances that Huang's return poses no national security risk.",
+          "ja": "非常に関与していました。トランプ大統領は前夜にHuang氏と話し、日曜夜のNvidia取締役会に電話で参加しました。JD Vance副大統領も連絡役となり、復帰に安全保障上のリスクはないと安心させました。",
+          "t": 67.54
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did investors and the markets react to the announcement?",
+          "ja": "投資家や市場はこの発表にどう反応しましたか？",
+          "t": 81.22
+        },
+        {
+          "speaker": "Alex",
+          "en": "Nvidia stock surged over thirty percent, and futures jumped so fast that trading triggered a circuit-breaker pause. The Department of Justice confirmed it has no evidence of unlawful conduct by Huang.",
+          "ja": "Nvidiaの株価は30%以上急騰し、先物の上昇ペースが速すぎてサーキットブレーカーによる取引中断が発生しました。米司法省はHuang氏による違法行為の証拠はないと確認しました。",
+          "t": 85.88
+        },
+        {
+          "speaker": "Mika",
+          "en": "What happened to Megaspeed, the company involved in the foreign intelligence reports?",
+          "ja": "外国の情報活動に関する報道に関与していたMegaspeed社はどうなったのですか？",
+          "t": 98.24
+        },
+        {
+          "speaker": "Alex",
+          "en": "The United States Commerce Department added Singapore-based Megaspeed to its export blacklist, barring United States firms from doing business with it without a special government license.",
+          "ja": "米商務省はシンガポールのMegaspeed社を輸出ブラックリストに追加し、米企業が特別な政府許可なしに同社と取引することを禁止しました。",
+          "t": 104.28
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, political intervention restored Huang to the top of Nvidia while Washington blacklisted the intermediary firm.",
+          "ja": "要するに、政治的な介入によってHuang氏がNvidiaのトップに返り咲き、一方で米政府は仲介企業をブラックリストに入れたということですね。",
+          "t": 115.98
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. Board chair Harvey Jones commended interim CEO Colette Kress, who returns full-time to her chief financial officer duties as Huang resumes leadership.",
+          "ja": "その通りです。Harvey Jones取締役会長は暫定CEOのColette Kress氏を称え、Huang氏の復帰に伴い彼女は専任の最高財務責任者（CFO）業務に戻ります。",
+          "t": 124.16
+        }
+      ],
+      "lang": "en",
+      "t": 35.97
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。Nvidiaの取締役会は、辞任していたJensen Huang氏のCEO復帰を満場一致で決定しました。トランプ大統領の直接的な働きかけが決定打となり、発表後に株価は30%以上急騰しました。一方、米政府は関係先であるシンガポールのMegaspeed社を輸出規制対象に追加しました。政治介入が巨大テックの人事を動かした異例の展開です。",
+          "en": "",
+          "lang": "ja",
+          "t": 134.26
+        }
+      ],
+      "t": 134.26
+    },
+    {
+      "kind": "story",
+      "heading_en": "TSMC Files for $22.6 Billion Texas Fab",
+      "heading_ja": "TSMCがテキサス州に226億ドルの半導体工場を申請",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Taiwan Semiconductor Manufacturing Company, known as TSMC, has filed an official application for a proposed twenty-two point six billion dollar chip manufacturing campus in Texas.",
+          "ja": "TSMCとして知られる台湾積体電路製造が、テキサス州に226億ドルを投じる半導体製造キャンパスを建設するための正式な申請書を提出しました。",
+          "t": 162.33
+        },
+        {
+          "speaker": "Mika",
+          "en": "Where exactly is TSMC planning to build this massive project, and how large is the site?",
+          "ja": "TSMCはこの巨大プロジェクトを具体的にどこに建設する計画で、敷地はどのくらいの広さですか？",
+          "t": 173.68
+        },
+        {
+          "speaker": "Alex",
+          "en": "The application was submitted under the Texas JETI Act for a site covering thirty-two hundred acres in Brazos County Precinct One, near College Station.",
+          "ja": "申請はテキサス州のJETI法に基づいて提出され、カレッジステーション近郊のブラゾス郡第1選挙区にある3,200エーカーの用地を対象としています。",
+          "t": 179.96
+        },
+        {
+          "speaker": "Mika",
+          "en": "What kinds of microchips will this new facility manufacture?",
+          "ja": "この新施設ではどのような種類のマイクロチップが製造されるのでしょうか？",
+          "t": 189.81
+        },
+        {
+          "speaker": "Alex",
+          "en": "TSMC plans to produce leading-edge semiconductors at two nanometers or even more advanced sizes at the site. It is designed as a true high-tech manufacturing fab, not a data center.",
+          "ja": "TSMCはこの拠点で2ナノメートル、あるいはそれ以上に微細な最先端半導体を製造する計画です。データセンターではなく、純粋なハイテク製造工場として設計されています。",
+          "t": 194.53
+        },
+        {
+          "speaker": "Mika",
+          "en": "What will this investment mean for local employment and workers in Texas?",
+          "ja": "テキサス州の地元雇用や労働者にとって、この投資はどのような意味を持ちますか？",
+          "t": 205.99
+        },
+        {
+          "speaker": "Alex",
+          "en": "The application projects creating at least twenty-one hundred direct jobs, with an average annual salary of one hundred thirty-three thousand dollars. County officials called it a potential transformational opportunity.",
+          "ja": "申請書では少なくとも2,100人の直接雇用を見込んでおり、平均年収は13万3,000ドルとされています。郡当局者は地域を一変させる機会になり得ると述べています。",
+          "t": 211.44
+        },
+        {
+          "speaker": "Mika",
+          "en": "Is this plant completely approved and guaranteed to be built?",
+          "ja": "この工場は完全に承認され、建設が確定しているのですか？",
+          "t": 225.01
+        },
+        {
+          "speaker": "Alex",
+          "en": "Not yet. County officials emphasize that this is an exploratory application. It still requires state approvals, school board sign-offs, and TSMC's final board investment decision.",
+          "ja": "まだです。郡当局者はこれが事前検討段階の申請であることを強調しています。州当局の承認や地元学区の同意、そしてTSMC取締役会による最終的な投資決定が依然として必要です。",
+          "t": 229.8
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, TSMC is looking beyond its Phoenix site to expand advanced chip capacity on United States soil.",
+          "ja": "要するに、TSMCはフェニックスの拠点を超えて、米国内での最先端チップ生産能力の拡大を視野に入れているわけですね。",
+          "t": 241.14
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Expanding production in the United States helps protect the global supply chain against geopolitical instability around Taiwan.",
+          "ja": "はい。米国内での生産拡大は、台湾周辺の地政学的不安定性から世界のサプライチェーンを保護するのに役立ちます。",
+          "t": 248.6
+        }
+      ],
+      "lang": "en",
+      "t": 162.33
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "TSMCがテキサス州ブラゾス郡に226億ドル、日本円で約3兆円超を投じる半導体工場の新設計画を申請しました。2ナノメートルなどの最先端半導体を製造し、約2,100人の雇用を見込んでいます。計画は検討段階ですが、アリゾナに続く米国生産の拡大として、台湾有事リスクに備えるサプライチェーン強化の動きとして注目されます。",
+          "en": "",
+          "lang": "ja",
+          "t": 257.33
+        }
+      ],
+      "t": 257.33
+    },
+    {
+      "kind": "story",
+      "heading_en": "CrowdStrike to Buy Zscaler for $44 Billion",
+      "heading_ja": "CrowdStrikeがZscalerを440億ドルで買収合意",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Cybersecurity leader CrowdStrike has agreed to acquire cloud security pioneer Zscaler in an all-stock transaction valued at forty-three point nine billion dollars.",
+          "ja": "サイバーセキュリティ大手のCrowdStrikeは、クラウドセキュリティの先駆者であるZscalerを439億ドル相当の全株式交換取引で買収することに合意しました。",
+          "t": 282.3
+        },
+        {
+          "speaker": "Mika",
+          "en": "That is an astonishing sum. How will the ownership of the combined company be divided?",
+          "ja": "それは驚くべき金額ですね。統合後の会社の持ち分はどのように分割されるのですか？",
+          "t": 292.75
+        },
+        {
+          "speaker": "Alex",
+          "en": "Zscaler shareholders will receive one point one three five shares of CrowdStrike for each share they own. When the transaction closes, CrowdStrike stockholders will own about eighty-four percent, and Zscaler investors will hold sixteen percent.",
+          "ja": "Zscalerの株主は所有する1株につきCrowdStrikeの1.135株を受け取ります。取引完了時、CrowdStrikeの株主が約84%、Zscalerの投資家が16%を保有することになります。",
+          "t": 298.93
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why are these two security powerhouses choosing to join forces right now?",
+          "ja": "なぜこれら2つのセキュリティ大手が今、手を組むことを選んだのでしょうか？",
+          "t": 313.89
+        },
+        {
+          "speaker": "Alex",
+          "en": "CrowdStrike protects endpoints, like laptops, phones, and servers. Zscaler provides zero-trust network tools that force every user and device to authenticate each time they access enterprise systems.",
+          "ja": "CrowdStrikeはノートパソコン、スマートフォン、サーバーなどの端末を保護します。Zscalerは、社内システムにアクセスするたびにすべてのユーザーと機器の認証を要求するゼロトラストネットワークツールを提供しています。",
+          "t": 319.34
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does artificial intelligence factor into their decision to merge?",
+          "ja": "人工知能の台頭は、両社の合併の決断にどう関わっているのですか？",
+          "t": 331.8
+        },
+        {
+          "speaker": "Alex",
+          "en": "Both chief executives noted that autonomous AI agents are rapidly becoming the newest vulnerability for enterprises. To let AI into corporate systems safely, businesses need combined endpoint and network defense.",
+          "ja": "両社のCEOは、自律型AIエージェントが企業にとって急速に新たな脆弱性になりつつあると指摘しました。企業システムに安全にAIを導入するには、端末保護とネットワーク防御の統合が不可欠です。",
+          "t": 337.03
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, this creates the biggest security merger ever to safeguard corporate AI adoption.",
+          "ja": "要するに、企業のAI導入を保護するための、史上最大のセキュリティ合併が誕生するということですね。",
+          "t": 350.21
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. This historic mega-deal eclipses Google's thirty-two billion dollar purchase of Wiz earlier this year.",
+          "ja": "その通りです。この歴史的な大型買収は、今年前半に話題となったGoogleによるWizの320億ドルでの買収を上回る規模となります。",
+          "t": 356.89
+        }
+      ],
+      "lang": "en",
+      "t": 282.3
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "端末保護大手のCrowdStrikeが、ゼロトラスト技術を強みとするZscalerを約440億ドルで買収すると発表しました。サイバーセキュリティ業界では過去最大の合併です。自律型AIエージェントの企業導入が広がる中、端末保護とクラウド認証を統合して強固な防御態勢を築く狙いがあります。取引完了には各国の承認が必要です。",
+          "en": "",
+          "lang": "ja",
+          "t": 364.9
+        }
+      ],
+      "t": 364.9
+    },
+    {
+      "kind": "story",
+      "heading_en": "Amazon Buys AI Startup Decart for $7.5 Billion",
+      "heading_ja": "AmazonがAIスタートアップDecartの技術を75億ドルで買収",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Amazon has reached a deal to acquire the core technology stack and engineering talent of Israeli AI startup Decart for approximately seven point five billion dollars.",
+          "ja": "Amazonは、イスラエルのAIスタートアップDecartの中核技術と技術チームを約75億ドルで買収する合意に達しました。",
+          "t": 391.45
+        },
+        {
+          "speaker": "Mika",
+          "en": "What exactly is Amazon acquiring if they are not buying the whole corporate entity?",
+          "ja": "企業全体をまるごと買収しないのであれば、Amazonは具体的に何を取得するのですか？",
+          "t": 402.61
+        },
+        {
+          "speaker": "Alex",
+          "en": "Amazon is buying Decart's specialized software platform, known as the Decart Optimization Stack, or DOS. Amazon is also hiring Decart's three co-founders and about one hundred twenty researchers and software engineers.",
+          "ja": "AmazonはDOSとして知られるDecartの最適化ソフトウェア基盤を買い取ります。また、Decartの3人の共同創業者と約120人の研究者およびソフトウェアエンジニアも採用します。",
+          "t": 408.92
+        },
+        {
+          "speaker": "Mika",
+          "en": "What does this software actually do, and why is it so valuable to Amazon?",
+          "ja": "このソフトウェアは実際には何を行い、なぜAmazonにとってそれほど価値があるのですか？",
+          "t": 423.12
+        },
+        {
+          "speaker": "Alex",
+          "en": "The software optimizes compute power so complex AI models can run with maximum speed and lower electricity costs on custom processors. Amazon senior vice president Peter DeSantis said every AI leap forward begins with getting more output from every chip.",
+          "ja": "このソフトは計算能力を最適化し、カスタム半導体上で複雑なAIモデルを最高速度かつ低消費電力で動かせるようにします。Amazon上級副社長のPeter DeSantis氏は、AIのあらゆる飛躍は各チップからより多くの出力を引き出すことから始まると語りました。",
+          "t": 428.85
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does this move connect to Amazon's internal semiconductor projects?",
+          "ja": "この動きはAmazon社内の半導体プロジェクトとつながっているのですか？",
+          "t": 445.15
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Amazon has used its proprietary Trainium chips internally, but it is now preparing to sell them directly to cloud customers to challenge Nvidia's market dominance.",
+          "ja": "はい。Amazonは自社開発のTrainiumチップを自社内で使用してきましたが、現在はNvidiaの市場独占に対抗するため、外部のクラウド顧客へ直接販売する準備を進めています。",
+          "t": 450.53
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Amazon is securing critical compiler software to make its Trainium chips a genuine competitor to Nvidia.",
+          "ja": "要するに、Amazonは自社のTrainiumチップをNvidiaの真の競合相手にするため、極めて重要なコンパイラソフトを確保したわけですね。",
+          "t": 461.81
+        },
+        {
+          "speaker": "Alex",
+          "en": "Precisely. Powerful silicon requires sophisticated software stacks if cloud customers are going to migrate away from existing hardware standards.",
+          "ja": "まさにその通りです。クラウド顧客が既存のハードウェア標準から移行するためには、強力な半導体に加えて高度なソフトウェア基盤が不可欠となります。",
+          "t": 470.17
+        }
+      ],
+      "lang": "en",
+      "t": 391.45
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Amazonがイスラエルの新興企業Decartから、AI最適化ソフトウェアと技術者約120人を75億ドルで取得することに合意しました。Amazonは自社開発のAI半導体Trainiumの外販を計画しており、チップを効率良く動かす独自ソフトを取り込むことで、市場を独占するNvidiaに対抗する狙いがあります。",
+          "en": "",
+          "lang": "ja",
+          "t": 480.1
+        }
+      ],
+      "t": 480.1
+    },
+    {
+      "kind": "story",
+      "heading_en": "Meta Drops 2030 Climate Goal Due to AI Energy",
+      "heading_ja": "MetaがAI電力急増を理由に2030年の温暖化ガス実質ゼロ目標を撤回",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Meta has dropped its firm commitment to reach net-zero greenhouse gas emissions by 2030, according to admissions in its newly published 2026 sustainability report.",
+          "ja": "Metaは新しく公表した2026年持続可能性報告書の中で、2030年までに温室効果ガス排出実質ゼロを達成するという確定目標を撤回したことを明らかにしました。",
+          "t": 506.31
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why did Meta walk back such a prominent corporate environmental pledge?",
+          "ja": "なぜMetaはそれほど注目されていた企業の環境公約を後退させたのですか？",
+          "t": 517.09
+        },
+        {
+          "speaker": "Alex",
+          "en": "The explosion in demand for generative AI models requires massive compute infrastructure and electricity. Meta executives wrote that demand arrived far faster than anyone anticipated.",
+          "ja": "生成AIモデルへの爆発的な需要により、膨大な計算インフラと電力が必要とされています。Metaの幹部は、需要が誰もが予想したよりもはるかに速く到来したと記しています。",
+          "t": 522.59
+        },
+        {
+          "speaker": "Mika",
+          "en": "How sharply have Meta's actual emissions risen because of these data centers?",
+          "ja": "これらのデータセンターによって、Metaの実際の排出量はどれほど急増しているのですか？",
+          "t": 534.52
+        },
+        {
+          "speaker": "Alex",
+          "en": "Between 2024 and 2025, Meta's data center emissions surged more than twelvefold. Overall company emissions jumped forty-five percent in 2025 alone, reaching nearly twelve million metric tons.",
+          "ja": "2024年から2025年の間に、Metaのデータセンターからの排出量は12倍以上に跳ね上がりました。2025年単年でも全社排出量は45%急増し、1,200万トン近くに達しました。",
+          "t": 540.37
+        },
+        {
+          "speaker": "Mika",
+          "en": "What power sources is Meta turning to as clean energy falls short?",
+          "ja": "クリーンエネルギーが不足する中、Metaはどのような電源に頼っているのですか？",
+          "t": 552.75
+        },
+        {
+          "speaker": "Alex",
+          "en": "Meta has placed heavy bets on natural gas plants, such as its Hyperion data center in Louisiana, leading to its departure from the RE100 renewable initiative earlier this year.",
+          "ja": "Metaはルイジアナ州のHyperionデータセンターなど天然ガス発電所に大きく依存しており、それが今年前半のRE100再生可能エネルギー連合からの離脱につながりました。",
+          "t": 557.97
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, the race to build advanced artificial intelligence is forcing tech giants to compromise voluntary climate pledges.",
+          "ja": "要するに、先端AI構築をめぐる競争によって、巨大テック企業は自発的な気候公約の妥協を余儀なくされているわけですね。",
+          "t": 569.49
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Meta says it still aspires to net-zero over the long run, but it will no longer guarantee any fixed calendar date.",
+          "ja": "はい。Metaは長期的には実質ゼロを目指す姿勢を崩していませんが、具体的な達成時期を確約することはもはやしていません。",
+          "t": 578.27
+        }
+      ],
+      "lang": "en",
+      "t": 506.31
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Metaが2030年までに温室効果ガス排出を実質ゼロにする目標を事実上撤回しました。生成AIインフラの需要が想定を超えて急増し、データセンターの電力消費を賄うため天然ガス火力への依存を高めています。同社の2025年の排出量は前年比45%増加しており、巨大テックのAI開発競争と脱炭素の両立の難しさが浮き彫りとなりました。",
+          "en": "",
+          "lang": "ja",
+          "t": 586.52
+        }
+      ],
+      "t": 586.52
+    },
+    {
+      "kind": "health",
+      "heading_en": "Photon Adds Prescribing Inside ChatGPT",
+      "heading_ja": "PhotonがChatGPT内で完結する処方箋作成機能を導入",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In digital health, prescription technology platform Photon has integrated an e-prescribing plugin directly into ChatGPT for Clinicians and ChatGPT for Healthcare.",
+          "ja": "デジタルヘルスの分野では、処方技術プラットフォームのPhotonが、臨床医向けおよびヘルスケア向けChatGPTに電子処方箋プラグインを直接統合しました。",
+          "t": 612.73
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does this plugin work for a medical practitioner during a consultation?",
+          "ja": "診察中、医療従事者はこのプラグインをどのように使用するのですか？",
+          "t": 623.45
+        },
+        {
+          "speaker": "Alex",
+          "en": "Eligible licensed United States clinicians can prompt the tool with the patient's name and intended medication. The system uses clinical context from the chat to prepare a structured draft prescription without opening external software.",
+          "ja": "資格を持つ米国の公認臨床医は、患者の氏名と希望する薬剤をツールに入力できます。システムはチャット内の診療文脈を利用して、外部ソフトを開くことなく構造化された処方箋の下書きを作成します。",
+          "t": 629.18
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does the artificial intelligence make prescribing choices or send medications on its own?",
+          "ja": "人工知能が自律的に処方を選択したり、薬の注文を勝手に送信したりするのでしょうか？",
+          "t": 644.15
+        },
+        {
+          "speaker": "Alex",
+          "en": "No, absolutely not. The clinician remains entirely responsible. The doctor must review instructions, check dosages against recorded allergies, and manually authorize the prescription. Controlled substances are strictly excluded.",
+          "ja": "いいえ、決してそうではありません。臨床医が全責任を負い続けます。医師は指示内容を確認し、記録されたアレルギー情報と照合して投与量を点検し、手動で処方箋を承認しなければなりません。規制薬物は完全に除外されています。",
+          "t": 650.68
+        },
+        {
+          "speaker": "Mika",
+          "en": "What happens on the patient's end after the doctor signs off?",
+          "ja": "医師が承認した後、患者側にはどのような連絡が届くのですか？",
+          "t": 665.19
+        },
+        {
+          "speaker": "Alex",
+          "en": "The patient gets an SMS text message directing them to Photon's marketplace. There, patients can compare local pharmacy prices and choose where to pick up their medicine.",
+          "ja": "患者にはPhotonの処方マーケットプレイスへと案内するSMSテキストメッセージが届きます。そこで患者は近隣の薬局の価格を比較し、薬を受け取る場所を選ぶことができます。",
+          "t": 670.12
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, ChatGPT is moving from background medical research into direct clinical action.",
+          "ja": "要するに、ChatGPTは背景情報の医療検索から、直接的な診療実務のアクションへと踏み出しているのですね。",
+          "t": 681.3
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. As Photon CEO Otto Sipe explained, once doctors decide what to prescribe, they can now complete the order in the exact same conversational workflow.",
+          "ja": "はい。PhotonのCEOであるOtto Sipe氏が説明したように、医師が処方を決断した際、まったく同じ対話ワークフロー内で注文を完了できるようになりました。",
+          "t": 688.06
+        }
+      ],
+      "lang": "en",
+      "t": 612.73
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "処方プラットフォームのPhotonがChatGPTと連携し、米国の医師が対話画面上で電子処方箋を作成・送信できるプラグインの提供を始めました。AIが薬を自動処方するのではなく、医師が用量や禁忌を最終確認して署名します。患者にはテキストで通知が届き、薬局の価格比較が可能です。対話型AIが日常診療の実務へ踏み込んだ注目の事例です。",
+          "en": "",
+          "lang": "ja",
+          "t": 698.72
+        }
+      ],
+      "t": 698.72
+    },
+    {
+      "kind": "world",
+      "heading_en": "Tanker Mine Explosions in Strait of Hormuz",
+      "heading_ja": "ホルムズ海峡で石油タンカーの機雷爆発報道",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Turning to international affairs, Iran's Islamic Revolutionary Guard Corps claimed that three commercial oil tankers suffered severe explosions and caught fire after striking naval mines in the Strait of Hormuz.",
+          "ja": "国際情勢に目を向けますと、イランのイスラム革命防衛隊は、ホルムズ海峡で3隻の民間石油タンカーが機雷に接触し、激しい爆発を起こして炎上したと主張しました。",
+          "t": 726.5
+        },
+        {
+          "speaker": "Mika",
+          "en": "Have international maritime safety organizations or shipowners confirmed these naval mine blasts?",
+          "ja": "国際的な海上安全機関や船主らは、これらの機雷爆発を確認しているのでしょうか？",
+          "t": 740.52
+        },
+        {
+          "speaker": "Alex",
+          "en": "No, independent monitoring agencies have not verified the damage, and the United States military has previously disputed similar Iranian claims. However, energy markets are on high alert because over eighty percent of crude passing through this narrow waterway supplies Asian refineries.",
+          "ja": "いいえ、独立した監視機関は被害を確認しておらず、米軍は過去に同様のイランの主張に異議を唱えています。しかし、この狭い航路を通過する原油の80%以上がアジアの製油所に供給されているため、エネルギー市場は厳戒態勢にあります。",
+          "t": 747.76
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did the United States take any fresh economic actions against Tehran around the same time?",
+          "ja": "米国は同時期にテヘランに対して新たな経済的措置を取ったのですか？",
+          "t": 766.29
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. The United States Treasury sanctioned more than two dozen Iranian exchange houses, front companies, and personnel, accusing them of running an illicit shadow banking network that moved billions of dollars.",
+          "ja": "はい。米財務省は20以上のイラン両替商、ペーパーカンパニー、および関係者に制裁を科し、数十億ドルを移動させていた違法な地下銀行ネットワークを運営していると告発しました。",
+          "t": 773.12
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, unverified maritime attacks in a critical shipping bottleneck accompany intensifying economic sanctions.",
+          "ja": "要するに、重要な海運の要衝における未確認の海上攻撃と、強化される経済制裁が同時に起きているわけですね。",
+          "t": 787.07
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. Regional leaders warned that the Middle East cannot withstand further military and financial escalation.",
+          "ja": "その通りです。地域の指導者らは、中東がこれ以上の軍事的・金融的エスカレーションに耐えることはできないと警告しています。",
+          "t": 795.57
+        }
+      ],
+      "lang": "en",
+      "t": 726.5
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "イラン革命防衛隊はホルムズ海峡で石油タンカー3隻が機雷に触れて炎上したと主張しました。民間機関による独立確認は取れていませんが、アジア向け原油の8割以上が通過する要衝だけに緊張が高まっています。また米財務省はイランの地下金融ネットワーク20組織以上に新たな制裁を発動しました。",
+          "en": "",
+          "lang": "ja",
+          "t": 803.76
+        }
+      ],
+      "t": 803.76
+    },
+    {
+      "kind": "world",
+      "heading_en": "Japan Studies Backup Capital for Tokyo Megaquake",
+      "heading_ja": "日本政府が首都直下地震に備え副首都構想を検討",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "The Japanese government has initiated formal planning to consider designating a secondary administrative capital outside Tokyo to serve as an emergency disaster headquarters.",
+          "ja": "日本政府は、緊急災害対策本部として機能させるため、東京以外の地域に副首都を指定することを検討する正式な計画に着手しました。",
+          "t": 827.37
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is the government looking for a backup location outside the capital right now?",
+          "ja": "なぜ政府は今、首都圏の外にバックアップの拠点を求めているのですか？",
+          "t": 839.19
+        },
+        {
+          "speaker": "Alex",
+          "en": "Japan's existing disaster continuity plan relies on three backup facilities, but all three are situated inside the Tokyo area. If a massive direct-hit earthquake strikes beneath Tokyo, all current fallback sites could be damaged simultaneously.",
+          "ja": "日本の現行の事業継続計画は3つのバックアップ施設に依存していますが、3施設すべてが東京圏にあります。東京直下の大地震が発生した場合、現在の待避拠点がすべて同時に被災する恐れがあります。",
+          "t": 845.54
+        },
+        {
+          "speaker": "Mika",
+          "en": "What key government functions would this secondary capital protect during a catastrophe?",
+          "ja": "この副首都は、破滅的な大災害の際にどのような重要政府機能を守るのですか？",
+          "t": 861.52
+        },
+        {
+          "speaker": "Alex",
+          "en": "Officials stated that a regional backup hub will ensure continuity of national command, coordinate emergency rescue and medical responses, and prevent the total breakdown of public administrative operations.",
+          "ja": "当局者は、地方のバックアップ拠点があれば国家の指揮系統を維持し、緊急救助や医療対応を調整して、公的行政機能の全面的な麻痺を防ぐことができると述べています。",
+          "t": 868.23
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Japan is preparing backup governance infrastructure far from Tokyo against severe seismic risks.",
+          "ja": "要するに、深刻な地震リスクに備えて、東京から離れた場所に政府のバックアップ基盤を準備しているわけですね。",
+          "t": 882.01
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. The planning draft keeps the current sites while studying locations beyond the greater metropolitan region.",
+          "ja": "はい。計画案では現在の都内拠点を維持しつつ、首都圏外の候補地の検討を進めるとしています。",
+          "t": 890.02
+        }
+      ],
+      "lang": "en",
+      "t": 827.37
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "政府は首都直下地震などの大災害に備え、東京以外に政府中枢の代行機能を担う「副首都」の検討に入りました。現行計画の代替拠点3か所はすべて都内にあるため、共倒れを防ぐ狙いがあります。緊急時の国政指揮や公衆衛生・医療対応を維持するための危機管理策として、地方自治体との連携が注目されます。",
+          "en": "",
+          "lang": "ja",
+          "t": 898.61
+        }
+      ],
+      "t": 898.61
+    },
+    {
+      "kind": "world",
+      "heading_en": "Gaza Faces Long-Term Environmental Crisis",
+      "heading_ja": "ガザ地区の99%で深刻な環境汚染が指摘される",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "A comprehensive scientific assessment by Oxfam and the Conflict and Environment Observatory warns that military bombardment has turned the Gaza Strip into a toxic wasteland.",
+          "ja": "オックスファムと紛争・環境監視団による包括的な科学評価報告書は、激しい軍事砲爆撃によりガザ地区が有毒な荒野へと変貌したと警告しています。",
+          "t": 923.47
+        },
+        {
+          "speaker": "Mika",
+          "en": "How widespread is the environmental contamination across the territory?",
+          "ja": "その地域全体で環境汚染はどれほど広範囲に及んでいるのですか？",
+          "t": 935.6
+        },
+        {
+          "speaker": "Alex",
+          "en": "The study found indicators of environmental contamination across more than ninety-nine percent of Gaza. Over two hundred thousand tonnes of explosives have dispersed heavy metals, asbestos from shattered buildings, and hazardous chemicals into the soil and air.",
+          "ja": "調査によると、ガザの99%以上で環境汚染の指標が確認されました。投下された20万トン以上の爆薬により、重金属、倒壊した建物の石綿、有害化学物質が土壌や大気中に飛散しています。",
+          "t": 941.49
+        },
+        {
+          "speaker": "Mika",
+          "en": "What are the immediate dangers for local water supplies and basic public health?",
+          "ja": "現地の水供給や基本的な公衆衛生に対する当面の危険は何ですか？",
+          "t": 959.01
+        },
+        {
+          "speaker": "Alex",
+          "en": "All six wastewater treatment plants are out of service, pouring raw sewage into groundwater and the Mediterranean Sea. Researchers warn that persistent toxins will cause generational health crises, including respiratory failure, organ damage, and cancers.",
+          "ja": "全6か所の下水処理施設が稼働を停止しており、未処理の下水が地下水や地中海に流出しています。研究者らは残留有害物質により、呼吸不全、内臓障害、がんなど世代を超えた健康危機が引き起こされると警告しています。",
+          "t": 965.45
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, severe environmental degradation threatens civilian survival in Gaza for decades ahead.",
+          "ja": "要するに、深刻な環境破壊が今後数十年にわたりガザの住民の生存を脅かしているということですね。",
+          "t": 982.6
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. Oxfam emphasizes that international recovery and decontamination efforts must be prioritized to protect human life.",
+          "ja": "その通りです。オックスファムは、人命を守るために国際的な復旧と除染の取り組みを最優先にすべきだと強調しています。",
+          "t": 990.32
+        }
+      ],
+      "lang": "en",
+      "t": 923.47
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "国際NGOのオックスファムなどの共同調査によると、戦闘による激しい空爆でガザ地区の99%以上に土壌や水質の汚染兆候が見られることが分かりました。投下された20万トン超の弾薬や瓦礫から重金属やアスベストが拡散し、下水施設も全滅しています。将来世代にわたるがんや呼吸器疾患など、深刻な健康被害が危惧されています。",
+          "en": "",
+          "lang": "ja",
+          "t": 999.46
+        }
+      ],
+      "t": 999.46
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch",
+      "heading_ja": "CEO動向ウォッチ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In our executive spotlight today, Jensen Huang received a hero's welcome from cheering employees at Nvidia's headquarters upon his reinstatement.",
+          "ja": "本日のCEO動向です。Jensen Huang氏は復帰に伴い、Nvidia本社で社員たちから大歓声と英雄のような歓迎を受けました。",
+          "t": 1026.47
+        },
+        {
+          "speaker": "Alex",
+          "en": "Addressing the excited crowd, Huang pledged to learn from recent events, stating, 'I am going to be a better CEO the second time around.'",
+          "ja": "興奮する社員たちを前にHuang氏は最近の出来事から学ぶ姿勢を示し、「2度目の就任ではより優れたCEOになる」と宣言しました。",
+          "t": 1036.88
+        },
+        {
+          "speaker": "Mika",
+          "en": "Meanwhile, Arm chief executive Rene Haas publicly reaffirmed his steadfast commitment to Arm Holdings, reassuring investors and helping drive Arm's stock price higher in trading.",
+          "ja": "一方、Armの最高経営責任者であるRene Haas氏はArm Holdingsへの揺るぎないコミットメントを公に再確認し、投資家を安心させて同社の株価上昇を後押ししました。",
+          "t": 1046.81
+        }
+      ],
+      "lang": "en",
+      "t": 1026.47
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: Join Forces",
+      "heading_ja": "今日のフレーズ: join forces（協力する、手を組む）",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's practical business phrase is 'join forces.' It came up when we discussed CrowdStrike and Zscaler uniting in a forty-four billion dollar merger.",
+          "ja": "今日のビジネスフレーズは『join forces』です。CrowdStrikeとZscalerが440億ドルの合併で統合するという話題で登場しました。",
+          "t": 1059.7
+        },
+        {
+          "speaker": "Mika",
+          "en": "'Join forces' simply means to collaborate, partner, or combine resources and efforts to achieve a powerful common objective.",
+          "ja": "『join forces』は、強力な共通の目標を達成するために協力する、提携する、あるいは資源や努力を合わせるという意味です。",
+          "t": 1068.55
+        },
+        {
+          "speaker": "Alex",
+          "en": "Here is an everyday example: 'The two tech startups decided to join forces to create a new open-source platform.'",
+          "ja": "日常会話での例文です。「その2つのテック系新興企業は、新しいオープンソース基盤を作るために手を組むことに決めました。」",
+          "t": 1076.04
+        },
+        {
+          "speaker": "Mika",
+          "en": "It is an excellent, natural phrase to use whenever companies or colleagues work together toward shared success.",
+          "ja": "企業や同僚が共通の成功に向かって協力するときに使える、とても自然で役立つ表現ですね。",
+          "t": 1082.98
+        }
+      ],
+      "lang": "en",
+      "t": 1059.7
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Closing",
+      "heading_ja": "エンディング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That brings us to the end of our commute briefing this morning. Sweeping leadership shifts, historic acquisitions, and evolving safety rules are reshaping technology and global trade at lightning speed.",
+          "ja": "今朝の通勤ニュース解説はここまでです。電撃的な首脳復帰、歴史的な買収、そして進化する安全基準が、驚異的な速さでテクノロジーと国際貿易を塗り替えています。",
+          "t": 1089.82
+        },
+        {
+          "speaker": "Alex",
+          "en": "Stay informed, stay safe on your way to work, and thank you for joining us.",
+          "ja": "最新のニュースにアンテナを張り、通勤の道中どうぞ気をつけてお出かけください。お聴きいただきありがとうございました。",
+          "t": 1101.23
+        },
+        {
+          "speaker": "Mika",
+          "en": "Have a productive and wonderful Tuesday, everyone. See you tomorrow morning on Commute News!",
+          "ja": "みなさん、生産的で素晴らしい火曜日をお過ごしください。それではまた明日の朝、Commute Newsでお会いしましょう！",
+          "t": 1106.26
+        }
+      ],
+      "lang": "en",
+      "t": 1089.82
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。今日も気をつけて、いってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 1112.14
+        }
+      ],
+      "t": 1112.14
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Jensen Huang Reinstated as Nvidia CEO Following White House Pressure",
+      "title_ja": "トランプ米大統領の働きかけを受け、Jensen Huang氏がNvidiaのCEOに電撃復帰",
+      "summary_ja": "個人的スキャンダルを理由に辞任したJensen Huang氏が、トランプ大統領の直接的な働きかけを受けてNvidiaのCEOおよび取締役に満場一致で再任されました。米政府はHuang氏の復帰に安全保障上の懸念はないと判断する一方、取引相手のシンガポール企業Megaspeed社を輸出規制リストに追加しました。",
+      "why_ja": "世界最高峰のAI半導体企業の首脳人事に米国大統領が直接介入した前例のない事例であり、AI覇権をめぐる地政学的思惑と対中規制の強化が浮き彫りになりました。",
+      "section": "tech",
+      "topic_key": "nvidia-jensen-huang-china-spy-investigation",
+      "companies": [
+        "Nvidia",
+        "Megaspeed"
+      ],
+      "sources": [
+        {
+          "publisher": "NVIDIA Newsroom",
+          "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "Trump engineered a risky comeback for Jensen Huang",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
+          "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ",
+          "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
+          "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
+          "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Nvidia reinstates CEO Jensen Huang after affair with alleged spy as Trump says 'I made the deal'",
+          "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+          "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "TSMC Files Application for $22.6 Billion Chip Plant Campus in Texas",
+      "title_ja": "TSMCがテキサス州ブラゾス郡に226億ドルの先端半導体工場建設を申請",
+      "summary_ja": "TSMCはテキサス州の優遇制度に基づき、ブラゾス郡の3,200エーカーの敷地に226億ドルを投じる新工場キャンパスの建設計画を提出しました。2ナノメートル以下の最先端プロセス半導体を製造し、約2,100人の直接雇用を見込んでいます。",
+      "why_ja": "アリゾナ工場に続く米国内での製造基盤拡大であり、台湾海峡の有事リスクを分散させるとともに、米先端製造業の囲い込みを加速させる重要な動きです。",
+      "section": "tech",
+      "topic_key": "tsmc-texas-brazos-county-fab",
+      "companies": [
+        "TSMC"
+      ],
+      "sources": [
+        {
+          "publisher": "kcentv.com",
+          "title": "TSMC files application for proposed $22.6 billion chip plant in Brazos County",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOc2hiZVdfcU1OcmswdVZHRy1XRDVnQ2laWmEwUXBNWHlJUDhHTW5CcThNSkp3SnA2YzJXSEduTkdOZGVsLXlUeV9UYXctYzc0MnlYZEVXWmpBMEVpT1VBdlhwLTVaRXdENVVkRzJjdHZGTGl0b3ZnQWxBZUM3ejBjbVBnekc0NWdlZVdDdkZSRlJBS2hvOXV4amRtLWt1OWtyU3l4T0lraGdtaW9zQVVSeG5lSUJjU1ZWYmVXazBHNkdVdUd5WUtaUTM1S1FLTUhi?oc=5"
+        },
+        {
+          "publisher": "KBTX News 3",
+          "title": "World’s leading semiconductor manufacturer eyes Brazos County for 3,200+ acre facility",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSjU4d25EaC1DdU9ZUHZvZlA0N0I4ZHNWU1h6UVRoQzNzVlh4UGtDLVNPV2RWVU1renE5Ukc0ZVhScm1ZSnRTVVlSeThKVEl2a09mQmhXNHAtbDRkendfSGZEM0pjekt6M1hsWmdwMndCU0cwUEs1U2JPNjdYV3F0UnFfbURoUElMcDcybjBnaUthTUM5dWdKb05teldqWDB1VlVKTzkwblRrZndyNkxuN1FB?oc=5"
+        },
+        {
+          "publisher": "Bryan College Station Eagle",
+          "title": "Taiwanese semiconductor company eyes $22B investment in Brazos County",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOWhGQjI2TFZoamFhUnBjbDk4cnVNSVRnQ2Z1bDVsUTNpZldJRHFtQTdPNzc5N0k1MGpGNENEb3BJVVZBQnU5NkVoUEUwZGJIXzFTbERhdWVhdzd6Qll3R3ZGVWtYVENrNnBVS0VjaG1NQlJ5Z2pQUFpWSF82azI3dlAtNDFCbkNUcEVCV3M1Y2xDN2h0?oc=5"
+        },
+        {
+          "publisher": "The Motley Fool",
+          "title": "Why TSMC Stock Soared Today",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE92TkVUSlNHYU1SY3BsX3E1MWN3elI4c2hqQ0NONE5DOU5FVWl2cTZEVk1tb282dTE0TEJGU1RhRndzTTZhOU5rbXEyVVlRQzd2ckxua1dORnktSjljNG1KNnlrSVQtZEE2YUFxbDFoY0JRdXFRdnZ1UERn?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "CrowdStrike to Acquire Zero-Trust Pioneer Zscaler for $44 Billion",
+      "title_ja": "CrowdStrikeがZscalerを440億ドルで買収、AI時代の統合防御へ",
+      "summary_ja": "サイバーセキュリティ大手のCrowdStrikeが、競合のZscalerを約439億ドルの株式交換で買収することに合意しました。端末保護ソフトとクラウドのゼロトラスト技術を統合し、急速に普及する自律型AIエージェントのサイバーリスクに対応します。",
+      "why_ja": "セキュリティ業界史上最大の買収劇であり、AI普及に伴う新たな脅威に対抗するための巨大プラットフォームへの市場集約が進んでいます。",
+      "section": "tech",
+      "topic_key": "crowdstrike-zscaler-acquisition",
+      "companies": [
+        "CrowdStrike",
+        "Zscaler"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "CrowdStrike to acquire Zscaler for $44 billion",
+          "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/"
+        }
+      ]
+    },
+    {
+      "title_en": "Amazon Acquires AI Startup Decart's Tech and Talent for $7.5 Billion",
+      "title_ja": "AmazonがAIスタートアップDecartの技術と人材を75億ドルで買収",
+      "summary_ja": "AmazonはイスラエルのAIスタートアップDecartから、最適化ソフトウェアDOSと創業者を含む約120人の技術者を75億ドルで買収することに合意しました。自社製AIチップTrainiumの計算効率を高め、外部顧客への販売を本格化させます。",
+      "why_ja": "独走するNvidiaのCUDA環境に対抗するため、クラウド大手が独自チップのソフトウェア基盤と高度AI人材を囲い込む動きが激化しています。",
+      "section": "tech",
+      "topic_key": "amazon-decart-acquisition-trainium",
+      "companies": [
+        "Amazon",
+        "Decart"
+      ],
+      "sources": [
+        {
+          "publisher": "The Register",
+          "title": "Amazon scoops up AI accelerator tech to keep chips busy at all times",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/23/amazon-scoops-up-ai-accelerator-tech-to-keep-chips-busy-at-all-times/5311754"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+          "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
+        },
+        {
+          "publisher": "CNBC",
+          "title": "Amazon to acquire AI startup Decart's chip software, hire founders",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9hSmFaemUzUldRaWhTb3diNE4wU2dQb29ab2FXLS16UzcwdFU1a2tjUVh5Y2t0WEJweGREQ1JIMVczYXhmZGRQT3pXa0FUU0xFZWEzVGpnT2Q4MUdhWEVFMWhmRkNyZXVNbkdqa2xpdW03QWFT0gF6QVVfeXFMTjg2VVVOYlVHWHJaNUhWUHZMNjFQQ2Q5MmptU1JiektEbXNWMUN4SzR6OWxRSjVUTFZuakcwSEtHUjU4MUluQi1QUXQtc2xvWnhSY0NXNm9SUXZraElHZ290VTlUMlloSXhBSVRGbEhBcmVRYXZreFdjc2c?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Amazon to buy Decart's AI chip optimization tech in latest AI talent grab",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORW5Dd2o3Ty1RU2Rmbl9tMi1pcS1DUTlFY0x0c1d5czk4R2Z0YXZObUJyRkFTYk1yMlhyYk5YUGIwOFg0dUotVGR1cU15VjhOVVNzYmVxQlVQN1hPeDBPOHdGZ1FjS21BRVdWYkF5azRKdzBWLVh2WnV4YWp5dlFtRFpPSHdZNkx4V2syeHpOOXV0RHBSUnFjRkZEc3RHR2gtUFZuNVVPWm9YOW84VmM5dnpXMGt6OHpNalpiTlBpM1ZIcE1JSlE?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Meta Drops 2030 Net-Zero Climate Deadline Due to Surging AI Energy Needs",
+      "title_ja": "MetaがAI電力急増を受け2030年の温暖化ガス排出ゼロ目標を撤回",
+      "summary_ja": "Metaは2026年持続可能性報告書で、2030年までに温暖化ガス排出実質ゼロを達成する目標を撤回しました。生成AIインフラの需要急増に伴いデータセンターの排出量が激増しており、新設施設での天然ガス発電利用が進んでいます。",
+      "why_ja": "AIインフラの急速な拡張が企業の脱炭素目標と直接衝突している実態を浮き彫りにしており、環境政策やエネルギー計画の見直しを迫っています。",
+      "section": "tech",
+      "topic_key": "meta-net-zero-climate-target-reversal",
+      "companies": [
+        "Meta"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "Meta throws out its net-zero goal — its competitors should be furious",
+          "url": "https://techcrunch.com/2026/11/23/meta-throws-out-its-net-zero-goal-its-competitors-should-be-furious/"
+        }
+      ]
+    },
+    {
+      "title_en": "Photon Integrates E-Prescribing into ChatGPT for Clinical Workflows",
+      "title_ja": "医療基盤PhotonがChatGPT内に電子処方箋作成機能を統合",
+      "summary_ja": "処方インフラのPhotonがChatGPT向けプラグインを開発し、米国の医療従事者がチャット画面上で直接処方箋を作成・送信できるようになりました。AIは下書きや用量照会を支援し、医師が最終的な確認と電子署名を行います。",
+      "why_ja": "生成AIが単なる情報検索から実際の診療・投薬という中核業務の実行基盤へと進化しており、医療安全や法的責任のルール設計が急務となります。",
+      "section": "health",
+      "topic_key": "chatgpt-photon-clinical-eprescribing-integration",
+      "companies": [
+        "Photon",
+        "OpenAI"
+      ],
+      "sources": [
+        {
+          "publisher": "Fierce Healthcare",
+          "title": "Photon pharmacy marketplace integrated with ChatGPT for clinicians",
+          "url": "https://www.fiercehealthcare.com/health-tech/photon-pharmacy-marketplace-integrated-chatgpt-clinicians"
+        }
+      ]
+    },
+    {
+      "title_en": "Commercial Tankers Reportedly Hit Mines in Hormuz as US Sanctions Iran",
+      "title_ja": "ホルムズ海峡でタンカー爆発報道、米財務省はイラン地下銀行に制裁発動",
+      "summary_ja": "イラン革命防衛隊はホルムズ海峡で3隻の石油タンカーが機雷に接触して炎上したと発表しました。独立機関による被害確認は取れていませんが、アジアへの原油供給要衝における緊張が高まっています。同時に米国はイランの不正金融ネットワークに制裁を科しました。",
+      "why_ja": "中東の主要海上チョークポイントにおける武力衝突リスクは、日本やアジア各国のエネルギー調達と海運網に直結する重大課題です。",
+      "section": "world",
+      "topic_key": "strait-of-hormuz-tanker-mine-attacks",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Iran war live: Iran says three ships catch fire after hitting Hormuz mines",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines?traffic_source=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "US escalates sanctions on Iran, targets ‘shadow banking’ networks",
+          "url": "https://www.aljazeera.com/news/2026/11/23/us-escalates-sanctions-on-iran-targets-shadow-banking-networks?traffic_source=rss"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Iran hits US bases and civilian sites in the Gulf after a lull",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/11/23/iran-hits-us-bases-and-civilian-sites-in-the-gulf-after-a-lull?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "Japan Studies Backup Capital Outside Tokyo to Ensure Governance Continuity",
+      "title_ja": "日本政府が首都直下地震を想定し東京以外の「副首都」構想を本格検討",
+      "summary_ja": "日本政府は、東京直下地震が発生して首都機能が壊滅的な打撃を受けた場合に備え、都外に政府緊急対策本部となる副首都を指定する検討を開始しました。現在のバックアップ拠点3箇所がすべて都内にあるリスクを解消する狙いです。",
+      "why_ja": "巨大災害時における政府中枢の継続性と医療・公衆衛生の指揮系統を維持するための重要政策であり、地方都市の防災インフラにも波及します。",
+      "section": "world",
+      "topic_key": "japan-disaster-backup-capital-plan",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "Japan Wire by Kyodo News",
+          "title": "Japan to mull second capital as disaster HQ if major quake hits Tokyo",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uUTU1Z1JWNVd6QnNBY0tKdEdFU0hjZEVqRjFaV1FMMXp6R2QzOWpBb0FjTVV3MHRVbmdaeTdFZVdnem9XZlctTkdSN2lmSDF6a3h4NzAwRmFrUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Scientific Assessment Warns Gaza Bombardment Created Severe Toxic Wasteland",
+      "title_ja": "オックスファムなどの科学調査、ガザ地区の99%で深刻な環境汚染を警告",
+      "summary_ja": "オックスファムなどの最新報告書は、激しい軍事攻撃によりガザ地区の99%以上の土地に深刻な環境汚染指標が確認されたと報告しました。20万トン以上の投下爆弾から重金属やアスベストが拡散し、下水施設全壊に伴い深刻な公衆衛生危機が生じています。",
+      "why_ja": "戦災による土壌や地下水の長期的な汚染は、将来世代にわたるがんや呼吸器疾患のリスクを高め、復興と公衆衛生対策の重大な阻害要因となります。",
+      "section": "world",
+      "topic_key": "gaza-environmental-toxic-contamination-study",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+          "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Israel’s destruction of Gaza has created a ‘toxic wasteland’, experts find",
+          "url": "https://www.theguardian.com/world/2026/nov/23/israel-gaza-destruction-created-toxic-wasteland-oxfam-report"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "reinstate",
+      "meaning_ja": "（元の役職・地位に）復帰させる、復権させる",
+      "note_ja": "辞任や解任されたリーダーを再び元の役職に戻す際によく使われる動詞です。",
+      "example_en": "The board voted unanimously to reinstate him, ending an eleven-day hiatus."
+    },
+    {
+      "term": "unanimously",
+      "meaning_ja": "満場一致で、全員一致で",
+      "note_ja": "取締役会や議会などで反対者ゼロで可決された状況を強調する副詞です。",
+      "example_en": "The board voted unanimously to reinstate him, ending an eleven-day hiatus."
+    },
+    {
+      "term": "leading-edge",
+      "meaning_ja": "最先端の",
+      "note_ja": "半導体製造や先端科学技術の最も新しい微細加工技術などを指す形容詞です。",
+      "example_en": "TSMC plans to produce leading-edge semiconductors at two nanometers or even more advanced sizes at the site."
+    },
+    {
+      "term": "endpoint",
+      "meaning_ja": "（ネットワークに接続された）端末、エンドポイント",
+      "note_ja": "セキュリティ用語で、PC、スマートフォン、サーバーなどネットワーク末端の機器全般を指します。",
+      "example_en": "CrowdStrike protects endpoints, like laptops, phones, and servers."
+    },
+    {
+      "term": "authenticate",
+      "meaning_ja": "（正当なユーザーであることを）認証する、確認する",
+      "note_ja": "パスワードや生体認証などを通じて身元を確認するIT基本語彙です。",
+      "example_en": "Zscaler provides zero-trust network tools that force every user and device to authenticate each time they access enterprise systems."
+    },
+    {
+      "term": "autonomous",
+      "meaning_ja": "自律型の、自律的に動く",
+      "note_ja": "人間の直接の指示なしに自己判断でタスクをこなすAIエージェントや自動運転車を指します。",
+      "example_en": "Both chief executives noted that autonomous AI agents are rapidly becoming the newest vulnerability for enterprises."
+    },
+    {
+      "term": "optimization",
+      "meaning_ja": "最適化、効率化",
+      "note_ja": "ハードウェアの性能を最大限に引き出すためのソフトウェアチューニングなどで多用されます。",
+      "example_en": "Amazon is buying Decart's specialized software platform, known as the Decart Optimization Stack, or DOS."
+    },
+    {
+      "term": "net-zero",
+      "meaning_ja": "排出実質ゼロ、ネットゼロ",
+      "note_ja": "温室効果ガスの排出量と吸収・除去量をプラスマイナスゼロにする環境目標を指します。",
+      "example_en": "Meta has dropped its firm commitment to reach net-zero greenhouse gas emissions by 2030."
+    },
+    {
+      "term": "prescription",
+      "meaning_ja": "処方箋、処方薬",
+      "note_ja": "医師が指示する処方箋そのものを指す医療・公衆衛生の重要単語です。",
+      "example_en": "The doctor must review instructions, check dosages against recorded allergies, and manually authorize the prescription."
+    },
+    {
+      "term": "waterway",
+      "meaning_ja": "航路、水路、海峡",
+      "note_ja": "船舶が通行する狭い海域や運河を指す地理・海運用語です。",
+      "example_en": "Over eighty percent of crude passing through this narrow waterway supplies Asian refineries."
+    },
+    {
+      "term": "continuity",
+      "meaning_ja": "継続性、維持",
+      "note_ja": "防災やBCP（業務継続計画）において事業や行政機能を止めずに続けることを表します。",
+      "example_en": "Japan's existing disaster continuity plan relies on three backup facilities, but all three are situated inside the Tokyo area."
+    },
+    {
+      "term": "assessment",
+      "meaning_ja": "評価、査定、調査報告",
+      "note_ja": "環境影響評価やリスク分析など、体系的な調査・判断を意味します。",
+      "example_en": "A comprehensive scientific assessment by Oxfam and the Conflict and Environment Observatory warns that military bombardment has turned the Gaza Strip into a toxic wasteland."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "join forces",
+    "meaning_ja": "協力する、手を組む、連合する",
+    "example_en": "The two tech startups decided to join forces to create a new open-source platform.",
+    "example_ja": "その2つのテック系新興企業は、新しいオープンソース基盤を作るために手を組むことに決めました。"
+  }
+}
