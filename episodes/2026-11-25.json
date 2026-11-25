@@ -1,0 +1,1235 @@
+{
+  "date": "2026-11-25",
+  "published": "2026-11-25T09:34:00+09:00",
+  "title_en": "Huawei Convicted in US Court and Meta Launches Muse AI",
+  "title_ja": "米裁判所でHuaweiに有罪評決、Metaが自律型AI「Muse」を英国で開始",
+  "summary_ja": "米国の陪審団がHuaweiに対し企業秘密窃取などの罪で有罪評決を下し、Metaは英国で自律型AIエージェント「Muse」を公開しました。医療分野では乳がんの5年発症リスクを予測するAIが米FDAの承認を取得しました。世界情勢ではEUがハイブリッド車への輸入割り当てを発表し、中国やキューバの動向が注目されています。",
+  "duration": 1177.1,
+  "audio": {
+    "file": "2026-11-25.mp3",
+    "bytes": 9417530,
+    "release_tag": "ep-2026-11-25"
+  },
+  "word_count": 2047,
+  "ja_chars": 1403,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.8-flash",
+    "write": "gemini-3.8-flash",
+    "revise": "gemini-3.8-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Welcome to Commute News",
+      "heading_ja": "オープニング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it is Wednesday, November 25. This is Commute News. I am Alex in Tokyo, joined by Mika in Kyoto.",
+          "ja": "おはようございます。11月25日水曜日、Commute Newsです。東京のAlexと、京都のMikaでお届けします。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, Alex. Today, a United States jury finds telecom giant Huawei guilty of trade secret theft and fraud.",
+          "ja": "おはようございます、Alex。本日は、米国の陪審団が通信大手Huaweiに対し、企業秘密の窃取と詐欺で有罪評決を下したニュースをお伝えします。",
+          "t": 7.45
+        },
+        {
+          "speaker": "Alex",
+          "en": "In digital health, the FDA clears the first AI tool that predicts long-term breast cancer risk from 3D mammograms.",
+          "ja": "デジタルヘルスでは、3Dマンモグラフィから長期的な乳がんリスクを予測する初のAIツールをFDAが承認しました。",
+          "t": 15.12
+        },
+        {
+          "speaker": "Mika",
+          "en": "And in world news, the European Union announces strict import quotas on hybrid cars, affecting China, Japan, and other partners.",
+          "ja": "そして国際ニュースでは、EUがハイブリッド車に対する厳しい輸入割当を発表し、中国や日本などに影響が広がっています。",
+          "t": 22.78
+        },
+        {
+          "speaker": "Alex",
+          "en": "We have all these stories and more. Let us jump right in.",
+          "ja": "これらの注目ニュースを詳しく見ていきましょう。それでは始めます。",
+          "t": 31.23
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Federal Jury Finds Huawei Guilty of US Trade Secret Theft and Fraud",
+      "heading_ja": "米連邦陪審団、Huaweiに企業秘密窃取と詐欺で有罪評決",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our top tech story comes from New York. A federal jury has convicted Chinese telecom giant Huawei on ten criminal counts.",
+          "ja": "最初のテックニュースはニューヨークからです。米連邦陪審団が中国の通信機器大手Huaweiに対し、10件の訴因で有罪評決を下しました。",
+          "t": 35.75
+        },
+        {
+          "speaker": "Mika",
+          "en": "Ten counts is a very large number. What exactly did the jury find them guilty of?",
+          "ja": "10件というのは非常に多いですね。陪審団は具体的に何を理由に有罪と判断したのでしょうか？",
+          "t": 43.8
+        },
+        {
+          "speaker": "Alex",
+          "en": "The jury found Huawei guilty of conspiracy to steal trade secrets, bank fraud, wire fraud, sanctions violations, and money laundering.",
+          "ja": "陪審団は、企業秘密窃取の共謀、銀行詐欺、通信詐欺、制裁違反、および資金洗浄について有罪と認めました。",
+          "t": 49.65
+        },
+        {
+          "speaker": "Mika",
+          "en": "Were they convicted on everything, or were there charges they beat?",
+          "ja": "すべての罪状で有罪になったのですか、それとも無罪となった項目もあるのでしょうか？",
+          "t": 58.42
+        },
+        {
+          "speaker": "Alex",
+          "en": "The jury acquitted Huawei on two charges: racketeering conspiracy and obstruction of justice. Racketeering means running an organized criminal enterprise.",
+          "ja": "陪審団は2つの訴因、組織犯罪共謀と司法妨害については無罪としました。ラケッティアリングとは組織的な犯罪組織の運営を意味します。",
+          "t": 63.5
+        },
+        {
+          "speaker": "Mika",
+          "en": "This legal fight has been going on for years, right?",
+          "ja": "この法廷闘争は何年も続いていましたよね？",
+          "t": 73.38
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. The case started back in 2018 when Huawei's chief financial officer was arrested in Canada.",
+          "ja": "はい。この事件は2018年にHuaweiの最高財務責任者がカナダで逮捕されたことから始まりました。",
+          "t": 77.62
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Department of Justice said Huawei spent two decades stealing technology from companies like T-Mobile, Cisco, and Motorola.",
+          "ja": "米司法省は、Huaweiが20年間にわたりT-MobileやCisco、Motorolaなどの企業から技術を盗んでいたと主張しました。",
+          "t": 84.3
+        },
+        {
+          "speaker": "Mika",
+          "en": "How is Huawei responding to this major verdict?",
+          "ja": "この重大な評決に対して、Huawei側はどのように反応していますか？",
+          "t": 92.63
+        },
+        {
+          "speaker": "Alex",
+          "en": "Huawei said the charges have no legal or factual merit. Their lawyer plans to appeal the decision.",
+          "ja": "Huaweiは告発には法的・事実的な根拠がないと主張し、弁護士は控訴する方針を明らかにしています。",
+          "t": 96.6
+        },
+        {
+          "speaker": "Alex",
+          "en": "Sentencing will take place on September 14, 2027. The company could face billions of dollars in fines.",
+          "ja": "量刑言い渡しは2027年9月14日に行われます。同社には数十億ドルの罰金が科される可能性があります。",
+          "t": 103.39
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, a long legal battle ends with Huawei convicted of stealing US technology, but the company will appeal.",
+          "ja": "要するに、長年にわたる法廷闘争はHuaweiの米技術窃取に対する有罪評決で決着したものの、同社は控訴する見込みということですね。",
+          "t": 110.39
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is exactly right.",
+          "ja": "その通りです。",
+          "t": 118.17
+        }
+      ],
+      "lang": "en",
+      "t": 35.75
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。米ニューヨークの連邦陪審団は、中国の通信機器大手Huaweiに対し、企業秘密窃取の共謀や銀行詐欺など10件の罪状で有罪評決を下しました。組織犯罪共謀など2件は無罪とされましたが、2018年から続いた大型訴訟が決着しました。Huaweiは控訴を表明していますが、巨額の罰金が科される見通しです。",
+          "en": "",
+          "lang": "ja",
+          "t": 120.77
+        }
+      ],
+      "t": 120.77
+    },
+    {
+      "kind": "story",
+      "heading_en": "Microsoft Declares Code Red Cloud Overhaul After Outage",
+      "heading_ja": "Microsoft、大規模障害を受け「コードレッド」改革を宣言",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our second story looks at Microsoft. Leaked internal memos show the company has declared an emergency Code Red overhaul of its cloud engineering practices.",
+          "ja": "2つ目のニュースはMicrosoftについてです。流出した社内メモにより、同社がクラウド設計の緊急見直しとなる「コードレッド」を宣言したことが分かりました。",
+          "t": 146.13
+        },
+        {
+          "speaker": "Mika",
+          "en": "What does a Code Red mean inside Microsoft, and how big was the damage?",
+          "ja": "Microsoft内部における「コードレッド」とは何を意味し、どれほどの被害が出たのですか？",
+          "t": 156.16
+        },
+        {
+          "speaker": "Alex",
+          "en": "It means the work takes top priority across all engineering teams. The move follows the massive November 12 outage that disabled Exchange Online, Outlook, Teams, and Copilot across more than seventy countries.",
+          "ja": "すべての開発チームにおいて最優先の緊急案件であることを意味します。70カ国以上でExchange Online、Outlook、Teams、Copilotが停止した11月12日の大規模障害を受けた措置です。",
+          "t": 161.5
+        },
+        {
+          "speaker": "Alex",
+          "en": "Reports estimate global productivity losses at seven billion dollars, paralyzing airlines, financial trading desks, and government offices worldwide.",
+          "ja": "世界全体の生産性損失は70億ドルに達したと試算されており、世界中の航空会社、金融取引、政府機関の業務が麻痺しました。",
+          "t": 174.54
+        },
+        {
+          "speaker": "Mika",
+          "en": "What went wrong during their engineering response?",
+          "ja": "技術部門の緊急対応では何が問題だったのでしょうか？",
+          "t": 184.23
+        },
+        {
+          "speaker": "Alex",
+          "en": "Internal memos revealed that engineers battled a chaotic fog of war during the twenty-four-hour disruption, exchanging over eleven thousand messages across eleven different Teams chat channels.",
+          "ja": "社内メモによると、エンジニアは24時間の障害対応中に11個の別々のチャットチャンネルで1万1,000件以上のメッセージを交わすなど、混沌とした「戦場の霧」の中で格闘していました。",
+          "t": 188.41
+        },
+        {
+          "speaker": "Alex",
+          "en": "A latent Windows scalability flaw from July caused severe lock contention in server gateways, right when maintenance had already left fourteen percent of gateway capacity offline.",
+          "ja": "7月に導入されたWindowsの潜在的スケーラビリティ欠陥がゲートウェイで激しいロック競合を起こし、さらに保守作業によってゲートウェイ容量の14%がオフラインだったことが重なりました。",
+          "t": 200.55
+        },
+        {
+          "speaker": "Mika",
+          "en": "How is Microsoft planning to prevent this from repeating?",
+          "ja": "Microsoftはこの再発をどのように防ぐ計画ですか？",
+          "t": 211.91
+        },
+        {
+          "speaker": "Alex",
+          "en": "While a recent fix took five to six days to deploy globally, Microsoft now mandates that critical fixes move from detection to worldwide deployment within just one hour.",
+          "ja": "最近の修正では世界展開に5〜6日かかりましたが、Microsoftは今後、重大な修正を検知からわずか1時間以内に全世界へ展開することを義務付けています。",
+          "t": 216.48
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Microsoft declared Code Red to fix slow communication and set a strict one-hour recovery deadline after historic cloud downtime.",
+          "ja": "要するに、歴史的なクラウドダウンを受け、遅れた連絡体制を正して厳格な1時間復旧目標を達成するために「コードレッド」を宣言したわけですね。",
+          "t": 227.28
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly right. Restoring customer trust through speed is now Microsoft's core engineering mission.",
+          "ja": "その通りです。スピードによって顧客の信頼を取り戻すことが、現在のMicrosoftの最優先開発目標です。",
+          "t": 236.58
+        }
+      ],
+      "lang": "en",
+      "t": 146.13
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Microsoftの社内メモによると、同社は11月12日に発生した大規模障害を受け、クラウド基盤の刷新に向けた「コードレッド」を宣言しました。世界70カ国以上でメールやTeamsが使えなくなり、復旧手順の遅れが浮き彫りとなりました。同社は今後、重大なシステム修正を検知から1時間以内に世界展開する目標を掲げています。",
+          "en": "",
+          "lang": "ja",
+          "t": 243.44
+        }
+      ],
+      "t": 243.44
+    },
+    {
+      "kind": "story",
+      "heading_en": "Meta Launches Muse AI Agent in the UK Under Watchdog Scrutiny",
+      "heading_ja": "Metaが英国でAIエージェント「Muse」を開始、金融当局は警戒",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Next up, Meta has officially launched its autonomous personal AI assistant, named Muse, across the United Kingdom for adult users.",
+          "ja": "続いて、Metaが英国の成人ユーザー向けに「Muse」と呼ばれる自律型個人AIアシスタントの公式提供を開始しました。",
+          "t": 268.59
+        },
+        {
+          "speaker": "Mika",
+          "en": "How is Muse different from conventional chatbots we already use?",
+          "ja": "Museは私たちが普段使っている従来のチャットボットとどのように違うのですか？",
+          "t": 277.22
+        },
+        {
+          "speaker": "Alex",
+          "en": "Unlike text-only chatbots, Muse is an agentic model powered by Muse Spark from Meta Superintelligence Labs. It takes direct action on your behalf across connected services.",
+          "ja": "単なる対話ボットとは異なり、MuseはMeta Superintelligence Labsが開発した「Muse Spark」を搭載したエージェント型モデルで、連携サービスを通じて利用者の代わりに直接行動を実行します。",
+          "t": 282.18
+        },
+        {
+          "speaker": "Alex",
+          "en": "Available in WhatsApp, Instagram, and web apps, it can negotiate refunds, compare cheaper energy tariffs, plan itineraries, and shop with retailers like Marks and Spencer, Currys, and Sainsbury's.",
+          "ja": "WhatsAppやInstagram、ウェブアプリで利用でき、返金交渉、割安な電力プランの比較、旅程作成、Marks & SpencerやCurrys、Sainsbury'sなどの小売店での買い物代行が可能です。",
+          "t": 293.15
+        },
+        {
+          "speaker": "Mika",
+          "en": "Can it spend user money automatically without direct permission?",
+          "ja": "ユーザーの直接の許可なしに自動でお金を使うことはできるのですか？",
+          "t": 305.46
+        },
+        {
+          "speaker": "Alex",
+          "en": "No. Meta requires explicit user approval before every purchase using Stripe's Onelink wallet or Shopify's Shop Pay. Each user also receives a secure virtual computer in the cloud.",
+          "ja": "いいえ。StripeのOnelinkウォレットやShopifyのShop Payを使った購入の前には、毎回明示的なユーザー承認が必要です。またユーザーごとにクラウド上に安全な仮想PCが割り当てられます。",
+          "t": 310.42
+        },
+        {
+          "speaker": "Mika",
+          "en": "How are British financial watchdogs responding to these autonomous powers?",
+          "ja": "英国の金融監督機関は、この自律的な権限に対してどのように反応していますか？",
+          "t": 321.78
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Financial Conduct Authority and privacy regulators issued immediate warnings. The FCA noted that calling yourself a tech company does not exempt you from strict financial promotion rules.",
+          "ja": "金融行動監視機構（FCA）やプライバシー保護機関が即座に警告を発しました。FCAは、IT企業を名乗っても厳格な金融プロモーション規制を免れることはできないと指摘しました。",
+          "t": 327.3
+        },
+        {
+          "speaker": "Alex",
+          "en": "Because of regulatory scrutiny, Meta paused features that link directly to British bank accounts and mortgage data.",
+          "ja": "規制当局の監視を受け、Metaは英国の銀行口座や住宅ローン情報に直接連携する機能を一時停止しました。",
+          "t": 339.33
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Meta brought real-world task automation to the UK, but regulators are demanding strict financial boundaries.",
+          "ja": "要するに、Metaは現実の作業を代行するAIを英国に投入したものの、規制当局は厳格な金融上の境界線を求めているわけですね。",
+          "t": 347.12
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. Autonomous AI is colliding directly with commercial regulations.",
+          "ja": "その通りです。自律型AIが商業規制と直接衝突し始めています。",
+          "t": 355.31
+        }
+      ],
+      "lang": "en",
+      "t": 268.59
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Metaは英国で、利用者に代わって買い物や旅行予約を行う自律型AIエージェント「Muse」の提供を開始しました。Stripeなどと連携し、事前の承認を得て決済を行います。これに対し英国の金融行動監視機構（FCA）などは、金融助言や決済には厳格な規制が適用されると警告し、Metaは銀行口座の直接連携を一時見送りました。",
+          "en": "",
+          "lang": "ja",
+          "t": 361.22
+        }
+      ],
+      "t": 361.22
+    },
+    {
+      "kind": "story",
+      "heading_en": "Anthropic Shares Drop Below $83 IPO Benchmark",
+      "heading_ja": "Anthropicの株価が公開価格83ドルを割り込む",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Moving to AI financial markets. Shares of generative AI pioneer Anthropic tumbled sharply below their initial public offering benchmark of 83 dollars.",
+          "ja": "AIの金融市場の話題に移ります。生成AIの先駆者であるAnthropicの株価が、新規公開価格のベンチマークである83ドルを大きく割り込みました。",
+          "t": 388.43
+        },
+        {
+          "speaker": "Mika",
+          "en": "Didn't Anthropic just complete an enormous Nasdaq debut last week? How severe is the drop?",
+          "ja": "Anthropicは先週、ナスダックへの大型上場を果たしたばかりではありませんでしたか？下落はどれほど深刻なのですか？",
+          "t": 398.92
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Anthropic opened at 111 dollars and 50 cents on November 19, but on Tuesday, the stock dropped nearly twelve percent intraday to 75 dollars and 61 cents before settling around 81 dollars.",
+          "ja": "はい。Anthropicは11月19日に111ドル50セントで初値を付けましたが、火曜日には日中約12%下落して75ドル61セントまで売り込まれ、終値は81ドル台となりました。",
+          "t": 405.81
+        },
+        {
+          "speaker": "Alex",
+          "en": "The swift selloff erased roughly two hundred billion dollars in market value, dragging Anthropic's overall capitalization briefly under the one-trillion-dollar threshold.",
+          "ja": "この急落によって約2,000億ドルの時価総額が吹き飛び、Anthropicの評価額は一時1兆ドルの大台を下回る水準まで落ち込みました。",
+          "t": 418.81
+        },
+        {
+          "speaker": "Mika",
+          "en": "What is triggering this sudden skepticism from public market investors?",
+          "ja": "公開市場の投資家が突然このような懐疑的な見方を強めた要因は何ですか？",
+          "t": 430.49
+        },
+        {
+          "speaker": "Alex",
+          "en": "Investors are growing anxious about massive cloud compute bills compared to software revenues. Many also rotated capital into hardware giants like Nvidia rather than cash-burning model builders.",
+          "ja": "ソフトウェア収益に対して巨額に膨らむクラウド計算費用への懸念が高まっています。また資金を消費するモデル開発企業ではなく、Nvidiaなどのハードウェア大手へ資金を移す動きも重なりました。",
+          "t": 436.24
+        },
+        {
+          "speaker": "Alex",
+          "en": "Concerns were further stoked by reports that safety researchers at frontier labs voiced worries over the readiness of next-generation releases.",
+          "ja": "さらに最先端ラボの安全性研究者らが次世代モデル公開の準備状況に懸念を示したという報道も、市場の不安を煽りました。",
+          "t": 449.36
+        },
+        {
+          "speaker": "Mika",
+          "en": "What does this mean for other venture-backed AI startups?",
+          "ja": "これは他のベンチャー出資型AIスタートアップにとって何を意味するのでしょうか？",
+          "t": 459.42
+        },
+        {
+          "speaker": "Alex",
+          "en": "It serves as a warning shot. Underwriters and venture firms expect private valuations to shrink as public investors demand sustainable profitability.",
+          "ja": "強い警告となります。公開市場の投資家が持続可能な収益性を求める中、引受業者やVCは未上場企業の評価額が下方修正されると予想しています。",
+          "t": 464.33
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Anthropic breaking below its issue price highlights that Wall Street is questioning high-cost generative AI economics.",
+          "ja": "要するに、Anthropicが公開価格を割ったことは、ウォール街が高コストな生成AIの事業採算性に疑問を呈し始めたことを示しているのですね。",
+          "t": 474.76
+        },
+        {
+          "speaker": "Alex",
+          "en": "Precisely. The market is demanding real earnings over pure computing ambition.",
+          "ja": "その通りです。市場は計算資源への野心だけでなく、確かな収益を要求しています。",
+          "t": 484.16
+        }
+      ],
+      "lang": "en",
+      "t": 388.43
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "上場したばかりのAI企業Anthropicの株価が、公開価格の83ドルを下回り、一時75ドル台まで急落しました。約2,000億ドルの時価総額が失われ、1兆ドルを一時割り込みました。膨大な計算コストに対する収益化への懸念からハードウェア関連へ資金が移っており、今後のAI企業の資金調達環境にも影響が出そうです。",
+          "en": "",
+          "lang": "ja",
+          "t": 490.33
+        }
+      ],
+      "t": 490.33
+    },
+    {
+      "kind": "story",
+      "heading_en": "Japan Deploys MobileFab Cleanroom Trucks for Chip Training",
+      "heading_ja": "日本、半導体人材育成に向けクリーンルーム搭載トラックを導入",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "For our final tech story, Japan has unveiled a mobile innovation to train semiconductor talent: full microchip fabrication cleanrooms inside trucks.",
+          "ja": "テック部門の最後のニュースは、半導体人材の育成に向けた日本の移動型イノベーション、トラック車内の半導体製造クリーンルームです。",
+          "t": 517.19
+        },
+        {
+          "speaker": "Mika",
+          "en": "How can an entire semiconductor fab fit inside a regular truck?",
+          "ja": "通常のトラックの中に、どのようにして半導体工場全体を収めることができるのですか？",
+          "t": 527.1
+        },
+        {
+          "speaker": "Alex",
+          "en": "It is called mobileFab, engineered by the Minimal Fab Promotion Organization alongside national research institute AIST.",
+          "ja": "これはミニマルファブ推進機構と国立研究開発法人産総研が共同開発した「mobileFab」というシステムです。",
+          "t": 532.15
+        },
+        {
+          "speaker": "Alex",
+          "en": "Instead of building giant cleanroom halls costing hundreds of millions of dollars, the truck houses three compact, maskless lithography tools measuring just thirty centimeters across.",
+          "ja": "数億ドル規模の巨大なクリーンルーム施設を建てる代わりに、トラック内には幅わずか30センチの小型マスクレス露光装置が3台設置されています。",
+          "t": 540.45
+        },
+        {
+          "speaker": "Alex",
+          "en": "These tools process half-inch wafers inside localized clean air zones, handling photoresist coating, maskless exposure, and chemical developing on board.",
+          "ja": "これらの装置は0.5インチのウエハーを局所的な清浄空気ゾーンの中で処理し、車内でフォトレジスト塗布、マスクレス露光、現像まで行います。",
+          "t": 552.37
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is Japan deploying these rolling labs across the country right now?",
+          "ja": "なぜ日本は今、このような「走るラボ」を全国に展開しようとしているのですか？",
+          "t": 562.57
+        },
+        {
+          "speaker": "Alex",
+          "en": "Japan is investing tens of billions into megaprojects like TSMC's Kumamoto plants and Rapidus in Hokkaido, but faces a ten-year deficit of skilled semiconductor engineers.",
+          "ja": "日本は熊本のTSMC工場や北海道のRapidusなどの巨大プロジェクトに巨額投資を行っていますが、今後10年間に及ぶ半導体技術者の不足に直面しています。",
+          "t": 568.07
+        },
+        {
+          "speaker": "Alex",
+          "en": "The mobileFab truck will showcase at SEMICON Japan in December before launching nationwide tours to regional colleges and universities in April 2027.",
+          "ja": "このmobileFabトラックは12月のSEMICON Japanで公開された後、2027年4月から地方の高専や大学を巡回する予定です。",
+          "t": 579.3
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Japan is putting chip tools on wheels to give students hands-on wafer training and solve its engineer shortage.",
+          "ja": "要するに、日本は学生に実践的なウエハー加工の訓練機会を提供し、技術者不足を解決するために製造装置を車載化したわけですね。",
+          "t": 589.27
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is the concept. Bringing localized manufacturing tools straight to the next generation of engineers.",
+          "ja": "まさにそのコンセプトです。次世代の技術者たちのもとへ、小型製造ツールを直接届ける試みです。",
+          "t": 597.87
+        }
+      ],
+      "lang": "en",
+      "t": 517.19
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "産総研とミニマルファブ推進機構は、トラック内に超小型の半導体製造装置を搭載した「mobileFab」を発表しました。大型クリーンルームを使わず、局所的な清浄環境で加工を行います。熊本のTSMCや北海道のRapidus新設に伴う深刻な技術者不足を解消するため、2027年4月から地方の大学や高専を巡回する予定です。",
+          "en": "",
+          "lang": "ja",
+          "t": 605.32
+        }
+      ],
+      "t": 605.32
+    },
+    {
+      "kind": "health",
+      "heading_en": "FDA Clears AI Tool Predicting Five-Year Breast Cancer Risk",
+      "heading_ja": "FDA、3D画像から乳がんの5年リスクを予測するAIを承認",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In digital health, the United States Food and Drug Administration has granted 510(k) clearance to DeepHealth for an algorithm named Mammo Risk.",
+          "ja": "デジタルヘルスの分野では、米食品医薬品局（FDA）がDeepHealthの「Mammo Risk」と呼ばれるアルゴリズムに対し、510(k)承認を与えました。",
+          "t": 630.88
+        },
+        {
+          "speaker": "Mika",
+          "en": "What makes this clearance unique compared to previous breast cancer imaging tools?",
+          "ja": "これまでの乳がん画像診断ツールと比べて、今回の承認は何が画期的なのですか？",
+          "t": 640.51
+        },
+        {
+          "speaker": "Alex",
+          "en": "It is the first clinically authorized software designed to forecast three-, four-, and five-year future breast cancer risk directly from routine 3D digital breast tomosynthesis mammograms.",
+          "ja": "日常的な3Dデジタルトモシンセシス・マンモグラフィ画像から、将来3年、4年、5年後の乳がんリスクを直接予測できる初の公認ソフトウェアだからです。",
+          "t": 646.64
+        },
+        {
+          "speaker": "Alex",
+          "en": "Trained on two hundred twenty thousand screening examinations, the AI was validated across ten major clinical sites examining more than sixty-five thousand mammograms.",
+          "ja": "22万件の検診画像で学習され、全米10カ所の主要臨床現場において6万5,000件以上のマンモグラフィを対象に検証されました。",
+          "t": 658.85
+        },
+        {
+          "speaker": "Mika",
+          "en": "Does Mammo Risk diagnose active tumors present in the breast right now?",
+          "ja": "Mammo Riskは、現在乳房内にある活動性の腫瘍を診断するものなのですか？",
+          "t": 669.85
+        },
+        {
+          "speaker": "Alex",
+          "en": "No, it is not a diagnostic tool for current tumors. Instead, it identifies healthy women who carry subtle biological tissue patterns linked to high future cancer risk.",
+          "ja": "いいえ、現在ある腫瘍を診断するツールではありません。将来的な発症リスクの高さと結びつく微細な生体組織パターンを持つ、健康な女性を特定します。",
+          "t": 675.35
+        },
+        {
+          "speaker": "Alex",
+          "en": "Today, doctors mostly rely on subjective questionnaires and family histories. This tool allows doctors to proactively schedule supplemental MRI scans years before tumors ever form.",
+          "ja": "現在、医師は主観的な問診票や家族歴に頼っています。このツールにより、医師は腫瘍が形成される数年前から、予防的な追加MRI検査を計画できます。",
+          "t": 686.35
+        },
+        {
+          "speaker": "Alex",
+          "en": "The American Medical Association has already established a tracking reimbursement code for the procedure, which takes effect in January 2027.",
+          "ja": "米国医師会はこの手技に対する診療報酬追跡コードをすでに策定しており、2027年1月に施行されます。",
+          "t": 698.1
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, this AI lets clinicians assess long-term breast cancer probability from standard 3D scans, shifting care toward personalized prevention.",
+          "ja": "要するに、このAIによって標準的な3D画像から長期的な乳がん確率を評価でき、個別化された予防医療へとシフトできるわけですね。",
+          "t": 707.61
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. It changes breast healthcare from waiting for tumors to anticipating biological risk years in advance.",
+          "ja": "その通りです。腫瘍の発生を待つ医療から、生物学的リスクを数年前から予測する医療へと変革します。",
+          "t": 717.64
+        }
+      ],
+      "lang": "en",
+      "t": 630.88
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米FDAは、DeepHealthのAIソフトウェア「Mammo Risk」を承認しました。日常的な3Dマンモグラフィ画像から、将来3〜5年以内の乳がん発症リスクを予測する初のツールです。問診票に頼っていた従来法と異なり、画像の微小な変化から高リスク者を割り出し、MRIなど追加検査の早期計画につなげることができます。",
+          "en": "",
+          "lang": "ja",
+          "t": 725.88
+        }
+      ],
+      "t": 725.88
+    },
+    {
+      "kind": "world",
+      "heading_en": "EU to Impose Import Quotas on Hybrid Cars",
+      "heading_ja": "EU、ハイブリッド車に輸入割当を導入へ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Turning to international trade, the European Union announced it will impose temporary safeguard import quotas on hybrid passenger cars starting December 1 for two hundred days.",
+          "ja": "国際通商の話題に移ります。欧州連合（EU）は12月1日から200日間、ハイブリッド乗用車に対し一時的なセーフガード輸入割当を導入すると発表しました。",
+          "t": 752.13
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is Brussels clamping down on hybrid vehicles so suddenly?",
+          "ja": "なぜブリュッセルはこれほど急にハイブリッド車の規制に踏み切ったのですか？",
+          "t": 763.82
+        },
+        {
+          "speaker": "Alex",
+          "en": "After the EU levied tariffs on battery-electric cars, Chinese automakers shifted exports to hybrids. Worldwide Chinese hybrid exports jumped from one hundred ninety-one thousand in 2023 to 1.12 million in 2025.",
+          "ja": "EUがEVに関税を課した後、中国メーカーがハイブリッド車輸出へシフトしたためです。中国の世界向けハイブリッド車輸出は2023年の19万1,000台から2025年には112万台へと急増しました。",
+          "t": 768.82
+        },
+        {
+          "speaker": "Alex",
+          "en": "To protect domestic jobs and factories, the EU capped duty-free Chinese imports at roughly one hundred ninety-one thousand units over two hundred days, effectively halving expected shipments.",
+          "ja": "域内の雇用と工場を守るため、EUは中国からの無関税輸入を200日間で約19万1,000台に制限し、予想出荷量を事実上半減させました。",
+          "t": 782.48
+        },
+        {
+          "speaker": "Mika",
+          "en": "Are other trading partners getting caught in this trade dragnet?",
+          "ja": "他の貿易パートナーもこの規制網に巻き込まれているのでしょうか？",
+          "t": 795.04
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. Under non-discriminatory WTO safeguard rules, quotas apply across suppliers: Japan receives a first-year cap of 310,000 hybrids, Turkey 230,000, and the UK 190,000.",
+          "ja": "はい。無差別を原則とするWTOセーフガード規定に基づき全供給国に適用され、初年度枠は日本が31万台、トルコが23万台、英国が19万台となります。",
+          "t": 800.21
+        },
+        {
+          "speaker": "Alex",
+          "en": "South Korea, Japan, and the UK have raised serious questions at the WTO regarding procedural fairness and transparency.",
+          "ja": "韓国、日本、英国はWTOにおいて、手続きの公正性と透明性について強い懸念を表明しています。",
+          "t": 811.49
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, the EU is curbing hybrid car inflows to block Chinese market expansion, hitting global automakers in the process.",
+          "ja": "要するに、EUは中国勢の市場拡大を阻止するためにハイブリッド車の流入を制限し、その過程で世界各国の自動車メーカーにも影響が及んでいるのですね。",
+          "t": 819.86
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is the story. European trade barriers are broadening from battery EVs into hybrids.",
+          "ja": "まさにその通りです。欧州の貿易障壁がEVからハイブリッド車へと広がっています。",
+          "t": 828.69
+        }
+      ],
+      "lang": "en",
+      "t": 752.13
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "EUは12月1日から200日間、ハイブリッド車に対する輸入数量制限を実施すると発表しました。EV関税の導入後に急増した中国製ハイブリッド車の流入を防ぎ、域内産業を守ることが主目的です。WTOのルール上、日本や英国など主要輸出国にも適用され、日本の初年度枠は31万台に制限されます。",
+          "en": "",
+          "lang": "ja",
+          "t": 835.26
+        }
+      ],
+      "t": 835.26
+    },
+    {
+      "kind": "world",
+      "heading_en": "China Investigates Shanghai Party Secretary Chen Jining",
+      "heading_ja": "中国、上海トップの陳吉寧政治局員を調査",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our second world story brings major political reverberations from China. State authorities announced that Shanghai party secretary Chen Jining is under formal investigation.",
+          "ja": "国際ニュースの2本目は、中国からの重大な政治的激震です。国家当局は、上海市トップの陳吉寧（チェン・ジーニン）書記を正式な調査下に置いたと発表しました。",
+          "t": 858.69
+        },
+        {
+          "speaker": "Mika",
+          "en": "How significant is this probe within China's top leadership?",
+          "ja": "この調査は中国の最高指導部内においてどれほど重大な意味を持つのですか？",
+          "t": 870.2
+        },
+        {
+          "speaker": "Alex",
+          "en": "It is an earthquake. Chen, who is sixty-two, sits on the ruling Communist Party's powerful twenty-four-member Politburo and has led Shanghai since late 2022.",
+          "ja": "政界の激震です。62歳の陳氏は共産党の権力中枢である24名の政治局員の一人であり、2022年後半から上海のトップを務めていました。",
+          "t": 875.14
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Central Commission for Discipline Inspection cited suspected serious violations of Party discipline and law, making Chen the fourth Politburo member removed during this Central Committee cycle.",
+          "ja": "中央規律検査委員会は重大な規律および法律違反の疑いを挙げており、陳氏は今期の中央委員会において失脚した4人目の政治局員となります。",
+          "t": 885.72
+        },
+        {
+          "speaker": "Mika",
+          "en": "What was Chen's background before this sudden investigation?",
+          "ja": "この突然の調査の前、陳氏はどのような経歴を歩んでいたのですか？",
+          "t": 898.63
+        },
+        {
+          "speaker": "Alex",
+          "en": "Chen is a UK-educated environmental scientist, former president of prestigious Tsinghua University, former environmental minister, and former Beijing mayor, previously viewed as a potential future national successor.",
+          "ja": "陳氏は英国で学んだ環境科学者で、名門清華大学の元学長、元環境保護相、元北京市長を歴任し、将来の国家指導者候補の一人と目されていました。",
+          "t": 903.57
+        },
+        {
+          "speaker": "Alex",
+          "en": "He is the first sitting Shanghai party secretary to fall under investigation since Chen Liangyu in 2006.",
+          "ja": "現職の上海市党書記が調査対象となるのは、2006年の陳良宇氏以来のことです。",
+          "t": 917.58
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Beijing's discipline probe into a key Politburo figure and Shanghai chief signals an unprecedented political shakeup.",
+          "ja": "要するに、政治局員であり上海トップである重要人物への調査は、前例のない政治的粛清と再編を示唆しているわけですね。",
+          "t": 925.08
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. It underscores the sweeping, relentless reach of China's internal political enforcement.",
+          "ja": "その通りです。中国国内における規律取り締まりの徹底的かつ広範な影響力を浮き彫りにしています。",
+          "t": 934.15
+        }
+      ],
+      "lang": "en",
+      "t": 858.69
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "中国共産党の中央規律検査委員会は、上海市トップで指導部メンバーである陳吉寧政治局員を「重大な規律・法律違反」の疑いで調査していると発表しました。英国留学経験を持つ元北京市長の陳氏は、将来の最高指導部候補とも目されていただけに、今回の失脚調査は中国政界に大きな衝撃を与えています。",
+          "en": "",
+          "lang": "ja",
+          "t": 941.69
+        }
+      ],
+      "t": 941.69
+    },
+    {
+      "kind": "world",
+      "heading_en": "WHO Reports Drop in Cuba's Life Expectancy",
+      "heading_ja": "WHO、キューバの平均寿命が初低下と発表",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Our final world story takes us to the Caribbean. The World Health Organization reported a historic decline in Cuba's life expectancy amid a compounding economic crisis.",
+          "ja": "最後の国際ニュースはカリブ海からです。世界保健機関（WHO）は、深刻化する経済危機の中でキューバの平均寿命が歴史的な低下を記録したと発表しました。",
+          "t": 967.19
+        },
+        {
+          "speaker": "Mika",
+          "en": "What did the WHO findings show during their mission in Havana?",
+          "ja": "ハバナを訪問したWHOの調査結果はどのような内容を示していたのですか？",
+          "t": 979.48
+        },
+        {
+          "speaker": "Alex",
+          "en": "Director-General Tedros Adhanom Ghebreyesus stated that Cuban life expectancy fell from 78.8 years in 2020 down to 74.4 years in 2025, marking the first decline since official records began in 1950.",
+          "ja": "テドロス事務局長は、キューバの平均寿命が2020年の78.8歳から2025年には74.4歳に低下し、1950年に公式統計が始まって以来初めての低下となったと述べました。",
+          "t": 985.02
+        },
+        {
+          "speaker": "Alex",
+          "en": "Tedros described the healthcare system as critical, noting infant mortality surged from roughly four per thousand live births to 9.9, while childhood cancer survival dropped from eighty-five to sixty-five percent.",
+          "ja": "テドロス氏は医療体制を危機的と表現し、乳児死亡率が出生1,000人あたり約4人から9.9人に急増し、小児がんの生存率も85%から65%へ落ち込んだと指摘しました。",
+          "t": 999.22
+        },
+        {
+          "speaker": "Mika",
+          "en": "What factors caused this severe collapse in public health?",
+          "ja": "公衆衛生のこのような著しい崩壊を引き起こした要因は何ですか？",
+          "t": 1014.38
+        },
+        {
+          "speaker": "Alex",
+          "en": "Tedros attributed the deterioration to tightening trade sanctions, severe domestic economic troubles, and critical fuel and medicine shortages, while committing two million dollars in emergency immunization aid.",
+          "ja": "テドロス氏は貿易制裁の強化、深刻な国内経済の混乱、燃料や医薬品の不足を原因として挙げ、200万ドルの緊急予防接種支援を表明しました。",
+          "t": 1019.67
+        },
+        {
+          "speaker": "Alex",
+          "en": "Notably, the 2025 decline occurred even before the strict new United States fuel blockade took effect in January 2026.",
+          "ja": "注目すべきは、この2025年時点の低下が、2026年1月に発効した米国の厳しい新たな燃料封鎖よりも前に生じていたことです。",
+          "t": 1034.7
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Cuba's renowned healthcare safety net is fracturing under structural economic breakdowns and crippling supply shortages.",
+          "ja": "要するに、かつて定評のあったキューバの医療セーフティネットが、構造的な経済破綻と深刻な物資不足によって崩壊しつつあるのですね。",
+          "t": 1043.81
+        },
+        {
+          "speaker": "Alex",
+          "en": "Indeed. A system long held as a revolutionary showcase is facing an unprecedented humanitarian test.",
+          "ja": "その通りです。革命の象徴とされてきた医療制度が、かつてない人道的試練に直面しています。",
+          "t": 1053.94
+        }
+      ],
+      "lang": "en",
+      "t": 967.19
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "WHOのテドロス事務局長は、キューバの平均寿命が2020年の78.8歳から2025年には74.4歳へ急落したと発表しました。1950年の統計開始以来初めての低下で、乳児死亡率も倍増しています。米国の経済制裁に加え国内の経済破綻による深刻な医薬品・燃料不足が公衆衛生の根幹を揺るがしています。",
+          "en": "",
+          "lang": "ja",
+          "t": 1061.9
+        }
+      ],
+      "t": 1061.9
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "Tech Leaders Speak: Nvidia and Arm",
+      "heading_ja": "CEO動向：NvidiaとArmのトップ発言",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In CEO Watch, Nvidia chief Jensen Huang spoke to employees in an all-hands meeting. He pushed back against rumors regarding his return, telling staff it is not true that Donald Trump helped him get rehired.",
+          "ja": "「CEOウォッチ」です。NvidiaのJensen Huang CEOは全社集会で復帰を巡る噂を否定し、ドナルド・トランプ氏の口利きで復帰したというのは事実ではないと社員に伝えました。",
+          "t": 1088.43
+        },
+        {
+          "speaker": "Mika",
+          "en": "Huang also told staff that Nvidia does not need a formal succession plan right now.",
+          "ja": "Huang氏はまた、Nvidiaには現在、正式な後継者育成計画は必要ないと語りました。",
+          "t": 1103.14
+        },
+        {
+          "speaker": "Alex",
+          "en": "Meanwhile, Arm CEO Rene Haas affirmed his long-term commitment to lead the British chip designer into its next phase of AI growth.",
+          "ja": "一方、ArmのRene Haas CEOは、次なるAI成長フェーズに向けて会社を率いる長期的なコミットメントを再確認しました。",
+          "t": 1110.02
+        }
+      ],
+      "lang": "en",
+      "t": 1088.43
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: On Your Behalf",
+      "heading_ja": "今日のフレーズ：On your behalf",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's phrase is 'on your behalf.' Alex used it when explaining how Meta's autonomous AI agent Muse can take action on your behalf to negotiate bills and shop.",
+          "ja": "今日のフレーズは「on your behalf（あなたに代わって）」です。Metaの自律型AIエージェントMuseが、利用者に代わって料金交渉や買い物を行うという説明でAlexが使いました。",
+          "t": 1120.34
+        },
+        {
+          "speaker": "Mika",
+          "en": "'On your behalf' means doing something in place of someone or representing them. For example: 'My lawyer signed the official contract on my behalf.'",
+          "ja": "「on your behalf」は誰かの代理として、あるいはその人のために何かを行うという意味です。例えば「弁護士が私の代わりに公式契約書に署名した」というように使います。",
+          "t": 1130.32
+        },
+        {
+          "speaker": "Alex",
+          "en": "You will hear it constantly in business, banking, and law whenever an agent or authorized partner carries out an important task in your name.",
+          "ja": "代理人や委託先があなたの名前で重要な手続きを行う際、ビジネスや銀行取引、法律の現場で頻繁に耳にする表現です。",
+          "t": 1139.65
+        }
+      ],
+      "lang": "en",
+      "t": 1120.34
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Daily Takeaway and Sign-off",
+      "heading_ja": "まとめと終了の挨拶",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Today's overarching takeaway: from federal courtroom verdicts and cloud overhauls to autonomous AI agents, advanced technologies only succeed when supported by operational reliability, legal accountability, and public trust.",
+          "ja": "本日の総括です。連邦裁判所の判決からクラウド基盤の刷新、自律型AIエージェントに至るまで、先端技術は運用の信頼性、法的な説明責任、そして社会の信頼に支えられて初めて定着します。",
+          "t": 1148.61
+        },
+        {
+          "speaker": "Mika",
+          "en": "Thank you for joining us on Commute News. Stay informed, stay safe, and we look forward to seeing you on tomorrow morning's commute.",
+          "ja": "Commute Newsをお聴きいただきありがとうございました。安全に気をつけてお過ごしください。それではまた明日の通勤時間にお会いしましょう。",
+          "t": 1162.04
+        }
+      ],
+      "lang": "en",
+      "t": 1148.61
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。今日も気をつけていってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 1170.51
+        }
+      ],
+      "t": 1170.51
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Federal Jury Finds Huawei Guilty of US Trade Secret Theft and Fraud",
+      "title_ja": "米連邦陪審団、Huaweiに企業秘密窃取と詐欺で有罪評決",
+      "summary_ja": "米ニューヨーク連邦地裁の陪審団は、中国の通信機器大手Huaweiに対し、企業秘密窃取の共謀や銀行詐欺など12件中10件の罪状で有罪評決を下しました。組織犯罪共謀などは無罪とされましたが、2018年に始まった米司法省との大型法廷闘争は有罪という形で決着しました。",
+      "why_ja": "Huaweiは米国の制裁網下ですでに国内回帰を進めていますが、今回の有罪評決により巨額の罰金が科される見通しとなり、米中間のハイテク摩擦が法曹分野でも確定的な節目を迎えたことを示しています。",
+      "section": "tech",
+      "topic_key": "huawei-trade-secrets-guilty-verdict",
+      "companies": [
+        "Huawei",
+        "T-Mobile",
+        "Cisco",
+        "Motorola"
+      ],
+      "sources": [
+        {
+          "publisher": "The Verge",
+          "title": "Huawei found guilty of stealing trade secrets",
+          "url": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "China’s Huawei found guilty of trade secrets conspiracy, fraud in US trial",
+          "url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "Internal Memos Reveal Microsoft Overhauling Cloud Reliability Following Historic Outage",
+      "title_ja": "Microsoft、大規模障害を受け「コードレッド」改革に着手",
+      "summary_ja": "11月12日に発生した大規模障害を受け、Microsoftが全社的な「コードレッド」を発令してクラウド基盤の緊急改革に乗り出しました。Windowsの潜在的欠陥に起因する障害の修復に数日を要した反省から、今後の緊急修正を検知から1時間以内で世界展開する目標を掲げています。",
+      "why_ja": "クラウドサービスへの単一依存が世界的なインフラ停止リスクを招く実態が浮き彫りになり、行政や金融機関など公共性の高いシステムにおける冗長性確保の重要性を再認識させています。",
+      "section": "tech",
+      "topic_key": "microsoft-cloud-outage-code-red",
+      "companies": [
+        "Microsoft"
+      ],
+      "sources": [
+        {
+          "publisher": "Ars Technica",
+          "title": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
+          "url": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/"
+        }
+      ]
+    },
+    {
+      "title_en": "Meta Launches Muse AI Agent in the UK as Financial Watchdog Urges Caution",
+      "title_ja": "Metaが英国でAIエージェント「Muse」を開始、金融当局は警戒",
+      "summary_ja": "Metaは英国で、利用者に代わって買い物や旅行手配を行う自律型AIエージェント「Muse」を公開しました。決済や商取引への介入に対し、英国の金融行動監視機構（FCA）などの規制当局は即座に警告を発し、金融規制の遵守を求めています。",
+      "why_ja": "対話型AIから行動代行型エージェントへの進化が進む中、決済や個人資産へのアクセスを巡る消費者保護と金融規制の枠組み作りが世界的な政策課題として浮上しています。",
+      "section": "tech",
+      "topic_key": "meta-muse-uk-launch",
+      "companies": [
+        "Meta",
+        "Stripe",
+        "Shopify"
+      ],
+      "sources": [
+        {
+          "publisher": "Meta Newsroom",
+          "title": "Introducing Muse in the UK: A Personal AI Agent You Control",
+          "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/"
+        },
+        {
+          "publisher": "Meta Newsroom",
+          "title": "Muse Now Available in the UK: Muse Does the Work, You Stay in Control",
+          "url": "https://about.fb.com/news/2026/11/muse-now-available-in-the-uk-muse-does-the-work-you-stay-in-control/"
+        },
+        {
+          "publisher": "TechCrunch",
+          "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+          "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "UK financial watchdog delivers AI warning as Meta launches adapted Muse",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa3dIeGlGcm82OGVfY2ZzWWFXY3FWZ3RVTWFyZV95dlN2a1NWTWhiV19OX1A2OVBTNFI5dGF2dzVMQVhmNjdxa2taQkpHeUpJZnVxTlNZYmZPVFJXYkdxYTNzLTVxTHVfSVVOU1pNbFBUU3BMYzNCZ290d3RIN0RzbE8xekZxNGRBTVdYZlY5UlVpMnJFMFdSNlE5WkpENThvSlVCZjE3eXdMY0ZqUkNSYkxQeGxLMlVJZ19XaGg4NkVDcVU?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Anthropic Shares Slide Below $83 IPO Price Amid Mounting AI Valuation Pressures",
+      "title_ja": "Anthropicの株価が公開価格83ドルを割り込む",
+      "summary_ja": "先週ナスダックに上場したAIスタートアップのAnthropicの株価が、公開価格の83ドルを下回り75ドル台まで急落しました。約2,000億ドルの時価総額が失われ、巨額の計算インフラ費用に対する持続可能性への懸念から投資家の選別姿勢が強まっています。",
+      "why_ja": "生成AI企業に対する過剰な期待が是正され、実質的な利益率とインフラ投資コストのバランスが問われる転換点となっており、未上場AI企業の資金調達環境にも冷や水を浴びせています。",
+      "section": "tech",
+      "topic_key": "anthropic-ipo-pricing",
+      "companies": [
+        "Anthropic",
+        "Nvidia"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+          "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Anthropic shares tumble below $83 IPO price, on track to lose nearly $200 billion in value",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHBNOVY5RDc1NmxUUjNnZkNhLWROQkhUOFZpVmQ0SEI0UG9aSUpTTjhpV3EydTNkdW8xYm1KOWF6OXg2Z3BMaUJCWTE3WnFCM0hCZGNuQ3ZKUklsYUROVWQzdExOamNKVlJLRTgwYWpoYVdOUjlDY0pxTmxZajlvckJ4cHc0TG1hbW1ZUkszaDZ2M2Rvd3RqTWRFaVRENXVWT0pr?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Japan Deploys Mobile Cleanroom Trucks to Combat 10-Year Semiconductor Talent Deficit",
+      "title_ja": "日本、半導体人材不足解消に向け「走るクリーンルーム」を導入",
+      "summary_ja": "産総研とミニマルファブ推進機構は、トラック内に30センチ幅の露光装置を積載した移動式半導体ラボ「mobileFab」を開発しました。高価な大型クリーンルームを建設することなく、地方の大学や高専で学生が実践的なウエハー加工を体験できる環境を提供します。",
+      "why_ja": "熊本や北海道で進む半導体工場の新設に対し、今後10年で深刻化するエンジニア不足の現場に直接出向いて育成を行う、日本の地域分散型人材確保策として注目されます。",
+      "section": "tech",
+      "topic_key": "japan-mobilefab-chip-workforce",
+      "companies": [
+        "TSMC",
+        "Rapidus"
+      ],
+      "sources": [
+        {
+          "publisher": "Yonhap News Agency",
+          "title": "Meeting on nurturing personnel for semiconductor fab construction",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9fTHhmN0ZocXROZHpZQ0w2UVNlWkpiYmFMTS1UWlYyRFVRWTRON19zU1lJWE5Hd29sN28xZlBFSS10czI4U0RlSjVSOWJRS2hST1hqV1BzYlhzRDRXbDJjdnBrOWcyaVAwcXRDYkhiUS1hcjVxMzRF?oc=5"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Japan puts chipmaking labs inside trucks with mobileFab — trucks pack 30-cm lithography gear to tackle a 10-year semiconductor engineer shortage",
+          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOZVRzbmtlamZHUDdtclZfTTJCNWpvUDYtZXBFUU13VFZMeW4yUFcwbGlqY1dVbVphYUZ4di11TThuNlgxUS1fa21xdE50M2FoRE9tWnFzd2NJZWRkWnNodDBDR1Q1aXdQTmFyN3ZONk9rSm9nZHlOeXczUDZxV2hrRHdXeEJEU1JCbXZuNHhubTFEaUQwLTR6dml1Q2h6X3BfM19OeEpnYkJZZWcxRkluNi1mcmZha1hDa2prUHZjSTR0M1hyOE1CQ19uM19aVTJrWjFUX3VuYlhIbGdxWm5uc0JUeDRrTlA1WXl5bHlMbmpwSkJiNElSMzJLMGZsREpxWUxXZFVORG1jLTZ1Y192Q3pTSUhiRnNORld1NjRqdk5GRTN3NnlV?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "FDA Clears First AI Algorithm to Predict Five-Year Breast Cancer Risk from 3D Mammograms",
+      "title_ja": "FDA、3Dマンモ画像から5年の乳がんリスクを予測するAIを承認",
+      "summary_ja": "米FDAは、通常の3Dマンモグラフィ画像から今後3〜5年以内の乳がん発症リスクを直接予測するDeepHealthのAI「Mammo Risk」を承認しました。22万件の画像データに基づき、主観的な問診票に頼らず生物学的な高リスク者を特定します。",
+      "why_ja": "がんの早期発見にとどまらず発症前のリスク層別化が可能になり、検診間隔の最適化や精密MRIの早期導入など、個別化予防医療の公衆衛生モデルを前進させます。",
+      "section": "health",
+      "topic_key": "deephealth-fda-clearance-mammography-ai",
+      "companies": [
+        "DeepHealth",
+        "RadNet"
+      ],
+      "sources": [
+        {
+          "publisher": "marketscreener.com",
+          "title": "RadNet Unit Secures 501(k) FDA Clearance for AI Breast Cancer Risk Prediction Tool",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQS3NmNXo1UHl5YVhTX21zcVNSMWFHU29PeF9LUGhfQ3I1Y01xcnlhdC1oV1BXdl9ZRUFKN0dNd3kzZGJyRjNKTE1haWUyNW43OXZBdkdpSGxObkQ3VmFZOGZ6bEJOVzZuYkhkSGpIRGRhQ19uU050ZWRkd09NanZ3YWJ0QTUtLVM1cXFhMUQtdzU5enFZZWJEaG81Zk5JTTJCSTBJbXV3eWxDd3p5OWtLd29PMXJyTUlzWkozcTBZT2hmT0hRaG5ORkNhMEVKVTg?oc=5"
+        },
+        {
+          "publisher": "Unite.AI",
+          "title": "DeepHealth Mammo Risk AI Cleared by FDA to Predict Breast Cancer Risk",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYWRvTU55MDNzT1M3RWdHYTI1dlFQUENxb1BkU1E1VUdMdkNLZ0NvUG52dnF0U1BVM2FmdWVxRU9NRmtDUnZva3lBV09ZN0xSVlJsV0JQbHJ0VHRBSW5kWHMtS2J4RkFnWGhzQXNKTHI4cVVoOWdIQ0FEdy1yZ1A1WWRDcGNDM0VHSzAyNi0wTVkzOFlHYVE?oc=5"
+        },
+        {
+          "publisher": "StreetInsider",
+          "title": "DeepHealth gets FDA clearance for AI breast cancer risk tool",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZ1RjZ01FcWJPdlZFN2dSWWg5aFREcjYwVXVTZkJyTlRsT01ueDRtd2VVN1hxUlVYRnEzSDlnUlN1bkIyUmtfenNRWlduN0I5bEY0eHZ5Q1BSU090ZE5uM1ZLYlVsd1hHV1JfSDBUSW5qT0xCRmxNUlRqZldOcFdac1JJT1AzZUZjaHRrR21kMV8xSHREeEIxRXdEQkowTUVha1pnR3NvSUpPYlNoMk5LQzh6T3ZIZVhpUExj?oc=5"
+        },
+        {
+          "publisher": "WBOC TV",
+          "title": "DeepHealth Receives FDA Clearance for First AI to Predict Five-Year Breast Cancer Risk from 3D Mammograms",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOT3lqdk9fbWpWRVhNNVdyQS13NGw4MzhaUEtsNVByNHNUVjF5c0QtS0l4LXJMZTg3al9Ncll0VVJseWY3ZGlDVDljdlU1T1VDLUgzZU1ZeC1pLTh4R3dpZkwzVzBpaHMyMnJfXzkxNU1pVEpSM2Nyc1RhRm1XYkdyejdPbjV4dWFKX0RYenAwUS10a0I3Ym4xQy1pZnI1T2tPUnQ2WmpyVm5yTDRHY1QxOV8zcXhzUXdyR0pFSDdhVmpfTmlWYy1ZRHdGanQ0VW5SbURRTm1oTWlLalluaTg4MnBsV0JaaFRtSjduckRoM21TMlpMLTJSQVBnOUcxajQ3RGFkSURvbTMyVVNNbVQ5V0VHQUM2bFE2STBTZVJn?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "EU to Impose Import Quotas on Chinese and Partner Hybrid Vehicles Next Month",
+      "title_ja": "EU、中国製ハイブリッド車などに輸入割当を導入へ",
+      "summary_ja": "欧州委員会は、12月1日から200日間にわたりハイブリッド車の無関税輸入数量に上限を設けるセーフガード措置を発表しました。EV関税の導入以降に急増した中国製ハイブリッド車の流入を抑制する狙いがあり、日本や韓国、英国などの輸出枠も制限されます。",
+      "why_ja": "欧州の自動車産業保護がEVからハイブリッド車へと拡大しており、日本を含む世界的な自動車サプライチェーンの輸出戦略と通商摩擦に大きな影響を与えます。",
+      "section": "world",
+      "topic_key": "eu-chinese-hybrid-ev-import-quotas",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "EU to impose cap on Chinese hybrid EV imports next month",
+          "url": "https://www.theguardian.com/business/2026/nov/24/eu-cap-chinese-hybrid-ev-imports-tariff-uk"
+        }
+      ]
+    },
+    {
+      "title_en": "China Places Shanghai Party Chief and Politburo Member Chen Jining Under Investigation",
+      "title_ja": "中国、上海トップの陳吉寧政治局員を規律違反で調査",
+      "summary_ja": "中国共産党の中央規律検査委員会は、上海市トップで指導部メンバーである陳吉寧政治局員を「重大な規律・法律違反」の疑いで調査していると発表しました。陳氏は英国留学歴を持つ環境科学者で、北京市長などを歴任した有力な実務派指導者でした。",
+      "why_ja": "次期指導部候補の一角とみなされていた現職政治局員の失脚調査は異例であり、習近平体制下における権力構造の引き締めと政界再編の進展を示唆しています。",
+      "section": "world",
+      "topic_key": "china-investigates-politburo-chen-jining",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "AP News",
+          "title": "China investigates Politburo member and Shanghai party chief Chen Jining",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMG44bXNIbVRoRkdsc1FsaEg0ajBQekRydkVTeDZTbWN0TnBCSWZ1MFQxTzMxc2p0VWFTQzBQRWhHdUVrQUItOC1FNGlVQlZkeVRQWjFRRTZUTkFUeHIyWkRIOXIzbktKZk5HdGxNWGFTSldPN1p3QUtFSEM2dUJHYmRXN0g4UVAzSW9rTkZGOTd3cmZJYU1VdEJJNFE?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "WHO Reports Cuba's Life Expectancy Drops for First Time Since 1950 Amid Economic Crisis",
+      "title_ja": "WHO、キューバの平均寿命が1950年以来初の低下と報告",
+      "summary_ja": "WHOのテドロス事務局長は、キューバの平均寿命が2020年の78.8歳から2025年には74.4歳へ急落したことを明らかにしました。統計開始以来初めての低下であり、外部制裁と国内の経済破綻による医薬品や燃料の欠乏が公衆衛生システムを直撃しています。",
+      "why_ja": "革命以来の誇りであったキューバの手厚い国民皆保険制度が崩壊の危機に瀕しており、島嶼国や制裁下における医療供給体制の脆弱性と人道危機の深刻化を露呈しています。",
+      "section": "world",
+      "topic_key": "who-cuba-life-expectancy-decline",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "Life expectancy in Cuba falls for first time since 1950 amid economic crisis",
+          "url": "https://www.theguardian.com/world/2026/nov/24/cuba-life-expectancy-decline"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "convict",
+      "meaning_ja": "（陪審団や裁判所が）有罪の評決を下す",
+      "note_ja": "法律用語で、裁判で罪が確定することを指します。",
+      "example_en": "A federal jury has convicted Chinese telecom giant Huawei on ten criminal counts."
+    },
+    {
+      "term": "acquitted",
+      "meaning_ja": "無罪の評決を受けた",
+      "note_ja": "convicted（有罪）の対義語で、嫌疑が晴れたことを表します。",
+      "example_en": "The jury acquitted Huawei on two charges: racketeering conspiracy and obstruction of justice."
+    },
+    {
+      "term": "outage",
+      "meaning_ja": "（電力や通信、システムの）機能停止、障害",
+      "note_ja": "ITニュースでサーバーやクラウドの停止を表す最頻出の単語です。",
+      "example_en": "It follows a massive outage on November 12."
+    },
+    {
+      "term": "scalability",
+      "meaning_ja": "拡張性、負荷に応じた処理拡大能力",
+      "note_ja": "システムがアクセス増やデータ増に耐えられる度合いを示します。",
+      "example_en": "A hidden defect in Windows code created heavy traffic jams inside server gateway processes during routine maintenance."
+    },
+    {
+      "term": "autonomous",
+      "meaning_ja": "自律的な、自動で判断・行動する",
+      "note_ja": "人による逐一の指示がなくても自律してタスクを行う技術を指します。",
+      "example_en": "Muse is an autonomous agent."
+    },
+    {
+      "term": "approval",
+      "meaning_ja": "承認、許可",
+      "note_ja": "ビジネスやアプリ操作で最終決定を下す場面で用いられます。",
+      "example_en": "Meta says Muse must ask for user approval before making any purchase using Stripe or Shop Pay."
+    },
+    {
+      "term": "valuation",
+      "meaning_ja": "企業価値評価、時価総額評価",
+      "note_ja": "金融市場で企業がいくらの価値を持つか算出する数値です。",
+      "example_en": "That slide erased roughly 200 billion dollars in market value, dragging its total valuation just under one trillion dollars."
+    },
+    {
+      "term": "lithography",
+      "meaning_ja": "フォトリソグラフィ（半導体回路の光露光転写技術）",
+      "note_ja": "半導体製造でシリコンウエハーに微細なパターンを焼き付ける中核工程です。",
+      "example_en": "The truck carries three small, maskless lithography machines that are only thirty centimeters wide."
+    },
+    {
+      "term": "forecast",
+      "meaning_ja": "予測する、予報する",
+      "note_ja": "天気予報だけでなく、医療の将来リスク予測などにも広く用いられます。",
+      "example_en": "It is the first software authorized to forecast a woman's future breast cancer risk directly from standard three-dimensional screening mammograms."
+    },
+    {
+      "term": "quota",
+      "meaning_ja": "割当枠、輸入割当量",
+      "note_ja": "国際貿易で特定国からの輸入量の上限を定める際に使われます。",
+      "example_en": "To protect European factories, Brussels set a quota limiting China to about 191,000 hybrid cars over two hundred days."
+    },
+    {
+      "term": "life expectancy",
+      "meaning_ja": "平均寿命",
+      "note_ja": "公衆衛生の基礎指標で、0歳の乳児が平均して何歳まで生きられるかを表します。",
+      "example_en": "The World Health Organization reported a dramatic fall in the country's life expectancy."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "on your behalf",
+    "meaning_ja": "あなたに代わって、あなたの代理として",
+    "example_en": "My lawyer signed the official contract on my behalf.",
+    "example_ja": "弁護士が私の代わりに公式契約書に署名しました。"
+  }
+}
