@@ -1,0 +1,1275 @@
+{
+  "date": "2026-11-26",
+  "published": "2026-11-26T09:11:09+09:00",
+  "title_en": "SpaceX Gets Orbit Approval and US Court Rules on Amazon Recalls",
+  "title_ja": "SpaceXの宇宙データセンター承認と米裁判所によるAmazonリコール判決",
+  "summary_ja": "米FCCがSpaceXによる最大100万基の宇宙AIデータセンター衛星計画を承認し、米裁判所はAmazonを出品商品のリコール責任を負う販売業者と認定しました。欧州では規制当局が符号化された医療データも個人情報に当たると判断し、医療研究への影響が懸念されています。世界情勢では米国が14の主要貿易相手国への新関税方針を発表し、宇宙分野では中国の天宮にパキスタン人宇宙飛行士が到着しました。",
+  "duration": 1168.8,
+  "audio": {
+    "file": "2026-11-26.mp3",
+    "bytes": 9351510,
+    "release_tag": "ep-2026-11-26"
+  },
+  "word_count": 1936,
+  "ja_chars": 1449,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.8-flash",
+    "write": "gemini-3.8-flash",
+    "revise": "gemini-3.8-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Morning Headlines and Today's Agenda",
+      "heading_ja": "今朝の主要ヘッドラインと本日のラインナップ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning. It is Thursday, November 26. This is Commute News, your daily briefing on global business, technology, and policy.",
+          "ja": "おはようございます。11月26日木曜日、世界のビジネス、技術、政策をお届けする毎朝のCommute Newsです。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, Alex. We have an important lineup of top stories for our listeners today.",
+          "ja": "おはようございます、Alex。今朝もリスナーの皆様に向けて重要なトップニュースをお届けします。",
+          "t": 8.87
+        },
+        {
+          "speaker": "Mika",
+          "en": "First, the FCC gives SpaceX conditional clearance to launch up to one million orbital AI data center satellites.",
+          "ja": "第1に、米FCCがSpaceXに対し、最大100万基の軌道上AIデータセンター衛星を打ち上げる条件付き承認を与えました。",
+          "t": 15.37
+        },
+        {
+          "speaker": "Mika",
+          "en": "Second, a landmark federal court decision rules that Amazon is legally a product distributor liable for dangerous third-party goods.",
+          "ja": "第2に、米連邦地裁がAmazonを法律上の販売業者と認定し、危険な出品商品のリコール責任を負うとする歴史的判決を下しました。",
+          "t": 23.31
+        },
+        {
+          "speaker": "Mika",
+          "en": "Third, European privacy watchdogs rule that coded patient health records remain fully protected personal data under the law.",
+          "ja": "第3に、欧州のプライバシー規制当局が、符号化された患者の健康記録も法律上の個人データに当たると判断しました。",
+          "t": 32.42
+        },
+        {
+          "speaker": "Alex",
+          "en": "We will also cover new American trade tariffs, Intel's subsidy lawsuit, Nvidia's credit rating, and international space developments.",
+          "ja": "さらに、米国の新関税方針、Intelの補助金を巡る訴訟、NVIDIAの信用格付け、国際宇宙動向についても取り上げます。",
+          "t": 41.06
+        },
+        {
+          "speaker": "Alex",
+          "en": "Let us examine these major stories and understand what they mean for the global economy.",
+          "ja": "これらの重要ニュースを詳しく読み解き、世界経済への影響を考えていきましょう。",
+          "t": 50.22
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "FCC Approves SpaceX AI Data Center Satellites",
+      "heading_ja": "米FCC、SpaceXの軌道上AIデータセンター衛星計画を承認",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "The Federal Communications Commission granted conditional authorization to SpaceX on Wednesday to deploy up to one million satellites.",
+          "ja": "米連邦通信委員会（FCC）は水曜日、SpaceXに対し最大100万基の衛星を配備する条件付きの認可を与えました。",
+          "t": 56.77
+        },
+        {
+          "speaker": "Alex",
+          "en": "These satellites will serve as orbital data centers equipped with artificial intelligence chips under an initiative named Starmind.",
+          "ja": "これらの衛星は「Starmind（スターマインド）」計画のもと、人工知能チップを搭載した軌道上データセンターとして機能します。",
+          "t": 65.99
+        },
+        {
+          "speaker": "Alex",
+          "en": "FCC Chairman Brendan Carr called the decision a bold new frontier for American computing infrastructure and economic growth.",
+          "ja": "FCCのブレンダン・カー委員長は、この決定は米国の計算インフラと経済成長に向けた大胆な新フロンティアだと述べました。",
+          "t": 75.04
+        },
+        {
+          "speaker": "Alex",
+          "en": "Elon Musk thanked the agency on social media, saying the constellation will be a great asset to America and the world.",
+          "ja": "イーロン・マスク氏はソーシャルメディアでFCCに感謝を表し、この衛星群は米国と世界にとって偉大な資産になると述べました。",
+          "t": 83.68
+        },
+        {
+          "speaker": "Mika",
+          "en": "Did other technology companies and scientists raise objections against launching so many satellites?",
+          "ja": "それほど多くの衛星を打ち上げることに対して、他のテック企業や科学者たちから異論は出なかったのですか？",
+          "t": 91.97
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes, Amazon, Viasat, and the American Astronomical Society formally objected to the regulatory filing.",
+          "ja": "はい、Amazon、Viasat、そしてアメリカ天文学会が規制当局への申請に対して正式に異議を申し立てました。",
+          "t": 99.22
+        },
+        {
+          "speaker": "Alex",
+          "en": "They warned about crowded orbital debris, radiofrequency interference, and potential harm to ground-based astronomical observations.",
+          "ja": "宇宙ゴミによる軌道の混雑、電波干渉、地上からの天体観測への悪影響などを警告しました。",
+          "t": 106.58
+        },
+        {
+          "speaker": "Alex",
+          "en": "Amazon described the proposal as a lofty ambition rather than a real operational plan that risks real harm.",
+          "ja": "Amazonは同計画を、実害をもたらすリスクがあるにもかかわらず、現実的な運用計画というより高すぎる野望にすぎないと批判しました。",
+          "t": 115.69
+        },
+        {
+          "speaker": "Alex",
+          "en": "However, the FCC dismissed scientific research concerns, explaining they fell outside the agency's legal regulatory authority.",
+          "ja": "しかしFCCは、科学研究への影響に関する懸念は同委員会の規制管轄外であると説明し、退けました。",
+          "t": 123.34
+        },
+        {
+          "speaker": "Mika",
+          "en": "When will SpaceX actually begin launching these AI satellites into space?",
+          "ja": "SpaceXは実際にいつ頃からこれらAI衛星を宇宙へ打ち上げ始めるのでしょうか？",
+          "t": 132.1
+        },
+        {
+          "speaker": "Alex",
+          "en": "SpaceX has a long regulatory runway, with seven years to launch its first satellite and fourteen years to finish the full constellation.",
+          "ja": "SpaceXには長期の猶予が与えられており、初号機の打ち上げまでに7年、全衛星群の完了までに14年が認められています。",
+          "t": 137.78
+        },
+        {
+          "speaker": "Alex",
+          "en": "The company still faces major engineering hurdles, such as cooling hot computer processors inside the vacuum of space.",
+          "ja": "宇宙の真空環境下で高温のコンピュータープロセッサをどう冷却するかなど、同社は依然として極めて大きな工学的課題に直面しています。",
+          "t": 147.12
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, SpaceX secured permission to build an orbital computing network, but huge technical and financial hurdles remain ahead.",
+          "ja": "要するに、SpaceXは軌道上計算網を構築する認可を勝ち取ったものの、莫大な技術的・財務的ハードルが依然として立ちはだかっています。",
+          "t": 155.41
+        }
+      ],
+      "lang": "en",
+      "t": 56.77
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米連邦通信委員会（FCC）は、SpaceXが最大100万基のAIデータセンター衛星「Starmind」を軌道上に展開する計画を条件付きで承認しました。Amazonや天文学会が宇宙ゴミや電波干渉を懸念して反対したものの、FCCは管轄外として退けました。地上での電力制約を避ける狙いがありますが、真空での冷却やコスト削減など課題が多く、14年かけて段階的に配備される予定です。",
+          "en": "",
+          "lang": "ja",
+          "t": 165.02
+        }
+      ],
+      "t": 165.02
+    },
+    {
+      "kind": "story",
+      "heading_en": "Court Rules Amazon Is Liable as Product Distributor",
+      "heading_ja": "米連邦地裁、Amazonを販売業者と認定しリコール責任を認める",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "A federal judge in Maryland has delivered a major ruling against Amazon in a long-running legal fight.",
+          "ja": "メリーランド州の連邦地裁判事が、長期にわたる法廷闘争においてAmazonに極めて厳しい判決を下しました。",
+          "t": 196.51
+        },
+        {
+          "speaker": "Alex",
+          "en": "The court ruled that Amazon is legally a distributor of products rather than a simple logistics service provider.",
+          "ja": "裁判所は、Amazonは単なる物流サービス業者ではなく、法律上の商品の「販売業者（ディストリビューター）」に該当すると判断しました。",
+          "t": 204.09
+        },
+        {
+          "speaker": "Alex",
+          "en": "Because of this ruling, Amazon is directly responsible for recalling more than four hundred thousand dangerous third-party items.",
+          "ja": "この判決により、Amazonはサードパーティが出品した40万点以上の危険製品のリコールを直接実施する義務を負います。",
+          "t": 212.34
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specific kinds of hazardous products are covered by this federal court order?",
+          "ja": "この連邦裁判所の命令では、具体的にどのような危険な製品が対象になっているのですか？",
+          "t": 221.53
+        },
+        {
+          "speaker": "Alex",
+          "en": "The products include faulty carbon monoxide detectors, electric hair dryers without shock protection, and flammable children's sleepwear.",
+          "ja": "欠陥のある一酸化炭素警報器、感電防止機能のないヘアドライヤー、可燃性の子供用寝巻きなどが含まれています。",
+          "t": 227.93
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Consumer Product Safety Commission determined that these items pose substantial safety hazards to everyday consumers.",
+          "ja": "米消費者製品安全委員会（CPSC）は、これらの商品が一般消費者に重大な安全上の危害を及ぼすと判断しました。",
+          "t": 237.6
+        },
+        {
+          "speaker": "Alex",
+          "en": "Amazon had argued for years that it was only delivering packages for third parties and bore no distributor duties.",
+          "ja": "Amazonは長年、自社は外部業者の荷物を配送しているだけであり、販売業者としての義務は負わないと主張していました。",
+          "t": 246.32
+        },
+        {
+          "speaker": "Mika",
+          "en": "What actions must Amazon take now to satisfy the safety regulator's order?",
+          "ja": "安全規制当局の命令に従うため、Amazonは今後どのような措置を講じる必要があるのですか？",
+          "t": 254.62
+        },
+        {
+          "speaker": "Alex",
+          "en": "Amazon must notify affected customers directly by email and post official recall notices on their account order pages.",
+          "ja": "Amazonは対象の顧客へメールで直接通知し、アカウントの注文履歴ページに公式のリコール通知を表示しなければなりません。",
+          "t": 260.54
+        },
+        {
+          "speaker": "Alex",
+          "en": "The company must also provide full refunds to buyers who present proof that they destroyed the hazardous products.",
+          "ja": "さらに、危険な製品を廃棄した証拠を提出した購入者に対し、購入代金の全額を返金する必要があります。",
+          "t": 269.08
+        },
+        {
+          "speaker": "Alex",
+          "en": "Amazon must keep recall records online and send monthly progress reports to federal regulators for five years.",
+          "ja": "Amazonはリコール記録をオンラインで保持し、連邦規制当局に5年間にわたって月次進捗報告書を提出しなければなりません。",
+          "t": 277.38
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, online shopping platforms can no longer escape legal responsibility when unsafe products pass through their warehouses.",
+          "ja": "要するに、自社倉庫を通過する危険製品について、オンライン通販プラットフォームはもはや法的責任から逃れることができなくなりました。",
+          "t": 285.44
+        }
+      ],
+      "lang": "en",
+      "t": 196.51
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米メリーランド州連邦地方裁判所は、Amazonを単なる物流業者ではなく法律上の「販売業者」と認定しました。これによりAmazonは、自社の配送網を通じて販売された欠陥警報器や子供服など40万点以上の危険製品について、購入者への直接通知や廃棄証明による全額返金、5年間の報告書提出などのリコール対応を自ら実行する義務を負います。",
+          "en": "",
+          "lang": "ja",
+          "t": 294.88
+        }
+      ],
+      "t": 294.88
+    },
+    {
+      "kind": "story",
+      "heading_en": "Lawsuit Claims Pressure on Intel for Government Stake",
+      "heading_ja": "Intel株主、CHIPS法補助金見返りの政府出資をめぐり提訴",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Unsealed court documents in an Intel shareholder lawsuit show dramatic political pressure placed on the troubled chipmaker.",
+          "ja": "経営難に喘ぐIntelに対する株主訴訟の未封印文書から、同社にかけられた劇的な政治的圧力が明らかになりました。",
+          "t": 323.11
+        },
+        {
+          "speaker": "Alex",
+          "en": "Shareholder Richard Paisner claims President Donald Trump coerced Intel's board into surrendering a ten percent equity stake.",
+          "ja": "株主のリチャード・ペイスナー氏は、ドナルド・トランプ大統領がIntel取締役会に10％の自社株譲渡を強要したと主張しています。",
+          "t": 331.04
+        },
+        {
+          "speaker": "Alex",
+          "en": "The government reportedly demanded company shares before releasing 8.9 billion dollars in federal CHIPS Act subsidies.",
+          "ja": "政府はCHIPS法に基づく89億ドルの連邦補助金を交付する前に、同社の株式を要求したと報じられています。",
+          "t": 339.08
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did these intense negotiations between government officials and Intel's leadership actually happen?",
+          "ja": "政府高官とIntel首脳陣の間で、この緊迫した交渉は実際どのように行われたのですか？",
+          "t": 346.75
+        },
+        {
+          "speaker": "Alex",
+          "en": "Intel's chief executive Lip-Bu Tan met personally at the White House with President Trump and Cabinet secretaries.",
+          "ja": "Intelの最高経営責任者であるリップブー・タン氏がホワイトハウスでトランプ大統領や閣僚らと直接面談しました。",
+          "t": 353.61
+        },
+        {
+          "speaker": "Alex",
+          "en": "Trump told Tan that the United States should receive ten percent of Intel, and Tan agreed to consider it.",
+          "ja": "トランプ大統領はタン氏に対し、米国政府がIntelの10％を取得すべきだと伝え、タン氏は検討に応じると答えました。",
+          "t": 361.06
+        },
+        {
+          "speaker": "Alex",
+          "en": "A Commerce Department lawyer later instructed Intel executives not to make the mistake of thinking this was a negotiation.",
+          "ja": "その後、商務省の弁護士がIntel幹部に対し、これを交渉と勘違いする間違いを犯してはならないと指示しました。",
+          "t": 368.03
+        },
+        {
+          "speaker": "Alex",
+          "en": "The official explicitly warned Intel that rejecting the White House demand would bring unpredictable consequences.",
+          "ja": "その高官はIntelに対し、ホワイトハウスの要求を拒絶すれば予測不可能な結果を招くことになると明確に警告しました。",
+          "t": 375.91
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why are semiconductor industry experts so concerned about this kind of government intervention?",
+          "ja": "半導体業界の専門家たちは、なぜこのような政府の介入をそれほど懸念しているのですか？",
+          "t": 383.36
+        },
+        {
+          "speaker": "Alex",
+          "en": "Companies worry that public funding programs may turn into political extortion that forces private boards to give up control.",
+          "ja": "公的な支援制度が、民間の取締役会に経営支配権の放棄を強いるような政治的脅迫に変質しかねないと企業が懸念しているからです。",
+          "t": 389.79
+        },
+        {
+          "speaker": "Alex",
+          "en": "The lawsuit also alleges Intel's outside lawyers gave free legal work to the administration to avoid federal retaliation.",
+          "ja": "訴状はまた、連邦政府による報復を避けるため、Intelの外部法律顧問がトランプ政権に無償の法的支援を提供していたとも主張しています。",
+          "t": 397.83
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, the lawsuit shows political leaders used public semiconductor subsidies to force a chipmaker into giving up equity.",
+          "ja": "要するに、この訴訟は政治指導者が半導体補助金を武器にして、チップメーカーに株式の譲渡を迫った実態を示しています。",
+          "t": 405.65
+        }
+      ],
+      "lang": "en",
+      "t": 323.11
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Intelの株主訴訟の未封印資料から、トランプ米政権がCHIPS法に基づく89億ドルの補助金交付の見返りとして、Intel取締役会に10％の株式譲渡を迫った経緯が浮き彫りになりました。商務省高官は交渉の余地はないと通告し、拒否すれば不測の事態を招くと警告したとされています。公的資金を梃子にした異例の政治的介入として波紋を呼んでいます。",
+          "en": "",
+          "lang": "ja",
+          "t": 413.91
+        }
+      ],
+      "t": 413.91
+    },
+    {
+      "kind": "story",
+      "heading_en": "Huawei Develops Chip Software to Bypass US Sanctions",
+      "heading_ja": "Huawei、制裁回避に向け3D積層向け国産EDAツールを推進",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Huawei and domestic software partners announced new chip design software tools this week to advance Chinese semiconductor capabilities.",
+          "ja": "Huaweiと中国のソフトウェアパートナーは今週、中国の半導体能力を高めるための新たな半導体設計ソフトウェアツールを発表しました。",
+          "t": 439.56
+        },
+        {
+          "speaker": "Alex",
+          "en": "These software suites are known as EDA, which stands for Electronic Design Automation.",
+          "ja": "これらのソフトウェア群はEDA、すなわち電子設計自動化ツールと呼ばれています。",
+          "t": 448.14
+        },
+        {
+          "speaker": "Alex",
+          "en": "Engineers use EDA software to draw, simulate, and test complex microchip circuits before factories manufacture them.",
+          "ja": "エンジニアは工場で製造する前に、複雑なマイクロチップ回路の設計、シミュレーション、テストにEDAソフトウェアを使用します。",
+          "t": 454.09
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is developing domestic EDA tools such an urgent priority for China right now?",
+          "ja": "中国にとって、国産EDAツールの開発が現在これほど緊急の優先課題となっているのはなぜですか？",
+          "t": 461.64
+        },
+        {
+          "speaker": "Alex",
+          "en": "American trade sanctions ban Chinese factories from buying advanced lithography machines needed to make single chips smaller than five nanometers.",
+          "ja": "米国の貿易制裁により、中国の工場は5ナノメートル未満の単一チップの製造に必要な最先端の露光装置を購入できないためです。",
+          "t": 467.32
+        },
+        {
+          "speaker": "Alex",
+          "en": "Without those foreign machines, Chinese fabricators cannot match Western and Taiwanese production speeds on monolithic chip designs.",
+          "ja": "それらの外国製装置がなければ、中国の半導体工場は単一チップ設計において欧米や台湾の生産スピードに対抗できません。",
+          "t": 476.49
+        },
+        {
+          "speaker": "Alex",
+          "en": "Huawei's new software focuses on three-dimensional packaging, which connects and stacks multiple older chips together.",
+          "ja": "Huaweiの新しいソフトウェアは、複数の従来型チップを立体的に接続・積層する3次元パッケージングに特化しています。",
+          "t": 484.91
+        },
+        {
+          "speaker": "Mika",
+          "en": "Can stacking older chips really produce the same performance as cutting-edge foreign processors?",
+          "ja": "古いチップを積み重ねることで、本当に最先端の外国製プロセッサと同等の性能を発揮できるのでしょうか？",
+          "t": 492.57
+        },
+        {
+          "speaker": "Alex",
+          "en": "Packaging chips into three-dimensional assemblies can create high performance, but it generates serious heat and requires clever thermal engineering.",
+          "ja": "チップを3次元構造に組み立てることで高い性能を生み出せますが、激しい熱が発生するため高度な放熱設計が必要になります。",
+          "t": 499.06
+        },
+        {
+          "speaker": "Alex",
+          "en": "Industry analysts call this an architectural workaround rather than an exact replacement for advanced fabrication machinery.",
+          "ja": "業界のアナリストたちは、これを最先端製造装置の完全な代替品というよりは、設計構造上の回避策と呼んでいます。",
+          "t": 508.38
+        },
+        {
+          "speaker": "Alex",
+          "en": "Still, it allows Chinese firms to build advanced systems independently while avoiding American software licensing restrictions.",
+          "ja": "それでも、中国企業は米国のソフトウェアライセンス制限を回避しながら、自前で高度なシステムを構築することが可能になります。",
+          "t": 516.37
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, Huawei is pioneering 3D chiplet software to overcome severe foreign trade bans on fabrication equipment.",
+          "ja": "要するに、Huaweiは半導体製造装置に対する厳しい禁輸制裁を乗り越えるため、3Dチップレット設計ソフトを開拓しています。",
+          "t": 524.52
+        }
+      ],
+      "lang": "en",
+      "t": 439.56
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Huaweiなどの中国連合が、半導体設計を支援する国産のEDAソフトウェア群を発表しました。米国の輸出規制で最先端の露光装置が手に入らない中、既存の成熟チップを3次元に積み重ねて性能を引き上げるパッケージング技術に注力しており、設計ツールの国産化によって制裁の影響を回避する狙いがあります。",
+          "en": "",
+          "lang": "ja",
+          "t": 532.63
+        }
+      ],
+      "t": 532.63
+    },
+    {
+      "kind": "story",
+      "heading_en": "S&P Warns of Possible Nvidia Debt Rating Downgrade",
+      "heading_ja": "S&P、NVIDIAの信用格付け引き下げの可能性を警告",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Credit rating agency S&P Global Ratings has placed Nvidia on CreditWatch with negative implications.",
+          "ja": "信用格付け大手のS&Pグローバル・レーティングが、NVIDIAの格付けを引き下げ方向で見直す「クレジット・ウォッチ・ネガティブ」に指定しました。",
+          "t": 557.02
+        },
+        {
+          "speaker": "Alex",
+          "en": "The agency expects to complete its formal review within ninety days and could cut Nvidia's rating to double-A-minus.",
+          "ja": "同社は90日以内に正式な見直しを完了する見通しで、NVIDIAの格付けを「AAマイナス」に引き下げる可能性があります。",
+          "t": 564.34
+        },
+        {
+          "speaker": "Alex",
+          "en": "While Nvidia remains highly profitable, S&P raised serious alarms about executive management and corporate governance practices.",
+          "ja": "NVIDIAは極めて高い収益性を維持しているものの、S&Pは経営陣の管理体制とコーポレートガバナンスのあり方に強い警告を発しました。",
+          "t": 572.6
+        },
+        {
+          "speaker": "Mika",
+          "en": "What specifically caused the credit rating agency to doubt Nvidia's boardroom oversight?",
+          "ja": "格付け会社がNVIDIAの取締役会の監視機能に疑問を抱いた具体的な理由は何ですか？",
+          "t": 581.55
+        },
+        {
+          "speaker": "Alex",
+          "en": "S&P pointed to the sudden removal and rapid reinstatement of CEO Jensen Huang following White House intervention.",
+          "ja": "S&Pは、ホワイトハウスの介入を受けたJensen Huang最高経営責任者の電撃的な解任と迅速な復帰劇を指摘しました。",
+          "t": 588.17
+        },
+        {
+          "speaker": "Alex",
+          "en": "The agency stated that these events exposed weak board oversight, a lack of succession planning, and acute key person risk.",
+          "ja": "格付け機関は、これらの一連の出来事が取締役会の機能不全、後継者計画の欠如、深刻なキーパーソン・リスクを露呈したと述べました。",
+          "t": 596.25
+        },
+        {
+          "speaker": "Alex",
+          "en": "Analysts worry that Nvidia relies too heavily on one individual leader for its commercial strategy and operations.",
+          "ja": "アナリストらは、NVIDIAが事業戦略や日常の運営において特定の指導者1人に依存しすぎているのではないかと懸念しています。",
+          "t": 604.92
+        },
+        {
+          "speaker": "Mika",
+          "en": "How would a rating downgrade affect Nvidia's partnerships with large financial institutions?",
+          "ja": "格付けが引き下げられた場合、大手金融機関とのパートナーシップにはどのような影響が生じますか？",
+          "t": 613.06
+        },
+        {
+          "speaker": "Alex",
+          "en": "In August, Nvidia agreed to arrange five hundred billion dollars in AI infrastructure loans with Apollo and Blackstone.",
+          "ja": "8月にNVIDIAは、ApolloやBlackstoneとともに5000億ドル規模のAIインフラ融資を組成することで合意しました。",
+          "t": 619.91
+        },
+        {
+          "speaker": "Alex",
+          "en": "Nvidia pledged to guarantee twenty-five percent of those loans for startup computing companies.",
+          "ja": "NVIDIAはその際、新興コンピューティング企業向け融資の25％を自ら保証することを約束しました。",
+          "t": 628.34
+        },
+        {
+          "speaker": "Alex",
+          "en": "A lower credit score could force Nvidia to provide even higher collateral or cause banks to raise borrowing interest rates.",
+          "ja": "信用スコアが低下すれば、NVIDIAはより多くの担保提供を迫られたり、銀行側から金利引き上げを要求されたりする恐れがあります。",
+          "t": 635.37
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, governance questions surrounding Nvidia's board could make borrowing more expensive across the AI industry.",
+          "ja": "要するに、NVIDIA取締役会を取り巻く統治への懸念が、AI業界全体の借り入れコストを高めるリスクを生み出しています。",
+          "t": 644.04
+        }
+      ],
+      "lang": "en",
+      "t": 557.02
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "格付け大手S&Pは、NVIDIAの信用格付けを引き下げ方向で見直すと発表しました。業績は好調なものの、Jensen Huang CEOの解任劇と電撃復帰により取締役会の独立性欠如や後継者不在リスクが露呈したと判断しています。格下げとなれば、同社が巨額の債務保証を提供するAIデータセンター融資の調達条件にも悪影響が及ぶ可能性があります。",
+          "en": "",
+          "lang": "ja",
+          "t": 652.58
+        }
+      ],
+      "t": 652.58
+    },
+    {
+      "kind": "health",
+      "heading_en": "EU Watchdogs Rule Coded Health Records Are Personal Data",
+      "heading_ja": "欧州当局、符号化された医療情報も「個人データ」と判断",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In European health regulation, data privacy authorities in France and Italy issued two critical decisions this week.",
+          "ja": "欧州のヘルスケア規制において、フランスとイタリアのデータ保護当局が今週、極めて重要な2つの判断を下しました。",
+          "t": 681.06
+        },
+        {
+          "speaker": "Alex",
+          "en": "The regulators ruled that coded and pseudonymized patient health records do not meet the legal test for anonymous data.",
+          "ja": "規制当局は、符号化（キーコード化）や仮名化が施された患者の健康記録は、法律上の匿名データとは認められないと裁定しました。",
+          "t": 689.1
+        },
+        {
+          "speaker": "Alex",
+          "en": "In medical research, trial sponsors replace patient names with code numbers to protect individual confidentiality.",
+          "ja": "医学研究では、個人の秘密を保護するために治験依頼者が患者の実名を識別コード番号に置き換えます。",
+          "t": 697.31
+        },
+        {
+          "speaker": "Alex",
+          "en": "Many pharmaceutical companies assumed that using these coded files meant they were completely exempt from European GDPR privacy rules.",
+          "ja": "多くの製薬会社は、このように符号化されたファイルを使っていれば、欧州GDPR規則の対象から完全に除外されると考えていました。",
+          "t": 705.24
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why did the French and Italian privacy watchdogs completely reject that long-standing industry assumption?",
+          "ja": "フランスとイタリアのプライバシー監視当局はなぜ、業界の長年の前提を全面的に否定したのですか？",
+          "t": 714.3
+        },
+        {
+          "speaker": "Alex",
+          "en": "Regulators explained that as long as the hospital holds the decoding key linking code numbers to real patients, the data remains personal.",
+          "ja": "当局は、コード番号と実際の患者を結びつける照合キーを病院側が保持している限り、そのデータは依然として個人情報であると説明しました。",
+          "t": 721.77
+        },
+        {
+          "speaker": "Alex",
+          "en": "Because someone can theoretically re-identify the patient, strict data protection and consent standards must always apply.",
+          "ja": "理論上、誰かが患者を再識別できる可能性が残っている以上、厳格なデータ保護と同意基準が常に適用されなければなりません。",
+          "t": 731.07
+        },
+        {
+          "speaker": "Mika",
+          "en": "How will this strict legal ruling impact global scientists and companies building healthcare AI systems?",
+          "ja": "この厳格な司法的判断は、ヘルスケアAIシステムを開発する世界の科学者や企業にどのような影響を与えますか？",
+          "t": 739.45
+        },
+        {
+          "speaker": "Alex",
+          "en": "Life science researchers cannot transfer coded clinical trial records overseas without setting up formal international compliance frameworks.",
+          "ja": "ライフサイエンス研究者は、正式な国際コンプライアンスの枠組みを構築しない限り、符号化された治験記録を海外に移転できなくなります。",
+          "t": 746.81
+        },
+        {
+          "speaker": "Alex",
+          "en": "Companies training diagnostic algorithms on European patient databases must establish valid legal grounds before using any files.",
+          "ja": "欧州の患者データベースを使って診断アルゴリズムを訓練する企業は、ファイルを使用する前に有効な法的根拠を確立する必要があります。",
+          "t": 756.27
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, coded patient information remains legally protected personal data, raising compliance hurdles for medical research.",
+          "ja": "要するに、記号化された患者情報も法律上保護される個人データであり、医学研究のコンプライアンスの壁を引き上げています。",
+          "t": 765.05
+        }
+      ],
+      "lang": "en",
+      "t": 681.06
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "フランスとイタリアの規制当局は、氏名をコードに置き換えた患者データであっても、医療機関側に照合キーが存在する限りGDPR上の個人データに当たると判断しました。製薬企業やAI開発者が匿名データとして自由に利活用してきた慣行は認められず、国際的な医療研究やAI学習におけるデータ移転要件が厳格化されます。",
+          "en": "",
+          "lang": "ja",
+          "t": 773.84
+        }
+      ],
+      "t": 773.84
+    },
+    {
+      "kind": "world",
+      "heading_en": "United States Proposes Sweeping Tariffs on Trade Partners",
+      "heading_ja": "米国、日本や中国など14の貿易相手国に広範な関税を発表",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "The United States government announced proposed new import tariffs on Wednesday targeting fourteen major international trading partners.",
+          "ja": "米国政府は水曜日、主要な14の国際貿易相手国を標的とした新たな輸入関税案を発表しました。",
+          "t": 798.36
+        },
+        {
+          "speaker": "Alex",
+          "en": "The wide-ranging list of affected countries includes China, the European Union, Japan, South Korea, and Brazil.",
+          "ja": "対象となった広範な国々には、中国、欧州連合、日本、韓国、ブラジルが含まれています。",
+          "t": 807.54
+        },
+        {
+          "speaker": "Alex",
+          "en": "Under the new plan, China faces the highest tariff rates of up to twenty percent on manufactured shipments.",
+          "ja": "この新方針のもとで、中国は工業製品の出荷に対して最大20％という最も高い関税率を課される見込みです。",
+          "t": 815.29
+        },
+        {
+          "speaker": "Mika",
+          "en": "What legal basis and economic arguments did American trade officials give for these aggressive new levies?",
+          "ja": "米国の通商担当官は、これら攻撃的な新関税に対してどのような法的根拠と経済的理由を挙げたのですか？",
+          "t": 822.82
+        },
+        {
+          "speaker": "Alex",
+          "en": "US Trade Representative Jamieson Greer completed an eight-month investigation under Section 301 into foreign market distortions and industrial excess capacity.",
+          "ja": "米通商代表部のジェイミソン・グリア代表は、外国の市場歪曲と産業の過剰生産能力に関して、通商法301条に基づく8か月間の調査を完了させました。",
+          "t": 830.29
+        },
+        {
+          "speaker": "Alex",
+          "en": "He stated that these tariffs will level the playing field for American factory workers and rebuild domestic manufacturing.",
+          "ja": "同代表は、これらの関税が米国の工場労働者にとって公平な競争条件を整え、国内製造業を再建することにつながると述べました。",
+          "t": 840.78
+        },
+        {
+          "speaker": "Alex",
+          "en": "China and European leaders immediately condemned the measures, while global equity markets tumbled after the announcements.",
+          "ja": "中国と欧州の指導者たちは即座にこの措置を非難し、発表を受けて世界の株式市場は急落しました。",
+          "t": 849.16
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, Washington is escalating international trade disputes by imposing steep import taxes against key economic allies.",
+          "ja": "要するに、米国政府は主要な経済同盟国に対して高率な輸入税を課すことで、国際貿易摩擦を激化させています。",
+          "t": 857.6
+        }
+      ],
+      "lang": "en",
+      "t": 798.36
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "米政権は通商法301条に基づく調査を経て、中国やEU、日本など14の主要貿易相手国に対する新関税案を発表しました。中国には最大20％の関税が課される見込みです。米側は相手国の過剰生産が米製造業を脅かしていると主張しますが、各国は強く反発し、世界的な株安を招いています。",
+          "en": "",
+          "lang": "ja",
+          "t": 866.72
+        }
+      ],
+      "t": 866.72
+    },
+    {
+      "kind": "world",
+      "heading_en": "Leaked Records Reveal Russia's High War Casualties",
+      "heading_ja": "流出データによりロシア軍の戦死者が約50万人に達したと判明",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "A massive leak of Russian government records has revealed unprecedented battlefield casualties in the invasion of Ukraine.",
+          "ja": "ロシア政府の記録が大量に流出したことで、ウクライナ侵攻における前例のない規模の戦場死傷者が明らかになりました。",
+          "t": 890.29
+        },
+        {
+          "speaker": "Alex",
+          "en": "Two independent hacker groups breached the central statistics agency Rosstat, discovering eleven million official death records.",
+          "ja": "2つの独立系ハッカー集団がロシア連邦統計局（Rosstat）のサーバーに侵入し、1100万件の公式死亡記録を発見しました。",
+          "t": 899.25
+        },
+        {
+          "speaker": "Alex",
+          "en": "Careful analysis of these government files confirms that at least 490,334 Russian soldiers have died since 2022.",
+          "ja": "これら政府ファイルの慎重な分析により、2022年以降に少なくとも49万334人のロシア兵が死亡したことが確認されました。",
+          "t": 908.58
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did investigators make sure that these leaked numbers reflect real battlefield deaths accurately?",
+          "ja": "調査担当者たちは、流出した数字が実際の戦死者を正確に反映していることをどのように確認したのですか？",
+          "t": 916.93
+        },
+        {
+          "speaker": "Alex",
+          "en": "Journalists matched ninety percent of the leaked entries with verified local cemetery burials and social media memorials.",
+          "ja": "ジャーナリストたちが照合したところ、流出データの90％が確認済みの現地の墓地埋葬やSNS上の追悼情報と一致しました。",
+          "t": 924.61
+        },
+        {
+          "speaker": "Alex",
+          "en": "The records show that military fighting caused sixty-five percent of all deaths among young Russian men aged 18 to 24 in 2025.",
+          "ja": "記録によると、2025年における18歳から24歳のロシア人若年男性の全死亡理由の65％を戦闘が占めていました。",
+          "t": 933.5
+        },
+        {
+          "speaker": "Alex",
+          "en": "The Kremlin brushed off the leak and insisted only the defense ministry has authority to release casualty data.",
+          "ja": "クレムリンはこの流出情報を一蹴し、死傷者データを公表する権限を持つのは国防省のみであると主張しました。",
+          "t": 942.71
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, leaked statistics provide clear evidence of devastating human and demographic losses across Russia.",
+          "ja": "要するに、流出した統計データはロシア全土における壊滅的な人的・人口動態的損失の明白な証拠となっています。",
+          "t": 951.0
+        }
+      ],
+      "lang": "en",
+      "t": 890.29
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "ハッカー集団がロシア連邦統計局から入手した1100万件の死亡記録から、2022年の侵攻開始以降に少なくとも約49万人のロシア兵が戦死したことが明らかになりました。現地埋葬記録との照合でも高い整合性が確認され、若年男性の死亡原因の大半を戦争が占めるなど、深刻な人的打撃が浮き彫りになっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 959.41
+        }
+      ],
+      "t": 959.41
+    },
+    {
+      "kind": "world",
+      "heading_en": "China Welcomes First Foreign Astronaut to Space Station",
+      "heading_ja": "中国、宇宙ステーション「天宮」に初の外国人宇宙飛行士を迎える",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "China launched its Shenzhou twenty-four mission on Wednesday, sending its first foreign astronaut to the Tiangong space station.",
+          "ja": "中国は水曜日に神舟24号ミッションを打ち上げ、同国の宇宙ステーション「天宮」に初めてとなる外国人宇宙飛行士を送り込みました。",
+          "t": 984.96
+        },
+        {
+          "speaker": "Alex",
+          "en": "The astronaut is Wing Commander Muhammad Zeeshan Ali, who became the first citizen of Pakistan to reach Earth orbit.",
+          "ja": "その宇宙飛行士はパキスタン空軍のムハンマド・ジーシャン・アリ中佐で、パキスタン国民として初めて地球周回軌道に到達しました。",
+          "t": 994.28
+        },
+        {
+          "speaker": "Alex",
+          "en": "Chinese state media hailed the welcoming embrace between the station crew and Ali as an historic international space handshake.",
+          "ja": "中国国営メディアは、ステーション滞在クルーとアリ氏の歓迎の抱擁を、歴史的な国際「スペース握手」として称賛しました。",
+          "t": 1002.87
+        },
+        {
+          "speaker": "Mika",
+          "en": "What kinds of experiments will Ali conduct, and how did he prepare for life aboard Tiangong?",
+          "ja": "アリ氏はどのような実験を行い、天宮での生活に向けてどのように準備を進めてきたのですか？",
+          "t": 1012.14
+        },
+        {
+          "speaker": "Alex",
+          "en": "Ali trained in Beijing for seven months, learning intensive Chinese to collaborate smoothly with his fellow crew members.",
+          "ja": "アリ氏は北京で7か月間の訓練を受け、クルー仲間と円滑に連携するために集中的に中国語を学びました。",
+          "t": 1019.27
+        },
+        {
+          "speaker": "Alex",
+          "en": "He will run space biology experiments cultivating microalgae as prospective food and examining how orbital radiation impacts quinoa seeds.",
+          "ja": "同氏は将来の食料としての微細藻類の培養や、軌道放射線がキヌアの種子に与える影響を調べる宇宙生物学実験を行います。",
+          "t": 1028.17
+        },
+        {
+          "speaker": "Alex",
+          "en": "With the International Space Station retiring around 2030, China is demonstrating that Tiangong is open to partner nations.",
+          "ja": "国際宇宙ステーション（ISS）が2030年頃に退役する中、中国は天宮がパートナー諸国に開かれていることを実証しています。",
+          "t": 1038.1
+        },
+        {
+          "speaker": "Alex",
+          "en": "So, in short, Beijing has initiated the internationalization of its orbital outpost by hosting Pakistan's first astronaut.",
+          "ja": "要するに、中国政府はパキスタン初の宇宙飛行士を受け入れることで、自国の軌道拠点の国際化に着手しました。",
+          "t": 1047.12
+        }
+      ],
+      "lang": "en",
+      "t": 984.96
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "中国は神舟24号により、パキスタン空軍のムハンマド・ジーシャン・アリ氏を宇宙ステーション「天宮」に送り届けることに成功しました。天宮に外国籍の飛行士が搭乗するのは史上初です。アリ氏は微細藻類の培養や種子実験を実施します。2030年頃のISS退役を見据え、中国が独自の宇宙国際協力を本格化させています。",
+          "en": "",
+          "lang": "ja",
+          "t": 1056.53
+        }
+      ],
+      "t": 1056.53
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch: Dario Amodei and Industry Leaders Speak Out",
+      "heading_ja": "CEOウォッチ：Dario Amodei氏らリーダーの発言",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In CEO Watch today, Anthropic chief executive Dario Amodei pushed back strongly against public criticism from technology rivals.",
+          "ja": "本日のCEOウォッチでは、AnthropicのDario Amodei最高経営責任者が、同業ライバルからの公の批判に強く反論しました。",
+          "t": 1080.2
+        },
+        {
+          "speaker": "Alex",
+          "en": "Amodei called accusations that his company favors surrendering human control to artificial intelligence completely absurd.",
+          "ja": "Amodei氏は、自社が人工知能に人間の主導権を明け渡すことを支持しているという非難を、完全にばかげていると一蹴しました。",
+          "t": 1088.62
+        },
+        {
+          "speaker": "Alex",
+          "en": "He argued that enforcing rigorous safety standards is the only proven method to ensure human agency remains firmly in charge.",
+          "ja": "同氏は、厳格な安全基準を適用することこそが、人間の主体性を確実に維持するための唯一の実証された手法であると主張しました。",
+          "t": 1096.71
+        },
+        {
+          "speaker": "Mika",
+          "en": "His remarks highlight how fiercely tech executives are clashing over AI safety, market control, and corporate responsibility.",
+          "ja": "同氏の発言は、AIの安全性、市場支配、企業の社会的責任を巡って、テック首脳陣がいかに激しく対立しているかを際立たせています。",
+          "t": 1104.97
+        }
+      ],
+      "lang": "en",
+      "t": 1080.2
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: In Short",
+      "heading_ja": "本日の便利フレーズ：In Short（要するに）",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's Phrase of the Day is in short. Alex used this expression several times today to summarize key news stories.",
+          "ja": "本日のフレーズ・オブ・ザ・デイは「in short」です。Alexが今日、重要ニュースの要点をまとめる際に何度も使っていましたね。",
+          "t": 1113.22
+        },
+        {
+          "speaker": "Mika",
+          "en": "In short means briefly, in summary, or to put it simply. It helps listeners understand your core message quickly.",
+          "ja": "「in short」は「手短に言えば」「要約すると」「要するに」を意味します。聞き手に最も伝えたい核心を素早く理解してもらうのに役立ちます。",
+          "t": 1120.93
+        },
+        {
+          "speaker": "Mika",
+          "en": "For example, you can say to your team: In short, the project was finished ahead of schedule.",
+          "ja": "例えば、チームに対して「In short, the project was finished ahead of schedule（要するに、プロジェクトは予定より早く完了した）」のように使えます。",
+          "t": 1128.52
+        },
+        {
+          "speaker": "Alex",
+          "en": "It is an excellent, professional transition phrase to conclude business updates and presentations with clarity.",
+          "ja": "ビジネスの進捗報告やプレゼンテーションを明快に締めくくるのに適した、非常に優れたプロフェッショナルな表現です。",
+          "t": 1134.96
+        }
+      ],
+      "lang": "en",
+      "t": 1113.22
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Closing Thoughts and Sign-Off",
+      "heading_ja": "番組のまとめと終わりのご挨拶",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "From orbital data centers and court rulings to global tariffs, technology and regulatory policies are moving faster than ever.",
+          "ja": "軌道上データセンターや裁判所の判決から世界的な関税まで、テクノロジーと規制政策はかつてない速さで動いています。",
+          "t": 1142.45
+        },
+        {
+          "speaker": "Mika",
+          "en": "Thank you for listening to Commute News during your busy morning travel.",
+          "ja": "忙しい朝の移動時間にCommute Newsをお聴きいただき、ありがとうございました。",
+          "t": 1150.76
+        },
+        {
+          "speaker": "Alex",
+          "en": "Have a productive day, and join us again tomorrow morning for fresh updates.",
+          "ja": "実りある一日をお過ごしください。明日の朝も最新ニュースをお届けします。",
+          "t": 1156.1
+        }
+      ],
+      "lang": "en",
+      "t": 1142.45
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。今日も一日、気をつけていってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 1161.66
+        }
+      ],
+      "t": 1161.66
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "FCC Approves SpaceX Plan to Launch 1 Million Orbital AI Data Center Satellites",
+      "title_ja": "米FCC、SpaceXの軌道上AIデータセンター衛星100万基配備計画を承認",
+      "summary_ja": "米FCCはSpaceXに対し、軌道上データセンター構想「Starmind」向けに最大100万基の衛星を配備・運用する条件付き承認を与えました。Amazonや天文学会が宇宙デブリや電波干渉への懸念から反対したものの、FCCは米国のAI覇権を促す新フロンティアとして承認を決定しました。完全配備には14年の猶予が与えられており、軌道上での放熱技術や打ち上げコスト削減が今後の鍵となります。",
+      "why_ja": "地上の電力網と土地の逼迫を回避する新たなインフラ競争の幕開けであり、宇宙ビジネスとデータセンター産業の融合を加速させます。",
+      "section": "tech",
+      "topic_key": "spacex-fcc-orbital-datacenters",
+      "companies": [
+        "SpaceX",
+        "Amazon",
+        "Viasat"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "FCC approves SpaceX plan to put AI data centers in space",
+          "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/"
+        },
+        {
+          "publisher": "Ars Technica",
+          "title": "The FCC has authorized SpaceX to deploy 1 million satellites",
+          "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/"
+        },
+        {
+          "publisher": "The Verge",
+          "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+          "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+        }
+      ]
+    },
+    {
+      "title_en": "Federal Court Rules Amazon Is a Distributor, Liable for Hazardous Product Recalls",
+      "title_ja": "米連邦地裁、Amazonを販売業者と認定しリコール責任を認める",
+      "summary_ja": "米メリーランド州連邦地方裁判所は、Amazonは単なる物流事業者ではなく法律上の販売業者（ディストリビューター）に当たると認定しました。米消費者製品安全委員会（CPSC）の訴えを全面的に認めたもので、Amazonは外部業者が販売した40万点以上の危険製品のリコールを自ら実施する義務を負います。購入者への直接通知や廃棄証明による全額返金が命じられました。",
+      "why_ja": "オンラインモール事業者がマーケットプレイス上の出品物に対する製品安全責任を免責されない判例が確立し、ECプラットフォームの責任基準が大きく転換します。",
+      "section": "tech",
+      "topic_key": "amazon-cpsc-distributor-recall-liability",
+      "companies": [
+        "Amazon"
+      ],
+      "sources": [
+        {
+          "publisher": "The Verge",
+          "title": "Amazon loses its latest attempt to get out of handling more recall notices",
+          "url": "https://www.theverge.com/tech/1042870/amazon-recall-order-cpsc"
+        }
+      ]
+    },
+    {
+      "title_en": "Lawsuit Alleges Trump Coerced Intel into Surrendering 10% Stake for CHIPS Act Subsidies",
+      "title_ja": "米政権がCHIPS法補助金交付の見返りにIntel株10％を要求したとして株主提訴",
+      "summary_ja": "Intelの株主が起こした訴訟の開示文書により、ドナルド・トランプ大統領が89億ドルのCHIPS法補助金支給の見返りとして、Intel取締役会に10％の自社株譲渡を強要した疑惑が浮上しました。商務省高官は交渉の余地はないと通告し、拒否すれば不測の事態を招くと脅迫したとされています。民間企業への直接的な株式取得要求が司法の場で争われています。",
+      "why_ja": "国家による半導体産業補助金が政府の資本介入や政治的取引の手段として利用されるリスクが顕在化し、グローバル半導体サプライチェーンに不確実性をもたらします。",
+      "section": "tech",
+      "topic_key": "intel-trump-chips-act-equity-lawsuit",
+      "companies": [
+        "Intel",
+        "Nvidia"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Lawsuit alleges Trump strong-armed Intel",
+          "url": "https://www.tomshardware.com/tech-industry/policy/lawsuit-reveals-trumps-alleged-strong-arming-of-intel-troubled-chipmaker-allegedly-forced-to-give-white-house-10-percent-stake-for-release-of-chips-act-funds"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Lawsuit reveals Trump’s alleged strong-arming of Intel — troubled chipmaker allegedly forced to give White House 10% stake for release of CHIPS Act funds",
+          "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOUzhzdWI3T2pGSDJDVE9WUGNNcGRDaVU0SnI5LUR1XzBxNnIxUjJILXBQX1A3VHNSSVh3bXpCU2FiZko4cHNmdl9rUWtPdmZQRTJBNE5PZTZCa2dBVkREQWhpR3hYWDQydGItekI4UVpfWTlaRUNzNjc0TXFZa01ZMlFnbXJMSndsY2RmUXRMRzRIVkU4SUdidl9lSVdvbW51bmJHemR0Y0tqS25NanMtWUVXNTRKM0VPdE5pM3BWcmdxR3gzRF83WkVWNW10QlJvWlh4dFRobjFmblU1YjRVN29sbERKMU9wT3BvTU9QTkt3UmZvZ1hrdWJlVWRPeEJETjFDdU1GNElQRUg2clhEMjlSSHFIQ1JwRWZpLUZhY1ZHN1pkZS1kd3pYa3dTNTZJ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Huawei Spearheads Domestic EDA Software Push to Bypass Chip Sanctions via 3D Packaging",
+      "title_ja": "Huawei、制裁打開に向け3Dパッケージング向け国産EDAツールを推進",
+      "summary_ja": "Huaweiを中心とする中国企業連合は、3Dパッケージングとマルチダイ統合に特化した国産の電子設計自動化（EDA）ソフトウェア群を発表しました。米国の輸出規制により最先端の露光装置の調達が困難な中、成熟プロセスのチップを立体的に積層することで最先端チップ並みの性能を実現する設計環境を整えました。",
+      "why_ja": "微細化プロセスの封鎖に対抗しパッケージング技術で半導体自給率を引き上げる中国の現実的戦略を示しており、半導体設計ツールの地政学的分断が進みます。",
+      "section": "tech",
+      "topic_key": "china-eda-tools-advanced-packaging",
+      "companies": [
+        "Huawei"
+      ],
+      "sources": [
+        {
+          "publisher": "The Register",
+          "title": "Huawei and crew tout homegrown EDA tools to overcome China’s fab deficit",
+          "url": "https://www.theregister.com/systems/2026/11/25/huawei-and-crew-tout-homegrown-eda-tools-to-overcome-chinas-fab-deficit/5312205"
+        }
+      ]
+    },
+    {
+      "title_en": "S&P Warns of Nvidia Credit Downgrade Citing Board Compromise and Key-Person Risk",
+      "title_ja": "格付け会社S&P、統治懸念と特定人物依存でNVIDIAの格下げを警告",
+      "summary_ja": "格付け大手S&Pグローバル・レーティングは、NVIDIAの信用格付けを引き下げ方向で見直す「クレジット・ウォッチ・ネガティブ」に指定しました。Jensen Huang CEOの解任劇と電撃復帰により取締役会の独立性欠如や後継者不在リスクが露呈したと判断しました。格下げが実行されれば、同社が巨額保証を提供するAIデータセンター融資全体の調達コストに跳ね返る懸念があります。",
+      "why_ja": "AI業界を牽引するリーダー企業における企業統治の脆弱性が、メガクラウドやAIインフラ投資の金融調達環境に直接悪影響を及ぼす可能性を示しています。",
+      "section": "tech",
+      "topic_key": "nvidia-jensen-huang-china-spy-investigation",
+      "companies": [
+        "Nvidia",
+        "S&P Global Ratings"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+          "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "S&P warns Nvidia's board may be compromised, puts chipmaker's rating on downgrade watch",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb1ZBby1iVDJnTmJwX3hDYWJpU2lxTUdLTHdlWHFqRHJUcmtTOWFuQkFRTlUyZTJBcGdNMWR3N3d1YlJIV05kWk1mU21JSDZmSVpZR1BlanpqRzFXSkg3NkxkeElWcHM0Q2Y4eFJKb3Fha29XakxYNFJ4cXExZHo4MFVDOHdDbENrQWs0d0lqQ3Z5cEVDRVBQR1hNNWZxSmhiUll4NFg1amZlU01oWm9fN2hkUFBBNkdKT21v?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "French and Italian Regulators Reject Anonymity Claims for Coded Health Data",
+      "title_ja": "仏伊の個人情報保護当局、符号化された医療データも「個人データ」と判断",
+      "summary_ja": "フランスのCNILとイタリアのGaranteは、仮名化やコード化を施した患者記録について、GDPR上の完全な匿名データには該当しないとする判断を下しました。病院側に照合キーが存在する限り再識別リスクが残るため、厳格なデータ保護義務が適用されます。製薬企業やAI開発者がコード化データを法規制の例外として国際共有してきた慣行に再考を迫ります。",
+      "why_ja": "医療AI研究や国際共同治験における患者データの利活用基準が大幅に引き上げられ、日本の研究者や製薬業界にとっても欧州データの取り扱い手続きが厳格化します。",
+      "section": "health",
+      "topic_key": "eu-regulators-reject-coded-health-data-anonymity",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "JD Supra",
+          "title": "French And Italian Privacy Decisions Reject Anonymity Claims For Coded Health Data",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWDhsOUczWnFWS1o5aml2cENqaWFWT21BejRBcUxoY210Yk5vQUxZWG5tYnVhQnlqWUhkc3pjTFNPSWVwbm5rU3BRSU14Ump4ZldTZ2FNVm8wc3BQckttLS10dW5tWVoyd1d5NWJuMTNBMUZ6blBqN2lXN294V2pVM1B1eHpBQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "United States Enacts Sweeping New Tariffs on China and the European Union",
+      "title_ja": "米国、中国やEU、日本など14の主要国・地域に対する広範な新関税方針を発表",
+      "summary_ja": "トランプ米政権は通商法301条に基づく8か月間の調査を経て、中国やEU、日本を含む14の主要貿易相手国に対する新関税案を発表しました。中国には最大20％の関税が課される見込みです。米通商代表部は相手国の過剰生産や不当な産業政策が米国の製造業基盤を毀損していると主張していますが、中国や欧州委員会は強く抗議し、世界的な株安を招きました。",
+      "why_ja": "製造業サプライチェーン全体に直接的なコスト増をもたらし、インフレ圧力の再燃や主要同盟国間の通商対立の深刻化を招く恐れがあります。",
+      "section": "world",
+      "topic_key": "us-broad-new-tariffs-china-eu",
+      "companies": [
+        "Embraer"
+      ],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "World reacts to Trump’s new tariffs as US stocks tumble",
+          "url": "https://www.aljazeera.com/economy/2026/11/25/world-reacts-to-trumps-new-tariffs-as-us-stocks-tumble?traffic_source=rss"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "US announces new tariffs on host of countries including China",
+          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "Leaked Official Records Reveal Nearly 500,000 Russian Casualties in Ukraine War",
+      "title_ja": "流出公的記録でウクライナ戦争におけるロシア軍死者が約50万人と判明",
+      "summary_ja": "ハッカー集団がロシア連邦統計局（Rosstat）から入手した1100万件の死亡記録から、2022年の侵攻開始以降に少なくとも49万334人のロシア兵が戦死したことが明らかになりました。報道機関による現地埋葬記録との照合でも高い整合性が確認され、特に若年層男性の死亡原因の大半を戦闘が占めている実態が判明しました。",
+      "why_ja": "ロシア政府が秘匿してきた戦死者数の客観的実態が暴かれ、長期化する侵攻がロシア国内の人口動態と労働力に壊滅的な打撃を与えていることが実証されました。",
+      "section": "world",
+      "topic_key": "russia-death-records-ukraine-war-casualties",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "‘Russia wants more than Ukraine,’ Germany’s Merz warns – as it happened",
+          "url": "https://www.theguardian.com/world/live/2026/nov/25/ukraine-russia-energy-strikes-mark-rutte-donald-trump-friedrich-merz-germany-latest-news-updates"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
+          "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_en": "China Sends First Foreign Astronaut to Tiangong as It Expands Alternative Space Coalition",
+      "title_ja": "中国、宇宙ステーション「天宮」に初の外国人宇宙飛行士を迎え入れ",
+      "summary_ja": "中国は神舟24号により、パキスタン空軍のムハンマド・ジーシャン・アリ氏を宇宙ステーション「天宮」に送り届けることに成功しました。天宮に外国籍の飛行士が搭乗するのは史上初です。アリ氏は微細藻類の培養や種子実験を実施します。中国は2030年頃に退役するISSに代わる国際的な宇宙連携の軸として天宮を位置づけています。",
+      "why_ja": "宇宙空間での多国間連携を主導してきた欧米陣営に対抗し、中国がグローバルサウス諸国を取り込んだ独自の宇宙同盟を確立しつつあることを示しています。",
+      "section": "world",
+      "topic_key": "china-tiangong-first-foreign-astronaut",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "China sends first foreign astronaut to ISS rival as it globalises space operations",
+          "url": "https://www.theguardian.com/science/2026/nov/25/china-sends-first-pakistani-astronaut-into-space"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Moment Chinese space mission lifts off with first Pakistan astronaut aboard",
+          "url": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "constellation",
+      "meaning_ja": "（同一軌道上の）衛星群、コンステレーション",
+      "note_ja": "宇宙通信や観測のために協調して動く多数の人工衛星グループを指す名詞です。",
+      "example_en": "These satellites will serve as orbital data centers equipped with artificial intelligence chips under an initiative named Starmind."
+    },
+    {
+      "term": "debris",
+      "meaning_ja": "残骸、宇宙ゴミ（スペースデブリ）",
+      "note_ja": "発音は最後のsを発音せず「デブリー」となります。宇宙空間の廃棄物を指す文脈で頻出します。",
+      "example_en": "They warned about crowded orbital debris, radiofrequency interference, and potential harm to ground-based astronomical observations."
+    },
+    {
+      "term": "distributor",
+      "meaning_ja": "販売業者、流通業者",
+      "note_ja": "単なる運送業者（logistics provider）と区別され、製品安全やリコール責任を負う立場を意味します。",
+      "example_en": "The court ruled that Amazon is legally a distributor of products rather than a simple logistics service provider."
+    },
+    {
+      "term": "hazardous",
+      "meaning_ja": "危険な、有害な",
+      "note_ja": "「dangerous」に比べて法律や公衆衛生の公的な基準で使われるフォーマルな形容詞です。",
+      "example_en": "The Consumer Product Safety Commission determined that these items pose substantial safety hazards to everyday consumers."
+    },
+    {
+      "term": "equity",
+      "meaning_ja": "株式、持分",
+      "note_ja": "企業の所有権を表す株主資本を意味し、政府出資や融資の文脈でよく用いられます。",
+      "example_en": "Shareholder Richard Paisner claims President Donald Trump coerced Intel's board into surrendering a ten percent equity stake."
+    },
+    {
+      "term": "subsidies",
+      "meaning_ja": "補助金、助成金",
+      "note_ja": "政府が特定の産業や企業を支援するために交付する公的資金（単数形はsubsidy）です。",
+      "example_en": "The government reportedly demanded company shares before releasing 8.9 billion dollars in federal CHIPS Act subsidies."
+    },
+    {
+      "term": "three-dimensional packaging",
+      "meaning_ja": "3次元積層パッケージング",
+      "note_ja": "複数の半導体チップを縦に積み重ねて高密度・高速に接続する最先端の実装技術です。",
+      "example_en": "Huawei's new software focuses on three-dimensional packaging, which connects and stacks multiple older chips together."
+    },
+    {
+      "term": "key person risk",
+      "meaning_ja": "特定人物依存リスク、キーパーソン・リスク",
+      "note_ja": "カリスマ創業者や特定の経営トップの動向に企業経営が過度に左右されるリスクのことです。",
+      "example_en": "The agency stated that these events exposed weak board oversight, a lack of succession planning, and acute key person risk."
+    },
+    {
+      "term": "anonymous",
+      "meaning_ja": "匿名の、個人が特定できない",
+      "note_ja": "個人情報保護法において、誰のデータか復元不可能な状態を指す重要な法律・政策用語です。",
+      "example_en": "The regulators ruled that coded and pseudonymized patient health records do not meet the legal test for anonymous data."
+    },
+    {
+      "term": "tariffs",
+      "meaning_ja": "関税",
+      "note_ja": "輸入品に対して政府が課す税金で、貿易政策や国際通商摩擦の基本用語です。",
+      "example_en": "The United States government announced proposed new import tariffs on Wednesday targeting fourteen major international trading partners."
+    },
+    {
+      "term": "casualty",
+      "meaning_ja": "死傷者、戦死者",
+      "note_ja": "戦争や災害・事故による死傷者を指す語で、複数形「casualties」で統計値として頻出します。",
+      "example_en": "A massive leak of Russian government records has revealed unprecedented battlefield casualties in the invasion of Ukraine."
+    },
+    {
+      "term": "milestone",
+      "meaning_ja": "画期的な出来事、重要な節目",
+      "note_ja": "プロジェクトや歴史の進捗において極めて重要な転換点・達成点を指します。",
+      "example_en": "Chinese state media hailed the welcoming embrace between the station crew and Ali as an historic international space handshake."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "in short",
+    "meaning_ja": "要するに、手短に言えば",
+    "example_en": "In short, the project was finished ahead of schedule.",
+    "example_ja": "要するに、プロジェクトは予定より早く完了したということです。"
+  }
+}
