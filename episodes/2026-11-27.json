@@ -1,0 +1,1116 @@
+{
+  "date": "2026-11-27",
+  "published": "2026-11-27T09:30:11+09:00",
+  "title_en": "Nvidia Pauses Regional Shipments, TSMC 1.4nm, and Neuralink Trial",
+  "title_ja": "NVIDIAの東南アジア出荷停止、TSMCの1.4ナノ、Neuralink治験認可",
+  "summary_ja": "NVIDIAが中国へのクラウド経由の迂回アクセスを防ぐため東南アジア向けAIサーバーの出荷を一時停止し、TSMCは次世代1.4ナノチップの設計キットを公開しました。デジタルヘルスではNeuralinkの脳インプラントが米国FDAから重要な臨床試験の承認を取得しました。世界情勢ではEU首脳会議におけるウクライナ支援協議の難航や次期欧州中央銀行総裁の人事、コンゴでのエボラ出血熱感染拡大を伝えます。",
+  "duration": 1178.2,
+  "audio": {
+    "file": "2026-11-27.mp3",
+    "bytes": 9426120,
+    "release_tag": "ep-2026-11-27"
+  },
+  "word_count": 2270,
+  "ja_chars": 1076,
+  "hosts": [
+    "Alex",
+    "Mika"
+  ],
+  "models": {
+    "select": "gemini-3.8-flash",
+    "write": "gemini-3.8-flash",
+    "revise": "gemini-3.8-flash",
+    "tts": "gemini-3.8-flash-tts"
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "heading_en": "Friday Morning Briefing",
+      "heading_ja": "金曜朝のニュースブリーフィング",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Good morning, it is Friday, November 27. Welcome to Commute News, your daily briefing on global technology, business, and world affairs.",
+          "ja": "おはようございます。11月27日金曜日、Commute Newsへようこそ。世界のテクノロジー、ビジネス、国際情勢を毎朝お届けします。",
+          "t": 0.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "Good morning, Alex. We have an eventful Friday show today. Nvidia pauses AI server shipments across Southeast Asia to block backdoor cloud access to China. TSMC prepares its next-generation 1.4-nanometer node. And in digital health, the FDA clears Neuralink for its first pivotal brain implant trial.",
+          "ja": "おはようございます、Alex。今朝も盛りだくさんの内容です。NVIDIAが中国へのクラウド迂回アクセスを遮断するため東南アジア向けAIサーバー出荷を停止し、TSMCは次世代1.4ナノプロセスを準備しています。そしてデジタルヘルスでは、米FDAがNeuralinkの脳インプラントの最終治験を承認しました。",
+          "t": 8.8
+        },
+        {
+          "speaker": "Alex",
+          "en": "In world news, European Union leaders clash in Brussels over Ukraine loans, while Spain's Pablo Hernández de Cos is chosen to lead the European Central Bank. Let us jump right in.",
+          "ja": "国際ニュースでは、EU首脳がウクライナ融資をめぐり対立する一方、次期欧州中央銀行総裁にスペインのパブロ・エルナンデス・デコス氏が選ばれました。早速見ていきましょう。",
+          "t": 26.55
+        }
+      ],
+      "lang": "en",
+      "t": 0.0
+    },
+    {
+      "kind": "story",
+      "heading_en": "Nvidia Pauses AI Server Shipments to Southeast Asia",
+      "heading_ja": "NVIDIA、東南アジア向けAIサーバー出荷を停止",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Nvidia has instructed major manufacturing partners, including Dell and Supermicro, to pause high-end AI server shipments to Southeast Asia. The sudden halt directly affects Singapore, Malaysia, Thailand, and Indonesia.",
+          "ja": "NVIDIAはDellやSupermicroなどの主要製造パートナーに対し、東南アジア向けの高性能AIサーバーの出荷を一時停止するよう指示しました。この突然の停止措置はシンガポール、マレーシア、タイ、インドネシアに直接影響を及ぼしています。",
+          "t": 37.7
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why are these shipments being stopped right now?",
+          "ja": "なぜ今、これらの出荷が止められているのですか？",
+          "t": 50.97
+        },
+        {
+          "speaker": "Alex",
+          "en": "The United States Commerce Department closed a loophole that allowed Chinese companies to rent AI computing power remotely from overseas data centers. Chinese firms face tough restrictions buying top chips directly. Because buying chips incurs heavy fees and requires special licenses, Chinese AI labs rented computing power from neighboring data centers just a short flight away.",
+          "ja": "米商務省が、中国企業が海外データセンターからAI計算能力を遠隔でレンタルする抜け穴を塞いだからです。中国企業は最先端チップの直接購入で厳しい制限に直面しています。チップ購入には高額な手数料や特別な許可が必要となるため、中国のAI研究機関は飛行機で数時間の近隣データセンターから計算能力を借りていたのです。",
+          "t": 54.96
+        },
+        {
+          "speaker": "Mika",
+          "en": "How significant was that remote cloud access for China's AI sector?",
+          "ja": "中国のAI分野にとって、その遠隔クラウドアクセスはどれほど重要だったのですか？",
+          "t": 77.09
+        },
+        {
+          "speaker": "Alex",
+          "en": "It was substantial. A report from the Institute for Progress estimates remote data centers supplied about twenty-four percent of China's AI computing power. Under the new rules, regional cloud providers have ninety days to apply for export licenses and prove their clients are not restricted entities.",
+          "ja": "極めて大きなものでした。シンクタンクInstitute for Progressの試算によると、遠隔データセンターが中国のAI計算能力の約24パーセントを供給していました。新規則では、地域のクラウド事業者に輸出許可を申請し、顧客が規制対象企業でないことを証明するための90日間の猶予が与えられています。",
+          "t": 82.11
+        },
+        {
+          "speaker": "Mika",
+          "en": "What does this mean for data centers operating in those four countries?",
+          "ja": "これら4か国で事業を展開するデータセンターにとって、この措置は何を意味するのでしょうか？",
+          "t": 99.92
+        },
+        {
+          "speaker": "Alex",
+          "en": "Cloud executives report sheer chaos because Washington gave no clear guidance on how to apply. The freeze immediately hits major deals. For instance, lenders paused five hundred million dollars in credit for Singapore cloud firm Aolani, which planned to lease servers to ByteDance.",
+          "ja": "米政府から申請手続きに関する明確な指針が示されていないため、クラウド事業者の幹部は大混乱だと伝えています。この出荷凍結は大型案件を直撃しており、例えばByteDanceへのサーバー貸与を計画していたシンガポールのクラウド企業Aolaniに対しては、金融機関が5億ドルの融資を停止しました。",
+          "t": 105.17
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, Washington is cutting off remote cloud access, leaving Southeast Asian data centers in limbo.",
+          "ja": "つまり要約すると、米国政府が遠隔クラウドアクセスを遮断したことで、東南アジアのデータセンター事業が宙に浮いた状態になっているのですね。",
+          "t": 121.88
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is right. The pause cuts off critical computing paths while putting billions in regional investments at risk.",
+          "ja": "その通りです。この出荷停止は重要な計算資源へのアクセスを断ち切ると同時に、地域における巨額の投資を危険にさらしています。",
+          "t": 129.1
+        }
+      ],
+      "lang": "en",
+      "t": 37.7
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "日本語でおさらいします。NVIDIAは、中国企業がクラウド経由で高性能AIチップを利用する抜け穴を防ぐため、東南アジア4か国へのサーバー出荷停止を指示しました。現地データセンターの資金調達が止まるなど、地域全体で大きな混乱が広がっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 137.14
+        }
+      ],
+      "t": 137.14
+    },
+    {
+      "kind": "story",
+      "heading_en": "Netherlands Resists US Pressure on ASML Chip Tools",
+      "heading_ja": "オランダ、ASML規制を求める米国の圧力に反発",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "The Dutch government is pushing back strongly against a proposed United States law known as the MATCH Act. This measure would force European allies to mirror strict American export controls on chipmaking tools or face restrictions themselves.",
+          "ja": "オランダ政府は、MATCH Actとして知られる米国の法案に対して強い反発を示しています。この法案は、欧州の同盟国に対して半導体製造装置に関する米国の厳格な輸出規制に足並みを揃えるよう求め、従わなければ制裁を科すものです。",
+          "t": 156.9
+        },
+        {
+          "speaker": "Mika",
+          "en": "What did Dutch officials say during their parliamentary debates?",
+          "ja": "オランダの当局者は議会討論で何と発言したのですか？",
+          "t": 172.01
+        },
+        {
+          "speaker": "Alex",
+          "en": "Dutch Foreign Trade Minister Sjoerd Sjoerdsma told lawmakers that the Netherlands will not be told what to do. He warned that the American proposal goes far, far too far. The Dutch cabinet is now coordinating with the European Commission to lobby American lawmakers before a vote in mid-December.",
+          "ja": "オランダのスユールト・スユールツマ貿易相は議員らに対し、オランダが指示される筋合いはないと述べました。米国の提案はあまりにも行き過ぎていると警告し、オランダ内閣は12月中旬の採決を前に米議員へのロビー活動を行うべく欧州委員会と連携しています。",
+          "t": 177.05
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is China such a critical market for ASML right now?",
+          "ja": "なぜASMLにとって現在、中国がそれほど決定的な市場なのでしょうか？",
+          "t": 195.22
+        },
+        {
+          "speaker": "Alex",
+          "en": "China accounted for twenty-three percent of ASML's system sales in the third quarter and represents about twenty percent of its projected annual revenue. ASML chief executive Christophe Fouquet warned in an interview that a total ban on chip equipment to China would backfire.",
+          "ja": "第3四半期において、ASMLのシステム売上高の23パーセントを中国が占め、年間売上予測の約20パーセントに達しています。ASMLのChristophe Fouquet CEOはインタビューで、中国への半導体装置の全面禁輸は裏目に出ると警告しました。",
+          "t": 199.75
+        },
+        {
+          "speaker": "Mika",
+          "en": "What was his reasoning on that?",
+          "ja": "彼の主張の根拠は何だったのですか？",
+          "t": 216.79
+        },
+        {
+          "speaker": "Alex",
+          "en": "Fouquet argued that export controls must not completely frustrate trading partners. He explained that selling older, less advanced lithography tools actually helps preserve a clear technology generation gap between China and the West. Dutch lawmakers also warned that passing the American bill would be disastrous for the Dutch economy.",
+          "ja": "Fouquet氏は、輸出規制によって貿易相手国を完全に絶望させてはならないと論じました。最先端ではない旧世代の露光装置を販売し続けることこそが、中国と西側諸国との明確な技術的世代格差を維持するのに役立つと説明しています。オランダの議員らも、米国の法案成立はオランダ経済に壊滅的な打撃を与えると警告しました。",
+          "t": 219.96
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, the Dutch government is defending its premier tech champion against unilateral American trade pressure.",
+          "ja": "つまり要約すると、オランダ政府は米国の単独的な通商圧力から自国の誇るトップテック企業を守ろうとしているわけですね。",
+          "t": 240.4
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. This confrontation is creating serious transatlantic tension over global semiconductor policy.",
+          "ja": "その通りです。この対立は、世界的な半導体政策をめぐり大西洋両岸に深刻な緊張を生み出しています。",
+          "t": 248.44
+        }
+      ],
+      "lang": "en",
+      "t": 156.9
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "オランダ政府は、半導体装置メーカーのASMLに対する対中輸出規制強化を求める米国のMATCH Actに強く反発しました。ASMLのCEOも全面的な禁輸は逆効果だと訴えており、欧米間での半導体政策の摩擦が深まっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 255.69
+        }
+      ],
+      "t": 255.69
+    },
+    {
+      "kind": "story",
+      "heading_en": "TSMC Opens Next-Generation 1.4-Nanometer Node to Designers",
+      "heading_ja": "TSMC、1.4ナノプロセスの設計キットを顧客へ公開",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "TSMC has released version 0.9 of its process design kit for its upcoming 1.4-nanometer manufacturing technology, known as A14. The announcement came at TSMC's European Open Innovation Platform workshop in Munich.",
+          "ja": "TSMCは、A14として知られる次世代1.4ナノ半導体製造技術向けのプロセス設計キット（PDK）第0.9版をリリースしました。この発表はミュンヘンで開催されたTSMCの欧州オープンイノベーションプラットフォームのワークショップで行われました。",
+          "t": 273.76
+        },
+        {
+          "speaker": "Mika",
+          "en": "For our listeners, what does a process design kit actually do?",
+          "ja": "リスナーの皆さんのために伺いますが、プロセス設計キットとは実際には何をするものなのですか？",
+          "t": 287.18
+        },
+        {
+          "speaker": "Alex",
+          "en": "A process design kit, or PDK, provides the complete collection of software files and design rules. It gives chip architects the exact technical parameters required to design working integrated circuits for TSMC's manufacturing lines. Version 0.9 means the rules are stable enough for customers to begin actual design work with confidence.",
+          "ja": "プロセス設計キット（PDK）は、ソフトウェアファイルと設計ルールの完全なセットを提供します。半導体設計者がTSMCの製造ラインで実際に動作する集積回路を設計するために必要な、正確な技術パラメータを提供するものです。第0.9版の公開は、顧客が確信を持って実際の回路設計を開始できるほど仕様が安定したことを意味します。",
+          "t": 292.1
+        },
+        {
+          "speaker": "Mika",
+          "en": "How much of a performance jump does this 1.4-nanometer node deliver?",
+          "ja": "この1.4ナノプロセスはどれほどの性能向上をもたらすのですか？",
+          "t": 312.66
+        },
+        {
+          "speaker": "Alex",
+          "en": "TSMC says A14 uses second-generation nanosheet transistors with its NanoFlex Pro architecture. It offers a fourteen percent speed gain at the same power, or a twenty-three percent power cut at identical speed compared to its earlier N2P node. Designers can use high-speed Boost Cells on critical paths and Low-Power Cells elsewhere.",
+          "ja": "TSMCによると、A14はNanoFlex Proアーキテクチャを備えた第2世代のナノシートトランジスタを使用しています。旧世代のN2Pと比較して、同じ消費電力で14パーセントの高速化、または同じ動作速度で23パーセントの電力削減を実現します。設計者は重要な経路に高速な「ブーストセル」を配置し、その他の部分に省電力セルを使用できます。",
+          "t": 317.92
+        },
+        {
+          "speaker": "Mika",
+          "en": "When will chipmakers actually receive these cutting-edge chips?",
+          "ja": "半導体メーカーがこれらの最先端チップを実際に受け取れるのはいつ頃になりますか？",
+          "t": 338.13
+        },
+        {
+          "speaker": "Alex",
+          "en": "TSMC plans risk production in the second half of 2027, with high-volume mass production following in late 2028. Both Cadence and Synopsys have already certified complete design tools using an Arm Cortex core.",
+          "ja": "TSMCは2027年後半にリスク生産を開始し、2028年後半に大規模な量産に入る計画です。すでにCadenceとSynopsysの両社がArm Cortexコアを用いた完全な設計ツールの認証を完了しています。",
+          "t": 343.11
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, chip designers can now build commercial blueprints for 1.4-nanometer processors.",
+          "ja": "つまり要約すると、チップ設計者たちが1.4ナノプロセッサの商用設計図を実際に描ける段階に入ったのですね。",
+          "t": 356.3
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. This major milestone keeps TSMC right on track in its fierce technology race against Intel.",
+          "ja": "その通りです。この極めて重要なマイルストーンにより、TSMCはIntelとの熾烈な技術開発競争において順調な歩みを維持しています。",
+          "t": 363.49
+        }
+      ],
+      "lang": "en",
+      "t": 273.76
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "TSMCが次世代の1.4ナノ半導体製造技術「A14」向けの設計キット第0.9版を公開しました。前世代比で最大14パーセントの高速化または23パーセントの省電力を実現し、2028年の量産に向けて顧客企業の回路設計が本格化します。",
+          "en": "",
+          "lang": "ja",
+          "t": 370.99
+        }
+      ],
+      "t": 370.99
+    },
+    {
+      "kind": "story",
+      "heading_en": "Microsoft Warns of Autonomous AI Hacking Tool ARTEX",
+      "heading_ja": "Microsoft、自律型AIサイバー攻撃ツール「ARTEX」に警告",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Microsoft Threat Intelligence has issued a stark warning regarding an open-source artificial intelligence tool named ARTEX. State-backed hackers from China and North Korea, along with financial cybercriminals, are weaponizing it to execute rapid, automated intrusions.",
+          "ja": "Microsoftの脅威インテリジェンス部門は、ARTEXというオープンソースの人工知能ツールに関する厳しい警告を発しました。中国や北朝鮮の国家支援ハッカーや金銭目的のサイバー犯罪者が、これを悪用して高速で自動化された侵入攻撃を実行しています。",
+          "t": 390.79
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does ARTEX make cyberattacks different from traditional human hacking?",
+          "ja": "ARTEXによって、サイバー攻撃は従来の人間によるハッキングとどう変わるのですか？",
+          "t": 408.36
+        },
+        {
+          "speaker": "Alex",
+          "en": "ARTEX operates as an autonomous agentic framework. That means it acts independently without requiring constant human guidance. If the tool encounters an error during an attack, it dynamically swaps underlying large language models and delegates sub-tasks to overcome obstacles at machine speed.",
+          "ja": "ARTEXは自律型エージェントのフレームワークとして機能します。つまり、人間の継続的な指示を必要とせずに独立して動作するのです。攻撃中にエラーに遭遇した場合でも、背後にある大規模言語モデルを動的に切り替え、サブタスクを分散して機械の速度で障害を突破します。",
+          "t": 414.3
+        },
+        {
+          "speaker": "Mika",
+          "en": "How fast can these AI agents compromise a target system?",
+          "ja": "これらのAIエージェントはどれほどの速度で標的システムを侵害できるのですか？",
+          "t": 433.44
+        },
+        {
+          "speaker": "Alex",
+          "en": "Microsoft warns that ARTEX can advance from initial reconnaissance to persistent, privileged administrative access in just a matter of minutes. The tool has already been observed scanning public code repositories for exposed credentials and targeting sensitive United States government agencies, including the Treasury Department and intelligence offices.",
+          "ja": "Microsoftは、ARTEXが初期の偵察から持続的な特権管理者アクセスの奪取までをわずか数分で完了できると警告しています。このツールはすでに公開コードリポジトリから漏洩した認証情報をスキャンし、米財務省や情報機関などの機密性の高い米政府機関を標的にしていることが確認されています。",
+          "t": 438.3
+        },
+        {
+          "speaker": "Mika",
+          "en": "What can organizations do to defend their networks against automated software?",
+          "ja": "組織がこのような自動化ソフトウェアからネットワークを守るにはどうすればよいのですか？",
+          "t": 461.09
+        },
+        {
+          "speaker": "Alex",
+          "en": "Microsoft recommends adopting active deception techniques. Security teams can set up honeypots and feed the AI fake indicators of success, essentially tricking the automated attacker into stopping its operation.",
+          "ja": "Microsoftは能動的な欺瞞技術の導入を推奨しています。セキュリティチームがハニーポットを設置し、AIに偽の成功シグナルを与えることで、自動化された攻撃者を騙して作戦を停止させることができます。",
+          "t": 467.27
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, cybersecurity has entered a new era where autonomous AI agents attack networks in minutes.",
+          "ja": "つまり要約すると、サイバーセキュリティは自律型AIエージェントが数分でネットワークを攻撃する新たな時代に突入したわけですね。",
+          "t": 481.43
+        },
+        {
+          "speaker": "Alex",
+          "en": "Precisely. Defending systems now requires machine-speed responses to counter fully automated cyber threats.",
+          "ja": "まさにその通りです。システムを防衛するためには、完全に自動化されたサイバー脅威に対抗できる機械速度の防御が不可欠となっています。",
+          "t": 489.17
+        }
+      ],
+      "lang": "en",
+      "t": 390.79
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Microsoftは、中国や北朝鮮の国家ハッカーが自律型AIツール「ARTEX」を悪用していると警告しました。AIが自ら判断して攻撃手法を変え、数分でシステムに侵入できるため、防衛側もAIを用いた瞬時の対応が求められています。",
+          "en": "",
+          "lang": "ja",
+          "t": 497.08
+        }
+      ],
+      "t": 497.08
+    },
+    {
+      "kind": "story",
+      "heading_en": "Google Requires Public Addresses for Android Developers",
+      "heading_ja": "Google、アプリ開発者の住所・電話番号の公開を義務化",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Google has announced an updated policy for Android developers who distribute applications on Google Play. Starting March 1, 2027, developers classified as commercial traders will have their physical address and phone number publicly displayed across the globe.",
+          "ja": "Googleは、Google Playでアプリを配信するAndroid開発者向けの更新ポリシーを発表しました。2027年3月1日以降、商業的事業者に分類される開発者は、実際の住所と電話番号が全世界に公開されることになります。",
+          "t": 516.88
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is Google putting personal contact details online for everyone to see?",
+          "ja": "なぜGoogleは個人の連絡先情報を誰もが見られるようオンラインに公開するのですか？",
+          "t": 533.98
+        },
+        {
+          "speaker": "Alex",
+          "en": "Google says the change complies with the European Union's Digital Services Act. This consumer protection law requires commercial merchants selling goods or digital services to clearly identify themselves. Developers distributing apps in Europe have until February 1, 2027, to declare whether they operate as commercial traders.",
+          "ja": "Googleはこの変更がEUのデジタルサービス法（DSA）を遵守するためのものだと説明しています。この消費者保護法は、商品やデジタルサービスを販売する事業者に明確な身元開示を求めています。欧州でアプリを配信する開発者は、2027年2月1日までに自身が事業者であるかどうかを申告しなければなりません。",
+          "t": 539.92
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why are independent developers reacting with so much alarm?",
+          "ja": "なぜ個人のインディー開発者たちはこれほど強い警戒感を示しているのですか？",
+          "t": 561.03
+        },
+        {
+          "speaker": "Alex",
+          "en": "The backlash is intense because Google does not permit post office boxes. Google pulls legal addresses directly from payment profiles, forcing solo creators working from home to expose their residential addresses. Many independent developers fear stalking, harassment, and home privacy violations. One game creator even reported considering renting an expensive private office purely to hide their home address.",
+          "ja": "Googleが私書箱を認めていないため、激しい反発が起きています。決済プロファイルから法的な住所を直接取得するため、自宅で仕事をする個人クリエイターが自宅住所を晒すことを強いられるのです。多くのインディー開発者がストーカー被害や嫌がらせ、プライバシー侵害を恐れています。あるゲーム開発者は、自宅住所を隠すためだけに高額な専用オフィスを借りることを検討していると語っています。",
+          "t": 566.07
+        },
+        {
+          "speaker": "Mika",
+          "en": "How does Google's approach compare to rival platforms like Apple?",
+          "ja": "Appleなど競合プラットフォームの対応と比べるとどうなのでしょうか？",
+          "t": 592.23
+        },
+        {
+          "speaker": "Alex",
+          "en": "Apple is subject to the exact same European regulation, but handles it very differently. Apple only displays contact information to store visitors located inside Europe, and Apple permits verified post office boxes. Google, by contrast, is broadcasting residential details worldwide.",
+          "ja": "Appleもまったく同じ欧州規制の対象ですが、対応は大きく異なります。Appleは欧州域内のストア利用者にのみ連絡先を表示し、確認済みの私書箱の利用も認めています。対照的にGoogleは、自宅の住所情報を全世界に公開しようとしています。",
+          "t": 597.62
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, an EU transparency law is creating serious global privacy headaches for independent app creators.",
+          "ja": "つまり要約すると、EUの透明性向上ルールが、世界のインディー開発者に深刻なプライバシーの苦悩を生み出しているわけですね。",
+          "t": 616.55
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is right. The developer community is urging Google to adopt regional privacy protections similar to Apple.",
+          "ja": "その通りです。開発者コミュニティは、Appleと同様の地域的プライバシー保護を導入するようGoogleに強く求めています。",
+          "t": 624.31
+        }
+      ],
+      "lang": "en",
+      "t": 516.88
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "story",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "GoogleはEUのデジタルサービス法に対応するため、2027年3月から有料アプリなどを配信する開発者の住所と電話番号を世界中に公開すると発表しました。私書箱が認められないため、自宅で開発する個人のプライバシー侵害への反発が強まっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 632.08
+        }
+      ],
+      "t": 632.08
+    },
+    {
+      "kind": "health",
+      "heading_en": "FDA Clears Neuralink for Pivotal Brain Implant Clinical Trial",
+      "heading_ja": "FDA、Neuralinkの脳インプラント最終治験を承認",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In digital health, Elon Musk's neurotechnology startup, Neuralink, has received clearance from the United States Food and Drug Administration to launch its LINK Pivotal Study. This marks the first pivotal clinical trial in America for an implantable brain-computer interface.",
+          "ja": "デジタルヘルスの分野では、Elon Musk氏の神経技術スタートアップNeuralinkが、米食品医薬品局（FDA）から「LINKピボタル臨床試験」の開始承認を取得しました。これは埋め込み型脳コンピューターインターフェース（BCI）として米国初となるピボタル治験です。",
+          "t": 652.0
+        },
+        {
+          "speaker": "Mika",
+          "en": "What makes a pivotal trial such a critical milestone in medical regulation?",
+          "ja": "医療規制において、ピボタル治験がそれほど決定的な節目となるのはなぜですか？",
+          "t": 669.13
+        },
+        {
+          "speaker": "Alex",
+          "en": "A pivotal trial is the final, comprehensive phase of human testing before a medical device company can apply for commercial market clearance. Neuralink previously evaluated its brain implant in feasibility studies involving more than thirty human participants. Now, the company must provide rigorous, conclusive clinical data proving the device is both safe and effective for patients.",
+          "ja": "ピボタル治験とは、医療機器メーカーが商用認可を申請する前の、人間を対象とした最終的かつ包括的な試験段階です。Neuralinkはこれまで30人以上の被験者を対象とした実現可能性試験で評価を行ってきました。これからは、患者にとって機器が安全かつ有効であることを証明する厳格で決定的な臨床データを提示しなければなりません。",
+          "t": 674.83
+        },
+        {
+          "speaker": "Mika",
+          "en": "Who is eligible to participate in this new pivotal trial?",
+          "ja": "この新たなピボタル治験に参加できるのはどのような人たちですか？",
+          "t": 698.24
+        },
+        {
+          "speaker": "Alex",
+          "en": "The trial is specifically open to adult patients suffering from severe paralysis caused by amyotrophic lateral sclerosis, or ALS. The surgical procedure implants fine electrode threads directly into brain tissue to record and decode neural signals related to movement intention.",
+          "ja": "この試験は、筋萎縮性側索硬化症（ALS）による重度の麻痺を患う成人患者を対象としています。外科手術によって極細の電極スレッドを脳組織に直接埋め込み、運動の意図に関連する神経信号を記録・解読します。",
+          "t": 702.92
+        },
+        {
+          "speaker": "Mika",
+          "en": "What will the clinical follow-up involve for these patients?",
+          "ja": "これらの患者にはどのような臨床追跡が行われるのですか？",
+          "t": 720.22
+        },
+        {
+          "speaker": "Alex",
+          "en": "Enrolled participants will undergo close medical monitoring for approximately twenty-four months following surgery. The overarching goal is restoring digital autonomy, allowing paralyzed individuals to control computers, tablets, and phones using thought alone.",
+          "ja": "登録された被験者は、手術後約24か月にわたって綿密な医学的観察を受けます。最終的な目標はデジタルな自立を取り戻すことであり、麻痺のある人々が思考だけでパソコンやタブレット、スマートフォンを操作できるようにすることです。",
+          "t": 725.07
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, brain-computer interfaces are advancing from experimental trials into formal medical validation.",
+          "ja": "つまり要約すると、脳コンピューターインターフェースが実験的な試みから正式な医療検証へと歩みを進めているのですね。",
+          "t": 741.4
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is exact. While the implant remains investigational, this regulatory milestone brings neurotechnology one step closer to approved clinical reality.",
+          "ja": "その通りです。このインプラントは依然として研究段階にあるものの、この規制上の節目は神経技術を承認された臨床現場の実用化へ一歩近づけるものです。",
+          "t": 749.1
+        }
+      ],
+      "lang": "en",
+      "t": 652.0
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "health",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "Neuralinkは、脳埋め込み型インターフェースの実用化に向け、米国FDAから最終段階となるピボタル治験の承認を得ました。ALS患者を対象に約24か月間追跡し、思考によるデジタル機器の操作を検証します。実用化への大きな前進です。",
+          "en": "",
+          "lang": "ja",
+          "t": 759.21
+        }
+      ],
+      "t": 759.21
+    },
+    {
+      "kind": "world",
+      "heading_en": "EU Leaders Clash Over Long-Term Budget and Ukraine Aid",
+      "heading_ja": "EU首脳会議、長期予算とウクライナ支援をめぐり対立",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "European Union leaders held an extraordinary summit in Brussels on Thursday to negotiate the bloc's massive 1.58 trillion euro budget for 2028 through 2034, but talks collapsed without an agreement.",
+          "ja": "EU首脳らは木曜日、ブリュッセルで緊急首脳会議を開き、2028年から2034年までの1兆5800億ユーロに及ぶ巨額の長期予算案について交渉を行いましたが、合意に至らず決裂しました。",
+          "t": 778.81
+        },
+        {
+          "speaker": "Mika",
+          "en": "What caused the negotiations between European leaders to break down?",
+          "ja": "EU首脳間の交渉が決裂した原因は何だったのですか？",
+          "t": 791.82
+        },
+        {
+          "speaker": "Alex",
+          "en": "The primary clash centers on a proposed forty-five billion euro loan package for Ukraine for 2027. German Chancellor Friedrich Merz insisted that all twenty-seven member states must contribute collectively without exceptions. Merz even threatened to veto the entire seven-year EU budget if countries refused to back Kyiv.",
+          "ja": "最大の衝突は、2027年に向けたウクライナへの450億ユーロの融資案をめぐって起きました。ドイツのフリードリヒ・メルツ首相は、例外なく全27加盟国が連帯して拠出すべきだと主張しました。メルツ首相は、各国がウクライナ支援を拒否するならば7年間のEU予算全体に拒否権を行使するとまで警告しました。",
+          "t": 797.25
+        },
+        {
+          "speaker": "Mika",
+          "en": "How did other European leaders respond to that demand?",
+          "ja": "その要求に他の首脳たちはどう反応したのですか？",
+          "t": 817.44
+        },
+        {
+          "speaker": "Alex",
+          "en": "Several nations pushed back aggressively. Slovakia, Hungary, and Czechia demanded to opt out of funding military aid. Czech Prime Minister Andrej Babiš insisted cohesion money should fund domestic roads and hospitals instead, while Italian Prime Minister Giorgia Meloni warned leaders were light-years away from an agreement. Leaders adjourned the summit until mid-December.",
+          "ja": "数か国が激しく反発しました。スロバキア、ハンガリー、チェコは軍事支援への拠出免除を要求しました。チェコのアンドレイ・バビシュ首相は、結束基金は国内の道路や病院に充てられるべきだと主張し、イタリアのジョルジャ・メローニ首相も合意には程遠いと警告しました。首脳らは交渉を12月中旬まで先送りしました。",
+          "t": 822.05
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, deep divisions over war funding and regional spending have stalled the European Union's long-term budget.",
+          "ja": "つまり要約すると、戦時支援と地域支出をめぐる深い亀裂が、EUの長期予算を立ち往生させているのですね。",
+          "t": 845.33
+        },
+        {
+          "speaker": "Alex",
+          "en": "Exactly. Unanimous approval is required, making compromise an uphill battle.",
+          "ja": "その通りです。全会一致の承認が必要なため、妥協点を見出すのは極めて厳しい戦いとなっています。",
+          "t": 853.73
+        }
+      ],
+      "lang": "en",
+      "t": 778.81
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "EU緊急首脳会議は、2027年のウクライナ向け450億ユーロの融資などを巡り対立が解消せず、合意なしで散会しました。全加盟国の拠出を求めるドイツに対し、ハンガリーやスロバキアなどが難色を示しており、協議は12月に持ち越されました。",
+          "en": "",
+          "lang": "ja",
+          "t": 859.62
+        }
+      ],
+      "t": 859.62
+    },
+    {
+      "kind": "world",
+      "heading_en": "Spain's Pablo Hernández de Cos Chosen as Next ECB President",
+      "heading_ja": "次期欧州中央銀行総裁にスペインのエルナンデス・デコス氏を選出",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Eurozone leaders meeting in Brussels have selected Pablo Hernández de Cos to become the next president of the European Central Bank. He will succeed Christine Lagarde when she steps down on February 7, 2027.",
+          "ja": "ブリュッセルに集まったユーロ圏首脳らは、欧州中央銀行（ECB）の次期総裁にパブロ・エルナンデス・デコス氏を選任しました。クリスティーヌ・ラガルド氏が2027年2月7日に退任した後に後任を務めます。",
+          "t": 879.2
+        },
+        {
+          "speaker": "Mika",
+          "en": "Who is Hernández de Cos, and how was he selected?",
+          "ja": "エルナンデス・デコス氏とはどのような人物で、どう選ばれたのですか？",
+          "t": 892.73
+        },
+        {
+          "speaker": "Alex",
+          "en": "He is the former governor of the Bank of Spain and currently leads the Bank for International Settlements. At age fifty-five, he will make history as the first Spaniard to lead the European Central Bank. European leaders chose him over Dutch candidate Klaas Knot as part of a broader leadership package that also appointed French economist Laurence Boone and German economist Markus Brunnermeier to top board posts.",
+          "ja": "彼はスペイン銀行の前総裁で、現在は国際決済銀行（BIS）のトップを務めています。55歳の彼は、スペイン人として史上初めてECBを率いることになります。欧州首脳らはオランダのクラース・クノート候補ではなく彼を選出しました。これはフランスのエコノミストであるローランス・ボーン氏やドイツのマルクス・ブルンネルマイヤー氏を取締役会の要職に任命する包括合意の一環でした。",
+          "t": 897.05
+        },
+        {
+          "speaker": "Mika",
+          "en": "What challenges will he face when he takes over Eurozone monetary policy?",
+          "ja": "彼がユーロ圏の金融政策を引き継ぐ際、どのような課題に直面するのでしょうか？",
+          "t": 922.72
+        },
+        {
+          "speaker": "Alex",
+          "en": "His biggest immediate challenge will be taming inflation, which climbed to four percent across the Eurozone last month, exactly double the bank's target. He will also need to navigate severe debt pressures in countries like France while supporting economic growth.",
+          "ja": "当面の最大の課題はインフレの沈静化です。先月、ユーロ圏全体のインフレ率は目標のちょうど2倍となる4パーセントに達しました。また、経済成長を支えつつ、フランスなどの国々が抱える深刻な債務圧力にも対処しなければなりません。",
+          "t": 928.44
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, a veteran Spanish central banker will steer Europe's monetary policy through rising prices and economic uncertainty.",
+          "ja": "つまり要約すると、スペインのベテラン中央銀行家が、物価高と不透明な経済情勢の中で欧州の金融政策の舵を取ることになるわけですね。",
+          "t": 945.3
+        },
+        {
+          "speaker": "Alex",
+          "en": "Yes. EU leaders will formally confirm his eight-year term during their summit next month.",
+          "ja": "はい。EU首脳らは来月の首脳会議で彼の8年間の任期を正式に承認する予定です。",
+          "t": 954.35
+        }
+      ],
+      "lang": "en",
+      "t": 879.2
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "欧州中央銀行の次期総裁に、前スペイン銀行総裁のエルナンデス・デコス氏が内定しました。スペイン人初の就任となります。ユーロ圏のインフレ率が目標の2倍となる4パーセントに達する中、物価安定と経済成長の難しい舵取りを担います。",
+          "en": "",
+          "lang": "ja",
+          "t": 961.45
+        }
+      ],
+      "t": 961.45
+    },
+    {
+      "kind": "world",
+      "heading_en": "Ebola Outbreak in Congo Tops 12,000 Cases Amid Fighting",
+      "heading_ja": "コンゴのエボラ出血熱、戦闘激化の中で感染者1万2000人超へ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "Health officials in the Democratic Republic of the Congo report that an ongoing Ebola outbreak has surpassed twelve thousand confirmed cases, with 5,904 recorded deaths. This makes it the deadliest and fastest-spreading Ebola outbreak in the nation's history.",
+          "ja": "コンゴ民主共和国の保健当局は、現在流行中のエボラ出血熱の感染者が1万2000人を超え、確認された死者が5904人に達したと報告しました。同国の歴史上、最も死者が多く最も急速に拡大しているエボラ流行となっています。",
+          "t": 979.57
+        },
+        {
+          "speaker": "Mika",
+          "en": "Why is medical containment proving so exceptionally difficult?",
+          "ja": "なぜ医療的な封じ込めがこれほど極めて困難を極めているのですか？",
+          "t": 995.56
+        },
+        {
+          "speaker": "Alex",
+          "en": "The epidemic is driven by the rare Bundibugyo strain of the virus, for which there are currently no approved vaccines or targeted medical treatments. The disease began in Ituri province and has now spread across eight provinces, with a case fatality rate hovering near fifty percent.",
+          "ja": "この流行が希少なブンディブギョ株のウイルスによって引き起こされており、現在承認されたワクチンや特効薬が存在しないためです。この病気はイトゥリ州で始まり、現在では8つの州に拡大し、致死率は50パーセント近くに達しています。",
+          "t": 1000.45
+        },
+        {
+          "speaker": "Mika",
+          "en": "How are armed conflicts compounding the public health emergency?",
+          "ja": "武力紛争はこの公衆衛生上の危機をどのように深刻化させているのでしょうか？",
+          "t": 1017.79
+        },
+        {
+          "speaker": "Alex",
+          "en": "Intense fighting between government soldiers and local militia groups has severely disrupted medical operations. The World Health Organization recently had to evacuate healthcare personnel who were trapped inside a regional hospital for three days during intense gunfire. Aid agencies report that combat north of Bunia prevents health workers from conducting contact tracing, leaving containment efforts in deep peril.",
+          "ja": "政府軍と地元民兵組織との激しい戦闘が、医療活動を著しく混乱させています。世界保健機関（WHO）は最近、激しい銃撃戦の中で地方の病院に3日間孤立した医療関係者を救出・避難させなければなりませんでした。ブニア北部での戦闘により保健スタッフが濃厚接触者の追跡を行えず、封じ込め活動は深刻な危機に瀕しています。",
+          "t": 1022.79
+        },
+        {
+          "speaker": "Mika",
+          "en": "So, in short, armed conflict and a lack of approved vaccines are driving Congo's worst Ebola disaster to date.",
+          "ja": "つまり要約すると、武力紛争と承認ワクチンの欠如が、コンゴで過去最悪のエボラ被害を引き起こしているのですね。",
+          "t": 1047.73
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is right. Health responders are struggling against both deadly disease and active warfare.",
+          "ja": "その通りです。医療従事者たちは致死的な病気と激しい武力衝突の双方と闘っています。",
+          "t": 1055.32
+        }
+      ],
+      "lang": "en",
+      "t": 979.57
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "world",
+      "heading_en": "Japanese recap",
+      "heading_ja": "日本語でおさらい",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "コンゴ民主共和国でのエボラ出血熱の感染者が1万2000人、死者が5900人を超えました。承認されたワクチンがない希少株であることに加え、東部での武力衝突により医療スタッフの退避を余儀なくされるなど、封じ込め活動が極めて困難になっています。",
+          "en": "",
+          "lang": "ja",
+          "t": 1062.08
+        }
+      ],
+      "t": 1062.08
+    },
+    {
+      "kind": "ceo_watch",
+      "heading_en": "CEO Watch: ASML, Arm, and Microsoft",
+      "heading_ja": "CEOウォッチ：ASML、Arm、Microsoft",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "In CEO Watch today, ASML chief Christophe Fouquet warned lawmakers that cutting China off completely will backfire. He said export controls must be handled carefully so they do not completely frustrate trading partners.",
+          "ja": "本日のCEOウォッチです。ASMLのChristophe Fouquet CEOは、中国を完全に排除することは逆効果になると議員らに警告しました。貿易相手を過度に追い詰めないよう、輸出規制は慎重に扱うべきだと述べています。",
+          "t": 1081.57
+        },
+        {
+          "speaker": "Mika",
+          "en": "Meanwhile, Arm chief executive Rene Haas responded to an AI chip stock decline. Haas declared that he has never been more confident about the company's future.",
+          "ja": "一方、ArmのRene Haas最高経営責任者は、AI半導体関連株の下落に対し、同社の将来について「これほど自信を持ったことはない」と表明しました。",
+          "t": 1095.3
+        },
+        {
+          "speaker": "Alex",
+          "en": "And Microsoft leadership confirmed that workplace buyouts were driven by rapid investments in AI automation.",
+          "ja": "そしてMicrosoft経営陣は、人員削減策の背景にはAI自動化への急速な投資があることを確認しました。",
+          "t": 1105.65
+        }
+      ],
+      "lang": "en",
+      "t": 1081.57
+    },
+    {
+      "kind": "phrase",
+      "heading_en": "Phrase of the Day: Backfire",
+      "heading_ja": "今日のフレーズ：Backfire",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "en": "Today's phrase of the day is 'backfire.' ASML chief executive Christophe Fouquet warned lawmakers that imposing a total ban on chipmaking tools to China would backfire. To backfire means to produce an unexpected, adverse outcome that is the opposite of the original intention, ultimately harming the person or group who took action.",
+          "ja": "今日のフレーズは「backfire」です。ASMLのChristophe Fouquet CEOは、中国に対する半導体装置の全面禁輸措置は裏目に出る（backfire）と議員らに警告しました。「to backfire」とは、意図したのとは正反対の好ましくない結果をもたらし、結果として行動を起こした当事者自身に損害や不利益を与えることを意味します。",
+          "t": 1113.59
+        },
+        {
+          "speaker": "Alex",
+          "en": "That is right. In business, an aggressive strategy like drastically hiking software subscription prices can easily backfire if paying clients suddenly flee to competitors.",
+          "ja": "その通りです。ビジネスにおいて、ソフトウェアの定額料金を一気に大幅値上げするような強引な戦略は、有料顧客が競合他社へ一斉に流出してしまえば、いとも簡単に裏目に出てしまいます。",
+          "t": 1133.67
+        },
+        {
+          "speaker": "Mika",
+          "en": "It is an essential phrase for discussing business risks and unintended consequences.",
+          "ja": "ビジネス上のリスクや予期せぬ結末を議論する際に欠かせない実践的な表現です。",
+          "t": 1144.69
+        }
+      ],
+      "lang": "en",
+      "t": 1113.59
+    },
+    {
+      "kind": "outro",
+      "heading_en": "Weekend Sign-Off",
+      "heading_ja": "週末のサインオフ",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "en": "That brings us to the end of our briefing for this Friday morning. Thank you for making Commute News part of your daily routine. We hope you have a restful, safe, and enjoyable weekend ahead.",
+          "ja": "今週金曜朝のニュースブリーフィングは以上です。Commute Newsを毎日の習慣にしていただき、ありがとうございます。どうぞ心安らぐ素敵な週末をお過ごしください。",
+          "t": 1150.82
+        },
+        {
+          "speaker": "Mika",
+          "en": "Have a wonderful weekend, everyone. Stay safe, and we will see you right here for Monday morning's commute.",
+          "ja": "皆さん、素晴らしい週末をお過ごしください。お気をつけて、また月曜日の朝の通勤でお会いしましょう。",
+          "t": 1162.96
+        }
+      ],
+      "lang": "en",
+      "t": 1150.82
+    },
+    {
+      "kind": "recap",
+      "lang": "ja",
+      "of": "outro",
+      "heading_en": "Japanese",
+      "heading_ja": "日本語",
+      "lines": [
+        {
+          "speaker": "Mika",
+          "ja": "以上、Commute Newsでした。良い週末をお過ごしください。いってらっしゃい。",
+          "en": "",
+          "lang": "ja",
+          "t": 1170.39
+        }
+      ],
+      "t": 1170.39
+    }
+  ],
+  "stories": [
+    {
+      "title_en": "Nvidia Pauses AI Server Shipments to Southeast Asia to Curb Backdoor Cloud Access to China",
+      "title_ja": "NVIDIA、中国のクラウド迂回利用阻止に向け東南アジアへのAIサーバー出荷を停止",
+      "summary_ja": "NVIDIAは米商務省によるクラウド遠隔利用規制の強化を受け、シンガポール、マレーシア、タイ、インドネシアへのAIサーバー出荷の一時停止をパートナー各社に命じました。中国企業が東南アジアのデータセンター経由で最先端AI計算能力の約24パーセントを調達していた抜け穴を封鎖する狙いです。現地では融資の凍結などデータセンター開発に大きな混乱が生じています。",
+      "why_ja": "米国の対中半導体規制が国境を越えたクラウド接続の遮断へと踏み込んだことを示し、東南アジアや日本を含むアジア全体のデータセンター投資とサプライチェーンに直結する重要な動きです。",
+      "section": "tech",
+      "topic_key": "nvidia-southeast-asia-export-pause",
+      "companies": [
+        "Nvidia",
+        "Dell",
+        "Supermicro",
+        "ByteDance"
+      ],
+      "sources": [
+        {
+          "publisher": "TechCrunch",
+          "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+          "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "Nvidia stops AI GPU shipments to Southeast Asia amid purported China cloud access ban, report claims",
+          "url": "https://www.tomshardware.com/tech-industry/policy/nvidia-stops-ai-gpu-shipments-to-southeast-asia-report-claims-data-centers-in-singapore-other-countries-in-trouble-as-commerce-department-requires-cloud-providers-to-obtain-export-license"
+        },
+        {
+          "publisher": "WSJ",
+          "title": "Nvidia Tells Partners to Pause Shipments to Southeast Asia",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMGFER2Vpbl9JMXo5TFF1MFdQemdLcWFENFE0eGhwRS1pWkVyVTJvMFQ3RnRxUURGSjBxbHVMVVlyYzk0N3ZVU0tfb0tJa3NJREFmSzNmbkVWd0xxdDlvLUlqNzQ1bnBmUExWNWxmVTczRG1UNEQzd3NReXh5N2xTU3IwbkRwcDJFT1BXYzExU3NLMVNkZ3RR?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Netherlands Pushes Back Against Proposed US Export Curbs on ASML Chipmaking Tools",
+      "title_ja": "オランダ政府、ASMLを標的とする米国の輸出規制法案に反発",
+      "summary_ja": "オランダ政府は、同盟国に米国の対中半導体規制の踏襲を義務付ける米MATCH法案に対し、「米国の指図は受けない」と強い反対姿勢を表明しました。ASMLのCEOも、中国向け装置の完全禁輸は反発を招き逆効果になると警告しています。ASMLの売上高の2割以上を中国が占める中、欧米間の足並みの乱れが顕在化しています。",
+      "why_ja": "先端半導体製造装置で世界を主導する欧州と米国の間に政策の乖離が生じており、半導体サプライチェーンや日米欧の輸出管理協調に大きな影響を及ぼします。",
+      "section": "tech",
+      "topic_key": "asml-dutch-opposition-us-match-act",
+      "companies": [
+        "ASML"
+      ],
+      "sources": [
+        {
+          "publisher": "CASRAI",
+          "title": "ASML CEO warns a total China chip-tool ban would backfire as Dutch lawmakers press cabinet on MATCH Act",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUEFoTkZHS3JDUk0taG9ISkZ0S09tLVZKdGRucW5Pd256bm1XUWt5YncyTE40VGZwSDlkNzc5WWMtcHlGblM3VXJYaEJQQ0J1ZWJKa0o1T0hhWVcwTWtDQ1hKM2JfdDZPdFVHYlkzQkxBNXdMRTJHVkpKX0NmRlhXbjB1WkhOMkdTaGp2U2VwS2ZQUE9QS0ZDcVh3LU1JU0E?oc=5"
+        },
+        {
+          "publisher": "Bloomberg",
+          "title": "Netherlands to Fight Rollout of Proposed US Curbs on ASML",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTTlUSE4zRFZBaUM4Y3EtX2lDbnZzanVHeDFjeTE0bDk2bTBDM1E2TWVyS1NPUmVBX3BWcG5DWldlcDVFdEtqUTAzSFJpOTdwZ3o5YnlBV0xoUTZyZUNReGdrVXJtbkNUUWd3NDZ2RWZmQzEwWVBxTS1KS0FCeVJEQVNRaVZkSXpPN0tubHVkUG04NWh3dmhwMHMxWWxGVWVDM2ZYMERCcjl0blE4eUxhOUpMZkY?oc=5"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Netherlands will ask Washington not to enforce MATCH Act, minister says",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTGdjRUN5YTg3WHZsaVA3dk9EVHB3TzkybFUwc2cyS29EOTBueVZIVjhUOFlqZzl6T2xpNER5aW53a2plOWdIaG1icGNfQWUxd01yVjJ5Vm10dVR4QTNGb1VoQS11SWRhNlJJb3ZoQmtrVGZMcUlxWjhjYXpjNmVBNV9kdGdhZnJMTW9vd3lqV2ZPUnFGN0tUczEtTTk5TVBWbWl3?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "TSMC Releases Version 0.9 PDK for 1.4-Nanometer Node, Opening A14 to Chip Designers",
+      "title_ja": "TSMC、次世代1.4ナノ「A14」の設計キットPDK v0.9を公開",
+      "summary_ja": "TSMCは欧州ワークショップにおいて、1.4ナノクラスの次世代プロセス「A14」向けのPDK（プロセス設計キット）第0.9版を公開しました。A14は前世代比で最大14パーセントの速度向上または23パーセントの電力削減を提供します。CadenceやSynopsysによる設計ツールの検証も完了し、2028年の量産に向けた回路設計が可能になりました。",
+      "why_ja": "微細化競争が2ナノ以下へ本格移行する中、次世代AIチップや高性能半導体の市場投入ロードマップを決定づける重要な技術的マイルストーンです。",
+      "section": "tech",
+      "topic_key": "tsmc-a14-pdk-chip-design",
+      "companies": [
+        "TSMC",
+        "Cadence",
+        "Synopsys",
+        "Arm",
+        "Intel"
+      ],
+      "sources": [
+        {
+          "publisher": "Tom's Hardware",
+          "title": "TSMC's A14 1.4nm-class node is ready for chip design",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmcs-a14-1-4nm-class-node-is-ready-for-chip-design-boost-cells-promise-14-percent-performance-uplift-or-23-percent-power-cut-over-n2p"
+        },
+        {
+          "publisher": "Tom's Hardware",
+          "title": "TSMC's A14 1.4nm-class node is ready for chip design — Boost Cells promise 14% performance uplift or 23% power cut over N2P",
+          "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPc1cwTVpzZkMxYVljT041WlJGbXBZZV9ZOEpVYjd6M3lmbnRhZ0pJVlNhaEQ1WmZTZ0Qya3Rxcmo2bFJwcGpuYndPLTl5ZTFsZGZaWVpfRVRxYXVBaW1fSk5KSktkdFlRRjBWR1NvelhnVlZlMDJIVFFLSnlsNVBnREkxV1ZEMUlSTEZ3cTNraDdHai1QOFYxbXdJekVmT1pZeHpmdTkwYzFDbGd2cUR2WFMzQ0RhYnJ4d1M3QkFzYzgtQmExc3FEOFBpdHNFUDZ3VV9kZlBiMERNT3gyXzBsZmpIWnJtWkhDc29uSWJFd1ZLLXF2UklrQ3djbGdiM1VZbzZ2Vjc1cE1QYWh1OF9SR2hmeFVRU0VhbG5Xcw?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Microsoft Warns State Hackers Are Weaponizing ARTEX AI Tool for Automated Intrusions",
+      "title_ja": "Microsoft、国家ハッカーによる自律型AI侵入ツール「ARTEX」の悪用を警告",
+      "summary_ja": "Microsoftは、中国や北朝鮮の国家支援ハッカー集団がオープンソースのAI侵入ツール「ARTEX」を悪用していると発表しました。自律型AIエージェントが状況に応じて攻撃手法や言語モデルを自ら切り替え、わずか数分で初期調査から管理者権限奪取まで実行します。米政府機関なども標的となっています。",
+      "why_ja": "サイバー攻撃が自律的かつ機械速度で自動化される構造転換を示しており、行政やインフラのサイバーセキュリティ対策に抜本的なAI防御の導入を迫るものです。",
+      "section": "tech",
+      "topic_key": "microsoft-artex-agentic-ai-cyberattacks",
+      "companies": [
+        "Microsoft"
+      ],
+      "sources": [
+        {
+          "publisher": "The Register",
+          "title": "Microsoft: Hackers in China, N Korea using ARTEX AI tool to break into global tech systems",
+          "url": "https://www.theregister.com/security/2026/11/26/microsoft-hackers-in-china-n-korea-using-artex-ai-tool-to-break-into-global-tech-systems/5312433"
+        }
+      ]
+    },
+    {
+      "title_en": "Google Requires Public Address and Phone Listings for Android Developers Under EU Regulations",
+      "title_ja": "Google、EU法規制に伴いAndroid開発者の住所・電話番号の全世界公開を義務化",
+      "summary_ja": "GoogleはEUのデジタルサービス法（DSA）遵守のため、収益を得ているAndroidアプリ開発者に対し、2027年3月から実際の住所と電話番号をGoogle Play上で全世界に公開することを義務付けました。AppleがEU圏内限定かつ私書箱を認めるのに対し、Googleは私書箱を不可として全世界に開示するため、個人開発者からプライバシー侵害への強い反発が起きています。",
+      "why_ja": "消費者を守るための欧州規制が、プラットフォームの運用次第で世界中の個人開発者のプライバシーやビジネス継続性に直接的な脅威を与えうる実例です。",
+      "section": "tech",
+      "topic_key": "google-android-developer-address-mandate-dsa",
+      "companies": [
+        "Google",
+        "Apple"
+      ],
+      "sources": [
+        {
+          "publisher": "The Verge",
+          "title": "Android app developers will soon have to share their address publicly",
+          "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu"
+        }
+      ]
+    },
+    {
+      "title_en": "FDA Grants Clearance for First Pivotal US Trial of Neuralink Implantable Brain-Computer Interface",
+      "title_ja": "米FDA、Neuralinkの脳インプラント臨床試験に最終段階のピボタル治験承認を付与",
+      "summary_ja": "米食品医薬品局（FDA）は、Elon Musk氏のNeuralinkに対し、脳コンピューターインターフェース（BCI）として米国初となるピボタル治験（承認申請前の最終臨床試験）の開始を承認しました。ALS（筋萎縮性側索硬化症）患者を対象に約24か月間の術後経過を追跡し、思考によるデジタル端末操作の実用性を厳格に評価します。",
+      "why_ja": "侵襲型ニューロテクノロジーが実験段階を脱し、公的な医療機器承認に向けた本格的治験へと進んだことを意味し、再生医療やリハビリ技術政策に大きな示唆を与えます。",
+      "section": "health",
+      "topic_key": "fda-neuralink-pivotal-bci-trial-clearance",
+      "companies": [
+        "Neuralink"
+      ],
+      "sources": [
+        {
+          "publisher": "Coinpaper",
+          "title": "Elon Musk's Neuralink Secures FDA Green Light for Brain Chip Trials",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMEtRNjFoX0VlUWRoRFZGaXR0VzVkUEZ3RGdVMmEwLWtTQV9mbF85dXJzVDlZU2QxQm9BS3ZkY1JqRzhGMDdmRnRCMU9rdnppaDI3LUgtWHd5S2ZfVW96X2xyeHVDZXR5LV80ZDJtTVZHcXNIRHp3ZGV5Vll4MmNyUU53Ynp0T0xOZFZQVUhWSjVVOUhxajNhZGxDbw?oc=5"
+        },
+        {
+          "publisher": "Digital Trends",
+          "title": "FDA clears Neuralink to start the first pivotal US trial of an implantable brain-computer interface",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOUctclRKTHUxVEo2UVhXTXlNUGRpNkhmTURtTUhkMlVYRjFmbHVHaWg5eW9TWThCOXAzYkZiOFlaT0dqQU40Nlh4Y1UwODBLaVEtTFRyazZRaGhEWXpLZF91TzRZN0NCVGdWenJ4YjhUSWcwNTlGX3o3a19kWF94cEdmWXVfVEpQR01qNFJHcWFraDNWcFdMZ21VMy1mcWNHZWZYN0dtekxSclNCbGpzMlktM3dCOTMwQW90RUJzTXp3YjBjZXI4YjY0V3RHcjVEVk5CNU5tSQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "EU Leaders Clash in Brussels Over Proposed €45 Billion Loan for Ukraine and Long-Term Budget",
+      "title_ja": "EU首脳会議、ウクライナ向け450億ユーロ融資と長期予算をめぐり対立",
+      "summary_ja": "ブリュッセルで開かれたEU緊急首脳会議は、2028〜2034年の長期予算案および2027年のウクライナ向け450億ユーロ融資をめぐり合意に至らず終了しました。ドイツのメルツ首相が全27加盟国の連帯拠出を要求し予算拒否権をちらつかせる一方、ハンガリーやスロバキアなどが軍事支援拠出の免除を求めて対立しました。",
+      "why_ja": "加盟国内での財政緊縮派と支援消極派の亀裂が浮き彫りとなり、欧州の安全保障体制と対ウクライナ支援の継続性に不透明感が生じています。",
+      "section": "world",
+      "topic_key": "eu-summit-ukraine-loan-budget",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "EU leaders struggle to agree on long-term budget, $49bn Ukraine loan",
+          "url": "https://www.aljazeera.com/economy/2026/11/26/eu-leaders-struggle-to-agree-on-long-term-budget-more-money-for-ukraine?traffic_source=rss"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "EU leaders wrestle over Ukraine aid as potential Le Pen victory sparks fear",
+          "url": "https://www.theguardian.com/world/2026/nov/26/eu-leaders-braced-for-clashes-over-ukraine-aid-at-budget-talks"
+        }
+      ]
+    },
+    {
+      "title_en": "Spain's Pablo Hernández de Cos Selected to Succeed Christine Lagarde as ECB President",
+      "title_ja": "欧州中央銀行の次期総裁に前スペイン銀行総裁のエルナンデス・デコス氏が決定",
+      "summary_ja": "EU首脳らは、2027年2月に退任するクリスティーヌ・ラガルド氏の後任となる欧州中央銀行（ECB）総裁に、前スペイン銀行総裁で現BIS総支配人のパブロ・エルナンデス・デコス氏を指名することで合意しました。スペイン人初のECBトップとなります。ユーロ圏のインフレ率が目標の2倍である4パーセントに達する中での就任となります。",
+      "why_ja": "欧州の金融政策と金利動向を主導するトップの交代であり、世界経済の成長率や通貨ユーロの安定、各国の債務問題に直接影響を及ぼします。",
+      "section": "world",
+      "topic_key": "ecb-presidency-hernandez-de-cos",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "title": "Spain’s Pablo Hernández de Cos wins race to be next ECB president",
+          "url": "https://www.theguardian.com/business/2026/nov/26/spain-pablo-hernandez-de-cos-next-ecb-president"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Spain's De Cos to take over as ECB president from Lagarde",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOV8wZkxRVTY5U0ZQeVZwSGtCMVZJTjV2d2t5TlhsSVoxQmpLRXI4OTV1R0QwQkV1QmZma3BDN0lrOEJTNGFVeloyeE5HbnhmWDZfR1VrbzN5TzZrck5WTTlKNTBaeFhVbDd4RldhY0hZMnFsczlsTURLY0FpWWgzeE5YVVc2NUZqMy1KbldQVDJfcUtsVEhINHF2emJ5SEFrMXozWUdTM3BFQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_en": "Congo Ebola Outbreak Tops 12,000 Cases as Armed Conflict Disrupts Medical Intervention",
+      "title_ja": "コンゴのエボラ出血熱流行、武力衝突が阻む中で感染者1万2000人を突破",
+      "summary_ja": "コンゴ民主共和国東部で続くエボラ出血熱の感染者が1万2000人、死者が5904人に達し、同国史上最悪の流行規模となりました。承認されたワクチンがない希少なブンディブギョ株であることに加え、政府軍と民兵組織の激しい武力衝突によりWHOなどの医療チームが退避を強いられ、封じ込め活動が著しく妨げられています。",
+      "why_ja": "紛争地域での感染症アウトブレイク対策という極めて困難な公衆衛生上の課題であり、国際的な健康安全保障に対する深刻なリスクとなっています。",
+      "section": "world",
+      "topic_key": "dr-congo-ebola-outbreak-escalation",
+      "companies": [],
+      "sources": [
+        {
+          "publisher": "NPR",
+          "title": "Congo Ebola outbreak reaches 12,000 cases as some responders evacuate",
+          "url": "https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "loophole",
+      "meaning_ja": "（法律や規制の）抜け穴、抜け道",
+      "note_ja": "規制を回避するために利用される不備や隙間を指す定番の単語です。",
+      "example_en": "The United States closed a loophole that allowed Chinese companies to rent AI computing power remotely from overseas data centers."
+    },
+    {
+      "term": "in limbo",
+      "meaning_ja": "中ぶらりんの状態で、未決定のままで",
+      "note_ja": "先行きが不透明で身動きが取れない状態を表す表現です。",
+      "example_en": "So, in short, Washington is cutting off remote cloud access, leaving Southeast Asian data centers in limbo."
+    },
+    {
+      "term": "push back against",
+      "meaning_ja": "〜に反発する、抵抗する",
+      "note_ja": "政策や提案に対して反対の意を示す際によく使われる句動詞です。",
+      "example_en": "The Dutch government is pushing back strongly against a proposed United States law known as the MATCH Act."
+    },
+    {
+      "term": "backfire",
+      "meaning_ja": "裏目に出る、逆効果になる",
+      "note_ja": "良かれと思って行った行動や規制が意図と逆の結果をもたらすときに用います。",
+      "example_en": "ASML chief executive Christophe Fouquet warned that a complete ban on chip tools to China would backfire."
+    },
+    {
+      "term": "process design kit",
+      "meaning_ja": "プロセス設計キット（PDK）",
+      "note_ja": "半導体製造工場が設計者に対して提供する技術仕様やソフトウェア一式のことです。",
+      "example_en": "TSMC has released version 0.9 of its process design kit for its upcoming 1.4-nanometer manufacturing technology, known as A14."
+    },
+    {
+      "term": "autonomous",
+      "meaning_ja": "自律的な、自主的に行動する",
+      "note_ja": "AIが人間の指示を待たずに自ら判断して動作することを指します。",
+      "example_en": "ARTEX operates as an autonomous agentic framework."
+    },
+    {
+      "term": "in a matter of minutes",
+      "meaning_ja": "ほんの数分のうちに",
+      "note_ja": "非常に短時間で事態が進展することを強調する日常的なフレーズです。",
+      "example_en": "Microsoft warns that ARTEX can advance from initial reconnaissance to persistent, privileged administrative access in just a matter of minutes."
+    },
+    {
+      "term": "comply with",
+      "meaning_ja": "〜に従う、遵守する",
+      "note_ja": "法律や規則、基準などを守るときに必須のフォーマルな表現です。",
+      "example_en": "Google says the change complies with the European Union's Digital Services Act."
+    },
+    {
+      "term": "pivotal trial",
+      "meaning_ja": "主要臨床試験、ピボタル試験",
+      "note_ja": "医療機器や新薬が公的機関から承認を受けるための、最も重要で決定的な最終治験段階です。",
+      "example_en": "A pivotal trial is the final, comprehensive phase of human testing before a medical device company can apply for commercial market clearance."
+    },
+    {
+      "term": "opt out of",
+      "meaning_ja": "〜から手を引く、参加を辞退する",
+      "note_ja": "制度や拠出金、計画への不参加を選択することを意味します。",
+      "example_en": "Slovakia, Hungary, and Czechia demanded to opt out of funding military aid."
+    },
+    {
+      "term": "adjourn",
+      "meaning_ja": "（会議や審議を）休会する、延期する",
+      "note_ja": "公式な会議を一時中断し、後日に延期する際に用いられる格式高い単語です。",
+      "example_en": "Leaders adjourned the summit until mid-December."
+    },
+    {
+      "term": "surpass",
+      "meaning_ja": "超える、上回る",
+      "note_ja": "特定の数値や記録を超過したことを表す動詞です。",
+      "example_en": "Health officials in the Democratic Republic of the Congo report that an ongoing Ebola outbreak has surpassed twelve thousand confirmed cases."
+    }
+  ],
+  "phrase_of_the_day": {
+    "phrase": "backfire",
+    "meaning_ja": "裏目に出る、逆効果になる",
+    "example_en": "In business, an aggressive strategy like drastically hiking software subscription prices can easily backfire if paying clients suddenly flee to competitors.",
+    "example_ja": "ビジネスにおいて、ソフトウェアの定額料金を一気に大幅値上げするような強引な戦略は、有料顧客が競合他社へ一斉に流出してしまえば、いとも簡単に裏目に出てしまいます。"
+  }
+}
